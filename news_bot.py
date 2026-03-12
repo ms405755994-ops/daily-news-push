@@ -27,9 +27,15 @@ def load_pushed_ids():
     except:
         pass
     return []
+
+def save_pushed_ids(ids):
+    """保存已推送的新闻ID"""
+    with open(DATA_FILE, 'w', encoding='utf-8') as f:
+        json.dump(ids, f, ensure_ascii=False, indent=2)
+
 def fetch_rss():
-    """抓取所有RSS源的新内容"""
-    # 👇👇👇 临时添加：强制加一条测试新闻
+    """抓取所有RSS源的新内容（测试模式 - 返回测试新闻）"""
+    # 测试模式：直接返回一条测试新闻
     test_news = [{
         'id': 'test_' + str(int(time.time())),
         'title': '【测试消息】如果看到这条，说明推送正常',
@@ -38,17 +44,10 @@ def fetch_rss():
         'time': datetime.now().strftime('%Y-%m-%d')
     }]
     return test_news
-    # 👆👆👆 测试代码结束
-    # （下面的原代码会被暂时跳过）
     
-    all_entries = []
-def save_pushed_ids(ids):
-    """保存已推送的新闻ID"""
-    with open(DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(ids, f, ensure_ascii=False, indent=2)
-
-def fetch_rss():
-    """抓取所有RSS源的新内容"""
+    # 以下是正式代码（暂时被上面的return跳过）
+    # 等测试成功后，可以删除上面的return，启用下面的正式代码
+    """
     all_entries = []
     pushed_ids = load_pushed_ids()
     new_ids = []
@@ -85,54 +84,76 @@ def fetch_rss():
         save_pushed_ids(pushed_ids + new_ids)
     
     return all_entries
+    """
 
 def send_to_wechat(news_list):
-    """修正后的企业微信消息发送函数"""
+    """企业微信消息发送函数"""
+    if not news_list:
+        print("没有新闻可推送")
+        return
     
-    # 构建一个最简单的文本消息
+    # 构建消息内容
+    today = datetime.now().strftime('%Y年%m月%d日')
+    content = f"📰 **每日新闻简报 {today}**\n\n"
+    
+    for i, news in enumerate(news_list[:10], 1):
+        content += f"{i}. [{news['source']}] {news['title']}\n"
+        content += f"   [查看全文]({news['link']})\n\n"
+    
     message = {
-        "msgtype": "text",
-        "text": {
-            "content": "✅ 测试成功！如果你的企业微信收到这条消息，说明机器人配置正确。"
+        "msgtype": "markdown",
+        "markdown": {
+            "content": content
         }
-    }
-    
-    # 设置正确的请求头
-    headers = {
-        'Content-Type': 'application/json'
     }
     
     try:
         print("📤 正在发送请求到企业微信...")
         print(f"📦 请求URL: {webhook_url}")
-        print(f"📦 请求内容: {message}")
         
-        # 发送POST请求
         response = requests.post(
             webhook_url, 
-            json=message,  # 使用json参数，requests会自动处理格式和头信息
-            headers=headers,
+            json=message,
             timeout=10
         )
         
         print(f"📥 状态码: {response.status_code}")
         print(f"📥 返回内容: {response.text}")
         
-        # 解析返回结果
         result = response.json()
         if result.get('errcode') == 0:
-            print("🎉 恭喜！消息发送成功！请检查你的企业微信群。")
+            print("🎉 消息发送成功！")
             return True
         else:
             print(f"❌ 企业微信返回错误: {result}")
             return False
             
-    except requests.exceptions.Timeout:
-        print("❌ 请求超时，请检查网络")
-    except requests.exceptions.ConnectionError:
-        print("❌ 连接失败，请检查URL是否正确")
     except Exception as e:
-        print(f"❌ 发生未知错误: {e}")
-    
-    return False
+        print(f"❌ 发送失败: {e}")
+        return False
 
+def main():
+    """主函数"""
+    print("=" * 50)
+    print("开始执行每日新闻推送任务")
+    print(f"时间: {datetime.now()}")
+    print(f"Webhook地址是否存在: {'是' if webhook_url else '否'}")
+    print("=" * 50)
+    
+    if not webhook_url:
+        print("❌ 错误: 没有配置Webhook地址")
+        return
+    
+    # 获取新闻
+    print("\n📡 正在抓取新闻...")
+    news = fetch_rss()
+    print(f"✅ 抓取到 {len(news)} 条新闻")
+    
+    # 推送新闻
+    print("\n📨 正在推送新闻...")
+    send_to_wechat(news)
+    
+    print("\n✨ 任务执行完毕")
+
+if __name__ == "__main__":
+    main()

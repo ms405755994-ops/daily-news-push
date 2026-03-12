@@ -34,34 +34,34 @@ def save_pushed_ids(ids):
         json.dump(ids, f, ensure_ascii=False, indent=2)
 
 def fetch_rss():
-    """抓取所有RSS源的新内容（测试模式 - 返回测试新闻）"""
-    # 测试模式：直接返回一条测试新闻
-    test_news = [{
-        'id': 'test_' + str(int(time.time())),
-        'title': '【测试消息】如果看到这条，说明推送正常',
-        'link': 'https://github.com',
-        'source': '系统测试',
-        'time': datetime.now().strftime('%Y-%m-%d')
-    }]
-    return test_news
-    
-    # 以下是正式代码（暂时被上面的return跳过）
-    # 等测试成功后，可以删除上面的return，启用下面的正式代码
-    """
+    """抓取所有RSS源的新内容（正式版）"""
     all_entries = []
     pushed_ids = load_pushed_ids()
     new_ids = []
     
+    print(f"已推送新闻ID数量: {len(pushed_ids)}")
+    
     for feed_url in RSS_FEEDS:
         try:
+            print(f"正在抓取: {feed_url}")
             feed = feedparser.parse(feed_url)
             feed_title = feed.feed.get('title', '未知来源')
             
-            for entry in feed.entries[:5]:  # 每个源取前5条
+            # 获取该源的前5条新闻
+            entries = feed.entries[:5]
+            print(f"  找到 {len(entries)} 条新闻")
+            
+            for entry in entries:
+                # 生成唯一ID（使用链接或id字段）
                 entry_id = entry.get('id', entry.get('link', ''))
-                if entry_id in pushed_ids:
+                if not entry_id:
                     continue
                     
+                # 检查是否已推送过
+                if entry_id in pushed_ids:
+                    print(f"  跳过已推送: {entry.get('title', '无标题')[:20]}...")
+                    continue
+                
                 title = entry.get('title', '无标题')
                 link = entry.get('link', '')
                 published = entry.get('published', datetime.now().strftime('%Y-%m-%d'))
@@ -74,17 +74,20 @@ def fetch_rss():
                     'time': published
                 })
                 new_ids.append(entry_id)
+                print(f"  新增: {title[:30]}...")
                 
             time.sleep(1)  # 礼貌性延迟，避免被封
         except Exception as e:
-            print(f"抓取 {feed_url} 失败: {e}")
+            print(f"❌ 抓取 {feed_url} 失败: {e}")
     
     # 保存新推送的ID
     if new_ids:
         save_pushed_ids(pushed_ids + new_ids)
+        print(f"✅ 已保存 {len(new_ids)} 条新新闻ID")
+    else:
+        print("📭 没有新新闻")
     
     return all_entries
-    """
 
 def send_to_wechat(news_list):
     """企业微信消息发送函数"""
@@ -100,6 +103,10 @@ def send_to_wechat(news_list):
         content += f"{i}. [{news['source']}] {news['title']}\n"
         content += f"   [查看全文]({news['link']})\n\n"
     
+    # 添加footer
+    content += "---\n"
+    content += "🤖 新闻助手自动推送 | 每天早8点更新"
+    
     message = {
         "msgtype": "markdown",
         "markdown": {
@@ -109,7 +116,6 @@ def send_to_wechat(news_list):
     
     try:
         print("📤 正在发送请求到企业微信...")
-        print(f"📦 请求URL: {webhook_url}")
         
         response = requests.post(
             webhook_url, 
@@ -134,11 +140,12 @@ def send_to_wechat(news_list):
 
 def main():
     """主函数"""
-    print("=" * 50)
-    print("开始执行每日新闻推送任务")
-    print(f"时间: {datetime.now()}")
-    print(f"Webhook地址是否存在: {'是' if webhook_url else '否'}")
-    print("=" * 50)
+    print("=" * 60)
+    print("🚀 每日新闻推送任务开始")
+    print(f"📅 时间: {datetime.now()}")
+    print(f"🔑 Webhook地址: {'✅ 已配置' if webhook_url else '❌ 未配置'}")
+    print(f"📡 RSS源数量: {len(RSS_FEEDS)}")
+    print("=" * 60)
     
     if not webhook_url:
         print("❌ 错误: 没有配置Webhook地址")
@@ -147,13 +154,17 @@ def main():
     # 获取新闻
     print("\n📡 正在抓取新闻...")
     news = fetch_rss()
-    print(f"✅ 抓取到 {len(news)} 条新闻")
+    print(f"\n✅ 共抓取到 {len(news)} 条新新闻")
     
     # 推送新闻
-    print("\n📨 正在推送新闻...")
-    send_to_wechat(news)
+    if news:
+        print("\n📨 正在推送新闻...")
+        send_to_wechat(news)
+    else:
+        print("\n📭 没有新新闻，无需推送")
     
     print("\n✨ 任务执行完毕")
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()

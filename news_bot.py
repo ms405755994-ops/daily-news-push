@@ -87,35 +87,54 @@ def fetch_rss():
     return all_entries
 
 def send_to_wechat(news_list):
-    """通过企业微信机器人推送消息"""
-    if not news_list:
-        print("没有新新闻")
-        return
+    """修正后的企业微信消息发送函数"""
     
-    # 构建消息内容
-    today = datetime.now().strftime('%Y年%m月%d日')
-    content = f"📰 **每日新闻简报 {today}**\n\n"
-    
-    for i, news in enumerate(news_list[:10], 1):  # 最多推送10条
-        content += f"{i}. [{news['source']}] {news['title']}\n"
-        content += f"   [查看全文]({news['link']})\n\n"
-    
-    # 企业微信支持markdown格式
-    payload = {
-        "msgtype": "markdown",
-        "markdown": {
-            "content": content
+    # 构建一个最简单的文本消息
+    message = {
+        "msgtype": "text",
+        "text": {
+            "content": "✅ 测试成功！如果你的企业微信收到这条消息，说明机器人配置正确。"
         }
     }
     
+    # 设置正确的请求头
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    
     try:
-        response = requests.post(webhook_url, json=payload)
-        if response.status_code == 200:
-            print("推送成功")
+        print("📤 正在发送请求到企业微信...")
+        print(f"📦 请求URL: {webhook_url}")
+        print(f"📦 请求内容: {message}")
+        
+        # 发送POST请求
+        response = requests.post(
+            webhook_url, 
+            json=message,  # 使用json参数，requests会自动处理格式和头信息
+            headers=headers,
+            timeout=10
+        )
+        
+        print(f"📥 状态码: {response.status_code}")
+        print(f"📥 返回内容: {response.text}")
+        
+        # 解析返回结果
+        result = response.json()
+        if result.get('errcode') == 0:
+            print("🎉 恭喜！消息发送成功！请检查你的企业微信群。")
+            return True
         else:
-            print(f"推送失败: {response.text}")
+            print(f"❌ 企业微信返回错误: {result}")
+            return False
+            
+    except requests.exceptions.Timeout:
+        print("❌ 请求超时，请检查网络")
+    except requests.exceptions.ConnectionError:
+        print("❌ 连接失败，请检查URL是否正确")
     except Exception as e:
-        print(f"推送异常: {e}")
+        print(f"❌ 发生未知错误: {e}")
+    
+    return False
 
 def main():
     print(f"开始抓取新闻... {datetime.now()}")

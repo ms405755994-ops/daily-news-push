@@ -136,11 +136,3 @@ def send_to_wechat(news_list):
     
     return False
 
-def main():
-    print(f"开始抓取新闻... {datetime.now()}")
-    news = fetch_rss()
-    print(f"抓到 {len(news)} 条新新闻")
-    send_to_wechat(news)
-
-if __name__ == "__main__":
-    main()

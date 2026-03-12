@@ -27,7 +27,21 @@ def load_pushed_ids():
     except:
         pass
     return []
-
+def fetch_rss():
+    """抓取所有RSS源的新内容"""
+    # 👇👇👇 临时添加：强制加一条测试新闻
+    test_news = [{
+        'id': 'test_' + str(int(time.time())),
+        'title': '【测试消息】如果看到这条，说明推送正常',
+        'link': 'https://github.com',
+        'source': '系统测试',
+        'time': datetime.now().strftime('%Y-%m-%d')
+    }]
+    return test_news
+    # 👆👆👆 测试代码结束
+    # （下面的原代码会被暂时跳过）
+    
+    all_entries = []
 def save_pushed_ids(ids):
     """保存已推送的新闻ID"""
     with open(DATA_FILE, 'w', encoding='utf-8') as f:

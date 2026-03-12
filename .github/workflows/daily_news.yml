@@ -1,0 +1,19 @@
+name: 每日新闻推送
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  push-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install feedparser requests
+      - run: python news_bot.py
+        env:
+          QYWX_WEBHOOK: ${{ secrets.QYWX_WEBHOOK }}

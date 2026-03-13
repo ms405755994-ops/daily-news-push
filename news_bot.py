@@ -1,178 +1,300 @@
 import requests
-import feedparser
-import json
-import os
+from openai import OpenAI
 from datetime import datetime
-import time
 
-# 企业微信机器人Webhook地址（从Secrets读取）
-webhook_url = os.environ.get('QYWX_WEBHOOK')
+# ========= 配置 =========
 
-# RSS订阅源列表 - 全部为简体中文新闻源
-RSS_FEEDS = [
-    # 综合新闻类 - 经测试有效
-    "http://news.163.com/special/00011K6L/rss_newstop.xml",  # 网易新闻 (实时更新)
-    "http://www.chinanews.com/rss/scroll-news.xml",         # 中国新闻网 (滚动新闻)
-    
-    # 国际中文媒体 - 经测试有效
-    "http://www.bbc.co.uk/zhongwen/simp/index.xml",          # BBC中文 (国际视野)
-    "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", # 纽约时报中文
-    "https://rss.dw.com/xml/rss-en-all",                     # 德国之声中文 (DW官方RSS)
-    
-    # 财经科技类
-    "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best",  # 路透社中文
-]
+NEWS_DATA_KEY = "YOUR_NEWSDATA_KEY"
+GNEWS_KEY = "YOUR_GNEWS_KEY"
 
-# 用于记录已推送新闻ID的文件
-DATA_FILE = 'pushed_news.json'
+OPENAI_API_KEY = "YOUR_OPENAI_KEY"
 
-def load_pushed_ids():
-    """加载已推送过的新闻ID"""
+WECHAT_WEBHOOK = "YOUR_WECHAT_WEBHOOK"
+
+MAX_NEWS = 20
+
+# ========================
+
+client = OpenAI(api_key=OPENAI_API_KEY)
+
+# ------------------------
+# AI调用
+# ------------------------
+
+def ask_ai(prompt):
+
     try:
-        if os.path.exists(DATA_FILE):
-            with open(DATA_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
+
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role":"user","content":prompt}],
+            temperature=0.2
+        )
+
+        return response.choices[0].message.content.strip()
+
+    except Exception as e:
+
+        print("AI error:", e)
+
+        return ""
+
+# ------------------------
+# 新闻 API 1
+# ------------------------
+
+def fetch_newsdata():
+
+    url = "https://newsdata.io/api/1/news"
+
+    params = {
+        "apikey": NEWS_DATA_KEY,
+        "language": "en",
+        "size": 20
+    }
+
+    try:
+
+        r = requests.get(url, params=params)
+
+        data = r.json()
+
+        results = []
+
+        for n in data.get("results", []):
+
+            results.append({
+                "title": n.get("title"),
+                "link": n.get("link")
+            })
+
+        return results
+
     except:
-        pass
-    return []
 
-def save_pushed_ids(ids):
-    """保存已推送的新闻ID"""
-    with open(DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(ids, f, ensure_ascii=False, indent=2)
+        return []
 
-def fetch_rss():
-    """抓取所有RSS源的新内容（正式版）"""
-    all_entries = []
-    pushed_ids = load_pushed_ids()
-    new_ids = []
-    
-    print(f"📊 已推送新闻ID数量: {len(pushed_ids)}")
-    
-    for feed_url in RSS_FEEDS:
-        try:
-            print(f"\n📡 正在抓取: {feed_url}")
-            feed = feedparser.parse(feed_url)
-            feed_title = feed.feed.get('title', '未知来源')
-            
-            # 获取该源的前5条新闻
-            entries = feed.entries[:5]
-            print(f"  找到 {len(entries)} 条新闻")
-            
-            for entry in entries:
-                # 生成唯一ID（使用链接或id字段）
-                entry_id = entry.get('id', entry.get('link', ''))
-                if not entry_id:
-                    continue
-                    
-                # 检查是否已推送过
-                if entry_id in pushed_ids:
-                    print(f"  ⏭️ 跳过已推送: {entry.get('title', '无标题')[:30]}...")
-                    continue
-                
-                title = entry.get('title', '无标题')
-                link = entry.get('link', '')
-                published = entry.get('published', datetime.now().strftime('%Y-%m-%d'))
-                
-                all_entries.append({
-                    'id': entry_id,
-                    'title': title,
-                    'link': link,
-                    'source': feed_title,
-                    'time': published
-                })
-                new_ids.append(entry_id)
-                print(f"  ✅ 新增: {title[:40]}...")
-                
-            time.sleep(1)  # 礼貌性延迟，避免被封
-        except Exception as e:
-            print(f"❌ 抓取 {feed_url} 失败: {e}")
-    
-    # 保存新推送的ID
-    if new_ids:
-        save_pushed_ids(pushed_ids + new_ids)
-        print(f"\n📦 已保存 {len(new_ids)} 条新新闻ID")
-    else:
-        print("\n📭 没有新新闻")
-    
-    return all_entries
+# ------------------------
+# 新闻 API 2
+# ------------------------
 
-def send_to_wechat(news_list):
-    """企业微信消息发送函数"""
-    if not news_list:
-        print("没有新闻可推送")
-        return
-    
-    # 构建消息内容
-    today = datetime.now().strftime('%Y年%m月%d日')
-    content = f"📰 **每日新闻简报 {today}**\n\n"
-    
-    for i, news in enumerate(news_list[:10], 1):
-        content += f"{i}. [{news['source']}] {news['title']}\n"
-        content += f"   [查看全文]({news['link']})\n\n"
-    
-    # 添加footer
-    content += "---\n"
-    content += "🤖 新闻助手自动推送 | 每天早8点更新"
-    
-    message = {
-        "msgtype": "markdown",
-        "markdown": {
-            "content": content
+def fetch_gnews():
+
+    url = "https://gnews.io/api/v4/top-headlines"
+
+    params = {
+        "apikey": GNEWS_KEY,
+        "lang": "en",
+        "max": 20
+    }
+
+    try:
+
+        r = requests.get(url, params=params)
+
+        data = r.json()
+
+        results = []
+
+        for n in data.get("articles", []):
+
+            results.append({
+                "title": n.get("title"),
+                "link": n.get("url")
+            })
+
+        return results
+
+    except:
+
+        return []
+
+# ------------------------
+# AI去重
+# ------------------------
+
+def ai_deduplicate(news):
+
+    unique = []
+
+    for n in news:
+
+        duplicate = False
+
+        for u in unique:
+
+            prompt = f"""
+判断下面两条新闻是否是同一事件
+
+新闻1:
+{n['title']}
+
+新闻2:
+{u['title']}
+
+只回答 YES 或 NO
+"""
+
+            result = ask_ai(prompt)
+
+            if "YES" in result.upper():
+
+                duplicate = True
+                break
+
+        if not duplicate:
+
+            unique.append(n)
+
+    return unique
+
+# ------------------------
+# AI分类
+# ------------------------
+
+def ai_classify(title):
+
+    prompt = f"""
+给这条新闻分类：
+
+{title}
+
+分类选项：
+AI
+科技
+金融
+国际
+商业
+其他
+
+只输出分类名称
+"""
+
+    result = ask_ai(prompt)
+
+    return result if result else "其他"
+
+# ------------------------
+# AI摘要
+# ------------------------
+
+def ai_summary(title):
+
+    prompt = f"""
+请用一句话总结这条新闻：
+
+{title}
+
+要求：
+30字以内
+"""
+
+    result = ask_ai(prompt)
+
+    return result if result else ""
+
+# ------------------------
+# 处理新闻
+# ------------------------
+
+def process_news(news):
+
+    print("原始新闻数量:", len(news))
+
+    news = ai_deduplicate(news)
+
+    print("去重后:", len(news))
+
+    news = news[:MAX_NEWS]
+
+    for n in news:
+
+        n["category"] = ai_classify(n["title"])
+
+        n["summary"] = ai_summary(n["title"])
+
+    return news
+
+# ------------------------
+# 格式化消息
+# ------------------------
+
+def format_message(news):
+
+    groups = {}
+
+    for n in news:
+
+        cat = n["category"]
+
+        if cat not in groups:
+
+            groups[cat] = []
+
+        groups[cat].append(n)
+
+    message = "🌍 今日全球新闻\n\n"
+
+    for cat, items in groups.items():
+
+        message += f"【{cat}】\n"
+
+        for i, n in enumerate(items, 1):
+
+            message += f"{i}. {n['title']}\n"
+            message += f"摘要：{n['summary']}\n"
+            message += f"{n['link']}\n\n"
+
+    return message
+
+# ------------------------
+# 微信推送
+# ------------------------
+
+def push_wechat(msg):
+
+    data = {
+        "msgtype": "text",
+        "text": {
+            "content": msg
         }
     }
-    
+
     try:
-        print("\n📤 正在发送请求到企业微信...")
-        
-        response = requests.post(
-            webhook_url, 
-            json=message,
-            timeout=10
-        )
-        
-        print(f"📥 状态码: {response.status_code}")
-        print(f"📥 返回内容: {response.text}")
-        
-        result = response.json()
-        if result.get('errcode') == 0:
-            print("🎉 消息发送成功！")
-            return True
-        else:
-            print(f"❌ 企业微信返回错误: {result}")
-            return False
-            
+
+        requests.post(WECHAT_WEBHOOK, json=data)
+
+        print("推送成功")
+
     except Exception as e:
-        print(f"❌ 发送失败: {e}")
-        return False
+
+        print("推送失败", e)
+
+# ------------------------
+# 主程序
+# ------------------------
 
 def main():
-    """主函数"""
-    print("=" * 60)
-    print("🚀 每日新闻推送任务开始")
-    print(f"📅 时间: {datetime.now()}")
-    print(f"🔑 Webhook地址: {'✅ 已配置' if webhook_url else '❌ 未配置'}")
-    print(f"📡 RSS源数量: {len(RSS_FEEDS)}")
-    print("=" * 60)
-    
-    if not webhook_url:
-        print("❌ 错误: 没有配置Webhook地址")
-        return
-    
-    # 获取新闻
-    print("\n📡 正在抓取新闻...")
-    news = fetch_rss()
-    print(f"\n✅ 共抓取到 {len(news)} 条新新闻")
-    
-    # 推送新闻
-    if news:
-        print("\n📨 正在推送新闻...")
-        send_to_wechat(news)
-    else:
-        print("\n📭 没有新新闻，无需推送")
-    
-    print("\n✨ 任务执行完毕")
-    print("=" * 60)
+
+    print("开始抓取新闻...")
+
+    news1 = fetch_newsdata()
+
+    news2 = fetch_gnews()
+
+    news = news1 + news2
+
+    print("抓取新闻总数:", len(news))
+
+    news = process_news(news)
+
+    message = format_message(news)
+
+    print(message)
+
+    push_wechat(message)
+
 
 if __name__ == "__main__":
+
     main()

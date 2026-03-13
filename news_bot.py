@@ -79,7 +79,6 @@ def fetch_newsdata():
                     "link": link,
                     "source": "NewsData",
                 })
-
         return news
     except Exception as e:
         print("NewsData error:", e)
@@ -116,7 +115,6 @@ def fetch_gnews():
                     "link": link,
                     "source": "GNews",
                 })
-
         return news
     except Exception as e:
         print("GNews error:", e)
@@ -144,7 +142,7 @@ def exact_deduplicate(news):
 
 def normalize_title(title: str) -> str:
     t = title.lower()
-    for ch in ["|", "-", "—", ":", "：", ",", ".", "(", ")", "[", "]"]:
+    for ch in ["|", "-", "—", ":", "：", ",", ".", "(", ")", "[", "]", "'"]:
         t = t.replace(ch, " ")
     return " ".join(t.split())
 
@@ -229,7 +227,8 @@ def ai_summary(title: str) -> str:
 要求：
 1. 20字以内
 2. 不要加句号
-3. 只输出摘要
+3. 不要照抄原标题
+4. 只输出摘要
 
 标题：
 {title}
@@ -267,6 +266,72 @@ def ai_score(title: str) -> int:
     return 3
 
 # ===============================
+# 单条新闻 AI 分析
+# ===============================
+
+def enrich_news(news):
+    for n in news:
+        n["category"] = ai_classify(n["title"])
+        n["summary"] = ai_summary(n["title"])
+        n["score"] = ai_score(n["title"])
+    return news
+
+# ===============================
+# AI 选今日三大新闻
+# ===============================
+
+def select_top3(news):
+    if not news:
+        return []
+
+    if len(news) <= 3:
+        return news[:]
+
+    candidates_text = []
+    for i, n in enumerate(news, 1):
+        candidates_text.append(
+            f"{i}. 标题：{n['title']}\n"
+            f"分类：{n.get('category', '其他')}\n"
+            f"摘要：{n.get('summary', '暂无摘要')}\n"
+            f"评分：{n.get('score', 3)}"
+        )
+
+    prompt = f"""
+下面是今日候选新闻，请选出最值得放在“今日三大新闻”的3条。
+
+要求：
+1. 综合考虑全球影响力、公共关注度、行业重要性
+2. 优先选择影响面更广的事件
+3. 只输出 3 个编号，用英文逗号分隔
+4. 例如：1,4,7
+
+候选新闻：
+{chr(10).join(candidates_text)}
+"""
+
+    result = ask_ai(prompt)
+    print("Top3 raw result:", result)
+
+    indices = []
+    for part in result.replace("，", ",").split(","):
+        part = part.strip()
+        if part.isdigit():
+            idx = int(part) - 1
+            if 0 <= idx < len(news):
+                indices.append(idx)
+
+    unique_indices = []
+    for idx in indices:
+        if idx not in unique_indices:
+            unique_indices.append(idx)
+
+    if len(unique_indices) < 3:
+        news_sorted = sorted(news, key=lambda x: x.get("score", 3), reverse=True)
+        return news_sorted[:3]
+
+    return [news[i] for i in unique_indices[:3]]
+
+# ===============================
 # 处理新闻
 # ===============================
 
@@ -282,12 +347,9 @@ def process_news(news):
     news = ai_deduplicate(news)
     print("AI 去重后:", len(news))
 
-    for n in news:
-        n["category"] = ai_classify(n["title"])
-        n["summary"] = ai_summary(n["title"])
-        n["score"] = ai_score(n["title"])
-
+    news = enrich_news(news)
     news.sort(key=lambda x: x["score"], reverse=True)
+
     return news
 
 # ===============================
@@ -301,8 +363,15 @@ def format_message(news):
         groups[n["category"]].append(n)
 
     ordered_categories = ["AI", "科技", "金融", "国际", "商业", "其他"]
+    top3 = select_top3(news)
 
-    message = "🌍 今日全球新闻\n\n"
+    message = "🌍 今日全球新闻雷达\n\n"
+
+    if top3:
+        message += "【今日三大新闻】\n"
+        for i, n in enumerate(top3, 1):
+            message += f"{i}. {n['summary']}\n"
+        message += "\n"
 
     for cat in ordered_categories:
         items = groups.get(cat, [])

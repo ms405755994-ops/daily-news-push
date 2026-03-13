@@ -10,13 +10,9 @@ webhook_url = os.environ.get('QYWX_WEBHOOK')
 
 # RSS订阅源列表 - 全部为简体中文新闻源
 RSS_FEEDS = [
-    "http://www.people.com.cn/rss/politics.xml",           # 人民网时政新闻
-    "http://www.xinhuanet.com/politics/news_politics.xml", # 新华网时政
-    "https://feedparser.pythonanywhere.com/people.com.cn/rss",  # 人民日报
-    "http://www.chinanews.com/rss/scroll-news.xml",        # 中国新闻网
+   
     "https://rsshub.app/zhihu/daily",                       # 知乎日报（简体中文）
-    "https://rsshub.app/36kr/news/latest",                  # 36氪（科技新闻）
-    "https://rsshub.app/thepaper/latest"                    # 澎湃新闻
+  
 ]
 
 # 用于记录已推送新闻ID的文件

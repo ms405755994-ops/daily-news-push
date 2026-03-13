@@ -5,6 +5,18 @@ import os
 from datetime import datetime
 import time
 
+def fetch_rss():
+    """临时测试函数：强制返回一条测试新闻"""
+    print("⚠️ 正在使用测试模式，强制返回一条新闻")
+    test_news = [{
+        'id': 'test_' + str(int(time.time())),
+        'title': '【强制测试】如果看到这条，说明推送链路完全正常',
+        'link': 'https://github.com/ms405755994-ops/daily-news-push',
+        'source': '系统强制测试',
+        'time': datetime.now().strftime('%Y-%m-%d %H:%M')
+    }]
+    return test_news
+
 # 企业微信机器人Webhook地址（从Secrets读取）
 webhook_url = os.environ.get('QYWX_WEBHOOK')
 

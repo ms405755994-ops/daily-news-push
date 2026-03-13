@@ -4,12 +4,12 @@ from datetime import datetime
 
 # ========= 配置 =========
 
-NEWS_DATA_KEY = "YOUR_NEWSDATA_KEY"
-GNEWS_KEY = "YOUR_GNEWS_KEY"
+NEWS_DATA_KEY = "pub_351adaa3c07d491ca3e810e95f16eb19"
+GNEWS_KEY = "b52c855df32f615cbc157fabc56c6572"
 
 OPENAI_API_KEY = "YOUR_OPENAI_KEY"
 
-WECHAT_WEBHOOK = "YOUR_WECHAT_WEBHOOK"
+WECHAT_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=945b0e88-b442-4a58-a237-6bc244ca5f59"
 
 MAX_NEWS = 20
 

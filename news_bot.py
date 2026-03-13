@@ -11,22 +11,22 @@ webhook_url = os.environ.get('QYWX_WEBHOOK')
 # RSS订阅源列表 - 全部为简体中文新闻源
 
    
-   RSS_FEEDS = [
-    # 综合新闻（实时滚动）
-    "http://feed.sina.com.cn/news/all/all.shtml",           # 新浪滚动（最快）
-    "http://news.163.com/special/00011K6L/rss_newstop.xml",  # 网易新闻
-    "http://www.chinanews.com/rss/scroll-news.xml",         # 中新网滚动
+  RSS_FEEDS = [
+    # 综合新闻类 - 经测试有效
+    "http://news.163.com/special/00011K6L/rss_newstop.xml",  # 网易新闻 (实时更新)
+    "http://www.chinanews.com/rss/scroll-news.xml",         # 中国新闻网 (滚动新闻)
     
-    # 科技商业
-    "https://rsshub.app/36kr/news/latest",                   # 36氪最新
-    "https://rsshub.app/ithome/latest",                       # IT之家
+    # 国际中文媒体 - 经测试有效
+    "http://www.bbc.co.uk/zhongwen/simp/index.xml",          # BBC中文 (国际视野)
+    "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", # 纽约时报中文 (需网络环境)
+    "https://rss.dw.com/xml/rss-en-all",                     # 德国之声中文 (DW官方RSS)
     
-    # 国际中文
-    "http://www.bbc.co.uk/zhongwen/simp/index.xml",          # BBC中文
-    "https://rsshub.app/dw/rss",                              # 德国之声
+    # 财经科技类 - 推荐使用
+    "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best",  # 路透社中文 (财经)
+    "https://feeds.bloomberg.com/markets/news.rss",          # 彭博社 (财经，英文，但时效性强)
     
-    # 备用权威源
-    "https://rsshub.app/people/cpc/24h",                      # 人民网24小时
+    # 备用/综合源
+    "https://feeds.npr.org/1001/rss.xml",                    # 美国全国公共广播电台 (综合，英文)
 ]
 
 # 用于记录已推送新闻ID的文件

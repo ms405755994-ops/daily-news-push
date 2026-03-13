@@ -1,33 +1,37 @@
-name: Daily News Push
+name: Daily News Radar
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"
+    # 每天 08:30 中国时间
+    - cron: '30 0 * * *'
+
+  # 允许手动运行
+  workflow_dispatch:
 
 jobs:
   run-news-bot:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
 
-      - name: Run news bot
+      - name: Run News Bot
+        run: |
+          python news_bot.py
         env:
           NEWS_DATA_KEY: ${{ secrets.NEWS_DATA_KEY }}
           GNEWS_KEY: ${{ secrets.GNEWS_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
-          OPENROUTER_MODEL: openai/gpt-oss-120b
-          MAX_FETCH_PER_API: 20
-          MAX_NEWS: 10
-        run: python news_bot.py

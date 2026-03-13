@@ -1,21 +1,33 @@
-name: Daily News
+name: Daily News Push
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: "0 1 * * *"
 
 jobs:
-
-  run:
-
+  run-news-bot:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: install
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: run
+      - name: Run news bot
+        env:
+          NEWS_DATA_KEY: ${{ secrets.NEWS_DATA_KEY }}
+          GNEWS_KEY: ${{ secrets.GNEWS_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          OPENROUTER_MODEL: openai/gpt-oss-120b
+          MAX_FETCH_PER_API: 20
+          MAX_NEWS: 10
         run: python news_bot.py

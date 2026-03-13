@@ -18,6 +18,9 @@ MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "20"))
 MAX_NEWS = int(os.getenv("MAX_NEWS", "10"))
 REQUEST_TIMEOUT = 30
 
+# 至少保留多少条中文链接新闻；如果不足，则回退到全量新闻
+MIN_CHINESE_NEWS = int(os.getenv("MIN_CHINESE_NEWS", "5"))
+
 # ===============================
 # OpenRouter 客户端
 # ===============================
@@ -76,7 +79,10 @@ def is_chinese_link(url: str) -> bool:
         "36kr.com",
         "huxiu.com",
         "stcn.com",
-        "eastmoney.com"
+        "eastmoney.com",
+        "zhihu.com",
+        "cls.cn",
+        "bjnews.com.cn"
     ]
 
     for d in cn_domains:
@@ -356,6 +362,20 @@ def ai_score(title: str) -> int:
     return 3
 
 # ===============================
+# 只保留中文链接新闻
+# ===============================
+
+def filter_chinese_news(news):
+    chinese_news = [n for n in news if is_chinese_link(n.get("link", ""))]
+    print("中文链接新闻数量:", len(chinese_news))
+
+    if len(chinese_news) >= MIN_CHINESE_NEWS:
+        return chinese_news
+
+    print("中文链接不足，回退到全量新闻")
+    return news
+
+# ===============================
 # AI 分析
 # ===============================
 
@@ -382,7 +402,7 @@ def select_top3(news):
             f"分类：{n.get('category', '社会')}\n"
             f"摘要：{n.get('summary', '暂无摘要')}\n"
             f"评分：{n.get('score', 3)}\n"
-            f"中文链接优先：{n.get('lang_priority', 0)}"
+            f"中文链接：{n.get('lang_priority', 0)}"
         )
 
     prompt = f"""
@@ -391,7 +411,7 @@ def select_top3(news):
 要求：
 1. 优先考虑全球影响力、公共关注度、市场冲击和政策/安全影响
 2. 优先考虑突发新闻、政策、金融、国际、军事等高影响题材
-3. 在同等重要度下，优先选择中文链接来源
+3. 优先选择中文链接新闻
 4. 只输出 3 个编号，用英文逗号分隔
 5. 例如：1,4,7
 
@@ -426,56 +446,6 @@ def select_top3(news):
     return [news[i] for i in unique_indices[:3]]
 
 # ===============================
-# 趋势检测
-# ===============================
-
-def detect_trends(news):
-    counts = defaultdict(int)
-
-    for n in news:
-        counts[n.get("category", "社会")] += 1
-
-    trend_lines = []
-
-    if counts["AI"] >= 3:
-        trend_lines.append("AI相关新闻密度较高")
-    if counts["金融"] + counts["经济"] >= 3:
-        trend_lines.append("宏观与金融主题升温")
-    if counts["突发新闻"] >= 2:
-        trend_lines.append("突发事件数量偏多")
-    if counts["能源"] >= 2:
-        trend_lines.append("能源议题活跃")
-    if counts["国际"] + counts["军事"] >= 3:
-        trend_lines.append("国际与安全局势升温")
-    if counts["政策"] >= 2:
-        trend_lines.append("政策监管动态增加")
-
-    return trend_lines[:3]
-
-# ===============================
-# 自动生成重点板块
-# ===============================
-
-def pick_focus_items(news, categories, limit=2):
-    items = [n for n in news if n.get("category") in categories]
-    items.sort(
-        key=lambda x: (x.get("lang_priority", 0), x.get("score", 3)),
-        reverse=True
-    )
-    return items[:limit]
-
-def build_focus_sections(news):
-    macro_focus = pick_focus_items(news, ["政策", "经济", "国际", "能源", "突发新闻"], 2)
-    ai_focus = pick_focus_items(news, ["AI", "科技"], 2)
-    finance_focus = pick_focus_items(news, ["金融", "经济", "商业"], 2)
-
-    return {
-        "宏观重点": macro_focus,
-        "AI重点": ai_focus,
-        "金融重点": finance_focus,
-    }
-
-# ===============================
 # 处理新闻
 # ===============================
 
@@ -484,6 +454,9 @@ def process_news(news):
 
     news = exact_deduplicate(news)
     print("标题去重:", len(news))
+
+    news = filter_chinese_news(news)
+    print("过滤中文链接后:", len(news))
 
     news = news[:MAX_NEWS]
     print("进入 AI 处理数量:", len(news))
@@ -524,29 +497,12 @@ def format_message(news):
     ]
 
     top3 = select_top3(news)
-    trends = detect_trends(news)
-    focus_sections = build_focus_sections(news)
 
     message = "🌍 今日全球新闻雷达\n\n"
 
     if top3:
         message += "【今日三大新闻】\n"
         for i, n in enumerate(top3, 1):
-            message += f"{i}. {n['summary']}\n"
-        message += "\n"
-
-    if trends:
-        message += "【趋势提示】\n"
-        for i, line in enumerate(trends, 1):
-            message += f"{i}. {line}\n"
-        message += "\n"
-
-    for section_name, items in focus_sections.items():
-        if not items:
-            continue
-
-        message += f"【{section_name}】\n"
-        for i, n in enumerate(items, 1):
             message += f"{i}. {n['summary']}\n"
         message += "\n"
 

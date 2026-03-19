@@ -1,7 +1,9 @@
 import os
 import re
 import json
+import time
 import requests
+import feedparser
 from difflib import SequenceMatcher
 from urllib.parse import urlparse
 from openai import OpenAI
@@ -17,11 +19,26 @@ WECHAT_WEBHOOK = os.getenv("WECHAT_WEBHOOK", "")
 
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-120b")
 
-MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "30"))
-MAX_NEWS = int(os.getenv("MAX_NEWS", "12"))
+MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "40"))
+MAX_NEWS = int(os.getenv("MAX_NEWS", "15"))
 REQUEST_TIMEOUT = 30
 
-# 中文源白名单：尽量多
+# RSS 每个源最多抓多少条
+MAX_FETCH_PER_RSS = int(os.getenv("MAX_FETCH_PER_RSS", "25"))
+
+# RSS 扩源：先用较稳的公开源
+RSS_FEEDS = [
+    # 中新网（官方 RSS 栏目页公开列出）
+    {"url": "https://www.chinanews.com.cn/rss/scroll-news.xml", "source": "中新网-即时"},
+    {"url": "https://www.chinanews.com.cn/rss/world.xml", "source": "中新网-国际"},
+    {"url": "https://www.chinanews.com.cn/rss/finance.xml", "source": "中新网-财经"},
+    {"url": "https://www.chinanews.com.cn/rss/it.xml", "source": "中新网-IT"},
+
+    # IT之家（官方公开说明 RSS 为 ithome.com/rss）
+    {"url": "https://www.ithome.com/rss/", "source": "IT之家"},
+]
+
+# 中文源白名单：尽量宽，但仍控制在中文语境
 ALLOWED_DOMAINS = {
     # 央媒/权威
     "people.com.cn",
@@ -58,9 +75,7 @@ ALLOWED_DOMAINS = {
     "cnstock.com",
     "stockstar.com",
     "hexun.com",
-    "time-weekly.com",
     "eeo.com.cn",
-    "jingji.com.cn",
 
     # 科技/AI
     "36kr.com",
@@ -79,18 +94,14 @@ ALLOWED_DOMAINS = {
     "thepaper.cn",
     "guancha.cn",
     "bjnews.com.cn",
-    "bjnews.com.cn",
     "infzm.com",
-    "nfoweekly.com",
-    "rednet.cn",
+    "nfnews.com",
     "ycwb.com",
     "sznews.com",
     "southcn.com",
     "dayoo.com",
-    "gzdaily.cn",
     "jfdaily.com",
     "whb.cn",
-    "paper.cn",
     "shobserver.com",
 
     # 国际中文
@@ -129,10 +140,10 @@ SOURCE_WEIGHT = {
     "jrj.com.cn": 7,
 
     # 科技/AI
+    "ithome.com": 9,
     "36kr.com": 8,
     "huxiu.com": 8,
     "jiemian.com": 8,
-    "ithome.com": 8,
     "leiphone.com": 8,
     "qbitai.com": 8,
     "jiqizhixin.com": 8,
@@ -155,7 +166,6 @@ SOURCE_WEIGHT = {
     "guancha.cn": 7,
     "bjnews.com.cn": 7,
     "infzm.com": 7,
-    "nfoweekly.com": 6,
     "jfdaily.com": 7,
     "shobserver.com": 7,
     "whb.cn": 7,
@@ -172,6 +182,18 @@ SOURCE_WEIGHT = {
     "bbc.com": 5,
     "voachinese.com": 5,
 }
+
+HOT_TOPICS = [
+    "霍尔木兹海峡", "荷莫兹海峡", "伊朗", "以色列", "美国", "中国", "欧盟",
+    "俄罗斯", "乌克兰", "中东", "关税", "制裁", "原油", "黄金", "白银",
+    "港股", "恒指", "a股", "美联储", "降息", "加息", "通胀", "就业",
+    "openai", "ai", "人工智能", "大模型", "芯片", "英伟达", "腾讯", "阿里", "字节"
+]
+
+LOW_PRIORITY_WORDS = [
+    "展", "展览", "开幕", "启幕", "纪念", "论坛", "活动",
+    "发布会", "启动仪式", "艺术展", "文化周", "巡展", "揭幕"
+]
 
 # ===============================
 # OpenRouter 客户端
@@ -207,12 +229,22 @@ def ask_ai(prompt: str, temperature: float = 0.2) -> str:
 # 工具函数
 # ===============================
 
+def safe_text(text: str, max_len: int) -> str:
+    text = (text or "").strip()
+    return text if len(text) <= max_len else text[:max_len] + "..."
+
+def shorten_url(url: str, max_len: int = 160) -> str:
+    if not url:
+        return ""
+    return url if len(url) <= max_len else url[:max_len] + "..."
+
 def is_chinese_link(url: str) -> bool:
     if not url:
         return False
 
-    netloc = urlparse(url).netloc.lower()
-    path = urlparse(url).path.lower()
+    p = urlparse(url)
+    netloc = p.netloc.lower()
+    path = p.path.lower()
     full = url.lower()
 
     if any(netloc.endswith(domain) for domain in ALLOWED_DOMAINS):
@@ -228,7 +260,6 @@ def is_chinese_link(url: str) -> bool:
     if netloc.endswith(".cn"):
         return True
 
-    # 国际中文站特征补充
     if "rfi.fr" in netloc and "/cn/" in path:
         return True
     if "dw.com" in netloc and "/zh/" in path:
@@ -238,17 +269,95 @@ def is_chinese_link(url: str) -> bool:
 
     return False
 
-def shorten_url(url: str, max_len: int = 160) -> str:
-    if not url:
-        return ""
-    return url if len(url) <= max_len else url[:max_len] + "..."
+def normalize_title(title: str) -> str:
+    t = (title or "").lower()
+    for ch in ["|", "-", "—", "_", ":", "：", ",", "，", ".", "。", "(", ")", "[", "]", "'", '"',
+               "（", "）", "【", "】", "！", "?", "？", "/", "\\", "｜", "·"]:
+        t = t.replace(ch, " ")
+    return " ".join(t.split())
 
-def safe_text(text: str, max_len: int) -> str:
-    text = (text or "").strip()
-    return text if len(text) <= max_len else text[:max_len] + "..."
+def split_words(title: str):
+    text = normalize_title(title)
+    parts = re.split(r"\s+", text)
+    words = {p for p in parts if p and len(p) >= 2}
+
+    # 把热点中文词也硬加进去，增强聚类
+    for topic in HOT_TOPICS:
+        if topic.lower() in text:
+            words.add(topic.lower())
+
+    return words
+
+def title_similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, normalize_title(a), normalize_title(b)).ratio()
+
+def get_source_weight(link: str) -> int:
+    url = (link or "").lower()
+    score = 0
+    for domain, weight in SOURCE_WEIGHT.items():
+        if domain in url:
+            score = max(score, weight)
+    return score
+
+def is_breaking_by_rules(title: str) -> bool:
+    t = (title or "").lower()
+    keywords = [
+        "breaking", "urgent", "attack", "war", "missile", "strike", "explosion",
+        "earthquake", "flood", "wildfire", "shooting", "hostage", "coup",
+        "emergency", "sanction", "tariff", "ceasefire", "troops", "invasion",
+        "dies", "killed", "crash", "outbreak",
+        "突发", "袭击", "导弹", "爆炸", "地震", "洪水", "火灾", "战争",
+        "停火", "制裁", "关税", "坠毁", "死亡", "冲突", "枪击", "爆发",
+        "谈判破裂", "空袭", "局势升级", "撤离", "封锁"
+    ]
+    return any(k in t for k in keywords)
+
+def get_topic_bonus(title: str) -> int:
+    t = (title or "").lower()
+
+    breaking_words = [
+        "战争", "袭击", "导弹", "冲突", "空袭", "停火", "制裁", "关税",
+        "突发", "爆炸", "地震", "局势升级", "霍尔木兹", "荷莫兹", "中东"
+    ]
+    finance_words = [
+        "美联储", "利率", "降息", "加息", "股市", "港股", "a股", "恒指",
+        "纳指", "标普", "原油", "黄金", "比特币", "汇率", "债券", "通胀"
+    ]
+    ai_words = [
+        "ai", "人工智能", "大模型", "openai", "芯片", "算力", "机器人",
+        "英伟达", "腾讯", "阿里", "字节", "模型", "agent"
+    ]
+    macro_words = [
+        "中国", "美国", "欧盟", "俄罗斯", "伊朗", "以色列", "乌克兰",
+        "出口", "政策", "央行", "就业", "经济", "贸易", "供应链"
+    ]
+
+    bonus = 0
+    if any(w in t for w in breaking_words):
+        bonus += 7
+    if any(w in t for w in finance_words):
+        bonus += 6
+    if any(w in t for w in ai_words):
+        bonus += 6
+    if any(w in t for w in macro_words):
+        bonus += 5
+    return bonus
+
+def event_key(title: str) -> str:
+    t = normalize_title(title)
+    matched = [k.lower() for k in HOT_TOPICS if k.lower() in t]
+
+    # 先用热点主题做键
+    if matched:
+        return "|".join(sorted(matched[:3]))
+
+    # 否则退化到前几个高信息词
+    words = list(split_words(title))
+    words = sorted(words, key=lambda x: (-len(x), x))
+    return "|".join(words[:3]) if words else t[:30]
 
 # ===============================
-# 抓取 NewsData
+# 抓取 API
 # ===============================
 
 def fetch_newsdata():
@@ -271,22 +380,16 @@ def fetch_newsdata():
         for n in data.get("results", [])[:MAX_FETCH_PER_API]:
             title = (n.get("title") or "").strip()
             link = (n.get("link") or "").strip()
-
             if title and link:
                 news.append({
                     "title": title,
                     "link": link,
                     "source": "NewsData",
                 })
-
         return news
     except Exception as e:
         print("NewsData error:", e)
         return []
-
-# ===============================
-# 抓取 GNews
-# ===============================
 
 def fetch_gnews():
     if not GNEWS_KEY:
@@ -309,21 +412,54 @@ def fetch_gnews():
         for n in data.get("articles", []):
             title = (n.get("title") or "").strip()
             link = (n.get("url") or "").strip()
-
             if title and link:
                 news.append({
                     "title": title,
                     "link": link,
                     "source": "GNews",
                 })
-
         return news
     except Exception as e:
         print("GNews error:", e)
         return []
 
 # ===============================
-# 去重与标准化
+# 抓取 RSS
+# ===============================
+
+def fetch_rss():
+    all_items = []
+
+    for feed in RSS_FEEDS:
+        feed_url = feed["url"]
+        source_name = feed["source"]
+
+        try:
+            parsed = feedparser.parse(feed_url)
+            entries = parsed.entries[:MAX_FETCH_PER_RSS]
+
+            for entry in entries:
+                title = (getattr(entry, "title", "") or "").strip()
+                link = (getattr(entry, "link", "") or "").strip()
+
+                if not title or not link:
+                    continue
+
+                all_items.append({
+                    "title": title,
+                    "link": link,
+                    "source": source_name,
+                })
+
+            time.sleep(0.2)
+
+        except Exception as e:
+            print(f"RSS error [{source_name}]:", e)
+
+    return all_items
+
+# ===============================
+# 去重
 # ===============================
 
 def exact_deduplicate(news):
@@ -344,22 +480,8 @@ def exact_deduplicate(news):
 
     return unique
 
-def normalize_title(title: str) -> str:
-    t = title.lower()
-    for ch in ["|", "-", "—", "_", ":", "：", ",", "，", ".", "。", "(", ")", "[", "]", "'", '"', "（", "）", "【", "】", "！", "?", "？", "/", "\\"]:
-        t = t.replace(ch, " ")
-    return " ".join(t.split())
-
-def split_words(title: str):
-    text = normalize_title(title)
-    parts = re.split(r"\s+", text)
-    return {p for p in parts if p and len(p) >= 2}
-
-def title_similarity(a: str, b: str) -> float:
-    return SequenceMatcher(None, normalize_title(a), normalize_title(b)).ratio()
-
 # ===============================
-# 中文过滤
+# 过滤中文源
 # ===============================
 
 def filter_chinese_news(news):
@@ -368,62 +490,8 @@ def filter_chinese_news(news):
     return chinese_news
 
 # ===============================
-# 规则识别
+# 聚类与压重
 # ===============================
-
-def is_breaking_by_rules(title: str) -> bool:
-    t = title.lower()
-
-    keywords = [
-        "breaking", "urgent", "attack", "war", "missile", "strike", "explosion",
-        "earthquake", "flood", "wildfire", "shooting", "hostage", "coup",
-        "emergency", "sanction", "tariff", "ceasefire", "troops", "invasion",
-        "dies", "killed", "crash", "outbreak",
-        "突发", "袭击", "导弹", "爆炸", "地震", "洪水", "火灾", "战争",
-        "停火", "制裁", "关税", "坠毁", "死亡", "冲突", "枪击", "爆发",
-        "谈判破裂", "空袭", "局势升级", "撤离", "封锁"
-    ]
-
-    return any(k in t for k in keywords)
-
-def get_source_weight(link: str) -> int:
-    url = (link or "").lower()
-    score = 0
-    for domain, weight in SOURCE_WEIGHT.items():
-        if domain in url:
-            score = max(score, weight)
-    return score
-
-def get_topic_bonus(title: str) -> int:
-    t = title.lower()
-
-    breaking_words = [
-        "战争", "袭击", "导弹", "冲突", "空袭", "停火", "制裁", "关税",
-        "突发", "爆炸", "地震", "局势升级", "霍尔木兹", "中东"
-    ]
-    finance_words = [
-        "美联储", "利率", "降息", "加息", "股市", "港股", "a股", "恒指",
-        "纳指", "标普", "原油", "黄金", "比特币", "汇率", "债券", "通胀"
-    ]
-    ai_words = [
-        "ai", "人工智能", "大模型", "openai", "芯片", "算力", "机器人",
-        "英伟达", "腾讯", "阿里", "字节", "模型", "agent"
-    ]
-    macro_words = [
-        "中国", "美国", "欧盟", "俄罗斯", "伊朗", "以色列", "乌克兰",
-        "出口", "政策", "央行", "就业", "经济", "贸易", "供应链"
-    ]
-
-    bonus = 0
-    if any(w in t for w in breaking_words):
-        bonus += 6
-    if any(w in t for w in finance_words):
-        bonus += 5
-    if any(w in t for w in ai_words):
-        bonus += 5
-    if any(w in t for w in macro_words):
-        bonus += 4
-    return bonus
 
 def pick_best_link(items):
     def score_item(item):
@@ -436,44 +504,36 @@ def pick_best_link(items):
 
 def score_cluster(cluster):
     items = cluster["items"]
-    rep = cluster["representative"]
-    title = rep["title"].lower()
     best = pick_best_link(items)
+    title = best["title"].lower()
 
     score = 0
     score += len(items) * 3
     score += get_source_weight(best.get("link", ""))
     score += get_topic_bonus(title)
 
-    # 展览、纪念、会议类降权，避免挤进三大新闻
-    low_priority_words = [
-        "展", "展览", "开幕", "启幕", "纪念", "论坛", "活动",
-        "发布会", "启动仪式", "艺术展", "文化周"
-    ]
-    if any(w in title for w in low_priority_words):
-        score -= 5
+    if any(w in title for w in LOW_PRIORITY_WORDS):
+        score -= 6
 
     if is_breaking_by_rules(title):
-        score += 3
+        score += 4
 
     return score
-
-# ===============================
-# 聚类
-# ===============================
 
 def rule_cluster(news):
     clusters = []
 
     for item in news:
         words = split_words(item["title"])
+        key = event_key(item["title"])
         matched = False
 
         for cluster in clusters:
             overlap = len(words & cluster["words"])
             sim = title_similarity(item["title"], cluster["representative"]["title"])
+            same_event_key = key == cluster["event_key"]
 
-            if overlap >= 2 or sim >= 0.72:
+            if same_event_key or overlap >= 3 or sim >= 0.78:
                 cluster["items"].append(item)
                 cluster["words"] |= words
                 matched = True
@@ -481,6 +541,7 @@ def rule_cluster(news):
 
         if not matched:
             clusters.append({
+                "event_key": key,
                 "words": words,
                 "items": [item],
                 "representative": item,
@@ -498,6 +559,7 @@ def rule_cluster(news):
             "all_links": [x["link"] for x in cluster["items"]],
             "score": score_cluster(cluster),
             "is_breaking": is_breaking_by_rules(best["title"]),
+            "event_key": cluster["event_key"],
         })
 
     return result
@@ -537,10 +599,11 @@ def ai_render_digest(news):
         payload.append({
             "title": safe_text(n["title"], 80),
             "source_count": n.get("source_count", 1),
-            "candidate_titles": [safe_text(x, 80) for x in n.get("all_titles", [])[:5]],
+            "candidate_titles": [safe_text(x, 80) for x in n.get("all_titles", [])[:6]],
             "main_link": shorten_url(n["link"], 160),
             "score": n.get("score", 0),
             "is_breaking": n.get("is_breaking", False),
+            "event_key": n.get("event_key", ""),
         })
 
     prompt = f"""
@@ -552,26 +615,27 @@ def ai_render_digest(news):
 3. 自动归入以下板块：
    - 今日三大新闻
    - AI重点
-   - 宏观重点
+   - 国际/宏观重点
    - 金融重点
    - 突发新闻
 4. 同一事件不要重复写
-5. 每条内容格式固定为：
-   **标题**
-   摘要：一句话，不超过28字
+5. 如果多个候选事件明显属于同一主题，只保留其中信息量最大的一条
+6. 每条内容格式固定为：
+   **标题**：不超过18字，必须重写成简洁新闻标题，不能直接照抄原始长标题
+   摘要：一句话，不超过26字
    链接：原始 main_link
-6. 只使用我提供的数据，不要编造事实
-7. 链接必须直接使用我给出的 main_link，不要改写
-8. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
-9. 如果某个板块没有内容，可以省略该板块
-10. 顶部标题固定为：# 今日新闻雷达
-11. 今日三大新闻只保留3条
-12. 其他每个板块最多2条
-13. 全文总长度控制在3000字以内
-14. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻
-15. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻
-16. 不要输出任何说明、注释、免责声明
-17. 每条链接格式严格写成：链接：<main_link>
+7. 只使用我提供的数据，不要编造事实
+8. 链接必须直接使用我给出的 main_link，不要改写
+9. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
+10. 如果某个板块没有内容，可以省略该板块
+11. 顶部标题固定为：# 今日新闻雷达
+12. 今日三大新闻只保留3条
+13. 其他每个板块最多2条
+14. 全文总长度控制在3000字以内
+15. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻
+16. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻
+17. 不要输出任何说明、注释、免责声明
+18. 每条链接格式严格写成：链接：<main_link>
 
 候选事件：
 {json.dumps(payload, ensure_ascii=False, indent=2)}
@@ -586,7 +650,7 @@ def ai_render_digest(news):
 
     lines = ["# 今日新闻雷达", "", "## 今日三大新闻"]
     for i, n in enumerate(news[:3], 1):
-        lines.append(f"{i}. **{safe_text(n['title'], 40)}**")
+        lines.append(f"{i}. **{safe_text(n['title'], 18)}**")
         lines.append(f"链接：{shorten_url(n['link'], 160)}")
         lines.append("")
     return "\n".join(lines)
@@ -628,7 +692,9 @@ def main():
 
     news1 = fetch_newsdata()
     news2 = fetch_gnews()
-    news = news1 + news2
+    news3 = fetch_rss()
+
+    news = news1 + news2 + news3
 
     print("新闻总数:", len(news))
 

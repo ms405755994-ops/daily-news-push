@@ -51,4 +51,4 @@ jobs:
 
           # 这里改成你自己的 GitHub Pages 地址
           # 例如：https://yourname.github.io/daily-news-push/
-          NEWS_PAGE_URL: https://yourname.github.io/daily-news-push/
+          NEWS_PAGE_URL: https://ms405755994-ops.github.io/daily-news-push/

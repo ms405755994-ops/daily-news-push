@@ -38,6 +38,7 @@ ALLOWED_DOMAINS = {
     "eastmoney.com",
     "ithome.com",
     "zaobao.com",
+    "rfi.fr",
 }
 
 SOURCE_WEIGHT = {
@@ -57,6 +58,7 @@ SOURCE_WEIGHT = {
     "eastmoney.com": 6,
     "bjnews.com.cn": 6,
     "zaobao.com": 6,
+    "rfi.fr": 5,
 }
 
 # ===============================
@@ -90,7 +92,7 @@ def ask_ai(prompt: str, temperature: float = 0.2) -> str:
         return ""
 
 # ===============================
-# 中文链接识别
+# 工具函数
 # ===============================
 
 def is_chinese_link(url: str) -> bool:
@@ -108,6 +110,15 @@ def is_chinese_link(url: str) -> bool:
 
     return False
 
+def shorten_url(url: str, max_len: int = 180) -> str:
+    if not url:
+        return ""
+    return url if len(url) <= max_len else url[:max_len] + "..."
+
+def safe_text(text: str, max_len: int) -> str:
+    text = (text or "").strip()
+    return text if len(text) <= max_len else text[:max_len] + "..."
+
 # ===============================
 # 抓取 NewsData
 # ===============================
@@ -118,10 +129,11 @@ def fetch_newsdata():
         return []
 
     url = "https://newsdata.io/api/1/news"
+
+    # NewsData 对不同套餐/参数组合兼容性不一致，先用更保守的参数
     params = {
         "apikey": NEWS_DATA_KEY,
         "language": "zh",
-        "size": MAX_FETCH_PER_API,
     }
 
     try:
@@ -130,7 +142,7 @@ def fetch_newsdata():
         data = r.json()
 
         news = []
-        for n in data.get("results", []):
+        for n in data.get("results", [])[:MAX_FETCH_PER_API]:
             title = (n.get("title") or "").strip()
             link = (n.get("link") or "").strip()
 
@@ -185,7 +197,7 @@ def fetch_gnews():
         return []
 
 # ===============================
-# 标题精确去重
+# 去重与文本标准化
 # ===============================
 
 def exact_deduplicate(news):
@@ -205,10 +217,6 @@ def exact_deduplicate(news):
         unique.append(n)
 
     return unique
-
-# ===============================
-# 文本标准化
-# ===============================
 
 def normalize_title(title: str) -> str:
     t = title.lower()
@@ -234,7 +242,7 @@ def filter_chinese_news(news):
     return chinese_news
 
 # ===============================
-# 突发新闻规则识别
+# 规则识别
 # ===============================
 
 def is_breaking_by_rules(title: str) -> bool:
@@ -246,14 +254,10 @@ def is_breaking_by_rules(title: str) -> bool:
         "emergency", "sanction", "tariff", "ceasefire", "troops", "invasion",
         "dies", "killed", "crash", "outbreak",
         "突发", "袭击", "导弹", "爆炸", "地震", "洪水", "火灾", "战争",
-        "停火", "制裁", "关税", "坠毁", "死亡", "冲突", "枪击"
+        "停火", "制裁", "关税", "坠毁", "死亡", "冲突", "枪击", "葬礼"
     ]
 
     return any(k in t for k in keywords)
-
-# ===============================
-# 规则聚类与评分
-# ===============================
 
 def get_source_weight(link: str) -> int:
     url = (link or "").lower()
@@ -278,29 +282,28 @@ def score_cluster(cluster):
     best = pick_best_link(items)
 
     score = 0
-
-    # 多源报道数
     score += len(items) * 3
-
-    # 来源权重
     score += get_source_weight(best.get("link", ""))
 
-    # 重点词
     important_words = [
         "ai", "人工智能", "大模型", "openai", "芯片",
         "战争", "袭击", "导弹", "关税", "制裁",
         "央行", "美联储", "利率", "股市", "原油",
         "以色列", "美国", "中国", "欧盟", "俄罗斯",
-        "比特币", "黄金", "通胀", "就业", "出口"
+        "比特币", "黄金", "通胀", "就业", "出口",
+        "腾讯", "阿里", "字节", "港股", "a股"
     ]
     if any(word in title for word in important_words):
         score += 3
 
-    # 突发加分
     if is_breaking_by_rules(title):
         score += 3
 
     return score
+
+# ===============================
+# 规则聚类
+# ===============================
 
 def rule_cluster(news):
     clusters = []
@@ -375,10 +378,10 @@ def ai_render_digest(news):
     payload = []
     for n in news:
         payload.append({
-            "title": n["title"],
+            "title": safe_text(n["title"], 80),
             "source_count": n.get("source_count", 1),
-            "candidate_titles": n.get("all_titles", [])[:5],
-            "main_link": n["link"],
+            "candidate_titles": [safe_text(x, 80) for x in n.get("all_titles", [])[:5]],
+            "main_link": shorten_url(n["link"], 160),
             "score": n.get("score", 0),
             "is_breaking": n.get("is_breaking", False),
         })
@@ -398,17 +401,19 @@ def ai_render_digest(news):
 4. 同一事件不要重复写
 5. 每条内容格式固定为：
    **标题**
-   摘要：一句话，不超过35字
+   摘要：一句话，不超过28字
    链接：原始 main_link
 6. 只使用我提供的数据，不要编造事实，不要补充未提供的信息
 7. 链接必须直接使用我给出的 main_link，不要改写，不要替换
 8. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
 9. 如果某个板块没有内容，可以省略该板块
 10. 顶部标题固定为：# 今日新闻雷达
-11. “今日三大新闻”只保留3条
-12. 每条新闻尽量短、清晰、像编辑写的简报
-13. 每条新闻的链接格式写成：
-   链接：<main_link>
+11. 今日三大新闻只保留3条
+12. 其他每个板块最多2条
+13. 全文总长度控制在3000字以内
+14. 只保留最重要内容，避免冗长
+15. 不要输出任何说明、注释、免责声明
+16. 每条链接格式严格写成：链接：<main_link>
 
 候选事件：
 {json.dumps(payload, ensure_ascii=False, indent=2)}
@@ -416,13 +421,15 @@ def ai_render_digest(news):
 
     result = ask_ai(prompt, temperature=0.2)
     if result:
+        result = result.replace("```markdown", "").replace("```", "").strip()
+        if len(result) > 3800:
+            result = result[:3800] + "\n\n（内容过长已截断）"
         return result
 
-    # AI失败时兜底输出
     lines = ["# 今日新闻雷达", "", "## 今日三大新闻"]
     for i, n in enumerate(news[:3], 1):
-        lines.append(f"{i}. **{n['title']}**")
-        lines.append(f"链接：{n['link']}")
+        lines.append(f"{i}. **{safe_text(n['title'], 40)}**")
+        lines.append(f"链接：{shorten_url(n['link'], 160)}")
         lines.append("")
     return "\n".join(lines)
 
@@ -434,6 +441,9 @@ def push_wechat(msg: str):
     if not WECHAT_WEBHOOK:
         print("WECHAT_WEBHOOK 未配置")
         return
+
+    if len(msg) > 4000:
+        msg = msg[:4000] + "\n\n（内容过长已截断）"
 
     data = {
         "msgtype": "markdown",

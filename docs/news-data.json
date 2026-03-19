@@ -1,29 +1,123 @@
 {
-  "title": "MSAI今日新闻｜测试页",
+  "title": "MSAI今日新闻｜2026年3月19日 星期四（农历二月初一）",
   "date_text": "2026年3月19日 星期四（农历二月初一）",
   "weather_text": "汕头：多云 22°C",
-  "total_count": 1,
+  "total_count": 10,
+
   "hotspots": [
     {
-      "title": "测试热点",
-      "reason": "这是一个测试页面"
+      "title": "中东局势持续升温",
+      "reason": "影响能源与全球市场"
+    },
+    {
+      "title": "AI加速落地应用",
+      "reason": "招聘与设计领域明显变化"
+    },
+    {
+      "title": "美联储政策不确定",
+      "reason": "影响全球金融预期"
     }
   ],
+
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "测试新闻",
-      "summary": "这是一个测试内容",
-      "link": "https://www.example.com"
+      "short_title": "特朗普支持空袭伊朗能源设施",
+      "summary": "中东局势升级，能源风险上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589173.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美方或向中东增派兵力",
+      "summary": "美国考虑部署数千军人",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589194.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "阿拉善车间爆炸致失联",
+      "summary": "事故造成伤亡与失联",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589213.shtml"
+    },
+
+    {
+      "category": "AI重点",
+      "short_title": "河南引入AI招聘系统",
+      "summary": "提高岗位匹配效率",
+      "link": "https://www.ithome.com/0/930/566.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "谷歌AI自动生成UI",
+      "summary": "设计效率明显提升",
+      "link": "https://www.ithome.com/0/930/566.htm"
+    },
+
+    {
+      "category": "国际/宏观重点",
+      "short_title": "中东冲突推高化肥价格",
+      "summary": "全球农业成本上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589280.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "鲍威尔表态暂不离任",
+      "summary": "维持政策连续性",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589209.shtml"
+    },
+
+    {
+      "category": "金融重点",
+      "short_title": "英伟达GTC聚焦盈利预期",
+      "summary": "市场关注业绩确定性",
+      "link": "https://www.ithome.com/0/930/566.htm"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "赛诺菲重申在华投资",
+      "summary": "长期布局中国市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589121.shtml"
+    },
+
+    {
+      "category": "突发新闻",
+      "short_title": "乍得称遭无人机袭击",
+      "summary": "平民伤亡引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589213.shtml"
     }
   ],
+
   "futures": [
     {
       "name": "WTI原油",
-      "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "72.10",
-      "pct": 1.23
+      "price": "72.30",
+      "pct": 1.25,
+      "history_url": "https://www.investing.com/commodities/crude-oil-historical-data"
+    },
+    {
+      "name": "COMEX黄金",
+      "price": "2185.60",
+      "pct": 0.85,
+      "history_url": "https://www.investing.com/commodities/gold-historical-data"
+    },
+    {
+      "name": "大连棕榈油",
+      "price": "8020",
+      "pct": -0.45,
+      "history_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0"
+    },
+    {
+      "name": "聚丙烯(PP)",
+      "price": "7450",
+      "pct": 0.32,
+      "history_url": "https://www.investing.com/commodities/pp-futures-historical-data"
+    },
+    {
+      "name": "聚乙烯(PE)",
+      "price": "8100",
+      "pct": -0.21,
+      "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data"
     }
   ],
-  "updated_at": "2026-03-19 10:00:00"
+
+  "updated_at": "2026-03-19 10:30:00"
 }

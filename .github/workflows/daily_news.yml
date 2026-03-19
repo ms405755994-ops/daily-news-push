@@ -2,8 +2,11 @@ name: Daily News Radar
 
 on:
   schedule:
-    # 每天 07:30 中国时间（UTC 00:30）
+    # 每天 07:30 中国时间
     - cron: '30 23 * * *'
+
+    # 每天 20:00 中国时间
+    - cron: '0 12 * * *'
 
   workflow_dispatch:
 

@@ -2,10 +2,10 @@ name: Daily News Radar
 
 on:
   schedule:
-    # 每天 07:30 中国时间
+    # 每天 07:30 中国时间（UTC 23:30，前一天）
     - cron: '30 23 * * *'
 
-    # 每天 20:00 中国时间
+    # 每天 20:00 中国时间（UTC 12:00）
     - cron: '0 12 * * *'
 
   workflow_dispatch:
@@ -31,19 +31,15 @@ jobs:
         run: |
           python news_bot.py
         env:
-          # ===== API KEY =====
           NEWS_DATA_KEY: ${{ secrets.NEWS_DATA_KEY }}
           GNEWS_KEY: ${{ secrets.GNEWS_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          AMAP_KEY: ${{ secrets.AMAP_KEY }}
 
-          # ===== 抓取参数 =====
           MAX_FETCH_PER_API: 40
           MAX_FETCH_PER_RSS: 25
           MAX_NEWS: 12
 
-          # ===== 标题配置 =====
           REPORT_CITY: 汕头
           REPORT_LUNAR_TEXT: 农历二月初一
-          # 如果你想固定天气，可以打开这一行：
-          # REPORT_WEATHER_TEXT: 汕头：晴 25°C

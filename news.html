@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日新闻推送</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        .news-item { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding-bottom: 10px; }
+        .news-title { font-size: 1.4em; font-weight: bold; }
+        .news-summary { margin-top: 6px; color: #444; }
+        .news-link { margin-top: 6px; color: #0066cc; text-decoration: none; }
+        .news-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>今日全球新闻雷达</h1>
+    <div id="news-container"></div>
+
+    <script>
+        // 获取动态新闻数据
+        fetch('https://raw.githubusercontent.com/{username}/{repo}/main/news-data.json')  // 替换为你的 GitHub 页面链接
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById("news-container");
+                data.news_items.forEach(news => {
+                    const newsElement = document.createElement("div");
+                    newsElement.classList.add("news-item");
+                    newsElement.innerHTML = `
+                        <div class="news-title">${news.short_title}</div>
+                        <div class="news-summary">${news.summary}</div>
+                        <a class="news-link" href="${news.link}" target="_blank">阅读全文</a>
+                    `;
+                    container.appendChild(newsElement);
+                });
+            })
+            .catch(err => {
+                console.error('Error fetching news:', err);
+                document.getElementById("news-container").innerText = "无法加载新闻内容";
+            });
+    </script>
+</body>
+</html>

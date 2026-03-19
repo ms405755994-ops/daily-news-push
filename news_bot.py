@@ -1,6 +1,9 @@
 import os
+import re
+import json
 import requests
-from collections import defaultdict
+from difflib import SequenceMatcher
+from urllib.parse import urlparse
 from openai import OpenAI
 
 # ===============================
@@ -18,8 +21,43 @@ MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "20"))
 MAX_NEWS = int(os.getenv("MAX_NEWS", "10"))
 REQUEST_TIMEOUT = 30
 
-# 至少保留多少条中文链接新闻；如果不足，则回退到全量新闻
-MIN_CHINESE_NEWS = int(os.getenv("MIN_CHINESE_NEWS", "5"))
+ALLOWED_DOMAINS = {
+    "people.com.cn",
+    "xinhuanet.com",
+    "cctv.com",
+    "chinanews.com.cn",
+    "yicai.com",
+    "cls.cn",
+    "stcn.com",
+    "36kr.com",
+    "jiemian.com",
+    "caixin.com",
+    "thepaper.cn",
+    "guancha.cn",
+    "bjnews.com.cn",
+    "eastmoney.com",
+    "ithome.com",
+    "zaobao.com",
+}
+
+SOURCE_WEIGHT = {
+    "xinhuanet.com": 10,
+    "people.com.cn": 10,
+    "cctv.com": 10,
+    "chinanews.com.cn": 9,
+    "yicai.com": 8,
+    "cls.cn": 8,
+    "stcn.com": 8,
+    "caixin.com": 8,
+    "36kr.com": 7,
+    "ithome.com": 7,
+    "jiemian.com": 7,
+    "thepaper.cn": 7,
+    "guancha.cn": 6,
+    "eastmoney.com": 6,
+    "bjnews.com.cn": 6,
+    "zaobao.com": 6,
+}
 
 # ===============================
 # OpenRouter 客户端
@@ -35,7 +73,7 @@ client = OpenAI(
 )
 
 # ===============================
-# AI 调用
+# AI 调用（全流程只在最后用 1 次）
 # ===============================
 
 def ask_ai(prompt: str, temperature: float = 0.2) -> str:
@@ -59,37 +97,13 @@ def is_chinese_link(url: str) -> bool:
     if not url:
         return False
 
-    url = url.lower()
+    netloc = urlparse(url).netloc.lower()
 
-    cn_domains = [
-        ".cn",
-        "sina.com",
-        "qq.com",
-        "163.com",
-        "thepaper.cn",
-        "ifeng.com",
-        "guancha.cn",
-        "caixin.com",
-        "china.com",
-        "people.com.cn",
-        "xinhuanet.com",
-        "cctv.com",
-        "yicai.com",
-        "jiemian.com",
-        "36kr.com",
-        "huxiu.com",
-        "stcn.com",
-        "eastmoney.com",
-        "zhihu.com",
-        "cls.cn",
-        "bjnews.com.cn"
-    ]
+    if any(netloc.endswith(domain) for domain in ALLOWED_DOMAINS):
+        return True
 
-    for d in cn_domains:
-        if d in url:
-            return True
-
-    if "/cn/" in url or "/zh/" in url or "lang=zh" in url:
+    url_l = url.lower()
+    if "/cn/" in url_l or "/zh/" in url_l or "lang=zh" in url_l:
         return True
 
     return False
@@ -106,7 +120,7 @@ def fetch_newsdata():
     url = "https://newsdata.io/api/1/news"
     params = {
         "apikey": NEWS_DATA_KEY,
-        "language": "en,zh",
+        "language": "zh",
         "size": MAX_FETCH_PER_API,
     }
 
@@ -124,7 +138,7 @@ def fetch_newsdata():
                 news.append({
                     "title": title,
                     "link": link,
-                    "source": "NewsData"
+                    "source": "NewsData",
                 })
 
         return news
@@ -144,7 +158,7 @@ def fetch_gnews():
     url = "https://gnews.io/api/v4/top-headlines"
     params = {
         "apikey": GNEWS_KEY,
-        "lang": "en",
+        "lang": "zh",
         "max": MAX_FETCH_PER_API,
     }
 
@@ -162,7 +176,7 @@ def fetch_gnews():
                 news.append({
                     "title": title,
                     "link": link,
-                    "source": "GNews"
+                    "source": "GNews",
                 })
 
         return news
@@ -175,73 +189,49 @@ def fetch_gnews():
 # ===============================
 
 def exact_deduplicate(news):
-    seen = set()
+    seen_titles = set()
+    seen_links = set()
     unique = []
 
     for n in news:
         title = n["title"].strip().lower()
-        if title not in seen:
-            seen.add(title)
-            unique.append(n)
+        link = n["link"].strip().lower()
+
+        if title in seen_titles or link in seen_links:
+            continue
+
+        seen_titles.add(title)
+        seen_links.add(link)
+        unique.append(n)
 
     return unique
 
 # ===============================
-# 轻量预筛
+# 文本标准化
 # ===============================
 
 def normalize_title(title: str) -> str:
     t = title.lower()
-    for ch in ["|", "-", "—", ":", "：", ",", ".", "(", ")", "[", "]", "'", '"']:
+    for ch in ["|", "-", "—", "_", ":", "：", ",", "，", ".", "。", "(", ")", "[", "]", "'", '"', "（", "）", "【", "】", "！", "?", "？", "/", "\\"]:
         t = t.replace(ch, " ")
     return " ".join(t.split())
 
-def rough_similar(title1: str, title2: str) -> bool:
-    a = set(normalize_title(title1).split())
-    b = set(normalize_title(title2).split())
+def split_words(title: str):
+    text = normalize_title(title)
+    parts = re.split(r"\s+", text)
+    return {p for p in parts if p and len(p) >= 2}
 
-    if not a or not b:
-        return False
-
-    overlap = len(a & b) / max(1, min(len(a), len(b)))
-    return overlap >= 0.75
+def title_similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, normalize_title(a), normalize_title(b)).ratio()
 
 # ===============================
-# AI 事件去重
+# 中文新闻过滤
 # ===============================
 
-def ai_is_duplicate(title1: str, title2: str) -> bool:
-    prompt = f"""
-判断下面两条新闻标题是否是同一事件。
-只回答 YES 或 NO。
-
-标题1：
-{title1}
-
-标题2：
-{title2}
-"""
-    result = ask_ai(prompt)
-    return "YES" in result.upper()
-
-def ai_deduplicate(news):
-    unique = []
-
-    for n in news:
-        duplicate = False
-
-        for u in unique:
-            if not rough_similar(n["title"], u["title"]):
-                continue
-
-            if ai_is_duplicate(n["title"], u["title"]):
-                duplicate = True
-                break
-
-        if not duplicate:
-            unique.append(n)
-
-    return unique
+def filter_chinese_news(news):
+    chinese_news = [n for n in news if is_chinese_link(n.get("link", ""))]
+    print("中文链接新闻数量:", len(chinese_news))
+    return chinese_news
 
 # ===============================
 # 突发新闻规则识别
@@ -254,273 +244,187 @@ def is_breaking_by_rules(title: str) -> bool:
         "breaking", "urgent", "attack", "war", "missile", "strike", "explosion",
         "earthquake", "flood", "wildfire", "shooting", "hostage", "coup",
         "emergency", "sanction", "tariff", "ceasefire", "troops", "invasion",
-        "dies", "killed", "crash", "outbreak"
+        "dies", "killed", "crash", "outbreak",
+        "突发", "袭击", "导弹", "爆炸", "地震", "洪水", "火灾", "战争",
+        "停火", "制裁", "关税", "坠毁", "死亡", "冲突", "枪击"
     ]
 
     return any(k in t for k in keywords)
 
 # ===============================
-# AI 分类
+# 规则聚类与评分
 # ===============================
 
-def ai_classify(title: str) -> str:
+def get_source_weight(link: str) -> int:
+    url = (link or "").lower()
+    score = 0
+    for domain, weight in SOURCE_WEIGHT.items():
+        if domain in url:
+            score = max(score, weight)
+    return score
+
+def pick_best_link(items):
+    def score_item(item):
+        base = get_source_weight(item.get("link", ""))
+        title_len_bonus = min(len(item.get("title", "")) // 10, 3)
+        return base + title_len_bonus
+
+    return sorted(items, key=score_item, reverse=True)[0]
+
+def score_cluster(cluster):
+    items = cluster["items"]
+    rep = cluster["representative"]
+    title = rep["title"].lower()
+    best = pick_best_link(items)
+
+    score = 0
+
+    # 多源报道数
+    score += len(items) * 3
+
+    # 来源权重
+    score += get_source_weight(best.get("link", ""))
+
+    # 重点词
+    important_words = [
+        "ai", "人工智能", "大模型", "openai", "芯片",
+        "战争", "袭击", "导弹", "关税", "制裁",
+        "央行", "美联储", "利率", "股市", "原油",
+        "以色列", "美国", "中国", "欧盟", "俄罗斯",
+        "比特币", "黄金", "通胀", "就业", "出口"
+    ]
+    if any(word in title for word in important_words):
+        score += 3
+
+    # 突发加分
     if is_breaking_by_rules(title):
-        return "突发新闻"
+        score += 3
 
-    prompt = f"""
-给这条新闻分类，只输出一个分类名称。
+    return score
 
-新闻标题：
-{title}
+def rule_cluster(news):
+    clusters = []
 
-分类选项：
-突发新闻
-政策
-AI
-科技
-金融
-经济
-商业
-国际
-军事
-能源
-社会
+    for item in news:
+        words = split_words(item["title"])
+        matched = False
 
-分类规则补充：
-1. 战争、袭击、灾害、重大突发事件优先归入“突发新闻”
-2. 法规、政府决定、监管变化归入“政策”
-3. 利率、股市、银行、债券归入“金融”
-4. 宏观增长、通胀、就业、经济数据归入“经济”
-5. 公司经营、并购、票房、商业模式归入“商业”
-6. 国与国关系、外交、地区局势归入“国际”
-7. 武器、军队、战事、国防归入“军事”
-8. 石油、天然气、电力、煤炭、新能源供给归入“能源”
-9. 医疗、教育、公共事件、社会话题归入“社会”
+        for cluster in clusters:
+            overlap = len(words & cluster["words"])
+            sim = title_similarity(item["title"], cluster["representative"]["title"])
 
-只输出分类名称
-"""
+            if overlap >= 2 or sim >= 0.72:
+                cluster["items"].append(item)
+                cluster["words"] |= words
+                matched = True
+                break
 
-    result = ask_ai(prompt)
+        if not matched:
+            clusters.append({
+                "words": words,
+                "items": [item],
+                "representative": item,
+            })
 
-    allowed = {
-        "突发新闻", "政策", "AI", "科技", "金融",
-        "经济", "商业", "国际", "军事", "能源", "社会"
-    }
+    result = []
+    for cluster in clusters:
+        best = pick_best_link(cluster["items"])
+        result.append({
+            "title": best["title"],
+            "link": best["link"],
+            "source": best.get("source", ""),
+            "source_count": len(cluster["items"]),
+            "all_titles": [x["title"] for x in cluster["items"]],
+            "all_links": [x["link"] for x in cluster["items"]],
+            "score": score_cluster(cluster),
+            "is_breaking": is_breaking_by_rules(best["title"]),
+        })
 
-    return result if result in allowed else "社会"
-
-# ===============================
-# AI 摘要
-# ===============================
-
-def ai_summary(title: str) -> str:
-    prompt = f"""
-请用一句简体中文概括下面这条新闻标题。
-
-要求：
-1. 20字以内
-2. 不要加句号
-3. 不要照抄原标题
-4. 只输出摘要
-
-标题：
-{title}
-"""
-    result = ask_ai(prompt)
-    return result if result else "暂无摘要"
+    return result
 
 # ===============================
-# AI 评分
-# ===============================
-
-def ai_score(title: str) -> int:
-    if is_breaking_by_rules(title):
-        return 5
-
-    prompt = f"""
-给下面新闻评分 1-5，只输出数字。
-
-标题：
-{title}
-
-评分标准：
-5 = 全球重大/高冲击事件
-4 = 行业重要/高关注事件
-3 = 普通值得关注新闻
-2 = 一般资讯
-1 = 不重要或噪音
-"""
-    result = ask_ai(prompt)
-
-    try:
-        score = int(result.strip())
-        if 1 <= score <= 5:
-            return score
-    except Exception:
-        pass
-
-    return 3
-
-# ===============================
-# 只保留中文链接新闻
-# ===============================
-
-def filter_chinese_news(news):
-    chinese_news = [n for n in news if is_chinese_link(n.get("link", ""))]
-    print("中文链接新闻数量:", len(chinese_news))
-
-    if len(chinese_news) >= MIN_CHINESE_NEWS:
-        return chinese_news
-
-    print("中文链接不足，回退到全量新闻")
-    return news
-
-# ===============================
-# AI 分析
-# ===============================
-
-def enrich_news(news):
-    for n in news:
-        n["category"] = ai_classify(n["title"])
-        n["summary"] = ai_summary(n["title"])
-        n["score"] = ai_score(n["title"])
-        n["lang_priority"] = 1 if is_chinese_link(n["link"]) else 0
-    return news
-
-# ===============================
-# 今日三大新闻
-# ===============================
-
-def select_top3(news):
-    if len(news) <= 3:
-        return news[:]
-
-    candidates = []
-    for i, n in enumerate(news, 1):
-        candidates.append(
-            f"{i}. 标题：{n['title']}\n"
-            f"分类：{n.get('category', '社会')}\n"
-            f"摘要：{n.get('summary', '暂无摘要')}\n"
-            f"评分：{n.get('score', 3)}\n"
-            f"中文链接：{n.get('lang_priority', 0)}"
-        )
-
-    prompt = f"""
-下面是今日候选新闻，请选出最值得作为“今日三大新闻”的3条。
-
-要求：
-1. 优先考虑全球影响力、公共关注度、市场冲击和政策/安全影响
-2. 优先考虑突发新闻、政策、金融、国际、军事等高影响题材
-3. 优先选择中文链接新闻
-4. 只输出 3 个编号，用英文逗号分隔
-5. 例如：1,4,7
-
-候选新闻：
-{chr(10).join(candidates)}
-"""
-
-    result = ask_ai(prompt)
-    print("Top3 raw result:", result)
-
-    indices = []
-    for part in result.replace("，", ",").split(","):
-        part = part.strip()
-        if part.isdigit():
-            idx = int(part) - 1
-            if 0 <= idx < len(news):
-                indices.append(idx)
-
-    unique_indices = []
-    for idx in indices:
-        if idx not in unique_indices:
-            unique_indices.append(idx)
-
-    if len(unique_indices) < 3:
-        news_sorted = sorted(
-            news,
-            key=lambda x: (x.get("lang_priority", 0), x.get("score", 3)),
-            reverse=True
-        )
-        return news_sorted[:3]
-
-    return [news[i] for i in unique_indices[:3]]
-
-# ===============================
-# 处理新闻
+# 新闻处理主流程
 # ===============================
 
 def process_news(news):
     print("原始新闻:", len(news))
 
     news = exact_deduplicate(news)
-    print("标题去重:", len(news))
+    print("标题/链接去重:", len(news))
 
     news = filter_chinese_news(news)
     print("过滤中文链接后:", len(news))
 
+    news = rule_cluster(news)
+    print("规则聚类后:", len(news))
+
+    news.sort(key=lambda x: x.get("score", 0), reverse=True)
     news = news[:MAX_NEWS]
-    print("进入 AI 处理数量:", len(news))
-
-    news = ai_deduplicate(news)
-    print("AI去重:", len(news))
-
-    news = enrich_news(news)
-    news.sort(
-        key=lambda x: (x.get("lang_priority", 0), x.get("score", 3)),
-        reverse=True
-    )
+    print("进入最终整理数量:", len(news))
 
     return news
 
 # ===============================
-# 格式化消息
+# 最后一次 AI 整理
 # ===============================
 
-def format_message(news):
-    groups = defaultdict(list)
+def ai_render_digest(news):
+    if not news:
+        return "# 今日新闻雷达\n\n暂无可推送的中文新闻"
 
+    payload = []
     for n in news:
-        groups[n["category"]].append(n)
+        payload.append({
+            "title": n["title"],
+            "source_count": n.get("source_count", 1),
+            "candidate_titles": n.get("all_titles", [])[:5],
+            "main_link": n["link"],
+            "score": n.get("score", 0),
+            "is_breaking": n.get("is_breaking", False),
+        })
 
-    ordered_categories = [
-        "突发新闻",
-        "政策",
-        "AI",
-        "科技",
-        "金融",
-        "经济",
-        "商业",
-        "国际",
-        "军事",
-        "能源",
-        "社会"
-    ]
+    prompt = f"""
+你是中文新闻编辑，请基于下面的候选事件，整理成一份企业微信日报。
 
-    top3 = select_top3(news)
+要求：
+1. 只输出简体中文
+2. 按重要性排序
+3. 自动归入以下板块：
+   - 今日三大新闻
+   - AI重点
+   - 宏观重点
+   - 金融重点
+   - 突发新闻
+4. 同一事件不要重复写
+5. 每条内容格式固定为：
+   **标题**
+   摘要：一句话，不超过35字
+   链接：原始 main_link
+6. 只使用我提供的数据，不要编造事实，不要补充未提供的信息
+7. 链接必须直接使用我给出的 main_link，不要改写，不要替换
+8. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
+9. 如果某个板块没有内容，可以省略该板块
+10. 顶部标题固定为：# 今日新闻雷达
+11. “今日三大新闻”只保留3条
+12. 每条新闻尽量短、清晰、像编辑写的简报
+13. 每条新闻的链接格式写成：
+   链接：<main_link>
 
-    message = "🌍 今日全球新闻雷达\n\n"
+候选事件：
+{json.dumps(payload, ensure_ascii=False, indent=2)}
+"""
 
-    if top3:
-        message += "【今日三大新闻】\n"
-        for i, n in enumerate(top3, 1):
-            message += f"{i}. {n['summary']}\n"
-        message += "\n"
+    result = ask_ai(prompt, temperature=0.2)
+    if result:
+        return result
 
-    for cat in ordered_categories:
-        items = groups.get(cat, [])
-        if not items:
-            continue
-
-        message += f"【{cat}】\n"
-        for i, n in enumerate(items, 1):
-            message += f"{i}. {n['title']}\n"
-            message += f"摘要：{n['summary']}\n"
-            message += f"链接：{n['link']}\n\n"
-
-    if len(message) > 3500:
-        message = message[:3500] + "\n\n（内容过长已截断）"
-
-    return message
+    # AI失败时兜底输出
+    lines = ["# 今日新闻雷达", "", "## 今日三大新闻"]
+    for i, n in enumerate(news[:3], 1):
+        lines.append(f"{i}. **{n['title']}**")
+        lines.append(f"链接：{n['link']}")
+        lines.append("")
+    return "\n".join(lines)
 
 # ===============================
 # 企业微信机器人推送
@@ -532,8 +436,8 @@ def push_wechat(msg: str):
         return
 
     data = {
-        "msgtype": "text",
-        "text": {
+        "msgtype": "markdown",
+        "markdown": {
             "content": msg
         }
     }
@@ -556,7 +460,6 @@ def main():
 
     news1 = fetch_newsdata()
     news2 = fetch_gnews()
-
     news = news1 + news2
 
     print("新闻总数:", len(news))
@@ -566,7 +469,12 @@ def main():
         return
 
     news = process_news(news)
-    message = format_message(news)
+
+    if not news:
+        print("没有符合条件的中文新闻")
+        return
+
+    message = ai_render_digest(news)
 
     print(message)
     push_wechat(message)

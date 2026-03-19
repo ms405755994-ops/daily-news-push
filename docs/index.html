@@ -1,45 +1,712 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSAI 今日新闻</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSAI今日新闻</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --surface-2: #f8fbff;
+      --text: #172033;
+      --muted: #667085;
+      --line: #e6ebf2;
+      --brand: #2563eb;
+      --brand-2: #1d4ed8;
+      --brand-soft: #eef4ff;
+      --top: #0f172a;
+      --danger: #dc2626;
+      --success: #16a34a;
+      --shadow: 0 12px 36px rgba(15, 23, 42, 0.08);
+      --radius-xl: 24px;
+      --radius-lg: 18px;
+      --radius-md: 14px;
+      --maxw: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 28%),
+        linear-gradient(180deg, #f9fbff 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    a {
+      color: var(--brand);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .page {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 22px 16px 56px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border-radius: 28px;
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 55%, #2563eb 100%);
+      color: #fff;
+      box-shadow: var(--shadow);
+      padding: 28px 26px 22px;
+      margin-bottom: 20px;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -40px;
+      top: -40px;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, rgba(255,255,255,.18), transparent 60%);
+      pointer-events: none;
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .hero-title {
+      margin: 0;
+      font-size: clamp(26px, 3vw, 34px);
+      font-weight: 900;
+      letter-spacing: .3px;
+    }
+
+    .hero-desc {
+      margin: 10px 0 0;
+      color: rgba(255,255,255,.88);
+      font-size: 14px;
+      line-height: 1.7;
+      max-width: 680px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .hero-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.14);
+      border: 1px solid rgba(255,255,255,.18);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      backdrop-filter: blur(6px);
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .meta-card {
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 18px;
+      padding: 14px;
+      min-height: 82px;
+    }
+
+    .meta-label {
+      font-size: 12px;
+      color: rgba(255,255,255,.76);
+      margin-bottom: 8px;
+    }
+
+    .meta-value {
+      font-size: 15px;
+      line-height: 1.55;
+      font-weight: 800;
+      color: #fff;
+      word-break: break-word;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(320px, .85fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    .left-col,
+    .right-col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+    }
+
+    .card-title-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .card-title {
+      margin: 0;
+      font-size: 19px;
+      font-weight: 900;
+      color: var(--text);
+    }
+
+    .card-sub {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: var(--brand-soft);
+      color: var(--brand-2);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .card-body {
+      padding: 18px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .summary-box {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface-2);
+      padding: 14px;
+    }
+
+    .summary-box .k {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .summary-box .v {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--text);
+    }
+
+    .hot-list,
+    .future-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .hot-item,
+    .future-item {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 15px;
+      background: #fff;
+    }
+
+    .hot-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .rank {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      background: var(--brand-soft);
+      color: var(--brand-2);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+
+    .hot-title {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.5;
+      color: var(--text);
+    }
+
+    .hot-reason {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .category-block {
+      margin-bottom: 18px;
+    }
+
+    .category-block:last-child { margin-bottom: 0; }
+
+    .category-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: #111827;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .news-item {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+      padding: 15px;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .news-item:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 22px rgba(15, 23, 42, .06);
+    }
+
+    .news-top {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .news-no {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      background: var(--brand-soft);
+      color: var(--brand-2);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 900;
+      flex: 0 0 auto;
+      margin-top: 1px;
+    }
+
+    .news-main {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .news-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 1.55;
+      color: var(--text);
+      word-break: break-word;
+    }
+
+    .news-link {
+      margin-left: 8px;
+      font-size: 14px;
+      vertical-align: 1px;
+    }
+
+    .news-summary {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .future-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .future-left {
+      min-width: 0;
+    }
+
+    .future-name {
+      font-size: 15px;
+      font-weight: 900;
+      color: var(--text);
+    }
+
+    .future-sub {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 6px;
+    }
+
+    .future-right {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .future-price {
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    .future-pct {
+      margin-top: 5px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .up { color: var(--danger); }
+    .down { color: var(--success); }
+    .flat { color: var(--muted); }
+
+    .empty {
+      color: var(--muted);
+      font-size: 14px;
+      padding: 8px 0;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 18px;
+    }
+
+    @media (max-width: 1040px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .hero-meta {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 14px 12px 42px; }
+      .hero { padding: 22px 18px 18px; border-radius: 22px; }
+      .hero-meta { grid-template-columns: 1fr; }
+      .card-body, .card-head { padding-left: 14px; padding-right: 14px; }
+    }
+  </style>
 </head>
 <body>
-    <h1>MSAI 今日新闻</h1>
-    <div id="news-container">
-        <!-- 新闻内容会在这里动态加载 -->
-    </div>
-    <script>
-        // 模拟从 GitHub Pages 后端获取新闻内容
-        const newsData = [
-            {
-                title: "特朗普支持空袭伊朗能源设施",
-                link: "https://www.chinanews.com.cn/gj/2026/03-19/10589173.shtml",
-                summary: "伊朗能源设施被空袭，局势进一步紧张。"
-            },
-            {
-                title: "美方或向中东增派数千兵力",
-                link: "https://www.chinanews.com.cn/gj/2026/03-19/10589194.shtml",
-                summary: "美国考虑在中东部署数千军人，冲突或升级。"
-            },
-            {
-                title: "内蒙古阿拉善车间爆炸致2失联",
-                link: "https://www.chinanews.com.cn/gj/2026/03-19/10589213.shtml",
-                summary: "阿拉善车间爆炸，2人失联、3人受伤。"
-            }
-        ];
+  <div class="page">
+    <section class="hero">
+      <div class="hero-top">
+        <div>
+          <h1 class="hero-title" id="page-title">MSAI今日新闻</h1>
+          <p class="hero-desc">聚合多源中文资讯，结合规则去重、AI热点判断与代码控制排版，形成可在微信与网页端同步查看的完整新闻页面。</p>
+        </div>
+        <div class="hero-actions">
+          <a class="hero-btn" href="#hotspots-section">查看关键热点</a>
+          <a class="hero-btn" href="#news-section">浏览新闻正文</a>
+          <a class="hero-btn" href="#futures-section">查看期货观察</a>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-card">
+          <div class="meta-label">日期信息</div>
+          <div class="meta-value" id="meta-date">加载中</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">天气</div>
+          <div class="meta-value" id="meta-weather">天气待更新</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">新闻条数</div>
+          <div class="meta-value" id="meta-count">今日共0条</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">更新时间</div>
+          <div class="meta-value" id="meta-updated">等待生成</div>
+        </div>
+      </div>
+    </section>
 
-        // 动态加载新闻内容
-        const newsContainer = document.getElementById("news-container");
-        newsData.forEach(news => {
-            const newsElement = document.createElement("div");
-            newsElement.innerHTML = `
-                <h2><a href="${news.link}" target="_blank">${news.title}</a></h2>
-                <p>${news.summary}</p>
-            `;
-            newsContainer.appendChild(newsElement);
-        });
-    </script>
+    <div class="layout">
+      <div class="left-col">
+        <section class="card">
+          <div class="card-head">
+            <div class="card-title-wrap">
+              <h2 class="card-title">总览</h2>
+              <div class="card-sub">今日推送的核心概览</div>
+            </div>
+            <div class="badge">完整界面</div>
+          </div>
+          <div class="card-body">
+            <div class="summary-grid">
+              <div class="summary-box">
+                <div class="k">关键热点</div>
+                <div class="v" id="summary-hotspots">0</div>
+              </div>
+              <div class="summary-box">
+                <div class="k">正文新闻</div>
+                <div class="v" id="summary-news">0</div>
+              </div>
+              <div class="summary-box">
+                <div class="k">期货观察</div>
+                <div class="v" id="summary-futures">0</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" id="news-section">
+          <div class="card-head">
+            <div class="card-title-wrap">
+              <h2 class="card-title">新闻正文</h2>
+              <div class="card-sub">固定栏目 · 代码控制排版</div>
+            </div>
+            <div class="badge">正文</div>
+          </div>
+          <div class="card-body" id="news-sections"></div>
+        </section>
+      </div>
+
+      <div class="right-col">
+        <section class="card" id="hotspots-section">
+          <div class="card-head">
+            <div class="card-title-wrap">
+              <h2 class="card-title">关键热点</h2>
+              <div class="card-sub">由 AI 判断的重点话题</div>
+            </div>
+            <div class="badge">AI判断</div>
+          </div>
+          <div class="card-body">
+            <div class="hot-list" id="hotspots"></div>
+          </div>
+        </section>
+
+        <section class="card" id="futures-section">
+          <div class="card-head">
+            <div class="card-title-wrap">
+              <h2 class="card-title">期货观察</h2>
+              <div class="card-sub">点击图标查看历史价格</div>
+            </div>
+            <div class="badge">行情</div>
+          </div>
+          <div class="card-body">
+            <div class="future-list" id="futures"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="footer">本页适合作为微信测试号卡片跳转页面，由 GitHub Pages 托管。</div>
+  </div>
+
+  <script>
+    const CATEGORY_ORDER = [
+      '今日三大新闻',
+      'AI重点',
+      '国际/宏观重点',
+      '金融重点',
+      '突发新闻'
+    ];
+
+    function escapeHtml(str = '') {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function pctClass(pct) {
+      if (typeof pct !== 'number') return 'flat';
+      if (pct > 0) return 'up';
+      if (pct < 0) return 'down';
+      return 'flat';
+    }
+
+    function pctText(pct) {
+      if (typeof pct !== 'number') return '';
+      if (pct > 0) return `▲${pct.toFixed(2)}%`;
+      if (pct < 0) return `▼${Math.abs(pct).toFixed(2)}%`;
+      return '■0.00%';
+    }
+
+    function renderHotspots(hotspots = []) {
+      const root = document.getElementById('hotspots');
+      document.getElementById('summary-hotspots').textContent = hotspots.length;
+
+      if (!hotspots.length) {
+        root.innerHTML = '<div class="empty">暂无关键热点</div>';
+        return;
+      }
+
+      root.innerHTML = hotspots.map((item, idx) => `
+        <div class="hot-item">
+          <div class="hot-top">
+            <span class="rank">${idx + 1}</span>
+            <div class="hot-title">${escapeHtml(item.title || '')}</div>
+          </div>
+          <div class="hot-reason">判断：${escapeHtml(item.reason || '')}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderNews(items = []) {
+      const root = document.getElementById('news-sections');
+      document.getElementById('summary-news').textContent = items.length;
+
+      if (!items.length) {
+        root.innerHTML = '<div class="empty">暂无新闻内容</div>';
+        return;
+      }
+
+      const groups = new Map();
+      CATEGORY_ORDER.forEach(name => groups.set(name, []));
+      items.forEach(item => {
+        if (groups.has(item.category)) groups.get(item.category).push(item);
+      });
+
+      let counter = 1;
+      const html = CATEGORY_ORDER.map(category => {
+        const arr = groups.get(category) || [];
+        if (!arr.length) return '';
+
+        const inner = arr.map(item => `
+          <div class="news-item">
+            <div class="news-top">
+              <span class="news-no">${counter++}</span>
+              <div class="news-main">
+                <h3 class="news-title">
+                  ${escapeHtml(item.short_title || '')}
+                  ${item.link ? `<a class="news-link" href="${item.link}" target="_blank" rel="noopener noreferrer">🔗</a>` : ''}
+                </h3>
+                <div class="news-summary">摘要：${escapeHtml(item.summary || '')}</div>
+              </div>
+            </div>
+          </div>
+        `).join('');
+
+        return `
+          <div class="category-block">
+            <div class="category-chip">${escapeHtml(category)}</div>
+            <div class="news-list">${inner}</div>
+          </div>
+        `;
+      }).join('');
+
+      root.innerHTML = html || '<div class="empty">暂无新闻内容</div>';
+    }
+
+    function renderFutures(items = []) {
+      const root = document.getElementById('futures');
+      document.getElementById('summary-futures').textContent = items.length;
+
+      if (!items.length) {
+        root.innerHTML = '<div class="empty">暂无期货数据</div>';
+        return;
+      }
+
+      root.innerHTML = items.map(item => {
+        const cls = pctClass(item.pct);
+        return `
+          <div class="future-item">
+            <div class="future-row">
+              <div class="future-left">
+                <div class="future-name">
+                  ${escapeHtml(item.name || '')}
+                  ${item.history_url ? `<a href="${item.history_url}" target="_blank" rel="noopener noreferrer">📈</a>` : ''}
+                </div>
+                <div class="future-sub">点击图标查看历史价格</div>
+              </div>
+              <div class="future-right">
+                <div class="future-price ${cls}">${escapeHtml(item.price || '价格待更新')}</div>
+                <div class="future-pct ${cls}">${typeof item.pct === 'number' ? pctText(item.pct) : ''}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    async function loadPage() {
+      try {
+        const res = await fetch('./news-data.json?t=' + Date.now(), { cache: 'no-store' });
+        const data = await res.json();
+
+        document.getElementById('page-title').textContent = data.title || 'MSAI今日新闻';
+        document.getElementById('meta-date').textContent = data.date_text || '日期待更新';
+        document.getElementById('meta-count').textContent = `今日共${data.total_count || 0}条`;
+        document.getElementById('meta-weather').textContent = data.weather_text || '天气待更新';
+        document.getElementById('meta-updated').textContent = data.updated_at || '等待生成';
+
+        renderHotspots(data.hotspots || []);
+        renderNews(data.news_items || []);
+        renderFutures(data.futures || []);
+      } catch (err) {
+        console.error(err);
+        document.getElementById('news-sections').innerHTML = '<div class="empty">新闻数据加载失败，请检查 docs/news-data.json 是否已生成。</div>';
+      }
+    }
+
+    loadPage();
+  </script>
 </body>
 </html>
+```
+
+如果你要，我下一步直接给你一份 **`docs/news-data.json` 测试样例**，你先放进去就能看到完整界面效果。```

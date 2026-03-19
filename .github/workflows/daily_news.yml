@@ -36,7 +36,10 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
-
+          WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
+          WECHAT_SECRET: ${{ secrets.WECHAT_SECRET }}
+          WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
+          WECHAT_TEMPLATE_ID: ${{ secrets.WECHAT_TEMPLATE_ID }}
           MAX_FETCH_PER_API: 40
           MAX_FETCH_PER_RSS: 25
           MAX_NEWS: 12

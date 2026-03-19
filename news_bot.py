@@ -37,7 +37,8 @@ REPORT_CITY = os.getenv("REPORT_CITY", "汕头")
 REPORT_LUNAR_TEXT = os.getenv("REPORT_LUNAR_TEXT", "农历待设置")
 REPORT_WEATHER_TEXT = os.getenv("REPORT_WEATHER_TEXT", "").strip()
 
-# 你的 GitHub Pages 地址，例如：https://yourname.github.io/daily-news-push/
+# 这里填你真实的 GitHub Pages 地址
+# 例如：https://ms405755994-ops.github.io/daily-news-push/
 NEWS_PAGE_URL = os.getenv("NEWS_PAGE_URL", "").strip()
 
 RSS_FEEDS = [

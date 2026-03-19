@@ -44,125 +44,40 @@ RSS_FEEDS = [
 ]
 
 ALLOWED_DOMAINS = {
-    "people.com.cn",
-    "xinhuanet.com",
-    "news.cn",
-    "cctv.com",
-    "chinanews.com.cn",
-    "china.com.cn",
-    "cnr.cn",
-    "gmw.cn",
-    "china.org.cn",
-    "163.com",
-    "qq.com",
-    "news.qq.com",
-    "ifeng.com",
-    "sina.com.cn",
-    "news.sina.com.cn",
-    "finance.sina.com.cn",
-    "sohu.com",
-    "yicai.com",
-    "cls.cn",
-    "stcn.com",
-    "eastmoney.com",
-    "caixin.com",
-    "21jingji.com",
-    "nbd.com.cn",
-    "wallstreetcn.com",
-    "jrj.com.cn",
-    "cs.com.cn",
-    "cnstock.com",
-    "stockstar.com",
-    "hexun.com",
-    "eeo.com.cn",
-    "36kr.com",
-    "huxiu.com",
-    "jiemian.com",
-    "ithome.com",
-    "leiphone.com",
-    "qbitai.com",
-    "jiqizhixin.com",
-    "geekpark.net",
-    "pingwest.com",
-    "donews.com",
-    "cyzone.cn",
-    "thepaper.cn",
-    "guancha.cn",
-    "bjnews.com.cn",
-    "infzm.com",
-    "nfnews.com",
-    "ycwb.com",
-    "sznews.com",
-    "southcn.com",
-    "dayoo.com",
-    "jfdaily.com",
-    "whb.cn",
-    "shobserver.com",
-    "zaobao.com",
-    "rfi.fr",
-    "dw.com",
-    "bbc.com",
-    "ftchinese.com",
+    "people.com.cn", "xinhuanet.com", "news.cn", "cctv.com", "chinanews.com.cn",
+    "china.com.cn", "cnr.cn", "gmw.cn", "china.org.cn",
+    "163.com", "qq.com", "news.qq.com", "ifeng.com", "sina.com.cn",
+    "news.sina.com.cn", "finance.sina.com.cn", "sohu.com",
+    "yicai.com", "cls.cn", "stcn.com", "eastmoney.com", "caixin.com",
+    "21jingji.com", "nbd.com.cn", "wallstreetcn.com", "jrj.com.cn",
+    "cs.com.cn", "cnstock.com", "stockstar.com", "hexun.com", "eeo.com.cn",
+    "36kr.com", "huxiu.com", "jiemian.com", "ithome.com", "leiphone.com",
+    "qbitai.com", "jiqizhixin.com", "geekpark.net", "pingwest.com",
+    "donews.com", "cyzone.cn",
+    "thepaper.cn", "guancha.cn", "bjnews.com.cn", "infzm.com", "nfnews.com",
+    "ycwb.com", "sznews.com", "southcn.com", "dayoo.com", "jfdaily.com",
+    "whb.cn", "shobserver.com",
+    "zaobao.com", "rfi.fr", "dw.com", "bbc.com", "ftchinese.com",
     "voachinese.com",
 }
 
 SOURCE_WEIGHT = {
-    "news.cn": 12,
-    "xinhuanet.com": 12,
-    "people.com.cn": 12,
-    "cctv.com": 12,
-    "chinanews.com.cn": 11,
-    "cnr.cn": 11,
-    "gmw.cn": 10,
-    "china.com.cn": 10,
-    "caixin.com": 10,
-    "yicai.com": 10,
-    "cls.cn": 10,
-    "stcn.com": 10,
-    "eastmoney.com": 9,
-    "wallstreetcn.com": 9,
-    "21jingji.com": 9,
-    "nbd.com.cn": 9,
-    "eeo.com.cn": 8,
-    "cnstock.com": 8,
-    "cs.com.cn": 8,
-    "hexun.com": 7,
-    "jrj.com.cn": 7,
-    "ithome.com": 9,
-    "36kr.com": 8,
-    "huxiu.com": 8,
-    "jiemian.com": 8,
-    "leiphone.com": 8,
-    "qbitai.com": 8,
-    "jiqizhixin.com": 8,
-    "pingwest.com": 7,
-    "geekpark.net": 7,
-    "cyzone.cn": 7,
-    "finance.sina.com.cn": 8,
-    "news.sina.com.cn": 7,
-    "sina.com.cn": 7,
-    "news.qq.com": 7,
-    "qq.com": 6,
-    "163.com": 6,
-    "ifeng.com": 7,
-    "sohu.com": 5,
-    "thepaper.cn": 8,
-    "guancha.cn": 7,
-    "bjnews.com.cn": 7,
-    "infzm.com": 7,
-    "jfdaily.com": 7,
-    "shobserver.com": 7,
-    "whb.cn": 7,
-    "ycwb.com": 6,
-    "sznews.com": 6,
-    "southcn.com": 6,
-    "dayoo.com": 5,
-    "zaobao.com": 7,
-    "ftchinese.com": 7,
-    "rfi.fr": 6,
-    "dw.com": 6,
-    "bbc.com": 5,
-    "voachinese.com": 5,
+    "news.cn": 12, "xinhuanet.com": 12, "people.com.cn": 12, "cctv.com": 12,
+    "chinanews.com.cn": 11, "cnr.cn": 11, "gmw.cn": 10, "china.com.cn": 10,
+    "caixin.com": 10, "yicai.com": 10, "cls.cn": 10, "stcn.com": 10,
+    "eastmoney.com": 9, "wallstreetcn.com": 9, "21jingji.com": 9,
+    "nbd.com.cn": 9, "eeo.com.cn": 8, "cnstock.com": 8, "cs.com.cn": 8,
+    "hexun.com": 7, "jrj.com.cn": 7,
+    "ithome.com": 9, "36kr.com": 8, "huxiu.com": 8, "jiemian.com": 8,
+    "leiphone.com": 8, "qbitai.com": 8, "jiqizhixin.com": 8,
+    "pingwest.com": 7, "geekpark.net": 7, "cyzone.cn": 7,
+    "finance.sina.com.cn": 8, "news.sina.com.cn": 7, "sina.com.cn": 7,
+    "news.qq.com": 7, "qq.com": 6, "163.com": 6, "ifeng.com": 7, "sohu.com": 5,
+    "thepaper.cn": 8, "guancha.cn": 7, "bjnews.com.cn": 7, "infzm.com": 7,
+    "jfdaily.com": 7, "shobserver.com": 7, "whb.cn": 7, "ycwb.com": 6,
+    "sznews.com": 6, "southcn.com": 6, "dayoo.com": 5,
+    "zaobao.com": 7, "ftchinese.com": 7, "rfi.fr": 6, "dw.com": 6,
+    "bbc.com": 5, "voachinese.com": 5,
 }
 
 HOT_TOPICS = [
@@ -221,6 +136,14 @@ UA = {
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
 }
 
+ORDERED_CATEGORIES = [
+    "今日三大新闻",
+    "AI重点",
+    "国际/宏观重点",
+    "金融重点",
+    "突发新闻",
+]
+
 # ===============================
 # OpenRouter
 # ===============================
@@ -248,7 +171,7 @@ def ask_ai(prompt: str, temperature: float = 0.1) -> str:
         return ""
 
 # ===============================
-# 工具
+# 基础工具
 # ===============================
 
 def safe_text(text: str, max_len: int) -> str:
@@ -266,13 +189,8 @@ def china_now():
 
 def get_cn_weekday(dt: datetime) -> str:
     mapping = {
-        0: "星期一",
-        1: "星期二",
-        2: "星期三",
-        3: "星期四",
-        4: "星期五",
-        5: "星期六",
-        6: "星期日",
+        0: "星期一", 1: "星期二", 2: "星期三", 3: "星期四",
+        4: "星期五", 5: "星期六", 6: "星期日",
     }
     return mapping[dt.weekday()]
 
@@ -628,7 +546,7 @@ def process_news(news):
     return news
 
 # ===============================
-# AI：只产出结构化数据
+# AI：关键热点判断
 # ===============================
 
 def parse_json_array(text: str):
@@ -651,6 +569,54 @@ def parse_json_array(text: str):
         return data if isinstance(data, list) else []
     except Exception:
         return []
+
+def ai_pick_hotspots(news):
+    payload = []
+    for n in news[:12]:
+        payload.append({
+            "title": safe_text(n["title"], 80),
+            "score": n.get("score", 0),
+            "source_count": n.get("source_count", 1),
+            "is_breaking": n.get("is_breaking", False),
+            "event_key": n.get("event_key", ""),
+        })
+
+    prompt = f"""
+你是中文新闻编辑。请从候选事件中挑选 3 条“关键热点”。
+
+要求：
+1. 必须只使用中国大陆简体中文。
+2. 不允许使用繁体字。
+3. 只输出 JSON 数组，不要输出任何其他文字。
+4. 每项格式：
+[
+  {{
+    "title": "不超过16字",
+    "reason": "不超过22字"
+  }}
+]
+5. 优先选择突发、国际局势、金融波动、AI重大进展。
+6. 如果热点不足，最多输出 2 条；不要编造。
+
+候选事件：
+{json.dumps(payload, ensure_ascii=False, indent=2)}
+"""
+    raw = ask_ai(prompt, temperature=0.1)
+    items = parse_json_array(raw)
+
+    cleaned = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        title = safe_text(item.get("title") or "", 16)
+        reason = safe_text(item.get("reason") or "", 22)
+        if title and reason:
+            cleaned.append({"title": title, "reason": reason})
+    return cleaned[:3]
+
+# ===============================
+# AI：新闻结构化
+# ===============================
 
 def ai_select_structured_items(news):
     payload = []
@@ -768,16 +734,10 @@ def parse_investing_generic(text: str, label: str):
         return None
 
     pct = (current - prev) / prev * 100
-    return {
-        "price": f"{current:,.2f}",
-        "pct": pct,
-    }
+    return {"price": f"{current:,.2f}", "pct": pct}
 
 def parse_investing_short(text: str, label: str):
-    p1 = re.compile(
-        rf"The {re.escape(label)} price today is ([\d,\.]+)\.",
-        re.I
-    )
+    p1 = re.compile(rf"The {re.escape(label)} price today is ([\d,\.]+)\.", re.I)
     m1 = p1.search(text)
     if not m1:
         return None
@@ -797,10 +757,7 @@ def parse_investing_short(text: str, label: str):
         except Exception:
             pct = None
 
-    return {
-        "price": f"{current:,.2f}",
-        "pct": pct,
-    }
+    return {"price": f"{current:,.2f}", "pct": pct}
 
 def parse_sina_palm(text: str):
     m = re.search(r"棕榈油连续\s*([\d,]+\.\d+)\s*([+\-]?\d+(?:\.\d+)?%)", text)
@@ -813,10 +770,7 @@ def parse_sina_palm(text: str):
         pct = float(m.group(2).replace("%", ""))
     except Exception:
         pct = None
-    return {
-        "price": f"{current:,.2f}",
-        "pct": pct,
-    }
+    return {"price": f"{current:,.2f}", "pct": pct}
 
 def fetch_single_future(item: dict):
     html = fetch_text(item["quote_url"])
@@ -858,13 +812,15 @@ def render_futures_footer():
 # 代码控制排版
 # ===============================
 
-ORDERED_CATEGORIES = [
-    "今日三大新闻",
-    "AI重点",
-    "国际/宏观重点",
-    "金融重点",
-    "突发新闻",
-]
+def render_hotspots(hotspots):
+    if not hotspots:
+        return ""
+    lines = ["## 关键热点"]
+    for i, item in enumerate(hotspots, 1):
+        lines.append(f"{i}. **{item['title']}**")
+        lines.append(f"判断：{item['reason']}")
+        lines.append("")
+    return "\n".join(lines).strip()
 
 def render_body(items):
     groups = {k: [] for k in ORDERED_CATEGORIES}
@@ -902,6 +858,7 @@ def render_fallback(news):
     return body, idx - 1
 
 def build_final_message(news):
+    hotspots = ai_pick_hotspots(news)
     structured = ai_select_structured_items(news)
 
     if structured:
@@ -909,7 +866,22 @@ def build_final_message(news):
     else:
         body, item_count = render_fallback(news)
 
-    final_text = f"{get_report_title()}\n\n今日共{item_count}条\n\n{body}{render_futures_footer()}"
+    hotspot_block = render_hotspots(hotspots)
+    parts = [
+        get_report_title(),
+        "",
+        f"今日共{item_count}条",
+        "",
+    ]
+
+    if hotspot_block:
+        parts.append(hotspot_block)
+        parts.append("")
+
+    parts.append(body)
+    parts.append(render_futures_footer())
+
+    final_text = "\n".join(parts)
     if len(final_text) > 3900:
         final_text = final_text[:3900] + "\n\n（内容过长已截断）"
     return final_text
@@ -965,6 +937,7 @@ def push_wechat_test(content: str):
         data = {
             "touser": WECHAT_OPENID,
             "template_id": WECHAT_TEMPLATE_ID,
+            "url": "https://www.baidu.com",
             "data": {
                 "first": {
                     "value": "MSAI今日新闻",
@@ -979,7 +952,7 @@ def push_wechat_test(content: str):
                     "color": "#173177"
                 },
                 "remark": {
-                    "value": "测试推送成功",
+                    "value": "点击查看完整内容",
                     "color": "#888888"
                 }
             }
@@ -1015,11 +988,8 @@ def main():
     message = build_final_message(news)
     print(message)
 
-    # 企业微信群机器人推送（完整内容）
     push_wechat(message)
-
-    # 微信测试号推送（先测试通路）
-    push_wechat_test("测试成功")
+    push_wechat_test("今日新闻已生成，点击查看")
 
 if __name__ == "__main__":
     main()

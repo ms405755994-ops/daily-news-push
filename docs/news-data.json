@@ -1,76 +1,76 @@
 {
-  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：天气待更新",
+  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：阴 18°C",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
-  "weather_text": "汕头：天气待更新",
+  "weather_text": "汕头：阴 18°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "以色列袭击黎巴嫩升级致伤亡",
-      "reason": "中东局势紧张，冲突升级"
+      "title": "以色列袭黎巴嫩升级致伤亡",
+      "reason": "以色列对黎巴嫩冲突升级"
     },
     {
-      "title": "英国央行全票维持基准利率3.75...",
-      "reason": "全球金融关注英国利率决定"
+      "title": "英央行维持利率3.75%",
+      "reason": "英国央行维持利率不变"
     },
     {
-      "title": "探访AI机器人学校 看硅基生物成...",
-      "reason": "AI机器人教育新探索引关注"
+      "title": "AI机器人学校探访",
+      "reason": "AI机器人教育新探索"
     }
   ],
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "德民调：多数反对美以袭伊朗",
-      "summary": "调查显示德国多数民众不支持美以对伊朗的军事行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589443.shtml"
+      "short_title": "中国科学家克隆野生稻长寿基因",
+      "summary": "多年生水稻有望实现，提升粮食安全",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-20/10589717.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中方警示中东局势陷危机",
-      "summary": "中国代表称中东局势正被推向危险深渊",
+      "short_title": "中国代表警示中东局势危机",
+      "summary": "中东局势被推向危险深渊",
       "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589441.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "以军空袭黎巴嫩致大规模伤亡",
-      "summary": "以色列对黎巴嫩多地发动袭击，已致3400人伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589431.shtml"
-    },
-    {
       "category": "AI重点",
-      "short_title": "AI机器人学校探访实录",
-      "summary": "走进AI机器人“学校”，观察硅基生物成长路径",
+      "short_title": "AI机器人学校探访硅基生物成长",
+      "summary": "机器人“成人”实验展示前沿技术",
       "link": "https://www.chinanews.com.cn/tp/2026/03-19/10589667.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美专家警示油价升致衰退风险",
-      "summary": "高油价或使美国经济陷入衰退概率上升",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589396.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "英央行全票维持3.75%利率",
-      "summary": "英国央行全票决定基准利率保持在3.75%",
+      "short_title": "英国央行维持利率不变",
+      "summary": "基准利率3.75%全票通过",
       "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589645.shtml"
     },
     {
+      "category": "国际/宏观重点",
+      "short_title": "德国民调多数反对美以袭伊朗",
+      "summary": "多数德国人不支持对伊朗军事行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589443.shtml"
+    },
+    {
       "category": "金融重点",
-      "short_title": "阿里腾讯财报：AI驱动利润增长",
-      "summary": "阿里巴巴与腾讯公布财报，AI业务提升盈利",
+      "short_title": "阿里腾讯财报显示AI驱动盈利",
+      "summary": "AI技术提升业绩，利润同步增长",
       "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589648.shtml"
     },
     {
-      "category": "突发新闻",
-      "short_title": "伊武装有条件暂停美使馆袭击",
-      "summary": "伊拉克武装宣布在5天内有条件暂停对美使馆的攻击",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589418.shtml"
+      "category": "金融重点",
+      "short_title": "美国国债突破39万亿美元",
+      "summary": "债务规模创历史新高，增长令人担忧",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589396.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗指责美盟“钱袋子”被炸",
-      "summary": "伊朗谴责美国盟友导致伊朗“钱袋子”设施被炸",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
+      "short_title": "以色列空袭黎巴嫩致大量伤亡",
+      "summary": "伤亡3400人，百万人流离失所",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589431.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "伊拉克武装有条件暂停美使馆袭击",
+      "summary": "宣布暂停5天，局势暂缓紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589418.shtml"
     }
   ],
   "futures": [
@@ -105,5 +105,5 @@
       "pct": null
     }
   ],
-  "updated_at": "2026-03-19 18:08:49"
+  "updated_at": "2026-03-19 18:19:58"
 }

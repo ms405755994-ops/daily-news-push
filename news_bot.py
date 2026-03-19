@@ -6,6 +6,7 @@ import requests
 import feedparser
 from difflib import SequenceMatcher
 from urllib.parse import urlparse
+from datetime import datetime, timezone, timedelta
 from openai import OpenAI
 
 # ===============================
@@ -20,25 +21,24 @@ WECHAT_WEBHOOK = os.getenv("WECHAT_WEBHOOK", "")
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-120b")
 
 MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "40"))
-MAX_NEWS = int(os.getenv("MAX_NEWS", "15"))
+MAX_FETCH_PER_RSS = int(os.getenv("MAX_FETCH_PER_RSS", "25"))
+MAX_NEWS = int(os.getenv("MAX_NEWS", "12"))
 REQUEST_TIMEOUT = 30
 
-# RSS 每个源最多抓多少条
-MAX_FETCH_PER_RSS = int(os.getenv("MAX_FETCH_PER_RSS", "25"))
+# 标题配置
+REPORT_CITY = os.getenv("REPORT_CITY", "汕头")
+REPORT_LUNAR_TEXT = os.getenv("REPORT_LUNAR_TEXT", "农历待设置")
+REPORT_WEATHER_TEXT = os.getenv("REPORT_WEATHER_TEXT", "").strip()
 
-# RSS 扩源：先用较稳的公开源
+# RSS 源（可继续加）
 RSS_FEEDS = [
-    # 中新网（官方 RSS 栏目页公开列出）
     {"url": "https://www.chinanews.com.cn/rss/scroll-news.xml", "source": "中新网-即时"},
     {"url": "https://www.chinanews.com.cn/rss/world.xml", "source": "中新网-国际"},
     {"url": "https://www.chinanews.com.cn/rss/finance.xml", "source": "中新网-财经"},
     {"url": "https://www.chinanews.com.cn/rss/it.xml", "source": "中新网-IT"},
-
-    # IT之家（官方公开说明 RSS 为 ithome.com/rss）
     {"url": "https://www.ithome.com/rss/", "source": "IT之家"},
 ]
 
-# 中文源白名单：尽量宽，但仍控制在中文语境
 ALLOWED_DOMAINS = {
     # 央媒/权威
     "people.com.cn",
@@ -114,7 +114,6 @@ ALLOWED_DOMAINS = {
 }
 
 SOURCE_WEIGHT = {
-    # 央媒/权威
     "news.cn": 12,
     "xinhuanet.com": 12,
     "people.com.cn": 12,
@@ -124,7 +123,6 @@ SOURCE_WEIGHT = {
     "gmw.cn": 10,
     "china.com.cn": 10,
 
-    # 主流财经
     "caixin.com": 10,
     "yicai.com": 10,
     "cls.cn": 10,
@@ -139,7 +137,6 @@ SOURCE_WEIGHT = {
     "hexun.com": 7,
     "jrj.com.cn": 7,
 
-    # 科技/AI
     "ithome.com": 9,
     "36kr.com": 8,
     "huxiu.com": 8,
@@ -151,7 +148,6 @@ SOURCE_WEIGHT = {
     "geekpark.net": 7,
     "cyzone.cn": 7,
 
-    # 综合门户
     "finance.sina.com.cn": 8,
     "news.sina.com.cn": 7,
     "sina.com.cn": 7,
@@ -161,7 +157,6 @@ SOURCE_WEIGHT = {
     "ifeng.com": 7,
     "sohu.com": 5,
 
-    # 其他中文媒体
     "thepaper.cn": 8,
     "guancha.cn": 7,
     "bjnews.com.cn": 7,
@@ -174,7 +169,6 @@ SOURCE_WEIGHT = {
     "southcn.com": 6,
     "dayoo.com": 5,
 
-    # 国际中文
     "zaobao.com": 7,
     "ftchinese.com": 7,
     "rfi.fr": 6,
@@ -226,17 +220,91 @@ def ask_ai(prompt: str, temperature: float = 0.2) -> str:
         return ""
 
 # ===============================
-# 工具函数
+# 基础工具
 # ===============================
 
 def safe_text(text: str, max_len: int) -> str:
     text = (text or "").strip()
     return text if len(text) <= max_len else text[:max_len] + "..."
 
-def shorten_url(url: str, max_len: int = 160) -> str:
-    if not url:
-        return ""
-    return url if len(url) <= max_len else url[:max_len] + "..."
+def is_valid_click_url(url: str) -> bool:
+    return isinstance(url, str) and url.startswith(("http://", "https://"))
+
+def safe_link(url: str) -> str:
+    return url if is_valid_click_url(url) else ""
+
+def china_now():
+    return datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
+
+def get_cn_weekday(dt: datetime) -> str:
+    mapping = {
+        0: "星期一",
+        1: "星期二",
+        2: "星期三",
+        3: "星期四",
+        4: "星期五",
+        5: "星期六",
+        6: "星期日",
+    }
+    return mapping[dt.weekday()]
+
+def fetch_weather_text():
+    if REPORT_WEATHER_TEXT:
+        return REPORT_WEATHER_TEXT
+
+    # 可选自动天气；失败则用兜底文案
+    try:
+        url = f"https://wttr.in/{REPORT_CITY}?format=j1"
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+
+        current = (data.get("current_condition") or [{}])[0]
+        temp_c = (current.get("temp_C") or "").strip()
+        desc_list = current.get("lang_zh") or current.get("weatherDesc") or []
+        desc = ""
+
+        if desc_list and isinstance(desc_list, list):
+            first = desc_list[0]
+            if isinstance(first, dict):
+                desc = first.get("value", "").strip()
+
+        if desc and temp_c:
+            return f"{REPORT_CITY}：{desc} {temp_c}°C"
+        if temp_c:
+            return f"{REPORT_CITY}：{temp_c}°C"
+    except Exception as e:
+        print("Weather fetch error:", e)
+
+    return f"{REPORT_CITY}：天气待更新"
+
+def get_today_header():
+    now_cn = china_now()
+    return f"{now_cn.year}年{now_cn.month}月{now_cn.day}日 {get_cn_weekday(now_cn)}（{REPORT_LUNAR_TEXT}）"
+
+def get_report_title():
+    return f"# MSAI今日新闻｜{get_today_header()}｜{fetch_weather_text()}"
+
+def normalize_title(title: str) -> str:
+    t = (title or "").lower()
+    for ch in ["|", "-", "—", "_", ":", "：", ",", "，", ".", "。", "(", ")", "[", "]", "'", '"',
+               "（", "）", "【", "】", "！", "?", "？", "/", "\\", "｜", "·"]:
+        t = t.replace(ch, " ")
+    return " ".join(t.split())
+
+def split_words(title: str):
+    text = normalize_title(title)
+    parts = re.split(r"\s+", text)
+    words = {p for p in parts if p and len(p) >= 2}
+
+    for topic in HOT_TOPICS:
+        if topic.lower() in text:
+            words.add(topic.lower())
+
+    return words
+
+def title_similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, normalize_title(a), normalize_title(b)).ratio()
 
 def is_chinese_link(url: str) -> bool:
     if not url:
@@ -268,28 +336,6 @@ def is_chinese_link(url: str) -> bool:
         return True
 
     return False
-
-def normalize_title(title: str) -> str:
-    t = (title or "").lower()
-    for ch in ["|", "-", "—", "_", ":", "：", ",", "，", ".", "。", "(", ")", "[", "]", "'", '"',
-               "（", "）", "【", "】", "！", "?", "？", "/", "\\", "｜", "·"]:
-        t = t.replace(ch, " ")
-    return " ".join(t.split())
-
-def split_words(title: str):
-    text = normalize_title(title)
-    parts = re.split(r"\s+", text)
-    words = {p for p in parts if p and len(p) >= 2}
-
-    # 把热点中文词也硬加进去，增强聚类
-    for topic in HOT_TOPICS:
-        if topic.lower() in text:
-            words.add(topic.lower())
-
-    return words
-
-def title_similarity(a: str, b: str) -> float:
-    return SequenceMatcher(None, normalize_title(a), normalize_title(b)).ratio()
 
 def get_source_weight(link: str) -> int:
     url = (link or "").lower()
@@ -347,11 +393,9 @@ def event_key(title: str) -> str:
     t = normalize_title(title)
     matched = [k.lower() for k in HOT_TOPICS if k.lower() in t]
 
-    # 先用热点主题做键
     if matched:
         return "|".join(sorted(matched[:3]))
 
-    # 否则退化到前几个高信息词
     words = list(split_words(title))
     words = sorted(words, key=lambda x: (-len(x), x))
     return "|".join(words[:3]) if words else t[:30]
@@ -459,7 +503,7 @@ def fetch_rss():
     return all_items
 
 # ===============================
-# 去重
+# 去重与过滤
 # ===============================
 
 def exact_deduplicate(news):
@@ -480,17 +524,13 @@ def exact_deduplicate(news):
 
     return unique
 
-# ===============================
-# 过滤中文源
-# ===============================
-
 def filter_chinese_news(news):
     chinese_news = [n for n in news if is_chinese_link(n.get("link", ""))]
     print("中文链接新闻数量:", len(chinese_news))
     return chinese_news
 
 # ===============================
-# 聚类与压重
+# 规则聚类与压重
 # ===============================
 
 def pick_best_link(items):
@@ -592,15 +632,16 @@ def process_news(news):
 
 def ai_render_digest(news):
     if not news:
-        return "# 今日新闻雷达\n\n暂无可推送的中文新闻"
+        return f"{get_report_title()}\n\n今日共0条\n\n暂无可推送的中文新闻"
 
     payload = []
-    for n in news:
+    for idx, n in enumerate(news, 1):
         payload.append({
+            "index": idx,
             "title": safe_text(n["title"], 80),
             "source_count": n.get("source_count", 1),
             "candidate_titles": [safe_text(x, 80) for x in n.get("all_titles", [])[:6]],
-            "main_link": shorten_url(n["link"], 160),
+            "main_link": safe_link(n["link"]),
             "score": n.get("score", 0),
             "is_breaking": n.get("is_breaking", False),
             "event_key": n.get("event_key", ""),
@@ -620,22 +661,25 @@ def ai_render_digest(news):
    - 突发新闻
 4. 同一事件不要重复写
 5. 如果多个候选事件明显属于同一主题，只保留其中信息量最大的一条
-6. 每条内容格式固定为：
-   **标题**：不超过18字，必须重写成简洁新闻标题，不能直接照抄原始长标题
+6. 顶部标题固定为：{get_report_title()}
+7. 标题下方单独输出一行：今日共12条
+8. 今日三大新闻只保留3条
+9. 其他每个板块最多2条
+10. 总新闻条数控制为12条以内，优先输出最重要的12条
+11. 每条内容格式固定为：
+   序号. **标题** [🔗](main_link)
    摘要：一句话，不超过26字
-   链接：原始 main_link
-7. 只使用我提供的数据，不要编造事实
-8. 链接必须直接使用我给出的 main_link，不要改写
-9. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
-10. 如果某个板块没有内容，可以省略该板块
-11. 顶部标题固定为：# 今日新闻雷达
-12. 今日三大新闻只保留3条
-13. 其他每个板块最多2条
-14. 全文总长度控制在3000字以内
-15. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻
-16. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻
-17. 不要输出任何说明、注释、免责声明
-18. 每条链接格式严格写成：链接：<main_link>
+12. 标题必须重写成简洁新闻标题，不超过18字，不能直接照抄原始长标题
+13. 链接不要单独另起一行，必须放在标题尾部，格式固定为 [🔗](main_link)
+14. 每条新闻都必须带序号
+15. 只使用我提供的数据，不要编造事实
+16. 链接必须直接使用我给出的 main_link，不要改写，不要缩短，不要替换
+17. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
+18. 如果某个板块没有内容，可以省略该板块
+19. 全文总长度控制在3000字以内
+20. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻
+21. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻
+22. 不要输出任何说明、注释、免责声明
 
 候选事件：
 {json.dumps(payload, ensure_ascii=False, indent=2)}
@@ -648,10 +692,14 @@ def ai_render_digest(news):
             result = result[:3800] + "\n\n（内容过长已截断）"
         return result
 
-    lines = ["# 今日新闻雷达", "", "## 今日三大新闻"]
+    lines = [get_report_title(), "", "今日共12条", "", "## 今日三大新闻"]
     for i, n in enumerate(news[:3], 1):
-        lines.append(f"{i}. **{safe_text(n['title'], 18)}**")
-        lines.append(f"链接：{shorten_url(n['link'], 160)}")
+        link = safe_link(n["link"])
+        if link:
+            lines.append(f"{i}. **{safe_text(n['title'], 18)}** [🔗]({link})")
+        else:
+            lines.append(f"{i}. **{safe_text(n['title'], 18)}**")
+        lines.append("摘要：")
         lines.append("")
     return "\n".join(lines)
 

@@ -1,465 +1,61 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MSAI今日新闻</title>
+  <meta charset="UTF-8">
+  <title>今日新闻推送</title>
   <style>
-    :root {
-      --bg: #f6f8fb;
-      --card: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
-      --line: #e5e7eb;
-      --brand: #2563eb;
-      --brand-soft: #eff6ff;
-      --up: #dc2626;
-      --down: #16a34a;
-      --chip: #111827;
-      --shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
-      --radius: 18px;
-    }
-
-    * { box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
-      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
-      color: var(--text);
-    }
-
-    a { color: var(--brand); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    .page {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 24px 16px 64px;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
-      color: #fff;
-      border-radius: 24px;
-      padding: 24px;
-      box-shadow: var(--shadow);
-      margin-bottom: 20px;
-    }
-
-    .hero-title {
-      font-size: 30px;
-      font-weight: 800;
-      margin: 0 0 8px;
-      letter-spacing: .5px;
-    }
-
-    .hero-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      font-size: 14px;
-      color: rgba(255,255,255,.92);
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: rgba(255,255,255,.14);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: 999px;
-      padding: 8px 12px;
-      backdrop-filter: blur(6px);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1.1fr .9fr;
-      gap: 20px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid rgba(15,23,42,.05);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .section-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 18px;
-      border-bottom: 1px solid var(--line);
-      background: #fff;
-    }
-
-    .section-title {
-      margin: 0;
-      font-size: 18px;
-      font-weight: 800;
-    }
-
-    .section-sub {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .card-body { padding: 16px 18px; }
-
-    .hot-list, .news-list, .futures-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .hot-item, .future-item {
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 14px;
-      background: #fff;
-    }
-
-    .hot-rank {
-      display: inline-flex;
-      width: 28px;
-      height: 28px;
-      align-items: center;
-      justify-content: center;
-      font-size: 13px;
-      font-weight: 800;
-      border-radius: 999px;
-      background: var(--brand-soft);
-      color: var(--brand);
-      margin-right: 8px;
-    }
-
-    .hot-title {
-      font-size: 16px;
-      font-weight: 800;
-      line-height: 1.45;
-    }
-
-    .hot-reason {
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 14px;
+      font-family: Arial, sans-serif;
+      margin: 20px;
       line-height: 1.6;
     }
-
-    .section-block {
-      margin-bottom: 18px;
-    }
-
-    .section-block:last-child { margin-bottom: 0; }
-
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      padding: 7px 12px;
-      border-radius: 999px;
-      background: #111827;
-      color: #fff;
-      font-size: 13px;
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-
     .news-item {
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 14px;
-      background: #fff;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
     }
-
-    .news-top {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-    }
-
-    .news-no {
-      flex: 0 0 auto;
-      width: 28px;
-      height: 28px;
-      border-radius: 999px;
-      background: var(--brand-soft);
-      color: var(--brand);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 13px;
-      margin-top: 2px;
-    }
-
     .news-title {
-      margin: 0;
-      font-size: 16px;
-      line-height: 1.45;
-      font-weight: 800;
-      color: var(--text);
+      font-size: 1.4em;
+      font-weight: bold;
     }
-
     .news-summary {
-      margin: 8px 0 0 38px;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.65;
-    }
-
-    .news-link {
-      margin-left: 8px;
-      font-size: 14px;
-      vertical-align: 1px;
-    }
-
-    .future-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .future-name {
-      font-weight: 800;
-      font-size: 15px;
-    }
-
-    .future-meta {
       margin-top: 6px;
-      color: var(--muted);
-      font-size: 13px;
+      color: #444;
     }
-
-    .future-price {
-      font-size: 16px;
-      font-weight: 800;
-      white-space: nowrap;
+    .news-link {
+      margin-top: 6px;
+      color: #0066cc;
+      text-decoration: none;
     }
-
-    .up { color: var(--up); }
-    .down { color: var(--down); }
-    .flat { color: var(--muted); }
-
-    .empty {
-      color: var(--muted);
-      font-size: 14px;
-      padding: 14px 0;
-    }
-
-    .footer-note {
-      text-align: center;
-      color: var(--muted);
-      font-size: 12px;
-      margin-top: 18px;
-    }
-
-    @media (max-width: 860px) {
-      .grid { grid-template-columns: 1fr; }
-      .hero-title { font-size: 24px; }
+    .news-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="page">
-    <section class="hero">
-      <h1 class="hero-title" id="page-title">MSAI今日新闻</h1>
-      <div class="hero-meta">
-        <span class="pill" id="meta-date">加载中</span>
-        <span class="pill" id="meta-count">今日共0条</span>
-        <span class="pill" id="meta-weather">天气待更新</span>
-      </div>
-    </section>
-
-    <div class="grid">
-      <div class="card">
-        <div class="section-head">
-          <h2 class="section-title">新闻正文</h2>
-          <div class="section-sub">代码控制排版</div>
-        </div>
-        <div class="card-body" id="news-sections"></div>
-      </div>
-
-      <div style="display:flex;flex-direction:column;gap:20px;">
-        <div class="card">
-          <div class="section-head">
-            <h2 class="section-title">关键热点</h2>
-            <div class="section-sub">AI判断</div>
-          </div>
-          <div class="card-body">
-            <div class="hot-list" id="hotspots"></div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="section-head">
-            <h2 class="section-title">期货观察</h2>
-            <div class="section-sub">点击查看历史价格</div>
-          </div>
-          <div class="card-body">
-            <div class="futures-list" id="futures"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-note">本页由 GitHub Pages 托管。</div>
-  </div>
+  <h1>今日全球新闻雷达</h1>
+  <div id="news-container"></div>
 
   <script>
-    const CATEGORY_ORDER = [
-      '今日三大新闻',
-      'AI重点',
-      '国际/宏观重点',
-      '金融重点',
-      '突发新闻'
-    ];
-
-    function escapeHtml(str = '') {
-      return str
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
-    }
-
-    function pctClass(pct) {
-      if (typeof pct !== 'number') return 'flat';
-      if (pct > 0) return 'up';
-      if (pct < 0) return 'down';
-      return 'flat';
-    }
-
-    function pctText(pct) {
-      if (typeof pct !== 'number') return '';
-      if (pct > 0) return `▲${pct.toFixed(2)}%`;
-      if (pct < 0) return `▼${Math.abs(pct).toFixed(2)}%`;
-      return '■0.00%';
-    }
-
-    function renderHotspots(hotspots = []) {
-      const root = document.getElementById('hotspots');
-      if (!hotspots.length) {
-        root.innerHTML = '<div class="empty">暂无关键热点</div>';
-        return;
-      }
-
-      root.innerHTML = hotspots.map((item, idx) => `
-        <div class="hot-item">
-          <div><span class="hot-rank">${idx + 1}</span><span class="hot-title">${escapeHtml(item.title || '')}</span></div>
-          <div class="hot-reason">判断：${escapeHtml(item.reason || '')}</div>
-        </div>
-      `).join('');
-    }
-
-    function renderNews(items = []) {
-      const root = document.getElementById('news-sections');
-      if (!items.length) {
-        root.innerHTML = '<div class="empty">暂无新闻内容</div>';
-        return;
-      }
-
-      const groups = new Map();
-      CATEGORY_ORDER.forEach(name => groups.set(name, []));
-      items.forEach(item => {
-        if (groups.has(item.category)) groups.get(item.category).push(item);
-      });
-
-      let counter = 1;
-      const html = CATEGORY_ORDER.map(category => {
-        const arr = groups.get(category) || [];
-        if (!arr.length) return '';
-        const inner = arr.map(item => `
-          <div class="news-item">
-            <div class="news-top">
-              <span class="news-no">${counter++}</span>
-              <div>
-                <h3 class="news-title">${escapeHtml(item.short_title || '')}
-                  ${item.link ? `<a class="news-link" href="${item.link}" target="_blank" rel="noopener noreferrer">🔗</a>` : ''}
-                </h3>
-              </div>
-            </div>
-            <div class="news-summary">摘要：${escapeHtml(item.summary || '')}</div>
-          </div>
-        `).join('');
-
-        return `
-          <div class="section-block">
-            <div class="chip">${escapeHtml(category)}</div>
-            <div class="news-list">${inner}</div>
-          </div>
-        `;
-      }).join('');
-
-      root.innerHTML = html || '<div class="empty">暂无新闻内容</div>';
-    }
-
-    function renderFutures(items = []) {
-      const root = document.getElementById('futures');
-      if (!items.length) {
-        root.innerHTML = '<div class="empty">暂无期货数据</div>';
-        return;
-      }
-
-      root.innerHTML = items.map(item => {
-        const cls = pctClass(item.pct);
-        return `
-          <div class="future-item">
-            <div class="future-row">
-              <div>
-                <div class="future-name">${escapeHtml(item.name || '')} ${item.history_url ? `<a href="${item.history_url}" target="_blank" rel="noopener noreferrer">📈</a>` : ''}</div>
-                <div class="future-meta">点击图标查看历史价格</div>
-              </div>
-              <div class="future-price ${cls}">
-                ${escapeHtml(item.price || '价格待更新')}
-                ${typeof item.pct === 'number' ? `<span style="font-size:13px; margin-left:6px;">${pctText(item.pct)}</span>` : ''}
-              </div>
-            </div>
-          </div>
-        `;
-      }).join('');
-    }
-
-    async function loadPage() {
-      try {
-        const res = await fetch('./news-data.json?t=' + Date.now(), { cache: 'no-store' });
-        const data = await res.json();
-
-        document.getElementById('page-title').textContent = data.title || 'MSAI今日新闻';
-        document.getElementById('meta-date').textContent = data.date_text || '日期待更新';
-        document.getElementById('meta-count').textContent = `今日共${data.total_count || 0}条`;
-        document.getElementById('meta-weather').textContent = data.weather_text || '天气待更新';
-
-        renderHotspots(data.hotspots || []);
-        renderNews(data.news_items || []);
-        renderFutures(data.futures || []);
-      } catch (err) {
+    fetch("/api/news")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("news-container");
+        data.forEach((n, index) => {
+          const div = document.createElement("div");
+          div.className = "news-item";
+          div.innerHTML = `
+            <div class="news-title">${index+1}. ${n.title}</div>
+            <div class="news-summary">${n.summary || ""}</div>
+            <a class="news-link" href="${n.link}" target="_blank">阅读全文</a>
+          `;
+          container.appendChild(div);
+        });
+      })
+      .catch(err => {
         console.error(err);
-        document.getElementById('news-sections').innerHTML = '<div class="empty">新闻数据加载失败，请检查 docs/news-data.json 是否已生成。</div>';
-      }
-    }
-
-    loadPage();
+        document.getElementById("news-container").innerText = "无法获取新闻内容";
+      });
   </script>
 </body>
 </html>
-```
-
-你接下来还差两步：
-
-第一步，把这份页面保存成：
-```text
-/docs/index.html
-```
-
-第二步，让 `news_bot.py` 在每次跑完后额外输出一个：
-```text
-/docs/news-data.json
-```
-
-这样你再开 GitHub Pages，把 `/docs` 作为发布目录，微信测试号卡片里的 `url` 改成你的 GitHub Pages 地址，就能点开看到你的新闻页面。
-
-我下一条可以直接把 **“生成 docs/news-data.json 的 `news_bot.py` 汇总版”** 也给你。

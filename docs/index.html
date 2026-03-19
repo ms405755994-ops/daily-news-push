@@ -119,40 +119,46 @@ fetch("./news-data.json")
 
     document.getElementById("title").innerText = data.title;
 
-    // 热点
+    // ===== 热点 =====
     let hotspotsHtml = "";
     data.hotspots.forEach(item => {
       hotspotsHtml += `
         <div class="news-item">
           <div class="news-title">${item.title}</div>
-          <div class="news-summary">${item.summary}</div>
+          <div class="news-summary">${item.summary || ""}</div>
         </div>
       `;
     });
     document.getElementById("hotspots").innerHTML = hotspotsHtml;
 
-    // 新闻正文
+    // ===== 新闻 =====
     let newsHtml = "";
     data.news_items.forEach((item, index) => {
       newsHtml += `
         <div class="news-item">
           <div class="news-title">
             ${index + 1}. ${item.title}
-            <a class="link" href="${item.url}" target="_blank">🔗</a>
+            <a class="link" href="${item.link}" target="_blank">🔗</a>
           </div>
-          <div class="news-summary">${item.summary}</div>
+          <div class="news-summary">${item.summary || ""}</div>
         </div>
       `;
     });
     document.getElementById("news").innerHTML = newsHtml;
 
-    // 期货
+    // ===== 期货 =====
     let futuresHtml = "";
     data.futures.forEach(item => {
+      let trendIcon = "";
+
+      if (item.trend === "up") trendIcon = "📈";
+      else if (item.trend === "down") trendIcon = "📉";
+      else trendIcon = "➖";
+
       futuresHtml += `
         <div class="news-item">
           <div class="news-title">
-            ${item.name} ${item.price} ${item.change}
+            ${item.name} ${item.price} ${trendIcon}
           </div>
         </div>
       `;
@@ -162,7 +168,7 @@ fetch("./news-data.json")
   })
   .catch(err => {
     document.getElementById("news").innerHTML =
-      "❌ 数据加载失败，请检查 news-data.json";
+      "❌ 数据加载失败";
     console.error(err);
   });
 </script>

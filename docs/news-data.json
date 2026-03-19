@@ -1,0 +1,29 @@
+{
+  "title": "MSAI今日新闻｜测试页",
+  "date_text": "2026年3月19日 星期四（农历二月初一）",
+  "weather_text": "汕头：多云 22°C",
+  "total_count": 1,
+  "hotspots": [
+    {
+      "title": "测试热点",
+      "reason": "这是一个测试页面"
+    }
+  ],
+  "news_items": [
+    {
+      "category": "今日三大新闻",
+      "short_title": "测试新闻",
+      "summary": "这是一个测试内容",
+      "link": "https://www.example.com"
+    }
+  ],
+  "futures": [
+    {
+      "name": "WTI原油",
+      "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
+      "price": "72.10",
+      "pct": 1.23
+    }
+  ],
+  "updated_at": "2026-03-19 10:00:00"
+}

@@ -17,6 +17,7 @@ NEWS_DATA_KEY = os.getenv("NEWS_DATA_KEY", "")
 GNEWS_KEY = os.getenv("GNEWS_KEY", "")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 WECHAT_WEBHOOK = os.getenv("WECHAT_WEBHOOK", "")
+AMAP_KEY = os.getenv("AMAP_KEY", "")
 
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-120b")
 
@@ -25,12 +26,11 @@ MAX_FETCH_PER_RSS = int(os.getenv("MAX_FETCH_PER_RSS", "25"))
 MAX_NEWS = int(os.getenv("MAX_NEWS", "12"))
 REQUEST_TIMEOUT = 30
 
-# 标题配置
 REPORT_CITY = os.getenv("REPORT_CITY", "汕头")
 REPORT_LUNAR_TEXT = os.getenv("REPORT_LUNAR_TEXT", "农历待设置")
 REPORT_WEATHER_TEXT = os.getenv("REPORT_WEATHER_TEXT", "").strip()
 
-# RSS 源（可继续加）
+# RSS 源
 RSS_FEEDS = [
     {"url": "https://www.chinanews.com.cn/rss/scroll-news.xml", "source": "中新网-即时"},
     {"url": "https://www.chinanews.com.cn/rss/world.xml", "source": "中新网-国际"},
@@ -40,7 +40,6 @@ RSS_FEEDS = [
 ]
 
 ALLOWED_DOMAINS = {
-    # 央媒/权威
     "people.com.cn",
     "xinhuanet.com",
     "news.cn",
@@ -51,7 +50,6 @@ ALLOWED_DOMAINS = {
     "gmw.cn",
     "china.org.cn",
 
-    # 综合门户
     "163.com",
     "qq.com",
     "news.qq.com",
@@ -61,7 +59,6 @@ ALLOWED_DOMAINS = {
     "finance.sina.com.cn",
     "sohu.com",
 
-    # 财经/证券
     "yicai.com",
     "cls.cn",
     "stcn.com",
@@ -77,7 +74,6 @@ ALLOWED_DOMAINS = {
     "hexun.com",
     "eeo.com.cn",
 
-    # 科技/AI
     "36kr.com",
     "huxiu.com",
     "jiemian.com",
@@ -90,7 +86,6 @@ ALLOWED_DOMAINS = {
     "donews.com",
     "cyzone.cn",
 
-    # 时政/社会/地方媒体
     "thepaper.cn",
     "guancha.cn",
     "bjnews.com.cn",
@@ -104,7 +99,6 @@ ALLOWED_DOMAINS = {
     "whb.cn",
     "shobserver.com",
 
-    # 国际中文
     "zaobao.com",
     "rfi.fr",
     "dw.com",
@@ -203,7 +197,7 @@ client = OpenAI(
 )
 
 # ===============================
-# AI 调用（全流程只最后 1 次）
+# AI 调用（只最后一次）
 # ===============================
 
 def ask_ai(prompt: str, temperature: float = 0.2) -> str:
@@ -252,31 +246,53 @@ def fetch_weather_text():
     if REPORT_WEATHER_TEXT:
         return REPORT_WEATHER_TEXT
 
-    # 可选自动天气；失败则用兜底文案
+    if not AMAP_KEY:
+        return f"{REPORT_CITY}：天气待更新"
+
+    city_adcode_map = {
+        "汕头": "440500",
+        "汕头市": "440500",
+    }
+    adcode = city_adcode_map.get(REPORT_CITY, "440500")
+
     try:
-        url = f"https://wttr.in/{REPORT_CITY}?format=j1"
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-        data = r.json()
+        resp = requests.get(
+            "https://restapi.amap.com/v3/weather/weatherInfo",
+            params={
+                "key": AMAP_KEY,
+                "city": adcode,
+                "extensions": "base",
+                "output": "JSON",
+            },
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
 
-        current = (data.get("current_condition") or [{}])[0]
-        temp_c = (current.get("temp_C") or "").strip()
-        desc_list = current.get("lang_zh") or current.get("weatherDesc") or []
-        desc = ""
+        if str(data.get("status")) != "1":
+            print("AMap weather api error:", data)
+            return f"{REPORT_CITY}：天气待更新"
 
-        if desc_list and isinstance(desc_list, list):
-            first = desc_list[0]
-            if isinstance(first, dict):
-                desc = first.get("value", "").strip()
+        lives = data.get("lives") or []
+        if not lives:
+            return f"{REPORT_CITY}：天气待更新"
 
-        if desc and temp_c:
-            return f"{REPORT_CITY}：{desc} {temp_c}°C"
-        if temp_c:
-            return f"{REPORT_CITY}：{temp_c}°C"
+        live = lives[0]
+        weather = (live.get("weather") or "").strip()
+        temperature = (live.get("temperature") or "").strip()
+
+        if weather and temperature:
+            return f"{REPORT_CITY}：{weather} {temperature}°C"
+        if temperature:
+            return f"{REPORT_CITY}：{temperature}°C"
+        if weather:
+            return f"{REPORT_CITY}：{weather}"
+
+        return f"{REPORT_CITY}：天气待更新"
+
     except Exception as e:
-        print("Weather fetch error:", e)
-
-    return f"{REPORT_CITY}：天气待更新"
+        print("AMap weather fetch error:", e)
+        return f"{REPORT_CITY}：天气待更新"
 
 def get_today_header():
     now_cn = china_now()
@@ -399,6 +415,17 @@ def event_key(title: str) -> str:
     words = list(split_words(title))
     words = sorted(words, key=lambda x: (-len(x), x))
     return "|".join(words[:3]) if words else t[:30]
+
+def count_rendered_items(text: str) -> int:
+    if not text:
+        return 0
+
+    count = 0
+    for line in text.splitlines():
+        line = line.strip()
+        if re.match(r"^\d+\.\s+\*\*.*\*\*", line):
+            count += 1
+    return count
 
 # ===============================
 # 抓取 API
@@ -530,7 +557,7 @@ def filter_chinese_news(news):
     return chinese_news
 
 # ===============================
-# 规则聚类与压重
+# 聚类与压重
 # ===============================
 
 def pick_best_link(items):
@@ -661,38 +688,42 @@ def ai_render_digest(news):
    - 突发新闻
 4. 同一事件不要重复写
 5. 如果多个候选事件明显属于同一主题，只保留其中信息量最大的一条
-6. 顶部标题固定为：{get_report_title()}
-7. 标题下方单独输出一行：今日共12条
-8. 今日三大新闻只保留3条
-9. 其他每个板块最多2条
-10. 总新闻条数控制为12条以内，优先输出最重要的12条
-11. 每条内容格式固定为：
+6. 今日三大新闻只保留3条
+7. 不要输出“今日共X条”，这个由程序自己添加
+8. 其他每个板块最多2条
+9. 总新闻条数尽量控制为12条；如果高质量新闻不足，可以少于12条
+10. 每条内容格式固定为：
    序号. **标题** [🔗](main_link)
    摘要：一句话，不超过26字
-12. 标题必须重写成简洁新闻标题，不超过18字，不能直接照抄原始长标题
-13. 链接不要单独另起一行，必须放在标题尾部，格式固定为 [🔗](main_link)
-14. 每条新闻都必须带序号
-15. 只使用我提供的数据，不要编造事实
-16. 链接必须直接使用我给出的 main_link，不要改写，不要缩短，不要替换
-17. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
-18. 如果某个板块没有内容，可以省略该板块
-19. 全文总长度控制在3000字以内
-20. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻
-21. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻
-22. 不要输出任何说明、注释、免责声明
+11. 标题必须重写成简洁新闻标题，不超过18字，不能直接照抄原始长标题
+12. 链接不要单独另起一行，必须放在标题尾部，格式固定为 [🔗](main_link)
+13. 每条新闻都必须带序号
+14. 只使用我提供的数据，不要编造事实
+15. 链接必须直接使用我给出的 main_link，不要改写，不要缩短，不要替换
+16. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块
+17. 如果某个板块没有内容，可以省略该板块
+18. 全文总长度控制在3000字以内
+19. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻
+20. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻
+21. 不要输出任何说明、注释、免责声明
+22. 不要输出总标题，不要输出日期天气抬头，这部分由程序自己添加
 
 候选事件：
 {json.dumps(payload, ensure_ascii=False, indent=2)}
 """
 
     result = ask_ai(prompt, temperature=0.2)
-    if result:
-        result = result.replace("```markdown", "").replace("```", "").strip()
-        if len(result) > 3800:
-            result = result[:3800] + "\n\n（内容过长已截断）"
-        return result
 
-    lines = [get_report_title(), "", "今日共12条", "", "## 今日三大新闻"]
+    if result:
+        body = result.replace("```markdown", "").replace("```", "").strip()
+        item_count = count_rendered_items(body)
+        final_text = f"{get_report_title()}\n\n今日共{item_count}条\n\n{body}"
+
+        if len(final_text) > 3800:
+            final_text = final_text[:3800] + "\n\n（内容过长已截断）"
+        return final_text
+
+    lines = [get_report_title(), "", f"今日共{min(len(news), 3)}条", "", "## 今日三大新闻"]
     for i, n in enumerate(news[:3], 1):
         link = safe_link(n["link"])
         if link:
@@ -701,6 +732,7 @@ def ai_render_digest(news):
             lines.append(f"{i}. **{safe_text(n['title'], 18)}**")
         lines.append("摘要：")
         lines.append("")
+
     return "\n".join(lines)
 
 # ===============================

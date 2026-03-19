@@ -24,7 +24,7 @@ OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-120b")
 MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "40"))
 MAX_FETCH_PER_RSS = int(os.getenv("MAX_FETCH_PER_RSS", "25"))
 MAX_NEWS = int(os.getenv("MAX_NEWS", "12"))
-REQUEST_TIMEOUT = 30
+REQUEST_TIMEOUT = 20
 
 REPORT_CITY = os.getenv("REPORT_CITY", "汕头")
 REPORT_LUNAR_TEXT = os.getenv("REPORT_LUNAR_TEXT", "农历待设置")
@@ -48,7 +48,6 @@ ALLOWED_DOMAINS = {
     "cnr.cn",
     "gmw.cn",
     "china.org.cn",
-
     "163.com",
     "qq.com",
     "news.qq.com",
@@ -57,7 +56,6 @@ ALLOWED_DOMAINS = {
     "news.sina.com.cn",
     "finance.sina.com.cn",
     "sohu.com",
-
     "yicai.com",
     "cls.cn",
     "stcn.com",
@@ -72,7 +70,6 @@ ALLOWED_DOMAINS = {
     "stockstar.com",
     "hexun.com",
     "eeo.com.cn",
-
     "36kr.com",
     "huxiu.com",
     "jiemian.com",
@@ -84,7 +81,6 @@ ALLOWED_DOMAINS = {
     "pingwest.com",
     "donews.com",
     "cyzone.cn",
-
     "thepaper.cn",
     "guancha.cn",
     "bjnews.com.cn",
@@ -97,7 +93,6 @@ ALLOWED_DOMAINS = {
     "jfdaily.com",
     "whb.cn",
     "shobserver.com",
-
     "zaobao.com",
     "rfi.fr",
     "dw.com",
@@ -115,7 +110,6 @@ SOURCE_WEIGHT = {
     "cnr.cn": 11,
     "gmw.cn": 10,
     "china.com.cn": 10,
-
     "caixin.com": 10,
     "yicai.com": 10,
     "cls.cn": 10,
@@ -129,7 +123,6 @@ SOURCE_WEIGHT = {
     "cs.com.cn": 8,
     "hexun.com": 7,
     "jrj.com.cn": 7,
-
     "ithome.com": 9,
     "36kr.com": 8,
     "huxiu.com": 8,
@@ -140,7 +133,6 @@ SOURCE_WEIGHT = {
     "pingwest.com": 7,
     "geekpark.net": 7,
     "cyzone.cn": 7,
-
     "finance.sina.com.cn": 8,
     "news.sina.com.cn": 7,
     "sina.com.cn": 7,
@@ -149,7 +141,6 @@ SOURCE_WEIGHT = {
     "163.com": 6,
     "ifeng.com": 7,
     "sohu.com": 5,
-
     "thepaper.cn": 8,
     "guancha.cn": 7,
     "bjnews.com.cn": 7,
@@ -161,7 +152,6 @@ SOURCE_WEIGHT = {
     "sznews.com": 6,
     "southcn.com": 6,
     "dayoo.com": 5,
-
     "zaobao.com": 7,
     "ftchinese.com": 7,
     "rfi.fr": 6,
@@ -182,16 +172,52 @@ LOW_PRIORITY_WORDS = [
     "发布会", "启动仪式", "艺术展", "文化周", "巡展", "揭幕"
 ]
 
-FUTURES = [
-    {"name": "WTI原油", "url": "https://cn.investing.com/commodities/crude-oil-historical-data"},
-    {"name": "COMEX黄金", "url": "https://quote.eastmoney.com/globalfuture/GC00Y.html"},
-    {"name": "大连棕榈油", "url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0"},
-    {"name": "聚丙烯(PP)", "url": "https://cn.investing.com/commodities/pp-futures-historical-data"},
-    {"name": "聚乙烯(PE)", "url": "https://cn.investing.com/commodities/lldpe-futures-historical-data"},
+FUTURES_CONFIG = [
+    {
+        "name": "WTI原油",
+        "quote_url": "https://www.investing.com/commodities/crude-oil",
+        "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
+        "type": "investing_generic",
+        "label": "Crude Oil WTI",
+    },
+    {
+        "name": "COMEX黄金",
+        "quote_url": "https://www.investing.com/commodities/gold",
+        "history_url": "https://www.investing.com/commodities/gold-historical-data",
+        "type": "investing_generic",
+        "label": "Gold",
+    },
+    {
+        "name": "大连棕榈油",
+        "quote_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0",
+        "history_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0",
+        "type": "sina_palm",
+        "label": "棕榈油连续",
+    },
+    {
+        "name": "聚丙烯(PP)",
+        "quote_url": "https://www.investing.com/commodities/pp-futures",
+        "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
+        "type": "investing_short",
+        "label": "PP",
+    },
+    {
+        "name": "聚乙烯(PE)",
+        "quote_url": "https://www.investing.com/commodities/lldpe-futures",
+        "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
+        "type": "investing_short",
+        "label": "LLDPE",
+    },
 ]
 
+UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+}
+
 # ===============================
-# OpenRouter 客户端
+# OpenRouter
 # ===============================
 
 client = OpenAI(
@@ -203,11 +229,7 @@ client = OpenAI(
     },
 )
 
-# ===============================
-# AI 调用
-# ===============================
-
-def ask_ai(prompt: str, temperature: float = 0.2) -> str:
+def ask_ai(prompt: str, temperature: float = 0.1) -> str:
     try:
         response = client.chat.completions.create(
             model=OPENROUTER_MODEL,
@@ -221,7 +243,7 @@ def ask_ai(prompt: str, temperature: float = 0.2) -> str:
         return ""
 
 # ===============================
-# 工具函数
+# 工具
 # ===============================
 
 def safe_text(text: str, max_len: int) -> str:
@@ -271,6 +293,7 @@ def fetch_weather_text():
                 "extensions": "base",
                 "output": "JSON",
             },
+            headers=UA,
             timeout=10,
         )
         resp.raise_for_status()
@@ -294,9 +317,7 @@ def fetch_weather_text():
             return f"{REPORT_CITY}：{temperature}°C"
         if weather:
             return f"{REPORT_CITY}：{weather}"
-
         return f"{REPORT_CITY}：天气待更新"
-
     except Exception as e:
         print("AMap weather fetch error:", e)
         return f"{REPORT_CITY}：天气待更新"
@@ -323,7 +344,6 @@ def split_words(title: str):
     for topic in HOT_TOPICS:
         if topic.lower() in text:
             words.add(topic.lower())
-
     return words
 
 def title_similarity(a: str, b: str) -> float:
@@ -383,7 +403,6 @@ def is_breaking_by_rules(title: str) -> bool:
 
 def get_topic_bonus(title: str) -> int:
     t = (title or "").lower()
-
     breaking_words = [
         "战争", "袭击", "导弹", "冲突", "空袭", "停火", "制裁", "关税",
         "突发", "爆炸", "地震", "局势升级", "霍尔木兹", "荷莫兹", "中东"
@@ -415,7 +434,6 @@ def get_topic_bonus(title: str) -> int:
 def event_key(title: str) -> str:
     t = normalize_title(title)
     matched = [k.lower() for k in HOT_TOPICS if k.lower() in t]
-
     if matched:
         return "|".join(sorted(matched[:3]))
 
@@ -423,25 +441,8 @@ def event_key(title: str) -> str:
     words = sorted(words, key=lambda x: (-len(x), x))
     return "|".join(words[:3]) if words else t[:30]
 
-def count_rendered_items(text: str) -> int:
-    if not text:
-        return 0
-
-    count = 0
-    for line in text.splitlines():
-        line = line.strip()
-        if re.match(r"^\d+\.\s+\*\*.*\*\*", line):
-            count += 1
-    return count
-
-def render_futures_footer():
-    lines = ["", "## 期货观察"]
-    for i, item in enumerate(FUTURES, 1):
-        lines.append(f"{i}. {item['name']} [📈]({item['url']})")
-    return "\n".join(lines)
-
 # ===============================
-# 抓取
+# 抓新闻
 # ===============================
 
 def fetch_newsdata():
@@ -449,14 +450,13 @@ def fetch_newsdata():
         print("NEWS_DATA_KEY 未配置")
         return []
 
-    url = "https://newsdata.io/api/1/news"
-    params = {
-        "apikey": NEWS_DATA_KEY,
-        "language": "zh",
-    }
-
     try:
-        r = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
+        r = requests.get(
+            "https://newsdata.io/api/1/news",
+            params={"apikey": NEWS_DATA_KEY, "language": "zh"},
+            headers=UA,
+            timeout=REQUEST_TIMEOUT,
+        )
         r.raise_for_status()
         data = r.json()
 
@@ -465,11 +465,7 @@ def fetch_newsdata():
             title = (n.get("title") or "").strip()
             link = (n.get("link") or "").strip()
             if title and link:
-                news.append({
-                    "title": title,
-                    "link": link,
-                    "source": "NewsData",
-                })
+                news.append({"title": title, "link": link, "source": "NewsData"})
         return news
     except Exception as e:
         print("NewsData error:", e)
@@ -480,15 +476,13 @@ def fetch_gnews():
         print("GNEWS_KEY 未配置")
         return []
 
-    url = "https://gnews.io/api/v4/top-headlines"
-    params = {
-        "apikey": GNEWS_KEY,
-        "lang": "zh",
-        "max": MAX_FETCH_PER_API,
-    }
-
     try:
-        r = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
+        r = requests.get(
+            "https://gnews.io/api/v4/top-headlines",
+            params={"apikey": GNEWS_KEY, "lang": "zh", "max": MAX_FETCH_PER_API},
+            headers=UA,
+            timeout=REQUEST_TIMEOUT,
+        )
         r.raise_for_status()
         data = r.json()
 
@@ -497,11 +491,7 @@ def fetch_gnews():
             title = (n.get("title") or "").strip()
             link = (n.get("url") or "").strip()
             if title and link:
-                news.append({
-                    "title": title,
-                    "link": link,
-                    "source": "GNews",
-                })
+                news.append({"title": title, "link": link, "source": "GNews"})
         return news
     except Exception as e:
         print("GNews error:", e)
@@ -509,55 +499,40 @@ def fetch_gnews():
 
 def fetch_rss():
     all_items = []
-
     for feed in RSS_FEEDS:
-        feed_url = feed["url"]
-        source_name = feed["source"]
-
         try:
-            parsed = feedparser.parse(feed_url)
+            parsed = feedparser.parse(feed["url"])
             entries = parsed.entries[:MAX_FETCH_PER_RSS]
-
             for entry in entries:
                 title = (getattr(entry, "title", "") or "").strip()
                 link = (getattr(entry, "link", "") or "").strip()
-
-                if not title or not link:
-                    continue
-
-                all_items.append({
-                    "title": title,
-                    "link": link,
-                    "source": source_name,
-                })
-
+                if title and link:
+                    all_items.append({
+                        "title": title,
+                        "link": link,
+                        "source": feed["source"],
+                    })
             time.sleep(0.2)
-
         except Exception as e:
-            print(f"RSS error [{source_name}]:", e)
-
+            print(f"RSS error [{feed['source']}]:", e)
     return all_items
 
 # ===============================
-# 去重 + 过滤
+# 去重 + 聚类
 # ===============================
 
 def exact_deduplicate(news):
     seen_titles = set()
     seen_links = set()
     unique = []
-
     for n in news:
         title = n["title"].strip().lower()
         link = n["link"].strip().lower()
-
         if title in seen_titles or link in seen_links:
             continue
-
         seen_titles.add(title)
         seen_links.add(link)
         unique.append(n)
-
     return unique
 
 def filter_chinese_news(news):
@@ -565,17 +540,13 @@ def filter_chinese_news(news):
     print("中文链接新闻数量:", len(chinese_news))
     return chinese_news
 
-# ===============================
-# 聚类
-# ===============================
-
 def pick_best_link(items):
     def score_item(item):
-        base = get_source_weight(item.get("link", ""))
-        title_len_bonus = min(len(item.get("title", "")) // 12, 3)
-        topic_bonus = get_topic_bonus(item.get("title", ""))
-        return base + title_len_bonus + topic_bonus
-
+        return (
+            get_source_weight(item.get("link", ""))
+            + min(len(item.get("title", "")) // 12, 3)
+            + get_topic_bonus(item.get("title", ""))
+        )
     return sorted(items, key=score_item, reverse=True)[0]
 
 def score_cluster(cluster):
@@ -583,22 +554,18 @@ def score_cluster(cluster):
     best = pick_best_link(items)
     title = best["title"].lower()
 
-    score = 0
-    score += len(items) * 3
+    score = len(items) * 3
     score += get_source_weight(best.get("link", ""))
     score += get_topic_bonus(title)
 
     if any(w in title for w in LOW_PRIORITY_WORDS):
         score -= 6
-
     if is_breaking_by_rules(title):
         score += 4
-
     return score
 
 def rule_cluster(news):
     clusters = []
-
     for item in news:
         words = split_words(item["title"])
         key = event_key(item["title"])
@@ -637,16 +604,10 @@ def rule_cluster(news):
             "is_breaking": is_breaking_by_rules(best["title"]),
             "event_key": cluster["event_key"],
         })
-
     return result
-
-# ===============================
-# 主处理
-# ===============================
 
 def process_news(news):
     print("原始新闻:", len(news))
-
     news = exact_deduplicate(news)
     print("标题/链接去重:", len(news))
 
@@ -659,92 +620,298 @@ def process_news(news):
     news.sort(key=lambda x: x.get("score", 0), reverse=True)
     news = news[:MAX_NEWS]
     print("进入最终整理数量:", len(news))
-
     return news
 
 # ===============================
-# AI 最终整理
+# AI：只产出结构化数据
 # ===============================
 
-def ai_render_digest(news):
-    if not news:
-        return f"{get_report_title()}\n\n今日共0条\n\n暂无可推送的中文新闻{render_futures_footer()}"
+def parse_json_array(text: str):
+    if not text:
+        return []
+    text = text.strip()
 
+    try:
+        data = json.loads(text)
+        return data if isinstance(data, list) else []
+    except Exception:
+        pass
+
+    m = re.search(r"(\[.*\])", text, flags=re.DOTALL)
+    if not m:
+        return []
+
+    try:
+        data = json.loads(m.group(1))
+        return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+def ai_select_structured_items(news):
     payload = []
-    for idx, n in enumerate(news, 1):
+    for n in news:
         payload.append({
-            "index": idx,
             "title": safe_text(n["title"], 80),
+            "main_link": n["link"],
             "source_count": n.get("source_count", 1),
             "candidate_titles": [safe_text(x, 80) for x in n.get("all_titles", [])[:6]],
-            "main_link": safe_link(n["link"]),
             "score": n.get("score", 0),
             "is_breaking": n.get("is_breaking", False),
             "event_key": n.get("event_key", ""),
         })
 
     prompt = f"""
-你是中国大陆财经与国际新闻编辑，请基于下面的候选事件，整理成一份企业微信日报。
+你是中国大陆财经与国际新闻编辑。请基于候选事件，输出一个 JSON 数组，不要输出任何其他文字。
 
 硬性要求：
 1. 必须只使用中国大陆简体中文。
 2. 不允许使用任何繁体字。
-3. 不允许使用台湾、香港、澳门常用书写风格，例如“人工智慧”“區塊鏈”“數位”“經濟多元”等。
-4. 如果原标题是繁体，也必须改写成简体中文。
-5. 只能使用以下栏目名，不能新增、不能改名：
+3. 不允许使用台湾、香港、澳门常用书写风格。
+4. 同一事件不要重复写。
+5. 如果多个候选事件明显属于同一主题，只保留其中信息量最大的一条。
+6. 总新闻条数尽量控制为 12 条；如果高质量新闻不足，可以少于 12 条。
+7. 分类 category 只能是以下 5 个之一：
    - 今日三大新闻
    - AI重点
    - 国际/宏观重点
    - 金融重点
    - 突发新闻
-6. 同一事件不要重复写。
-7. 如果多个候选事件明显属于同一主题，只保留其中信息量最大的一条。
-8. 今日三大新闻只保留3条。
-9. 其他每个板块最多2条。
-10. 总新闻条数尽量控制为12条；如果高质量新闻不足，可以少于12条。
-11. 每条内容格式固定为：
-   序号. **标题** [🔗](main_link)
-   摘要：一句话，不超过26字
-12. 标题必须重写成简洁新闻标题，不超过18字，不能直接照抄原始长标题。
-13. 链接不要单独另起一行，必须放在标题尾部，格式固定为 [🔗](main_link)。
-14. 每条新闻都必须带序号。
-15. 只使用我提供的数据，不要编造事实。
-16. 链接必须直接使用我给出的 main_link，不要改写，不要缩短，不要替换。
-17. 输出为企业微信 markdown 可直接发送的纯文本，不要代码块。
-18. 如果某个板块没有内容，可以省略该板块。
-19. 全文总长度控制在3000字以内。
-20. 优先选择突发、金融、国际局势、AI、宏观影响大的新闻。
-21. 一般展览、开幕、纪念活动除非影响特别大，否则不要放进今日三大新闻。
-22. 不要输出任何说明、注释、免责声明。
-23. 不要输出总标题，不要输出日期天气抬头，这部分由程序自己添加。
-24. 不要输出“今日共X条”，这个由程序自己添加。
+8. 今日三大新闻最多 3 条；其他栏目最多 2 条。
+9. 标题 short_title 不超过 18 个汉字，必须重写成简洁新闻标题。
+10. 摘要 summary 不超过 26 个汉字。
+11. link 必须直接使用候选中的 main_link。
+12. 只输出 JSON 数组，数组每项格式如下：
+[
+  {{
+    "category": "今日三大新闻",
+    "short_title": "示例标题",
+    "summary": "示例摘要",
+    "link": "https://..."
+  }}
+]
 
 候选事件：
 {json.dumps(payload, ensure_ascii=False, indent=2)}
 """
+    raw = ask_ai(prompt, temperature=0.1)
+    items = parse_json_array(raw)
 
-    result = ask_ai(prompt, temperature=0.2)
+    allowed = {"今日三大新闻", "AI重点", "国际/宏观重点", "金融重点", "突发新闻"}
+    cleaned = []
 
-    if result:
-        body = result.replace("```markdown", "").replace("```", "").strip()
-        item_count = count_rendered_items(body)
-        final_text = f"{get_report_title()}\n\n今日共{item_count}条\n\n{body}{render_futures_footer()}"
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        category = (item.get("category") or "").strip()
+        short_title = safe_text(item.get("short_title") or "", 18)
+        summary = safe_text(item.get("summary") or "", 26)
+        link = item.get("link") or ""
 
-        if len(final_text) > 3800:
-            final_text = final_text[:3800] + "\n\n（内容过长已截断）"
-        return final_text
+        if category not in allowed or not short_title or not summary or not safe_link(link):
+            continue
 
-    lines = [get_report_title(), "", f"今日共{min(len(news), 3)}条", "", "## 今日三大新闻"]
-    for i, n in enumerate(news[:3], 1):
+        cleaned.append({
+            "category": category,
+            "short_title": short_title,
+            "summary": summary,
+            "link": link,
+        })
+
+    return cleaned[:MAX_NEWS]
+
+# ===============================
+# 期货行情
+# ===============================
+
+def fetch_text(url: str) -> str:
+    try:
+        r = requests.get(url, headers=UA, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print("fetch text error:", url, e)
+        return ""
+
+def html_to_text(html: str) -> str:
+    if not html:
+        return ""
+    text = re.sub(r"(?is)<script.*?>.*?</script>", " ", html)
+    text = re.sub(r"(?is)<style.*?>.*?</style>", " ", text)
+    text = re.sub(r"(?is)<[^>]+>", " ", text)
+    text = re.sub(r"&nbsp;|&#160;", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+def num_to_float(s: str):
+    try:
+        return float(s.replace(",", "").strip())
+    except Exception:
+        return None
+
+def parse_investing_generic(text: str, label: str):
+    # WTI / Gold: The current price of Gold futures is 4,798.31, with a previous close of 4,896.20.
+    pattern = re.compile(
+        rf"The current price of {re.escape(label)}(?: futures)? is ([\d,\.]+), with a previous close of ([\d,\.]+)",
+        re.I
+    )
+    m = pattern.search(text)
+    if not m:
+        return None
+
+    current = num_to_float(m.group(1))
+    prev = num_to_float(m.group(2))
+    if current is None or prev in (None, 0):
+        return None
+
+    pct = (current - prev) / prev * 100
+    return {
+        "price": f"{current:,.2f}",
+        "pct": pct,
+    }
+
+def parse_investing_short(text: str, label: str):
+    # PP / LLDPE: The PP price today is 7,287.00. ... 7,287.00 -2.00(-0.03%)
+    p1 = re.compile(
+        rf"The {re.escape(label)} price today is ([\d,\.]+)\.",
+        re.I
+    )
+    m1 = p1.search(text)
+    if not m1:
+        return None
+
+    current = num_to_float(m1.group(1))
+    if current is None:
+        return None
+
+    # 在附近找 +x.xx(x.xx%) 或 -x.xx(x.xx%)
+    pct_match = re.search(
+        rf"{re.escape(m1.group(1))}\s*([+\-]\d+(?:\.\d+)?)\(([-+]?\d+(?:\.\d+)?%)\)",
+        text
+    )
+    pct = None
+    if pct_match:
+        try:
+            pct = float(pct_match.group(2).replace("%", ""))
+        except Exception:
+            pct = None
+
+    return {
+        "price": f"{current:,.2f}",
+        "pct": pct,
+    }
+
+def parse_sina_palm(text: str):
+    # 期望文本近似：棕榈油连续 9880.00 +1.06% P0
+    m = re.search(r"棕榈油连续\s*([\d,]+\.\d+)\s*([+\-]?\d+(?:\.\d+)?%)", text)
+    if not m:
+        return None
+    current = num_to_float(m.group(1))
+    if current is None:
+        return None
+    try:
+        pct = float(m.group(2).replace("%", ""))
+    except Exception:
+        pct = None
+    return {
+        "price": f"{current:,.2f}",
+        "pct": pct,
+    }
+
+def fetch_single_future(item: dict):
+    html = fetch_text(item["quote_url"])
+    text = html_to_text(html)
+
+    parsed = None
+    if item["type"] == "investing_generic":
+        parsed = parse_investing_generic(text, item["label"])
+    elif item["type"] == "investing_short":
+        parsed = parse_investing_short(text, item["label"])
+    elif item["type"] == "sina_palm":
+        parsed = parse_sina_palm(text)
+
+    return {
+        "name": item["name"],
+        "history_url": item["history_url"],
+        "price": parsed["price"] if parsed else None,
+        "pct": parsed["pct"] if parsed else None,
+    }
+
+def format_pct(pct):
+    if pct is None:
+        return ""
+    arrow = "▲" if pct > 0 else "▼" if pct < 0 else "■"
+    return f"{arrow}{abs(pct):.2f}%"
+
+def render_futures_footer():
+    lines = ["", "## 期货观察"]
+    for i, item in enumerate(FUTURES_CONFIG, 1):
+        snap = fetch_single_future(item)
+        link = safe_link(snap["history_url"])
+        price = snap["price"] or "价格待更新"
+        pct_text = format_pct(snap["pct"])
+        suffix = f" {pct_text}" if pct_text else ""
+        lines.append(f"{i}. {snap['name']}：{price}{suffix} [📈]({link})")
+    return "\n".join(lines)
+
+# ===============================
+# 代码控制排版
+# ===============================
+
+ORDERED_CATEGORIES = [
+    "今日三大新闻",
+    "AI重点",
+    "国际/宏观重点",
+    "金融重点",
+    "突发新闻",
+]
+
+def render_body(items):
+    groups = {k: [] for k in ORDERED_CATEGORIES}
+    for item in items:
+        if item["category"] in groups:
+            groups[item["category"]].append(item)
+
+    lines = []
+    idx = 1
+
+    for category in ORDERED_CATEGORIES:
+        if not groups[category]:
+            continue
+        lines.append(f"## {category}")
+        for item in groups[category]:
+            link = safe_link(item["link"])
+            lines.append(f"{idx}. **{item['short_title']}** [🔗]({link})")
+            lines.append(f"摘要：{item['summary']}")
+            lines.append("")
+            idx += 1
+
+    return "\n".join(lines).strip(), idx - 1
+
+def render_fallback(news):
+    lines = []
+    idx = 1
+    lines.append("## 今日三大新闻")
+    for n in news[:3]:
         link = safe_link(n["link"])
-        if link:
-            lines.append(f"{i}. **{safe_text(n['title'], 18)}** [🔗]({link})")
-        else:
-            lines.append(f"{i}. **{safe_text(n['title'], 18)}**")
+        lines.append(f"{idx}. **{safe_text(n['title'], 18)}** [🔗]({link})")
         lines.append("摘要：")
         lines.append("")
+        idx += 1
+    body = "\n".join(lines).strip()
+    return body, idx - 1
 
-    return "\n".join(lines) + render_futures_footer()
+def build_final_message(news):
+    structured = ai_select_structured_items(news)
+
+    if structured:
+        body, item_count = render_body(structured)
+    else:
+        body, item_count = render_fallback(news)
+
+    final_text = f"{get_report_title()}\n\n今日共{item_count}条\n\n{body}{render_futures_footer()}"
+    if len(final_text) > 3900:
+        final_text = final_text[:3900] + "\n\n（内容过长已截断）"
+    return final_text
 
 # ===============================
 # 企业微信推送
@@ -755,18 +922,13 @@ def push_wechat(msg: str):
         print("WECHAT_WEBHOOK 未配置")
         return
 
-    if len(msg) > 4000:
-        msg = msg[:4000] + "\n\n（内容过长已截断）"
-
     data = {
         "msgtype": "markdown",
-        "markdown": {
-            "content": msg
-        }
+        "markdown": {"content": msg}
     }
 
     try:
-        r = requests.post(WECHAT_WEBHOOK, json=data, timeout=REQUEST_TIMEOUT)
+        r = requests.post(WECHAT_WEBHOOK, json=data, headers=UA, timeout=REQUEST_TIMEOUT)
         print("企业微信推送状态:", r.status_code, r.text)
     except Exception as e:
         print("企业微信推送失败:", e)
@@ -780,13 +942,7 @@ def main():
         raise ValueError("OPENROUTER_API_KEY 未配置")
 
     print("开始抓新闻...")
-
-    news1 = fetch_newsdata()
-    news2 = fetch_gnews()
-    news3 = fetch_rss()
-
-    news = news1 + news2 + news3
-
+    news = fetch_newsdata() + fetch_gnews() + fetch_rss()
     print("新闻总数:", len(news))
 
     if not news:
@@ -794,13 +950,11 @@ def main():
         return
 
     news = process_news(news)
-
     if not news:
         print("没有符合条件的中文新闻")
         return
 
-    message = ai_render_digest(news)
-
+    message = build_final_message(news)
     print(message)
     push_wechat(message)
 

@@ -2,11 +2,13 @@ import os
 import re
 import json
 import time
-import requests
-import feedparser
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from urllib.parse import urlparse
-from datetime import datetime, timezone, timedelta
+
+import requests
+import feedparser
 from openai import OpenAI
 
 # ===============================
@@ -34,6 +36,9 @@ REQUEST_TIMEOUT = 20
 REPORT_CITY = os.getenv("REPORT_CITY", "汕头")
 REPORT_LUNAR_TEXT = os.getenv("REPORT_LUNAR_TEXT", "农历待设置")
 REPORT_WEATHER_TEXT = os.getenv("REPORT_WEATHER_TEXT", "").strip()
+
+# 你的 GitHub Pages 地址，例如：https://yourname.github.io/daily-news-push/
+NEWS_PAGE_URL = os.getenv("NEWS_PAGE_URL", "").strip()
 
 RSS_FEEDS = [
     {"url": "https://www.chinanews.com.cn/rss/scroll-news.xml", "source": "中新网-即时"},
@@ -250,7 +255,7 @@ def get_today_header():
     return f"{now_cn.year}年{now_cn.month}月{now_cn.day}日 {get_cn_weekday(now_cn)}（{REPORT_LUNAR_TEXT}）"
 
 def get_report_title():
-    return f"# MSAI今日新闻｜{get_today_header()}｜{fetch_weather_text()}"
+    return f"MSAI今日新闻｜{get_today_header()}｜{fetch_weather_text()}"
 
 def normalize_title(title: str) -> str:
     t = (title or "").lower()
@@ -797,16 +802,53 @@ def format_pct(pct):
     arrow = "▲" if pct > 0 else "▼" if pct < 0 else "■"
     return f"{arrow}{abs(pct):.2f}%"
 
-def render_futures_footer():
-    lines = ["", "## 期货观察"]
-    for i, item in enumerate(FUTURES_CONFIG, 1):
+def get_futures_data():
+    result = []
+    for item in FUTURES_CONFIG:
         snap = fetch_single_future(item)
+        result.append({
+            "name": snap["name"],
+            "history_url": snap["history_url"],
+            "price": snap["price"] or "价格待更新",
+            "pct": snap["pct"],
+        })
+    return result
+
+def render_futures_footer(futures):
+    lines = ["", "## 期货观察"]
+    for i, snap in enumerate(futures, 1):
         link = safe_link(snap["history_url"])
         price = snap["price"] or "价格待更新"
         pct_text = format_pct(snap["pct"])
         suffix = f" {pct_text}" if pct_text else ""
         lines.append(f"{i}. {snap['name']}：{price}{suffix} [📈]({link})")
     return "\n".join(lines)
+
+# ===============================
+# 页面数据输出
+# ===============================
+
+def export_news_page_json(hotspots, structured_items, futures):
+    docs_dir = Path("docs")
+    docs_dir.mkdir(parents=True, exist_ok=True)
+
+    page_data = {
+        "title": get_report_title(),
+        "date_text": get_today_header(),
+        "weather_text": fetch_weather_text(),
+        "total_count": len(structured_items),
+        "hotspots": hotspots,
+        "news_items": structured_items,
+        "futures": futures,
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    }
+
+    output_path = docs_dir / "news-data.json"
+    output_path.write_text(
+        json.dumps(page_data, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+    print(f"已生成页面数据: {output_path}")
 
 # ===============================
 # 代码控制排版
@@ -860,15 +902,19 @@ def render_fallback(news):
 def build_final_message(news):
     hotspots = ai_pick_hotspots(news)
     structured = ai_select_structured_items(news)
+    futures = get_futures_data()
 
     if structured:
         body, item_count = render_body(structured)
     else:
         body, item_count = render_fallback(news)
+        structured = []
+
+    export_news_page_json(hotspots, structured, futures)
 
     hotspot_block = render_hotspots(hotspots)
     parts = [
-        get_report_title(),
+        f"# {get_report_title()}",
         "",
         f"今日共{item_count}条",
         "",
@@ -879,7 +925,7 @@ def build_final_message(news):
         parts.append("")
 
     parts.append(body)
-    parts.append(render_futures_footer())
+    parts.append(render_futures_footer(futures))
 
     final_text = "\n".join(parts)
     if len(final_text) > 3900:
@@ -937,7 +983,6 @@ def push_wechat_test(content: str):
         data = {
             "touser": WECHAT_OPENID,
             "template_id": WECHAT_TEMPLATE_ID,
-            "url": "https://www.baidu.com",
             "data": {
                 "first": {
                     "value": "MSAI今日新闻",
@@ -957,6 +1002,9 @@ def push_wechat_test(content: str):
                 }
             }
         }
+
+        if NEWS_PAGE_URL and is_valid_click_url(NEWS_PAGE_URL):
+            data["url"] = NEWS_PAGE_URL
 
         res = requests.post(send_url, json=data, timeout=REQUEST_TIMEOUT).json()
         print("测试号推送结果:", res)

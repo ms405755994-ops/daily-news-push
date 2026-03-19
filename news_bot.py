@@ -19,6 +19,11 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 WECHAT_WEBHOOK = os.getenv("WECHAT_WEBHOOK", "")
 AMAP_KEY = os.getenv("AMAP_KEY", "")
 
+WECHAT_APPID = os.getenv("WECHAT_APPID", "")
+WECHAT_SECRET = os.getenv("WECHAT_SECRET", "")
+WECHAT_OPENID = os.getenv("WECHAT_OPENID", "")
+WECHAT_TEMPLATE_ID = os.getenv("WECHAT_TEMPLATE_ID", "")
+
 OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-120b")
 
 MAX_FETCH_PER_API = int(os.getenv("MAX_FETCH_PER_API", "40"))
@@ -749,7 +754,6 @@ def num_to_float(s: str):
         return None
 
 def parse_investing_generic(text: str, label: str):
-    # WTI / Gold: The current price of Gold futures is 4,798.31, with a previous close of 4,896.20.
     pattern = re.compile(
         rf"The current price of {re.escape(label)}(?: futures)? is ([\d,\.]+), with a previous close of ([\d,\.]+)",
         re.I
@@ -770,7 +774,6 @@ def parse_investing_generic(text: str, label: str):
     }
 
 def parse_investing_short(text: str, label: str):
-    # PP / LLDPE: The PP price today is 7,287.00. ... 7,287.00 -2.00(-0.03%)
     p1 = re.compile(
         rf"The {re.escape(label)} price today is ([\d,\.]+)\.",
         re.I
@@ -783,7 +786,6 @@ def parse_investing_short(text: str, label: str):
     if current is None:
         return None
 
-    # 在附近找 +x.xx(x.xx%) 或 -x.xx(x.xx%)
     pct_match = re.search(
         rf"{re.escape(m1.group(1))}\s*([+\-]\d+(?:\.\d+)?)\(([-+]?\d+(?:\.\d+)?%)\)",
         text
@@ -801,7 +803,6 @@ def parse_investing_short(text: str, label: str):
     }
 
 def parse_sina_palm(text: str):
-    # 期望文本近似：棕榈油连续 9880.00 +1.06% P0
     m = re.search(r"棕榈油连续\s*([\d,]+\.\d+)\s*([+\-]?\d+(?:\.\d+)?%)", text)
     if not m:
         return None
@@ -934,6 +935,63 @@ def push_wechat(msg: str):
         print("企业微信推送失败:", e)
 
 # ===============================
+# 微信测试号推送
+# ===============================
+
+def push_wechat_test(content: str):
+    if not WECHAT_APPID or not WECHAT_SECRET or not WECHAT_OPENID or not WECHAT_TEMPLATE_ID:
+        print("微信测试号参数未配置，跳过测试号推送")
+        return
+
+    try:
+        token_url = "https://api.weixin.qq.com/cgi-bin/token"
+        params = {
+            "grant_type": "client_credential",
+            "appid": WECHAT_APPID,
+            "secret": WECHAT_SECRET
+        }
+
+        r = requests.get(token_url, params=params, timeout=REQUEST_TIMEOUT).json()
+        access_token = r.get("access_token")
+
+        if not access_token:
+            print("测试号获取 token 失败:", r)
+            return
+
+        print("测试号 token 获取成功")
+
+        send_url = f"https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={access_token}"
+
+        data = {
+            "touser": WECHAT_OPENID,
+            "template_id": WECHAT_TEMPLATE_ID,
+            "data": {
+                "first": {
+                    "value": "MSAI今日新闻",
+                    "color": "#173177"
+                },
+                "keyword1": {
+                    "value": content[:100],
+                    "color": "#000000"
+                },
+                "keyword2": {
+                    "value": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                    "color": "#173177"
+                },
+                "remark": {
+                    "value": "测试推送成功",
+                    "color": "#888888"
+                }
+            }
+        }
+
+        res = requests.post(send_url, json=data, timeout=REQUEST_TIMEOUT).json()
+        print("测试号推送结果:", res)
+
+    except Exception as e:
+        print("测试号推送失败:", e)
+
+# ===============================
 # 主程序
 # ===============================
 
@@ -956,7 +1014,12 @@ def main():
 
     message = build_final_message(news)
     print(message)
+
+    # 企业微信群机器人推送（完整内容）
     push_wechat(message)
+
+    # 微信测试号推送（先测试通路）
+    push_wechat_test("测试成功")
 
 if __name__ == "__main__":
     main()

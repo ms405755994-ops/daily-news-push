@@ -1,87 +1,75 @@
 {
-  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：阴 18°C",
+  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：天气待更新",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 18°C",
-  "total_count": 11,
+  "weather_text": "汕头：天气待更新",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "“钱袋子”被炸，伊朗怒锤美国盟友",
-      "reason": "伊朗炸弹事件激化美伊关系"
+      "title": "以色列袭击黎巴嫩升级致伤亡",
+      "reason": "中东局势紧张，冲突升级"
     },
     {
-      "title": "用人工智能炒股靠谱吗",
-      "reason": "AI炒股争议引发关注"
+      "title": "英国央行全票维持基准利率3.75...",
+      "reason": "全球金融关注英国利率决定"
     },
     {
-      "title": "阿里腾讯财报发布 AI驱动盈利增...",
-      "reason": "阿里腾讯AI盈利显著提升"
+      "title": "探访AI机器人学校 看硅基生物成...",
+      "reason": "AI机器人教育新探索引关注"
     }
   ],
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "以色列袭黎巴嫩升级",
-      "summary": "已致3400人伤亡，百万人流离失所",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589431.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "德民调：反对美以袭伊朗",
-      "summary": "多数德国人不支持美以对伊朗的军事行动",
+      "short_title": "德民调：多数反对美以袭伊朗",
+      "summary": "调查显示德国多数民众不支持美以对伊朗的军事行动",
       "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589443.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊拉克武装暂停袭美使馆",
-      "summary": "宣布有条件暂停对美使馆攻击5天",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589418.shtml"
+      "short_title": "中方警示中东局势陷危机",
+      "summary": "中国代表称中东局势正被推向危险深渊",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589441.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "以军空袭黎巴嫩致大规模伤亡",
+      "summary": "以色列对黎巴嫩多地发动袭击，已致3400人伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589431.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI机器人学校探访",
-      "summary": "了解硅基生物如何在机器人学校成长",
+      "short_title": "AI机器人学校探访实录",
+      "summary": "走进AI机器人“学校”，观察硅基生物成长路径",
       "link": "https://www.chinanews.com.cn/tp/2026/03-19/10589667.shtml"
     },
     {
-      "category": "AI重点",
-      "short_title": "阿里腾讯财报：AI盈利",
-      "summary": "两大互联网巨头财报显示AI提升利润",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589648.shtml"
-    },
-    {
       "category": "国际/宏观重点",
-      "short_title": "英央行维持利率3.75%",
-      "summary": "全票通过，利率保持不变",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589645.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美专家警告油价冲击",
-      "summary": "高油价或致美国经济衰退概率上升",
+      "short_title": "美专家警示油价升致衰退风险",
+      "summary": "高油价或使美国经济陷入衰退概率上升",
       "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589396.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "中国清退不合规机构5600家",
-      "summary": "六类地方金融组织减量提质，清退超5600家",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589497.shtml"
+      "category": "国际/宏观重点",
+      "short_title": "英央行全票维持3.75%利率",
+      "summary": "英国央行全票决定基准利率保持在3.75%",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589645.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "AI炒股靠谱吗",
-      "summary": "探讨AI在股市投资中的可靠性",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589291.shtml"
+      "short_title": "阿里腾讯财报：AI驱动利润增长",
+      "summary": "阿里巴巴与腾讯公布财报，AI业务提升盈利",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589648.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "阿巴开斋节停火",
-      "summary": "两国宣布斋月期间实现停火",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589413.shtml"
+      "short_title": "伊武装有条件暂停美使馆袭击",
+      "summary": "伊拉克武装宣布在5天内有条件暂停对美使馆的攻击",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589418.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗“钱袋子”被炸",
-      "summary": "伊朗指责美国盟友导致炸弹事件",
+      "short_title": "伊朗指责美盟“钱袋子”被炸",
+      "summary": "伊朗谴责美国盟友导致伊朗“钱袋子”设施被炸",
       "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
     }
   ],
@@ -117,5 +105,5 @@
       "pct": null
     }
   ],
-  "updated_at": "2026-03-19 17:58:33"
+  "updated_at": "2026-03-19 18:08:49"
 }

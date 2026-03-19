@@ -1,123 +1,121 @@
 {
-  "title": "MSAI今日新闻｜2026年3月19日 星期四（农历二月初一）",
-  "date_text": "2026年3月19日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 22°C",
-  "total_count": 10,
-
+  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：阴 18°C",
+  "date_text": "2026年3月20日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 18°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "中东局势持续升温",
-      "reason": "影响能源与全球市场"
+      "title": "“钱袋子”被炸，伊朗怒锤美国盟友",
+      "reason": "伊朗炸弹事件激化美伊关系"
     },
     {
-      "title": "AI加速落地应用",
-      "reason": "招聘与设计领域明显变化"
+      "title": "用人工智能炒股靠谱吗",
+      "reason": "AI炒股争议引发关注"
     },
     {
-      "title": "美联储政策不确定",
-      "reason": "影响全球金融预期"
+      "title": "阿里腾讯财报发布 AI驱动盈利增...",
+      "reason": "阿里腾讯AI盈利显著提升"
     }
   ],
-
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普支持空袭伊朗能源设施",
-      "summary": "中东局势升级，能源风险上升",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589173.shtml"
+      "short_title": "以色列袭黎巴嫩升级",
+      "summary": "已致3400人伤亡，百万人流离失所",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589431.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美方或向中东增派兵力",
-      "summary": "美国考虑部署数千军人",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589194.shtml"
+      "short_title": "德民调：反对美以袭伊朗",
+      "summary": "多数德国人不支持美以对伊朗的军事行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589443.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "阿拉善车间爆炸致失联",
-      "summary": "事故造成伤亡与失联",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589213.shtml"
-    },
-
-    {
-      "category": "AI重点",
-      "short_title": "河南引入AI招聘系统",
-      "summary": "提高岗位匹配效率",
-      "link": "https://www.ithome.com/0/930/566.htm"
+      "short_title": "伊拉克武装暂停袭美使馆",
+      "summary": "宣布有条件暂停对美使馆攻击5天",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589418.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "谷歌AI自动生成UI",
-      "summary": "设计效率明显提升",
-      "link": "https://www.ithome.com/0/930/566.htm"
+      "short_title": "AI机器人学校探访",
+      "summary": "了解硅基生物如何在机器人学校成长",
+      "link": "https://www.chinanews.com.cn/tp/2026/03-19/10589667.shtml"
     },
-
+    {
+      "category": "AI重点",
+      "short_title": "阿里腾讯财报：AI盈利",
+      "summary": "两大互联网巨头财报显示AI提升利润",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589648.shtml"
+    },
     {
       "category": "国际/宏观重点",
-      "short_title": "中东冲突推高化肥价格",
-      "summary": "全球农业成本上升",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589280.shtml"
+      "short_title": "英央行维持利率3.75%",
+      "summary": "全票通过，利率保持不变",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589645.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "鲍威尔表态暂不离任",
-      "summary": "维持政策连续性",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589209.shtml"
-    },
-
-    {
-      "category": "金融重点",
-      "short_title": "英伟达GTC聚焦盈利预期",
-      "summary": "市场关注业绩确定性",
-      "link": "https://www.ithome.com/0/930/566.htm"
+      "short_title": "美专家警告油价冲击",
+      "summary": "高油价或致美国经济衰退概率上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589396.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "赛诺菲重申在华投资",
-      "summary": "长期布局中国市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589121.shtml"
+      "short_title": "中国清退不合规机构5600家",
+      "summary": "六类地方金融组织减量提质，清退超5600家",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589497.shtml"
     },
-
+    {
+      "category": "金融重点",
+      "short_title": "AI炒股靠谱吗",
+      "summary": "探讨AI在股市投资中的可靠性",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589291.shtml"
+    },
     {
       "category": "突发新闻",
-      "short_title": "乍得称遭无人机袭击",
-      "summary": "平民伤亡引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589213.shtml"
+      "short_title": "阿巴开斋节停火",
+      "summary": "两国宣布斋月期间实现停火",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589413.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "伊朗“钱袋子”被炸",
+      "summary": "伊朗指责美国盟友导致炸弹事件",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
     }
   ],
-
   "futures": [
     {
       "name": "WTI原油",
-      "price": "72.30",
-      "pct": 1.25,
-      "history_url": "https://www.investing.com/commodities/crude-oil-historical-data"
+      "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
+      "price": "价格待更新",
+      "pct": null
     },
     {
       "name": "COMEX黄金",
-      "price": "2185.60",
-      "pct": 0.85,
-      "history_url": "https://www.investing.com/commodities/gold-historical-data"
+      "history_url": "https://www.investing.com/commodities/gold-historical-data",
+      "price": "价格待更新",
+      "pct": null
     },
     {
       "name": "大连棕榈油",
-      "price": "8020",
-      "pct": -0.45,
-      "history_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0"
+      "history_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0",
+      "price": "价格待更新",
+      "pct": null
     },
     {
       "name": "聚丙烯(PP)",
-      "price": "7450",
-      "pct": 0.32,
-      "history_url": "https://www.investing.com/commodities/pp-futures-historical-data"
+      "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
+      "price": "7,287.00",
+      "pct": null
     },
     {
       "name": "聚乙烯(PE)",
-      "price": "8100",
-      "pct": -0.21,
-      "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data"
+      "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
+      "price": "8,072.00",
+      "pct": null
     }
   ],
-
-  "updated_at": "2026-03-19 10:30:00"
+  "updated_at": "2026-03-19 17:58:33"
 }

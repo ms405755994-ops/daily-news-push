@@ -1,70 +1,76 @@
 {
-  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：阴 18°C",
+  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：阴 21°C",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 18°C",
-  "total_count": 8,
+  "weather_text": "汕头：阴 21°C",
+  "total_count": 9,
   "hotspots": [
     {
       "title": "内塔尼亚胡称伊朗失核能力",
-      "reason": "伊朗核威胁下降，地区局势缓和"
+      "reason": "伊朗核威胁降级"
     },
     {
-      "title": "AI漫剧转向掘金赛道",
-      "reason": "AI商业化加速，行业竞争升级"
+      "title": "美国30年期贷款利率升至6.22...",
+      "reason": "美国房贷成本攀升"
     },
     {
-      "title": "英央行维持利率3.75%",
-      "reason": "欧央行政策稳健，市场预期受抑"
+      "title": "AI搜索双刃剑应对策略",
+      "reason": "效率与数据污染并存"
     }
   ],
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "科学家克隆多年稻长寿基因",
-      "summary": "多年生水稻有望实现",
-      "link": "https://www.chinanews.com.cn/gn/2026/03-20/10589717.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI漫剧走向掘金赛道",
-      "summary": "草台班子转型商业化",
-      "link": "https://www.chinanews.com.cn/cul/2026/03-20/10589739.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "内塔尼亚胡称伊朗失核弹能力",
-      "summary": "伊朗不具铀浓缩与弹导",
+      "short_title": "内塔尼亚胡称伊朗失核能力",
+      "summary": "以色列总理称伊朗不具铀浓缩与弹道导弹能力",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589733.shtml"
     },
     {
+      "category": "今日三大新闻",
+      "short_title": "特朗普比喻伊朗袭击如珍珠港",
+      "summary": "特朗普会晤高市早苗，将美对伊行动比作日本偷袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589719.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美联储在中东战火中将议息",
+      "summary": "美联储首场决议在中东冲突背景下召开",
+      "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI搜索效率提升与数据污染并存",
+      "summary": "探讨AI搜索的双刃剑效应与应对措施",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589742.shtml"
+    },
+    {
       "category": "国际/宏观重点",
-      "short_title": "美国专家警告油价冲击经济",
-      "summary": "高油价或致美国衰退",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589396.shtml"
+      "short_title": "中东局势冲击全球芯片与制造业",
+      "summary": "分析中东冲突导致芯片缺气、制造业失血",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589878.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美军或夺岛逼伊朗开放霍尔木兹海峡",
+      "summary": "美媒称美军计划夺岛迫使伊朗让航道通行",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589748.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "英央行维持利率3.75%",
-      "summary": "全票决定不变基准利率",
+      "short_title": "美国30年期房贷利率升至6.22%",
+      "summary": "美国长期房贷利率创三月新高",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589727.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "英国央行维持基准利率3.75%",
+      "summary": "英国央行全票决定利率不变",
       "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589645.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "阿里腾讯财报AI驱动增长",
-      "summary": "AI提升盈利实现突破",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589648.shtml"
-    },
-    {
       "category": "突发新闻",
-      "short_title": "以色列袭黎巴嫩致伤亡",
-      "summary": "冲突升级伤亡逾千",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589431.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "伊拉克武装暂停袭美使馆",
-      "summary": "有条件停火五天",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589418.shtml"
+      "short_title": "南设得兰群岛6.6级地震",
+      "summary": "南设得兰群岛海域发生6.6级地震，深度20公里",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589755.shtml"
     }
   ],
   "futures": [
@@ -99,5 +105,5 @@
       "pct": null
     }
   ],
-  "updated_at": "2026-03-20 00:02:25"
+  "updated_at": "2026-03-20 05:51:44"
 }

@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MSAI今日新闻</title>
-
   <style>
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei";
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
       background: #f5f6f8;
+      color: #1f2937;
     }
 
     .container {
       max-width: 720px;
       margin: 0 auto;
+      padding-bottom: 24px;
     }
 
     .hero {
@@ -26,13 +27,14 @@
 
     .hero h1 {
       font-size: 22px;
-      line-height: 1.4;
+      line-height: 1.5;
       margin: 0 0 10px 0;
     }
 
     .hero p {
       font-size: 14px;
-      opacity: 0.85;
+      opacity: 0.9;
+      margin: 4px 0;
     }
 
     .section {
@@ -40,12 +42,13 @@
       margin: 16px;
       border-radius: 16px;
       padding: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
     }
 
     .section-title {
-      font-weight: bold;
+      font-weight: 700;
       font-size: 18px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     .news-item {
@@ -58,120 +61,134 @@
     }
 
     .news-title {
-      font-weight: bold;
+      font-weight: 700;
       font-size: 16px;
+      line-height: 1.5;
     }
 
     .news-summary {
       color: #666;
       font-size: 14px;
       margin-top: 6px;
+      line-height: 1.6;
     }
 
     .link {
-      float: right;
       text-decoration: none;
       color: #2a5bd7;
+      margin-left: 8px;
     }
 
     .tag {
       display: inline-block;
-      padding: 2px 8px;
+      margin-top: 8px;
+      padding: 3px 10px;
       background: #eef2ff;
       color: #2a5bd7;
-      border-radius: 8px;
+      border-radius: 999px;
       font-size: 12px;
-      margin-left: 6px;
     }
 
+    .meta {
+      font-size: 13px;
+      color: rgba(255,255,255,0.9);
+      line-height: 1.7;
+    }
+
+    .empty {
+      color: #888;
+      font-size: 14px;
+      padding: 8px 0;
+    }
   </style>
 </head>
-
 <body>
-<div class="container">
+  <div class="container">
+    <div class="hero">
+      <h1 id="title">MSAI今日新闻</h1>
+      <p class="meta" id="dateText">日期加载中...</p>
+      <p class="meta" id="weatherText">天气加载中...</p>
+      <p class="meta" id="updatedAt">更新时间加载中...</p>
+    </div>
 
-  <div class="hero">
-    <h1 id="title">MSAI今日新闻</h1>
-    <p>自动聚合 · AI热点判断 · 多源中文资讯</p>
+    <div class="section">
+      <div class="section-title">关键热点</div>
+      <div id="hotspots" class="empty">加载中...</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">新闻正文</div>
+      <div id="news" class="empty">加载中...</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">期货观察</div>
+      <div id="futures" class="empty">加载中...</div>
+    </div>
   </div>
 
-  <div class="section">
-    <div class="section-title">关键热点</div>
-    <div id="hotspots"></div>
-  </div>
+  <script>
+    fetch("./news-data.json")
+      .then(res => {
+        if (!res.ok) {
+          throw new Error("HTTP " + res.status);
+        }
+        return res.json();
+      })
+      .then(data => {
+        document.getElementById("title").innerText = data.title || "MSAI今日新闻";
+        document.getElementById("dateText").innerText = data.date_text || "";
+        document.getElementById("weatherText").innerText = data.weather_text || "";
+        document.getElementById("updatedAt").innerText = data.updated_at ? `更新时间：${data.updated_at}` : "";
 
-  <div class="section">
-    <div class="section-title">新闻正文</div>
-    <div id="news"></div>
-  </div>
+        let hotspotsHtml = "";
+        (data.hotspots || []).forEach(item => {
+          hotspotsHtml += `
+            <div class="news-item">
+              <div class="news-title">${item.title || ""}</div>
+              <div class="news-summary">${item.reason || ""}</div>
+            </div>
+          `;
+        });
+        document.getElementById("hotspots").innerHTML = hotspotsHtml || `<div class="empty">暂无热点</div>`;
 
-  <div class="section">
-    <div class="section-title">期货观察</div>
-    <div id="futures"></div>
-  </div>
+        let newsHtml = "";
+        (data.news_items || []).forEach((item, index) => {
+          newsHtml += `
+            <div class="news-item">
+              <div class="news-title">
+                ${index + 1}. ${item.short_title || ""}
+                <a class="link" href="${item.link || "#"}" target="_blank" rel="noopener noreferrer">🔗</a>
+              </div>
+              <div class="news-summary">${item.summary || ""}</div>
+              <div class="tag">${item.category || ""}</div>
+            </div>
+          `;
+        });
+        document.getElementById("news").innerHTML = newsHtml || `<div class="empty">暂无新闻</div>`;
 
-</div>
+        let futuresHtml = "";
+        (data.futures || []).forEach(item => {
+          let trendIcon = "➖";
+          if (typeof item.pct === "number") {
+            if (item.pct > 0) trendIcon = "📈";
+            else if (item.pct < 0) trendIcon = "📉";
+          }
 
-<script>
-fetch("./news-data.json")
-  .then(res => res.json())
-  .then(data => {
-
-    document.getElementById("title").innerText = data.title;
-
-    // ===== 热点 =====
-    let hotspotsHtml = "";
-    data.hotspots.forEach(item => {
-      hotspotsHtml += `
-        <div class="news-item">
-          <div class="news-title">${item.title}</div>
-          <div class="news-summary">${item.summary || ""}</div>
-        </div>
-      `;
-    });
-    document.getElementById("hotspots").innerHTML = hotspotsHtml;
-
-    // ===== 新闻 =====
-    let newsHtml = "";
-    data.news_items.forEach((item, index) => {
-      newsHtml += `
-        <div class="news-item">
-          <div class="news-title">
-            ${index + 1}. ${item.title}
-            <a class="link" href="${item.link}" target="_blank">🔗</a>
-          </div>
-          <div class="news-summary">${item.summary || ""}</div>
-        </div>
-      `;
-    });
-    document.getElementById("news").innerHTML = newsHtml;
-
-    // ===== 期货 =====
-    let futuresHtml = "";
-    data.futures.forEach(item => {
-      let trendIcon = "";
-
-      if (item.trend === "up") trendIcon = "📈";
-      else if (item.trend === "down") trendIcon = "📉";
-      else trendIcon = "➖";
-
-      futuresHtml += `
-        <div class="news-item">
-          <div class="news-title">
-            ${item.name} ${item.price} ${trendIcon}
-          </div>
-        </div>
-      `;
-    });
-    document.getElementById("futures").innerHTML = futuresHtml;
-
-  })
-  .catch(err => {
-    document.getElementById("news").innerHTML =
-      "❌ 数据加载失败";
-    console.error(err);
-  });
-</script>
-
+          futuresHtml += `
+            <div class="news-item">
+              <div class="news-title">${item.name || ""} ${item.price || ""} ${trendIcon}</div>
+            </div>
+          `;
+        });
+        document.getElementById("futures").innerHTML = futuresHtml || `<div class="empty">暂无期货数据</div>`;
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById("hotspots").innerHTML = `<div class="empty">❌ 数据加载失败</div>`;
+        document.getElementById("news").innerHTML = `<div class="empty">❌ 数据加载失败</div>`;
+        document.getElementById("futures").innerHTML = `<div class="empty">❌ 数据加载失败</div>`;
+      });
+  </script>
 </body>
 </html>

@@ -37,8 +37,6 @@ REPORT_CITY = os.getenv("REPORT_CITY", "汕头")
 REPORT_LUNAR_TEXT = os.getenv("REPORT_LUNAR_TEXT", "农历待设置")
 REPORT_WEATHER_TEXT = os.getenv("REPORT_WEATHER_TEXT", "").strip()
 
-# 这里填你真实的 GitHub Pages 地址
-# 例如：https://ms405755994-ops.github.io/daily-news-push/
 NEWS_PAGE_URL = os.getenv("NEWS_PAGE_URL", "").strip()
 
 RSS_FEEDS = [
@@ -697,7 +695,7 @@ def ai_select_structured_items(news):
     return cleaned[:MAX_NEWS]
 
 # ===============================
-# 期货行情
+# 期货行情（修正版）
 # ===============================
 
 def fetch_text(url: str) -> str:
@@ -725,58 +723,140 @@ def num_to_float(s: str):
     except Exception:
         return None
 
+def extract_first_number_after_keyword(text: str, keywords):
+    for keyword in keywords:
+        pattern = rf"{re.escape(keyword)}.*?(\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)"
+        m = re.search(pattern, text, re.I)
+        if m:
+            value = num_to_float(m.group(1))
+            if value is not None:
+                return value
+    return None
+
 def parse_investing_generic(text: str, label: str):
-    pattern = re.compile(
-        rf"The current price of {re.escape(label)}(?: futures)? is ([\d,\.]+), with a previous close of ([\d,\.]+)",
-        re.I
-    )
-    m = pattern.search(text)
-    if not m:
+    if not text:
         return None
 
-    current = num_to_float(m.group(1))
-    prev = num_to_float(m.group(2))
-    if current is None or prev in (None, 0):
-        return None
+    current = None
+    prev = None
 
-    pct = (current - prev) / prev * 100
-    return {"price": f"{current:,.2f}", "pct": pct}
+    current_patterns = [
+        rf"The current price of {re.escape(label)}(?: futures)? is (\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)",
+        rf"{re.escape(label)}(?: futures)? is (\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)",
+        rf"{re.escape(label)}.*?(\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)",
+    ]
+    for p in current_patterns:
+        m = re.search(p, text, re.I)
+        if m:
+            current = num_to_float(m.group(1))
+            if current is not None:
+                break
 
-def parse_investing_short(text: str, label: str):
-    p1 = re.compile(rf"The {re.escape(label)} price today is ([\d,\.]+)\.", re.I)
-    m1 = p1.search(text)
-    if not m1:
-        return None
+    prev_patterns = [
+        r"previous close of (\d{1,3}(?:,\d{3})*(?:\.\d+)?)",
+        r"Previous Close[:\s]*(\d{1,3}(?:,\d{3})*(?:\.\d+)?)",
+        r"Prev\.?\s*Close[:\s]*(\d{1,3}(?:,\d{3})*(?:\.\d+)?)",
+    ]
+    for p in prev_patterns:
+        m = re.search(p, text, re.I)
+        if m:
+            prev = num_to_float(m.group(1))
+            if prev is not None:
+                break
 
-    current = num_to_float(m1.group(1))
+    if current is None:
+        current = extract_first_number_after_keyword(text, [label, label.lower()])
+
     if current is None:
         return None
 
-    pct_match = re.search(
-        rf"{re.escape(m1.group(1))}\s*([+\-]\d+(?:\.\d+)?)\(([-+]?\d+(?:\.\d+)?%)\)",
-        text
-    )
     pct = None
-    if pct_match:
-        try:
-            pct = float(pct_match.group(2).replace("%", ""))
-        except Exception:
-            pct = None
+    if prev not in (None, 0):
+        pct = (current - prev) / prev * 100
+
+    return {"price": f"{current:,.2f}", "pct": pct}
+
+def parse_investing_short(text: str, label: str):
+    if not text:
+        return None
+
+    current = None
+    patterns = [
+        rf"The {re.escape(label)} price today is (\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)",
+        rf"{re.escape(label)} price today is (\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)",
+        rf"{re.escape(label)}.*?(\d{{1,3}}(?:,\d{{3}})*(?:\.\d+)?)",
+    ]
+    for p in patterns:
+        m = re.search(p, text, re.I)
+        if m:
+            current = num_to_float(m.group(1))
+            if current is not None:
+                break
+
+    if current is None:
+        current = extract_first_number_after_keyword(text, [label, label.lower()])
+
+    if current is None:
+        return None
+
+    pct = None
+    pct_patterns = [
+        r"([+\-]\d+(?:\.\d+)?)\s*\(([-+]?\d+(?:\.\d+)?)%\)",
+        r"([-+]?\d+(?:\.\d+)?)%",
+    ]
+    for p in pct_patterns:
+        m = re.search(p, text)
+        if m:
+            try:
+                pct = float(m.group(m.lastindex).replace("%", ""))
+                break
+            except Exception:
+                pct = None
 
     return {"price": f"{current:,.2f}", "pct": pct}
 
 def parse_sina_palm(text: str):
-    m = re.search(r"棕榈油连续\s*([\d,]+\.\d+)\s*([+\-]?\d+(?:\.\d+)?%)", text)
-    if not m:
+    if not text:
         return None
-    current = num_to_float(m.group(1))
-    if current is None:
-        return None
-    try:
-        pct = float(m.group(2).replace("%", ""))
-    except Exception:
-        pct = None
-    return {"price": f"{current:,.2f}", "pct": pct}
+
+    patterns = [
+        r"棕榈油连续\s*(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
+        r"P0\s*(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
+        r"symbol=P0.*?(\d{1,3}(?:,\d{3})*(?:\.\d+)?)",
+    ]
+
+    for p in patterns:
+        m = re.search(p, text, re.I)
+        if m:
+            current = num_to_float(m.group(1))
+            if current is None:
+                continue
+
+            pct = None
+            if m.lastindex and m.lastindex >= 2 and m.group(2):
+                try:
+                    pct = float(m.group(2))
+                except Exception:
+                    pct = None
+
+            return {"price": f"{current:,.2f}", "pct": pct}
+
+    nums = re.findall(r"\d{3,5}(?:\.\d+)?", text)
+    if nums:
+        current = num_to_float(nums[0])
+        if current is not None:
+            return {"price": f"{current:,.2f}", "pct": None}
+
+    return None
+
+def pct_to_trend(pct):
+    if pct is None:
+        return "flat"
+    if pct > 0:
+        return "up"
+    if pct < 0:
+        return "down"
+    return "flat"
 
 def fetch_single_future(item: dict):
     html = fetch_text(item["quote_url"])
@@ -790,11 +870,16 @@ def fetch_single_future(item: dict):
     elif item["type"] == "sina_palm":
         parsed = parse_sina_palm(text)
 
+    if not parsed:
+        print(f"[期货解析失败] {item['name']} | {item['quote_url']}")
+        print(text[:1000])
+
     return {
         "name": item["name"],
         "history_url": item["history_url"],
         "price": parsed["price"] if parsed else None,
         "pct": parsed["pct"] if parsed else None,
+        "trend": pct_to_trend(parsed["pct"]) if parsed else "flat",
     }
 
 def format_pct(pct):
@@ -812,6 +897,7 @@ def get_futures_data():
             "history_url": snap["history_url"],
             "price": snap["price"] or "价格待更新",
             "pct": snap["pct"],
+            "trend": snap["trend"],
         })
     return result
 
@@ -841,7 +927,7 @@ def export_news_page_json(hotspots, structured_items, futures):
         "hotspots": hotspots,
         "news_items": structured_items,
         "futures": futures,
-        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "updated_at": china_now().strftime("%Y-%m-%d %H:%M:%S"),
     }
 
     output_path = docs_dir / "news-data.json"

@@ -1,109 +1,114 @@
 {
-  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：阴 21°C",
+  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：多云 21°C",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 21°C",
+  "weather_text": "汕头：多云 21°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "内塔尼亚胡称伊朗失核能力",
-      "reason": "伊朗核威胁降级"
+      "title": "伊朗失去核弹制造能力",
+      "reason": "中东核威胁骤降，国际关注"
     },
     {
       "title": "美国30年期贷款利率升至6.22...",
-      "reason": "美国房贷成本攀升"
+      "reason": "美债利率创三月新高，金融波动"
     },
     {
-      "title": "AI搜索双刃剑应对策略",
-      "reason": "效率与数据污染并存"
+      "title": "南设得兰群岛6.6级地震或海啸",
+      "reason": "强震或致局部海啸，突发灾害"
     }
   ],
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "内塔尼亚胡称伊朗失核能力",
-      "summary": "以色列总理称伊朗不具铀浓缩与弹道导弹能力",
+      "short_title": "伊朗失去核弹与导弹制造能力",
+      "summary": "内塔尼亚胡称伊朗不再具备铀浓缩和弹道导弹能力",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589733.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普比喻伊朗袭击如珍珠港",
-      "summary": "特朗普会晤高市早苗，将美对伊行动比作日本偷袭",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589719.shtml"
+      "short_title": "南设得兰群岛6.6级地震或致海啸",
+      "summary": "海域6.6级地震可能引发局部海啸",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589880.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美联储在中东战火中将议息",
-      "summary": "美联储首场决议在中东冲突背景下召开",
-      "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
+      "short_title": "特朗普会晤高市早苗比拟珍珠港",
+      "summary": "特朗普将美袭伊朗比作日本偷袭珍珠港",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589719.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI搜索效率提升与数据污染并存",
-      "summary": "探讨AI搜索的双刃剑效应与应对措施",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589742.shtml"
+      "short_title": "算力硬件概念走强 创业板指高开",
+      "summary": "创业板指高开1.6% 算力概念受追捧",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589810.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "中东局势冲击全球芯片与制造业",
-      "summary": "分析中东冲突导致芯片缺气、制造业失血",
+      "category": "AI重点",
+      "short_title": "中东局势致芯片缺气制造业失血",
+      "summary": "中东冲突影响全球芯片供应与制造业",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589878.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军或夺岛逼伊朗开放霍尔木兹海峡",
-      "summary": "美媒称美军计划夺岛迫使伊朗让航道通行",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589748.shtml"
+      "short_title": "中国—东盟中心与驻东盟使团交流",
+      "summary": "深化中国与东盟合作交流工作",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/03-20/10589882.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "特朗普政府批准165亿美元中东军售",
+      "summary": "绕开国会向中东三国提供大额军售",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589786.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国30年期房贷利率升至6.22%",
-      "summary": "美国长期房贷利率创三月新高",
+      "short_title": "美国30年期贷款利率升至6.22%",
+      "summary": "创三个月最高值 显示房贷成本上升",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589727.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "英国央行维持基准利率3.75%",
-      "summary": "英国央行全票决定利率不变",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-19/10589645.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "南设得兰群岛6.6级地震",
-      "summary": "南设得兰群岛海域发生6.6级地震，深度20公里",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589755.shtml"
+      "short_title": "美联储首场决议聚焦中东战火",
+      "summary": "鲍威尔将公布关键货币政策信息",
+      "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null
+      "price": "93.52",
+      "pct": -2.124542124542126,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null
+      "price": "4,700.91",
+      "pct": 2.0672210521744803,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
       "history_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0",
       "price": "价格待更新",
-      "pct": null
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
       "price": "7,287.00",
-      "pct": null
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
       "price": "8,072.00",
-      "pct": null
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-03-20 05:51:44"
+  "updated_at": "2026-03-20 14:04:01"
 }

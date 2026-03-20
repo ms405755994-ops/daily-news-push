@@ -52,28 +52,28 @@
       color: #111827;
     }
 
-    .card-link {
-      display: block;
-      text-decoration: none;
-      color: inherit;
-      cursor: pointer;
+    .card {
       border-bottom: 1px solid #eee;
-      -webkit-tap-highlight-color: rgba(0,0,0,0.05);
     }
 
-    .card-link:last-child {
+    .card:last-child {
       border-bottom: none;
     }
 
-    .card-link:active .news-item {
-      background: #f8fafc;
-      transform: scale(0.997);
+    .card-inner {
+      padding: 14px 0;
+      border-radius: 10px;
+      transition: background 0.15s ease, transform 0.15s ease;
     }
 
-    .news-item {
-      padding: 14px 0;
-      transition: background 0.15s ease, transform 0.15s ease;
-      border-radius: 10px;
+    .card.clickable {
+      cursor: pointer;
+      -webkit-tap-highlight-color: rgba(0,0,0,0.05);
+    }
+
+    .card.clickable:active .card-inner {
+      background: #f8fafc;
+      transform: scale(0.997);
     }
 
     .news-title {
@@ -110,15 +110,6 @@
       color: #888;
       font-size: 14px;
       padding: 8px 0;
-    }
-
-    .plain-item {
-      padding: 14px 0;
-      border-bottom: 1px solid #eee;
-    }
-
-    .plain-item:last-child {
-      border-bottom: none;
     }
 
     .future-line {
@@ -191,6 +182,11 @@
         .toLowerCase();
     }
 
+    function goLink(url) {
+      if (!url) return;
+      window.location.href = url;
+    }
+
     function findHotspotLink(hotspot, newsItems) {
       const title = normText(hotspot.title || "");
       if (!title) return "";
@@ -227,25 +223,27 @@
       const safeTitle = escapeHtml(title);
       const safeSummary = escapeHtml(summary);
       const safeTag = escapeHtml(tag || "");
-      const safeLink = escapeHtml(link || "");
+      const safeLink = JSON.stringify(link || "");
 
       if (link) {
         return `
-          <a class="card-link" href="${safeLink}" target="_blank" rel="noopener noreferrer">
-            <div class="news-item">
+          <div class="card clickable" onclick='goLink(${safeLink})'>
+            <div class="card-inner">
               <div class="news-title">${safeTitle}</div>
               <div class="news-summary">${safeSummary}</div>
               ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
             </div>
-          </a>
+          </div>
         `;
       }
 
       return `
-        <div class="plain-item">
-          <div class="news-title">${safeTitle}</div>
-          <div class="news-summary">${safeSummary}</div>
-          ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
+        <div class="card">
+          <div class="card-inner">
+            <div class="news-title">${safeTitle}</div>
+            <div class="news-summary">${safeSummary}</div>
+            ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
+          </div>
         </div>
       `;
     }
@@ -282,10 +280,11 @@
       const pctText = formatPct(item);
       const name = escapeHtml(item.name || "");
       const price = escapeHtml(item.price || "");
-      const historyUrl = escapeHtml(item.history_url || "");
+      const url = item.history_url || "";
+      const safeUrl = JSON.stringify(url);
 
-      const innerHtml = `
-        <div class="news-item">
+      const inner = `
+        <div class="card-inner">
           <div class="future-line">
             <span class="future-name">${name}</span>
             <span class="${priceClass}">${price}</span>
@@ -294,22 +293,20 @@
         </div>
       `;
 
-      if (item.history_url) {
+      if (url) {
         return `
-          <a class="card-link" href="${historyUrl}" target="_blank" rel="noopener noreferrer">
-            ${innerHtml}
-          </a>
+          <div class="card clickable" onclick='goLink(${safeUrl})'>
+            ${inner}
+          </div>
         `;
       }
 
-      return `<div class="plain-item">${innerHtml}</div>`;
+      return `<div class="card">${inner}</div>`;
     }
 
     fetch("./news-data.json")
       .then(res => {
-        if (!res.ok) {
-          throw new Error("HTTP " + res.status);
-        }
+        if (!res.ok) throw new Error("HTTP " + res.status);
         return res.json();
       })
       .then(data => {

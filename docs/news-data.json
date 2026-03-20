@@ -2,84 +2,102 @@
   "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：多云 21°C",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
   "weather_text": "汕头：多云 21°C",
-  "total_count": 8,
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "美财长或解除伊朗制裁",
-      "reason": "涉及石油与金融市场波动"
+      "title": "外交部：中方斡旋中东停火",
+      "reason": "中东停火斡旋，事关地区安全"
     },
     {
-      "title": "美民调不支持伊朗地面战",
-      "reason": "反映国际舆论对伊局势"
+      "title": "美国30年期贷款利率升至6.2%",
+      "reason": "美国长期贷款利率上扬，金融市场波动"
     },
     {
-      "title": "外交部斡旋中东停火",
-      "reason": "关系中东和平与地区稳定"
+      "title": "AI解睡眠困境 推动诊疗升级",
+      "reason": "AI助眠技术突破，提升医疗效率"
     }
   ],
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "南设得兰群岛6.6级地震或致局部海啸",
-      "summary": "6.6级地震震源浅，可能引发局部海啸。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589880.shtml"
+      "short_title": "中国男足公布2026集训名单",
+      "summary": "U23亚军8人入选，备战2026赛事",
+      "link": "https://www.chinanews.com.cn/ty/2026/03-20/10589938.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美民调：多数不赞成伊朗地面战争",
-      "summary": "多数美国人反对大规模地面作战。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589842.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美国30年期贷款利率升至6.22%",
-      "summary": "30年期房贷利率涨至6.22%，创三月新高。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589727.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美财长或解除伊朗石油制裁中方回应",
-      "summary": "美国考虑放宽伊朗石油禁令，中国表示关注。",
-      "link": "https://www.chinanews.com.cn/gn/2026/03-20/10590015.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "外交部称将继续斡旋中东停火",
-      "summary": "中方推动中东停火，争取地区和平稳定。",
+      "short_title": "外交部称继续斡旋中东停火",
+      "summary": "推动中东和平与稳定，积极斡旋",
       "link": "https://www.chinanews.com.cn/gn/2026/03-20/10590021.shtml"
     },
     {
+      "category": "今日三大新闻",
+      "short_title": "厦门举办2026国际模型越野赛",
+      "summary": "SIGP三圈大奖赛正式开赛",
+      "link": "https://www.chinanews.com.cn/tp/2026/03-20/10589975.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI助力睡眠诊疗模式升级",
+      "summary": "智能技术解决睡眠难题",
+      "link": "https://www.chinanews.com.cn/life/2026/03-20/10589949.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "DoorDash付费副业训练AI",
+      "summary": "外卖平台利用骑手数据提升AI",
+      "link": "https://www.ithome.com/0/931/002.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美民调：多数不支持伊朗地面战",
+      "summary": "美国公众对伊朗冲突持谨慎态度",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589842.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "中东冲突致芯片缺气制造业受损",
+      "summary": "解析局势对全球工业的影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589878.shtml"
+    },
+    {
       "category": "金融重点",
-      "short_title": "美联储会议在中东战火下召开",
-      "summary": "美联储将议息，市场关注鲍威尔言论。",
+      "short_title": "美30年期房贷利率升至6.22%",
+      "summary": "创三月来最高水平",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589727.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "中东战火中美联储将议息",
+      "summary": "鲍威尔或发布重要政策信号",
       "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗指责美国盟友“钱袋子”被炸",
-      "summary": "伊朗怒斥美盟友，称其为‘钱袋子’被炸。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
+      "short_title": "南设得兰群岛6.6级地震或致海啸",
+      "summary": "震源深度20公里，警惕海啸",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589880.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美媒称美军或夺岛逼伊朗开放霍尔木兹",
-      "summary": "美军或通过夺岛迫使伊朗让航道通行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589748.shtml"
+      "short_title": "伊朗“钱袋子”被炸伊方怒锤美盟友",
+      "summary": "伊朗指责美国及其盟友",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "93.63",
-      "pct": -2.0094191522762967,
+      "price": "93.67",
+      "pct": -1.9675562532705342,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,699.69",
-      "pct": 2.0407321362659268,
+      "price": "4,706.50",
+      "pct": 2.1885923963784046,
       "trend": "up"
     },
     {
@@ -104,5 +122,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-20 15:51:16"
+  "updated_at": "2026-03-20 16:04:15"
 }

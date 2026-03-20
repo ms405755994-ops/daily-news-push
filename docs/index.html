@@ -166,6 +166,9 @@
   </div>
 
   <script>
+    const SCROLL_KEY = "news_scroll_y";
+    const CLICK_KEY = "news_last_clicked";
+
     function escapeHtml(text) {
       return String(text || "")
         .replace(/&/g, "&amp;")
@@ -175,60 +178,41 @@
         .replace(/'/g, "&#39;");
     }
 
-    function normText(text) {
-      return String(text || "")
-        .replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, "")
-        .trim()
-        .toLowerCase();
+    function saveScroll(cardId) {
+      sessionStorage.setItem(SCROLL_KEY, String(window.scrollY || window.pageYOffset || 0));
+      if (cardId) {
+        sessionStorage.setItem(CLICK_KEY, cardId);
+      }
     }
 
-    function goLink(url) {
+    function restoreScroll() {
+      const saved = sessionStorage.getItem(SCROLL_KEY);
+      if (saved !== null) {
+        const y = parseInt(saved, 10);
+        if (!Number.isNaN(y)) {
+          setTimeout(() => window.scrollTo(0, y), 80);
+          setTimeout(() => window.scrollTo(0, y), 250);
+        }
+      }
+    }
+
+    function goLink(url, cardId) {
       if (!url) return;
+      saveScroll(cardId);
       window.location.href = url;
     }
 
-    function findHotspotLink(hotspot, newsItems) {
-      const title = normText(hotspot.title || "");
-      if (!title) return "";
-
-      for (const item of newsItems) {
-        const shortTitle = normText(item.short_title || "");
-        const summary = normText(item.summary || "");
-
-        if (
-          shortTitle === title ||
-          shortTitle.includes(title) ||
-          title.includes(shortTitle) ||
-          summary.includes(title)
-        ) {
-          return item.link || "";
-        }
-      }
-
-      const key4 = title.slice(0, 4);
-      if (key4) {
-        for (const item of newsItems) {
-          const shortTitle = normText(item.short_title || "");
-          const summary = normText(item.summary || "");
-          if (shortTitle.includes(key4) || summary.includes(key4)) {
-            return item.link || "";
-          }
-        }
-      }
-
-      return "";
-    }
-
-    function renderNewsCard(title, summary, link, tag) {
+    function renderNewsCard(title, summary, link, tag, cardId) {
       const safeTitle = escapeHtml(title);
       const safeSummary = escapeHtml(summary);
       const safeTag = escapeHtml(tag || "");
       const safeLink = JSON.stringify(link || "");
+      const safeCardId = JSON.stringify(cardId || "");
 
       if (link) {
         return `
-          <div class="card clickable" onclick='goLink(${safeLink})'>
-            <div class="card-inner">
+          <div class="card clickable" onclick='goLink(${safeLink}, ${safeCardId})'>
+            <div class="card-inner" id="${escapeHtml(cardId)}">
               <div class="news-title">${safeTitle}</div>
               <div class="news-summary">${safeSummary}</div>
               ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
@@ -239,7 +223,7 @@
 
       return `
         <div class="card">
-          <div class="card-inner">
+          <div class="card-inner" id="${escapeHtml(cardId)}">
             <div class="news-title">${safeTitle}</div>
             <div class="news-summary">${safeSummary}</div>
             ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
@@ -274,7 +258,7 @@
       return `${sign}${item.pct.toFixed(2)}%`;
     }
 
-    function renderFutureCard(item) {
+    function renderFutureCard(item, index) {
       const priceClass = getPriceClass(item);
       const trendSymbol = getTrendSymbol(item);
       const pctText = formatPct(item);
@@ -282,9 +266,10 @@
       const price = escapeHtml(item.price || "");
       const url = item.history_url || "";
       const safeUrl = JSON.stringify(url);
+      const cardId = `future-card-${index}`;
 
       const inner = `
-        <div class="card-inner">
+        <div class="card-inner" id="${cardId}">
           <div class="future-line">
             <span class="future-name">${name}</span>
             <span class="${priceClass}">${price}</span>
@@ -295,7 +280,7 @@
 
       if (url) {
         return `
-          <div class="card clickable" onclick='goLink(${safeUrl})'>
+          <div class="card clickable" onclick='goLink(${safeUrl}, ${JSON.stringify(cardId)})'>
             ${inner}
           </div>
         `;
@@ -318,13 +303,13 @@
         const newsItems = Array.isArray(data.news_items) ? data.news_items : [];
 
         let hotspotsHtml = "";
-        (data.hotspots || []).forEach(item => {
-          const hotspotLink = findHotspotLink(item, newsItems);
+        (data.hotspots || []).forEach((item, index) => {
           hotspotsHtml += renderNewsCard(
             item.title || "",
             item.reason || "",
-            hotspotLink,
-            ""
+            item.link || "",
+            "",
+            `hotspot-card-${index}`
           );
         });
         document.getElementById("hotspots").innerHTML = hotspotsHtml || `<div class="empty">暂无热点</div>`;
@@ -335,16 +320,19 @@
             `${index + 1}. ${item.short_title || ""}`,
             item.summary || "",
             item.link || "",
-            item.category || ""
+            item.category || "",
+            `news-card-${index}`
           );
         });
         document.getElementById("news").innerHTML = newsHtml || `<div class="empty">暂无新闻</div>`;
 
         let futuresHtml = "";
-        (data.futures || []).forEach(item => {
-          futuresHtml += renderFutureCard(item);
+        (data.futures || []).forEach((item, index) => {
+          futuresHtml += renderFutureCard(item, index);
         });
         document.getElementById("futures").innerHTML = futuresHtml || `<div class="empty">暂无期货数据</div>`;
+
+        restoreScroll();
       })
       .catch(err => {
         console.error(err);
@@ -352,6 +340,10 @@
         document.getElementById("news").innerHTML = `<div class="empty">❌ 数据加载失败</div>`;
         document.getElementById("futures").innerHTML = `<div class="empty">❌ 数据加载失败</div>`;
       });
+
+    window.addEventListener("pageshow", function () {
+      restoreScroll();
+    });
   </script>
 </body>
 </html>

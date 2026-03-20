@@ -1,97 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：多云 21°C",
+  "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：天气待更新",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
   "weather_text": "汕头：多云 21°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "美民调：不支持伊朗地面战",
-      "reason": "美国民意对伊朗冲突"
+      "title": "美民调：不支持伊朗地面战争",
+      "reason": "美国民意对伊朗冲突持否定",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589842.shtml"
     },
     {
-      "title": "A股沪指跌破4000点",
-      "reason": "股市大跌引发关注"
+      "title": "欧盟拒绝美方战争请求",
+      "reason": "欧洲对美国军事介入持反对",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590036.shtml"
     },
     {
-      "title": "AI解睡眠困境升级诊疗",
-      "reason": "AI助力睡眠诊疗创新"
+      "title": "南设得兰群岛6.6级地震",
+      "reason": "可能引发局部海啸",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589880.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "今日三大新闻",
-      "short_title": "节能装备占比提升至2028",
-      "summary": "官方文件提出提升节能装备市场份额",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589896.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "人形机器人实训营开营",
-      "summary": "半程马拉松式训练提升机器人技术",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589928.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI助眠提升诊疗模式",
-      "summary": "AI技术解决睡眠难题，推动传统诊疗升级",
-      "link": "https://www.chinanews.com.cn/life/2026/03-20/10589949.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "DoorDash让骑手兼职训练AI",
-      "summary": "外卖平台付费副业并用于自研AI模型",
-      "link": "https://www.ithome.com/0/931/002.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美民调不赞对伊朗发动地面战",
-      "summary": "多数美国人反对大规模地面战争",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589842.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "中东冲突致芯片缺气制造失血",
-      "summary": "分析中东局势对全球工业链冲击",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589878.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "沪指跌破4000点 超4700股绿",
-      "summary": "沪指失守4000点 超4700只个股下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589963.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美联储议程受中东战火牵动",
-      "summary": "中东局势下首场美联储决议备受关注",
-      "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
-    },
-    {
       "category": "突发新闻",
       "short_title": "南设得兰群岛6.6级地震或致海啸",
-      "summary": "海域强震深度20公里 可能引发局部海啸",
+      "summary": "南设得兰群岛海域6.6级地震，可能引发局部海啸。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589880.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗“钱袋子”被炸 引发怒斥",
-      "summary": "伊朗指责美国盟友对其设施动武",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
+      "short_title": "欧洲拒绝美国对伊朗军事行动",
+      "summary": "欧洲多国表态不支持美国对伊朗发动战争。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590036.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "商务部推出16项促进旅游出口措施",
+      "summary": "商务部发布16项举措，扩大旅行服务出口与入境消费。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10590086.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "广州与湛江合作加速海洋经济开放",
+      "summary": "广湛合作推进海洋经济场景培育与对外开放。",
+      "link": "https://www.chinanews.com.cn/dwq/2026/03-20/10590071.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普政府批准165亿美元军售计划",
+      "summary": "特朗普政府绕开国会，批准对中东三国165亿美元军售。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589786.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI流量2027年将超人类",
+      "summary": "Cloudflare CEO预测2027年互联网AI...",
+      "link": "https://www.ithome.com/0/931/085.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "中东局势致芯片缺气制造业受冲击",
+      "summary": "中东冲突导致气源紧缺，全球芯片与制造业受影响。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589878.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美联储在中东战火中议息或放猛料",
+      "summary": "中东战事背景下，美联储会议将公布关键政策信息。",
+      "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "工商银行天津审计副局长被调查",
+      "summary": "工商银行内部审计天津分局副局长陈兵接受审查调查。",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-20/10590082.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "贵金属大跌，黄金逼近4500美元",
+      "summary": "现货黄金跌至约4500美元，白银跌幅超13%。",
+      "link": "https://www.cls.cn/detail/2318687"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "93.75",
-      "pct": -1.8838304552590237,
+      "price": "95.45",
+      "pct": -0.10465724751438443,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,708.76",
-      "pct": 2.237662027487687,
+      "price": "4,681.79",
+      "pct": 1.6520832880995322,
       "trend": "up"
     },
     {
@@ -116,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-20 16:09:29"
+  "updated_at": "2026-03-20 17:39:52"
 }

@@ -2,90 +2,84 @@
   "title": "MSAI今日新闻｜2026年3月20日 星期五（农历二月初一）｜汕头：多云 21°C",
   "date_text": "2026年3月20日 星期五（农历二月初一）",
   "weather_text": "汕头：多云 21°C",
-  "total_count": 9,
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "伊朗失去核弹制造能力",
-      "reason": "中东核威胁骤降，国际关注"
+      "title": "美财长或解除伊朗制裁",
+      "reason": "涉及石油与金融市场波动"
     },
     {
-      "title": "美国30年期贷款利率升至6.22...",
-      "reason": "美债利率创三月新高，金融波动"
+      "title": "美民调不支持伊朗地面战",
+      "reason": "反映国际舆论对伊局势"
     },
     {
-      "title": "南设得兰群岛6.6级地震或海啸",
-      "reason": "强震或致局部海啸，突发灾害"
+      "title": "外交部斡旋中东停火",
+      "reason": "关系中东和平与地区稳定"
     }
   ],
   "news_items": [
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗失去核弹与导弹制造能力",
-      "summary": "内塔尼亚胡称伊朗不再具备铀浓缩和弹道导弹能力",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589733.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "南设得兰群岛6.6级地震或致海啸",
-      "summary": "海域6.6级地震可能引发局部海啸",
+      "short_title": "南设得兰群岛6.6级地震或致局部海啸",
+      "summary": "6.6级地震震源浅，可能引发局部海啸。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589880.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普会晤高市早苗比拟珍珠港",
-      "summary": "特朗普将美袭伊朗比作日本偷袭珍珠港",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589719.shtml"
+      "short_title": "美民调：多数不赞成伊朗地面战争",
+      "summary": "多数美国人反对大规模地面作战。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589842.shtml"
     },
     {
-      "category": "AI重点",
-      "short_title": "算力硬件概念走强 创业板指高开",
-      "summary": "创业板指高开1.6% 算力概念受追捧",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10589810.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "中东局势致芯片缺气制造业失血",
-      "summary": "中东冲突影响全球芯片供应与制造业",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589878.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "中国—东盟中心与驻东盟使团交流",
-      "summary": "深化中国与东盟合作交流工作",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/03-20/10589882.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普政府批准165亿美元中东军售",
-      "summary": "绕开国会向中东三国提供大额军售",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589786.shtml"
-    },
-    {
-      "category": "金融重点",
+      "category": "今日三大新闻",
       "short_title": "美国30年期贷款利率升至6.22%",
-      "summary": "创三个月最高值 显示房贷成本上升",
+      "summary": "30年期房贷利率涨至6.22%，创三月新高。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589727.shtml"
     },
     {
+      "category": "国际/宏观重点",
+      "short_title": "美财长或解除伊朗石油制裁中方回应",
+      "summary": "美国考虑放宽伊朗石油禁令，中国表示关注。",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-20/10590015.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "外交部称将继续斡旋中东停火",
+      "summary": "中方推动中东停火，争取地区和平稳定。",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-20/10590021.shtml"
+    },
+    {
       "category": "金融重点",
-      "short_title": "美联储首场决议聚焦中东战火",
-      "summary": "鲍威尔将公布关键货币政策信息",
+      "short_title": "美联储会议在中东战火下召开",
+      "summary": "美联储将议息，市场关注鲍威尔言论。",
       "link": "https://i.ifeng.com/c/8rav5bHK8Z4"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "伊朗指责美国盟友“钱袋子”被炸",
+      "summary": "伊朗怒斥美盟友，称其为‘钱袋子’被炸。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-19/10589701.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "美媒称美军或夺岛逼伊朗开放霍尔木兹",
+      "summary": "美军或通过夺岛迫使伊朗让航道通行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10589748.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "93.52",
-      "pct": -2.124542124542126,
+      "price": "93.63",
+      "pct": -2.0094191522762967,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,700.91",
-      "pct": 2.0672210521744803,
+      "price": "4,699.69",
+      "pct": 2.0407321362659268,
       "trend": "up"
     },
     {
@@ -110,5 +104,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-20 14:04:01"
+  "updated_at": "2026-03-20 15:51:16"
 }

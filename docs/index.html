@@ -56,22 +56,24 @@
       display: block;
       text-decoration: none;
       color: inherit;
+      cursor: pointer;
       border-bottom: 1px solid #eee;
-      transition: transform 0.15s ease, background 0.15s ease;
-      border-radius: 12px;
+      -webkit-tap-highlight-color: rgba(0,0,0,0.05);
     }
 
     .card-link:last-child {
       border-bottom: none;
     }
 
-    .card-link:active {
-      transform: scale(0.995);
+    .card-link:active .news-item {
       background: #f8fafc;
+      transform: scale(0.997);
     }
 
     .news-item {
       padding: 14px 0;
+      transition: background 0.15s ease, transform 0.15s ease;
+      border-radius: 10px;
     }
 
     .news-title {
@@ -111,12 +113,39 @@
     }
 
     .plain-item {
-      padding: 12px 0;
+      padding: 14px 0;
       border-bottom: 1px solid #eee;
     }
 
     .plain-item:last-child {
       border-bottom: none;
+    }
+
+    .future-line {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #374151;
+    }
+
+    .price-up {
+      color: #d93025;
+      font-weight: 700;
+    }
+
+    .price-down {
+      color: #188038;
+      font-weight: 700;
+    }
+
+    .price-flat {
+      color: #6b7280;
+      font-weight: 700;
+    }
+
+    .future-name {
+      color: #374151;
+      margin-right: 6px;
     }
   </style>
 </head>
@@ -155,15 +184,23 @@
         .replace(/'/g, "&#39;");
     }
 
+    function normText(text) {
+      return String(text || "")
+        .replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, "")
+        .trim()
+        .toLowerCase();
+    }
+
     function findHotspotLink(hotspot, newsItems) {
-      const title = (hotspot.title || "").trim();
+      const title = normText(hotspot.title || "");
       if (!title) return "";
 
-      // 先精确包含匹配
       for (const item of newsItems) {
-        const shortTitle = (item.short_title || "").trim();
-        const summary = (item.summary || "").trim();
+        const shortTitle = normText(item.short_title || "");
+        const summary = normText(item.summary || "");
+
         if (
+          shortTitle === title ||
           shortTitle.includes(title) ||
           title.includes(shortTitle) ||
           summary.includes(title)
@@ -172,13 +209,12 @@
         }
       }
 
-      // 再按前4个字模糊匹配
-      const key = title.slice(0, 4);
-      if (key) {
+      const key4 = title.slice(0, 4);
+      if (key4) {
         for (const item of newsItems) {
-          const shortTitle = (item.short_title || "").trim();
-          const summary = (item.summary || "").trim();
-          if (shortTitle.includes(key) || summary.includes(key)) {
+          const shortTitle = normText(item.short_title || "");
+          const summary = normText(item.summary || "");
+          if (shortTitle.includes(key4) || summary.includes(key4)) {
             return item.link || "";
           }
         }
@@ -187,29 +223,86 @@
       return "";
     }
 
-    function renderClickableCard(title, summary, link, tag) {
+    function renderNewsCard(title, summary, link, tag) {
       const safeTitle = escapeHtml(title);
       const safeSummary = escapeHtml(summary);
       const safeTag = escapeHtml(tag || "");
-      const safeLink = link || "#";
+      const safeLink = escapeHtml(link || "");
 
-      const inner = `
-        <div class="news-item">
+      if (link) {
+        return `
+          <a class="card-link" href="${safeLink}" target="_blank" rel="noopener noreferrer">
+            <div class="news-item">
+              <div class="news-title">${safeTitle}</div>
+              <div class="news-summary">${safeSummary}</div>
+              ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
+            </div>
+          </a>
+        `;
+      }
+
+      return `
+        <div class="plain-item">
           <div class="news-title">${safeTitle}</div>
           <div class="news-summary">${safeSummary}</div>
           ${safeTag ? `<div class="tag">${safeTag}</div>` : ""}
         </div>
       `;
+    }
 
-      if (link) {
+    function getPriceClass(item) {
+      if (item.trend === "up") return "price-up";
+      if (item.trend === "down") return "price-down";
+      if (typeof item.pct === "number") {
+        if (item.pct > 0) return "price-up";
+        if (item.pct < 0) return "price-down";
+      }
+      return "price-flat";
+    }
+
+    function getTrendSymbol(item) {
+      if (item.trend === "up") return "▲";
+      if (item.trend === "down") return "▼";
+      if (typeof item.pct === "number") {
+        if (item.pct > 0) return "▲";
+        if (item.pct < 0) return "▼";
+      }
+      return "■";
+    }
+
+    function formatPct(item) {
+      if (typeof item.pct !== "number") return "";
+      const sign = item.pct > 0 ? "+" : "";
+      return `${sign}${item.pct.toFixed(2)}%`;
+    }
+
+    function renderFutureCard(item) {
+      const priceClass = getPriceClass(item);
+      const trendSymbol = getTrendSymbol(item);
+      const pctText = formatPct(item);
+      const name = escapeHtml(item.name || "");
+      const price = escapeHtml(item.price || "");
+      const historyUrl = escapeHtml(item.history_url || "");
+
+      const innerHtml = `
+        <div class="news-item">
+          <div class="future-line">
+            <span class="future-name">${name}</span>
+            <span class="${priceClass}">${price}</span>
+            ${pctText ? `<span class="${priceClass}"> ${trendSymbol} ${escapeHtml(pctText)}</span>` : ""}
+          </div>
+        </div>
+      `;
+
+      if (item.history_url) {
         return `
-          <a class="card-link" href="${safeLink}" target="_blank" rel="noopener noreferrer">
-            ${inner}
+          <a class="card-link" href="${historyUrl}" target="_blank" rel="noopener noreferrer">
+            ${innerHtml}
           </a>
         `;
       }
 
-      return `<div class="plain-item">${inner}</div>`;
+      return `<div class="plain-item">${innerHtml}</div>`;
     }
 
     fetch("./news-data.json")
@@ -225,13 +318,12 @@
         document.getElementById("weatherText").innerText = data.weather_text || "";
         document.getElementById("updatedAt").innerText = data.updated_at ? `更新时间：${data.updated_at}` : "";
 
-        const newsItems = data.news_items || [];
+        const newsItems = Array.isArray(data.news_items) ? data.news_items : [];
 
-        // 关键热点：整卡可点击
         let hotspotsHtml = "";
         (data.hotspots || []).forEach(item => {
           const hotspotLink = findHotspotLink(item, newsItems);
-          hotspotsHtml += renderClickableCard(
+          hotspotsHtml += renderNewsCard(
             item.title || "",
             item.reason || "",
             hotspotLink,
@@ -240,10 +332,9 @@
         });
         document.getElementById("hotspots").innerHTML = hotspotsHtml || `<div class="empty">暂无热点</div>`;
 
-        // 新闻正文：整卡可点击
         let newsHtml = "";
         newsItems.forEach((item, index) => {
-          newsHtml += renderClickableCard(
+          newsHtml += renderNewsCard(
             `${index + 1}. ${item.short_title || ""}`,
             item.summary || "",
             item.link || "",
@@ -252,33 +343,9 @@
         });
         document.getElementById("news").innerHTML = newsHtml || `<div class="empty">暂无新闻</div>`;
 
-        // 期货观察
         let futuresHtml = "";
         (data.futures || []).forEach(item => {
-          let trendIcon = "➖";
-          if (item.trend === "up") trendIcon = "📈";
-          else if (item.trend === "down") trendIcon = "📉";
-
-          const pctText = typeof item.pct === "number" ? ` (${item.pct > 0 ? "+" : ""}${item.pct.toFixed(2)}%)` : "";
-          const line = `${item.name || ""} ${item.price || ""} ${trendIcon}${pctText}`;
-
-          if (item.history_url) {
-            futuresHtml += `
-              <a class="card-link" href="${item.history_url}" target="_blank" rel="noopener noreferrer">
-                <div class="news-item">
-                  <div class="news-title">${escapeHtml(line)}</div>
-                </div>
-              </a>
-            `;
-          } else {
-            futuresHtml += `
-              <div class="plain-item">
-                <div class="news-item">
-                  <div class="news-title">${escapeHtml(line)}</div>
-                </div>
-              </div>
-            `;
-          }
+          futuresHtml += renderFutureCard(item);
         });
         document.getElementById("futures").innerHTML = futuresHtml || `<div class="empty">暂无期货数据</div>`;
       })

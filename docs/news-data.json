@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年3月21日 星期六（农历二月初一）｜汕头：阴 18°C",
-  "date_text": "2026年3月21日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 18°C",
+  "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：多云 17°C",
+  "date_text": "2026年3月22日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 17°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "美放宽伊朗油品制裁",
-      "reason": "伊朗油品制裁放宽，影响全球油市",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590403.shtml"
+      "title": "伊朗新年致辞与持续袭击",
+      "reason": "伊朗局势紧张，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590498.shtml"
     },
     {
-      "title": "霍尔木兹海峡油价大涨",
-      "reason": "霍尔木兹局势导致原油及贵金属波动",
-      "link": "https://finance.ifeng.com/c/8rfQnm264r7"
+      "title": "重庆大学实验室爆炸致1死3伤",
+      "reason": "实验室安全事故致多人伤亡",
+      "link": "https://www.chinanews.com.cn/sh/2026/03-21/10590743.shtml"
     },
     {
-      "title": "香港引进AI重点企业",
-      "reason": "香港大力布局AI，推动产业升级",
-      "link": "https://www.chinanews.com.cn/dwq/2026/03-21/10590736.shtml"
+      "title": "中东战事推油价攀升",
+      "reason": "中东冲突推高国际油价",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590611.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗新年致辞 前线冲突未止",
-      "summary": "伊朗最高领袖与总统发表新年讲话，冲突仍在继续。",
+      "short_title": "伊朗连环袭击 领袖新年致辞",
+      "summary": "伊朗持续空袭，最高领袖与总统发表新年讲话。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590498.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "韩国大田工厂火灾致十人死亡",
-      "summary": "大田工厂大火已致十人遇难，救援工作紧张进行。",
+      "short_title": "重庆大学实验室爆炸 1死3伤",
+      "summary": "实验室爆炸致1人死亡、3人受伤，现场已启动救援。",
+      "link": "https://www.chinanews.com.cn/sh/2026/03-21/10590743.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美前官员称中美高层交流有益",
+      "summary": "美国前官员指出中美高层互动有助建立沟通机制。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590328.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "韩大田工厂火灾 10人遇难",
+      "summary": "韩国大田工厂大火已致10人死亡，救援仍在进行。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590489.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "外资企业新增显著增长",
-      "summary": "2026年前两月新设外资企业数持续上升。",
+      "short_title": "前两月外资企业新增 创市场磁吸力",
+      "summary": "今年前两个月新设外资企业持续上升，显示中国市场吸引力...",
       "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590730.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "美前官员称中美高层交往有益",
-      "summary": "美前官员指出高层沟通有助于机制建立。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590328.shtml"
-    },
-    {
       "category": "AI重点",
-      "short_title": "香港引进102家重点企业 超四十布局...",
-      "summary": "香港吸引102家企业，其中四十余家涉及人工智能。",
+      "short_title": "港引进102家重点企业 超40布局A...",
+      "summary": "香港引进102家重点企业，其中逾40家专注人工智能布...",
       "link": "https://www.chinanews.com.cn/dwq/2026/03-21/10590736.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美增派三艘军舰及数千兵力至中东",
-      "summary": "美国官员称向中东部署三艘军舰和数千名士兵。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590397.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美放宽伊朗油品制裁三十天",
-      "summary": "美国有条件放松伊朗油品制裁，期限为三十天。",
+      "short_title": "美方有条件放宽伊朗油品制裁30天",
+      "summary": "美国宣布在30天内有条件放松对伊朗石油产品的制裁。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590403.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "中东冲突推油价再创新高",
-      "summary": "中东局势持续，国际油价频创新高。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590611.shtml"
+      "category": "国际/宏观重点",
+      "short_title": "美增派3舰千兵 中东局势升温",
+      "summary": "美官员称向中东增派三舰千兵，局势紧张。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590397.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "金融法草案公开征求意见",
-      "summary": "金融法草案向社会公开征求意见，推动立法完善。",
-      "link": "https://www.cls.cn/detail/2320219"
+      "short_title": "中东战事推油价攀升 高位震荡",
+      "summary": "中东冲突持续导致国际油价频创新高，市场波动加剧。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590611.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-21 21:56:27"
+  "updated_at": "2026-03-22 07:58:17"
 }

@@ -1,100 +1,88 @@
 {
-  "title": "MSAI今日新闻｜2026年3月21日 星期六（农历二月初一）｜汕头：阴 19°C",
+  "title": "MSAI今日新闻｜2026年3月21日 星期六（农历二月初一）｜汕头：阴 18°C",
   "date_text": "2026年3月21日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 19°C",
-  "total_count": 11,
+  "weather_text": "汕头：阴 18°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "这不是我们的战争",
-      "reason": "欧洲公开反对美国军事行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590036.shtml"
+      "title": "美放宽伊朗油品制裁",
+      "reason": "伊朗油品制裁放宽，影响全球油市",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590403.shtml"
     },
     {
-      "title": "战争买黄金失灵了",
-      "reason": "冲突未能推动黄金价格",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10590323.shtml"
+      "title": "霍尔木兹海峡油价大涨",
+      "reason": "霍尔木兹局势导致原油及贵金属波动",
+      "link": "https://finance.ifeng.com/c/8rfQnm264r7"
     },
     {
-      "title": "青海：机架与算力规模实现“双翻番...",
-      "reason": "算力翻倍提升AI算力",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10590349.shtml"
+      "title": "香港引进AI重点企业",
+      "reason": "香港大力布局AI，推动产业升级",
+      "link": "https://www.chinanews.com.cn/dwq/2026/03-21/10590736.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗卫士发言人遇袭身亡",
-      "summary": "伊朗伊斯兰革命卫队发言人在美以袭击中丧生。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590204.shtml"
+      "short_title": "伊朗新年致辞 前线冲突未止",
+      "summary": "伊朗最高领袖与总统发表新年讲话，冲突仍在继续。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590498.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列突袭伊朗气田",
-      "summary": "伊朗称冲突升级，气田遭以色列突袭。",
-      "link": "https://iis.fudan.edu.cn/cc/2d/c6893a773165/page.htm"
+      "short_title": "韩国大田工厂火灾致十人死亡",
+      "summary": "大田工厂大火已致十人遇难，救援工作紧张进行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590489.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "AI助力黑土地农业",
-      "summary": "AI技术在东北黑土地提升耕作效率。",
-      "link": "https://www.chinanews.com.cn/gn/2026/03-21/10590450.shtml"
+      "short_title": "外资企业新增显著增长",
+      "summary": "2026年前两月新设外资企业数持续上升。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590730.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "院士机器人远程手术",
-      "summary": "成都院士利用机器人实现跨省远程手术。",
-      "link": "https://www.chinanews.com.cn/tp/2026/03-21/10590452.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国十五五全球影响",
-      "summary": "英国智库称中国规划辐射全球经济。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590067.shtml"
+      "short_title": "美前官员称中美高层交往有益",
+      "summary": "美前官员指出高层沟通有助于机制建立。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590328.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "青海算力规模翻番",
-      "summary": "青海实现机架与算力规模双倍增长。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10590349.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "英特尔Ultra7搭配RTX5070",
-      "summary": "新款处理器与显卡组合提升AI运算性能。",
-      "link": "https://www.ithome.com/0/931/216.htm"
+      "short_title": "香港引进102家重点企业 超四十布局...",
+      "summary": "香港吸引102家企业，其中四十余家涉及人工智能。",
+      "link": "https://www.chinanews.com.cn/dwq/2026/03-21/10590736.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美增派舰艇至中东",
-      "summary": "美国计划向中东派遣3艘军舰和数千兵力。",
+      "short_title": "美增派三艘军舰及数千兵力至中东",
+      "summary": "美国官员称向中东部署三艘军舰和数千名士兵。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590397.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧洲拒绝美军介入",
-      "summary": "欧洲官员称美军行动非本地区战争。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590036.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "战争金价失效",
-      "summary": "近期冲突未能推动黄金价格上涨。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-20/10590323.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美放宽伊朗油制裁30天",
-      "summary": "美国宣布有条件短期放宽伊朗油品制裁。",
+      "short_title": "美放宽伊朗油品制裁三十天",
+      "summary": "美国有条件放松伊朗油品制裁，期限为三十天。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590403.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "中东冲突推油价再创新高",
+      "summary": "中东局势持续，国际油价频创新高。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590611.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "金融法草案公开征求意见",
+      "summary": "金融法草案向社会公开征求意见，推动立法完善。",
+      "link": "https://www.cls.cn/detail/2320219"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "94.74",
-      "pct": -0.8477237048665645,
-      "trend": "down"
+      "price": "98.32",
+      "pct": 2.8990057561486093,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
@@ -125,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-21 11:40:11"
+  "updated_at": "2026-03-21 21:56:27"
 }

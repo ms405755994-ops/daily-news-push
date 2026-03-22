@@ -5,7 +5,7 @@ from datetime import datetime
 
 APPID = os.getenv("WECHAT_APPID", "").strip()
 SECRET = os.getenv("WECHAT_SECRET", "").strip()
-AUTHOR = os.getenv("WECHAT_AUTHOR", "MSAI").strip()
+AUTHOR = os.getenv("WECHAT_AUTHOR", "MSAI").strip()[:8]
 THUMB_URL = os.getenv("WECHAT_THUMB_URL", "").strip()
 
 REQUEST_TIMEOUT = 30

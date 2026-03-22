@@ -863,17 +863,19 @@ def parse_sina_palm(text: str):
     if not text:
         return None
 
-    text = text.replace("\\n", " ").replace("\\t", " ")
+    raw = text.replace("\\n", " ").replace("\\t", " ")
+    raw = re.sub(r"\s+", " ", raw)
 
     patterns = [
-        r"棕榈油连续\s*(\d{3,5}(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
-        r"P0\s*(\d{3,5}(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
-        r"最新价[:：]?\s*(\d{3,5}(?:\.\d+)?)",
-        r"现价[:：]?\s*(\d{3,5}(?:\.\d+)?)",
+        r"棕榈油连续\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
+        r"P0\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
+        r"最新价\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)",
+        r"现价\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)",
+        r"收盘价\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)",
     ]
 
     for p in patterns:
-        m = re.search(p, text, re.I)
+        m = re.search(p, raw, re.I)
         if m:
             current = num_to_float(m.group(1))
             if current is None:
@@ -888,12 +890,22 @@ def parse_sina_palm(text: str):
 
             return {"price": f"{current:,.2f}", "pct": pct}
 
-    nums = re.findall(r"\d{4,5}(?:\.\d+)?", text)
-    nums = [num_to_float(x) for x in nums]
-    nums = [x for x in nums if x is not None and 1000 <= x <= 20000]
+    keyword_patterns = [
+        r"棕榈油连续.{0,80}?(\d{3,5}(?:\.\d+)?)",
+        r"P0.{0,80}?(\d{3,5}(?:\.\d+)?)",
+    ]
+    for p in keyword_patterns:
+        m = re.search(p, raw, re.I)
+        if m:
+            current = num_to_float(m.group(1))
+            if current is not None and 1000 <= current <= 20000:
+                return {"price": f"{current:,.2f}", "pct": None}
 
-    if nums:
-        return {"price": f"{nums[0]:,.2f}", "pct": None}
+    nums = re.findall(r"\d{4,5}(?:\.\d+)?", raw)
+    for x in nums:
+        v = num_to_float(x)
+        if v is not None and 1000 <= v <= 20000:
+            return {"price": f"{v:,.2f}", "pct": None}
 
     return None
 

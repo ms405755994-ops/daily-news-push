@@ -2,10 +2,8 @@ name: Daily News Radar
 
 on:
   schedule:
-    # 北京时间 07:30（UTC 23:30）
-    - cron: '30 23 * * *'
-    # 北京时间 20:00（UTC 12:00）
-    - cron: '0 12 * * *'
+    # 北京时间 08:30（UTC 00:30）
+    - cron: '30 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,57 +14,36 @@ jobs:
       contents: write
 
     steps:
-      # 1️⃣ 拉代码
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Python 环境
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3️⃣ 安装依赖
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
 
-      # 4️⃣ 运行新闻系统（生成 news-data.json + 推企业微信）
       - name: Run News Bot
         run: |
           python news_bot.py
         env:
-          # 新闻源
           NEWS_DATA_KEY: ${{ secrets.NEWS_DATA_KEY }}
           GNEWS_KEY: ${{ secrets.GNEWS_KEY }}
-
-          # AI
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-
-          # 企业微信
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
-
-          # 天气
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
 
-          # 微信测试号（可选）
-          WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
-          WECHAT_SECRET: ${{ secrets.WECHAT_SECRET }}
-          WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
-          WECHAT_TEMPLATE_ID: ${{ secrets.WECHAT_TEMPLATE_ID }}
-
-          # 控制参数
           MAX_FETCH_PER_API: 40
           MAX_FETCH_PER_RSS: 25
           MAX_NEWS: 12
 
           REPORT_CITY: 汕头
           REPORT_LUNAR_TEXT: 农历二月初一
-
-          # 页面地址
           NEWS_PAGE_URL: https://ms405755994-ops.github.io/daily-news-push/
 
-      # 5️⃣ 发布公众号（正式群发）
       - name: Publish to WeChat Official Account
         run: |
           python wechat_publisher.py
@@ -76,7 +53,6 @@ jobs:
           WECHAT_AUTHOR: ${{ secrets.WECHAT_AUTHOR }}
           WECHAT_THUMB_URL: ${{ secrets.WECHAT_THUMB_URL }}
 
-      # 6️⃣ 提交 JSON 到 GitHub Pages
       - name: Commit generated page data
         run: |
           git config user.name "github-actions[bot]"

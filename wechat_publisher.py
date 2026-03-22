@@ -106,30 +106,31 @@ def build_html():
 # 创建图文
 # =========================
 
-def upload_mpnews(token, thumb_id, html, title):
-    url = f"https://api.weixin.qq.com/cgi-bin/media/uploadnews?access_token={token}"
+def upload_thumb(token):
+    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=thumb"
 
-    data = {
-        "articles": [{
-            "title": title[:64],
-            "author": "MSAI",   # ⚠️ 固定写死
-            "digest": title[:50],
-            "content": html,
-            "thumb_media_id": thumb_id,
-            "show_cover_pic": 1
-        }]
+    if not Path(THUMB_PATH).exists():
+        raise RuntimeError(f"封面不存在: {THUMB_PATH}")
+
+    size = os.path.getsize(THUMB_PATH)
+    if size > 2 * 1024 * 1024:
+        raise RuntimeError("封面超过2MB")
+
+    files = {
+        "media": open(THUMB_PATH, "rb")
     }
 
-    print("AUTHOR used:", "MSAI")
+    res = requests.post(url, files=files).json()
+    print("thumb response:", res)
 
-    res = requests.post(url, json=data).json()
-    print("uploadnews response:", res)
+    # ⚠️ 必须用这个
+    thumb_id = res.get("thumb_media_id")
 
-    media_id = res.get("media_id")
-    if not media_id:
-        raise RuntimeError(f"创建图文失败: {res}")
+    if not thumb_id:
+        raise RuntimeError(f"上传封面失败: {res}")
 
-    return media_id
+    print("thumb_media_id:", thumb_id)
+    return thumb_id
 
 
 # =========================

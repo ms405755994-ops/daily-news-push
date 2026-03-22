@@ -859,49 +859,52 @@ def parse_investing_short(text: str, label: str):
     return {"price": f"{current:,.2f}", "pct": pct}
 
 
-def parse_sina_palm(text: str):
-    if not text:
+def parse_sina_palm(raw_text: str):
+    if not raw_text:
         return None
 
-    raw = text.replace("\\n", " ").replace("\\t", " ")
-    raw = re.sub(r"\s+", " ", raw)
+    text = raw_text.replace("\\n", " ").replace("\\t", " ")
+    text = re.sub(r"\s+", " ", text)
 
     patterns = [
+        r"棕榈油连续\s+(\d{3,5}(?:\.\d+)?)\s+([+\-]?\d+(?:\.\d+)?)%\s+P0",
+        r"P0\s+(\d{3,5}(?:\.\d+)?)\s+([+\-]?\d+(?:\.\d+)?)%",
         r"棕榈油连续\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
-        r"P0\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)\s*([+\-]?\d+(?:\.\d+)?)%?",
         r"最新价\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)",
         r"现价\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)",
         r"收盘价\s*[:：]?\s*(\d{3,5}(?:\.\d+)?)",
     ]
 
     for p in patterns:
-        m = re.search(p, raw, re.I)
-        if m:
-            current = num_to_float(m.group(1))
-            if current is None:
-                continue
+        m = re.search(p, text, re.I)
+        if not m:
+            continue
 
-            pct = None
-            if m.lastindex and m.lastindex >= 2 and m.group(2):
-                try:
-                    pct = float(m.group(2))
-                except Exception:
-                    pct = None
+        current = num_to_float(m.group(1))
+        if current is None:
+            continue
 
-            return {"price": f"{current:,.2f}", "pct": pct}
+        pct = None
+        if m.lastindex and m.lastindex >= 2 and m.group(2):
+            try:
+                pct = float(m.group(2))
+            except Exception:
+                pct = None
+
+        return {"price": f"{current:,.2f}", "pct": pct}
 
     keyword_patterns = [
-        r"棕榈油连续.{0,80}?(\d{3,5}(?:\.\d+)?)",
-        r"P0.{0,80}?(\d{3,5}(?:\.\d+)?)",
+        r"棕榈油连续.{0,120}?(\d{4,5}(?:\.\d+)?)",
+        r"P0.{0,120}?(\d{4,5}(?:\.\d+)?)",
     ]
     for p in keyword_patterns:
-        m = re.search(p, raw, re.I)
+        m = re.search(p, text, re.I)
         if m:
             current = num_to_float(m.group(1))
             if current is not None and 1000 <= current <= 20000:
                 return {"price": f"{current:,.2f}", "pct": None}
 
-    nums = re.findall(r"\d{4,5}(?:\.\d+)?", raw)
+    nums = re.findall(r"\d{4,5}(?:\.\d+)?", text)
     for x in nums:
         v = num_to_float(x)
         if v is not None and 1000 <= v <= 20000:
@@ -930,11 +933,11 @@ def fetch_single_future(item: dict):
     elif item["type"] == "investing_short":
         parsed = parse_investing_short(text, item["label"])
     elif item["type"] == "sina_palm":
-        parsed = parse_sina_palm(text)
+        parsed = parse_sina_palm(html or text)
 
     if not parsed:
         print(f"[期货解析失败] {item['name']} | {item['quote_url']}")
-        print(text[:1000])
+        print((html or text)[:1500])
 
     return {
         "name": item["name"],

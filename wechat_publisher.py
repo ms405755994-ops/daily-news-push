@@ -123,7 +123,7 @@ def upload_mpnews(access_token, thumb_media_id, html_content, title):
         "articles": [
             {
                 "thumb_media_id": thumb_media_id,
-                "author": AUTHOR,
+                "author": AUTHOR[:8],
                 "title": title,
                 "content_source_url": "",
                 "content": html_content,

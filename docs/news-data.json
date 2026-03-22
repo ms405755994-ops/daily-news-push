@@ -2,78 +2,72 @@
   "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：多云 22°C",
   "date_text": "2026年3月22日 星期日（农历二月初一）",
   "weather_text": "汕头：多云 22°C",
-  "total_count": 9,
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "美学者批美以袭伊朗",
+      "title": "美学者批美以袭击伊朗“可耻”",
       "reason": "美伊冲突或致全球经济危机",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
-      "title": "航空公司推票价波动免费退票",
-      "reason": "机票价格波动引发退票热潮",
-      "link": "https://www.chinanews.com.cn/sh/2026/03-22/10590884.shtml"
+      "title": "特朗普限伊朗48小时开放霍尔",
+      "reason": "霍尔木兹海峡紧张升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
     },
     {
-      "title": "库克期待中国AI新进展",
-      "reason": "库克看好中国AI发展前景",
+      "title": "苹果CEO库克：迫不及待想看",
+      "reason": "库克关注中国AI新突破",
       "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590871.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美学者批美以袭伊朗 引发经济危机担忧",
-      "summary": "学者称美以攻击伊朗可能致全球经济危机",
+      "short_title": "美学者批美以袭伊朗",
+      "summary": "学者称袭击可耻或致全球经济危机",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美国密苏里州枪击致2死 多人受伤",
-      "summary": "密苏里州枪击事件已致2人死亡，多人受伤",
+      "short_title": "美密苏里州枪击致2死",
+      "summary": "枪击致2人死亡，多人受伤",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590836.shtml"
     },
     {
+      "category": "AI重点",
+      "short_title": "库克期待中国AI新进展",
+      "summary": "库克表示迫不及待关注中国AI",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590871.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "腾讯发布微信ClawBot插件",
+      "summary": "腾讯推出ClawBot实现聊天与AI对接",
+      "link": "https://www.ithome.com/0/931/431.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "特朗普限伊朗48小时开海峡",
+      "summary": "特朗普要求伊朗限时开放霍尔木兹海峡",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
+    },
+    {
       "category": "今日三大新闻",
-      "short_title": "法企看好中国冰雪市场 前景广阔",
-      "summary": "法国企业认为中国滑雪市场正形成特色模式",
+      "short_title": "法企看好中国冰雪市场",
+      "summary": "法国企业认为中国滑雪市场具特色",
       "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590816.shtml"
     },
     {
       "category": "今日三大新闻",
       "short_title": "湖南江华春茶开采助乡振兴",
-      "summary": "7.2万亩春茶开采 成乡村振兴新亮点",
+      "summary": "7.2万亩春茶开采推动乡村振兴",
       "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590779.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "多家航空推出票价波动免费退票",
-      "summary": "机票涨价可免费退票 旅客受惠",
+      "short_title": "航空公司推免费退票政策",
+      "summary": "多家航空推出票价波动免费退票",
       "link": "https://www.chinanews.com.cn/sh/2026/03-22/10590884.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "库克期待中国AI新突破",
-      "summary": "苹果CEO表示迫不及待想看中国AI进展",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590871.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "重庆人工智能学院打造AI新地标",
-      "summary": "解读学院育人模式 助力AI人才培养",
-      "link": "https://www.chinanews.com.cn/edu/2026/03-22/10590877.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普限伊朗48小时开放霍尔木兹海峡",
-      "summary": "美方施压伊朗限时开放海峡 并威胁摧毁发电厂",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗称已打击以色列及美军基地",
-      "summary": "伊朗宣布对以色列南部城市及中东美军基地实施打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590790.shtml"
     }
   ],
   "futures": [
@@ -113,5 +107,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-22 13:52:19"
+  "updated_at": "2026-03-22 14:00:17"
 }

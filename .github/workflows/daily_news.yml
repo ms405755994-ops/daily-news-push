@@ -26,9 +26,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # =========================
-      # 1. 生成新闻
-      # =========================
       - name: Generate News
         run: |
           python news_bot.py
@@ -39,6 +36,11 @@ jobs:
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
 
+          WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
+          WECHAT_SECRET: ${{ secrets.WECHAT_SECRET }}
+          WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
+          WECHAT_TEMPLATE_ID: ${{ secrets.WECHAT_TEMPLATE_ID }}
+
           MAX_FETCH_PER_API: 40
           MAX_FETCH_PER_RSS: 25
           MAX_NEWS: 12
@@ -47,28 +49,10 @@ jobs:
           REPORT_LUNAR_TEXT: 农历二月初一
           NEWS_PAGE_URL: https://ms405755994-ops.github.io/daily-news-push/
 
-      # =========================
-      # 2. 生成封面
-      # =========================
       - name: Generate Cover
         run: |
           python generate_cover.py
 
-      # =========================
-      # 3. 推送微信测试号（关键）
-      # =========================
-      - name: Push WeChat Test Message
-        run: |
-          python wechat_test_push.py
-        env:
-          WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
-          WECHAT_SECRET: ${{ secrets.WECHAT_SECRET }}
-          WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
-          WECHAT_TEMPLATE_ID: ${{ secrets.WECHAT_TEMPLATE_ID }}
-
-      # =========================
-      # 4. 提交页面数据
-      # =========================
       - name: Commit generated page data
         run: |
           git config user.name "github-actions[bot]"

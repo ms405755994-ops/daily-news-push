@@ -8,7 +8,7 @@ from PIL import Image
 APPID = os.getenv("WECHAT_APPID", "").strip()
 SECRET = os.getenv("WECHAT_SECRET", "").strip()
 
-# 固定作者（避免长度问题）
+# 固定作者，避免长度报错
 AUTHOR = "MSAI"
 
 THUMB_URL = os.getenv("WECHAT_THUMB_URL", "").strip()
@@ -36,7 +36,7 @@ def get_access_token():
 
 
 # ========================
-# 上传缩略图（自动压缩）
+# 上传缩略图（自动压缩 + 兼容字段）
 # ========================
 def upload_thumb(access_token):
     img_resp = requests.get(THUMB_URL, timeout=REQUEST_TIMEOUT)
@@ -44,15 +44,14 @@ def upload_thumb(access_token):
 
     image = Image.open(BytesIO(img_resp.content)).convert("RGB")
 
-    # 推荐公众号封面比例
+    # 尺寸控制
     image.thumbnail((900, 500))
 
     output = BytesIO()
     quality = 85
-
     image.save(output, format="JPEG", quality=quality, optimize=True)
 
-    # 控制大小 < 2MB
+    # 控制大小 <2MB
     while output.tell() > 1.8 * 1024 * 1024 and quality > 40:
         output = BytesIO()
         quality -= 10
@@ -68,11 +67,13 @@ def upload_thumb(access_token):
     res = requests.post(url, files=files, timeout=REQUEST_TIMEOUT).json()
     print("thumb response:", res)
 
-    media_id = res.get("media_id")
-    if not media_id:
+    # 🔥 关键修复：兼容两种字段
+    thumb_media_id = res.get("thumb_media_id") or res.get("media_id")
+
+    if not thumb_media_id:
         raise RuntimeError(f"上传缩略图失败: {res}")
 
-    return media_id
+    return thumb_media_id
 
 
 # ========================

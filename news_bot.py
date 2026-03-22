@@ -1062,18 +1062,11 @@ def render_fallback(news):
     return body, idx - 1
 
 
-def build_final_message(news):
-    hotspots = ai_pick_hotspots(news)
-    structured = ai_select_structured_items(news)
-    futures = get_futures_data()
-
+def build_final_message_from_parts(hotspots, structured, futures, item_count):
     if structured:
-        body, item_count = render_body(structured)
+        body, _ = render_body(structured)
     else:
-        body, item_count = render_fallback(news)
-        structured = []
-
-    export_news_page_json(hotspots, structured, futures)
+        body = ""
 
     hotspot_block = render_hotspots(hotspots)
     parts = [
@@ -1090,10 +1083,10 @@ def build_final_message(news):
     parts.append(body)
     parts.append(render_futures_footer(futures))
 
-    final_text = "\n".join(parts)
-    if len(final_text) > 3900:
-        final_text = final_text[:3900] + "\n\n（内容过长已截断）"
-    return final_text
+    message = "\n".join(parts)
+    if len(message) > 3900:
+        message = message[:3900] + "\n\n（内容过长已截断）"
+    return message
 
 
 # ===============================
@@ -1118,15 +1111,52 @@ def push_wechat(msg: str):
 
 
 # ===============================
-# 微信测试号推送
+# 微信测试号推送（多字段模板）
+# 模板建议：
+#
+# {{first.DATA}}
+#
+# 热点：{{keyword1.DATA}}
+# 热点：{{keyword2.DATA}}
+# 热点：{{keyword3.DATA}}
+# 突发：{{keyword4.DATA}}
+# 突发：{{keyword5.DATA}}
+#
+# 时间：{{keyword6.DATA}}
+# {{remark.DATA}}
 # ===============================
 
-def get_test_push_title(page_data: dict) -> str:
-    items = page_data.get("news_items", [])[:3]
-    titles = [x.get("short_title", "").strip() for x in items if x.get("short_title", "").strip()]
-    if not titles:
-        return "今日新闻已生成"
-    return "；".join(titles)[:38]
+def build_push_lines(page_data):
+    items = page_data.get("news_items", [])
+
+    hot = []
+    urgent = []
+
+    for x in items:
+        title = x.get("short_title", "").strip()
+        cat = x.get("category", "").strip()
+
+        if not title:
+            continue
+
+        title = safe_text(title, 18)
+
+        if "突发" in cat:
+            urgent.append(title)
+        else:
+            hot.append(title)
+
+    def safe_get(lst, idx):
+        return lst[idx] if idx < len(lst) else "-"
+
+    return {
+        "k1": safe_get(hot, 0),
+        "k2": safe_get(hot, 1),
+        "k3": safe_get(hot, 2),
+        "k4": safe_get(urgent, 0),
+        "k5": safe_get(urgent, 1),
+        "k6": china_now().strftime("%Y-%m-%d %H:%M"),
+    }
 
 
 def push_wechat_test_from_page_data(page_data: dict):
@@ -1152,8 +1182,7 @@ def push_wechat_test_from_page_data(page_data: dict):
         print("测试号 token 获取成功")
 
         send_url = f"https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={access_token}"
-
-        title_text = get_test_push_title(page_data)
+        lines = build_push_lines(page_data)
 
         data = {
             "touser": WECHAT_OPENID,
@@ -1164,11 +1193,27 @@ def push_wechat_test_from_page_data(page_data: dict):
                     "color": "#173177"
                 },
                 "keyword1": {
-                    "value": title_text,
+                    "value": lines["k1"],
                     "color": "#000000"
                 },
                 "keyword2": {
-                    "value": china_now().strftime("%Y-%m-%d %H:%M"),
+                    "value": lines["k2"],
+                    "color": "#000000"
+                },
+                "keyword3": {
+                    "value": lines["k3"],
+                    "color": "#000000"
+                },
+                "keyword4": {
+                    "value": lines["k4"],
+                    "color": "#000000"
+                },
+                "keyword5": {
+                    "value": lines["k5"],
+                    "color": "#000000"
+                },
+                "keyword6": {
+                    "value": lines["k6"],
                     "color": "#173177"
                 },
                 "remark": {
@@ -1186,6 +1231,7 @@ def push_wechat_test_from_page_data(page_data: dict):
 
     except Exception as e:
         print("测试号推送失败:", e)
+
 
 # ===============================
 # 主程序
@@ -1213,32 +1259,14 @@ def main():
     futures = get_futures_data()
 
     if structured:
-        body, item_count = render_body(structured)
+        _, item_count = render_body(structured)
     else:
-        body, item_count = render_fallback(news)
+        _, item_count = render_fallback(news)
         structured = []
 
     page_data = export_news_page_json(hotspots, structured, futures)
 
-    hotspot_block = render_hotspots(hotspots)
-    parts = [
-        f"# {get_report_title()}",
-        "",
-        f"今日共{item_count}条",
-        "",
-    ]
-
-    if hotspot_block:
-        parts.append(hotspot_block)
-        parts.append("")
-
-    parts.append(body)
-    parts.append(render_futures_footer(futures))
-
-    message = "\n".join(parts)
-    if len(message) > 3900:
-        message = message[:3900] + "\n\n（内容过长已截断）"
-
+    message = build_final_message_from_parts(hotspots, structured, futures, item_count)
     print(message)
 
     push_wechat(message)

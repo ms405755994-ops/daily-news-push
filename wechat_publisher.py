@@ -107,7 +107,8 @@ def build_html():
 # =========================
 
 def upload_thumb(token):
-    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=thumb"
+    # ⚠️ 正确接口（重点）
+    url = f"https://api.weixin.qq.com/cgi-bin/media/upload?access_token={token}&type=thumb"
 
     if not Path(THUMB_PATH).exists():
         raise RuntimeError(f"封面不存在: {THUMB_PATH}")
@@ -123,8 +124,8 @@ def upload_thumb(token):
     res = requests.post(url, files=files).json()
     print("thumb response:", res)
 
-    # ⚠️ 必须用这个
-    thumb_id = res.get("thumb_media_id")
+    # ✅ 这里就一定是 thumb_media_id
+    thumb_id = res.get("media_id")
 
     if not thumb_id:
         raise RuntimeError(f"上传封面失败: {res}")

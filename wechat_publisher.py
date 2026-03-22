@@ -43,15 +43,14 @@ def get_token():
 # =========================
 
 def upload_thumb(token):
-    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=thumb"
+    url = f"https://api.weixin.qq.com/cgi-bin/media/upload?access_token={token}&type=thumb"
 
     if not Path(THUMB_PATH).exists():
         raise RuntimeError(f"封面不存在: {THUMB_PATH}")
 
-    # ⚠️ 微信限制 <2MB
     size = os.path.getsize(THUMB_PATH)
     if size > 2 * 1024 * 1024:
-        raise RuntimeError("封面超过2MB，请压缩")
+        raise RuntimeError("封面超过2MB")
 
     files = {
         "media": open(THUMB_PATH, "rb")
@@ -60,12 +59,13 @@ def upload_thumb(token):
     res = requests.post(url, files=files).json()
     print("thumb response:", res)
 
+    # ✅ 关键：兼容两种返回
     thumb_id = res.get("media_id") or res.get("thumb_media_id")
 
     if not thumb_id:
         raise RuntimeError(f"上传封面失败: {res}")
 
-    print("thumb:", thumb_id)
+    print("thumb_id:", thumb_id)
     return thumb_id
 
 

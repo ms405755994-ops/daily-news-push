@@ -1121,24 +1121,12 @@ def push_wechat(msg: str):
 # 微信测试号推送
 # ===============================
 
-def build_dot_card(page_data):
+def get_test_push_title(page_data: dict) -> str:
     items = page_data.get("news_items", [])[:3]
-    titles = [x.get("short_title", "")[:12] for x in items if x.get("short_title")]
-
-    lines = []
-    lines.append("━━━━━━━━━━━━━━")
-    lines.append("📰 MSAI今日新闻")
-    lines.append("━━━━━━━━━━━━━━")
-    lines.append("")
-
-    for t in titles:
-        lines.append(f"🔥 {t}")
-
-    lines.append("")
-    lines.append("━━━━━━━━━━━━━━")
-    lines.append("👉 点击查看完整新闻")
-
-    return "\n".join(lines)
+    titles = [x.get("short_title", "").strip() for x in items if x.get("short_title", "").strip()]
+    if not titles:
+        return "今日新闻已生成"
+    return "；".join(titles)[:38]
 
 
 def push_wechat_test_from_page_data(page_data: dict):
@@ -1165,7 +1153,7 @@ def push_wechat_test_from_page_data(page_data: dict):
 
         send_url = f"https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={access_token}"
 
-        summary = build_dot_card(page_data)
+        title_text = get_test_push_title(page_data)
 
         data = {
             "touser": WECHAT_OPENID,
@@ -1176,7 +1164,7 @@ def push_wechat_test_from_page_data(page_data: dict):
                     "color": "#173177"
                 },
                 "keyword1": {
-                    "value": summary,
+                    "value": title_text,
                     "color": "#000000"
                 },
                 "keyword2": {
@@ -1184,7 +1172,7 @@ def push_wechat_test_from_page_data(page_data: dict):
                     "color": "#173177"
                 },
                 "remark": {
-                    "value": "👉 点击查看完整新闻",
+                    "value": "点击查看完整新闻",
                     "color": "#888888"
                 }
             }
@@ -1198,7 +1186,6 @@ def push_wechat_test_from_page_data(page_data: dict):
 
     except Exception as e:
         print("测试号推送失败:", e)
-
 
 # ===============================
 # 主程序

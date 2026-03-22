@@ -2,6 +2,8 @@ import requests
 import json
 import os
 from datetime import datetime
+from io import BytesIO
+from PIL import Image
 
 APPID = os.getenv("WECHAT_APPID", "").strip()
 SECRET = os.getenv("WECHAT_SECRET", "").strip()
@@ -34,14 +36,32 @@ def get_access_token():
 
 
 # ========================
-# 上传缩略图（必须用 media/upload）
+# 上传缩略图（自动压缩）
 # ========================
 def upload_thumb(access_token):
-    img = requests.get(THUMB_URL, timeout=REQUEST_TIMEOUT)
-    img.raise_for_status()
+    img_resp = requests.get(THUMB_URL, timeout=REQUEST_TIMEOUT)
+    img_resp.raise_for_status()
+
+    image = Image.open(BytesIO(img_resp.content)).convert("RGB")
+
+    # 推荐公众号封面比例
+    image.thumbnail((900, 500))
+
+    output = BytesIO()
+    quality = 85
+
+    image.save(output, format="JPEG", quality=quality, optimize=True)
+
+    # 控制大小 < 2MB
+    while output.tell() > 1.8 * 1024 * 1024 and quality > 40:
+        output = BytesIO()
+        quality -= 10
+        image.save(output, format="JPEG", quality=quality, optimize=True)
+
+    output.seek(0)
 
     files = {
-        "media": ("thumb.jpg", img.content),
+        "media": ("thumb.jpg", output.read(), "image/jpeg"),
     }
 
     url = f"https://api.weixin.qq.com/cgi-bin/media/upload?access_token={access_token}&type=thumb"
@@ -56,7 +76,7 @@ def upload_thumb(access_token):
 
 
 # ========================
-# 构建 HTML 内容
+# 构建 HTML
 # ========================
 def build_html():
     with open("docs/news-data.json", "r", encoding="utf-8") as f:
@@ -81,7 +101,7 @@ def build_html():
 
 
 # ========================
-# 创建图文（uploadnews）
+# 创建图文
 # ========================
 def upload_mpnews(access_token, thumb_media_id, html_content, title):
     url = f"https://api.weixin.qq.com/cgi-bin/media/uploadnews?access_token={access_token}"
@@ -90,7 +110,7 @@ def upload_mpnews(access_token, thumb_media_id, html_content, title):
         "articles": [
             {
                 "thumb_media_id": thumb_media_id,
-                "author": "MSAI",
+                "author": AUTHOR,
                 "title": title[:64],
                 "content": html_content,
                 "digest": "每日全球新闻速览",
@@ -99,7 +119,7 @@ def upload_mpnews(access_token, thumb_media_id, html_content, title):
         ]
     }
 
-    print("AUTHOR used:", "MSAI")
+    print("AUTHOR used:", AUTHOR)
 
     res = requests.post(url, json=payload, timeout=REQUEST_TIMEOUT).json()
     print("uploadnews response:", res)
@@ -131,7 +151,7 @@ def send_all(access_token, media_id):
 
 
 # ========================
-# 主程序
+# 主流程
 # ========================
 def main():
     token = get_access_token()

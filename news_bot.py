@@ -113,8 +113,8 @@ FUTURES_CONFIG = [
     },
     {
         "name": "大连棕榈油",
-        "quote_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0",
-        "history_url": "https://gu.sina.cn/ft/hq/nf.php?symbol=P0",
+        "quote_url": "https://gu.sina.cn/ft/hq/nf.php?froms=ggmp&symbol=P0",
+        "history_url": "https://gu.sina.cn/ft/hq/nf.php?froms=ggmp&symbol=P0",
         "type": "sina_palm",
         "label": "棕榈油连续",
     },
@@ -1119,7 +1119,15 @@ def push_wechat(msg: str):
 # 微信测试号推送
 # ===============================
 
-def push_wechat_test(content: str):
+def get_test_push_summary(page_data: dict) -> str:
+    items = page_data.get("news_items", [])[:3]
+    if not items:
+        return "今日新闻已生成，点击查看完整内容"
+    summary = "；".join([x.get("short_title", "") for x in items if x.get("short_title")])
+    return safe_text(summary, 100)
+
+
+def push_wechat_test_from_page_data(page_data: dict):
     if not WECHAT_APPID or not WECHAT_SECRET or not WECHAT_OPENID or not WECHAT_TEMPLATE_ID:
         print("微信测试号参数未配置，跳过测试号推送")
         return
@@ -1143,6 +1151,8 @@ def push_wechat_test(content: str):
 
         send_url = f"https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={access_token}"
 
+        summary = get_test_push_summary(page_data)
+
         data = {
             "touser": WECHAT_OPENID,
             "template_id": WECHAT_TEMPLATE_ID,
@@ -1152,7 +1162,7 @@ def push_wechat_test(content: str):
                     "color": "#173177"
                 },
                 "keyword1": {
-                    "value": content[:100],
+                    "value": summary,
                     "color": "#000000"
                 },
                 "keyword2": {
@@ -1160,7 +1170,7 @@ def push_wechat_test(content: str):
                     "color": "#173177"
                 },
                 "remark": {
-                    "value": "点击查看完整内容",
+                    "value": "👉 点击查看完整新闻",
                     "color": "#888888"
                 }
             }
@@ -1197,11 +1207,59 @@ def main():
         print("没有符合条件的中文新闻")
         return
 
-    message = build_final_message(news)
+    hotspots = ai_pick_hotspots(news)
+    structured = ai_select_structured_items(news)
+    futures = get_futures_data()
+
+    if structured:
+        body, item_count = render_body(structured)
+    else:
+        body, item_count = render_fallback(news)
+        structured = []
+
+    page_data = {
+        "title": get_report_title(),
+        "date_text": get_today_header(),
+        "weather_text": fetch_weather_text(),
+        "total_count": len(structured),
+        "hotspots": hotspots,
+        "news_items": structured,
+        "futures": futures,
+        "updated_at": china_now().strftime("%Y-%m-%d %H:%M:%S"),
+    }
+
+    docs_dir = Path("docs")
+    docs_dir.mkdir(parents=True, exist_ok=True)
+    output_path = docs_dir / "news-data.json"
+    output_path.write_text(
+        json.dumps(page_data, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+    print(f"已生成页面数据: {output_path}")
+
+    hotspot_block = render_hotspots(hotspots)
+    parts = [
+        f"# {get_report_title()}",
+        "",
+        f"今日共{item_count}条",
+        "",
+    ]
+
+    if hotspot_block:
+        parts.append(hotspot_block)
+        parts.append("")
+
+    parts.append(body)
+    parts.append(render_futures_footer(futures))
+
+    message = "\n".join(parts)
+    if len(message) > 3900:
+        message = message[:3900] + "\n\n（内容过长已截断）"
+
     print(message)
 
     push_wechat(message)
-    push_wechat_test("今日新闻已生成，点击查看")
+    push_wechat_test_from_page_data(page_data)
 
 
 if __name__ == "__main__":

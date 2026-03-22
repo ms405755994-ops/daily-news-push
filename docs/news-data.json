@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：多云 17°C",
+  "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：多云 22°C",
   "date_text": "2026年3月22日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 17°C",
+  "weather_text": "汕头：多云 22°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "伊朗新年致辞与持续袭击",
-      "reason": "伊朗局势紧张，影响地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590498.shtml"
+      "title": "美学者批美以袭伊朗",
+      "reason": "美伊冲突或致全球经济危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
-      "title": "重庆大学实验室爆炸致1死3伤",
-      "reason": "实验室安全事故致多人伤亡",
-      "link": "https://www.chinanews.com.cn/sh/2026/03-21/10590743.shtml"
+      "title": "航空公司推票价波动免费退票",
+      "reason": "机票价格波动引发退票热潮",
+      "link": "https://www.chinanews.com.cn/sh/2026/03-22/10590884.shtml"
     },
     {
-      "title": "中东战事推油价攀升",
-      "reason": "中东冲突推高国际油价",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590611.shtml"
+      "title": "库克期待中国AI新进展",
+      "reason": "库克看好中国AI发展前景",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590871.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗连环袭击 领袖新年致辞",
-      "summary": "伊朗持续空袭，最高领袖与总统发表新年讲话。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590498.shtml"
+      "short_title": "美学者批美以袭伊朗 引发经济危机担忧",
+      "summary": "学者称美以攻击伊朗可能致全球经济危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "重庆大学实验室爆炸 1死3伤",
-      "summary": "实验室爆炸致1人死亡、3人受伤，现场已启动救援。",
-      "link": "https://www.chinanews.com.cn/sh/2026/03-21/10590743.shtml"
+      "short_title": "美国密苏里州枪击致2死 多人受伤",
+      "summary": "密苏里州枪击事件已致2人死亡，多人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590836.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美前官员称中美高层交流有益",
-      "summary": "美国前官员指出中美高层互动有助建立沟通机制。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-20/10590328.shtml"
+      "short_title": "法企看好中国冰雪市场 前景广阔",
+      "summary": "法国企业认为中国滑雪市场正形成特色模式",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590816.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "韩大田工厂火灾 10人遇难",
-      "summary": "韩国大田工厂大火已致10人死亡，救援仍在进行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590489.shtml"
+      "short_title": "湖南江华春茶开采助乡振兴",
+      "summary": "7.2万亩春茶开采 成乡村振兴新亮点",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590779.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "前两月外资企业新增 创市场磁吸力",
-      "summary": "今年前两个月新设外资企业持续上升，显示中国市场吸引力...",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590730.shtml"
+      "short_title": "多家航空推出票价波动免费退票",
+      "summary": "机票涨价可免费退票 旅客受惠",
+      "link": "https://www.chinanews.com.cn/sh/2026/03-22/10590884.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "港引进102家重点企业 超40布局A...",
-      "summary": "香港引进102家重点企业，其中逾40家专注人工智能布...",
-      "link": "https://www.chinanews.com.cn/dwq/2026/03-21/10590736.shtml"
+      "short_title": "库克期待中国AI新突破",
+      "summary": "苹果CEO表示迫不及待想看中国AI进展",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590871.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "重庆人工智能学院打造AI新地标",
+      "summary": "解读学院育人模式 助力AI人才培养",
+      "link": "https://www.chinanews.com.cn/edu/2026/03-22/10590877.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美方有条件放宽伊朗油品制裁30天",
-      "summary": "美国宣布在30天内有条件放松对伊朗石油产品的制裁。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590403.shtml"
+      "short_title": "特朗普限伊朗48小时开放霍尔木兹海峡",
+      "summary": "美方施压伊朗限时开放海峡 并威胁摧毁发电厂",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美增派3舰千兵 中东局势升温",
-      "summary": "美官员称向中东增派三舰千兵，局势紧张。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-21/10590397.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "中东战事推油价攀升 高位震荡",
-      "summary": "中东冲突持续导致国际油价频创新高，市场波动加剧。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-21/10590611.shtml"
+      "short_title": "伊朗称已打击以色列及美军基地",
+      "summary": "伊朗宣布对以色列南部城市及中东美军基地实施打击",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590790.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-22 07:58:17"
+  "updated_at": "2026-03-22 13:52:19"
 }

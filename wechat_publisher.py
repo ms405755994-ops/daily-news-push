@@ -1,128 +1,121 @@
-import requests
-import json
 import os
-from datetime import datetime
-from io import BytesIO
-from PIL import Image
+import time
+import json
+import requests
+from pathlib import Path
 
-APPID = os.getenv("WECHAT_APPID", "").strip()
-SECRET = os.getenv("WECHAT_SECRET", "").strip()
+# =========================
+# 配置（从 GitHub Secrets 读取）
+# =========================
 
-# 固定作者，避免长度报错
-AUTHOR = "MSAI"
+APPID = os.getenv("WECHAT_APPID")
+SECRET = os.getenv("WECHAT_SECRET")
+AUTHOR = os.getenv("WECHAT_AUTHOR", "MSAI")[:8]   # ⚠️ 最多8个字符
+THUMB_PATH = "docs/FMss.png"  # 本地封面图（必须 < 2MB）
 
-THUMB_URL = os.getenv("WECHAT_THUMB_URL", "").strip()
+NEWS_JSON_PATH = "docs/news-data.json"
 
-REQUEST_TIMEOUT = 30
-
-
-# ========================
+# =========================
 # 获取 access_token
-# ========================
-def get_access_token():
+# =========================
+
+def get_token():
     url = "https://api.weixin.qq.com/cgi-bin/token"
     params = {
         "grant_type": "client_credential",
         "appid": APPID,
-        "secret": SECRET,
+        "secret": SECRET
     }
-    res = requests.get(url, params=params, timeout=REQUEST_TIMEOUT).json()
+    res = requests.get(url, params=params).json()
     print("token response:", res)
 
     token = res.get("access_token")
     if not token:
-        raise RuntimeError(f"获取 access_token 失败: {res}")
+        raise RuntimeError("获取 token 失败")
+
     return token
 
 
-# ========================
-# 上传缩略图（自动压缩 + 兼容字段）
-# ========================
-def upload_thumb(access_token):
-    img_resp = requests.get(THUMB_URL, timeout=REQUEST_TIMEOUT)
-    img_resp.raise_for_status()
+# =========================
+# 上传封面图
+# =========================
 
-    image = Image.open(BytesIO(img_resp.content)).convert("RGB")
+def upload_thumb(token):
+    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=thumb"
 
-    # 尺寸控制
-    image.thumbnail((900, 500))
-
-    output = BytesIO()
-    quality = 85
-    image.save(output, format="JPEG", quality=quality, optimize=True)
-
-    # 控制大小 <2MB
-    while output.tell() > 1.8 * 1024 * 1024 and quality > 40:
-        output = BytesIO()
-        quality -= 10
-        image.save(output, format="JPEG", quality=quality, optimize=True)
-
-    output.seek(0)
+    if not Path(THUMB_PATH).exists():
+        raise RuntimeError("封面图不存在")
 
     files = {
-        "media": ("thumb.jpg", output.read(), "image/jpeg"),
+        "media": open(THUMB_PATH, "rb")
     }
 
-    url = f"https://api.weixin.qq.com/cgi-bin/media/upload?access_token={access_token}&type=thumb"
-    res = requests.post(url, files=files, timeout=REQUEST_TIMEOUT).json()
+    res = requests.post(url, files=files).json()
     print("thumb response:", res)
 
-    # 🔥 关键修复：兼容两种字段
-    thumb_media_id = res.get("thumb_media_id") or res.get("media_id")
+    thumb_id = res.get("media_id") or res.get("thumb_media_id")
 
-    if not thumb_media_id:
+    if not thumb_id:
         raise RuntimeError(f"上传缩略图失败: {res}")
 
-    return thumb_media_id
+    print("thumb:", thumb_id)
+    return thumb_id
 
 
-# ========================
-# 构建 HTML
-# ========================
+# =========================
+# 生成 HTML 内容
+# =========================
+
 def build_html():
-    with open("docs/news-data.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+    data = json.loads(Path(NEWS_JSON_PATH).read_text(encoding="utf-8"))
 
-    html = f"<h2>{data.get('title','')}</h2>"
-    html += f"<p>{data.get('date_text','')} | {data.get('weather_text','')}</p><hr>"
+    html = f"<h2>{data['title']}</h2>"
 
-    # 热点
-    html += "<h3>关键热点</h3>"
-    for item in data.get("hotspots", []):
-        html += f"<p><b>{item.get('title','')}</b><br>{item.get('reason','')}</p>"
+    # ===== 热点 =====
+    html += "<h3>🔥 关键热点</h3>"
+    for h in data.get("hotspots", []):
+        html += f"<p><b>{h['title']}</b><br>{h['reason']}</p>"
 
-    # 新闻正文
-    html += "<h3>新闻正文</h3>"
-    for i, item in enumerate(data.get("news_items", []), 1):
-        html += f"<h4>{i}. {item.get('short_title','')}</h4>"
-        html += f"<p>{item.get('summary','')}</p>"
-        html += f'<p><a href="{item.get("link","")}">查看原文</a></p>'
+    # ===== 新闻 =====
+    html += "<h3>📰 新闻</h3>"
+    for n in data.get("news_items", []):
+        html += f"""
+        <p>
+        <b>{n['short_title']}</b><br>
+        {n['summary']}<br>
+        <a href="{n['link']}">阅读全文</a>
+        </p>
+        """
+
+    # ===== 期货 =====
+    html += "<h3>📊 期货</h3>"
+    for f in data.get("futures", []):
+        html += f"<p>{f['name']}：{f['price']}</p>"
 
     return html
 
 
-# ========================
-# 创建图文
-# ========================
-def upload_mpnews(access_token, thumb_media_id, html_content, title):
-    url = f"https://api.weixin.qq.com/cgi-bin/media/uploadnews?access_token={access_token}"
+# =========================
+# 上传图文消息
+# =========================
 
-    payload = {
-        "articles": [
-            {
-                "thumb_media_id": thumb_media_id,
-                "author": AUTHOR,
-                "title": title[:64],
-                "content": html_content,
-                "digest": "每日全球新闻速览",
-                "show_cover_pic": 1,
-            }
-        ]
+def upload_mpnews(token, thumb_id, html, title):
+    url = f"https://api.weixin.qq.com/cgi-bin/media/uploadnews?access_token={token}"
+
+    data = {
+        "articles": [{
+            "title": title,
+            "author": AUTHOR,
+            "digest": title[:50],
+            "content": html,
+            "thumb_media_id": thumb_id,
+            "show_cover_pic": 1
+        }]
     }
 
     print("AUTHOR used:", AUTHOR)
 
-    res = requests.post(url, json=payload, timeout=REQUEST_TIMEOUT).json()
+    res = requests.post(url, json=data).json()
     print("uploadnews response:", res)
 
     media_id = res.get("media_id")
@@ -132,42 +125,84 @@ def upload_mpnews(access_token, thumb_media_id, html_content, title):
     return media_id
 
 
-# ========================
-# 群发
-# ========================
-def send_all(access_token, media_id):
-    url = f"https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token={access_token}"
+# =========================
+# 群发消息
+# =========================
 
-    payload = {
-        "filter": {"is_to_all": True},
-        "mpnews": {"media_id": media_id},
-        "msgtype": "mpnews",
+def send_mass(token, media_id):
+    url = f"https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token={token}"
+
+    data = {
+        "filter": {
+            "is_to_all": True
+        },
+        "mpnews": {
+            "media_id": media_id
+        },
+        "msgtype": "mpnews"
     }
 
-    res = requests.post(url, json=payload, timeout=REQUEST_TIMEOUT).json()
+    res = requests.post(url, json=data).json()
     print("群发结果:", res)
 
     if res.get("errcode") != 0:
-        raise RuntimeError(res)
+        raise RuntimeError(f"群发失败: {res}")
+
+    return res
 
 
-# ========================
-# 主流程
-# ========================
+# =========================
+# 查询群发状态（关键新增）
+# =========================
+
+def check_mass_status(token, msg_id):
+    url = f"https://api.weixin.qq.com/cgi-bin/message/mass/get?access_token={token}"
+
+    data = {"msg_id": msg_id}
+
+    res = requests.post(url, json=data).json()
+    print("群发状态查询:", res)
+
+    status = res.get("msg_status")
+
+    status_map = {
+        "SEND_SUCCESS": "✅ 全部成功",
+        "SENDING": "⏳ 发送中",
+        "SEND_FAIL": "❌ 发送失败",
+        "DELETE": "⚠️ 已删除",
+    }
+
+    return status_map.get(status, status)
+
+
+# =========================
+# 主程序
+# =========================
+
 def main():
-    token = get_access_token()
-    print("token:", token)
+    token = get_token()
 
     thumb_id = upload_thumb(token)
-    print("thumb:", thumb_id)
 
     html = build_html()
+    title = "MSAI今日新闻"
 
-    title = f"MSAI每日新闻 {datetime.now().strftime('%m-%d')}"
     media_id = upload_mpnews(token, thumb_id, html, title)
-    print("media_id:", media_id)
 
-    send_all(token, media_id)
+    res = send_mass(token, media_id)
+
+    msg_id = res.get("msg_id")
+
+    # ===== 等待并查询状态 =====
+    print("开始检查群发状态...")
+
+    for i in range(6):
+        time.sleep(10)
+        status = check_mass_status(token, msg_id)
+        print(f"第{i+1}次检查:", status)
+
+        if status in ["✅ 全部成功", "❌ 发送失败"]:
+            break
 
 
 if __name__ == "__main__":

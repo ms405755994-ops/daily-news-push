@@ -11,7 +11,7 @@ from pathlib import Path
 APPID = os.getenv("WECHAT_APPID")
 SECRET = os.getenv("WECHAT_SECRET")
 AUTHOR = os.getenv("WECHAT_AUTHOR", "MSAI")[:8]   # ⚠️ 最多8个字符
-THUMB_PATH = "docs/FMss.png"  # 本地封面图（必须 < 2MB）
+THUMB_PATH = "docs/cover.jpg"  # 本地封面图（必须 < 2MB）
 
 NEWS_JSON_PATH = "docs/news-data.json"
 

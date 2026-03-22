@@ -2,7 +2,7 @@
   "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：晴 19°C",
   "date_text": "2026年3月22日 星期日（农历二月初一）",
   "weather_text": "汕头：晴 19°C",
-  "total_count": 9,
+  "total_count": 8,
   "hotspots": [
     {
       "title": "美学者批美以袭击伊朗",
@@ -10,69 +10,63 @@
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
-      "title": "OpenAI将在ChatGPT投...",
-      "reason": "AI商业化新模式",
-      "link": "https://www.ithome.com/0/931/509.htm"
+      "title": "AI造谣烟花厂爆炸致死",
+      "reason": "男子被依法处罚",
+      "link": "https://www.ithome.com/0/931/543.htm"
     },
     {
-      "title": "AI造谣致爆炸致2死",
-      "reason": "AI滥用引安全事故",
-      "link": "https://www.ithome.com/0/931/543.htm"
+      "title": "伊朗袭击以色列核设施",
+      "reason": "报复美以升级冲突",
+      "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260321-%E5%8D%B1%E9%99%A9%E5%8D%87%E7%BA%A7-%E6%8A%A5%E5%A4%8D%E7%BE%8E%E4%BB%A5%E8%BD%B0%E7%82%B8%E6%A0%B8%E8%AE%BE%E6%96%BD-%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%E6%A0%B8%E9%87%8D%E5%9C%B0%E8%BF%AA%E8%8E%AB%E7%BA%B3"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "汤加6.2级地震致多人受伤",
-      "summary": "汤加群岛6.2级地震，震源深10公里",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590899.shtml"
+      "short_title": "伊朗轰炸以色列核设施",
+      "summary": "伊朗报复美以，袭击迪莫纳核重地，致百余人受伤。",
+      "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260321-%E5%8D%B1%E9%99%A9%E5%8D%87%E7%BA%A7-%E6%8A%A5%E5%A4%8D%E7%BE%8E%E4%BB%A5%E8%BD%B0%E7%82%B8%E6%A0%B8%E8%AE%BE%E6%96%BD-%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%E6%A0%B8%E9%87%8D%E5%9C%B0%E8%BF%AA%E8%8E%AB%E7%BA%B3"
     },
     {
       "category": "突发新闻",
-      "short_title": "美密苏里州枪击致2死多人伤",
-      "summary": "密苏里州发生枪击，已致2人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590836.shtml"
+      "short_title": "汤加群岛6.2级地震",
+      "summary": "深度10千米的6.2级地震，已致当地人员紧急撤离。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590899.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "世界水日科普活动在郑州启动",
-      "summary": "郑州启动2026世界水日与中国水周宣传",
+      "short_title": "郑州启动世界水日科普",
+      "summary": "2026年世界水日暨中国水周在郑州正式启动。",
       "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590966.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "海南自贸港贸易额增长近三成",
-      "summary": "封关后海南自贸港贸易额涨约30%",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10591039.shtml"
+      "short_title": "海南自贸港对接大湾区",
+      "summary": "海南自贸港与粤港澳大湾区深化合作，拓展港湾经济。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10591061.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "西门子总裁称中国AI创新活力强",
-      "summary": "西门子总裁赞中国人工智能创新力",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10591013.shtml"
+      "short_title": "丘应桦打造国际贸易中心",
+      "summary": "深度打造贸易中心，助力内地企业借港‘出海’。",
+      "link": "https://www.chinanews.com.cn/dwq/2026/03-22/10591058.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI造谣烟花厂爆炸致2死2伤",
-      "summary": "男子利用AI造假信息致事故，被处罚",
+      "short_title": "AI造谣致烟花厂爆炸",
+      "summary": "男子利用AI编造爆炸假信息，被依法处罚。",
       "link": "https://www.ithome.com/0/931/543.htm"
     },
     {
-      "category": "AI重点",
-      "short_title": "OpenAI在ChatGPT投放广告",
-      "summary": "OpenAI计划在美国ChatGPT免费版投放广告",
-      "link": "https://www.ithome.com/0/931/509.htm"
-    },
-    {
       "category": "国际/宏观重点",
-      "short_title": "美学者批美以袭击伊朗或致经济危机",
-      "summary": "学者称美以对伊攻击可能引发全球经济危机",
+      "short_title": "美学者警告伊朗危机",
+      "summary": "美以袭击伊朗被指可致全球性经济危机。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普限伊朗48小时开放霍尔木兹海峡",
-      "summary": "特朗普要求伊朗限时开放霍尔木兹海峡",
+      "short_title": "特朗普限时开放霍尔木兹",
+      "summary": "特朗普要求伊朗48小时内开放霍尔木兹海峡。",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
     }
   ],
@@ -113,5 +107,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-22 21:36:50"
+  "updated_at": "2026-03-22 22:39:13"
 }

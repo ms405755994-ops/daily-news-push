@@ -1119,13 +1119,25 @@ def push_wechat(msg: str):
 # 微信测试号推送
 # ===============================
 
-def get_test_push_summary(page_data: dict) -> str:
+def build_dot_card(page_data):
     items = page_data.get("news_items", [])[:3]
-    if not items:
-        return "今日新闻已生成，点击查看完整内容"
-    summary = "；".join([x.get("short_title", "") for x in items if x.get("short_title")])
-    return safe_text(summary, 100)
+    titles = [x.get("short_title", "")[:12] for x in items if x.get("short_title")]
 
+    lines = []
+    lines.append("●●●●●●●●●●●●")
+    lines.append("● 📰 MSAI今日新闻 ●")
+    lines.append("●●●●●●●●●●●●")
+    lines.append("")
+
+    for t in titles:
+        lines.append(f"● 🔥 {t}")
+
+    lines.append("")
+    lines.append("●●●●●●●●●●●●")
+    lines.append("👉 点击查看完整新闻")
+
+    return "\n".join(lines)
+summary = build_dot_card(page_data)
 
 def push_wechat_test_from_page_data(page_data: dict):
     if not WECHAT_APPID or not WECHAT_SECRET or not WECHAT_OPENID or not WECHAT_TEMPLATE_ID:

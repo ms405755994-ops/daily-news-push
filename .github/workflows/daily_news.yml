@@ -26,7 +26,8 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run News Bot
+      # ✅ 1. 生成新闻数据
+      - name: Generate News
         run: |
           python news_bot.py
         env:
@@ -44,21 +45,26 @@ jobs:
           REPORT_LUNAR_TEXT: 农历二月初一
           NEWS_PAGE_URL: https://ms405755994-ops.github.io/daily-news-push/
 
-      - name: Publish to WeChat Official Account
+      # ✅ 2. 自动生成封面
+      - name: Generate Cover
+        run: |
+          python generate_cover.py
+
+      # ✅ 3. 推送公众号（只执行一次）
+      - name: Publish WeChat Official Account
         run: |
           python wechat_publisher.py
         env:
           WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
           WECHAT_SECRET: ${{ secrets.WECHAT_SECRET }}
-          WECHAT_AUTHOR: ${{ secrets.WECHAT_AUTHOR }}
-          WECHAT_THUMB_URL: ${{ secrets.WECHAT_THUMB_URL }}
 
+      # ✅ 4. 提交 JSON 到 GitHub Pages
       - name: Commit generated page data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add docs/news-data.json
+          git add docs/news-data.json docs/cover.jpg
 
           if git diff --cached --quiet; then
             echo "No changes to commit"

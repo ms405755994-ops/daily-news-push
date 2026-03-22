@@ -59,9 +59,10 @@ def upload_thumb(token):
     res = requests.post(url, files=files).json()
     print("thumb response:", res)
 
-    # ✅ 关键：兼容两种返回
+    # ✅ 核心修复：兼容两种字段
     thumb_id = res.get("media_id") or res.get("thumb_media_id")
 
+    # ❗只有完全没有才报错
     if not thumb_id:
         raise RuntimeError(f"上传封面失败: {res}")
 

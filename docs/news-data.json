@@ -2,7 +2,7 @@
   "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：晴 19°C",
   "date_text": "2026年3月22日 星期日（农历二月初一）",
   "weather_text": "汕头：晴 19°C",
-  "total_count": 8,
+  "total_count": 9,
   "hotspots": [
     {
       "title": "美学者批美以袭击伊朗",
@@ -11,63 +11,69 @@
     },
     {
       "title": "AI造谣烟花厂爆炸致死",
-      "reason": "男子被依法处罚",
+      "reason": "AI滥用引发法律追责",
       "link": "https://www.ithome.com/0/931/543.htm"
     },
     {
-      "title": "伊朗袭击以色列核设施",
-      "reason": "报复美以升级冲突",
+      "title": "伊朗报复轰炸以色列核设施",
+      "reason": "中东局势紧张升级",
       "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260321-%E5%8D%B1%E9%99%A9%E5%8D%87%E7%BA%A7-%E6%8A%A5%E5%A4%8D%E7%BE%8E%E4%BB%A5%E8%BD%B0%E7%82%B8%E6%A0%B8%E8%AE%BE%E6%96%BD-%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%E6%A0%B8%E9%87%8D%E5%9C%B0%E8%BF%AA%E8%8E%AB%E7%BA%B3"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗轰炸以色列核设施",
-      "summary": "伊朗报复美以，袭击迪莫纳核重地，致百余人受伤。",
-      "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260321-%E5%8D%B1%E9%99%A9%E5%8D%87%E7%BA%A7-%E6%8A%A5%E5%A4%8D%E7%BE%8E%E4%BB%A5%E8%BD%B0%E7%82%B8%E6%A0%B8%E8%AE%BE%E6%96%BD-%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%E6%A0%B8%E9%87%8D%E5%9C%B0%E8%BF%AA%E8%8E%AB%E7%BA%B3"
+      "short_title": "美以袭击伊朗引争议",
+      "summary": "学者称此举可致全球经济危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "汤加群岛6.2级地震",
-      "summary": "深度10千米的6.2级地震，已致当地人员紧急撤离。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590899.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "郑州启动世界水日科普",
-      "summary": "2026年世界水日暨中国水周在郑州正式启动。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590966.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "海南自贸港对接大湾区",
-      "summary": "海南自贸港与粤港澳大湾区深化合作，拓展港湾经济。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10591061.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "丘应桦打造国际贸易中心",
-      "summary": "深度打造贸易中心，助力内地企业借港‘出海’。",
-      "link": "https://www.chinanews.com.cn/dwq/2026/03-22/10591058.shtml"
+      "short_title": "密苏里州枪击致2死",
+      "summary": "现场多人受伤，警方已介入调查",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590836.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI造谣致烟花厂爆炸",
-      "summary": "男子利用AI编造爆炸假信息，被依法处罚。",
+      "short_title": "男子AI造谣致烟花厂爆炸",
+      "summary": "因博眼球被依法处罚，警示AI滥用",
       "link": "https://www.ithome.com/0/931/543.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美学者警告伊朗危机",
-      "summary": "美以袭击伊朗被指可致全球性经济危机。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
+      "short_title": "特朗普限伊朗48小时开霍尔木兹",
+      "summary": "美方施压要求伊朗快速放行航道",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普限时开放霍尔木兹",
-      "summary": "特朗普要求伊朗48小时内开放霍尔木兹海峡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
+      "short_title": "汤加群岛6.2级地震",
+      "summary": "震源深度10千米，暂无人员伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590899.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "海南自贸港携手大湾区合作",
+      "summary": "深化金融互通，推动区域经济共赢",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10591061.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "丘应桦打造国际贸易中心",
+      "summary": "助力内地企业借港‘出海’发展",
+      "link": "https://www.chinanews.com.cn/dwq/2026/03-22/10591058.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "郑州启动世界水日科普",
+      "summary": "宣传母亲河与南水北调重要意义",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590966.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "以色列经历艰难一夜",
+      "summary": "美伊互放狠话，地区局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590943.shtml"
     }
   ],
   "futures": [
@@ -107,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-22 22:39:13"
+  "updated_at": "2026-03-22 23:41:05"
 }

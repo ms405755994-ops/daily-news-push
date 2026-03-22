@@ -1,49 +1,114 @@
-from PIL import Image, ImageDraw, ImageFont
-from datetime import datetime
+import json
 from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
 
+# =========================
+# 配置
+# =========================
+
+WIDTH = 900
+HEIGHT = 500
 OUTPUT_PATH = "docs/cover.jpg"
+NEWS_JSON_PATH = "docs/news-data.json"
+
+BG_COLOR = (20, 32, 60)      # 深蓝背景
+TITLE_COLOR = (255, 255, 255)
+SUB_COLOR = (180, 200, 255)
+
+# =========================
+# 字体（自动降级）
+# =========================
+
+def load_font(size):
+    font_paths = [
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+    ]
+    for p in font_paths:
+        try:
+            return ImageFont.truetype(p, size)
+        except:
+            continue
+    return ImageFont.load_default()
+
+
+# =========================
+# 读取新闻
+# =========================
+
+def get_title():
+    if not Path(NEWS_JSON_PATH).exists():
+        return "MSAI 今日新闻"
+
+    data = json.loads(Path(NEWS_JSON_PATH).read_text(encoding="utf-8"))
+
+    title = data.get("title", "")
+    return title[:28] if title else "MSAI 今日新闻"
+
+
+# =========================
+# 自动换行
+# =========================
+
+def wrap_text(draw, text, font, max_width):
+    lines = []
+    current = ""
+
+    for char in text:
+        test_line = current + char
+        w = draw.textlength(test_line, font=font)
+
+        if w <= max_width:
+            current = test_line
+        else:
+            lines.append(current)
+            current = char
+
+    if current:
+        lines.append(current)
+
+    return lines
+
+
+# =========================
+# 生成封面
+# =========================
 
 def generate_cover():
-    width, height = 900, 500
-
-    # ===== 背景（蓝色渐变）
-    img = Image.new("RGB", (width, height), "#1e3c72")
+    img = Image.new("RGB", (WIDTH, HEIGHT), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    for y in range(height):
-        r = int(30 + (y / height) * 20)
-        g = int(60 + (y / height) * 80)
-        b = int(114 + (y / height) * 100)
-        draw.line([(0, y), (width, y)], fill=(r, g, b))
+    title = get_title()
 
-    # ===== 字体（系统默认）
-    try:
-        font_big = ImageFont.truetype("arial.ttf", 80)
-        font_small = ImageFont.truetype("arial.ttf", 40)
-    except:
-        font_big = ImageFont.load_default()
-        font_small = ImageFont.load_default()
+    title_font = load_font(48)
+    sub_font = load_font(24)
 
-    # ===== 标题
-    title = "MSAI今日新闻"
+    # 标题自动换行
+    lines = wrap_text(draw, title, title_font, WIDTH - 80)
 
-    # ===== 日期
-    today = datetime.now().strftime("%Y.%m.%d")
+    y = 120
+    for line in lines:
+        w = draw.textlength(line, font=title_font)
+        draw.text(((WIDTH - w) / 2, y), line, font=title_font, fill=TITLE_COLOR)
+        y += 60
 
-    # ===== 居中计算
-    w1, h1 = draw.textbbox((0, 0), title, font=font_big)[2:]
-    w2, h2 = draw.textbbox((0, 0), today, font=font_small)[2:]
+    # 副标题
+    subtitle = "GLOBAL NEWS"
+    w = draw.textlength(subtitle, font=sub_font)
+    draw.text(((WIDTH - w) / 2, y + 20), subtitle, font=sub_font, fill=SUB_COLOR)
 
-    draw.text(((width - w1) / 2, height / 2 - 80), title, fill="white", font=font_big)
-    draw.text(((width - w2) / 2, height / 2 + 20), today, fill="white", font=font_small)
+    # 装饰条
+    draw.rectangle([(0, HEIGHT - 80), (WIDTH, HEIGHT)], fill=(40, 60, 120))
 
-    # ===== 保存
-    Path("docs").mkdir(exist_ok=True)
-    img.save(OUTPUT_PATH, "JPEG", quality=85)
+    # 保存（压缩避免超2MB）
+    img.save(OUTPUT_PATH, "JPEG", quality=85, optimize=True)
 
-    print("封面生成成功:", OUTPUT_PATH)
+    print(f"封面生成成功: {OUTPUT_PATH}")
 
+
+# =========================
+# 主函数
+# =========================
 
 if __name__ == "__main__":
     generate_cover()

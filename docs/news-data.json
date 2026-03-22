@@ -1,78 +1,60 @@
 {
-  "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：天气待更新",
+  "title": "MSAI今日新闻｜2026年3月22日 星期日（农历二月初一）｜汕头：多云 21°C",
   "date_text": "2026年3月22日 星期日（农历二月初一）",
   "weather_text": "汕头：多云 21°C",
-  "total_count": 9,
+  "total_count": 6,
   "hotspots": [
     {
-      "title": "美以袭伊朗或致全球危机",
-      "reason": "突发国际冲突，或引发经济危机",
+      "title": "美学者批美以袭击伊朗 可致经济危...",
+      "reason": "美伊冲突或引发全球经济动荡",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
-      "title": "伊朗袭以核设施升级冲突",
-      "reason": "突发中东紧张，核设施受袭",
-      "link": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20260321-%E5%8D%B1%E9%99%A9%E5%8D%87%E7%BA%A7-%E6%8A%A5%E5%A4%8D%E7%BE%8E%E4%BB%A5%E8%BD%B0%E7%82%B8%E6%A0%B8%E8%AE%BE%E6%96%BD-%E4%BC%8A%E6%9C%97%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%E6%A0%B8%E9%87%8D%E5%9C%B0%E8%BF%AA%E8%8E%AB%E7%BA%B3"
+      "title": "OpenAI在美投放ChatGP...",
+      "reason": "OpenAI开启ChatGPT商业化新模式",
+      "link": "https://www.ithome.com/0/931/509.htm"
     },
     {
-      "title": "中国AI大模型周调用量超美",
-      "reason": "AI算力领先，Token使用破纪录",
+      "title": "中国AI大模型调用量4.69万亿",
+      "reason": "中国AI算力超美 成为全球焦点",
       "link": "https://www.ithome.com/0/931/481.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美以袭伊朗引全球危机",
-      "summary": "学者称此举可致全球经济动荡",
+      "short_title": "美学者批美以袭伊朗或致危机",
+      "summary": "学者称美以行动将引发全球经济危机",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590849.shtml"
     },
     {
       "category": "突发新闻",
       "short_title": "密苏里州枪击致2死多人伤",
-      "summary": "警方已控制现场，伤者送医治疗",
+      "summary": "枪击事件造成2人死亡，多人受伤",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590836.shtml"
     },
     {
-      "category": "今日三大新闻",
+      "category": "金融重点",
       "short_title": "渣打总裁称中国是稳定平台",
-      "summary": "温拓思赞中国在动荡中提供可靠环境",
+      "summary": "渣打集团总裁称中国提供全球稳定",
       "link": "https://www.chinanews.com.cn/cj/2026/03-22/10590935.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "中国AI模型调用量超美",
-      "summary": "周调用量4.69万亿Token，连超美两周",
-      "link": "https://www.ithome.com/0/931/481.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "“茶咖”点燃大别山春季经济",
-      "summary": "春茶季新地标吸客，带动当地消费",
-      "link": "https://www.chinanews.com.cn/tp/2026/03-22/10590918.shtml"
-    },
-    {
       "category": "AI重点",
-      "short_title": "OpenAI在ChatGPT投放广告",
-      "summary": "美国免费版和Go版将加入广告功能",
+      "short_title": "OpenAI将在ChatGPT投放广...",
+      "summary": "OpenAI计划在美ChatGPT免费版投放广告",
       "link": "https://www.ithome.com/0/931/509.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "Reddit招聘AI原生代毕业生",
-      "summary": "CEO称应届生是AI时代核心人才",
-      "link": "https://www.ithome.com/0/931/514.htm"
+      "short_title": "中国AI大模型周调用量超美国",
+      "summary": "中国AI模型周调用量4.69万亿，超美国",
+      "link": "https://www.ithome.com/0/931/481.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普限伊朗48小时开海峡",
-      "summary": "美方施压伊朗开放霍尔木兹海峡",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590759.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "以色列艰难一夜 美伊互怼",
-      "summary": "中东局势紧张，双方言辞激烈",
+      "short_title": "以色列艰难一夜 美伊互放狠话",
+      "summary": "以色列度过艰难夜晚，美伊互相指责",
       "link": "https://www.chinanews.com.cn/gj/2026/03-22/10590943.shtml"
     }
   ],
@@ -113,5 +95,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-22 17:33:33"
+  "updated_at": "2026-03-22 17:50:57"
 }

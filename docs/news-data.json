@@ -1,106 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年3月23日 星期一（农历二月初一）｜汕头：多云 25°C",
-  "date_text": "2026年3月23日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 25°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年3月24日 星期二（农历二月初一）｜汕头：阴 25°C",
+  "date_text": "2026年3月24日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 25°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "以军称冲突将持续数周",
-      "reason": "中东局势紧张，可能升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-23/10591087.shtml"
+      "title": "美计划结束伊朗战争",
+      "reason": "美计划结束伊朗战争，影响地区局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591692.shtml"
     },
     {
-      "title": "伊朗导弹击中以色列南部",
-      "reason": "导弹拦截失效，平民受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-23/10591260.shtml"
+      "title": "以色列继续空袭伊朗黎巴嫩",
+      "reason": "以色列空袭升级，地区紧张加剧",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591666.shtml"
     },
     {
-      "title": "A股大跌 超4900只个股",
-      "reason": "三大指数跌超2%，市场恐慌",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-23/10591281.shtml"
+      "title": "巴西央行上调通胀预期至4.17%",
+      "reason": "巴西通胀上调，金融市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591656.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以军称冲突将持续数周",
-      "summary": "以军预计与伊朗、黎真主党冲突将延续数周",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-23/10591087.shtml"
+      "short_title": "得州炼油厂爆炸起火",
+      "summary": "美国得州炼油厂发生爆炸并引发大火",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591730.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗导弹击中以色列南部",
-      "summary": "导弹突破防御致数十平民受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-23/10591260.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国首个GAE身外化身机器人发布",
-      "summary": "团队推出全球首个GAE身外化身系统机器人",
-      "link": "https://www.chinanews.com.cn/gn/2026/03-23/10591261.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "北京加码未来产业投资",
-      "summary": "具身智能模型等领域与国际企业并跑",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-23/10591251.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "北京称人形机器人技术突破",
-      "summary": "运控与群控水平远超预期",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-23/10591254.shtml"
+      "short_title": "汤加群岛7.6级强震",
+      "summary": "汤加群岛发生7.6级地震，震源深250千米",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591811.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "华硕天选Air 2026 AI Ma...",
-      "summary": "旗舰移动U对决，AMD性能超群",
-      "link": "https://www.ithome.com/0/931/699.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "阿里计划推出“养虾”PC硬件",
-      "summary": "JVS Book与JVS Box将进军PC市场",
-      "link": "https://www.ithome.com/0/931/674.htm"
+      "short_title": "AI助力养虾产业升级",
+      "summary": "AI技术推动全民养虾热潮，产业迎新变局",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-24/10591662.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德总理与美总统用中文会谈",
-      "summary": "讨论中东与乌克兰局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-23/10591176.shtml"
+      "short_title": "美以对伊朗第24天军事行动",
+      "summary": "美以联手对伊朗展开第24天空袭，最新战果公布",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591687.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗发布霍尔木兹海峡通行原则",
-      "summary": "声明允许通行但设限条件",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-23/10591177.shtml"
+      "short_title": "数千美军将于27日进驻中东",
+      "summary": "美国官员称数千名美军计划本月27日抵达中东",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591668.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "上海黄金交易所提醒防范风险",
-      "summary": "投资者需做好黄金投资风险防范",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-23/10591223.shtml"
+      "short_title": "A股三大指数集体高开",
+      "summary": "沪深指数今日集体高开，市场情绪回暖",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-24/10591708.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数跌超2% 多股飘绿",
-      "summary": "超4900只个股跌绿，汽车煤炭逆势上涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-23/10591281.shtml"
+      "short_title": "巴西央行上调通胀预期至4.17%",
+      "summary": "巴西央行将通胀预期上调至4.17%，影响金融市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591656.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国发展高层论坛聚焦开放",
+      "summary": "外媒称中国扩大开放承诺提升全球信心",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591694.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "以色列称美计划4月9日止战",
+      "summary": "以色列媒体报道美国计划4月9日结束伊朗战争",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591692.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "内塔尼亚胡誓继续空袭伊朗",
+      "summary": "以总理表示将继续对伊朗及黎巴嫩进行空袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591666.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "98.32",
-      "pct": 0.09162170416368645,
+      "price": "91.95",
+      "pct": 4.334505843640086,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,344.41",
-      "pct": -5.752993752169396,
+      "price": "4,370.64",
+      "pct": -1.551075571573368,
       "trend": "down"
     },
     {
@@ -125,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-23 13:54:17"
+  "updated_at": "2026-03-24 13:39:45"
 }

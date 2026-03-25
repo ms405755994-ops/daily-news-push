@@ -1,101 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年3月24日 星期二（农历二月初一）｜汕头：阴 25°C",
-  "date_text": "2026年3月24日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 25°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年3月25日 星期三（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年3月25日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "美计划结束伊朗战争",
-      "reason": "美计划结束伊朗战争，影响地区局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591692.shtml"
+      "title": "美方拟促伊朗停火协议",
+      "reason": "突发国际停火谈判，影响地区局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592225.shtml"
     },
     {
-      "title": "以色列继续空袭伊朗黎巴嫩",
-      "reason": "以色列空袭升级，地区紧张加剧",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591666.shtml"
+      "title": "苏丹冲突致儿童失散",
+      "reason": "突发人道危机，数万儿童失踪",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592377.shtml"
     },
     {
-      "title": "巴西央行上调通胀预期至4.17%",
-      "reason": "巴西通胀上调，金融市场波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591656.shtml"
+      "title": "A股三大指数高开金板涨",
+      "reason": "金融市场波动，黄金板块强势上扬",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592269.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "得州炼油厂爆炸起火",
-      "summary": "美国得州炼油厂发生爆炸并引发大火",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591730.shtml"
+      "short_title": "美方促伊朗停火 协议谈判中",
+      "summary": "美国拟推动为期一个月的停火，伊朗方正磋商15项条件。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592225.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "汤加群岛7.6级强震",
-      "summary": "汤加群岛发生7.6级地震，震源深250千米",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591811.shtml"
+      "short_title": "苏丹冲突致4.2万儿童失散",
+      "summary": "冲突导致苏丹及邻国约4.2万儿童与家人失去联系。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592377.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI助力养虾产业升级",
-      "summary": "AI技术推动全民养虾热潮，产业迎新变局",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-24/10591662.shtml"
+      "short_title": "大湾区AI应用领跑",
+      "summary": "蔡冠深称AI进入价值下半场，粤港澳大湾区展现最进取姿...",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592354.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "Sora视频生成模型将停运",
+      "summary": "OpenAI宣布关闭视频生成模型Sora，相关服务将...",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592372.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美以对伊朗第24天军事行动",
-      "summary": "美以联手对伊朗展开第24天空袭，最新战果公布",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591687.shtml"
+      "short_title": "台当局鼓动中东护航",
+      "summary": "国台办警告绿营鼓动中东护航把台湾推向险境。",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-25/10592381.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "数千美军将于27日进驻中东",
-      "summary": "美国官员称数千名美军计划本月27日抵达中东",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591668.shtml"
+      "short_title": "外媒称美国应收手",
+      "summary": "多家外媒指出美国在全球事务中应适时收敛行动。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10592111.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数集体高开",
-      "summary": "沪深指数今日集体高开，市场情绪回暖",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-24/10591708.shtml"
+      "short_title": "香港打造黄金交易中心",
+      "summary": "香港计划建设国际黄金交易中心，推动金融业新增长点。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592371.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "巴西央行上调通胀预期至4.17%",
-      "summary": "巴西央行将通胀预期上调至4.17%，影响金融市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591656.shtml"
+      "short_title": "A股三大指数高开 黄金领涨",
+      "summary": "今日A股三大指数集体高开，黄金板块涨幅居前。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592269.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国发展高层论坛聚焦开放",
-      "summary": "外媒称中国扩大开放承诺提升全球信心",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591694.shtml"
+      "short_title": "重庆推进低空经济",
+      "summary": "重庆发布低空经济发展计划，目标实现产业强起来。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592391.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "以色列称美计划4月9日止战",
-      "summary": "以色列媒体报道美国计划4月9日结束伊朗战争",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591692.shtml"
+      "short_title": "华商抓住中国创新机遇",
+      "summary": "谢国民呼吁华商把握中国创新变革带来的新商机。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592320.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "内塔尼亚胡誓继续空袭伊朗",
-      "summary": "以总理表示将继续对伊朗及黎巴嫩进行空袭",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10591666.shtml"
+      "short_title": "中老铁路成黄金大通道",
+      "summary": "中老铁路货运突破8000万吨，打造黄金物流通道。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592371.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "91.95",
-      "pct": 4.334505843640086,
-      "trend": "up"
+      "price": "88.88",
+      "pct": -3.7574445046020566,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,370.64",
-      "pct": -1.551075571573368,
-      "trend": "down"
+      "price": "4,589.85",
+      "pct": 3.512550461198439,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-24 13:39:45"
+  "updated_at": "2026-03-25 13:41:34"
 }

@@ -1,107 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年3月25日 星期三（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年3月25日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年3月26日 星期四（农历二月初一）｜汕头：多云 23°C",
+  "date_text": "2026年3月26日 星期四（农历二月初一）",
+  "weather_text": "汕头：多云 23°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美方拟促伊朗停火协议",
-      "reason": "突发国际停火谈判，影响地区局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592225.shtml"
+      "title": "美伊卡通对比引争议",
+      "reason": "突显美伊紧张局势升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10593020.shtml"
     },
     {
-      "title": "苏丹冲突致儿童失散",
-      "reason": "突发人道危机，数万儿童失踪",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592377.shtml"
+      "title": "伊朗外长称美被拖入冲突",
+      "reason": "中东局势再度紧绷",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10592899.shtml"
     },
     {
-      "title": "A股三大指数高开金板涨",
-      "reason": "金融市场波动，黄金板块强势上扬",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592269.shtml"
+      "title": "张亚勤：2026智能体AI元年",
+      "reason": "AI元年或引技术热潮",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-26/10592940.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美方促伊朗停火 协议谈判中",
-      "summary": "美国拟推动为期一个月的停火，伊朗方正磋商15项条件。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592225.shtml"
+      "short_title": "美国海绵宝宝与伊朗导弹笑脸对比",
+      "summary": "两国卡通背后映射冲突与民生困境",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10593020.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "苏丹冲突致4.2万儿童失散",
-      "summary": "冲突导致苏丹及邻国约4.2万儿童与家人失去联系。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-25/10592377.shtml"
+      "short_title": "伊朗外长称以色列将美拖入冲突",
+      "summary": "伊朗警告以色列挑衅可能升级美方介入",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10592899.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "持刀闯入中国大使馆 嫌犯已送检",
+      "summary": "嫌犯持刀冲进使馆 被警方现场控制",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10592998.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "前两月交通运输经济实现良好开局",
+      "summary": "运输业增速超预期 经济复苏加速",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-26/10593048.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "大湾区AI应用领跑",
-      "summary": "蔡冠深称AI进入价值下半场，粤港澳大湾区展现最进取姿...",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592354.shtml"
+      "short_title": "张亚勤称2026为智能体AI元年",
+      "summary": "张亚勤预言AI技术将迎爆发式增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-26/10592940.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Sora视频生成模型将停运",
-      "summary": "OpenAI宣布关闭视频生成模型Sora，相关服务将...",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592372.shtml"
+      "short_title": "千问首次上车 红旗阿里云打造智能座舱",
+      "summary": "千问技术嵌入红旗座舱 实现语音指令操作",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-26/10593044.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "台当局鼓动中东护航",
-      "summary": "国台办警告绿营鼓动中东护航把台湾推向险境。",
-      "link": "https://www.chinanews.com.cn/gn/2026/03-25/10592381.shtml"
+      "short_title": "美国土安部停摆40天 机场安检创最长",
+      "summary": "安检排队超5小时 旅客抱怨服务差",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10592892.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "外媒称美国应收手",
-      "summary": "多家外媒指出美国在全球事务中应适时收敛行动。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-24/10592111.shtml"
+      "short_title": "白俄罗斯与朝鲜签署友好合作条约",
+      "summary": "两国加强政治互信 促进经贸合作",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-26/10593043.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "香港打造黄金交易中心",
-      "summary": "香港计划建设国际黄金交易中心，推动金融业新增长点。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592371.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股三大指数高开 黄金领涨",
-      "summary": "今日A股三大指数集体高开，黄金板块涨幅居前。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592269.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "重庆推进低空经济",
-      "summary": "重庆发布低空经济发展计划，目标实现产业强起来。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592391.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "华商抓住中国创新机遇",
-      "summary": "谢国民呼吁华商把握中国创新变革带来的新商机。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592320.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中老铁路成黄金大通道",
-      "summary": "中老铁路货运突破8000万吨，打造黄金物流通道。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-25/10592371.shtml"
+      "short_title": "A股三大指数低开 存储芯片领跌",
+      "summary": "开盘跌幅超1% 芯片板块表现最弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-26/10592959.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "88.88",
-      "pct": -3.7574445046020566,
-      "trend": "down"
+      "price": "92.28",
+      "pct": 2.170062001771488,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,589.85",
-      "pct": 3.512550461198439,
-      "trend": "up"
+      "price": "4,481.45",
+      "pct": -2.2691091484025776,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -125,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-25 13:41:34"
+  "updated_at": "2026-03-26 13:57:13"
 }

@@ -1,94 +1,94 @@
 {
-  "title": "MSAI今日新闻｜2026年3月27日 星期五（农历二月初一）｜汕头：多云 25°C",
-  "date_text": "2026年3月27日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 25°C",
+  "title": "MSAI今日新闻｜2026年3月28日 星期六（农历二月初一）｜汕头：天气待更新",
+  "date_text": "2026年3月28日 星期六（农历二月初一）",
+  "weather_text": "汕头：天气待更新",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "以军大规模袭击伊朗设施",
-      "reason": "中东冲突升级，突发新闻",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-27/10593571.shtml"
+      "title": "伊朗男足赛前悼念空袭学生",
+      "reason": "赛前举书包致哀，突显冲突影响",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/03-28/1186720.shtml"
     },
     {
-      "title": "伊朗回应美停火协议条件",
-      "reason": "美伊关系紧张，国际焦点",
-      "link": "https://www.stcn.com/article/detail/3702297.html"
+      "title": "中方在联合国谴美以袭伊朗校",
+      "reason": "人权理事会强烈指责美国以色列",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-28/10594234.shtml"
     },
     {
-      "title": "国产RISC‑V芯片“香山”“如...",
-      "reason": "AI芯片突破，提升自主研发",
-      "link": "https://www.ithome.com/0/933/242.htm"
+      "title": "霍尔木兹海峡紧张马斯克入局",
+      "reason": "美媒称局势升级，马斯克参与通话",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-28/10594272.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以军大规模袭击德黑兰设施",
-      "summary": "以军称在德黑兰发动大规模空袭，目标为伊朗政权设施。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-27/10593571.shtml"
+      "short_title": "伊朗男足赛前悼念空袭遇难学生",
+      "summary": "伊朗球员赛前手捧书包，缅怀空袭中逝生。",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/03-28/1186720.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "中方在联合国谴美以袭击伊朗校",
+      "summary": "中国代表在安理会指责美以对伊朗学校暴行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-28/10594234.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "央广财评：“十五五”科产融合开启",
-      "summary": "评析‘十五五’开局，强调科技与产业深度融合。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-27/10593666.shtml"
+      "short_title": "霍尔木兹海峡紧张 马斯克入局",
+      "summary": "美媒称海峡局势升级，马斯克参与美印通话。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-28/10594272.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "国产芯片“香山”“如意”系统发布",
-      "summary": "新系统支撑RISC-V高端芯片研发，提升自主创新能力...",
-      "link": "https://www.ithome.com/0/933/242.htm"
+      "short_title": "外长密集斡旋伊朗局势",
+      "summary": "中国外长20通电话4会谈，推动伊朗危机降温。",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-28/10594315.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "世界能源理事会呼吁平衡转型",
+      "summary": "秘书长强调能源转型需兼顾安全、经济与可持续。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-28/10594305.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "OpenClaw创始人谈AI职场差异",
-      "summary": "他称美国AI员工因“养龙虾”被裁，中国员工反被开除。",
-      "link": "https://www.ithome.com/0/933/250.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "GitHub Copilot将用用户...",
-      "summary": "微软宣布4月起默认使用Copilot数据训练AI模型...",
-      "link": "https://www.ithome.com/0/933/235.htm"
+      "short_title": "广州发布AI赋能行动方案",
+      "summary": "广州推出方案，促进AI与产业深度融合。",
+      "link": "https://www.chinanews.com.cn/gn/2026/03-28/10594324.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美防部考虑向中东增派1万人部队",
-      "summary": "美国媒体称防部计划在中东部署额外地面部队。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-27/10593564.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "普京盼中东冲突数周内结束",
-      "summary": "俄媒报道普京希望中东战事在数周内平息。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-27/10593534.shtml"
+      "short_title": "美方48小时最后通牒延长至16日",
+      "summary": "美国对伊朗施压升级，消费者信心跌至新低。",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-28/10594283.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三指数收涨 超3700股飘红",
-      "summary": "三大指数全线上涨，逾3700只个股收阳。",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-27/10593670.shtml"
+      "short_title": "海南自贸港政策红利持续释放",
+      "summary": "自贸港建设加速，封关百日促进投资热潮。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-28/10594235.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国30年期贷款利率升至6.38%",
-      "summary": "美国30年期房贷利率创六个月新高，达6.38%。",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-27/10593521.shtml"
+      "short_title": "“村游”新玩法激活古村旅游经济",
+      "summary": "赏花经济带动古村旅游，消费活力显著提升。",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-28/10594264.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "94.05",
-      "pct": -0.4551227773073738,
-      "trend": "down"
+      "price": "99.64",
+      "pct": 5.461473327688396,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,480.72",
-      "pct": 1.6266727149013438,
+      "price": "4,524.30",
+      "pct": 2.6151054660920883,
       "trend": "up"
     },
     {
@@ -101,9 +101,9 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-03-27 13:58:29"
+  "updated_at": "2026-03-28 13:26:28"
 }

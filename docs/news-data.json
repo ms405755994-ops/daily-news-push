@@ -1,100 +1,94 @@
 {
-  "title": "MSAI今日新闻｜2026年3月29日 星期日（农历二月初一）｜汕头：多云 25°C",
-  "date_text": "2026年3月29日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 25°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年3月30日 星期一（农历二月初一）｜汕头：多云 23°C",
+  "date_text": "2026年3月30日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 23°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "霍尔木兹海峡突发：俄禁汽油出口",
-      "reason": "能源出口禁令引发市场波动",
-      "link": "https://www.stcn.com/article/detail/3708434.html"
+      "title": "特朗普：伊朗可能达成停火协议",
+      "reason": "伊朗停火或将缓解中东紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595062.shtml"
     },
     {
-      "title": "胡塞武装袭以色列，加入伊朗战争",
-      "reason": "中东冲突升级，牵动地区局势",
-      "link": "https://www.dw.com/zh/%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E8%A2%AB%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97-%E5%8A%A0%E5%85%A5%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89/a-76577553"
+      "title": "A股午评：沪指翻红回到3900点",
+      "reason": "沪指翻红触及3900点，市场波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595167.shtml"
     },
     {
-      "title": "054B导弹护卫舰钦州舰国产化",
-      "reason": "国产化提升海军战力",
-      "link": "https://www.ithome.com/0/933/724.htm"
+      "title": "东北首个AI+OPC生态枢纽启航",
+      "reason": "东北打造AI生态平台，助力创业",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595152.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "俄罗斯禁汽油出口",
-      "summary": "俄在霍尔木兹海峡宣布禁止汽油出口",
-      "link": "https://www.stcn.com/article/detail/3708434.html"
+      "short_title": "特朗普称伊朗或将停火",
+      "summary": "特朗普暗示伊朗冲突或在近期结束",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595062.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "胡塞武装袭击以色列",
-      "summary": "胡塞武装对以色列发动袭击，加入伊朗战争",
-      "link": "https://www.dw.com/zh/%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97-%E5%8A%A0%E5%85%A5%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89/a-76577553"
+      "short_title": "以色列空袭致德黑兰短暂停电",
+      "summary": "以色列新一轮空袭波及伊朗首都，出现短时停电",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595023.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "云南发现最早褶鳞鱼化石",
+      "summary": "距今约2.44亿年，云南出最早褶鳞鱼新种",
+      "link": "https://www.chinanews.com.cn/cul/2026/03-30/10595233.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "姚期智警示AI安全竞争",
-      "summary": "图灵奖得主姚期智称未来十年AI安全竞争激烈",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-29/10594729.shtml"
+      "short_title": "东北首个AI+OPC生态枢纽启动",
+      "summary": "辽宁平台助力青年零门槛创业，推动AI与工业融合",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595152.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "人形机器人成本迎拐点",
+      "summary": "成本下降逼近拐点，图灵测试标准即将制定",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595205.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以军称将打击伊朗军工设施",
-      "summary": "以色列军方计划在数日内完成对伊朗关键军工设施的打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-29/10594666.shtml"
+      "short_title": "美民调显示经济前景悲观",
+      "summary": "多数美国人对现状不满，预期经济将下行",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595226.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "新研究量化气候变化成本",
-      "summary": "最新模型提出框架，计算气候变化的经济损失",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-29/10594665.shtml"
+      "short_title": "数百美军特种部队已进中东",
+      "summary": "美军特种作战人员已抵达中东，局势升温",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595122.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "中国加速欧洲专利布局",
-      "summary": "中国企业在欧洲专利申请数量快速增长",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-29/10594738.shtml"
+      "short_title": "沪指翻红回到3900点",
+      "summary": "沪指午后翻红至3900点，黄金板块强势上涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595167.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "浙江桐乡“轧蚕花”促消费",
-      "summary": "春潮涌动，桐乡活动激活当地消费市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-28/10594588.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "054B导弹护卫舰实现国产化",
-      "summary": "钦州舰全国产化，提升对空作战能力",
-      "link": "https://www.ithome.com/0/933/724.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美国多地举行“不要国王”抗议",
-      "summary": "美国多城第三次大规模示威，要求结束国王制度",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-29/10594710.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊朗威胁打击中东美大学",
-      "summary": "伊朗称将把中东地区美国大学列为打击目标",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-29/10594635.shtml"
+      "short_title": "A股五大保险公司盈利增22%",
+      "summary": "五大上市险企业利润增长22.4%，业绩稳健",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595203.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "99.64",
-      "pct": 5.461473327688396,
+      "price": "100.83",
+      "pct": 1.1942994781212342,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,524.30",
-      "pct": 2.6151054660920883,
+      "price": "4,561.17",
+      "pct": 0.8149326967707686,
       "trend": "up"
     },
     {
@@ -114,10 +108,10 @@
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-03-29 13:58:35"
+  "updated_at": "2026-03-30 14:28:05"
 }

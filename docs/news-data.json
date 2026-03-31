@@ -1,95 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年3月30日 星期一（农历二月初一）｜汕头：多云 23°C",
-  "date_text": "2026年3月30日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 23°C",
+  "title": "MSAI今日新闻｜2026年3月31日 星期二（农历二月初一）｜汕头：多云 28°C",
+  "date_text": "2026年3月31日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 28°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "特朗普：伊朗可能达成停火协议",
-      "reason": "伊朗停火或将缓解中东紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595062.shtml"
+      "title": "以军称战争进入收尾阶段",
+      "reason": "以军打击伊朗经济目标",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595631.shtml"
     },
     {
-      "title": "A股午评：沪指翻红回到3900点",
-      "reason": "沪指翻红触及3900点，市场波动",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595167.shtml"
+      "title": "中东美军超5万伊朗警告",
+      "reason": "专家分析冲突后续走向",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595620.shtml"
     },
     {
-      "title": "东北首个AI+OPC生态枢纽启航",
-      "reason": "东北打造AI生态平台，助力创业",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595152.shtml"
+      "title": "日本自卫队部署远程导弹",
+      "reason": "当地民众举行抗议集会",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595745.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称伊朗或将停火",
-      "summary": "特朗普暗示伊朗冲突或在近期结束",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595062.shtml"
+      "short_title": "以军称战争进入收尾阶段",
+      "summary": "以军称将打击伊朗经济目标",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595631.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭致德黑兰短暂停电",
-      "summary": "以色列新一轮空袭波及伊朗首都，出现短时停电",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595023.shtml"
+      "short_title": "美军5万驻中东 伊朗强硬警告",
+      "summary": "专家分析冲突后续走向",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595620.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "云南发现最早褶鳞鱼化石",
-      "summary": "距今约2.44亿年，云南出最早褶鳞鱼新种",
-      "link": "https://www.chinanews.com.cn/cul/2026/03-30/10595233.shtml"
+      "short_title": "数智赋能正能量论坛要点",
+      "summary": "论坛明确三大方向",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-31/10595839.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "春日经济供需两旺",
+      "summary": "春季经济活力充足",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-31/10595825.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "监管总局防止行业内卷",
+      "summary": "聚焦平台经济与新能源车",
+      "link": "https://wap.eastmoney.com/a/202603313689299797.html"
     },
     {
       "category": "AI重点",
-      "short_title": "东北首个AI+OPC生态枢纽启动",
-      "summary": "辽宁平台助力青年零门槛创业，推动AI与工业融合",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595152.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "人形机器人成本迎拐点",
-      "summary": "成本下降逼近拐点，图灵测试标准即将制定",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595205.shtml"
+      "short_title": "智慧农业AI浇水云算",
+      "summary": "AI在未来之城做园丁",
+      "link": "https://www.chinanews.com.cn/sh/2026/03-31/10595811.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美民调显示经济前景悲观",
-      "summary": "多数美国人对现状不满，预期经济将下行",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595226.shtml"
+      "short_title": "伊朗对霍尔木兹海峡收费",
+      "summary": "美国不允许该收费",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595636.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "数百美军特种部队已进中东",
-      "summary": "美军特种作战人员已抵达中东，局势升温",
-      "link": "https://www.chinanews.com.cn/gj/2026/03-30/10595122.shtml"
+      "short_title": "日本部署远程导弹引抗议",
+      "summary": "自卫队两地部署导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/03-31/10595745.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "沪指翻红回到3900点",
-      "summary": "沪指午后翻红至3900点，黄金板块强势上涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595167.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股五大保险公司盈利增22%",
-      "summary": "五大上市险企业利润增长22.4%，业绩稳健",
-      "link": "https://www.chinanews.com.cn/cj/2026/03-30/10595203.shtml"
+      "short_title": "险企银保渠道保费超3100亿",
+      "summary": "A股险企银保渠道领头",
+      "link": "https://www.chinanews.com.cn/cj/2026/03-31/10595768.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "100.83",
-      "pct": 1.1942994781212342,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,561.17",
-      "pct": 0.8149326967707686,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -101,9 +101,9 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
@@ -113,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-03-30 14:28:05"
+  "updated_at": "2026-03-31 14:06:38"
 }

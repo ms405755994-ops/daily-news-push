@@ -1,73 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年4月1日 星期三（农历二月初一）｜汕头：多云 28°C",
-  "date_text": "2026年4月1日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 28°C",
+  "title": "MSAI今日新闻｜2026年4月2日 星期四（农历二月初一）｜汕头：阴 21°C",
+  "date_text": "2026年4月2日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 21°C",
   "total_count": 8,
   "hotspots": [
     {
-      "title": "突发！伊朗首都德黑兰多地遭袭",
-      "reason": "伊朗首都遭袭，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-01/10596431.shtml"
+      "title": "美国解除对委内瑞拉制裁",
+      "reason": "美对委制裁放宽，地区关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597215.shtml"
     },
     {
-      "title": "中东局势升级或致2000亿美元损...",
-      "reason": "中东冲突升级，金融冲击大",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-01/10596483.shtml"
+      "title": "美以伊冲突牵动全球",
+      "reason": "外溢效应冲击世界",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597260.shtml"
     },
     {
-      "title": "AI岗位重塑报告",
-      "reason": "AI改变就业，企业出海瓶颈",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-01/10596533.shtml"
+      "title": "谷歌AI Pro订阅升级",
+      "reason": "月费20美元，存储5TB",
+      "link": "https://www.ithome.com/0/935/276.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗首都德黑兰遭多点袭击",
-      "summary": "德黑兰多地被攻击，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-01/10596431.shtml"
+      "short_title": "印尼7.6级地震致1死1伤",
+      "summary": "印尼北部海域强震引发海啸，已致1人死亡1人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597288.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本民众抗议远程导弹部署",
-      "summary": "上街要求撤回导弹，声势浩大",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-01/10596511.shtml"
+      "short_title": "美解除对委内瑞拉代总统制裁",
+      "summary": "美国宣布取消对委内瑞拉代总统的经济制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597215.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "文物局组织全国博物馆清点文物",
-      "summary": "国有博物馆逐件核查藏品",
-      "link": "https://www.chinanews.com.cn/cul/2026/04-01/10596535.shtml"
+      "short_title": "特朗普呼吁掌控霍尔木兹海峡",
+      "summary": "特朗普鼓动各国直接控制霍尔木兹海峡以抢夺石油",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597202.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "两江海关发布关长接待日通知",
-      "summary": "四月安排关长接待活动",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/04-01/10596574.shtml"
+      "short_title": "马克龙暗指美国盟友善变",
+      "summary": "法国总统马克龙批评美国，称其盟友易变且伤害盟友",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597378.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "纽约撤销政府设备TikTok禁令",
-      "summary": "市政府取消对TikTok限制",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-01/10596505.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "联合国警示中东局势或损失2000亿美...",
-      "summary": "冲突升级或致阿拉伯国巨额损失",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-01/10596483.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "十国呼吁以黎谈判结束冲突",
-      "summary": "联合声明敦促双方重启和平谈判",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-01/10596354.shtml"
+      "short_title": "美以伊冲突外溢冲击全球",
+      "summary": "美以伊冲突引发全球经济与金融压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597260.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "报告称AI重塑岗位非替代",
-      "summary": "复合型人才成企业出海瓶颈",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-01/10596533.shtml"
+      "short_title": "谷歌AI Pro存储升级至5TB",
+      "summary": "谷歌AI Pro月费20美元，存储空间从2TB提升至...",
+      "link": "https://www.ithome.com/0/935/276.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "日本民众抗议远程导弹部署",
+      "summary": "日本多地民众示威，反对政府强行部署远程导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597257.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "印尼海啸预警引发关注",
+      "summary": "印尼北马鲁古海域7.4级地震引发海啸，中国沿岸无影响",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-02/10597363.shtml"
     }
   ],
   "futures": [
@@ -107,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-01 14:18:39"
+  "updated_at": "2026-04-02 13:57:57"
 }

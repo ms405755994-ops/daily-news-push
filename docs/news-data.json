@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月2日 星期四（农历二月初一）｜汕头：阴 21°C",
-  "date_text": "2026年4月2日 星期四（农历二月初一）",
-  "weather_text": "汕头：阴 21°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年4月3日 星期五（农历二月初一）｜汕头：阴 20°C",
+  "date_text": "2026年4月3日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 20°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美国解除对委内瑞拉制裁",
-      "reason": "美对委制裁放宽，地区关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597215.shtml"
+      "title": "伊朗军方石油负责人被空袭身亡",
+      "reason": "伊朗石油负责人被空袭，冲击中东局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10597993.shtml"
     },
     {
-      "title": "美以伊冲突牵动全球",
-      "reason": "外溢效应冲击世界",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597260.shtml"
+      "title": "美对进口专利药加征100%关税",
+      "reason": "美对专利药加税，药品成本或飙升",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598017.shtml"
     },
     {
-      "title": "谷歌AI Pro订阅升级",
-      "reason": "月费20美元，存储5TB",
-      "link": "https://www.ithome.com/0/935/276.htm"
+      "title": "英伟达RTX5090显卡4K80",
+      "reason": "英伟达新显卡展示AI渲染突破",
+      "link": "https://www.ithome.com/0/935/694.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "印尼7.6级地震致1死1伤",
-      "summary": "印尼北部海域强震引发海啸，已致1人死亡1人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597288.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "美解除对委内瑞拉代总统制裁",
-      "summary": "美国宣布取消对委内瑞拉代总统的经济制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597215.shtml"
+      "short_title": "以军称伊朗油官遭空袭身亡",
+      "summary": "以军称伊朗军方石油部门负责人被空袭击中死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10597993.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普呼吁掌控霍尔木兹海峡",
-      "summary": "特朗普鼓动各国直接控制霍尔木兹海峡以抢夺石油",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597202.shtml"
+      "short_title": "发布充电宝安全强制标准",
+      "summary": "新国标从源头降低充电宝安全风险",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598119.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "马克龙暗指美国盟友善变",
-      "summary": "法国总统马克龙批评美国，称其盟友易变且伤害盟友",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597378.shtml"
+      "short_title": "卫星AI助力全国农业普查",
+      "summary": "第四次农业普查全面启动",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598029.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美以伊冲突外溢冲击全球",
-      "summary": "美以伊冲突引发全球经济与金融压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597260.shtml"
+      "short_title": "A股三大指数集体收跌",
+      "summary": "超4700只个股飘绿 通信板块大涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598096.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "谷歌AI Pro存储升级至5TB",
-      "summary": "谷歌AI Pro月费20美元，存储空间从2TB提升至...",
-      "link": "https://www.ithome.com/0/935/276.htm"
+      "short_title": "广西东盟AI概念验证中心成立",
+      "summary": "推动区域人工智能技术合作创新",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/04-03/10598121.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "英伟达RTX5090演示《巫师4》",
+      "summary": "显卡展示RTX植被系统高画质效果",
+      "link": "https://www.ithome.com/0/935/694.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本民众抗议远程导弹部署",
-      "summary": "日本多地民众示威，反对政府强行部署远程导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-02/10597257.shtml"
+      "short_title": "南非成立中东冲突应对工作组",
+      "summary": "部长级团队应对中东局势影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598038.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "印尼海啸预警引发关注",
-      "summary": "印尼北马鲁古海域7.4级地震引发海啸，中国沿岸无影响",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-02/10597363.shtml"
+      "short_title": "古巴青年骑车抗议美封锁",
+      "summary": "青年用自行车和电动三轮车示威",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598039.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美对专利药加征100%关税",
+      "summary": "美国宣布对进口专利药和成分全额征税",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598017.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "机器人意外险上市",
+      "summary": "探讨机器人损坏风险的保险分担",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598018.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-02 13:57:57"
+  "updated_at": "2026-04-03 13:57:24"
 }

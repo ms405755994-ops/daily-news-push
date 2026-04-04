@@ -1,85 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年4月3日 星期五（农历二月初一）｜汕头：阴 20°C",
-  "date_text": "2026年4月3日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 20°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月4日 星期六（农历二月初一）｜汕头：阴 27°C",
+  "date_text": "2026年4月4日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 27°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "伊朗军方石油负责人被空袭身亡",
-      "reason": "伊朗石油负责人被空袭，冲击中东局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10597993.shtml"
+      "title": "美军F-15在伊朗坠毁",
+      "reason": "突发军机事故，引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598644.shtml"
     },
     {
-      "title": "美对进口专利药加征100%关税",
-      "reason": "美对专利药加税，药品成本或飙升",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598017.shtml"
+      "title": "日本研发低成本导弹",
+      "reason": "突显地区军备竞争升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598651.shtml"
     },
     {
-      "title": "英伟达RTX5090显卡4K80",
-      "reason": "英伟达新显卡展示AI渲染突破",
-      "link": "https://www.ithome.com/0/935/694.htm"
+      "title": "阿富汗北部强震致8亡",
+      "reason": "突发自然灾害，死亡人数",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598727.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以军称伊朗油官遭空袭身亡",
-      "summary": "以军称伊朗军方石油部门负责人被空袭击中死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10597993.shtml"
+      "short_title": "美军F-15坠毁伊朗",
+      "summary": "美媒称F-15在伊朗坠毁，白宫未披露细节。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598644.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "阿富汗北部地震致8人死亡",
+      "summary": "阿富汗北部强震已致8人死亡，救援正在进行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598727.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "发布充电宝安全强制标准",
-      "summary": "新国标从源头降低充电宝安全风险",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598119.shtml"
+      "short_title": "开江鱼经济激活北疆消费",
+      "summary": "冰排鱼鲜上桌，带动北疆春季消费热潮。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598717.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "卫星AI助力全国农业普查",
-      "summary": "第四次农业普查全面启动",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598029.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "A股三大指数集体收跌",
-      "summary": "超4700只个股飘绿 通信板块大涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598096.shtml"
+      "short_title": "黄金水道扬帆 见证航运新画卷",
+      "summary": "展望2030航运发展，黄金水道将成增长新点。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598623.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "广西东盟AI概念验证中心成立",
-      "summary": "推动区域人工智能技术合作创新",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/04-03/10598121.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "英伟达RTX5090演示《巫师4》",
-      "summary": "显卡展示RTX植被系统高画质效果",
-      "link": "https://www.ithome.com/0/935/694.htm"
+      "short_title": "机器人产业商业化提速",
+      "summary": "租赁市场破百亿，推动机器人产业进入商业化阶段。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598628.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "南非成立中东冲突应对工作组",
-      "summary": "部长级团队应对中东局势影响",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598038.shtml"
+      "short_title": "中东战火外溢波及全球 反噬美国",
+      "summary": "国际人士称中东冲突影响全球，反噬美国自身。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598635.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "古巴青年骑车抗议美封锁",
-      "summary": "青年用自行车和电动三轮车示威",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598039.shtml"
+      "short_title": "盖洛普民调：中国认可度超美国",
+      "summary": "全球民调显示，中国形象好于美国。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598653.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美对专利药加征100%关税",
-      "summary": "美国宣布对进口专利药和成分全额征税",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598017.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "机器人意外险上市",
-      "summary": "探讨机器人损坏风险的保险分担",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598018.shtml"
+      "short_title": "美法官维持撤销鲍威尔传票裁决",
+      "summary": "美国法官维持撤销针对美联储主席鲍威尔的传票。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598645.shtml"
     }
   ],
   "futures": [
@@ -119,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-03 13:57:24"
+  "updated_at": "2026-04-04 13:26:22"
 }

@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月4日 星期六（农历二月初一）｜汕头：阴 27°C",
-  "date_text": "2026年4月4日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 27°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年4月5日 星期日（农历二月初一）｜汕头：阴 24°C",
+  "date_text": "2026年4月5日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 24°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美军F-15在伊朗坠毁",
-      "reason": "突发军机事故，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598644.shtml"
+      "title": "以军空袭伊朗石化设施",
+      "reason": "中东冲突升级，伊朗受袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-05/10598967.shtml"
     },
     {
-      "title": "日本研发低成本导弹",
-      "reason": "突显地区军备竞争升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598651.shtml"
+      "title": "胡塞武装导弹无人机打击以色列",
+      "reason": "胡塞导弹无人机袭以，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-05/10599037.shtml"
     },
     {
-      "title": "阿富汗北部强震致8亡",
-      "reason": "突发自然灾害，死亡人数",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598727.shtml"
+      "title": "阿里千问3.6Plus登顶全球榜...",
+      "reason": "阿里大模型领跑全球，AI突破",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599061.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军F-15坠毁伊朗",
-      "summary": "美媒称F-15在伊朗坠毁，白宫未披露细节。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598644.shtml"
+      "short_title": "以军空袭伊朗石化设施",
+      "summary": "以色列空袭伊朗石化厂，冲突进一步升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-05/10598967.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "阿富汗北部地震致8人死亡",
-      "summary": "阿富汗北部强震已致8人死亡，救援正在进行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598727.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "开江鱼经济激活北疆消费",
-      "summary": "冰排鱼鲜上桌，带动北疆春季消费热潮。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598717.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "黄金水道扬帆 见证航运新画卷",
-      "summary": "展望2030航运发展，黄金水道将成增长新点。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598623.shtml"
+      "short_title": "伊朗袭击AWS数据中心",
+      "summary": "伊朗攻击中东AWS，服务大规模瘫痪",
+      "link": "https://www.ithome.com/0/936/074.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "机器人产业商业化提速",
-      "summary": "租赁市场破百亿，推动机器人产业进入商业化阶段。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-03/10598628.shtml"
+      "short_title": "AI漫剧流水线实现工业化",
+      "summary": "Seedance2.0深度适配，AI漫剧进入批量生产",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598870.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI未取代工程师岗位回暖",
+      "summary": "美国科技岗位空缺快速回升，AI仍需人才",
+      "link": "https://www.ithome.com/0/936/100.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中东战火外溢波及全球 反噬美国",
-      "summary": "国际人士称中东冲突影响全球，反噬美国自身。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-03/10598635.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "盖洛普民调：中国认可度超美国",
-      "summary": "全球民调显示，中国形象好于美国。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598653.shtml"
+      "short_title": "日本法国首通霍尔木兹海峡",
+      "summary": "伊朗战争后首批日本法国商船通过海峡",
+      "link": "https://www.dw.com/zh/%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E4%BB%A5%E6%9D%A5-%E6%97%A5%E6%9C%AC%E6%B3%95%E5%9B%BD%E5%95%86%E8%88%B9%E9%A6%96%E6%AC%A1%E9%80%9A%E8%BF%87%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1/a-76660245"
     },
     {
       "category": "金融重点",
-      "short_title": "美法官维持撤销鲍威尔传票裁决",
-      "summary": "美国法官维持撤销针对美联储主席鲍威尔的传票。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-04/10598645.shtml"
+      "short_title": "变压器机器人订单激增",
+      "summary": "中国制造出口火热，海外竞争力持续提升",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598829.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "票根经济激活武汉消费",
+      "summary": "一票多用提升武汉消费活力",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599078.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美国说唱歌手加盟南京CBA",
+      "summary": "科尔签约南京球队，首次亮相CBA赛场",
+      "link": "https://www.chinanews.com.cn/tp/2026/04-05/10599071.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "看见2030 AI新图景",
+      "summary": "人工智能推动‘0到1’创新突破",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598896.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "阿里千问模型登顶全球榜首",
+      "summary": "阿里千问3.6Plus大模型位列全球调用排行榜首位",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599061.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-04 13:26:22"
+  "updated_at": "2026-04-05 14:04:20"
 }

@@ -1,85 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年4月5日 星期日（农历二月初一）｜汕头：阴 24°C",
-  "date_text": "2026年4月5日 星期日（农历二月初一）",
-  "weather_text": "汕头：阴 24°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月6日 星期一（农历二月初一）｜汕头：多云 27°C",
+  "date_text": "2026年4月6日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 27°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "以军空袭伊朗石化设施",
-      "reason": "中东冲突升级，伊朗受袭",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-05/10598967.shtml"
+      "title": "伊朗媒体称美以袭击致儿童死亡",
+      "reason": "美以空袭致童死亡，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-06/10599353.shtml"
     },
     {
-      "title": "胡塞武装导弹无人机打击以色列",
-      "reason": "胡塞导弹无人机袭以，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-05/10599037.shtml"
+      "title": "沃尔玛等美国零售巨头拥抱AI",
+      "reason": "AI购物助手责任争议",
+      "link": "https://www.ithome.com/0/936/222.htm"
     },
     {
-      "title": "阿里千问3.6Plus登顶全球榜...",
-      "reason": "阿里大模型领跑全球，AI突破",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599061.shtml"
+      "title": "A股限售股解禁市值逾千亿元",
+      "reason": "解禁或冲击股价",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599334.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以军空袭伊朗石化设施",
-      "summary": "以色列空袭伊朗石化厂，冲突进一步升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-05/10598967.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "伊朗袭击AWS数据中心",
-      "summary": "伊朗攻击中东AWS，服务大规模瘫痪",
-      "link": "https://www.ithome.com/0/936/074.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI漫剧流水线实现工业化",
-      "summary": "Seedance2.0深度适配，AI漫剧进入批量生产",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598870.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI未取代工程师岗位回暖",
-      "summary": "美国科技岗位空缺快速回升，AI仍需人才",
-      "link": "https://www.ithome.com/0/936/100.htm"
+      "short_title": "伊朗空袭致6童死亡",
+      "summary": "美以空袭德黑兰省，6名儿童遇难。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-06/10599353.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本法国首通霍尔木兹海峡",
-      "summary": "伊朗战争后首批日本法国商船通过海峡",
-      "link": "https://www.dw.com/zh/%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E4%BB%A5%E6%9D%A5-%E6%97%A5%E6%9C%AC%E6%B3%95%E5%9B%BD%E5%95%86%E8%88%B9%E9%A6%96%E6%AC%A1%E9%80%9A%E8%BF%87%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1/a-76660245"
+      "short_title": "中国驻沙特提醒公民防风险",
+      "summary": "沙特安全形势升温，中国公民需提高防范。",
+      "link": "https://www.chinanews.com.cn/hr/2026/04-06/10599363.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "美零售巨头拥抱AI用户担责",
+      "summary": "沃尔玛等零售商使用AI，错误需用户负责。",
+      "link": "https://www.ithome.com/0/936/222.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "英特尔英伟达Serpent Lake...",
+      "summary": "英特尔与英伟达合作处理器被指为Titan Lake变...",
+      "link": "https://www.ithome.com/0/936/226.htm"
     },
     {
       "category": "金融重点",
-      "short_title": "变压器机器人订单激增",
-      "summary": "中国制造出口火热，海外竞争力持续提升",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598829.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "票根经济激活武汉消费",
-      "summary": "一票多用提升武汉消费活力",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599078.shtml"
+      "short_title": "A股限售股解禁约1090亿元",
+      "summary": "A股将解禁73.18亿限售股，市值约1090亿元。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599334.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美国说唱歌手加盟南京CBA",
-      "summary": "科尔签约南京球队，首次亮相CBA赛场",
-      "link": "https://www.chinanews.com.cn/tp/2026/04-05/10599071.shtml"
+      "short_title": "“摩”力全开！国产出口爆单",
+      "summary": "国产新产品出口订单激增，实现爆单。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599304.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "看见2030 AI新图景",
-      "summary": "人工智能推动‘0到1’创新突破",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-04/10598896.shtml"
+      "short_title": "平台企业为新就业群体撑伞",
+      "summary": "平台企业为新就业群体提供劳动保障。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599261.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "阿里千问模型登顶全球榜首",
-      "summary": "阿里千问3.6Plus大模型位列全球调用排行榜首位",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599061.shtml"
+      "short_title": "机器人保姆上岗养老家政新帮手",
+      "summary": "机器人保姆正式上岗，助力养老与家政。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599284.shtml"
     }
   ],
   "futures": [
@@ -119,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-05 14:04:20"
+  "updated_at": "2026-04-06 14:22:27"
 }

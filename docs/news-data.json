@@ -1,73 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年4月6日 星期一（农历二月初一）｜汕头：多云 27°C",
-  "date_text": "2026年4月6日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 27°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年4月7日 星期二（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年4月7日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "伊朗媒体称美以袭击致儿童死亡",
-      "reason": "美以空袭致童死亡，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-06/10599353.shtml"
+      "title": "IMF警示中东战争致通胀",
+      "reason": "中东战争加剧通胀与增长放缓",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599608.shtml"
     },
     {
-      "title": "沃尔玛等美国零售巨头拥抱AI",
-      "reason": "AI购物助手责任争议",
-      "link": "https://www.ithome.com/0/936/222.htm"
+      "title": "伊朗袭击威胁致沙特巴林陆路中断",
+      "reason": "伊朗威胁导致关键陆路停运",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599669.shtml"
     },
     {
-      "title": "A股限售股解禁市值逾千亿元",
-      "reason": "解禁或冲击股价",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599334.shtml"
+      "title": "中东冲突推航油价 亚航票价涨40...",
+      "reason": "航油涨价致亚航票价大幅上调",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599605.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗空袭致6童死亡",
-      "summary": "美以空袭德黑兰省，6名儿童遇难。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-06/10599353.shtml"
+      "short_title": "伊朗威胁致沙特巴林唯一陆路中断",
+      "summary": "因伊朗袭击警告，沙特巴林陆路通道暂停通行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599669.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "美军官被救后指挥空袭伊朗阵地",
+      "summary": "被击落美军官获救后，从藏身处指挥对伊朗空袭。",
+      "link": "https://www.rfi.fr/cn/%E7%BE%8E%E6%B4%B2/20260406-%E6%8D%AE%E4%BF%A1%E8%A2%AB%E5%87%BB%E8%90%BD%E9%9A%8F%E5%90%8E%E8%A2%AB%E6%95%91%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%86%9B%E5%AE%98%E4%BB%8E%E8%97%8F%E8%BA%AB%E5%A4%84%E6%8C%87%E6%8C%A5%E4%BA%86%E5%AF%B9%E4%BC%8A%E6%9C%97%E9%98%B5%E5%9C%B0%E7%A9%BA%E8%A2%AD"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "A股三指数高开 超2800股飘红",
+      "summary": "开盘三大指数齐涨，逾2800只个股收阳。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599577.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "成品油调价窗口将至 机构预美原油下行",
+      "summary": "机构称未来三月美原油将呈阶梯式下跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599549.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国医药实现反向超越 打破高端垄断",
+      "summary": "从进口替代到反向超越，中国医药冲击国际高端市场。",
+      "link": "https://www.chinanews.com.cn/jk/2026/04-07/10599682.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中国驻沙特提醒公民防风险",
-      "summary": "沙特安全形势升温，中国公民需提高防范。",
-      "link": "https://www.chinanews.com.cn/hr/2026/04-06/10599363.shtml"
+      "short_title": "IMF警告中东战争致全球增长放缓",
+      "summary": "中东冲突将拖累全球经济，通胀压力上升。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599608.shtml"
     },
     {
-      "category": "AI重点",
-      "short_title": "美零售巨头拥抱AI用户担责",
-      "summary": "沃尔玛等零售商使用AI，错误需用户负责。",
-      "link": "https://www.ithome.com/0/936/222.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "英特尔英伟达Serpent Lake...",
-      "summary": "英特尔与英伟达合作处理器被指为Titan Lake变...",
-      "link": "https://www.ithome.com/0/936/226.htm"
+      "category": "国际/宏观重点",
+      "short_title": "多国央行或继续抛售黄金 受中东局势影...",
+      "summary": "中东局势是央行黄金抛售的关键变量。",
+      "link": "https://www.yicai.com/news/103120055.html"
     },
     {
       "category": "金融重点",
-      "short_title": "A股限售股解禁约1090亿元",
-      "summary": "A股将解禁73.18亿限售股，市值约1090亿元。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599334.shtml"
+      "short_title": "特朗普再设最后期限 市场多头受刺激",
+      "summary": "特朗普威胁后，美股、油金、日韩股市同步上扬。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599567.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "“摩”力全开！国产出口爆单",
-      "summary": "国产新产品出口订单激增，实现爆单。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599304.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "平台企业为新就业群体撑伞",
-      "summary": "平台企业为新就业群体提供劳动保障。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-05/10599261.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "机器人保姆上岗养老家政新帮手",
-      "summary": "机器人保姆正式上岗，助力养老与家政。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-06/10599284.shtml"
+      "category": "金融重点",
+      "short_title": "菲律宾3月通胀升至4.1% 创近八月...",
+      "summary": "菲律宾3月通胀率达4.1%，为2024年8月以来最高...",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599663.shtml"
     }
   ],
   "futures": [
@@ -107,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-06 14:22:27"
+  "updated_at": "2026-04-07 14:08:43"
 }

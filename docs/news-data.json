@@ -1,79 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年4月7日 星期二（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年4月7日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年4月8日 星期三（农历二月初一）｜汕头：阴 22°C",
+  "date_text": "2026年4月8日 星期三（农历二月初一）",
+  "weather_text": "汕头：阴 22°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "IMF警示中东战争致通胀",
-      "reason": "中东战争加剧通胀与增长放缓",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599608.shtml"
+      "title": "伊朗与美达成两周停火",
+      "reason": "美伊停火缓解中东紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-08/10600135.shtml"
     },
     {
-      "title": "伊朗袭击威胁致沙特巴林陆路中断",
-      "reason": "伊朗威胁导致关键陆路停运",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599669.shtml"
+      "title": "美联储面临双重压力",
+      "reason": "中东战事与关税冲击金融",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-08/10600226.shtml"
     },
     {
-      "title": "中东冲突推航油价 亚航票价涨40...",
-      "reason": "航油涨价致亚航票价大幅上调",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599605.shtml"
+      "title": "IMF警示中东战事冲击经济",
+      "reason": "战事推高通胀致增长放缓",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-08/10600172.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗威胁致沙特巴林唯一陆路中断",
-      "summary": "因伊朗袭击警告，沙特巴林陆路通道暂停通行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599669.shtml"
+      "short_title": "美伊停火生效 战事最新进展",
+      "summary": "伊朗公布10项停战条款，停火已生效。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-08/10600141.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美军官被救后指挥空袭伊朗阵地",
-      "summary": "被击落美军官获救后，从藏身处指挥对伊朗空袭。",
-      "link": "https://www.rfi.fr/cn/%E7%BE%8E%E6%B4%B2/20260406-%E6%8D%AE%E4%BF%A1%E8%A2%AB%E5%87%BB%E8%90%BD%E9%9A%8F%E5%90%8E%E8%A2%AB%E6%95%91%E7%9A%84%E7%BE%8E%E5%9B%BD%E5%86%9B%E5%AE%98%E4%BB%8E%E8%97%8F%E8%BA%AB%E5%A4%84%E6%8C%87%E6%8C%A5%E4%BA%86%E5%AF%B9%E4%BC%8A%E6%9C%97%E9%98%B5%E5%9C%B0%E7%A9%BA%E8%A2%AD"
+      "short_title": "达吉斯坦洪灾致6人死亡",
+      "summary": "达吉斯坦洪水已致6人死亡，灾情严峻。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-08/10600142.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股三指数高开 超2800股飘红",
-      "summary": "开盘三大指数齐涨，逾2800只个股收阳。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599577.shtml"
+      "short_title": "清明假日经济春潮涌动",
+      "summary": "清明假期消费活跃，经济呈现回暖迹象。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-08/10600267.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "成品油调价窗口将至 机构预美原油下行",
-      "summary": "机构称未来三月美原油将呈阶梯式下跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599549.shtml"
+      "short_title": "拉马福萨呼吁中东停火",
+      "summary": "南非总统称中东冲突冲击全球经济。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-08/10600116.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国医药实现反向超越 打破高端垄断",
-      "summary": "从进口替代到反向超越，中国医药冲击国际高端市场。",
-      "link": "https://www.chinanews.com.cn/jk/2026/04-07/10599682.shtml"
+      "short_title": "A股午评：5000股飘红指数大涨",
+      "summary": "近5000只个股涨停，三大指数齐涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-08/10600249.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "IMF警告中东战争致全球增长放缓",
-      "summary": "中东冲突将拖累全球经济，通胀压力上升。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599608.shtml"
+      "short_title": "IMF称中东战事致高通胀低增长",
+      "summary": "IMF警示中东冲突推高通胀，抑制增长。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-08/10600172.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "多国央行或继续抛售黄金 受中东局势影...",
-      "summary": "中东局势是央行黄金抛售的关键变量。",
-      "link": "https://www.yicai.com/news/103120055.html"
+      "short_title": "美联储受战事关税双重压力",
+      "summary": "战争与关税叠加，致美联储政策陷两难。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-08/10600226.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "特朗普再设最后期限 市场多头受刺激",
-      "summary": "特朗普威胁后，美股、油金、日韩股市同步上扬。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-07/10599567.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "菲律宾3月通胀升至4.1% 创近八月...",
-      "summary": "菲律宾3月通胀率达4.1%，为2024年8月以来最高...",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-07/10599663.shtml"
+      "short_title": "中国调控汽柴油价格再升",
+      "summary": "国内汽柴油价格再调，关注伊朗出口。",
+      "link": "https://www.rfi.fr/cn/%E4%B8%AD%E4%B8%9C/20260407-%E4%B8%AD%E5%9B%BD%E5%86%8D%E5%BA%A6%E8%B0%83%E6%8E%A7%E5%9B%BD%E5%86%85%E6%B1%BD%E6%9F%B4%E6%B2%B9%E4%BB%B7%E6%A0%BC-%E7%BE%8E%E5%88%B6%E8%A3%81%E4%B8%8B%E4%BC%8A%E6%9C%97%E5%A6%82%E4%BD%95%E5%8A%A0%E5%A4%A7%E5%AF%B9%E5%8D%8E%E5%87%BA%E5%8F%A3%E5%BC%95%E5%85%B3%E6%B3%A8"
     }
   ],
   "futures": [
@@ -113,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-07 14:08:43"
+  "updated_at": "2026-04-08 14:11:59"
 }

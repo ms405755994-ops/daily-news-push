@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年4月10日 星期五（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年4月10日 星期五（农历二月初一）",
-  "weather_text": "汕头：晴 30°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月11日 星期六（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年4月11日 星期六（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "苏丹婚礼现场无人机袭击致56亡",
-      "reason": "突发冲突致大量伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601329.shtml"
+      "title": "奥尔特曼住所遭燃烧瓶袭",
+      "reason": "AI争议升级，突发安全事件",
+      "link": "https://www.ithome.com/0/938/059.htm"
     },
     {
-      "title": "中东战事扰乱全球能源市场",
-      "reason": "能源市场波动影响全球经济",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601337.shtml"
+      "title": "美国3月CPI涨3.3%",
+      "reason": "通胀上升，油价创60年新高",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10601928.shtml"
     },
     {
-      "title": "阿里发布AI眼镜S1 双目显示",
-      "reason": "AI硬件创新提升消费体验",
-      "link": "https://www.ithome.com/0/937/763.htm"
+      "title": "中东局势扰动能源市场",
+      "reason": "能源市场受中东冲突影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601982.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "苏丹婚礼遭无人机袭击",
-      "summary": "婚礼现场被击，56人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601329.shtml"
+      "short_title": "OpenAI创始人住所遭袭",
+      "summary": "OpenAI创始人受袭，呼吁防止AI暴力化",
+      "link": "https://www.ithome.com/0/938/059.htm"
     },
     {
       "category": "突发新闻",
-      "short_title": "普京宣布复活节停火",
-      "summary": "俄乌双方同意东正教节日停火",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601365.shtml"
+      "short_title": "黎巴嫩总统府称同意美停火谈判",
+      "summary": "黎巴嫩与以色列同意在美讨论停火",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601910.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "8000家AI企业聚集",
-      "summary": "数字经济加速向新技术迈进",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-10/10601399.shtml"
+      "short_title": "南非发布AI监管政策草案",
+      "summary": "南非拟多模式监管AI，推动治理",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601926.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "阿里千问AI眼镜S1发布",
-      "summary": "双目显示热插拔，补贴价3499元",
-      "link": "https://www.ithome.com/0/937/763.htm"
+      "short_title": "中国AI拟人化服务禁向未成年人",
+      "summary": "新规禁止向未成年人提供虚拟伴侣",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-10/10601884.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普警告伊朗若无协议将加打击",
+      "summary": "特朗普称若谈判失败美方将加大打击",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601958.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "专家解读保持制造业合理比重",
+      "summary": "解析中国制造业比重背后深意",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602013.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普称霍尔木兹海峡将快开放",
+      "summary": "特朗普预告霍尔木兹海峡即将重新开放",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601953.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "世界银行警示中东战事冲击能源",
-      "summary": "中东冲突扰乱全球能源供应",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601337.shtml"
+      "short_title": "中东局势扰动能源 市场波动",
+      "summary": "中东紧张导致能源市场波动，德政府分歧",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601982.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普警告伊朗勿收油轮费",
-      "summary": "美国对霍尔木兹海峡提出警告",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601362.shtml"
+      "short_title": "巴西3月通胀率上升0.88%",
+      "summary": "巴西3月通胀率升至0.88%，经济压力增大",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601929.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后强势飘红",
-      "summary": "4400只个股涨，三大指数收涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-10/10601422.shtml"
+      "short_title": "美国3月CPI涨3.3% 汽油涨创纪...",
+      "summary": "美国3月CPI同比涨3.3%，汽油涨幅创60年新高",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10601928.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "国新办吹风会解读内蒙古自贸区",
-      "summary": "发布自由贸易试验区总体方案",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-10/10601357.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美国第一夫人否认与爱泼斯坦关联",
-      "summary": "声明澄清无任何联系",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-10/10601303.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "黑河-布拉戈维申斯克通道拆解",
-      "summary": "中俄固冰通道开始拆除",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-10/10601459.shtml"
+      "category": "金融重点",
+      "short_title": "纳指连涨八日 市场热度上升",
+      "summary": "纳指连续八天上涨，欧洲股指分化",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10601969.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-10 14:24:02"
+  "updated_at": "2026-04-11 13:42:14"
 }

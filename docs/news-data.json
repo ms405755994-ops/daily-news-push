@@ -1,91 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月11日 星期六（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年4月11日 星期六（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年4月12日 星期日（农历二月初一）｜汕头：晴 30°C",
+  "date_text": "2026年4月12日 星期日（农历二月初一）",
+  "weather_text": "汕头：晴 30°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "奥尔特曼住所遭燃烧瓶袭",
-      "reason": "AI争议升级，突发安全事件",
-      "link": "https://www.ithome.com/0/938/059.htm"
+      "title": "纽约地铁持刀袭击致三伤",
+      "reason": "美国突发恐怖袭击",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602267.shtml"
     },
     {
-      "title": "美国3月CPI涨3.3%",
-      "reason": "通胀上升，油价创60年新高",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10601928.shtml"
+      "title": "星门项目核心跳槽Meta",
+      "reason": "AI人才流动冲击行业",
+      "link": "https://www.ithome.com/0/938/271.htm"
     },
     {
-      "title": "中东局势扰动能源市场",
-      "reason": "能源市场受中东冲突影响",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601982.shtml"
+      "title": "俄乌互指对方复活节袭击",
+      "reason": "东正教停火期间冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602322.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "OpenAI创始人住所遭袭",
-      "summary": "OpenAI创始人受袭，呼吁防止AI暴力化",
-      "link": "https://www.ithome.com/0/938/059.htm"
+      "short_title": "纽约地铁持刀袭击致三伤",
+      "summary": "嫌疑人被击毙，现场三人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602267.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "黎巴嫩总统府称同意美停火谈判",
-      "summary": "黎巴嫩与以色列同意在美讨论停火",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601910.shtml"
+      "short_title": "俄乌互指复活节停火期间袭击",
+      "summary": "双方指责对方违背停火协议",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602322.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "南非发布AI监管政策草案",
-      "summary": "南非拟多模式监管AI，推动治理",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601926.shtml"
+      "short_title": "OpenAI星门核心成员跳槽Meta",
+      "summary": "三名关键研发人员转投Meta",
+      "link": "https://www.ithome.com/0/938/271.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "中国AI拟人化服务禁向未成年人",
-      "summary": "新规禁止向未成年人提供虚拟伴侣",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-10/10601884.shtml"
+      "short_title": "白皮书：机器人与大模型深度融合",
+      "summary": "推动产业创新与应用落地",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602163.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普警告伊朗若无协议将加打击",
-      "summary": "特朗普称若谈判失败美方将加大打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601958.shtml"
+      "short_title": "陇西千年药乡智能家居亮相",
+      "summary": "种子上天入地，机器人成保姆",
+      "link": "https://www.chinanews.com.cn/jk/2026/04-12/10602395.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "专家解读保持制造业合理比重",
-      "summary": "解析中国制造业比重背后深意",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602013.shtml"
+      "short_title": "CMEF上海开幕 AI医疗受关注",
+      "summary": "第93届展会聚焦人工智能医药",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602231.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普称霍尔木兹海峡将快开放",
-      "summary": "特朗普预告霍尔木兹海峡即将重新开放",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601953.shtml"
+      "short_title": "OPPO Pad 5 Pro亮相电信...",
+      "summary": "搭载骁龙8 Elite Gen5芯片",
+      "link": "https://www.ithome.com/0/938/255.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中东局势扰动能源 市场波动",
-      "summary": "中东紧张导致能源市场波动，德政府分歧",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601982.shtml"
+      "short_title": "伊朗代表团将离开巴基斯坦",
+      "summary": "巴方确认伊朗代表团12日撤离",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602331.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "巴西3月通胀率上升0.88%",
-      "summary": "巴西3月通胀率升至0.88%，经济压力增大",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-11/10601929.shtml"
+      "short_title": "中东战火冲击全球体育产业",
+      "summary": "地区冲突导致赛事与赞助受挫",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602160.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国3月CPI涨3.3% 汽油涨创纪...",
-      "summary": "美国3月CPI同比涨3.3%，汽油涨幅创60年新高",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10601928.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "纳指连涨八日 市场热度上升",
-      "summary": "纳指连续八天上涨，欧洲股指分化",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10601969.shtml"
+      "short_title": "霍尔木兹海峡比特币大跌",
+      "summary": "海峡局势引发加密货币直线跳水",
+      "link": "https://i.ifeng.com/c/8sFDckeYug7"
     }
   ],
   "futures": [
@@ -125,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-11 13:42:14"
+  "updated_at": "2026-04-12 14:15:32"
 }

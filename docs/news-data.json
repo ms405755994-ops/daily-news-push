@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年4月12日 星期日（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年4月12日 星期日（农历二月初一）",
-  "weather_text": "汕头：晴 30°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月13日 星期一（农历二月初一）｜汕头：晴 28°C",
+  "date_text": "2026年4月13日 星期一（农历二月初一）",
+  "weather_text": "汕头：晴 28°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "纽约地铁持刀袭击致三伤",
-      "reason": "美国突发恐怖袭击",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602267.shtml"
+      "title": "胡塞武装声援伊朗升级",
+      "reason": "中东局势紧张，可能扩大冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602686.shtml"
     },
     {
-      "title": "星门项目核心跳槽Meta",
-      "reason": "AI人才流动冲击行业",
-      "link": "https://www.ithome.com/0/938/271.htm"
+      "title": "美国封锁临近油价破百",
+      "reason": "油价飙至百美元，金融市场波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-13/10602722.shtml"
     },
     {
-      "title": "俄乌互指对方复活节袭击",
-      "reason": "东正教停火期间冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602322.shtml"
+      "title": "OpenAI CEO住所再遭枪击",
+      "reason": "AI领袖遭袭，行业安全受关注",
+      "link": "https://www.ithome.com/0/938/461.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "纽约地铁持刀袭击致三伤",
-      "summary": "嫌疑人被击毙，现场三人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602267.shtml"
+      "short_title": "胡塞武装声援伊朗 将升级军事行动",
+      "summary": "美以若恢复袭击，胡塞将加大对伊朗支持。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602686.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄乌互指复活节停火期间袭击",
-      "summary": "双方指责对方违背停火协议",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602322.shtml"
+      "short_title": "尼日利亚空袭乡村集市 伤亡惨重",
+      "summary": "反恐空袭击中集市，造成大量人员伤亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602835.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "OpenAI星门核心成员跳槽Meta",
-      "summary": "三名关键研发人员转投Meta",
-      "link": "https://www.ithome.com/0/938/271.htm"
+      "short_title": "OpenAI CEO住所再遭枪击",
+      "summary": "警方已逮捕两名嫌疑人，事件再度引关注。",
+      "link": "https://www.ithome.com/0/938/461.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "白皮书：机器人与大模型深度融合",
-      "summary": "推动产业创新与应用落地",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602163.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "陇西千年药乡智能家居亮相",
-      "summary": "种子上天入地，机器人成保姆",
-      "link": "https://www.chinanews.com.cn/jk/2026/04-12/10602395.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "CMEF上海开幕 AI医疗受关注",
-      "summary": "第93届展会聚焦人工智能医药",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602231.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "OPPO Pad 5 Pro亮相电信...",
-      "summary": "搭载骁龙8 Elite Gen5芯片",
-      "link": "https://www.ithome.com/0/938/255.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗代表团将离开巴基斯坦",
-      "summary": "巴方确认伊朗代表团12日撤离",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-12/10602331.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "中东战火冲击全球体育产业",
-      "summary": "地区冲突导致赛事与赞助受挫",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-11/10602160.shtml"
+      "short_title": "配音演员被AI偷声 影响生计",
+      "summary": "多名配音者称AI盗用声音，导致商单受损。",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-13/10602828.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "霍尔木兹海峡比特币大跌",
-      "summary": "海峡局势引发加密货币直线跳水",
-      "link": "https://i.ifeng.com/c/8sFDckeYug7"
+      "short_title": "美国封锁临近 油价冲100美元",
+      "summary": "油价突破百美元，金价下跌，日韩股市低开。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-13/10602722.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股开盘超3900只个股飘绿 指数低...",
+      "summary": "三大指数集体低开，油气板块领涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-13/10602742.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "以色列防长称在以黎边境启动拆除行动",
+      "summary": "以色列在以黎边境展开新一轮拆除。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602845.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "特朗普称美伊未达核协议 将封锁海峡",
+      "summary": "美伊谈判无果，可能封锁霍尔木兹海峡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602792.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中巴文化年交响乐团走进巴西纳塔尔",
+      "summary": "中国交响乐团赴巴西东北部开展文化交流。",
+      "link": "https://www.chinanews.com.cn/hr/2026/04-13/10602825.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "深圳首条人形机器人中试产线投运",
+      "summary": "深圳建成首条人形机器人中试产线，标志产业升级。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-12/10602589.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "第26届IAI传鉴国际广告奖在荣成举...",
+      "summary": "广告奖与垂直奖联合终审会在荣成落幕。",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-13/10602828.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-12 14:15:32"
+  "updated_at": "2026-04-13 12:02:07"
 }

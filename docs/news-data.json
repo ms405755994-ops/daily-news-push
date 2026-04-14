@@ -1,91 +1,67 @@
 {
-  "title": "MSAI今日新闻｜2026年4月13日 星期一（农历二月初一）｜汕头：晴 28°C",
-  "date_text": "2026年4月13日 星期一（农历二月初一）",
-  "weather_text": "汕头：晴 28°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年4月14日 星期二（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年4月14日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "胡塞武装声援伊朗升级",
-      "reason": "中东局势紧张，可能扩大冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602686.shtml"
+      "title": "美国内华达5.7级地震",
+      "reason": "突发地震，影响美国能源安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603323.shtml"
     },
     {
-      "title": "美国封锁临近油价破百",
-      "reason": "油价飙至百美元，金融市场波动",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-13/10602722.shtml"
+      "title": "A股三大指数高开 贵金属领涨",
+      "reason": "A股高开，贵金属领涨提振市场情绪",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-14/10603405.shtml"
     },
     {
-      "title": "OpenAI CEO住所再遭枪击",
-      "reason": "AI领袖遭袭，行业安全受关注",
-      "link": "https://www.ithome.com/0/938/461.htm"
+      "title": "60亿美元AI基建项目引争议",
+      "reason": "AI基建巨额投资引发美国小镇政治风波",
+      "link": "https://www.ithome.com/0/938/867.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "胡塞武装声援伊朗 将升级军事行动",
-      "summary": "美以若恢复袭击，胡塞将加大对伊朗支持。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602686.shtml"
+      "short_title": "美国内华达5.7级地震",
+      "summary": "震源深10千米，暂无人员伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603323.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "尼日利亚空袭乡村集市 伤亡惨重",
-      "summary": "反恐空袭击中集市，造成大量人员伤亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602835.shtml"
+      "short_title": "伊朗要求地区国家赔偿",
+      "summary": "伊朗向5国索要战争损失赔偿",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603250.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "自贸港成果展吸客潮",
+      "summary": "11.33亿人次见证流动中国活力",
+      "link": "https://www.chinanews.com.cn/gn/2026/04-14/10603392.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "OpenAI CEO住所再遭枪击",
-      "summary": "警方已逮捕两名嫌疑人，事件再度引关注。",
-      "link": "https://www.ithome.com/0/938/461.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "配音演员被AI偷声 影响生计",
-      "summary": "多名配音者称AI盗用声音，导致商单受损。",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-13/10602828.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美国封锁临近 油价冲100美元",
-      "summary": "油价突破百美元，金价下跌，日韩股市低开。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-13/10602722.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股开盘超3900只个股飘绿 指数低...",
-      "summary": "三大指数集体低开，油气板块领涨。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-13/10602742.shtml"
+      "short_title": "美国AI基建项目遭罢免",
+      "summary": "小镇选民罢半数议员反对60亿美元计划",
+      "link": "https://www.ithome.com/0/938/867.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列防长称在以黎边境启动拆除行动",
-      "summary": "以色列在以黎边境展开新一轮拆除。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602845.shtml"
+      "short_title": "美能源部长警告油价涨",
+      "summary": "霍尔木兹通航前能源价格将继续上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603318.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称美伊未达核协议 将封锁海峡",
-      "summary": "美伊谈判无果，可能封锁霍尔木兹海峡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-13/10602792.shtml"
+      "short_title": "欧理事会主席访中东议伊朗",
+      "summary": "出访商讨伊朗局势，寻求地区稳定",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603244.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "中巴文化年交响乐团走进巴西纳塔尔",
-      "summary": "中国交响乐团赴巴西东北部开展文化交流。",
-      "link": "https://www.chinanews.com.cn/hr/2026/04-13/10602825.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "深圳首条人形机器人中试产线投运",
-      "summary": "深圳建成首条人形机器人中试产线，标志产业升级。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-12/10602589.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "第26届IAI传鉴国际广告奖在荣成举...",
-      "summary": "广告奖与垂直奖联合终审会在荣成落幕。",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-13/10602828.shtml"
+      "category": "金融重点",
+      "short_title": "A股三大指数集体高开",
+      "summary": "贵金属领涨，市场情绪回暖",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-14/10603405.shtml"
     }
   ],
   "futures": [
@@ -125,5 +101,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-13 12:02:07"
+  "updated_at": "2026-04-14 11:50:03"
 }

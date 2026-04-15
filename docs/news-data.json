@@ -1,67 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年4月14日 星期二（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年4月14日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年4月15日 星期三（农历二月初一）｜汕头：晴 30°C",
+  "date_text": "2026年4月15日 星期三（农历二月初一）",
+  "weather_text": "汕头：晴 30°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国内华达5.7级地震",
-      "reason": "突发地震，影响美国能源安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603323.shtml"
+      "title": "英国财政大臣批美伊战争",
+      "reason": "突发国际争议，影响中美关系",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603948.shtml"
     },
     {
-      "title": "A股三大指数高开 贵金属领涨",
-      "reason": "A股高开，贵金属领涨提振市场情绪",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-14/10603405.shtml"
+      "title": "特朗普称美伊战争已结束",
+      "reason": "突发美伊局势变化，全球关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603850.shtml"
     },
     {
-      "title": "60亿美元AI基建项目引争议",
-      "reason": "AI基建巨额投资引发美国小镇政治风波",
-      "link": "https://www.ithome.com/0/938/867.htm"
+      "title": "阿里千问AI眼镜S1开售",
+      "reason": "AI重大进展，国产硬件亮相",
+      "link": "https://www.ithome.com/0/939/265.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国内华达5.7级地震",
-      "summary": "震源深10千米，暂无人员伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603323.shtml"
+      "short_title": "英财政大臣批美伊战争愚蠢",
+      "summary": "英财政大臣抨击美对伊战争愚蠢",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603948.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗要求地区国家赔偿",
-      "summary": "伊朗向5国索要战争损失赔偿",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603250.shtml"
+      "short_title": "印度电厂爆炸致10死30伤",
+      "summary": "印度电厂爆炸致10死30伤，莫迪哀悼",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10604033.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "自贸港成果展吸客潮",
-      "summary": "11.33亿人次见证流动中国活力",
-      "link": "https://www.chinanews.com.cn/gn/2026/04-14/10603392.shtml"
+      "short_title": "中东战火冲击贸易 中国进出口韧性",
+      "summary": "中东冲突冲击贸易，中国进出口保持韧性",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-14/10603808.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "IMF下调全球增长预期至3.1%",
+      "summary": "IMF因中东战事将全球增长预期调至3.1%",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-15/10603847.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "美国AI基建项目遭罢免",
-      "summary": "小镇选民罢半数议员反对60亿美元计划",
-      "link": "https://www.ithome.com/0/938/867.htm"
+      "short_title": "阿里千问AI眼镜S1开售 价3499...",
+      "summary": "阿里千问AI眼镜S1上市，售价3499元",
+      "link": "https://www.ithome.com/0/939/265.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美能源部长警告油价涨",
-      "summary": "霍尔木兹通航前能源价格将继续上升",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603318.shtml"
+      "short_title": "国台办坚决反对建交国与台官方往来",
+      "summary": "国台办严正声明，反对任何官方往来",
+      "link": "https://www.chinanews.com.cn/gn/2026/04-15/10604010.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧理事会主席访中东议伊朗",
-      "summary": "出访商讨伊朗局势，寻求地区稳定",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-14/10603244.shtml"
+      "short_title": "特朗普称美伊战争已结束",
+      "summary": "特朗普宣布美伊战争已结束",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603850.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数集体高开",
-      "summary": "贵金属领涨，市场情绪回暖",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-14/10603405.shtml"
+      "short_title": "美检察官突查美联储总部 鲍威尔受调查",
+      "summary": "美国检察官突查美联储总部，调查鲍威尔",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603947.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美军称已切断伊朗海上进出口",
+      "summary": "美军称已切断伊朗海上进出口贸易",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10604020.shtml"
     }
   ],
   "futures": [
@@ -101,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-14 11:50:03"
+  "updated_at": "2026-04-15 11:49:45"
 }

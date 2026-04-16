@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月15日 星期三（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年4月15日 星期三（农历二月初一）",
-  "weather_text": "汕头：晴 30°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年4月16日 星期四（农历二月初一）｜汕头：多云 26°C",
+  "date_text": "2026年4月16日 星期四（农历二月初一）",
+  "weather_text": "汕头：多云 26°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "英国财政大臣批美伊战争",
-      "reason": "突发国际争议，影响中美关系",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603948.shtml"
+      "title": "AI 圈地震：MCP缺陷波及服务...",
+      "reason": "AI服务器大面积受影响",
+      "link": "https://www.ithome.com/0/939/750.htm"
     },
     {
-      "title": "特朗普称美伊战争已结束",
-      "reason": "突发美伊局势变化，全球关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603850.shtml"
+      "title": "伊朗警告美封锁霍尔木兹危停火",
+      "reason": "美伊海峡封锁危及停火",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604649.shtml"
     },
     {
-      "title": "阿里千问AI眼镜S1开售",
-      "reason": "AI重大进展，国产硬件亮相",
-      "link": "https://www.ithome.com/0/939/265.htm"
+      "title": "A股午评：3800股飘红指数收涨",
+      "reason": "A股大幅飘红指数全涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-16/10604751.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "英财政大臣批美伊战争愚蠢",
-      "summary": "英财政大臣抨击美对伊战争愚蠢",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603948.shtml"
+      "short_title": "伊朗德黑兰汽车爆炸致3伤",
+      "summary": "德黑兰市中心爆炸，致3人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604686.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "印度电厂爆炸致10死30伤",
-      "summary": "印度电厂爆炸致10死30伤，莫迪哀悼",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10604033.shtml"
+      "short_title": "美民主党弹劾防长指控战争罪",
+      "summary": "美民主党弹劾防长，指控其战争罪。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604575.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中东战火冲击贸易 中国进出口韧性",
-      "summary": "中东冲突冲击贸易，中国进出口保持韧性",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-14/10603808.shtml"
+      "short_title": "消博会：国际品牌共享中国机遇",
+      "summary": "国际品牌在消博会共享中国市场机遇。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-16/10604714.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "IMF下调全球增长预期至3.1%",
-      "summary": "IMF因中东战事将全球增长预期调至3.1%",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-15/10603847.shtml"
+      "short_title": "俄阿就客机坠毁善后达成一致",
+      "summary": "俄阿就客机坠毁善后问题达成一致。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604589.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊朗称美封锁霍尔木兹海峡恐破停火",
+      "summary": "伊朗警告美封锁海峡或导致停火破裂。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604649.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "阿里千问AI眼镜S1开售 价3499...",
-      "summary": "阿里千问AI眼镜S1上市，售价3499元",
-      "link": "https://www.ithome.com/0/939/265.htm"
+      "short_title": "MCP设计缺陷波及20万服务器",
+      "summary": "MCP缺陷影响20万台服务器，致多款AI工具受波。",
+      "link": "https://www.ithome.com/0/939/750.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "国台办坚决反对建交国与台官方往来",
-      "summary": "国台办严正声明，反对任何官方往来",
-      "link": "https://www.chinanews.com.cn/gn/2026/04-15/10604010.shtml"
+      "short_title": "俄情报局长称美侵伊源于殖民思维",
+      "summary": "俄情报局长指美侵伊源自殖民主义思维。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604647.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称美伊战争已结束",
-      "summary": "特朗普宣布美伊战争已结束",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603850.shtml"
+      "short_title": "美军东太平洋打击贩毒船致3死",
+      "summary": "美军在东太平洋击毁贩毒船，致3人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10604702.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美检察官突查美联储总部 鲍威尔受调查",
-      "summary": "美国检察官突查美联储总部，调查鲍威尔",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10603947.shtml"
+      "short_title": "A股午评：3800股飘红指数全涨",
+      "summary": "A股午盘超3800只个股飘红，三大指数全涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-16/10604751.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美军称已切断伊朗海上进出口",
-      "summary": "美军称已切断伊朗海上进出口贸易",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-15/10604020.shtml"
+      "short_title": "3月规上工业原油产量1907万吨",
+      "summary": "3月规上工业原油产量1907万吨，增0.2%。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-16/10604696.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-15 11:49:45"
+  "updated_at": "2026-04-16 11:58:19"
 }

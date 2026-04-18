@@ -1,85 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年4月17日 星期五（农历二月初一）｜汕头：小雨 25°C",
-  "date_text": "2026年4月17日 星期五（农历二月初一）",
-  "weather_text": "汕头：小雨 25°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月18日 星期六（农历二月初一）｜汕头：多云 28°C",
+  "date_text": "2026年4月18日 星期六（农历二月初一）",
+  "weather_text": "汕头：多云 28°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "美以伊冲突伤害全球经济",
-      "reason": "冲突波及全球金融",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605413.shtml"
+      "title": "特朗普称伊朗同意交核尘埃",
+      "reason": "美伊停火谈判或迎关键转折",
+      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E7%BE%8E%E5%9B%BD%E4%B8%93%E6%A0%8F/20260417-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E4%BA%A4%E5%87%BA-%E6%A0%B8%E5%B0%98%E5%9F%83-%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E8%B0%88%E5%88%A4%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86"
     },
     {
-      "title": "中国一季经济超预期",
-      "reason": "伊朗战争或冲击经济",
-      "link": "https://www.dw.com/zh/%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%AD%A3%E5%BA%A6%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF%E8%B6%85%E9%A2%84%E6%9C%9F-%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E5%86%B2%E5%87%BB%E4%BB%8D%E5%BE%85%E8%A7%82%E5%AF%9F/a-76807482"
+      "title": "伊朗开放霍尔木兹海峡油价跌10%",
+      "reason": "油价大跌影响全球市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605953.shtml"
     },
     {
-      "title": "AideaMini R3 Max...",
-      "reason": "搭载AMD锐龙AI芯片",
-      "link": "https://www.ithome.com/0/940/220.htm"
+      "title": "微软集成Claude AI工具",
+      "reason": "AI生态加速，助力创新",
+      "link": "https://www.ithome.com/0/940/642.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美以伊冲突冲击全球经济",
-      "summary": "美媒称冲突伤害全球经济，无法独善其身",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605413.shtml"
+      "short_title": "特朗普称伊朗同意交出核尘埃",
+      "summary": "美伊停火谈判或迎关键转折",
+      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E7%BE%8E%E5%9B%BD%E4%B8%93%E6%A0%8F/20260417-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E4%BA%A4%E5%87%BA-%E6%A0%B8%E5%B0%98%E5%9F%83-%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E8%B0%88%E5%88%A4%E9%97%AE%E9%97%AE%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86"
     },
     {
       "category": "突发新闻",
-      "short_title": "特朗普称黎以停火十天",
-      "summary": "特朗普宣布黎巴嫩与以色列停火十天",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605252.shtml"
+      "short_title": "中国对非洲零关税政策启动",
+      "summary": "湖南外贸将迎新机遇",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-17/10605861.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国一季GDP超预期",
-      "summary": "一季度经济增速超预期，伊朗战争影响待观",
-      "link": "https://www.dw.com/zh/%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%AD%A3%E5%BA%A6%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF%E8%B6%85%E9%A2%84%E6%9C%9F-%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E5%86%B2%E5%87%BB%E4%BB%8D%E5%BE%85%E8%A7%82%E5%AF%9F/a-76807482"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "巴西总统批评特朗普",
-      "summary": "巴西领袖指责特朗普动辄以战争威胁他国",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605422.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "义乌世界杯经济爆单",
-      "summary": "开赛前两月订单激增，义乌受世界杯提振",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-17/10605425.shtml"
+      "short_title": "古戏台木石年轮诉说中国故事",
+      "summary": "传统戏台展现文化温度",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-18/10606050.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "SEAVIV推出AideaMini ...",
-      "summary": "新款迷你主机搭载AMD锐龙AI处理器",
-      "link": "https://www.ithome.com/0/940/220.htm"
+      "short_title": "微软集成Claude Opus等9款...",
+      "summary": "GitHub Copilot等首日接入",
+      "link": "https://www.ithome.com/0/940/642.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗警告美勿当霍尔木兹警察",
-      "summary": "伊朗最高领袖顾问呼吁美国停止海峡执法",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605344.shtml"
+      "short_title": "伊朗全线开放霍尔木兹海峡",
+      "summary": "国际油价跌超10%",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605953.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "马来西亚学者谈儒伊文明对话",
-      "summary": "巴卡尔称儒伊对话能助地区和平与冲突化解",
-      "link": "https://www.chinanews.com.cn/gn/2026/04-16/10605173.shtml"
+      "short_title": "北约在伊朗危机中显力不从心",
+      "summary": "美欧单边转向加剧裂痕",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605693.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股新股王诞生",
-      "summary": "新股上市首日市值突破纪录，创历史新高",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-17/10605380.shtml"
+      "short_title": "A股股王更替彰显经济新动能",
+      "summary": "新领头企业引领市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-18/10605992.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "中东冲突推高泰国物价",
-      "summary": "机构称中东局势已导致泰国商品价格上扬",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-16/10605158.shtml"
+      "short_title": "中东冲突波及消费品价格",
+      "summary": "奶茶咖啡或面临涨价",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-18/10606031.shtml"
     }
   ],
   "futures": [
@@ -119,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-17 11:54:45"
+  "updated_at": "2026-04-18 11:38:35"
 }

@@ -1,73 +1,67 @@
 {
-  "title": "MSAI今日新闻｜2026年4月18日 星期六（农历二月初一）｜汕头：多云 28°C",
-  "date_text": "2026年4月18日 星期六（农历二月初一）",
-  "weather_text": "汕头：多云 28°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年4月19日 星期日（农历二月初一）｜汕头：多云 27°C",
+  "date_text": "2026年4月19日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 27°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "特朗普称伊朗同意交核尘埃",
-      "reason": "美伊停火谈判或迎关键转折",
-      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E7%BE%8E%E5%9B%BD%E4%B8%93%E6%A0%8F/20260417-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E4%BA%A4%E5%87%BA-%E6%A0%B8%E5%B0%98%E5%9F%83-%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E8%B0%88%E5%88%A4%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86"
+      "title": "霍尔木兹海峡突发伊朗恢复控制",
+      "reason": "中东局势紧张，影响全球航运",
+      "link": "https://www.stcn.com/article/detail/3763497.html"
     },
     {
-      "title": "伊朗开放霍尔木兹海峡油价跌10%",
-      "reason": "油价大跌影响全球市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605953.shtml"
+      "title": "乌克兰首都枪击致多人伤亡",
+      "reason": "突发暴力事件，波及地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-19/10606462.shtml"
     },
     {
-      "title": "微软集成Claude AI工具",
-      "reason": "AI生态加速，助力创新",
-      "link": "https://www.ithome.com/0/940/642.htm"
+      "title": "雄安智慧农业AI种花示范",
+      "reason": "AI技术赋能农业，示范效应显著",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-19/10606494.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称伊朗同意交出核尘埃",
-      "summary": "美伊停火谈判或迎关键转折",
-      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E7%BE%8E%E5%9B%BD%E4%B8%93%E6%A0%8F/20260417-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E4%BA%A4%E5%87%BA-%E6%A0%B8%E5%B0%98%E5%9F%83-%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E8%B0%88%E5%88%A4%E9%97%AE%E9%97%AE%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86"
+      "short_title": "霍尔木兹海峡伊朗恢复控制",
+      "summary": "伊朗称已重新掌控霍尔木兹海峡通行",
+      "link": "https://www.stcn.com/article/detail/3763497.html"
     },
     {
       "category": "突发新闻",
-      "short_title": "中国对非洲零关税政策启动",
-      "summary": "湖南外贸将迎新机遇",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-17/10605861.shtml"
+      "short_title": "乌克兰基辅枪击致多人死亡",
+      "summary": "基辅发生枪击，6人死亡多人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-19/10606462.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "古戏台木石年轮诉说中国故事",
-      "summary": "传统戏台展现文化温度",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-18/10606050.shtml"
+      "short_title": "第六届中国国际消费品博览会亮点",
+      "summary": "国潮品牌与开放合作成展会焦点",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=2026041854716755462747a390c793a9a7e77db8"
     },
     {
       "category": "AI重点",
-      "short_title": "微软集成Claude Opus等9款...",
-      "summary": "GitHub Copilot等首日接入",
-      "link": "https://www.ithome.com/0/940/642.htm"
+      "short_title": "雄安智慧农业引入北斗与AI种植",
+      "summary": "北斗定位定垄，AI辅助花卉种植",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-19/10606494.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "北京亦庄机器人半程马拉松冠军出炉",
+      "summary": "人形机器人“闪电”夺冠完成半马",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-19/10606469.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗全线开放霍尔木兹海峡",
-      "summary": "国际油价跌超10%",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605953.shtml"
+      "short_title": "伊朗最高领袖称海军备战新惨败",
+      "summary": "伊朗海军准备对敌方造成新惨痛失败",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-18/10606291.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "北约在伊朗危机中显力不从心",
-      "summary": "美欧单边转向加剧裂痕",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-17/10605693.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股股王更替彰显经济新动能",
-      "summary": "新领头企业引领市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-18/10605992.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "中东冲突波及消费品价格",
-      "summary": "奶茶咖啡或面临涨价",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-18/10606031.shtml"
+      "short_title": "哥伦比亚总统警告美国将激起拉美反抗",
+      "summary": "哥伦比亚称美单边行动会引发地区抵制",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-18/10606381.shtml"
     }
   ],
   "futures": [
@@ -107,5 +101,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-18 11:38:35"
+  "updated_at": "2026-04-19 11:57:05"
 }

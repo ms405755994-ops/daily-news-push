@@ -1,67 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年4月19日 星期日（农历二月初一）｜汕头：多云 27°C",
-  "date_text": "2026年4月19日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 27°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年4月20日 星期一（农历二月初一）｜汕头：晴 28°C",
+  "date_text": "2026年4月20日 星期一（农历二月初一）",
+  "weather_text": "汕头：晴 28°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "霍尔木兹海峡突发伊朗恢复控制",
-      "reason": "中东局势紧张，影响全球航运",
-      "link": "https://www.stcn.com/article/detail/3763497.html"
+      "title": "伊朗总统指美方背信弃义",
+      "reason": "伊朗指美违背停火承诺",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606885.shtml"
     },
     {
-      "title": "乌克兰首都枪击致多人伤亡",
-      "reason": "突发暴力事件，波及地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-19/10606462.shtml"
+      "title": "朝鲜试射地对地弹道导弹 金正恩满...",
+      "reason": "朝鲜展示新型弹道导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606814.shtml"
     },
     {
-      "title": "雄安智慧农业AI种花示范",
-      "reason": "AI技术赋能农业，示范效应显著",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-19/10606494.shtml"
+      "title": "A股开盘超2500只跌 指数飘绿",
+      "reason": "A股大幅下跌 市场情绪转弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-20/10606840.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "霍尔木兹海峡伊朗恢复控制",
-      "summary": "伊朗称已重新掌控霍尔木兹海峡通行",
-      "link": "https://www.stcn.com/article/detail/3763497.html"
+      "short_title": "伊朗总统指美方背信弃义",
+      "summary": "伊朗总统批评美方在谈判和停火中违约",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606885.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "乌克兰基辅枪击致多人死亡",
-      "summary": "基辅发生枪击，6人死亡多人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-19/10606462.shtml"
+      "short_title": "朝鲜试射地对地弹道导弹",
+      "summary": "金正恩现场观摩并对试射表示满意",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606814.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "第六届中国国际消费品博览会亮点",
-      "summary": "国潮品牌与开放合作成展会焦点",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=2026041854716755462747a390c793a9a7e77db8"
+      "short_title": "“遇鉴中国”对话会在巴黎举行",
+      "summary": "中法文明交流对话会展示中国文化软实力",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606949.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊朗在霍尔木兹海峡划新航线",
+      "summary": "未经许可船只禁止通行，强化海上控制",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606789.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "超六成美人反对扩大伊军事行动",
+      "summary": "最新民调显示美国公众对伊朗冲突持谨慎态度",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606896.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "雄安智慧农业引入北斗与AI种植",
-      "summary": "北斗定位定垄，AI辅助花卉种植",
-      "link": "https://www.chinanews.com.cn/sh/2026/04-19/10606494.shtml"
+      "short_title": "爱奇艺启动去中心化转型",
+      "summary": "龚宇称AI变革促平台赋能创作者自主上传",
+      "link": "https://www.ithome.com/0/941/069.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "北京亦庄机器人半程马拉松冠军出炉",
-      "summary": "人形机器人“闪电”夺冠完成半马",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-19/10606469.shtml"
+      "short_title": "构建阅读大模型的路径探讨",
+      "summary": "人工智能时代如何打造高效阅读模型",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-20/10606835.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗最高领袖称海军备战新惨败",
-      "summary": "伊朗海军准备对敌方造成新惨痛失败",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-18/10606291.shtml"
+      "short_title": "法国船只在霍尔木兹海峡遭警告射击",
+      "summary": "外媒称该船在海峡遭到警示性射击",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-20/10606884.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "哥伦比亚总统警告美国将激起拉美反抗",
-      "summary": "哥伦比亚称美单边行动会引发地区抵制",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-18/10606381.shtml"
+      "short_title": "中东战争致霍尔木兹海峡关闭",
+      "summary": "海峡封锁使和平协议遥遥无期",
+      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E6%8A%A5%E7%BA%B8%E6%91%98%E8%A6%81/20260419-%E4%B8%AD%E4%B8%9C%E6%88%98%E4%BA%89-%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E5%85%B3%E9%97%AD-%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE-%E9%81%A5%E9%81%A5%E6%97%A0%E6%9C%9F"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股周一开盘超2500只跌",
+      "summary": "深指、创业板指全线转绿",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-20/10606840.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "北京亦庄机器人半马赛落幕",
+      "summary": "荣耀机器人夺前三，关联多家产业链公司",
+      "link": "https://www.cls.cn/detail/2348629"
     }
   ],
   "futures": [
@@ -101,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-19 11:57:05"
+  "updated_at": "2026-04-20 11:59:52"
 }

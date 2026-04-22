@@ -1,67 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月21日 星期二（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年4月21日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年4月22日 星期三（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年4月22日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "特朗普警告停火到期",
-      "reason": "停火协议到期恐引冲突",
-      "link": "https://news.ifeng.com/c/8sUCyoqM8b5"
+      "title": "特朗普延长伊朗停火期限",
+      "reason": "美伊紧张局势升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608189.shtml"
     },
     {
-      "title": "日本自卫队弹药爆炸致死",
-      "reason": "训练场爆炸致3人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-21/10607565.shtml"
+      "title": "美军斥资300亿美元增购拦截器",
+      "reason": "防务支出大幅提升",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608196.shtml"
     },
     {
-      "title": "Take‑Two CEO抨击马斯...",
-      "reason": "AI或取代游戏开发",
-      "link": "https://www.ithome.com/0/941/485.htm"
+      "title": "A股超3600只跌绿指数低开",
+      "reason": "股市大幅回调",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-22/10608276.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称停火到期或爆炸",
-      "summary": "停火协议到期，炸弹或爆炸，伊朗是否到场未明",
-      "link": "https://news.ifeng.com/c/8sUCyoqM8b5"
+      "short_title": "特朗普延长伊朗停火期限",
+      "summary": "美方延长临时停火并维持海上封锁",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608189.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本大分自卫队弹药爆炸致2死1昏迷",
-      "summary": "大分县训练场弹药意外，2人死亡，1人昏迷",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-21/10607565.shtml"
+      "short_title": "日本青森海域5.1级地震",
+      "summary": "东部海域发生5.1级地震，多地有震感",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608230.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "海南自贸港新政策激活经济",
-      "summary": "开放自贸港推动海南高质量发展新活力",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-21/10607617.shtml"
+      "short_title": "第十三批志愿军遗骸回国",
+      "summary": "运-20B运抵沈阳，启动遗骸接收仪式",
+      "link": "https://www.chinanews.com.cn/gn/2026/04-22/10608370.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "法国宣布中东危机财政节支",
+      "summary": "法国官方推出节支措施应对中东局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608311.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "黄金价格涨跌交叉难抉择",
+      "summary": "当前金价波动，投资者犹豫是否入场",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-22/10608219.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Take-Two CEO怒怼马斯克称...",
-      "summary": "CEO称AI可取代马斯克，但做不出《GTA6》",
-      "link": "https://www.ithome.com/0/941/485.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "院士新书启蒙儿童AI",
-      "summary": "《一讲就懂的人工智能》系列帮助孩子了解AI",
-      "link": "https://www.chinanews.com.cn/cul/2026/04-21/10607582.shtml"
+      "short_title": "AI时代阅读仍不可或缺",
+      "summary": "人工智能兴起，阅读价值仍在上升",
+      "link": "https://www.chinanews.com.cn/ll/2026/04-22/10608372.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国路易斯安那州8童枪击案",
-      "summary": "8名儿童遇害，枪手身份已公布",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-21/10607455.shtml"
+      "short_title": "美军斥资300亿美元增购拦截器",
+      "summary": "美方计划大规模采购关键弹药提升防御",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608196.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本批准出口杀伤性武器",
-      "summary": "日本内阁决议允许武器出口，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-21/10607508.shtml"
+      "short_title": "日本放宽武器出口引争议",
+      "summary": "日本解除限制，武器出口引发安全担忧",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=202604216e561c8ae0254485a4e98c59616db9a2"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美联储候任主席沃什出席听证",
+      "summary": "沃什在国会接受提名听证",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608192.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股开盘超3600只跌绿",
+      "summary": "三大指数低开，逾3600只个股下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-22/10608276.shtml"
     }
   ],
   "futures": [
@@ -101,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-21 11:54:59"
+  "updated_at": "2026-04-22 11:49:50"
 }

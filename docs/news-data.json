@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月22日 星期三（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年4月22日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
+  "title": "MSAI今日新闻｜2026年4月23日 星期四（农历二月初一）｜汕头：多云 28°C",
+  "date_text": "2026年4月23日 星期四（农历二月初一）",
+  "weather_text": "汕头：多云 28°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "特朗普延长伊朗停火期限",
-      "reason": "美伊紧张局势升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608189.shtml"
+      "title": "特朗普称伊朗冲突无时间表",
+      "reason": "伊朗局势紧张，冲突未止",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10608947.shtml"
     },
     {
-      "title": "美军斥资300亿美元增购拦截器",
-      "reason": "防务支出大幅提升",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608196.shtml"
+      "title": "日本首批1400人参加美菲军演",
+      "reason": "美菲军演规模扩大，日军首参",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609076.shtml"
     },
     {
-      "title": "A股超3600只跌绿指数低开",
-      "reason": "股市大幅回调",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-22/10608276.shtml"
+      "title": "A股午盘超4300股跌，指数全绿",
+      "reason": "A股大幅下跌，三大指数全跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609121.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普延长伊朗停火期限",
-      "summary": "美方延长临时停火并维持海上封锁",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608189.shtml"
+      "short_title": "特朗普称伊朗冲突无时间表",
+      "summary": "特朗普称美伊冲突结束暂无明确时间",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10608947.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本青森海域5.1级地震",
-      "summary": "东部海域发生5.1级地震，多地有震感",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608230.shtml"
+      "short_title": "日本首批1400人参加美菲军演",
+      "summary": "日本首次派大批官兵赴美菲联合演习",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609076.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "第十三批志愿军遗骸回国",
-      "summary": "运-20B运抵沈阳，启动遗骸接收仪式",
-      "link": "https://www.chinanews.com.cn/gn/2026/04-22/10608370.shtml"
+      "short_title": "第十三批志愿军遗骸归国仪式",
+      "summary": "中国迎回在韩志愿军烈士遗骸",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=202604226525c886f4d94c829c122de1afe108c9"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "法国宣布中东危机财政节支",
-      "summary": "法国官方推出节支措施应对中东局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608311.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "黄金价格涨跌交叉难抉择",
-      "summary": "当前金价波动，投资者犹豫是否入场",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-22/10608219.shtml"
+      "short_title": "A股开盘超2700只个股飘绿",
+      "summary": "三大指数集体高开，市场情绪回暖",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609007.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI时代阅读仍不可或缺",
-      "summary": "人工智能兴起，阅读价值仍在上升",
-      "link": "https://www.chinanews.com.cn/ll/2026/04-22/10608372.shtml"
+      "short_title": "多地上线夜间AI能量充电站",
+      "summary": "城市夜间提供AI收纳与充电服务",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10608982.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "汉诺威工博会：中国AI落地加速",
+      "summary": "中国企业在工博会展示AI应用进展",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10608938.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军斥资300亿美元增购拦截器",
-      "summary": "美方计划大规模采购关键弹药提升防御",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608196.shtml"
+      "short_title": "美国敦促在伊朗公民紧急离境",
+      "summary": "美国务院要求在伊公民尽快离开",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609074.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本放宽武器出口引争议",
-      "summary": "日本解除限制，武器出口引发安全担忧",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202604216e561c8ae0254485a4e98c59616db9a2"
+      "short_title": "日本青年街头抗议修宪",
+      "summary": "日本年轻人举牌反对宪法修正案",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609106.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美联储候任主席沃什出席听证",
-      "summary": "沃什在国会接受提名听证",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-22/10608192.shtml"
+      "short_title": "A股午评超4300只跌指数绿",
+      "summary": "三大指数收跌，黄金股大跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609121.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超3600只跌绿",
-      "summary": "三大指数低开，逾3600只个股下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-22/10608276.shtml"
+      "short_title": "宁银理财获配盛合晶微新股",
+      "summary": "宁银理财助力芯片产业发展",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609053.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-22 11:49:50"
+  "updated_at": "2026-04-23 11:56:58"
 }

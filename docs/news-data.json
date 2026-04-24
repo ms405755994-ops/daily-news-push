@@ -1,85 +1,67 @@
 {
-  "title": "MSAI今日新闻｜2026年4月23日 星期四（农历二月初一）｜汕头：多云 28°C",
-  "date_text": "2026年4月23日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 28°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月24日 星期五（农历二月初一）｜汕头：阵雨 19°C",
+  "date_text": "2026年4月24日 星期五（农历二月初一）",
+  "weather_text": "汕头：阵雨 19°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "特朗普称伊朗冲突无时间表",
-      "reason": "伊朗局势紧张，冲突未止",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10608947.shtml"
+      "title": "欧盟新制裁俄罗斯",
+      "reason": "俄乌冲突升级，欧盟新举措",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609710.shtml"
     },
     {
-      "title": "日本首批1400人参加美菲军演",
-      "reason": "美菲军演规模扩大，日军首参",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609076.shtml"
+      "title": "以色列准备对伊朗动武",
+      "reason": "中东紧张局势再升温",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609706.shtml"
     },
     {
-      "title": "A股午盘超4300股跌，指数全绿",
-      "reason": "A股大幅下跌，三大指数全跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609121.shtml"
+      "title": "美国30年期贷款利率降至6.2%",
+      "reason": "美国房贷成本连降三周",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609716.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称伊朗冲突无时间表",
-      "summary": "特朗普称美伊冲突结束暂无明确时间",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10608947.shtml"
+      "short_title": "欧盟对俄新制裁",
+      "summary": "欧盟再次对俄罗斯实施制裁措施",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609710.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本首批1400人参加美菲军演",
-      "summary": "日本首次派大批官兵赴美菲联合演习",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609076.shtml"
+      "short_title": "以色列准备重启伊朗战争",
+      "summary": "以方称已做好与伊朗重新开战准备",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609706.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "第十三批志愿军遗骸归国仪式",
-      "summary": "中国迎回在韩志愿军烈士遗骸",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202604226525c886f4d94c829c122de1afe108c9"
+      "short_title": "华谊兄弟破产重整",
+      "summary": "曾是影视第一股，现因欠债申请破产",
+      "link": "https://www.chinanews.com.cn/cul/2026/04-24/10609898.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股开盘超2700只个股飘绿",
-      "summary": "三大指数集体高开，市场情绪回暖",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609007.shtml"
+      "short_title": "昆仑万维业绩大涨",
+      "summary": "2025年营收增44.78%，AI视频音乐领跑",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-24/10609805.shtml"
     },
     {
-      "category": "AI重点",
-      "short_title": "多地上线夜间AI能量充电站",
-      "summary": "城市夜间提供AI收纳与充电服务",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10608982.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "汉诺威工博会：中国AI落地加速",
-      "summary": "中国企业在工博会展示AI应用进展",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10608938.shtml"
+      "category": "今日三大新闻",
+      "short_title": "A股三大指数集体收跌",
+      "summary": "超3900股跌，锂矿芯片涨，航天军工跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-24/10609899.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国敦促在伊朗公民紧急离境",
-      "summary": "美国务院要求在伊公民尽快离开",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609074.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "日本青年街头抗议修宪",
-      "summary": "日本年轻人举牌反对宪法修正案",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-23/10609106.shtml"
+      "short_title": "美军布什航母靠近中东",
+      "summary": "美国航母编队进入中东海域",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609738.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评超4300只跌指数绿",
-      "summary": "三大指数收跌，黄金股大跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609121.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "宁银理财获配盛合晶微新股",
-      "summary": "宁银理财助力芯片产业发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-23/10609053.shtml"
+      "short_title": "美国30年期贷款利率降至6.23%",
+      "summary": "连续三周下降，利率创新低",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609716.shtml"
     }
   ],
   "futures": [
@@ -119,5 +101,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-23 11:56:58"
+  "updated_at": "2026-04-24 11:59:52"
 }

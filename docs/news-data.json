@@ -1,67 +1,74 @@
 {
-  "title": "MSAI今日新闻｜2026年4月24日 星期五（农历二月初一）｜汕头：阵雨 19°C",
-  "date_text": "2026年4月24日 星期五（农历二月初一）",
-  "weather_text": "汕头：阵雨 19°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年4月25日 星期六（农历二月初一）｜汕头：阴 23°C",
+  "date_text": "2026年4月25日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 23°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "欧盟新制裁俄罗斯",
-      "reason": "俄乌冲突升级，欧盟新举措",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609710.shtml"
+      "title": "停火之下，伊朗为何仍拒绝“屈服”...",
+      "reason": "伊朗在停火后仍坚持立场，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610616.shtml"
     },
     {
-      "title": "以色列准备对伊朗动武",
-      "reason": "中东紧张局势再升温",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609706.shtml"
-    },
-    {
-      "title": "美国30年期贷款利率降至6.2%",
-      "reason": "美国房贷成本连降三周",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609716.shtml"
+      "title": "霍尔木兹僵局：谁先眨眼谁输？",
+      "reason": "霍尔木兹海峡僵局升级，冲突风险升高",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610558.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "欧盟对俄新制裁",
-      "summary": "欧盟再次对俄罗斯实施制裁措施",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609710.shtml"
+      "short_title": "伊朗停火仍拒屈服",
+      "summary": "停火背景下伊朗坚持不让步",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610616.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列准备重启伊朗战争",
-      "summary": "以方称已做好与伊朗重新开战准备",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609706.shtml"
+      "short_title": "中欧使团强烈反对制裁",
+      "summary": "中国驻欧盟使团谴责无端列单制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610588.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "华谊兄弟破产重整",
-      "summary": "曾是影视第一股，现因欠债申请破产",
-      "link": "https://www.chinanews.com.cn/cul/2026/04-24/10609898.shtml"
+      "short_title": "中国航天日首站成都亮相",
+      "summary": "新华网携康师傅推出太空信箱互动",
+      "link": "https://sc.news.cn/20260424/c3842a4ba04e4a52bbca165ffa4c35b6/c.html"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "昆仑万维业绩大涨",
-      "summary": "2025年营收增44.78%，AI视频音乐领跑",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-24/10609805.shtml"
+      "category": "AI重点",
+      "short_title": "UNICEF赞中国AI规范",
+      "summary": "中国AI拟人化服务获联合国肯定",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10610405.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "A股三大指数集体收跌",
-      "summary": "超3900股跌，锂矿芯片涨，航天军工跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-24/10609899.shtml"
+      "category": "AI重点",
+      "short_title": "华为AI眼镜今日开售",
+      "summary": "支持AI快捷键和支付宝支付，售价2499元起",
+      "link": "https://www.ithome.com/0/943/402.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军布什航母靠近中东",
-      "summary": "美国航母编队进入中东海域",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609738.shtml"
+      "short_title": "霍尔木兹海峡僵局升级",
+      "summary": "谁先让步谁输，地区紧张局势加剧",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610558.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "欧盟庇护人数降18%",
+      "summary": "2025年获庇护逾36万，较去年下降",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10610535.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国30年期贷款利率降至6.23%",
-      "summary": "连续三周下降，利率创新低",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10609716.shtml"
+      "short_title": "哈萨克央行维持18%基准利率",
+      "summary": "哈萨克斯坦央行决定利率不变",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610561.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "英企业涨价预期升高",
+      "summary": "通胀压力加大，考验央行政策",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10610529.shtml"
     }
   ],
   "futures": [
@@ -101,5 +108,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-24 11:59:52"
+  "updated_at": "2026-04-25 11:41:34"
 }

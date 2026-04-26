@@ -1,74 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年4月25日 星期六（农历二月初一）｜汕头：阴 23°C",
-  "date_text": "2026年4月25日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 23°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年4月26日 星期日（农历二月初一）｜汕头：晴 26°C",
+  "date_text": "2026年4月26日 星期日（农历二月初一）",
+  "weather_text": "汕头：晴 26°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "停火之下，伊朗为何仍拒绝“屈服”...",
-      "reason": "伊朗在停火后仍坚持立场，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610616.shtml"
+      "title": "以色列与黎巴嫩真主党交火",
+      "reason": "中东冲突升级，地区安全受威胁",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-26/10611013.shtml"
     },
     {
-      "title": "霍尔木兹僵局：谁先眨眼谁输？",
-      "reason": "霍尔木兹海峡僵局升级，冲突风险升高",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610558.shtml"
+      "title": "白宫记者晚宴枪击致枪手身亡",
+      "reason": "白宫晚宴突发枪击，引发安全担忧",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-26/10610999.shtml"
+    },
+    {
+      "title": "商务部回应欧盟制裁中国企业",
+      "reason": "欧盟制裁波及中企，金融市场波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610862.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗停火仍拒屈服",
-      "summary": "停火背景下伊朗坚持不让步",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610616.shtml"
+      "short_title": "白宫记者晚宴枪击 枪手身亡",
+      "summary": "白宫晚宴突发枪击，枪手当场死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-26/10610999.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "中欧使团强烈反对制裁",
-      "summary": "中国驻欧盟使团谴责无端列单制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610588.shtml"
+      "short_title": "以色列与真主党停火期间交火",
+      "summary": "停火期间，以色列与黎巴嫩真主党仍持续交火。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-26/10611013.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国航天日首站成都亮相",
-      "summary": "新华网携康师傅推出太空信箱互动",
-      "link": "https://sc.news.cn/20260424/c3842a4ba04e4a52bbca165ffa4c35b6/c.html"
+      "short_title": "伊春科技赋能桦树汁产业焕新",
+      "summary": "伊春利用科技提升桦树汁加工，推动产业升级。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-26/10611027.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊朗外长离伊斯兰堡特朗普取消巴行程",
+      "summary": "伊朗外长返伊，特朗普取消美方巴基斯坦行程。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-26/10610988.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "商务部答欧盟制裁问 促解除清单",
+      "summary": "商务部回应欧盟制裁，敦促尽快移除中企个人。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610862.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "UNICEF赞中国AI规范",
-      "summary": "中国AI拟人化服务获联合国肯定",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10610405.shtml"
+      "short_title": "诗歌遇AI：天津青年社语感实验",
+      "summary": "天津青年诗社用AI重构语感，探索新创作方式。",
+      "link": "https://www.chinanews.com.cn/cul/2026/04-26/10611045.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "华为AI眼镜今日开售",
-      "summary": "支持AI快捷键和支付宝支付，售价2499元起",
-      "link": "https://www.ithome.com/0/943/402.htm"
+      "short_title": "全国青少年AI大赛江苏选拔赛开赛",
+      "summary": "江苏无锡举办青少年人工智能大赛选拔赛。",
+      "link": "https://www.chinanews.com.cn/edu/2026/04-26/10611059.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "霍尔木兹海峡僵局升级",
-      "summary": "谁先让步谁输，地区紧张局势加剧",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610558.shtml"
+      "short_title": "太空算力前景 专家详解未来影响",
+      "summary": "专家解析太空算力原理，预测其对生活的影响。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-26/10610970.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧盟庇护人数降18%",
-      "summary": "2025年获庇护逾36万，较去年下降",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10610535.shtml"
+      "short_title": "伊朗外长离伊斯兰堡 特朗普取消巴行程",
+      "summary": "伊朗外长返伊，特朗普取消美方巴基斯坦行程。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-26/10610988.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "哈萨克央行维持18%基准利率",
-      "summary": "哈萨克斯坦央行决定利率不变",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-25/10610561.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "英企业涨价预期升高",
-      "summary": "通胀压力加大，考验央行政策",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-24/10610529.shtml"
+      "short_title": "商务部敦促欧方解除制裁清单",
+      "summary": "商务部敦促欧方立即解除对中企个人的制裁。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-25/10610901.shtml"
     }
   ],
   "futures": [
@@ -108,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-25 11:41:34"
+  "updated_at": "2026-04-26 12:06:19"
 }

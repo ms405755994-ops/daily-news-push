@@ -1,67 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年4月27日 星期一（农历二月初一）｜汕头：多云 27°C",
-  "date_text": "2026年4月27日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 27°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年4月28日 星期二（农历二月初一）｜汕头：天气待更新",
+  "date_text": "2026年4月28日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美伊冲突战略败局已定",
-      "reason": "美军退役中校透露关键情报",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611456.shtml"
+      "title": "日本放开武器出口升高冲突风险",
+      "reason": "日本武器出口放宽，冲突风险上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-28/10612142.shtml"
     },
     {
-      "title": "日本北海道6.1级地震",
-      "reason": "多地强烈震感，灾情紧急",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611346.shtml"
+      "title": "中国代表批美封锁霍尔木兹海峡",
+      "reason": "美封锁霍尔木兹海峡被指不负责任",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-28/10612014.shtml"
     },
     {
-      "title": "哥伦比亚公路爆炸致20死",
-      "reason": "突发恐怖袭击，死亡惨重",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611345.shtml"
+      "title": "欧盟延长对缅甸制裁",
+      "reason": "欧盟延长对缅甸制裁，压力加大",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10612000.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本北海道6.1级地震",
-      "summary": "北海道发生6.1级地震，多地感强烈。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611346.shtml"
+      "short_title": "日本放宽杀伤性武器出口",
+      "summary": "日本放宽限制，提升地区冲突风险",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-28/10612142.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "哥伦比亚公路爆炸致20人死亡",
-      "summary": "公路炸弹爆炸已致20人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611345.shtml"
+      "short_title": "伊斯兰国袭击尼日利亚致29死",
+      "summary": "尼东部恐怖袭击造成至少29人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-28/10612051.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国海军向深蓝迈进",
-      "summary": "从近海防御转向远海作战，海军深蓝布局。",
-      "link": "https://military.cctv.com/2026/04/26/ARTI2rAGej34pyRIpZg48LMD260426.shtml"
+      "short_title": "一季度城镇新增就业299万",
+      "summary": "人社部公布全国城镇新增就业299万人",
+      "link": "https://www.chinanews.com.cn/gn/2026/04-28/10612114.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "腾讯《怪物猎人》开启测试",
-      "summary": "4月29日限高配安卓机型进行启程测试。",
-      "link": "https://www.ithome.com/0/943/827.htm"
+      "short_title": "中国机器人服务全球",
+      "summary": "国产机器人走向国际市场，服务人类",
+      "link": "https://www.chinanews.com.cn/sh/2026/04-28/10612137.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "普京会见伊朗外长强调俄伊合作",
+      "summary": "普京在圣彼得堡会见伊朗外长，表态维护中东利益",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-28/10612008.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "南非撤回AI政策草案",
-      "summary": "因引用AI生成内容，南非撤回人工智能政策。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611358.shtml"
+      "short_title": "马来西亚总理出席华为AI实验室落成",
+      "summary": "华为在马来西亚建成人工智能实验室",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611977.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "“磐石100”模型体系发布",
+      "summary": "新模型体系为科研提供智能支撑",
+      "link": "https://www.chinanews.com.cn/gn/2026/04-28/10612136.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美伊冲突战略败局已定",
-      "summary": "美军退役中校称美国在美伊冲突中已失利。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611456.shtml"
+      "short_title": "欧盟延长对缅甸制裁",
+      "summary": "欧盟决定继续对缅甸实施制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10612000.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗外长抵俄会晤普京",
-      "summary": "伊朗外长阿拉格齐抵达俄罗斯，计划同普京会谈。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-27/10611460.shtml"
+      "short_title": "美伊在联合国激烈交锋",
+      "summary": "美国与伊朗在安理会展开激烈争辩",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-28/10612024.shtml"
     }
   ],
   "futures": [
@@ -101,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-27 12:08:38"
+  "updated_at": "2026-04-28 12:14:33"
 }

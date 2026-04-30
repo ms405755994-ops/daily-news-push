@@ -1,85 +1,67 @@
 {
-  "title": "MSAI今日新闻｜2026年4月29日 星期三（农历二月初一）｜汕头：阴 28°C",
-  "date_text": "2026年4月29日 星期三（农历二月初一）",
-  "weather_text": "汕头：阴 28°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年4月30日 星期四（农历二月初一）｜汕头：阴 20°C",
+  "date_text": "2026年4月30日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 20°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "美伊局势突发速览",
-      "reason": "美伊紧张升级，突发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612716.shtml"
+      "title": "特朗普称与普京通话 讨论停火事宜",
+      "reason": "特朗普与普京通话，涉及停火",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613465.shtml"
     },
     {
-      "title": "特朗普称将封锁伊朗",
-      "reason": "美伊新政策，国际焦点",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612733.shtml"
+      "title": "美联储维持利率不变 鲍威尔将留任",
+      "reason": "美联储维持利率，市场关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613445.shtml"
     },
     {
-      "title": "黄金白银暴跌，金融波动",
-      "reason": "霍尔木兹海峡冲击市场",
-      "link": "https://finance.ifeng.com/c/8shWB3jAIvN"
+      "title": "AI末日论：真实风险还是叙事陷阱...",
+      "reason": "AI风险争议，引发公众关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613590.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "突发新闻",
-      "short_title": "美伊局势速览：特朗普受压",
-      "summary": "特朗普面临压力，黎巴嫩停火形势严峻",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612716.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "特朗普称美将长期封锁伊朗",
-      "summary": "美国准备对伊朗实施长期封锁",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612733.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "日本机场试用中国产机器人",
-      "summary": "为缓解人手短缺，日本机场引进中国机器人",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612766.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "广西聚焦AI向海经济",
-      "summary": "广西推进AI与向海产业，深化与东盟经贸",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-29/10612846.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "小米玄戒O3芯片曝光",
-      "summary": "主频突破4GHz，能效提升显著",
-      "link": "https://www.ithome.com/0/944/840.htm"
+      "category": "AI重点",
+      "short_title": "AI末日论：风险还是陷阱",
+      "summary": "探讨AI技术潜在威胁与舆论误导。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613590.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "网络文明大会发布AI伦理指引",
-      "summary": "将推出《人工智能应用伦理安全指引（1.0版）》",
-      "link": "https://www.ithome.com/0/944/814.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI眼镜生态大会促融合",
-      "summary": "推动人工智能与生命科学深度结合",
-      "link": "https://www.chinanews.com.cn/dwq/2026/04-29/10612857.shtml"
+      "short_title": "上海大模型生态加速",
+      "summary": "上海推动大模型应用，生态快速成长。",
+      "link": "https://www.chinanews.com.cn/cj/2026/04-30/10613543.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "国王查尔斯美议会强调友谊",
-      "summary": "英国国王在美国国会讲话，重申英美关系",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612695.shtml"
+      "short_title": "伊朗战事耗资250亿美元",
+      "summary": "美议会质询伊朗战争费用，争论激烈。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613558.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "联合国称霍尔木兹海峡通行量降95%",
-      "summary": "该海峡船舶通行量骤降至5%",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-29/10612694.shtml"
+      "short_title": "美研削减驻德军规模",
+      "summary": "特朗普透露美方考虑缩减在德军力部署。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613546.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "霍尔木兹海峡冲击金银美股",
-      "summary": "黄金、白银暴跌，美股出现大幅波动",
-      "link": "https://finance.ifeng.com/c/8shWB3jAIvN"
+      "short_title": "美联储维持利率不变",
+      "summary": "美联储宣布利率保持，鲍威尔将继续任职。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613445.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "政治局会后A股稳中有升",
+      "summary": "政治局传递利好，A股有望保持上涨。",
+      "link": "https://finance.cnr.cn/ycbd/20260429/t20260429_527605630.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "特朗普称与普京通话",
+      "summary": "特朗普透露与普京通话，商议停火方案。",
+      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613465.shtml"
     }
   ],
   "futures": [
@@ -119,5 +101,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-29 12:11:27"
+  "updated_at": "2026-04-30 12:13:35"
 }

@@ -1,67 +1,57 @@
 {
-  "title": "MSAI今日新闻｜2026年4月30日 星期四（农历二月初一）｜汕头：阴 20°C",
-  "date_text": "2026年4月30日 星期四（农历二月初一）",
-  "weather_text": "汕头：阴 20°C",
+  "title": "MSAI今日新闻｜2026年5月1日 星期五（农历二月初一）｜汕头：阴 24°C",
+  "date_text": "2026年5月1日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 24°C",
   "total_count": 7,
   "hotspots": [
     {
-      "title": "特朗普称与普京通话 讨论停火事宜",
-      "reason": "特朗普与普京通话，涉及停火",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613465.shtml"
-    },
-    {
-      "title": "美联储维持利率不变 鲍威尔将留任",
-      "reason": "美联储维持利率，市场关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613445.shtml"
-    },
-    {
-      "title": "AI末日论：真实风险还是叙事陷阱...",
-      "reason": "AI风险争议，引发公众关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613590.shtml"
+      "title": "英国央行维持利率3.75%不变",
+      "reason": "英国央行维持利率，影响全球金融",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614137.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "AI重点",
-      "short_title": "AI末日论：风险还是陷阱",
-      "summary": "探讨AI技术潜在威胁与舆论误导。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613590.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "上海大模型生态加速",
-      "summary": "上海推动大模型应用，生态快速成长。",
-      "link": "https://www.chinanews.com.cn/cj/2026/04-30/10613543.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗战事耗资250亿美元",
-      "summary": "美议会质询伊朗战争费用，争论激烈。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613558.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美研削减驻德军规模",
-      "summary": "特朗普透露美方考虑缩减在德军力部署。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613546.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美联储维持利率不变",
-      "summary": "美联储宣布利率保持，鲍威尔将继续任职。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613445.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "政治局会后A股稳中有升",
-      "summary": "政治局传递利好，A股有望保持上涨。",
-      "link": "https://finance.cnr.cn/ycbd/20260429/t20260429_527605630.shtml"
+      "category": "突发新闻",
+      "short_title": "美总统警告伊朗港口封锁 油价飙升",
+      "summary": "伊朗港口受限致油价上扬，美元走强，股市下跌。",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260430-%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8F%90%E5%8F%8A%E9%95%BF%E6%9C%9F%E5%B0%81%E9%94%81%E4%BC%8A%E6%9C%97%E6%B8%AF%E5%8F%A3-%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E9%A3%99%E5%8D%87-%E8%82%A1%E5%B8%82%E4%B8%8B%E6%8C%AB-%E7%BE%8E%E5%85%83%E8%B5%B0%E5%BC%BA"
     },
     {
       "category": "突发新闻",
-      "short_title": "特朗普称与普京通话",
-      "summary": "特朗普透露与普京通话，商议停火方案。",
-      "link": "https://www.chinanews.com.cn/gj/2026/04-30/10613465.shtml"
+      "short_title": "国产算力芯片爆发 寒武纪再登股王",
+      "summary": "国产算力芯片需求激增，寒武纪股价再创新高。",
+      "link": "https://www.stcn.com/article/detail/3892891.html"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "上海五五购物节启动 拉动消费",
+      "summary": "上海启动五五购物节，促进消费提振经济。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-01/10614242.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "DeepSeek新模型押注国产芯片",
+      "summary": "DeepSeek新模型依托国产芯片，强化AI产业链。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-01/10614230.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "OpenAI将推出Codex移动版",
+      "summary": "OpenAI将推出Codex移动版，定位AI生产力。",
+      "link": "https://www.ithome.com/0/945/773.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "法国经济放缓 通胀创两年新高",
+      "summary": "法国经济增速放缓，通胀率升至近两年最高。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614181.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "英国央行维持利率3.75%不变",
+      "summary": "英国央行维持基准利率不变，市场关注通胀走势。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614137.shtml"
     }
   ],
   "futures": [
@@ -101,5 +91,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-04-30 12:13:35"
+  "updated_at": "2026-05-01 12:36:37"
 }

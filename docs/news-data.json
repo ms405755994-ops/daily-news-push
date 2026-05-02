@@ -1,57 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年5月1日 星期五（农历二月初一）｜汕头：阴 24°C",
-  "date_text": "2026年5月1日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 24°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年5月2日 星期六（农历二月初一）｜汕头：阴 25°C",
+  "date_text": "2026年5月2日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 25°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "英国央行维持利率3.75%不变",
-      "reason": "英国央行维持利率，影响全球金融",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614137.shtml"
+      "title": "伊朗伊斯兰革命卫队爆炸",
+      "reason": "伊朗军方爆炸致重大伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614699.shtml"
+    },
+    {
+      "title": "特朗普威胁欧盟汽车关税",
+      "reason": "欧盟汽车关税上调引市场关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614622.shtml"
+    },
+    {
+      "title": "黄金创史上最大双月跌幅",
+      "reason": "黄金价格双月大跌引金融波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614704.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美总统警告伊朗港口封锁 油价飙升",
-      "summary": "伊朗港口受限致油价上扬，美元走强，股市下跌。",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20260430-%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8F%90%E5%8F%8A%E9%95%BF%E6%9C%9F%E5%B0%81%E9%94%81%E4%BC%8A%E6%9C%97%E6%B8%AF%E5%8F%A3-%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E9%A3%99%E5%8D%87-%E8%82%A1%E5%B8%82%E4%B8%8B%E6%8C%AB-%E7%BE%8E%E5%85%83%E8%B5%B0%E5%BC%BA"
+      "short_title": "伊朗未爆弹药爆炸致14死",
+      "summary": "伊朗革命卫队现场爆炸，14人死亡，2人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614699.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "国产算力芯片爆发 寒武纪再登股王",
-      "summary": "国产算力芯片需求激增，寒武纪股价再创新高。",
-      "link": "https://www.stcn.com/article/detail/3892891.html"
+      "short_title": "非洲咖啡柠檬零关税进郑州",
+      "summary": "郑州首批非洲咖啡柠檬零关税，企业年省千万元。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-01/10614486.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上海五五购物节启动 拉动消费",
-      "summary": "上海启动五五购物节，促进消费提振经济。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-01/10614242.shtml"
+      "short_title": "美国净移民首现负值",
+      "summary": "美国净移民出现负增长，民众大规模迁出。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614665.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国绿色方案亮相国际论坛",
+      "summary": "中国绿色发展理念在国际论坛获广泛关注。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614370.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美股收盘纳指标普再创新高",
+      "summary": "美国股市收盘，纳指和标普双双创新高。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614636.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "DeepSeek新模型押注国产芯片",
-      "summary": "DeepSeek新模型依托国产芯片，强化AI产业链。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-01/10614230.shtml"
+      "short_title": "杭州AI文旅融合吸客",
+      "summary": "杭州利用AI打造文旅新场景，吸引游客。",
+      "link": "https://www.chinanews.com.cn/tp/2026/05-02/10614686.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "OpenAI将推出Codex移动版",
-      "summary": "OpenAI将推出Codex移动版，定位AI生产力。",
-      "link": "https://www.ithome.com/0/945/773.htm"
+      "short_title": "美军与科技巨头部署作战AI",
+      "summary": "美军与多家公司合作，在机密网络部署AI作战。",
+      "link": "https://www.ithome.com/0/945/962.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "法国经济放缓 通胀创两年新高",
-      "summary": "法国经济增速放缓，通胀率升至近两年最高。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614181.shtml"
+      "short_title": "日本将收俄罗斯原油",
+      "summary": "日本采购的俄罗斯原油预计2日抵达。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614679.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "福特航母已离开中东",
+      "summary": "美军福特号航母已撤离中东地区。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614656.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "英国央行维持利率3.75%不变",
-      "summary": "英国央行维持基准利率不变，市场关注通胀走势。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614137.shtml"
+      "short_title": "特朗普威胁欧盟车税升至25%",
+      "summary": "特朗普可能将欧盟汽车关税提升至25%。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614622.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "黄金创史上双月最大跌幅",
+      "summary": "黄金价格出现史上最大双月跌幅，抛售或将止跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614704.shtml"
     }
   ],
   "futures": [
@@ -91,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-01 12:36:37"
+  "updated_at": "2026-05-02 12:02:35"
 }

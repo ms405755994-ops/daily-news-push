@@ -1,91 +1,67 @@
 {
-  "title": "MSAI今日新闻｜2026年5月2日 星期六（农历二月初一）｜汕头：阴 25°C",
-  "date_text": "2026年5月2日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 25°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年5月3日 星期日（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年5月3日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "伊朗伊斯兰革命卫队爆炸",
-      "reason": "伊朗军方爆炸致重大伤亡",
+      "title": "伊朗伊斯兰卫队爆炸致14死",
+      "reason": "突发安全事件，伊朗军方重大伤亡",
       "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614699.shtml"
     },
     {
-      "title": "特朗普威胁欧盟汽车关税",
-      "reason": "欧盟汽车关税上调引市场关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614622.shtml"
+      "title": "美国制裁5家中企涉伊石油",
+      "reason": "金融波动，涉伊制裁冲击企业",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614952.shtml"
     },
     {
-      "title": "黄金创史上最大双月跌幅",
-      "reason": "黄金价格双月大跌引金融波动",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614704.shtml"
+      "title": "AI助力五一旅游定制行程",
+      "reason": "AI技术提升旅游体验，行业热点",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-03/10615063.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗未爆弹药爆炸致14死",
-      "summary": "伊朗革命卫队现场爆炸，14人死亡，2人受伤。",
+      "short_title": "伊朗伊斯兰革命卫队爆炸致14死",
+      "summary": "未爆弹药意外爆炸，14人死亡，2人受伤。",
       "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614699.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "非洲咖啡柠檬零关税进郑州",
-      "summary": "郑州首批非洲咖啡柠檬零关税，企业年省千万元。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-01/10614486.shtml"
+      "short_title": "美对5家中企实施伊朗石油制裁",
+      "summary": "美国限制5家中国企业涉伊朗石油业务。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614952.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美国净移民首现负值",
-      "summary": "美国净移民出现负增长，民众大规模迁出。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614665.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国绿色方案亮相国际论坛",
-      "summary": "中国绿色发展理念在国际论坛获广泛关注。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-01/10614370.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美股收盘纳指标普再创新高",
-      "summary": "美国股市收盘，纳指和标普双双创新高。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614636.shtml"
+      "short_title": "五一中国游客出行规模创新高",
+      "summary": "五一假期中国游客出行人数创历史新纪录。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-03/10615045.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "杭州AI文旅融合吸客",
-      "summary": "杭州利用AI打造文旅新场景，吸引游客。",
-      "link": "https://www.chinanews.com.cn/tp/2026/05-02/10614686.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "美军与科技巨头部署作战AI",
-      "summary": "美军与多家公司合作，在机密网络部署AI作战。",
-      "link": "https://www.ithome.com/0/945/962.htm"
+      "short_title": "AI助力五一旅游定制行程",
+      "summary": "人工智能提供个性化行程和智能伴游。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-03/10615063.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本将收俄罗斯原油",
-      "summary": "日本采购的俄罗斯原油预计2日抵达。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614679.shtml"
+      "short_title": "特朗普称美掌控2亿桶委内瑞拉油",
+      "summary": "特朗普宣称美国掌握大量委内瑞拉石油。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614923.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "福特航母已离开中东",
-      "summary": "美军福特号航母已撤离中东地区。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614656.shtml"
+      "short_title": "日本紧急采购俄石油应对霍尔木兹",
+      "summary": "霍尔木兹海峡紧张，日本转向俄罗斯石油。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-02/10614914.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "特朗普威胁欧盟车税升至25%",
-      "summary": "特朗普可能将欧盟汽车关税提升至25%。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614622.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "黄金创史上双月最大跌幅",
-      "summary": "黄金价格出现史上最大双月跌幅，抛售或将止跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-02/10614704.shtml"
+      "short_title": "特朗普提升欧盟汽车关税至25%",
+      "summary": "美国将欧盟进口汽车关税上调至25%。",
+      "link": "https://www.dw.com/zh/%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E6%AC%A7%E7%9B%9F%E6%B1%BD%E8%BD%A6%E5%85%B3%E7%A8%8E%E6%8F%90%E9%AB%98%E8%87%B325/a-77018965"
     }
   ],
   "futures": [
@@ -125,5 +101,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-02 12:02:35"
+  "updated_at": "2026-05-03 12:29:23"
 }

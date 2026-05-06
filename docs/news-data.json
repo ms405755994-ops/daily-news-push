@@ -1,89 +1,89 @@
 {
-  "title": "MSAI今日新闻｜2026年5月5日 星期二（农历二月初一）｜汕头：小雨 20°C",
-  "date_text": "2026年5月5日 星期二（农历二月初一）",
-  "weather_text": "汕头：小雨 20°C",
+  "title": "MSAI今日新闻｜2026年5月6日 星期三（农历二月初一）｜汕头：阴 23°C",
+  "date_text": "2026年5月6日 星期三（农历二月初一）",
+  "weather_text": "汕头：阴 23°C",
   "total_count": 8,
   "hotspots": [
     {
-      "title": "阿联酋拦截伊朗导弹无人机",
-      "reason": "阿联酋拦截伊朗导弹，地区紧张升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-05/10615662.shtml"
+      "title": "俄乌单方面停火 联合国欢迎",
+      "reason": "俄乌停火缓解冲突风险",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616076.shtml"
     },
     {
-      "title": "特朗普称美伊进入迷你战争",
-      "reason": "美伊关系恶化，特朗普称进入小规模冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-05/10615665.shtml"
+      "title": "美伊军事争议 各执一词",
+      "reason": "美伊互指军事行动引争议",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616001.shtml"
     },
     {
-      "title": "俄国防部宣布5月停火",
-      "reason": "俄宣布短期停火，缓解乌克兰冲突压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-05/10615658.shtml"
+      "title": "港股受中东局势影响走低",
+      "reason": "中东紧张拖累港股情绪",
+      "link": "https://www.cls.cn/detail/2363034"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "浏阳烟花厂爆炸救援进行",
-      "summary": "现场分两级管控，消防持续抢救",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-05/10615724.shtml"
+      "short_title": "俄乌单方面停火 联合国表示欢迎",
+      "summary": "俄乌分别宣布停火，联合国予以肯定。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616076.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本本州近海5.2级地震",
-      "summary": "海域震动，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-05/10615719.shtml"
+      "short_title": "美伊互指战争 状态仍未明朗",
+      "summary": "美称行动结束，伊方称仍在战争。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616001.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "吴宜泽夺斯诺克世锦赛冠军",
-      "summary": "中国小将首夺世锦赛桂冠",
-      "link": "https://www.chinanews.com.cn/ty/2026/05-05/10615736.shtml"
+      "short_title": "中国心脏搭桥技术登《柳叶刀》",
+      "summary": "原创技术获国际医学期刊发表。",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-06/10616131.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "对非零关税助力中非合作",
-      "summary": "政策注入新动能，企业抢占市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-04/10615486.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "苹果诉讼求美最高法院暂停裁决",
-      "summary": "Epic案涉及应用商店佣金争议",
-      "link": "https://www.ithome.com/0/946/339.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI玩具“寻宝式”逛街热销",
-      "summary": "科技新品上市即受消费者追捧",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-05/10615668.shtml"
+      "short_title": "在美中资企业营商评价趋谨慎",
+      "summary": "美国商会称中企对环境持审慎态度。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616027.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "阿联酋拦截伊朗导弹无人机",
-      "summary": "防空系统成功拦截来袭武器",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-05/10615662.shtml"
+      "short_title": "伊朗启动霍尔木兹新通行机制",
+      "summary": "伊方公布海峡通行新规，影响油运。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616006.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄国防部宣布5-9日停火",
-      "summary": "俄方计划在两天内暂停军事行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-05/10615658.shtml"
+      "short_title": "以色列紧急状态延至5月19日",
+      "summary": "政府批准延长全国紧急状态。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616008.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "港股受中东局势影响 恒指走低",
+      "summary": "中东紧张情绪导致恒指震荡下行。",
+      "link": "https://www.cls.cn/detail/2363034"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股节后高开 半导体领涨",
+      "summary": "三大指数集体高开，半导体板块领涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-06/10616077.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "100.43",
+      "pct": -1.799159088686799,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,656.26",
+      "pct": 1.9209806282149549,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -95,17 +95,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-05-05 11:59:03"
+  "updated_at": "2026-05-06 12:24:34"
 }

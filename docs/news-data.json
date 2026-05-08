@@ -1,101 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年5月7日 星期四（农历二月初一）｜汕头：多云 25°C",
-  "date_text": "2026年5月7日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 25°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年5月8日 星期五（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年5月8日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "以色列突袭贝鲁特",
-      "reason": "停火期间突袭，可能击毙真主党指挥官",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-07/10616671.shtml"
+      "title": "美军空袭伊朗军事设施",
+      "reason": "突发军舰遭袭，地区紧张升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617208.shtml"
     },
     {
-      "title": "欧盟拟阻断美国制裁",
-      "reason": "西班牙提议启动阻断法令",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616582.shtml"
+      "title": "美贸法院裁定关税无依据",
+      "reason": "国际贸易冲击，金融市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617209.shtml"
     },
     {
-      "title": "泽连斯基称乌方对等回击",
-      "reason": "乌克兰将对俄袭击作等价回应",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-07/10616594.shtml"
+      "title": "三星AI驾驶助手曝光",
+      "reason": "AI技术突破，影响汽车行业",
+      "link": "https://www.ithome.com/0/947/618.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列在停火期间空袭贝鲁特，疑击真主...",
-      "summary": "以色列在停火期间空袭贝鲁特，疑击真主党指挥官。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-07/10616671.shtml"
+      "short_title": "美军空袭伊朗军事设施",
+      "summary": "美军对伊朗设施实施空袭，回应舰艇被袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617208.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "泽连斯基称乌方将对等回应俄袭击",
-      "summary": "乌克兰总统表示将以同等方式回击俄罗斯的军事行动。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-07/10616594.shtml"
+      "short_title": "俄国防部宣布纪念日停火",
+      "summary": "为纪念卫国战争胜利81周年，俄宣布临时停火",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617203.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "广交会外贸采购商稳增 显示强劲动能",
-      "summary": "本届广交会境外买家数量上升，外贸出口呈现回暖趋势。",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202605064c3845b3b7f845b08e2a4a2a330b7544"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "福建三明发展林下经济 打造幸福靠山",
-      "summary": "三明县大力发展林下种植，提升收入，打造生态富民模式。",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-07/10616724.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "七国集团贸易部长会议在巴黎召开",
-      "summary": "法国巴黎举行七国集团贸易部长会议，讨论全球贸易规则。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-07/10616617.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "西班牙建议欧盟启动阻断法令，限制美国...",
-      "summary": "西班牙建议欧盟启动阻断法令，限制美国对欧成员制裁。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-06/10616582.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗议长称外部经济压力意图破坏国家团...",
-      "summary": "伊朗议长指责敌对势力通过经济手段破坏伊朗内部团结。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-07/10616730.shtml"
+      "short_title": "财政部投458亿元扶持学前教育",
+      "summary": "全国学前教育普惠力度提升，资金专项下达",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617333.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "一季度机器人出口额显著上升，创历史新...",
-      "summary": "一季度机器人出口额显著上升，创历史新高。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-07/10616688.shtml"
+      "short_title": "三星研发AI驾驶助手",
+      "summary": "三星推出可追踪刹车转向的AI驾驶辅助系统",
+      "link": "https://www.ithome.com/0/947/618.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "腾讯Hy3预览上线两周 Token调...",
-      "summary": "腾讯新模型Hy3发布后，两周内Token调用量提升十...",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-07/10616719.shtml"
+      "short_title": "韩国股市波动聚焦AI芯片",
+      "summary": "AI芯片概念股涨跌剧烈，市场情绪两极分化",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617306.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美贸法院称关税缺法理",
+      "summary": "法院判定特朗普关税无合法依据，或影响全球贸易",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617209.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "巴西4月实现105亿美元顺差",
+      "summary": "巴西4月出口大幅增长，贸易顺差突破百亿美元",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617332.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超3000只个股飘红 三大指...",
-      "summary": "今日A股开盘逾3000只个股上涨，沪深指数集体走高。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-07/10616665.shtml"
+      "short_title": "A股开盘超3100只跌",
+      "summary": "三大指数集体低开，逾3100只个股收跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617250.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美制裁伊拉克石油副部长",
+      "summary": "美方指其帮助伊朗石油交易，实施制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617205.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "95.76",
-      "pct": 0.7151872107698851,
+      "price": "95.71",
+      "pct": 0.9492669549625478,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,704.46",
-      "pct": 0.21643269497049306,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-07 12:15:34"
+  "updated_at": "2026-05-08 11:59:45"
 }

@@ -1,95 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年5月8日 星期五（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年5月8日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
+  "title": "MSAI今日新闻｜2026年5月9日 星期六（农历二月初一）｜汕头：阴 23°C",
+  "date_text": "2026年5月9日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 23°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "美军空袭伊朗军事设施",
-      "reason": "突发军舰遭袭，地区紧张升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617208.shtml"
+      "title": "俄同意延长停火并换俘",
+      "reason": "俄乌停火延长，局势缓和",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617841.shtml"
     },
     {
-      "title": "美贸法院裁定关税无依据",
-      "reason": "国际贸易冲击，金融市场波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617209.shtml"
+      "title": "美联储警示金融杠杆风险",
+      "reason": "估值过高引担忧，或冲击市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617869.shtml"
     },
     {
-      "title": "三星AI驾驶助手曝光",
-      "reason": "AI技术突破，影响汽车行业",
-      "link": "https://www.ithome.com/0/947/618.htm"
+      "title": "稀宇科技大模型失语原因",
+      "reason": "特定词元训练不足，影响AI表现",
+      "link": "https://www.ithome.com/0/948/092.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军空袭伊朗军事设施",
-      "summary": "美军对伊朗设施实施空袭，回应舰艇被袭",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617208.shtml"
+      "short_title": "俄同意延长停火换俘，乌克兰不袭红场",
+      "summary": "俄方同意延长停火并换俘，乌克兰保证不攻击红场阅兵。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617841.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄国防部宣布纪念日停火",
-      "summary": "为纪念卫国战争胜利81周年，俄宣布临时停火",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617203.shtml"
+      "short_title": "浏阳烟花厂爆炸现场火药隐患突出",
+      "summary": "现场火药混堆导致爆炸，安全隐患亟待整改。",
+      "link": "https://www.thepaper.cn/newsDetail_forward_33127115"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "本源悟空-180量子计算机正式上线",
+      "summary": "中国首台第四代自主超导量子计算机实现上线运行。",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-09/10617958.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "MiniMax大模型失语原因揭示",
+      "summary": "稀宇科技称特定词元后训练不足导致模型失语。",
+      "link": "https://www.ithome.com/0/948/092.htm"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "华尔街激辩芯片股泡沫风险",
+      "summary": "华尔街大佬警示芯片股或接近泡沫破裂。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617796.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美联储关注估值高企与杠杆风险",
+      "summary": "美联储称将密切监测金融杠杆和高估值风险。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617869.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "伊朗起草霍尔木兹海峡法律草案",
+      "summary": "伊朗正制定海峡法律，旨规范航运与安全。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617872.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "特朗普期待伊朗回应最新提议",
+      "summary": "特朗普称今晚将收到伊朗对最新提议的回复。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617860.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "财政部投458亿元扶持学前教育",
-      "summary": "全国学前教育普惠力度提升，资金专项下达",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617333.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "三星研发AI驾驶助手",
-      "summary": "三星推出可追踪刹车转向的AI驾驶辅助系统",
-      "link": "https://www.ithome.com/0/947/618.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "韩国股市波动聚焦AI芯片",
-      "summary": "AI芯片概念股涨跌剧烈，市场情绪两极分化",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617306.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美贸法院称关税缺法理",
-      "summary": "法院判定特朗普关税无合法依据，或影响全球贸易",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617209.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "巴西4月实现105亿美元顺差",
-      "summary": "巴西4月出口大幅增长，贸易顺差突破百亿美元",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617332.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股开盘超3100只跌",
-      "summary": "三大指数集体低开，逾3100只个股收跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617250.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美制裁伊拉克石油副部长",
-      "summary": "美方指其帮助伊朗石油交易，实施制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-08/10617205.shtml"
+      "short_title": "美五角大楼公布首批UFO档案",
+      "summary": "美国防部首次公开不明飞行物相关机密文件。",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/05-09/1190713.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "95.71",
-      "pct": 0.9492669549625478,
+      "price": "95.42",
+      "pct": 0.6433920472523988,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,730.70",
+      "pct": 0.4203018531490837,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-08 11:59:45"
+  "updated_at": "2026-05-09 12:06:03"
 }

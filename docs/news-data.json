@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年5月9日 星期六（农历二月初一）｜汕头：阴 23°C",
-  "date_text": "2026年5月9日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 23°C",
+  "title": "MSAI今日新闻｜2026年5月10日 星期日（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年5月10日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 26°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "俄同意延长停火并换俘",
-      "reason": "俄乌停火延长，局势缓和",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617841.shtml"
+      "title": "普京称俄乌冲突接近尾声",
+      "reason": "俄乌局势或将缓和",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618498.shtml"
     },
     {
-      "title": "美联储警示金融杠杆风险",
-      "reason": "估值过高引担忧，或冲击市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617869.shtml"
+      "title": "英伟达押注光纤AI新赛道",
+      "reason": "光纤技术或成AI突破口",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618459.shtml"
     },
     {
-      "title": "稀宇科技大模型失语原因",
-      "reason": "特定词元训练不足，影响AI表现",
-      "link": "https://www.ithome.com/0/948/092.htm"
+      "title": "AI热潮推高4月进出口",
+      "reason": "大宗商品涨价带动贸易增长",
+      "link": "https://www.thepaper.cn/newsDetail_forward_33143971"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "俄同意延长停火换俘，乌克兰不袭红场",
-      "summary": "俄方同意延长停火并换俘，乌克兰保证不攻击红场阅兵。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617841.shtml"
+      "short_title": "普京称俄乌冲突接近尾声",
+      "summary": "普京称战争将结束，俄乌冲突接近尾声",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618498.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "浏阳烟花厂爆炸现场火药隐患突出",
-      "summary": "现场火药混堆导致爆炸，安全隐患亟待整改。",
-      "link": "https://www.thepaper.cn/newsDetail_forward_33127115"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "本源悟空-180量子计算机正式上线",
-      "summary": "中国首台第四代自主超导量子计算机实现上线运行。",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-09/10617958.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "MiniMax大模型失语原因揭示",
-      "summary": "稀宇科技称特定词元后训练不足导致模型失语。",
-      "link": "https://www.ithome.com/0/948/092.htm"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "华尔街激辩芯片股泡沫风险",
-      "summary": "华尔街大佬警示芯片股或接近泡沫破裂。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-08/10617796.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美联储关注估值高企与杠杆风险",
-      "summary": "美联储称将密切监测金融杠杆和高估值风险。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617869.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗起草霍尔木兹海峡法律草案",
-      "summary": "伊朗正制定海峡法律，旨规范航运与安全。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617872.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普期待伊朗回应最新提议",
-      "summary": "特朗普称今晚将收到伊朗对最新提议的回复。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-09/10617860.shtml"
+      "short_title": "联合国呼吁俄乌三日停火换俘",
+      "summary": "古特雷斯欢迎三天停火并进行战俘交换",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618422.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美五角大楼公布首批UFO档案",
-      "summary": "美国防部首次公开不明飞行物相关机密文件。",
-      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/05-09/1190713.shtml"
+      "short_title": "广州举办中阿青春诗会专场",
+      "summary": "国际青春诗会在广州开幕，聚焦中阿文化交流",
+      "link": "https://www.chinanews.com.cn/tp/2026/05-10/10618530.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "华为余承东发布鸿蒙智能空调",
+      "summary": "华为余承东推出首款鸿蒙智能空调，售价5399元起",
+      "link": "https://www.ithome.com/0/948/431.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "英伟达押注光纤连接推动AI",
+      "summary": "英伟达大举投入光纤技术，布局AI新赛场",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618459.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "英伟达押注光纤连接视为AI新赛场",
+      "summary": "英伟达押注光纤连接，视为AI下一战场",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618459.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "伊朗外长促停侵略推动外交",
+      "summary": "伊朗外长称放弃无理要求是外交前提",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618425.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美国UFO文件披露神秘现象",
+      "summary": "美国公开UFO报告，涉及闪光与悬浮物体",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618489.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "AI热潮推动4月进出口大幅增长",
+      "summary": "AI热潮与商品价格推动4月进出口大幅增长",
+      "link": "https://www.thepaper.cn/newsDetail_forward_33143971"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-09 12:06:03"
+  "updated_at": "2026-05-10 12:32:59"
 }

@@ -1,95 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年5月10日 星期日（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年5月10日 星期日（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年5月11日 星期一（农历二月初一）｜汕头：多云 28°C",
+  "date_text": "2026年5月11日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 28°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "普京称俄乌冲突接近尾声",
-      "reason": "俄乌局势或将缓和",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618498.shtml"
+      "title": "美盟关系裂痕或持久",
+      "reason": "外媒称影响超伊朗战争",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-11/10618861.shtml"
     },
     {
-      "title": "英伟达押注光纤AI新赛道",
-      "reason": "光纤技术或成AI突破口",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618459.shtml"
+      "title": "A股3200只涨，沪指破4200",
+      "reason": "三大指数集体高开",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618852.shtml"
     },
     {
-      "title": "AI热潮推高4月进出口",
-      "reason": "大宗商品涨价带动贸易增长",
-      "link": "https://www.thepaper.cn/newsDetail_forward_33143971"
+      "title": "中国AI竞赛领跑",
+      "reason": "美媒聚焦中国AI突破",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618858.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "普京称俄乌冲突接近尾声",
-      "summary": "普京称战争将结束，俄乌冲突接近尾声",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618498.shtml"
+      "short_title": "美盟关系裂痕或超伊朗战争影响",
+      "summary": "美欧关系紧张或长期削弱全球合作",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-11/10618861.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "联合国呼吁俄乌三日停火换俘",
-      "summary": "古特雷斯欢迎三天停火并进行战俘交换",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618422.shtml"
+      "short_title": "普京暗示俄乌冲突或将结束",
+      "summary": "俄乌战事或在近期走向收尾",
+      "link": "https://www.dw.com/zh/%E6%99%AE%E4%BA%AC%E6%9A%97%E7%A4%BA%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89%E5%88%B0%E4%BA%86%E8%AF%A5%E7%BB%93%E6%9D%9F%E7%9A%84%E6%97%B6%E5%80%99/a-77110789"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "广州举办中阿青春诗会专场",
-      "summary": "国际青春诗会在广州开幕，聚焦中阿文化交流",
-      "link": "https://www.chinanews.com.cn/tp/2026/05-10/10618530.shtml"
+      "short_title": "中东盟合作新蓝海探讨",
+      "summary": "地缘变局下双方寻求新增长点",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/05-11/10618976.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "华为余承东发布鸿蒙智能空调",
-      "summary": "华为余承东推出首款鸿蒙智能空调，售价5399元起",
-      "link": "https://www.ithome.com/0/948/431.htm"
+      "short_title": "A股开盘超3200股飘红 沪指破42...",
+      "summary": "沪指突破4200点 市场热情高涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618852.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "英伟达押注光纤连接推动AI",
-      "summary": "英伟达大举投入光纤技术，布局AI新赛场",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618459.shtml"
+      "short_title": "泰前总理他信获假释",
+      "summary": "他信因健康获准提前出狱",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-11/10618983.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "英伟达押注光纤连接视为AI新赛场",
-      "summary": "英伟达押注光纤连接，视为AI下一战场",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-10/10618459.shtml"
+      "short_title": "美媒：中国AI竞赛领跑",
+      "summary": "中国在AI技术与应用上领先全球",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618858.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "muShanghai科技火人节启动",
+      "summary": "全球顶尖技术人才跨界创新交流",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618877.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗外长促停侵略推动外交",
-      "summary": "伊朗外长称放弃无理要求是外交前提",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618425.shtml"
+      "short_title": "伊朗提议30天撤销石油制裁",
+      "summary": "伊朗希望美方快速解除石油禁令",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-11/10618790.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国UFO文件披露神秘现象",
-      "summary": "美国公开UFO报告，涉及闪光与悬浮物体",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-10/10618489.shtml"
+      "short_title": "苏丹武装无人机袭击要地",
+      "summary": "苏丹军方使用无人机攻击关键设施",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-11/10618985.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "AI热潮推动4月进出口大幅增长",
-      "summary": "AI热潮与商品价格推动4月进出口大幅增长",
-      "link": "https://www.thepaper.cn/newsDetail_forward_33143971"
+      "short_title": "沪指破4200 储存芯片股涨",
+      "summary": "储存芯片概念领涨 市场情绪乐观",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618904.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "韩股早盘大涨 多股创历史新高",
+      "summary": "SK海力士三星股价创新高推动指数上扬",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-11/10618862.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "95.42",
-      "pct": 0.6433920472523988,
+      "price": "100.14",
+      "pct": 4.946552085516662,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,730.70",
-      "pct": 0.4203018531490837,
-      "trend": "up"
+      "price": "4,681.21",
+      "pct": -1.0461453907455511,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -113,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-10 12:32:59"
+  "updated_at": "2026-05-11 12:46:00"
 }

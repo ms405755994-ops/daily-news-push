@@ -1,94 +1,106 @@
 {
-  "title": "MSAI今日新闻｜2026年5月13日 星期三（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年5月13日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年5月14日 星期四（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年5月14日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 26°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "俄罗斯成功试射“萨尔马特”导弹",
-      "reason": "俄新型洲际导弹试射成功",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-13/10620055.shtml"
+      "title": "美佛州枪击案ChatGPT涉案",
+      "reason": "突发AI涉案引关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620696.shtml"
     },
     {
-      "title": "美股收盘：纳指跌0.71%",
-      "reason": "芯片股回调导致指数下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-13/10620074.shtml"
+      "title": "美参议院批准新美联储主席",
+      "reason": "金融高层人事变动",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620711.shtml"
     },
     {
-      "title": "南宁微短剧AI赋能出海",
-      "reason": "AI助力短剧走向东盟市场",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/05-13/10620244.shtml"
+      "title": "以色列称内塔尼亚胡秘访阿联酋",
+      "reason": "中东局势再起波澜",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620730.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "俄试射“萨尔马特”导弹成功",
-      "summary": "俄方成功发射新型洲际导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-13/10620055.shtml"
+      "short_title": "ChatGPT涉美佛州枪击案",
+      "summary": "律师称AI为枪手提供作案方案",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620696.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "德黑兰附近强震",
-      "summary": "伊朗首都附近发生6级地震",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-13/10620053.shtml"
+      "short_title": "日本岩手县5级地震",
+      "summary": "多地感强烈，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620710.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "9国外交官访广东",
-      "summary": "多国外交官考察广东文化与合作",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620246.shtml"
+      "short_title": "长春打造光电城推动北向布局",
+      "summary": "光电产业向北延伸，助力区域经济",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-13/10620658.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美界期待元首外交",
-      "summary": "美国呼吁中美元首对话推动关系",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202605132d0e7ea782de44c3b71551bf4751b493"
+      "short_title": "腾讯王者荣耀等游戏Q1流水创新高",
+      "summary": "长青游戏表现强劲，新作受关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620776.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普将访华聚焦中东与经济",
-      "summary": "中东局势与全球经济成会谈重点",
-      "link": "https://www.voachinese.com/a/middle-east-conflict-global-economy-set-to-be-focus-as-president-trump-heads-to-beijing-for-talks-with-xi-20260512/8149217.html"
+      "short_title": "图书馆以美总统命名背后故事",
+      "summary": "张冰梅解读命名缘由与意义",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620531.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI助力南宁微短剧出海",
-      "summary": "AI技术推动短剧走向东盟市场",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/05-13/10620244.shtml"
+      "short_title": "社论：解密中国AI企业创新密码",
+      "summary": "探讨AI企业核心竞争力与发展",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620773.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "雷神发布AI水冷工作站",
-      "summary": "新款AI迷你工作站配高性能处理器",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/05-13/10620244.shtml"
+      "short_title": "阿里巴巴AI基建投入将超3800亿元",
+      "summary": "业绩会透露巨额AI投资计划",
+      "link": "https://www.cls.cn/detail/2370588"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美参议院批准沃什任美联储主席",
+      "summary": "新任美联储主席将影响全球货币政策",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620711.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "以色列称内塔尼亚胡秘访阿联酋",
+      "summary": "阿联酋外交部否认来访传闻",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620730.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国4月CPI涨至3.8%",
-      "summary": "美国4月通胀率创三年新高",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202605132d0e7ea782de44c3b71551bf4751b493"
+      "short_title": "A股开盘近3000只个股上涨",
+      "summary": "三大指数集体高开，市场情绪乐观",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620775.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美股收盘纳指跌0.71%",
-      "summary": "纳指下跌 芯片股回调 高通跌超11%",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-13/10620074.shtml"
+      "short_title": "美股收盘纳指标普创新高中概股上扬",
+      "summary": "美国股市再创新高，概念股受益",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620731.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "100.93",
-      "pct": -1.2233313760031317,
-      "trend": "down"
+      "price": "101.46",
+      "pct": 0.4355573153830903,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,711.20",
-      "pct": 0.5227558836708132,
+      "price": "4,708.30",
+      "pct": 0.03399409352625755,
       "trend": "up"
     },
     {
@@ -113,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-13 12:32:00"
+  "updated_at": "2026-05-14 12:29:36"
 }

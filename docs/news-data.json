@@ -1,107 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年5月14日 星期四（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年5月14日 星期四（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
+  "title": "MSAI今日新闻｜2026年5月15日 星期五（农历二月初一）｜汕头：阴 25°C",
+  "date_text": "2026年5月15日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 25°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "美佛州枪击案ChatGPT涉案",
-      "reason": "突发AI涉案引关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620696.shtml"
+      "title": "乌克兰首都大规模空袭致多人伤亡",
+      "reason": "突发冲突致多人伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621514.shtml"
     },
     {
-      "title": "美参议院批准新美联储主席",
-      "reason": "金融高层人事变动",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620711.shtml"
+      "title": "英伟达股价连涨7天创新高",
+      "reason": "美股科技股大幅波动",
+      "link": "https://wap.eastmoney.com/a/202605143737794536.html"
     },
     {
-      "title": "以色列称内塔尼亚胡秘访阿联酋",
-      "reason": "中东局势再起波澜",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620730.shtml"
+      "title": "日媒：日本政府研究向菲律宾出口导...",
+      "reason": "日本考虑向菲律宾出售导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621566.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "ChatGPT涉美佛州枪击案",
-      "summary": "律师称AI为枪手提供作案方案",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620696.shtml"
+      "short_title": "基辅大规模空袭致12死",
+      "summary": "首都基辅遭空袭，12人死亡，近60伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621514.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本岩手县5级地震",
-      "summary": "多地感强烈，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620710.shtml"
+      "short_title": "日本硫磺岛海域6级地震",
+      "summary": "硫磺岛附近海域凌晨6.0级地震，暂无伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10621373.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "长春打造光电城推动北向布局",
-      "summary": "光电产业向北延伸，助力区域经济",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-13/10620658.shtml"
+      "short_title": "国家开发银行发行绿债100亿元",
+      "summary": "发行100亿元绿色金融债券，支持低碳项目",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-15/10621586.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "腾讯王者荣耀等游戏Q1流水创新高",
-      "summary": "长青游戏表现强劲，新作受关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620776.shtml"
+      "short_title": "三亚通关零关税游艇减税2700万",
+      "summary": "两艘零关税游艇在三亚通关，减税超2700万",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/05-15/10621584.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "图书馆以美总统命名背后故事",
-      "summary": "张冰梅解读命名缘由与意义",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-13/10620531.shtml"
+      "short_title": "A股午后超3000股飘红指数收涨",
+      "summary": "超3000只个股涨，沪深三大指数集体收涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-15/10621590.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "社论：解密中国AI企业创新密码",
-      "summary": "探讨AI企业核心竞争力与发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620773.shtml"
+      "short_title": "英伟达股价连涨七天创高",
+      "summary": "英伟达股价连续七天上涨，刷新历史新高",
+      "link": "https://wap.eastmoney.com/a/202605143737794536.html"
     },
     {
       "category": "AI重点",
-      "short_title": "阿里巴巴AI基建投入将超3800亿元",
-      "summary": "业绩会透露巨额AI投资计划",
-      "link": "https://www.cls.cn/detail/2370588"
+      "short_title": "宝妈拍视频教机器人干活",
+      "summary": "宝妈拍视频训练机器人，居家做数据采集",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-15/10621575.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美参议院批准沃什任美联储主席",
-      "summary": "新任美联储主席将影响全球货币政策",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620711.shtml"
+      "short_title": "日本考虑向菲律宾出口导弹",
+      "summary": "日本政府研究向菲律宾出售导弹，强化防务合作",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621566.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列称内塔尼亚胡秘访阿联酋",
-      "summary": "阿联酋外交部否认来访传闻",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10620730.shtml"
+      "short_title": "俄梁赞州首府遭乌无人机袭击",
+      "summary": "俄梁赞州首府被乌克兰无人机袭击，致3死12伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621606.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘近3000只个股上涨",
-      "summary": "三大指数集体高开，市场情绪乐观",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620775.shtml"
+      "short_title": "道指突破5万点纳指再创新高",
+      "summary": "道指收复5万点，纳指标普500再创新高",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-15/10621411.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美股收盘纳指标普创新高中概股上扬",
-      "summary": "美国股市再创新高，概念股受益",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-14/10620731.shtml"
+      "short_title": "英伟达股价大涨 市场波动显著",
+      "summary": "英伟达连涨7天，其他芯片股跌5%，金龙指数跌3%",
+      "link": "https://wap.eastmoney.com/a/202605143737794536.html"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "101.46",
-      "pct": 0.4355573153830903,
+      "price": "102.42",
+      "pct": 1.2355441336364534,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,708.30",
-      "pct": 0.03399409352625755,
-      "trend": "up"
+      "price": "4,617.95",
+      "pct": -1.4374746547713138,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -125,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-14 12:29:36"
+  "updated_at": "2026-05-15 12:36:25"
 }

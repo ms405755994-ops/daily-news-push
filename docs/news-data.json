@@ -1,106 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年5月15日 星期五（农历二月初一）｜汕头：阴 25°C",
-  "date_text": "2026年5月15日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 25°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年5月16日 星期六（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年5月16日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 26°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "乌克兰首都大规模空袭致多人伤亡",
-      "reason": "突发冲突致多人伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621514.shtml"
+      "title": "以色列袭击哈马斯领袖",
+      "reason": "巴勒斯坦灾难日突发冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622180.shtml"
     },
     {
-      "title": "英伟达股价连涨7天创新高",
-      "reason": "美股科技股大幅波动",
-      "link": "https://wap.eastmoney.com/a/202605143737794536.html"
+      "title": "美国拒绝伊朗停火方案",
+      "reason": "美伊关系紧张升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622124.shtml"
     },
     {
-      "title": "日媒：日本政府研究向菲律宾出口导...",
-      "reason": "日本考虑向菲律宾出售导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621566.shtml"
+      "title": "OpenAI遭集体诉讼",
+      "reason": "ChatGPT隐私争议引关注",
+      "link": "https://www.ithome.com/0/951/210.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "基辅大规模空袭致12死",
-      "summary": "首都基辅遭空袭，12人死亡，近60伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621514.shtml"
+      "short_title": "美国缅因州木材厂爆炸致1死11伤",
+      "summary": "木材厂爆炸起火，造成1人死亡、11人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622148.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本硫磺岛海域6级地震",
-      "summary": "硫磺岛附近海域凌晨6.0级地震，暂无伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-14/10621373.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "国家开发银行发行绿债100亿元",
-      "summary": "发行100亿元绿色金融债券，支持低碳项目",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-15/10621586.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "三亚通关零关税游艇减税2700万",
-      "summary": "两艘零关税游艇在三亚通关，减税超2700万",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/05-15/10621584.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "A股午后超3000股飘红指数收涨",
-      "summary": "超3000只个股涨，沪深三大指数集体收涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-15/10621590.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "英伟达股价连涨七天创高",
-      "summary": "英伟达股价连续七天上涨，刷新历史新高",
-      "link": "https://wap.eastmoney.com/a/202605143737794536.html"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "宝妈拍视频教机器人干活",
-      "summary": "宝妈拍视频训练机器人，居家做数据采集",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-15/10621575.shtml"
+      "short_title": "以色列“灾难日”袭击哈马斯领袖",
+      "summary": "以军对哈马斯高层发动空袭，致多人伤亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622180.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本考虑向菲律宾出口导弹",
-      "summary": "日本政府研究向菲律宾出售导弹，强化防务合作",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621566.shtml"
+      "short_title": "美国拒绝伊朗结束战争书面方案",
+      "summary": "美方否决伊朗提出的停火书面计划。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622124.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄梁赞州首府遭乌无人机袭击",
-      "summary": "俄梁赞州首府被乌克兰无人机袭击，致3死12伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-15/10621606.shtml"
+      "short_title": "俄罗斯莫斯科举行财税新规介绍会",
+      "summary": "俄财政部公布最新税收与财务制度。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622159.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "道指突破5万点纳指再创新高",
-      "summary": "道指收复5万点，纳指标普500再创新高",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-15/10621411.shtml"
+      "short_title": "斯泰兰蒂斯在法组装东风车规避欧关税",
+      "summary": "斯泰兰蒂斯在法组装东风车，规避欧关税。",
+      "link": "https://www.ithome.com/0/951/179.htm"
     },
     {
       "category": "金融重点",
-      "short_title": "英伟达股价大涨 市场波动显著",
-      "summary": "英伟达连涨7天，其他芯片股跌5%，金龙指数跌3%",
-      "link": "https://wap.eastmoney.com/a/202605143737794536.html"
+      "short_title": "苹果在美推出Card办卡返现",
+      "summary": "Apple Card新活动，办卡购AirPods返2...",
+      "link": "https://www.ithome.com/0/951/226.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "OpenAI被起诉泄露用户隐私",
+      "summary": "ChatGPT被指嵌入追踪工具，向谷歌Meta分享数...",
+      "link": "https://www.ithome.com/0/951/210.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国首款甘蓝型油菜基因芯片发布",
+      "summary": "突破20年垄断，推出20K固相基因芯片。",
+      "link": "https://www.ithome.com/0/951/190.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "第六届中国越剧艺术节在绍兴开幕",
+      "summary": "纪念越剧诞辰120周年，艺术节盛大举行。",
+      "link": "https://www.chinanews.com.cn/tp/2026/05-16/10622244.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "欧盟前4个月非法入境人数下降40%",
+      "summary": "欧盟统计显示非法入境大幅减少。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622138.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "102.42",
-      "pct": 1.2355441336364534,
+      "price": "105.42",
+      "pct": 4.200850054363942,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,617.95",
-      "pct": -1.4374746547713138,
+      "price": "4,561.90",
+      "pct": -2.6337694491281356,
       "trend": "down"
     },
     {
@@ -125,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-15 12:36:25"
+  "updated_at": "2026-05-16 12:10:11"
 }

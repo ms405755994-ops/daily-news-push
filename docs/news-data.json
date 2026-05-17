@@ -1,85 +1,61 @@
 {
-  "title": "MSAI今日新闻｜2026年5月16日 星期六（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年5月16日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年5月17日 星期日（农历二月初一）｜汕头：阴 27°C",
+  "date_text": "2026年5月17日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 27°C",
+  "total_count": 6,
   "hotspots": [
     {
-      "title": "以色列袭击哈马斯领袖",
-      "reason": "巴勒斯坦灾难日突发冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622180.shtml"
+      "title": "台湾南投5.1级地震闽台有感",
+      "reason": "突发地震，闽台同步感受",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-17/10622696.shtml"
     },
     {
-      "title": "美国拒绝伊朗停火方案",
-      "reason": "美伊关系紧张升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622124.shtml"
+      "title": "世卫称非洲埃博拉为突发卫生事件",
+      "reason": "国际公共卫生突发事件",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622635.shtml"
     },
     {
-      "title": "OpenAI遭集体诉讼",
-      "reason": "ChatGPT隐私争议引关注",
-      "link": "https://www.ithome.com/0/951/210.htm"
+      "title": "联合国秘书长欢迎黎以延长停火",
+      "reason": "中东局势缓和重要信号",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622613.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国缅因州木材厂爆炸致1死11伤",
-      "summary": "木材厂爆炸起火，造成1人死亡、11人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622148.shtml"
+      "short_title": "非洲埃博拉被列为突发公共卫生事件",
+      "summary": "世卫组织警示非洲埃博拉危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622635.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列“灾难日”袭击哈马斯领袖",
-      "summary": "以军对哈马斯高层发动空袭，致多人伤亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622180.shtml"
+      "short_title": "泰国曼谷列车撞公交车致30伤亡",
+      "summary": "曼谷列车与公交相撞，伤亡超30人",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622530.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "最高法发布残疾人诉讼服务案例",
+      "summary": "第二批典型案例助残疾人维权",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-17/10622692.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "“电影+”推动观影消费增长",
+      "summary": "观影流量转化为消费新动能",
+      "link": "https://www.chinanews.com.cn/cul/2026/05-17/10622689.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国拒绝伊朗结束战争书面方案",
-      "summary": "美方否决伊朗提出的停火书面计划。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622124.shtml"
+      "short_title": "联合国赞同黎以延长停火",
+      "summary": "秘书长欢迎黎巴嫩与以色列停火延续",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622613.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄罗斯莫斯科举行财税新规介绍会",
-      "summary": "俄财政部公布最新税收与财务制度。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622159.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "斯泰兰蒂斯在法组装东风车规避欧关税",
-      "summary": "斯泰兰蒂斯在法组装东风车，规避欧关税。",
-      "link": "https://www.ithome.com/0/951/179.htm"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "苹果在美推出Card办卡返现",
-      "summary": "Apple Card新活动，办卡购AirPods返2...",
-      "link": "https://www.ithome.com/0/951/226.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "OpenAI被起诉泄露用户隐私",
-      "summary": "ChatGPT被指嵌入追踪工具，向谷歌Meta分享数...",
-      "link": "https://www.ithome.com/0/951/210.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国首款甘蓝型油菜基因芯片发布",
-      "summary": "突破20年垄断，推出20K固相基因芯片。",
-      "link": "https://www.ithome.com/0/951/190.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "第六届中国越剧艺术节在绍兴开幕",
-      "summary": "纪念越剧诞辰120周年，艺术节盛大举行。",
-      "link": "https://www.chinanews.com.cn/tp/2026/05-16/10622244.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "欧盟前4个月非法入境人数下降40%",
-      "summary": "欧盟统计显示非法入境大幅减少。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622138.shtml"
+      "short_title": "欧洲就霍尔木兹海峡与伊朗接触",
+      "summary": "欧方与伊朗革命卫队商议通行事宜",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622619.shtml"
     }
   ],
   "futures": [
@@ -119,5 +95,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-16 12:10:11"
+  "updated_at": "2026-05-17 12:43:57"
 }

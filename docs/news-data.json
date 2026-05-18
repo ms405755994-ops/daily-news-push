@@ -1,76 +1,94 @@
 {
-  "title": "MSAI今日新闻｜2026年5月17日 星期日（农历二月初一）｜汕头：阴 27°C",
-  "date_text": "2026年5月17日 星期日（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年5月18日 星期一（农历二月初一）｜汕头：阴 27°C",
+  "date_text": "2026年5月18日 星期一（农历二月初一）",
   "weather_text": "汕头：阴 27°C",
-  "total_count": 6,
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "台湾南投5.1级地震闽台有感",
-      "reason": "突发地震，闽台同步感受",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-17/10622696.shtml"
+      "title": "以色列空袭黎巴嫩致7死",
+      "reason": "中东冲突升级，致多人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623234.shtml"
     },
     {
-      "title": "世卫称非洲埃博拉为突发卫生事件",
-      "reason": "国际公共卫生突发事件",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622635.shtml"
+      "title": "中美会晤获国际好评",
+      "reason": "中美合作受赞，缓解紧张局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623207.shtml"
     },
     {
-      "title": "联合国秘书长欢迎黎以延长停火",
-      "reason": "中东局势缓和重要信号",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622613.shtml"
+      "title": "A股超3500股跌，指数收跌",
+      "reason": "A股大幅下跌，市场情绪转弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-18/10623269.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "非洲埃博拉被列为突发公共卫生事件",
-      "summary": "世卫组织警示非洲埃博拉危机",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622635.shtml"
+      "short_title": "以色列空袭黎巴嫩致7人死亡",
+      "summary": "以军对黎巴嫩南部东部城镇实施空袭，造成7人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623234.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "泰国曼谷列车撞公交车致30伤亡",
-      "summary": "曼谷列车与公交相撞，伤亡超30人",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-16/10622530.shtml"
+      "short_title": "美得州周末随机枪击致4伤",
+      "summary": "得州多地发生10起随机枪击，4人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623084.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "最高法发布残疾人诉讼服务案例",
-      "summary": "第二批典型案例助残疾人维权",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-17/10622692.shtml"
+      "short_title": "广西柳州5.2级地震启动抗震救灾",
+      "summary": "水利部启动抗震救灾调度指挥机制，支援灾区。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623287.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "“电影+”推动观影消费增长",
-      "summary": "观影流量转化为消费新动能",
-      "link": "https://www.chinanews.com.cn/cul/2026/05-17/10622689.shtml"
+      "short_title": "中东部特大暴雨多地破纪录",
+      "summary": "强降雨持续三天，部分地区创下新纪录。",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-18/10623279.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中美元首会晤获国际好评",
+      "summary": "各国称两国合作有利全球，赞扬中美选择合作。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623207.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "联合国赞同黎以延长停火",
-      "summary": "秘书长欢迎黎巴嫩与以色列停火延续",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622613.shtml"
+      "short_title": "中国代表团深化全球卫生合作",
+      "summary": "中国在世卫大会分享经验，推动全球卫生治理。",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623291.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧洲就霍尔木兹海峡与伊朗接触",
-      "summary": "欧方与伊朗革命卫队商议通行事宜",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-17/10622619.shtml"
+      "short_title": "古巴指责美国捏造制裁文件",
+      "summary": "古巴指责美方捏造文件，为制裁侵略找借口。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623013.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "安特罗报告AI漏洞给金稳委",
+      "summary": "Mythos模型发现网络防御缺陷，将向金融稳委简报。",
+      "link": "https://www.ithome.com/0/951/749.htm"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午后超3500股跌，三大指数收跌",
+      "summary": "超3500只个股跌，存储器概念逆势大涨，三大指数收跌...",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-18/10623269.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "105.42",
-      "pct": 4.200850054363942,
+      "price": "103.15",
+      "pct": 2.10849336764998,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,561.90",
-      "pct": -2.6337694491281356,
+      "price": "4,546.45",
+      "pct": -0.3386746750257528,
       "trend": "down"
     },
     {
@@ -95,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-17 12:43:57"
+  "updated_at": "2026-05-18 12:53:11"
 }

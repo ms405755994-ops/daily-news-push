@@ -1,94 +1,82 @@
 {
-  "title": "MSAI今日新闻｜2026年5月18日 星期一（农历二月初一）｜汕头：阴 27°C",
-  "date_text": "2026年5月18日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 27°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年5月19日 星期二（农历二月初一）｜汕头：阴 28°C",
+  "date_text": "2026年5月19日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "以色列空袭黎巴嫩致7死",
-      "reason": "中东冲突升级，致多人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623234.shtml"
+      "title": "柳州连震应急联防启动",
+      "reason": "突发地震，影响多省",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-19/10624064.shtml"
     },
     {
-      "title": "中美会晤获国际好评",
-      "reason": "中美合作受赞，缓解紧张局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623207.shtml"
+      "title": "美圣迭戈伊斯兰中心枪击",
+      "reason": "突发枪击，致5死",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10624040.shtml"
     },
     {
-      "title": "A股超3500股跌，指数收跌",
-      "reason": "A股大幅下跌，市场情绪转弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-18/10623269.shtml"
+      "title": "欧洲股市大涨，伊朗表态",
+      "reason": "金融波动受美伊谈判影响",
+      "link": "https://www.stcn.com/article/detail/3914770.html"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭黎巴嫩致7人死亡",
-      "summary": "以军对黎巴嫩南部东部城镇实施空袭，造成7人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623234.shtml"
+      "short_title": "中南五省联防应急处置柳州5.2级地震",
+      "summary": "启动联防机制，快速响应柳州两次5.2级地震",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-19/10624064.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美得州周末随机枪击致4伤",
-      "summary": "得州多地发生10起随机枪击，4人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623084.shtml"
+      "short_title": "圣迭戈伊斯兰中心枪击致5死",
+      "summary": "枪击事件导致5人死亡，警方已介入",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10624040.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "广西柳州5.2级地震启动抗震救灾",
-      "summary": "水利部启动抗震救灾调度指挥机制，支援灾区。",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623287.shtml"
+      "short_title": "欧洲股市大涨 伊朗谈判新进展",
+      "summary": "美伊谈判推动欧洲股市显著上扬",
+      "link": "https://www.stcn.com/article/detail/3914770.html"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中东部特大暴雨多地破纪录",
-      "summary": "强降雨持续三天，部分地区创下新纪录。",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-18/10623279.shtml"
+      "short_title": "爱奇艺Q1收入62.3亿元",
+      "summary": "收入增长，AI驱动内容转型",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-19/10624013.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中美元首会晤获国际好评",
-      "summary": "各国称两国合作有利全球，赞扬中美选择合作。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623207.shtml"
+      "short_title": "巴西调高2026年通胀至4.5%",
+      "summary": "巴西将2026年通胀预期上调至4.5%",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10623864.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中国代表团深化全球卫生合作",
-      "summary": "中国在世卫大会分享经验，推动全球卫生治理。",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-18/10623291.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "古巴指责美国捏造制裁文件",
-      "summary": "古巴指责美方捏造文件，为制裁侵略找借口。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623013.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "安特罗报告AI漏洞给金稳委",
-      "summary": "Mythos模型发现网络防御缺陷，将向金融稳委简报。",
-      "link": "https://www.ithome.com/0/951/749.htm"
+      "short_title": "欧盟撤销叙利亚国防部制裁",
+      "summary": "欧盟将叙利亚国防部与内政部移出制裁名单",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623830.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后超3500股跌，三大指数收跌",
-      "summary": "超3500只个股跌，存储器概念逆势大涨，三大指数收跌...",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-18/10623269.shtml"
+      "short_title": "沃什将就任美联储主席",
+      "summary": "沃什22日宣誓就任，特朗普主持仪式",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10623960.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "103.15",
-      "pct": 2.10849336764998,
-      "trend": "up"
+      "price": "102.84",
+      "pct": -1.4753784249856219,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,546.45",
-      "pct": -0.3386746750257528,
+      "price": "4,543.55",
+      "pct": -0.3170250109697196,
       "trend": "down"
     },
     {
@@ -113,5 +101,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-05-18 12:53:11"
+  "updated_at": "2026-05-19 12:45:25"
 }

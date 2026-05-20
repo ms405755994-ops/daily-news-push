@@ -1,83 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年5月19日 星期二（农历二月初一）｜汕头：阴 28°C",
-  "date_text": "2026年5月19日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 28°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年5月20日 星期三（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年5月20日 星期三（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "柳州连震应急联防启动",
-      "reason": "突发地震，影响多省",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-19/10624064.shtml"
+      "title": "美以联手空袭伊朗",
+      "reason": "突发中东冲突升级",
+      "link": "https://i.ifeng.com/c/8tG6Zdltfq7"
     },
     {
-      "title": "美圣迭戈伊斯兰中心枪击",
-      "reason": "突发枪击，致5死",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10624040.shtml"
+      "title": "黄金白银，为何集体大跌？",
+      "reason": "贵金属价格大幅下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624846.shtml"
     },
     {
-      "title": "欧洲股市大涨，伊朗表态",
-      "reason": "金融波动受美伊谈判影响",
-      "link": "https://www.stcn.com/article/detail/3914770.html"
+      "title": "XREAL发布AI智能眼镜",
+      "reason": "AI硬件新突破",
+      "link": "https://www.ithome.com/0/952/763.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "中南五省联防应急处置柳州5.2级地震",
-      "summary": "启动联防机制，快速响应柳州两次5.2级地震",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-19/10624064.shtml"
+      "short_title": "美以联手空袭伊朗",
+      "summary": "美以再次空袭伊朗，特朗普态度转变",
+      "link": "https://i.ifeng.com/c/8tG6Zdltfq7"
     },
     {
       "category": "突发新闻",
-      "short_title": "圣迭戈伊斯兰中心枪击致5死",
-      "summary": "枪击事件导致5人死亡，警方已介入",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10624040.shtml"
+      "short_title": "苏丹市场无人机袭击",
+      "summary": "苏丹密集市场遭无人机袭击，致28人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-20/10624805.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "欧洲股市大涨 伊朗谈判新进展",
-      "summary": "美伊谈判推动欧洲股市显著上扬",
-      "link": "https://www.stcn.com/article/detail/3914770.html"
+      "category": "AI重点",
+      "short_title": "XREAL确认Project Aur...",
+      "summary": "XREAL宣布Aura眼镜年内出货，Gemini A...",
+      "link": "https://www.ithome.com/0/952/763.htm"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "爱奇艺Q1收入62.3亿元",
-      "summary": "收入增长，AI驱动内容转型",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-19/10624013.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "巴西调高2026年通胀至4.5%",
-      "summary": "巴西将2026年通胀预期上调至4.5%",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10623864.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "欧盟撤销叙利亚国防部制裁",
-      "summary": "欧盟将叙利亚国防部与内政部移出制裁名单",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-18/10623830.shtml"
+      "category": "AI重点",
+      "short_title": "钱德沛倡建算力网",
+      "summary": "院士钱德沛提出算力网概念，可开设计算网店",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624874.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "沃什将就任美联储主席",
-      "summary": "沃什22日宣誓就任，特朗普主持仪式",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10623960.shtml"
+      "short_title": "黄金白银集体大跌",
+      "summary": "近期黄金白银价格大幅下跌，市场关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624846.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "5月LPR利率保持不变",
+      "summary": "5月LPR报价出炉，一年期和五年期利率维持不变",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624697.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "北约考虑协助霍尔木兹航运",
+      "summary": "美媒称北约或协助船只通过霍尔木兹海峡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-20/10624644.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "泰国取消60天免签",
+      "summary": "泰国内阁决定取消对中国游客的60天免签政策",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10624617.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "习近平谈中东局势",
+      "summary": "习近平在会议上分析中东局势及中国立场",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-20/10624878.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "国家数据局推进数字经济法",
+      "summary": "国家数据局加快数字经济促进法立法进程",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624668.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "102.84",
-      "pct": -1.4753784249856219,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,543.55",
-      "pct": -0.3170250109697196,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -89,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-19 12:45:25"
+  "updated_at": "2026-05-20 12:54:36"
 }

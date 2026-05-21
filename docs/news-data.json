@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年5月20日 星期三（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年5月20日 星期三（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年5月21日 星期四（农历二月初一）｜汕头：中雨 27°C",
+  "date_text": "2026年5月21日 星期四（农历二月初一）",
+  "weather_text": "汕头：中雨 27°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "美以联手空袭伊朗",
-      "reason": "突发中东冲突升级",
-      "link": "https://i.ifeng.com/c/8tG6Zdltfq7"
+      "title": "以色列袭击黎巴嫩南部已致8死",
+      "reason": "突发冲突致多名平民死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625653.shtml"
     },
     {
-      "title": "黄金白银，为何集体大跌？",
-      "reason": "贵金属价格大幅下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624846.shtml"
+      "title": "美伊对峙致霍尔木兹风险外溢",
+      "reason": "冲击全球粮食能源市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-20/10625347.shtml"
     },
     {
-      "title": "XREAL发布AI智能眼镜",
-      "reason": "AI硬件新突破",
-      "link": "https://www.ithome.com/0/952/763.htm"
+      "title": "俄储行采购中国产AI芯片",
+      "reason": "助力GigaChat模型国产化",
+      "link": "https://www.ithome.com/0/953/250.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美以联手空袭伊朗",
-      "summary": "美以再次空袭伊朗，特朗普态度转变",
-      "link": "https://i.ifeng.com/c/8tG6Zdltfq7"
+      "short_title": "以色列空袭黎巴嫩致8人死亡",
+      "summary": "以色列对黎巴嫩南部发动空袭，已致8人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625653.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "苏丹市场无人机袭击",
-      "summary": "苏丹密集市场遭无人机袭击，致28人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-20/10624805.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "XREAL确认Project Aur...",
-      "summary": "XREAL宣布Aura眼镜年内出货，Gemini A...",
-      "link": "https://www.ithome.com/0/952/763.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "钱德沛倡建算力网",
-      "summary": "院士钱德沛提出算力网概念，可开设计算网店",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624874.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "黄金白银集体大跌",
-      "summary": "近期黄金白银价格大幅下跌，市场关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624846.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "5月LPR利率保持不变",
-      "summary": "5月LPR报价出炉，一年期和五年期利率维持不变",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624697.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "北约考虑协助霍尔木兹航运",
-      "summary": "美媒称北约或协助船只通过霍尔木兹海峡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-20/10624644.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "泰国取消60天免签",
-      "summary": "泰国内阁决定取消对中国游客的60天免签政策",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-19/10624617.shtml"
+      "short_title": "广西柳州发生5级地震",
+      "summary": "广西柳州发生5级地震，关注余震与救援。",
+      "link": "https://www.thepaper.cn/newsDetail_forward_33204353"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "习近平谈中东局势",
-      "summary": "习近平在会议上分析中东局势及中国立场",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-20/10624878.shtml"
+      "short_title": "菲律宾学者呼吁中菲加强对话",
+      "summary": "菲律宾学者建议两国政府深化沟通合作。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625592.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "国家数据局推进数字经济法",
-      "summary": "国家数据局加快数字经济促进法立法进程",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-20/10624668.shtml"
+      "short_title": "伊朗重申对霍尔木兹海峡管理权",
+      "summary": "伊朗再次声明对霍尔木兹海峡拥有监督范围。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625601.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "江苏无锡发布AI企业准入新政",
+      "summary": "无锡推出人工智能OPC企业准入便利化措施。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625655.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "北京亦庄AI+产业大会启动",
+      "summary": "2026 AI Partner大会聚焦AI产业融合。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625659.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "俄联储储蓄银行采购中国产AI芯片",
+      "summary": "俄联储储蓄银行采购中国产AI芯片。",
+      "link": "https://www.ithome.com/0/953/250.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美国起诉古巴前领袖卡斯特罗",
+      "summary": "美国对古巴前革命领袖卡斯特罗提起诉讼。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625670.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "欧元区4月通胀率继续上升",
+      "summary": "欧元区及欧盟4月通胀率持续攀升。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625482.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午后三大指数集体收涨",
+      "summary": "三大指数收涨，逾3000只个股出现涨停。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625694.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "黄金价格再跌仍不宜买入？",
+      "summary": "分析师提醒黄金跌势仍存风险。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625697.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-20 12:54:36"
+  "updated_at": "2026-05-21 12:55:37"
 }

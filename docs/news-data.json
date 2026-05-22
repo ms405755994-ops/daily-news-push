@@ -1,91 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年5月21日 星期四（农历二月初一）｜汕头：中雨 27°C",
-  "date_text": "2026年5月21日 星期四（农历二月初一）",
-  "weather_text": "汕头：中雨 27°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年5月22日 星期五（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年5月22日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "以色列袭击黎巴嫩南部已致8死",
-      "reason": "突发冲突致多名平民死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625653.shtml"
+      "title": "美佛州空军基地爆炸事故",
+      "reason": "突发安全事故，2人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626407.shtml"
     },
     {
-      "title": "美伊对峙致霍尔木兹风险外溢",
-      "reason": "冲击全球粮食能源市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-20/10625347.shtml"
+      "title": "洪都拉斯北部武装袭击致死",
+      "reason": "突发冲突，死亡25人",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626458.shtml"
     },
     {
-      "title": "俄储行采购中国产AI芯片",
-      "reason": "助力GigaChat模型国产化",
-      "link": "https://www.ithome.com/0/953/250.htm"
+      "title": "油价粮价飙升，霍尔木兹受阻",
+      "reason": "全球能源供应受压，风险上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626249.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭黎巴嫩致8人死亡",
-      "summary": "以色列对黎巴嫩南部发动空袭，已致8人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625653.shtml"
+      "short_title": "美国佛州空军基地爆炸 2人受伤",
+      "summary": "佛罗里达空军研发设施发生高爆炸药事故，致2人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626407.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "广西柳州发生5级地震",
-      "summary": "广西柳州发生5级地震，关注余震与救援。",
-      "link": "https://www.thepaper.cn/newsDetail_forward_33204353"
+      "short_title": "洪都拉斯北部武装袭击致25人死亡",
+      "summary": "洪都拉斯北部两起袭击已造成25人死亡，局势紧张。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626458.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "菲律宾学者呼吁中菲加强对话",
-      "summary": "菲律宾学者建议两国政府深化沟通合作。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625592.shtml"
+      "short_title": "发改委否认限制科技外资",
+      "summary": "国家发改委澄清未要求科技企业拒绝外商投资。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-22/10626485.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗重申对霍尔木兹海峡管理权",
-      "summary": "伊朗再次声明对霍尔木兹海峡拥有监督范围。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625601.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "江苏无锡发布AI企业准入新政",
-      "summary": "无锡推出人工智能OPC企业准入便利化措施。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625655.shtml"
+      "short_title": "民营经济促进法一年数据公布",
+      "summary": "施行一年后，多维数据显示民营经济活力提升。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-22/10626468.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "北京亦庄AI+产业大会启动",
-      "summary": "2026 AI Partner大会聚焦AI产业融合。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625659.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "俄联储储蓄银行采购中国产AI芯片",
-      "summary": "俄联储储蓄银行采购中国产AI芯片。",
-      "link": "https://www.ithome.com/0/953/250.htm"
+      "short_title": "Comscore报告美国AI桌面排名",
+      "summary": "三月ChatGPT居首，Claude环比增长130%...",
+      "link": "https://www.ithome.com/0/953/830.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国起诉古巴前领袖卡斯特罗",
-      "summary": "美国对古巴前革命领袖卡斯特罗提起诉讼。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625670.shtml"
+      "short_title": "特朗普要求伊朗交出浓缩铀",
+      "summary": "特朗普表态伊朗交铀后将销毁，局势紧张。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626242.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧元区4月通胀率继续上升",
-      "summary": "欧元区及欧盟4月通胀率持续攀升。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-21/10625482.shtml"
+      "short_title": "霍尔木兹海峡受阻油粮价同步上涨",
+      "summary": "海峡瓶颈推高油价粮价，全球成本上升。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626249.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后三大指数集体收涨",
-      "summary": "三大指数收涨，逾3000只个股出现涨停。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625694.shtml"
+      "short_title": "日韩股因AI热潮与罢工暂停大涨",
+      "summary": "AI热潮与罢工暂停推动日韩股市强劲反弹。",
+      "link": "https://www.21jingji.com/article/20260521/herald/c8b5f38b738f7be087184309de637fd0.html"
     },
     {
       "category": "金融重点",
-      "short_title": "黄金价格再跌仍不宜买入？",
-      "summary": "分析师提醒黄金跌势仍存风险。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-21/10625697.shtml"
+      "short_title": "A股午后超3600只飘红 三大指数收...",
+      "summary": "午盘超3600只个股涨停，三指数齐涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-22/10626482.shtml"
     }
   ],
   "futures": [
@@ -125,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-21 12:55:37"
+  "updated_at": "2026-05-22 12:46:02"
 }

@@ -1,73 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年5月23日 星期六（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年5月23日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年5月24日 星期日（农历二月初一）｜汕头：多云 33°C",
+  "date_text": "2026年5月24日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 33°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "山西大同3.2级地震",
-      "reason": "突发地震，影响当地",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-23/10627084.shtml"
+      "title": "美白宫枪击案细节",
+      "reason": "突发美国白宫枪击事件",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627533.shtml"
     },
     {
-      "title": "美军导弹告急，韩日更急",
-      "reason": "国际安全紧张升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626901.shtml"
+      "title": "以黎冲突致3000亡",
+      "reason": "以色列对黎巴嫩大规模袭击",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627521.shtml"
     },
     {
-      "title": "新任美联储主席来头",
-      "reason": "金融政策或将变动",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-23/10627066.shtml"
+      "title": "卢甘斯克校遭无人机",
+      "reason": "俄称乌无人机袭击学校致死",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627438.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "山西沁源煤矿瓦斯爆炸救援紧张",
-      "summary": "救援人员全力抢救，现场已封锁。",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-23/10627089.shtml"
+      "short_title": "美国白宫枪击案细节披露",
+      "summary": "21岁枪手持左轮枪击，曾冲突特勤局",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627533.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "卢甘斯克学校遭无人机袭击致数十死伤",
-      "summary": "冲突升级，伤亡惨重。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-23/10626990.shtml"
+      "short_title": "以色列对黎巴嫩空袭致3000余死",
+      "summary": "以色列大规模袭击已致超3000人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627521.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "朱杨柱赞香港同胞首次飞天",
-      "summary": "航天梦与中国梦同心圆。",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-23/10627080.shtml"
+      "short_title": "新疆兵团亮相深圳文化博览会",
+      "summary": "兵团展示文创产品，推动产业合作",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627495.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "浙江企业AI实战派温州同台竞技",
-      "summary": "企业展示AI落地案例。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-22/10626856.shtml"
+      "short_title": "低空经济进入普惠阶段",
+      "summary": "民生场景多点开花，经济效益显现",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627524.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "消费提振专项成效显著",
+      "summary": "一年多来消费增长，经济主引擎增强",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627500.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Meta美国AI数据中心被指恶化水源",
-      "summary": "数据中心引发当地水资源争议。",
-      "link": "https://www.ithome.com/0/954/274.htm"
+      "short_title": "AI眼镜助力文创短剧生成",
+      "summary": "半小时生成短剧，文化产业新引擎",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627536.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "业界在京共论人形机器人全生命周期管理",
-      "summary": "专家讨论机器人全寿命管理。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-22/10626947.shtml"
+      "short_title": "腾讯携港机电举办AI车赛",
+      "summary": "两地青年用AI编程小车促进交流",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627455.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "新任美联储主席沃什宣誓就任",
-      "summary": "美联储新领袖上任，市场关注。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-23/10627066.shtml"
+      "short_title": "伊朗称继续管理霍尔木兹海峡",
+      "summary": "伊朗媒体表示将继续掌控海峡通道",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627502.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军导弹告急，韩日更急",
-      "summary": "美军弹药紧缺，亚太局势紧张。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-22/10626901.shtml"
+      "short_title": "APEC贸易部长会达成多项共识",
+      "summary": "亚太经贸合作明确方向，提升确定性",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627555.shtml"
     }
   ],
   "futures": [
@@ -107,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-23 12:26:43"
+  "updated_at": "2026-05-24 12:48:26"
 }

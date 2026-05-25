@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年5月24日 星期日（农历二月初一）｜汕头：多云 33°C",
-  "date_text": "2026年5月24日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 33°C",
+  "title": "MSAI今日新闻｜2026年5月25日 星期一（农历二月初一）｜汕头：多云 34°C",
+  "date_text": "2026年5月25日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 34°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "美白宫枪击案细节",
-      "reason": "突发美国白宫枪击事件",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627533.shtml"
+      "title": "以色列袭击黎巴嫩致3151亡",
+      "reason": "中东冲突升级，平民伤亡惨重",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627817.shtml"
     },
     {
-      "title": "以黎冲突致3000亡",
-      "reason": "以色列对黎巴嫩大规模袭击",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627521.shtml"
+      "title": "俄军使用榛树导弹袭击基辅",
+      "reason": "高超音速武器再度亮相",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627878.shtml"
     },
     {
-      "title": "卢甘斯克校遭无人机",
-      "reason": "俄称乌无人机袭击学校致死",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627438.shtml"
+      "title": "麒麟2027与昇腾990芯片在研",
+      "reason": "国产AI芯片突破新节点",
+      "link": "https://www.ithome.com/0/954/778.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国白宫枪击案细节披露",
-      "summary": "21岁枪手持左轮枪击，曾冲突特勤局",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627533.shtml"
+      "short_title": "以色列袭击黎巴嫩致3151亡",
+      "summary": "以色列空袭已导致黎巴嫩3151人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627817.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列对黎巴嫩空袭致3000余死",
-      "summary": "以色列大规模袭击已致超3000人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627521.shtml"
+      "short_title": "俄军使用榛树导弹袭击基辅",
+      "summary": "俄军动用高超音速导弹对基辅进行大规模攻击",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627878.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "新疆兵团亮相深圳文化博览会",
-      "summary": "兵团展示文创产品，推动产业合作",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627495.shtml"
+      "short_title": "巴基斯坦列车爆炸致24死",
+      "summary": "巴基斯坦客运列车遭炸弹袭击，死亡24人",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627583.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "低空经济进入普惠阶段",
-      "summary": "民生场景多点开花，经济效益显现",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627524.shtml"
+      "short_title": "山西留神峪煤矿瓦斯爆炸救援",
+      "summary": "山西煤矿瓦斯爆炸，救援全力展开",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-25/10627983.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "消费提振专项成效显著",
-      "summary": "一年多来消费增长，经济主引擎增强",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627500.shtml"
+      "short_title": "胜利济阳页岩油产量破200万吨",
+      "summary": "中国页岩油累计产量已超200万吨",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-25/10628001.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI眼镜助力文创短剧生成",
-      "summary": "半小时生成短剧，文化产业新引擎",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627536.shtml"
+      "short_title": "华为麒麟2027、昇腾990芯片进展",
+      "summary": "华为新芯片不依赖新光刻，性能突破",
+      "link": "https://www.ithome.com/0/954/778.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "腾讯携港机电举办AI车赛",
-      "summary": "两地青年用AI编程小车促进交流",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627455.shtml"
+      "short_title": "中国芯片突破高压挑战",
+      "summary": "玉渊谭天谈我国半导体在高压下实现突破",
+      "link": "https://www.ithome.com/0/954/777.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗称继续管理霍尔木兹海峡",
-      "summary": "伊朗媒体表示将继续掌控海峡通道",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627502.shtml"
+      "short_title": "阿曼伊朗磋商霍尔木兹海峡航运",
+      "summary": "阿曼伊朗就海峡航运等议题进行磋商",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627824.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "APEC贸易部长会达成多项共识",
-      "summary": "亚太经贸合作明确方向，提升确定性",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-24/10627555.shtml"
+      "short_title": "日本关东地区强震多地有感",
+      "summary": "日本关东地区发生地震，多个地区有震感",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627615.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-24 12:48:26"
+  "updated_at": "2026-05-25 13:09:04"
 }

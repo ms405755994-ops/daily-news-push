@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年5月25日 星期一（农历二月初一）｜汕头：多云 34°C",
-  "date_text": "2026年5月25日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 34°C",
+  "title": "MSAI今日新闻｜2026年5月26日 星期二（农历二月初一）｜汕头：阴 34°C",
+  "date_text": "2026年5月26日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 34°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "以色列袭击黎巴嫩致3151亡",
-      "reason": "中东冲突升级，平民伤亡惨重",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627817.shtml"
+      "title": "伊朗多地爆炸 美军自卫打击",
+      "reason": "中东局势紧张，冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628481.shtml"
     },
     {
-      "title": "俄军使用榛树导弹袭击基辅",
-      "reason": "高超音速武器再度亮相",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627878.shtml"
+      "title": "俄连夜袭基辅 16人死亡",
+      "reason": "俄乌冲突再升级，影响欧洲安全",
+      "link": "https://www.voachinese.com/a/russia-strikes-kyv-two-consecutive-nights-killing-16-20260525/8153678.html"
     },
     {
-      "title": "麒麟2027与昇腾990芯片在研",
-      "reason": "国产AI芯片突破新节点",
-      "link": "https://www.ithome.com/0/954/778.htm"
+      "title": "A股低开 人形机器人活跃",
+      "reason": "股市波动，机器人概念逆势上扬",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-26/10628540.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列袭击黎巴嫩致3151亡",
-      "summary": "以色列空袭已导致黎巴嫩3151人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627817.shtml"
+      "short_title": "美军在伊朗南部实施自卫打击",
+      "summary": "伊朗多地传爆炸声，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628481.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄军使用榛树导弹袭击基辅",
-      "summary": "俄军动用高超音速导弹对基辅进行大规模攻击",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627878.shtml"
+      "short_title": "俄连夜袭击基辅致16人亡",
+      "summary": "高超音速导弹“榛树”首用",
+      "link": "https://www.voachinese.com/a/russia-strikes-kyiv-two-consecutive-nights-killing-16-20260525/8153678.html"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "巴基斯坦列车爆炸致24死",
-      "summary": "巴基斯坦客运列车遭炸弹袭击，死亡24人",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627583.shtml"
+      "short_title": "法国5月罕见热浪致多人死亡",
+      "summary": "极端高温引发多起死亡事故",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628487.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "山西留神峪煤矿瓦斯爆炸救援",
-      "summary": "山西煤矿瓦斯爆炸，救援全力展开",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-25/10627983.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "胜利济阳页岩油产量破200万吨",
-      "summary": "中国页岩油累计产量已超200万吨",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-25/10628001.shtml"
+      "short_title": "智利北部6.9级强震震源100公里",
+      "summary": "地震导致当地设施受损",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628476.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "华为麒麟2027、昇腾990芯片进展",
-      "summary": "华为新芯片不依赖新光刻，性能突破",
-      "link": "https://www.ithome.com/0/954/778.htm"
+      "short_title": "HICOOL2026创业赛项目破万 ...",
+      "summary": "全球创业大赛吸引大量AI项目",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-25/10628375.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国芯片突破高压挑战",
-      "summary": "玉渊谭天谈我国半导体在高压下实现突破",
-      "link": "https://www.ithome.com/0/954/777.htm"
+      "short_title": "AI大模型商业化收费趋势探讨",
+      "summary": "行业讨论模型收费是否必然",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-26/10628479.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "阿曼伊朗磋商霍尔木兹海峡航运",
-      "summary": "阿曼伊朗就海峡航运等议题进行磋商",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-25/10627824.shtml"
+      "short_title": "摩根士丹利：中国人形机器人占全球90...",
+      "summary": "机器人或成下一个电动汽车产业",
+      "link": "https://www.ithome.com/0/955/253.htm"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "日本关东地区强震多地有感",
-      "summary": "日本关东地区发生地震，多个地区有震感",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-24/10627615.shtml"
+      "category": "金融重点",
+      "short_title": "A股三大指数低开 人形机器人逆市活跃",
+      "summary": "指数下跌但机器人概念涨停",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-26/10628540.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "海洋石油112原油外输破千船次",
+      "summary": "FPSO累计外输船次突破千次",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-25/10628411.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-25 13:09:04"
+  "updated_at": "2026-05-26 12:46:38"
 }

@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年5月26日 星期二（农历二月初一）｜汕头：阴 34°C",
-  "date_text": "2026年5月26日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 34°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年5月27日 星期三（农历二月初一）｜汕头：晴 34°C",
+  "date_text": "2026年5月27日 星期三（农历二月初一）",
+  "weather_text": "汕头：晴 34°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗多地爆炸 美军自卫打击",
-      "reason": "中东局势紧张，冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628481.shtml"
+      "title": "以色列称袭击哈马斯新领袖",
+      "reason": "中东冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629284.shtml"
     },
     {
-      "title": "俄连夜袭基辅 16人死亡",
-      "reason": "俄乌冲突再升级，影响欧洲安全",
-      "link": "https://www.voachinese.com/a/russia-strikes-kyv-two-consecutive-nights-killing-16-20260525/8153678.html"
+      "title": "美国5月消费者信心降至93.1",
+      "reason": "美国消费信心意外下滑",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629108.shtml"
     },
     {
-      "title": "A股低开 人形机器人活跃",
-      "reason": "股市波动，机器人概念逆势上扬",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-26/10628540.shtml"
+      "title": "AI博览会探讨“长出身体”",
+      "reason": "AI实体化新突破",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629195.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军在伊朗南部实施自卫打击",
-      "summary": "伊朗多地传爆炸声，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628481.shtml"
+      "short_title": "以色列空袭哈马斯新任军官",
+      "summary": "以色列称空袭目标为哈马斯新任军事领导人",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629284.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄连夜袭击基辅致16人亡",
-      "summary": "高超音速导弹“榛树”首用",
-      "link": "https://www.voachinese.com/a/russia-strikes-kyiv-two-consecutive-nights-killing-16-20260525/8153678.html"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "法国5月罕见热浪致多人死亡",
-      "summary": "极端高温引发多起死亡事故",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628487.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "智利北部6.9级强震震源100公里",
-      "summary": "地震导致当地设施受损",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-26/10628476.shtml"
+      "short_title": "美华盛顿州日资企业化学爆炸",
+      "summary": "化学爆炸致多人死伤，事故原因正在调查",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629097.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "HICOOL2026创业赛项目破万 ...",
-      "summary": "全球创业大赛吸引大量AI项目",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-25/10628375.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI大模型商业化收费趋势探讨",
-      "summary": "行业讨论模型收费是否必然",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-26/10628479.shtml"
+      "short_title": "2026世界智能博览会探讨AI实体化",
+      "summary": "展会聚焦AI‘长出身体’，展示前沿技术与应用",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629195.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "摩根士丹利：中国人形机器人占全球90...",
-      "summary": "机器人或成下一个电动汽车产业",
-      "link": "https://www.ithome.com/0/955/253.htm"
+      "short_title": "伊朗全面恢复国际互联网连接",
+      "summary": "伊朗媒体称全国互联网已恢复正常运行",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629131.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美国5月消费者信心指数降至93.1",
+      "summary": "5月消费者信心指数降至93.1，低于预期",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629108.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数低开 人形机器人逆市活跃",
-      "summary": "指数下跌但机器人概念涨停",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-26/10628540.shtml"
+      "short_title": "A股三大指数分化，部分股涨逾13倍",
+      "summary": "沪指跌，深指跌，创业板逆势上涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629189.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "海洋石油112原油外输破千船次",
-      "summary": "FPSO累计外输船次突破千次",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-25/10628411.shtml"
+      "short_title": "央行将在香港发行两期300亿元央票",
+      "summary": "央行今日在港发行两期央票，总额600亿元",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629160.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "驻印尼使馆提醒防范电信诈骗",
+      "summary": "多名中国公民在印尼遭电信诈骗，提醒提高警惕",
+      "link": "https://www.chinanews.com.cn/hr/2026/05-27/10629324.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "王毅谈中国对联合国贡献",
+      "summary": "王毅阐述中国在联合国事业中的重要作用",
+      "link": "https://www.chinanews.com.cn/hr/2026/05-27/10629324.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国移动咪咕成2026世界杯转播商",
+      "summary": "咪咕获授权，负责2026世界杯在美加墨地区转播",
+      "link": "https://www.chinanews.com.cn/hr/2026/05-27/10629324.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-26 12:46:38"
+  "updated_at": "2026-05-27 12:57:57"
 }

@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年5月27日 星期三（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年5月27日 星期三（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
+  "title": "MSAI今日新闻｜2026年5月28日 星期四（农历二月初一）｜汕头：晴 35°C",
+  "date_text": "2026年5月28日 星期四（农历二月初一）",
+  "weather_text": "汕头：晴 35°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "以色列称袭击哈马斯新领袖",
-      "reason": "中东冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629284.shtml"
+      "title": "美军空袭伊朗，击落4无人机",
+      "reason": "突发中东冲突，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629909.shtml"
     },
     {
-      "title": "美国5月消费者信心降至93.1",
-      "reason": "美国消费信心意外下滑",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629108.shtml"
+      "title": "华盛顿州工厂爆炸致多人伤亡",
+      "reason": "突发事故，波及美国安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629843.shtml"
     },
     {
-      "title": "AI博览会探讨“长出身体”",
-      "reason": "AI实体化新突破",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629195.shtml"
+      "title": "YouTube升级AI视频标注",
+      "reason": "AI技术提升，影响内容平台",
+      "link": "https://www.ithome.com/0/956/490.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭哈马斯新任军官",
-      "summary": "以色列称空袭目标为哈马斯新任军事领导人",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629284.shtml"
+      "short_title": "美军空袭伊朗击落四无人机",
+      "summary": "美军在伊朗领空发动空袭，击落四架无人机。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629909.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美华盛顿州日资企业化学爆炸",
-      "summary": "化学爆炸致多人死伤，事故原因正在调查",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629097.shtml"
+      "short_title": "华盛顿州工厂爆炸致死失踪",
+      "summary": "华州工厂爆炸已致2人死亡，9人失踪。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629843.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "爱康获《财富》赞赏公司",
+      "summary": "爱康集团获《财富》2026最受赞赏中国公司。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-28/10629882.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "体育+赋能东北超 点燃夏日经济",
+      "summary": "体育与产业融合，东北超市夏季经济活力提升。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-28/10629951.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "日本学者担忧高市早苗政策",
+      "summary": "日本历史学者对高市早苗执政政策表达担忧。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629846.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "2026世界智能博览会探讨AI实体化",
-      "summary": "展会聚焦AI‘长出身体’，展示前沿技术与应用",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629195.shtml"
+      "short_title": "YouTube引入AI视频标注",
+      "summary": "YouTube新增AI自动检测功能，视频标注更显眼。",
+      "link": "https://www.ithome.com/0/956/490.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗全面恢复国际互联网连接",
-      "summary": "伊朗媒体称全国互联网已恢复正常运行",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629131.shtml"
+      "short_title": "巴西年通胀升至4.64%",
+      "summary": "巴西2026年通胀率上升至4.64%，经济压力加大。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629977.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国5月消费者信心指数降至93.1",
-      "summary": "5月消费者信心指数降至93.1，低于预期",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629108.shtml"
+      "short_title": "德国下调2026经济增速预期",
+      "summary": "德国权威机构将2026年经济增长预期下调。",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629818.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数分化，部分股涨逾13倍",
-      "summary": "沪指跌，深指跌，创业板逆势上涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629189.shtml"
+      "short_title": "A股低开电力活跃C长进跌15%",
+      "summary": "A股开盘走低，电力板块活跃，C长进跌超15%。",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-28/10629931.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "央行将在香港发行两期300亿元央票",
-      "summary": "央行今日在港发行两期央票，总额600亿元",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-27/10629160.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "驻印尼使馆提醒防范电信诈骗",
-      "summary": "多名中国公民在印尼遭电信诈骗，提醒提高警惕",
-      "link": "https://www.chinanews.com.cn/hr/2026/05-27/10629324.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "王毅谈中国对联合国贡献",
-      "summary": "王毅阐述中国在联合国事业中的重要作用",
-      "link": "https://www.chinanews.com.cn/hr/2026/05-27/10629324.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国移动咪咕成2026世界杯转播商",
-      "summary": "咪咕获授权，负责2026世界杯在美加墨地区转播",
-      "link": "https://www.chinanews.com.cn/hr/2026/05-27/10629324.shtml"
+      "short_title": "二手平台售假黄金包装齐全",
+      "summary": "部分二手平台售假黄金，包装仿真，监管需加强。",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630023.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-27 12:57:57"
+  "updated_at": "2026-05-28 12:51:42"
 }

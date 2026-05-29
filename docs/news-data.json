@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年5月28日 星期四（农历二月初一）｜汕头：晴 35°C",
-  "date_text": "2026年5月28日 星期四（农历二月初一）",
-  "weather_text": "汕头：晴 35°C",
+  "title": "MSAI今日新闻｜2026年5月29日 星期五（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年5月29日 星期五（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "美军空袭伊朗，击落4无人机",
-      "reason": "突发中东冲突，影响地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629909.shtml"
+      "title": "美国蓝色起源火箭爆炸",
+      "reason": "突发国际航天事故",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630682.shtml"
     },
     {
-      "title": "华盛顿州工厂爆炸致多人伤亡",
-      "reason": "突发事故，波及美国安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629843.shtml"
+      "title": "伊朗霍尔木兹海峡警告射击",
+      "reason": "中东局势升温",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630554.shtml"
     },
     {
-      "title": "YouTube升级AI视频标注",
-      "reason": "AI技术提升，影响内容平台",
-      "link": "https://www.ithome.com/0/956/490.htm"
+      "title": "2026世界智能产业博览会开幕",
+      "reason": "AI合作新平台",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260528944128707121402ba992d0b46fdc580c"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军空袭伊朗击落四无人机",
-      "summary": "美军在伊朗领空发动空袭，击落四架无人机。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629909.shtml"
+      "short_title": "蓝色起源火箭点火试验爆炸",
+      "summary": "美国蓝色起源火箭发动机点火时发生剧烈爆炸",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630682.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "华盛顿州工厂爆炸致死失踪",
-      "summary": "华州工厂爆炸已致2人死亡，9人失踪。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629843.shtml"
+      "short_title": "中东两线交火或影响美伊停火",
+      "summary": "分析交火升级或拖累美伊停火进程",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260528c02b03291877460c897246b649e8abad"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "爱康获《财富》赞赏公司",
-      "summary": "爱康集团获《财富》2026最受赞赏中国公司。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-28/10629882.shtml"
+      "short_title": "血管芯片国家标准获批",
+      "summary": "监管总局正式发布首个血管芯片标准",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10630694.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "体育+赋能东北超 点燃夏日经济",
-      "summary": "体育与产业融合，东北超市夏季经济活力提升。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-28/10629951.shtml"
+      "short_title": "前四个月交通运输运行平稳",
+      "summary": "数据显示我国交通运输经济保持稳健",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10630667.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "日本学者担忧高市早苗政策",
-      "summary": "日本历史学者对高市早苗执政政策表达担忧。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629846.shtml"
+      "short_title": "世界环境日在华实践彰显中国特色",
+      "summary": "刘友宾阐述中国在环境日的创新举措",
+      "link": "https://www.chinanews.com.cn/sh/2026/05-29/10630735.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "YouTube引入AI视频标注",
-      "summary": "YouTube新增AI自动检测功能，视频标注更显眼。",
-      "link": "https://www.ithome.com/0/956/490.htm"
+      "short_title": "2026世界智能产业博览会开幕",
+      "summary": "中外聚焦AI+合作共谋产业新机遇",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260528944128707121402ba992d0b46fdc580c"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "莫言：AI难替代作家创作",
+      "summary": "莫言称AI是作家写作的“喂食”工具",
+      "link": "https://www.ithome.com/0/956/989.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "巴西年通胀升至4.64%",
-      "summary": "巴西2026年通胀率上升至4.64%，经济压力加大。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-28/10629977.shtml"
+      "short_title": "伊朗在霍尔木兹海峡警告射击",
+      "summary": "伊朗向违规船只发出射击警告",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630554.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国下调2026经济增速预期",
-      "summary": "德国权威机构将2026年经济增长预期下调。",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-27/10629818.shtml"
+      "short_title": "南非央行上调利率25基点",
+      "summary": "南非央行宣布基准利率上调25个基点",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630587.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股低开电力活跃C长进跌15%",
-      "summary": "A股开盘走低，电力板块活跃，C长进跌超15%。",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-28/10629931.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "二手平台售假黄金包装齐全",
-      "summary": "部分二手平台售假黄金，包装仿真，监管需加强。",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-28/10630023.shtml"
+      "short_title": "A股三大指数集体高开",
+      "summary": "超2600只个股上涨，市场情绪乐观",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10630630.shtml"
     }
   ],
   "futures": [
@@ -93,9 +93,9 @@
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,540.00",
+      "pct": 0.167681581502082,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -107,9 +107,9 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-28 12:51:42"
+  "updated_at": "2026-05-29 12:54:46"
 }

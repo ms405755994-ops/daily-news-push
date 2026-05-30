@@ -1,85 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年5月29日 星期五（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年5月29日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年5月30日 星期六（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年5月30日 星期六（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国蓝色起源火箭爆炸",
-      "reason": "突发国际航天事故",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630682.shtml"
+      "title": "普京称俄乌冲突将终结",
+      "reason": "俄乌局势关键转折，全球关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631313.shtml"
     },
     {
-      "title": "伊朗霍尔木兹海峡警告射击",
-      "reason": "中东局势升温",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630554.shtml"
+      "title": "以军空袭黎南致6亡，重启对话",
+      "reason": "黎以冲突升级，地区安全受威胁",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631283.shtml"
     },
     {
-      "title": "2026世界智能产业博览会开幕",
-      "reason": "AI合作新平台",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260528944128707121402ba992d0b46fdc580c"
+      "title": "蓝色起源火箭爆炸冲击太空股",
+      "reason": "蓝色起源爆炸致太空股大跌",
+      "link": "https://www.cls.cn/detail/2385946"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "蓝色起源火箭点火试验爆炸",
-      "summary": "美国蓝色起源火箭发动机点火时发生剧烈爆炸",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630682.shtml"
+      "short_title": "普京称俄乌冲突将结束",
+      "summary": "普京依据战场分析称冲突正趋向终结",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631313.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "中东两线交火或影响美伊停火",
-      "summary": "分析交火升级或拖累美伊停火进程",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260528c02b03291877460c897246b649e8abad"
+      "short_title": "以军空袭黎南致6死 黎以重启对话",
+      "summary": "以军空袭黎巴嫩南部致6人死亡，双方开启直接对话",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631283.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "血管芯片国家标准获批",
-      "summary": "监管总局正式发布首个血管芯片标准",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10630694.shtml"
+      "short_title": "电影导演协会发布2025荣誉提名",
+      "summary": "2025年度电影导演协会荣誉提名名单正式公布",
+      "link": "https://www.chinanews.com.cn/cul/2026/05-30/10631320.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "前四个月交通运输运行平稳",
-      "summary": "数据显示我国交通运输经济保持稳健",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10630667.shtml"
+      "short_title": "宁夏石嘴山发布十五五蓝图",
+      "summary": "石嘴山计划年均增长5%，打造产业转型人才基地",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631194.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "世界环境日在华实践彰显中国特色",
-      "summary": "刘友宾阐述中国在环境日的创新举措",
-      "link": "https://www.chinanews.com.cn/sh/2026/05-29/10630735.shtml"
+      "short_title": "中东欧媒体圆桌会在京举行",
+      "summary": "中东欧媒体与中国交流合作，推动互通互惠",
+      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631299.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "2026世界智能产业博览会开幕",
-      "summary": "中外聚焦AI+合作共谋产业新机遇",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260528944128707121402ba992d0b46fdc580c"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "莫言：AI难替代作家创作",
-      "summary": "莫言称AI是作家写作的“喂食”工具",
-      "link": "https://www.ithome.com/0/956/989.htm"
+      "short_title": "东盟AI跨境电商大赛南宁启动",
+      "summary": "面向东盟的AI+跨境电商创新应用大赛正式拉开帷幕",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631154.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗在霍尔木兹海峡警告射击",
-      "summary": "伊朗向违规船只发出射击警告",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630554.shtml"
+      "short_title": "刚果金埃博拉疑似病例逾千",
+      "summary": "刚果（金）报告逾千例埃博拉疑似病例，引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631242.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "南非央行上调利率25基点",
-      "summary": "南非央行宣布基准利率上调25个基点",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10630587.shtml"
+      "short_title": "蓝色起源火箭爆炸冲击太空股",
+      "summary": "蓝色起源火箭爆炸导致太空概念股大幅下跌",
+      "link": "https://www.cls.cn/detail/2385946"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数集体高开",
-      "summary": "超2600只个股上涨，市场情绪乐观",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10630630.shtml"
+      "short_title": "印尼盾连跌五日央行干预",
+      "summary": "印尼央行为遏制盾币跌势采取外汇市场干预",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10631096.shtml"
     }
   ],
   "futures": [
@@ -93,9 +87,9 @@
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,540.00",
-      "pct": 0.167681581502082,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -107,9 +101,9 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
@@ -119,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-29 12:54:46"
+  "updated_at": "2026-05-30 12:35:42"
 }

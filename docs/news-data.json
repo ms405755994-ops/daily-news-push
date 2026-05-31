@@ -1,79 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年5月30日 星期六（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年5月30日 星期六（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年5月31日 星期日（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年5月31日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "普京称俄乌冲突将终结",
-      "reason": "俄乌局势关键转折，全球关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631313.shtml"
+      "title": "华为徐直军感谢美国制裁",
+      "reason": "制裁促半导体成长",
+      "link": "https://www.ithome.com/0/957/730.htm"
     },
     {
-      "title": "以军空袭黎南致6亡，重启对话",
-      "reason": "黎以冲突升级，地区安全受威胁",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631283.shtml"
+      "title": "伊朗伊斯兰革命卫队击落美军无人机",
+      "reason": "伊朗美军紧张升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-31/10631664.shtml"
     },
     {
-      "title": "蓝色起源火箭爆炸冲击太空股",
-      "reason": "蓝色起源爆炸致太空股大跌",
-      "link": "https://www.cls.cn/detail/2385946"
+      "title": "美国称打击试图突破封锁的货船",
+      "reason": "美伊海上冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-31/10631665.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "普京称俄乌冲突将结束",
-      "summary": "普京依据战场分析称冲突正趋向终结",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631313.shtml"
+      "short_title": "华为徐直军称制裁促半导体成长",
+      "summary": "徐直军表示制裁让国产芯片链快速提升",
+      "link": "https://www.ithome.com/0/957/730.htm"
     },
     {
       "category": "突发新闻",
-      "short_title": "以军空袭黎南致6死 黎以重启对话",
-      "summary": "以军空袭黎巴嫩南部致6人死亡，双方开启直接对话",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631283.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "电影导演协会发布2025荣誉提名",
-      "summary": "2025年度电影导演协会荣誉提名名单正式公布",
-      "link": "https://www.chinanews.com.cn/cul/2026/05-30/10631320.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "宁夏石嘴山发布十五五蓝图",
-      "summary": "石嘴山计划年均增长5%，打造产业转型人才基地",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631194.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中东欧媒体圆桌会在京举行",
-      "summary": "中东欧媒体与中国交流合作，推动互通互惠",
-      "link": "https://www.chinanews.com.cn/gn/2026/05-30/10631299.shtml"
+      "short_title": "泽连斯基：乌将强化弹道导弹防御",
+      "summary": "乌克兰计划提升反弹道导弹拦截能力",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-31/10631599.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "东盟AI跨境电商大赛南宁启动",
-      "summary": "面向东盟的AI+跨境电商创新应用大赛正式拉开帷幕",
-      "link": "https://www.chinanews.com.cn/cj/2026/05-29/10631154.shtml"
+      "short_title": "AI时代如何培养青少年思维",
+      "summary": "探讨AI背景下青少年创新与批判思维培养路径",
+      "link": "https://www.chinanews.com.cn/edu/2026/05-31/10631693.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "全国首个绿色算力AI平台上线",
+      "summary": "全栈绿色算力平台正式运行，提升AI算力效率",
+      "link": "https://www.chinanews.com.cn/edu/2026/05-31/10631693.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "刚果金埃博拉疑似病例逾千",
-      "summary": "刚果（金）报告逾千例埃博拉疑似病例，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-30/10631242.shtml"
+      "short_title": "伊朗宣布全面管理霍尔木兹海峡航运",
+      "summary": "伊朗称将对该海峡船只实行全程监管",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-31/10631598.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "蓝色起源火箭爆炸冲击太空股",
-      "summary": "蓝色起源火箭爆炸导致太空概念股大幅下跌",
-      "link": "https://www.cls.cn/detail/2385946"
+      "short_title": "美军击沉试图突破封锁的货船",
+      "summary": "美国称击毁一艘向伊朗港口驶去的货船",
+      "link": "https://www.chinanews.com.cn/gj/2026/05-31/10631665.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "印尼盾连跌五日央行干预",
-      "summary": "印尼央行为遏制盾币跌势采取外汇市场干预",
-      "link": "https://www.chinanews.com.cn/gj/2026/05-29/10631096.shtml"
+      "short_title": "5月中国制造业PMI恰逢50点",
+      "summary": "5月制造业PMI为50.0，价格指数波动居高",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-30/10631541.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "MiniMax计划在A股上市",
+      "summary": "数智周报披露MiniMax将登陆A股市场",
+      "link": "https://i.ifeng.com/c/8tY6Mkd34jm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国机器人加速从量产到应用",
+      "summary": "国产机器人实现快速迭代，产业链加速升级",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-30/10631541.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国游客桌山遇险获救",
+      "summary": "中方感谢南非救援，游客安全返回",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-30/10631541.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "南部战区黄岩岛组织战备警巡",
+      "summary": "解放军在黄岩岛海空进行常态化巡航",
+      "link": "https://www.chinanews.com.cn/cj/2026/05-30/10631541.shtml"
     }
   ],
   "futures": [
@@ -113,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-05-30 12:35:42"
+  "updated_at": "2026-05-31 13:05:07"
 }

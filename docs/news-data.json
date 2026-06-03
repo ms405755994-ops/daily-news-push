@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年6月2日 星期二（农历二月初一）｜汕头：多云 33°C",
-  "date_text": "2026年6月2日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 33°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年6月3日 星期三（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年6月3日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗谴责美以违停火协议",
-      "reason": "中东局势紧张，或影响地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632584.shtml"
+      "title": "美伊再互袭 中东警报",
+      "reason": "中东局势升级，航班受影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633351.shtml"
     },
     {
-      "title": "AI概念活跃 煤炭逆市爆涨",
-      "reason": "AI概念推动煤炭股逆势大涨",
-      "link": "https://www.stcn.com/article/detail/3937245.html"
+      "title": "美军通报波斯湾油轮被袭",
+      "reason": "波斯湾紧张局势升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633255.shtml"
     },
     {
-      "title": "俄罗斯夜袭乌克兰致伤亡",
-      "reason": "俄乌冲突升级，平民伤亡增加",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632688.shtml"
+      "title": "欧央行称黄金成首要储备",
+      "reason": "黄金需求激增，冲击美元",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-03/10633423.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗指美以违停火 危言动用全力",
-      "summary": "伊朗谴责美以破停火协议，称必要时将动用一切能力。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632584.shtml"
+      "short_title": "美国伊朗互袭中东航班紧急停飞",
+      "summary": "波斯湾再爆冲突 多国警报 航班暂停。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633351.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美枪击案致7人死亡",
-      "summary": "美国发生严重枪击，已确认7人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632639.shtml"
+      "short_title": "真主党拒停火与以色列继续交火",
+      "summary": "黎巴嫩真主党拒部分停火 继续交火。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633244.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "未成年人保护红线 明确娱乐场所责任",
-      "summary": "剧本类娱乐场所未尽安全义务，将被追责。",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-02/10632734.shtml"
+      "short_title": "泽连斯基称俄袭击致乌22死130伤",
+      "summary": "乌克兰官员通报最新伤亡数字。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633250.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "法国峰会聚焦AI与数据中心",
-      "summary": "第九届‘选择法国’峰会重点讨论人工智能和数据中心项目...",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632573.shtml"
+      "short_title": "台风蔷薇袭日本东京多河面临泛滥",
+      "summary": "日本东京受台风影响 河流水位危急。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633365.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普怒斥内塔尼亚胡",
-      "summary": "特朗普批评以色列升级黎巴嫩局势，表示强烈不满。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632625.shtml"
+      "short_title": "快手发布CSR报告 创造4860万就...",
+      "summary": "快手平台带动近五千万人就业。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-03/10633346.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI概念带动煤炭股尾盘涨停",
-      "summary": "AI概念活跃，煤炭板块逆市多股尾盘涨停。",
-      "link": "https://www.stcn.com/article/detail/3937245.html"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "英伟达将推RTX Spark AI芯...",
-      "summary": "黄仁勋透露英伟达计划推出RTX Spark，打造完整...",
-      "link": "https://www.ithome.com/0/958/648.htm"
+      "short_title": "微软发布WebIQ API 降Tok...",
+      "summary": "新API专为AI智能体提升响应速度。",
+      "link": "https://www.ithome.com/0/959/014.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄夜袭乌克兰致4死16伤",
-      "summary": "俄罗斯夜间袭击乌克兰，造成4人死亡、16人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-02/10632688.shtml"
+      "short_title": "莫斯科迎中国游客中文导游餐厅配套",
+      "summary": "俄罗斯提供中文服务 吸引中国游客。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-03/10633320.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "蓝色起源格伦火箭试车爆炸",
-      "summary": "蓝色起源新格伦火箭试车爆炸，NASA称发射台或202...",
-      "link": "https://www.ithome.com/0/958/639.htm"
+      "short_title": "欧央行称黄金成首选储备资产",
+      "summary": "黄金将取代美债 成全球首位储备资产。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-03/10633423.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股三指数收涨创业板破4200",
+      "summary": "沪深指数全线上涨 创业板突破4200点。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-03/10633476.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "日元跌破160区间油价推高抛售压力",
+      "summary": "油价上涨导致日元汇率再度下跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-03/10633433.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-02 13:12:27"
+  "updated_at": "2026-06-03 13:28:25"
 }

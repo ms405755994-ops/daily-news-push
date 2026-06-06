@@ -1,87 +1,26 @@
 {
-  "title": "MSAI今日新闻｜2026年6月5日 星期五（农历二月初一）｜汕头：多云 34°C",
-  "date_text": "2026年6月5日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 34°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年6月6日 星期六（农历二月初一）｜汕头：阴 27°C",
+  "date_text": "2026年6月6日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 27°C",
+  "total_count": 0,
   "hotspots": [
     {
-      "title": "以色列空袭黎巴嫩致9死",
-      "reason": "中东冲突升级，伤亡严重",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-05/10634548.shtml"
+      "title": "美军击落伊朗无人机",
+      "reason": "突发军事冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-06/10635233.shtml"
     },
     {
-      "title": "A股超2600只跌绿指数低开",
-      "reason": "股市大幅下跌，资金紧张",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-05/10634558.shtml"
+      "title": "美股黑色星期五纳指跌",
+      "reason": "金融市场大跌",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-06/10635258.shtml"
     },
     {
-      "title": "腾讯AI下半场三大方向",
-      "reason": "AI布局升级，行业关注",
-      "link": "https://www.ithome.com/0/960/355.htm"
+      "title": "谷歌不设AI模式为默认",
+      "reason": "AI技术应用动态",
+      "link": "https://www.ithome.com/0/960/832.htm"
     }
   ],
-  "news_items": [
-    {
-      "category": "突发新闻",
-      "short_title": "以色列空袭黎巴嫩致9死",
-      "summary": "以军继续空袭，导致至少9人死亡，多人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-05/10634548.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "本溪商铺爆炸致2死13伤",
-      "summary": "辽宁本溪一商铺发生爆炸，已确认2人死亡13人受伤",
-      "link": "https://www.chinanews.com.cn/sh/2026/06-05/10634642.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "监管总局发布2025反垄断报告",
-      "summary": "市场监管总局公布2025年度反垄断执法情况",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-05/10634678.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "A股开盘超2600股跌 三指数低开",
-      "summary": "超2600只个股下跌，沪深三大指数集体低开",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-05/10634558.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中东冲突加剧公共财政压力",
-      "summary": "报告称中东局势使各国财政负担显著上升",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-05/10634535.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "高盛称SpaceX估值1.78万亿美...",
-      "summary": "若SpaceX上市，估值或达1.78万亿美元，AI收...",
-      "link": "https://www.ithome.com/0/960/176.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "腾讯高层透露AI下半场三大方向",
-      "summary": "汤道生承认业务差异，姚顺雨指AI将聚焦三方向",
-      "link": "https://www.ithome.com/0/960/355.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "古巴回应美最新制裁措施",
-      "summary": "古巴官方对美国最新制裁决定作出回应",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-05/10634650.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "中东冲突加剧公共财政压力",
-      "summary": "报告称中东局势使各国财政负担显著上升",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-05/10634535.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "贸促会称将对美强迫劳动加征关税",
-      "summary": "中国贸促会就美方强迫劳动调查提出加税方案",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-05/10634516.shtml"
-    }
-  ],
+  "news_items": [],
   "futures": [
     {
       "name": "WTI原油",
@@ -119,5 +58,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-05 12:59:19"
+  "updated_at": "2026-06-06 12:40:19"
 }

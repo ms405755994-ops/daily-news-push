@@ -1,77 +1,83 @@
 {
-  "title": "MSAI今日新闻｜2026年6月8日 星期一（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年6月8日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
-  "total_count": 6,
+  "title": "MSAI今日新闻｜2026年6月9日 星期二（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年6月9日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 26°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "伊朗向以色列发射导弹",
-      "reason": "中东局势再度紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636198.shtml"
+      "title": "伊以互袭致油价涨停",
+      "reason": "中东冲突升级，原油行情波动",
+      "link": "https://www.stcn.com/article/detail/3948593.html"
     },
     {
-      "title": "多米尼加私人飞机坠毁",
-      "reason": "美国公民遇难引关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636144.shtml"
+      "title": "内塔尼亚胡：对伊朗的袭击已“暂停...",
+      "reason": "以方称暂停攻击，局势或缓和",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636638.shtml"
     },
     {
-      "title": "菲律宾海域7.9级地震",
-      "reason": "可能引发海啸，损失严重",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636066.shtml"
+      "title": "美军直升机坠霍尔木兹海峡",
+      "reason": "美军机失事，海峡局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636818.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗向以色列发射导弹 拉响防空警报",
-      "summary": "伊朗多地向以色列发射导弹，防空警报连响。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636198.shtml"
+      "short_title": "伊以互射导弹 原油涨停",
+      "summary": "伊朗发射导弹 以军打击石化 多只原油LOF涨停",
+      "link": "https://www.stcn.com/article/detail/3948593.html"
     },
     {
       "category": "突发新闻",
-      "short_title": "多米尼加私人飞机坠毁 两美公民遇难",
-      "summary": "多米尼加空中事故致两名美国公民死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636144.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "菲律宾棉兰老岛7.9级海底地震 可能...",
-      "summary": "海域强震或引发海啸，菲律宾启动应急。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636066.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "冈比亚副总统赞中发展理念 共享幸福",
-      "summary": "副总统贾洛称发展为人民幸福，中国理念相同。",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-08/10636177.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "耶路撒冷传爆炸声 当局紧急调查",
-      "summary": "耶路撒冷出现爆炸声，警方展开调查。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636188.shtml"
+      "short_title": "菲律宾强震致37死 中领馆无中国伤亡",
+      "summary": "菲律宾南部强震已致37人死亡，中国公民暂无报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636758.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "印尼苏拉威西海6.9级地震 震源深6...",
-      "summary": "苏拉威西海附近发生6.9级地震，震源深60公里。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-08/10636044.shtml"
+      "short_title": "美军直升机在霍尔木兹海峡坠毁",
+      "summary": "美军一架直升机在霍尔木兹海峡附近失事，暂无人员伤亡报...",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636818.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "联合国追悼136名因公殉职人员",
+      "summary": "古特雷斯呼吁追究袭击责任，纪念136名联合国因公牺牲...",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636708.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股三大指数高开 存储芯片领涨",
+      "summary": "沪深指数集体高开，存储芯片板块表现最强",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-09/10636731.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美军在阿曼湾袭击油轮 引发油价关注",
+      "summary": "美军中央司令部称在阿曼湾击中油轮，市场关注油价波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636642.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "三峡水运新通道开工 长江黄金水道扩容",
+      "summary": "三峡水运新通道正式开工，提升长江运输能力",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-08/10636624.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "94.52",
-      "pct": 4.3958471393858956,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,329.80",
-      "pct": -0.813231622110737,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -83,17 +89,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-08 13:14:39"
+  "updated_at": "2026-06-09 12:47:12"
 }

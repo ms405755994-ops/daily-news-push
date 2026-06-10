@@ -1,67 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年6月9日 星期二（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年6月9日 星期二（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年6月10日 星期三（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年6月10日 星期三（农历二月初一）",
   "weather_text": "汕头：阴 26°C",
-  "total_count": 7,
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "伊以互袭致油价涨停",
-      "reason": "中东冲突升级，原油行情波动",
-      "link": "https://www.stcn.com/article/detail/3948593.html"
+      "title": "约旦击落伊朗导弹",
+      "reason": "约旦拦截伊朗导弹，地区紧张升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637514.shtml"
     },
     {
-      "title": "内塔尼亚胡：对伊朗的袭击已“暂停...",
-      "reason": "以方称暂停攻击，局势或缓和",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636638.shtml"
+      "title": "伊朗向中东美军基地发射导弹",
+      "reason": "伊朗向美军基地发射导弹，冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637513.shtml"
     },
     {
-      "title": "美军直升机坠霍尔木兹海峡",
-      "reason": "美军机失事，海峡局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636818.shtml"
+      "title": "温医大携手京东健康实现医疗AI落...",
+      "reason": "医疗AI全场景落地，推动行业创新",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637461.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊以互射导弹 原油涨停",
-      "summary": "伊朗发射导弹 以军打击石化 多只原油LOF涨停",
-      "link": "https://www.stcn.com/article/detail/3948593.html"
+      "short_title": "约旦击落伊朗导弹5枚",
+      "summary": "约旦防空拦截伊朗发射的5枚导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637514.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "菲律宾强震致37死 中领馆无中国伤亡",
-      "summary": "菲律宾南部强震已致37人死亡，中国公民暂无报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636758.shtml"
+      "short_title": "美军直升机霍尔木兹坠毁",
+      "summary": "两名飞行员获救，坠机原因尚未明朗",
+      "link": "https://www.voachinese.com/a/two-pilots-rescued-after-us-army-helicopter-crashes-near-hormuz-strait-under-unspecified-circumstances-20260609/8158935.html"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "美军直升机在霍尔木兹海峡坠毁",
-      "summary": "美军一架直升机在霍尔木兹海峡附近失事，暂无人员伤亡报...",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636818.shtml"
+      "category": "AI重点",
+      "short_title": "温医大与京东健康共建医疗AI",
+      "summary": "实现AI在医疗全流程的落地应用",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637461.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "联合国追悼136名因公殉职人员",
-      "summary": "古特雷斯呼吁追究袭击责任，纪念136名联合国因公牺牲...",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636708.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股三大指数高开 存储芯片领涨",
-      "summary": "沪深指数集体高开，存储芯片板块表现最强",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-09/10636731.shtml"
+      "category": "AI重点",
+      "short_title": "新疆算力布局显优势",
+      "summary": "推动绿色算力发展，提升产业竞争力",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637479.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美军在阿曼湾袭击油轮 引发油价关注",
-      "summary": "美军中央司令部称在阿曼湾击中油轮，市场关注油价波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-09/10636642.shtml"
+      "short_title": "5月CPI涨1.2% 猪肉降16%",
+      "summary": "5月居民消费指数小幅上升，猪肉价格显著回落",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637517.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午评：超4300股下跌",
+      "summary": "三大指数全线收跌，市场情绪偏弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637506.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "中东战事致原料涨价 印度补贴翻倍",
+      "summary": "印度化肥企业因原料成本上升请求加倍补贴",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637470.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "国台办称和平统一消除台独战争风险",
+      "summary": "统一后将根除台独导致的战争可能",
+      "link": "https://www.chinanews.com.cn/gn/2026/06-10/10637524.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "三峡水运新通道开工 长江黄金水道扩容",
-      "summary": "三峡水运新通道正式开工，提升长江运输能力",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-08/10636624.shtml"
+      "short_title": "阿里回应“置身钉内”争议",
+      "summary": "阿里内部批评钉钉管理方式，引发关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637526.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "闽商文化产业年会在福州召开",
+      "summary": "聚焦文化经济，推动闽商产业创新发展",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637500.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "三峡水运新通道打造黄金水道",
+      "summary": "新通道提升运输效率，助力区域经济增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637430.shtml"
     }
   ],
   "futures": [
@@ -101,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-09 12:47:12"
+  "updated_at": "2026-06-10 13:00:43"
 }

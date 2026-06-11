@@ -1,91 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年6月10日 星期三（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年6月10日 星期三（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
+  "title": "MSAI今日新闻｜2026年6月11日 星期四（农历二月初一）｜汕头：阴 28°C",
+  "date_text": "2026年6月11日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "约旦击落伊朗导弹",
-      "reason": "约旦拦截伊朗导弹，地区紧张升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637514.shtml"
+      "title": "伊朗多地爆炸德黑兰启防空",
+      "reason": "中东局势紧张，突发安全事件",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638041.shtml"
     },
     {
-      "title": "伊朗向中东美军基地发射导弹",
-      "reason": "伊朗向美军基地发射导弹，冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637513.shtml"
+      "title": "美对伊新袭击 金价跌至低点",
+      "reason": "美伊冲突牵动金市股市",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638161.shtml"
     },
     {
-      "title": "温医大携手京东健康实现医疗AI落...",
-      "reason": "医疗AI全场景落地，推动行业创新",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637461.shtml"
+      "title": "两部委发布AI应用指南",
+      "reason": "政策推动AI落地应用",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638198.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "约旦击落伊朗导弹5枚",
-      "summary": "约旦防空拦截伊朗发射的5枚导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637514.shtml"
+      "short_title": "伊朗多地爆炸 启动防空",
+      "summary": "德黑兰等地传爆炸声 防空系统紧急启动",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638041.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美军直升机霍尔木兹坠毁",
-      "summary": "两名飞行员获救，坠机原因尚未明朗",
-      "link": "https://www.voachinese.com/a/two-pilots-rescued-after-us-army-helicopter-crashes-near-hormuz-strait-under-unspecified-circumstances-20260609/8158935.html"
+      "short_title": "尼日利亚学校遭袭 4人死亡",
+      "summary": "中部学校被武装袭击 死亡包括武装人员",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638129.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国代表称对伊核对抗无效",
+      "summary": "中方强调政治对抗难以解决伊朗核问题",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638200.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "台积电CFO：通胀或调价",
+      "summary": "成本上升或导致晶圆代工价格上调",
+      "link": "https://www.ithome.com/0/962/835.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美国博主陕西顺风车引热议",
+      "summary": "美国博主在陕西乡村搭车 引发网友讨论",
+      "link": "http://www.chinanews.com.cn/sh/shipin/2026/06-11/news1057487.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "温医大与京东健康共建医疗AI",
-      "summary": "实现AI在医疗全流程的落地应用",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637461.shtml"
+      "short_title": "微软淡化Win11 AI+PC功能",
+      "summary": "向6GB显存显卡开放本地AI 加强兼容性",
+      "link": "https://www.ithome.com/0/962/809.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "新疆算力布局显优势",
-      "summary": "推动绿色算力发展，提升产业竞争力",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637479.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "5月CPI涨1.2% 猪肉降16%",
-      "summary": "5月居民消费指数小幅上升，猪肉价格显著回落",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637517.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股午评：超4300股下跌",
-      "summary": "三大指数全线收跌，市场情绪偏弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637506.shtml"
+      "short_title": "两部门发布AI赋能指南",
+      "summary": "分行业分领域推出人工智能应用指南",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638198.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中东战事致原料涨价 印度补贴翻倍",
-      "summary": "印度化肥企业因原料成本上升请求加倍补贴",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-10/10637470.shtml"
+      "short_title": "伊朗再次关闭霍尔木兹海峡",
+      "summary": "伊朗宣布对所有船只关闭重要航道",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638080.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "国台办称和平统一消除台独战争风险",
-      "summary": "统一后将根除台独导致的战争可能",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-10/10637524.shtml"
+      "short_title": "以色列指黎真主党阻和平",
+      "summary": "以方称黎真主党妨碍和平进程",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638130.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "阿里回应“置身钉内”争议",
-      "summary": "阿里内部批评钉钉管理方式，引发关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637526.shtml"
+      "category": "金融重点",
+      "short_title": "美对伊新袭击金价跌至低点",
+      "summary": "美军对伊新打击致金价跌至七个月低",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638161.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "闽商文化产业年会在福州召开",
-      "summary": "聚焦文化经济，推动闽商产业创新发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637500.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "三峡水运新通道打造黄金水道",
-      "summary": "新通道提升运输效率，助力区域经济增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-10/10637430.shtml"
+      "category": "金融重点",
+      "short_title": "京津冀进出口同比增14.4%",
+      "summary": "今年前5个月地区进出口增长显著",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638216.shtml"
     }
   ],
   "futures": [
@@ -125,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-10 13:00:43"
+  "updated_at": "2026-06-11 13:11:12"
 }

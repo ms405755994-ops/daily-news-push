@@ -1,107 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年6月11日 星期四（农历二月初一）｜汕头：阴 28°C",
-  "date_text": "2026年6月11日 星期四（农历二月初一）",
-  "weather_text": "汕头：阴 28°C",
+  "title": "MSAI今日新闻｜2026年6月12日 星期五（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年6月12日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "伊朗多地爆炸德黑兰启防空",
-      "reason": "中东局势紧张，突发安全事件",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638041.shtml"
+      "title": "伊朗海岸爆炸声传出",
+      "reason": "伊朗海岸突发爆炸，安全风险升高",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10638787.shtml"
     },
     {
-      "title": "美对伊新袭击 金价跌至低点",
-      "reason": "美伊冲突牵动金市股市",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638161.shtml"
+      "title": "中东战争致能源涨 美5月PPI高",
+      "reason": "中东冲突推高能源价格，致美国通胀指标上扬",
+      "link": "https://wap.eastmoney.com/a/202606113768627090.html"
     },
     {
-      "title": "两部委发布AI应用指南",
-      "reason": "政策推动AI落地应用",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638198.shtml"
+      "title": "阿里云王坚：AI冲击科研与程序员",
+      "reason": "AI技术改变科研模式，也冲击程序员岗位",
+      "link": "https://www.ithome.com/0/963/401.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗多地爆炸 启动防空",
-      "summary": "德黑兰等地传爆炸声 防空系统紧急启动",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638041.shtml"
+      "short_title": "伊朗锡里克海岸爆炸",
+      "summary": "伊朗锡里克海岸传出爆炸声，外媒报道。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10638787.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "尼日利亚学校遭袭 4人死亡",
-      "summary": "中部学校被武装袭击 死亡包括武装人员",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638129.shtml"
+      "short_title": "美务院庆世界杯 伊朗讽海报",
+      "summary": "美国务院庆世界杯，伊朗使馆发布讽刺“战争杯”海报。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10638984.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国代表称对伊核对抗无效",
-      "summary": "中方强调政治对抗难以解决伊朗核问题",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638200.shtml"
+      "short_title": "墨西哥中国公民安全提醒",
+      "summary": "中国驻墨使领馆提醒在墨公民注意人身财产安全。",
+      "link": "https://www.chinanews.com.cn/hr/2026/06-12/10638951.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "台积电CFO：通胀或调价",
-      "summary": "成本上升或导致晶圆代工价格上调",
-      "link": "https://www.ithome.com/0/962/835.htm"
+      "short_title": "上交会“六臂玄甲”机器人亮相",
+      "summary": "上交会首发空间异构六臂具身智能机器人“六臂玄甲”。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-12/10638874.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美国博主陕西顺风车引热议",
-      "summary": "美国博主在陕西乡村搭车 引发网友讨论",
-      "link": "http://www.chinanews.com.cn/sh/shipin/2026/06-11/news1057487.shtml"
+      "short_title": "“人权餐桌”下美国童工泪",
+      "summary": "纪录片揭示美国童工在“人权餐桌”下的艰辛与泪水。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10638922.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "微软淡化Win11 AI+PC功能",
-      "summary": "向6GB显存显卡开放本地AI 加强兼容性",
-      "link": "https://www.ithome.com/0/962/809.htm"
+      "short_title": "多国专家议AI发展权机遇挑战",
+      "summary": "多国专家围绕AI时代发展权展开机遇与挑战讨论。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10638909.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "两部门发布AI赋能指南",
-      "summary": "分行业分领域推出人工智能应用指南",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638198.shtml"
+      "short_title": "阿里云王坚谈AI冲击科研与程序员",
+      "summary": "阿里云创始人王坚称AI将冲击科研与程序员工作方式。",
+      "link": "https://www.ithome.com/0/963/401.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗再次关闭霍尔木兹海峡",
-      "summary": "伊朗宣布对所有船只关闭重要航道",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638080.shtml"
+      "short_title": "中东冲突推能源涨 美5月PPI创新高",
+      "summary": "中东战争推高能源成本，美国5月PPI创三年新高。",
+      "link": "https://wap.eastmoney.com/a/202606113768627090.html"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列指黎真主党阻和平",
-      "summary": "以方称黎真主党妨碍和平进程",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-11/10638130.shtml"
+      "short_title": "北京制裁菲律宾防长 引发地区紧张",
+      "summary": "北京对菲律宾防长及亲属实施制裁，地区紧张局势升温。",
+      "link": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260611-%E8%8F%B2%E6%80%BB%E7%BB%9F%E5%BA%9C%E7%A7%B0%E5%B0%8F%E9%A9%AC%E7%A7%91%E6%96%AF%E7%AB%8B%E5%9C%BA%E4%BB%8D%E5%BE%88%E6%98%8E%E7%A1%AE-%E5%8C%97%E4%BA%AC%E5%88%B6%E8%A3%81%E8%8F%B2%E9%98%B2%E9%95%BF%E7%89%B9%E5%A5%A5%E5%A4%9A%E7%BD%97%E5%8F%8A%E5%85%B6%E4%BA%B2%E5%B1%9E"
     },
     {
       "category": "金融重点",
-      "short_title": "美对伊新袭击金价跌至低点",
-      "summary": "美军对伊新打击致金价跌至七个月低",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638161.shtml"
+      "short_title": "A股三大指数收涨 超4500股飘红",
+      "summary": "A股三大指数集体收涨，超4500只个股飘红。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-12/10638956.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "京津冀进出口同比增14.4%",
-      "summary": "今年前5个月地区进出口增长显著",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-11/10638216.shtml"
+      "short_title": "央行提醒防范贷款流水诈骗",
+      "summary": "央行提醒防范以“贷款流水”名义的账号密码及U盾诈骗。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-12/10638988.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "86.02",
+      "pct": -1.92680424124957,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,210.22",
+      "pct": 2.3388429752066178,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,17 +113,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-06-11 13:11:12"
+  "updated_at": "2026-06-12 13:16:11"
 }

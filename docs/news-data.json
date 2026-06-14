@@ -1,79 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年6月13日 星期六（农历二月初一）｜汕头：阴 27°C",
-  "date_text": "2026年6月13日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 27°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年6月14日 星期日（农历二月初一）｜汕头：小雨 26°C",
+  "date_text": "2026年6月14日 星期日（农历二月初一）",
+  "weather_text": "汕头：小雨 26°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "药明康德起诉美军部",
-      "reason": "中美军工争议突发",
-      "link": "https://www.voachinese.com/a/is-wuxi-apptec-a-chinese-military-company-congress-has-the-answer-20260612/8160159.html"
+      "title": "以军袭击黎巴嫩已致3756人死亡",
+      "reason": "中东冲突升级，死亡人数激增",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640073.shtml"
     },
     {
-      "title": "苏丹北部遭无人机袭击",
-      "reason": "冲突升级致16人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10639408.shtml"
+      "title": "美南卡购物中心枪击 多人受伤",
+      "reason": "突发枪击致多人受伤，引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640123.shtml"
     },
     {
-      "title": "AI推动工业数智化",
-      "reason": "AI产业新机遇受关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-13/10639680.shtml"
+      "title": "特斯拉AI6芯片创算力纪录",
+      "reason": "AI芯片算力突破，业界关注",
+      "link": "https://www.ithome.com/0/964/051.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "药明康德起诉美国国防部涉军争议",
-      "summary": "药明康德指美国将其列入军工名单，提起诉讼。",
-      "link": "https://www.voachinese.com/a/is-wuxi-apptec-a-chinese-military-company-congress-has-the-answer-20260612/8160159.html"
+      "short_title": "美南卡购物中心枪击致多人受伤",
+      "summary": "南卡州购物中心发生枪击，数人受伤，警方已介入。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640123.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "苏丹北部要地遭无人机袭击致16人亡",
-      "summary": "苏丹北部战略地点被无人机轰炸，死亡人数至少16人。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10639408.shtml"
+      "short_title": "以军空袭黎巴嫩死亡人数升至3756",
+      "summary": "以军对黎巴嫩持续空袭，已致3756人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640073.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国非遗馆开展文化自然遗产日",
+      "summary": "非遗馆举办系列活动，宣传文化与自然遗产。",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260613844fba9c13d64949a41ba3b2b84ae084"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "经济大省创新驱动产业升级",
+      "summary": "大省通过“脑”赋能“眼”，推动产业新突破。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-13/10640026.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI驱动工业数智化 上海业界热议",
-      "summary": "人工智能提升制造业效率，推动数智化转型。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-13/10639680.shtml"
+      "short_title": "小米高管谈大模型重返竞争",
+      "summary": "小米新媒体工程师称大模型技术竞争激烈。",
+      "link": "https://www.ithome.com/0/964/056.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "AI催生“一人公司” 中关村创业热潮",
-      "summary": "人工智能工具帮助个人创业，形成“一人公司”新模式。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-13/10639682.shtml"
+      "short_title": "马斯克称特斯拉AI6芯片创算力纪录",
+      "summary": "特斯拉AI6芯片有望实现单块晶圆最高算力。",
+      "link": "https://www.ithome.com/0/964/051.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "厄尔尼诺来袭 预计中国汛期极端天气增...",
-      "summary": "赤道太平洋厄尔尼诺导致中国主汛期降雨偏强。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10639409.shtml"
+      "short_title": "伊朗外交部称美伊谅解仅为对话",
+      "summary": "伊朗称与美国的潜在谅解非最终协议，仅续谈判。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-13/10640059.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗媒体称美伊协议为无稽之谈",
-      "summary": "伊朗媒体质疑美伊最新协议的真实性。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-12/10639538.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国藏语系佛学院招生考试圆满结束",
-      "summary": "2026年高级学衔班考试顺利完成。",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-13/10639689.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "世界杯美国赛区揭幕 美国4:1大胜巴...",
-      "summary": "美国队首场比赛大比分取胜，开启赛季。",
-      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/06-13/1194153.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "粤港澳大湾区跨境算力专区正式启用",
-      "summary": "新算力平台助力区域数字经济发展。",
-      "link": "https://www.chinanews.com.cn/dwq/2026/06-13/10639685.shtml"
+      "short_title": "乌克兰提升士兵待遇并招募外籍战斗员",
+      "summary": "乌克兰大幅提高军人薪酬，计划吸引外国志愿者。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-13/10639677.shtml"
     }
   ],
   "futures": [
@@ -113,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-13 13:06:21"
+  "updated_at": "2026-06-14 13:19:06"
 }

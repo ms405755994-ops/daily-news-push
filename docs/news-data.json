@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年6月14日 星期日（农历二月初一）｜汕头：小雨 26°C",
-  "date_text": "2026年6月14日 星期日（农历二月初一）",
-  "weather_text": "汕头：小雨 26°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年6月15日 星期一（农历二月初一）｜汕头：阴 27°C",
+  "date_text": "2026年6月15日 星期一（农历二月初一）",
+  "weather_text": "汕头：阴 27°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "以军袭击黎巴嫩已致3756人死亡",
-      "reason": "中东冲突升级，死亡人数激增",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640073.shtml"
+      "title": "伊朗总统：战争决定权在伊",
+      "reason": "伊朗战争决策突显地区紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640399.shtml"
     },
     {
-      "title": "美南卡购物中心枪击 多人受伤",
-      "reason": "突发枪击致多人受伤，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640123.shtml"
+      "title": "联合国谴责以色列袭击黎巴嫩",
+      "reason": "联合国谴责以黎冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640408.shtml"
     },
     {
-      "title": "特斯拉AI6芯片创算力纪录",
-      "reason": "AI芯片算力突破，业界关注",
-      "link": "https://www.ithome.com/0/964/051.htm"
+      "title": "乌克兰：俄对基辅大规模袭击",
+      "reason": "俄乌大规模冲突引全球关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640430.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美南卡购物中心枪击致多人受伤",
-      "summary": "南卡州购物中心发生枪击，数人受伤，警方已介入。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640123.shtml"
+      "short_title": "伊朗总统称决策在伊",
+      "summary": "伊朗最高安全委员会确认伊美备忘录",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640399.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以军空袭黎巴嫩死亡人数升至3756",
-      "summary": "以军对黎巴嫩持续空袭，已致3756人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640073.shtml"
+      "short_title": "联合国谴责以军轰贝鲁特",
+      "summary": "安理会批以色列对黎巴嫩袭击",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640408.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国非遗馆开展文化自然遗产日",
-      "summary": "非遗馆举办系列活动，宣传文化与自然遗产。",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260613844fba9c13d64949a41ba3b2b84ae084"
+      "short_title": "英法德意将解伊朗制裁",
+      "summary": "四国联合声明准备取消对伊制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640453.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "经济大省创新驱动产业升级",
-      "summary": "大省通过“脑”赋能“眼”，推动产业新突破。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-13/10640026.shtml"
+      "short_title": "中国纯硅突破量子芯片",
+      "summary": "攻克硅基量子芯片关键材料",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-15/10640632.shtml"
     },
     {
-      "category": "AI重点",
-      "short_title": "小米高管谈大模型重返竞争",
-      "summary": "小米新媒体工程师称大模型技术竞争激烈。",
-      "link": "https://www.ithome.com/0/964/056.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "马斯克称特斯拉AI6芯片创算力纪录",
-      "summary": "特斯拉AI6芯片有望实现单块晶圆最高算力。",
-      "link": "https://www.ithome.com/0/964/051.htm"
+      "category": "今日三大新闻",
+      "short_title": "特朗普称美伊协议开航",
+      "summary": "美伊达成协议，霍尔木兹海峡通航",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640410.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗外交部称美伊谅解仅为对话",
-      "summary": "伊朗称与美国的潜在谅解非最终协议，仅续谈判。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-13/10640059.shtml"
+      "short_title": "美伊协议曝光将解制裁",
+      "summary": "美国将取消伊朗制裁并解冻资产",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640415.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "乌克兰提升士兵待遇并招募外籍战斗员",
-      "summary": "乌克兰大幅提高军人薪酬，计划吸引外国志愿者。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-13/10639677.shtml"
+      "short_title": "俄大规模袭击基辅",
+      "summary": "乌克兰称俄军对首都发动猛烈攻击",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640430.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "美对Anthropic实施管制",
+      "summary": "加拿大总理警示模型依赖风险",
+      "link": "https://www.ithome.com/0/964/359.htm"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "派安盈：中国创新支点",
+      "summary": "全球副总裁看好中国市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-15/10640641.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午评超3300只飘红",
+      "summary": "三大指数集体收涨，行情向好",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-15/10640629.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-14 13:19:06"
+  "updated_at": "2026-06-15 13:41:34"
 }

@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年6月15日 星期一（农历二月初一）｜汕头：阴 27°C",
-  "date_text": "2026年6月15日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 27°C",
+  "title": "MSAI今日新闻｜2026年6月16日 星期二（农历二月初一）｜汕头：小雨 26°C",
+  "date_text": "2026年6月16日 星期二（农历二月初一）",
+  "weather_text": "汕头：小雨 26°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗总统：战争决定权在伊",
-      "reason": "伊朗战争决策突显地区紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640399.shtml"
+      "title": "欧盟对俄罗斯追加制裁措施",
+      "reason": "欧盟加码制裁俄罗斯",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10641047.shtml"
     },
     {
-      "title": "联合国谴责以色列袭击黎巴嫩",
-      "reason": "联合国谴责以黎冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640408.shtml"
+      "title": "霍尔木兹海峡爆炸声",
+      "reason": "海峡爆炸引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641083.shtml"
     },
     {
-      "title": "乌克兰：俄对基辅大规模袭击",
-      "reason": "俄乌大规模冲突引全球关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640430.shtml"
+      "title": "全球AI提振港股",
+      "reason": "AI热潮推动股市回暖",
+      "link": "https://www.cls.cn/detail/2400421"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗总统称决策在伊",
-      "summary": "伊朗最高安全委员会确认伊美备忘录",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-14/10640399.shtml"
+      "short_title": "霍尔木兹海峡传爆炸声",
+      "summary": "伊媒称爆炸或为交通疏导所致",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641083.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "联合国谴责以军轰贝鲁特",
-      "summary": "安理会批以色列对黎巴嫩袭击",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640408.shtml"
+      "short_title": "印尼海域6.7级地震或致海啸",
+      "summary": "震源浅层，局部海域可能出现海啸",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641310.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "英法德意将解伊朗制裁",
-      "summary": "四国联合声明准备取消对伊制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640453.shtml"
+      "short_title": "前5月社会消费零售额增2.8%",
+      "summary": "消费保持增长，经济基本面向好",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-16/10641339.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国纯硅突破量子芯片",
-      "summary": "攻克硅基量子芯片关键材料",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-15/10640632.shtml"
+      "short_title": "欧盟对俄追加新制裁",
+      "summary": "欧盟扩大制裁范围，针对能源与金融",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10641047.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普称美伊协议开航",
-      "summary": "美伊达成协议，霍尔木兹海峡通航",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640410.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美伊协议曝光将解制裁",
-      "summary": "美国将取消伊朗制裁并解冻资产",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640415.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "俄大规模袭击基辅",
-      "summary": "乌克兰称俄军对首都发动猛烈攻击",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10640430.shtml"
+      "short_title": "德央行行长称美伊协议难降油价",
+      "summary": "协议对通胀和油价影响有限",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641063.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "美对Anthropic实施管制",
-      "summary": "加拿大总理警示模型依赖风险",
-      "link": "https://www.ithome.com/0/964/359.htm"
+      "short_title": "Marvell押注光互连加速AI算力",
+      "summary": "光互连技术助力千公里AI数据中心",
+      "link": "https://www.ithome.com/0/964/763.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "谷歌发布Gemini 3.5 Fla...",
+      "summary": "新模型成本最高，性能领先",
+      "link": "https://www.ithome.com/0/964/763.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美军继续封锁伊朗港口",
+      "summary": "联合海上信息中心证实美军行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641071.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "菲律宾5.3级地震震源深40公里",
+      "summary": "暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641062.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "派安盈：中国创新支点",
-      "summary": "全球副总裁看好中国市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-15/10640641.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股午评超3300只飘红",
-      "summary": "三大指数集体收涨，行情向好",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-15/10640629.shtml"
+      "short_title": "港股AI景气共振推动恒指波动",
+      "summary": "AI热潮提振港股，短线仍有抛压",
+      "link": "https://www.cls.cn/detail/2400421"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-15 13:41:34"
+  "updated_at": "2026-06-16 14:08:49"
 }

@@ -1,101 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年6月16日 星期二（农历二月初一）｜汕头：小雨 26°C",
-  "date_text": "2026年6月16日 星期二（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年6月17日 星期三（农历二月初一）｜汕头：小雨 26°C",
+  "date_text": "2026年6月17日 星期三（农历二月初一）",
   "weather_text": "汕头：小雨 26°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "欧盟对俄罗斯追加制裁措施",
-      "reason": "欧盟加码制裁俄罗斯",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10641047.shtml"
+      "title": "伊朗称以军袭击黎巴嫩民众",
+      "reason": "中东局势升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10642146.shtml"
     },
     {
-      "title": "霍尔木兹海峡爆炸声",
-      "reason": "海峡爆炸引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641083.shtml"
+      "title": "特朗普：美或重启俄石油制裁",
+      "reason": "美俄能源制裁或波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10641900.shtml"
     },
     {
-      "title": "全球AI提振港股",
-      "reason": "AI热潮推动股市回暖",
-      "link": "https://www.cls.cn/detail/2400421"
+      "title": "七国峰会讨论伊朗乌克兰战争",
+      "reason": "G7聚焦伊朗乌克兰冲突",
+      "link": "https://www.voachinese.com/a/g7-leaders-discuss-iran-ukraine-war-during-day-2-of-evian-summit-20260616/8161473.html"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "霍尔木兹海峡传爆炸声",
-      "summary": "伊媒称爆炸或为交通疏导所致",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641083.shtml"
+      "short_title": "伊军仍袭黎巴嫩平民",
+      "summary": "伊朗武装部队指以军继续攻击黎巴嫩平民",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10642146.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "印尼海域6.7级地震或致海啸",
-      "summary": "震源浅层，局部海域可能出现海啸",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641310.shtml"
+      "short_title": "以色列撤销伊朗空袭计划",
+      "summary": "以方在最后时刻取消对伊朗的大规模空袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10641887.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "前5月社会消费零售额增2.8%",
-      "summary": "消费保持增长，经济基本面向好",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-16/10641339.shtml"
+      "short_title": "重卡工厂机器人热潮",
+      "summary": "中国重卡生产线引入大量机器人提升效率",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-17/10642021.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "欧盟对俄追加新制裁",
-      "summary": "欧盟扩大制裁范围，针对能源与金融",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-15/10641047.shtml"
+      "short_title": "科创板AI标准再扩容",
+      "summary": "证监会将科创板第五套标准覆盖人工智能领域",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-17/10642134.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "德央行行长称美伊协议难降油价",
-      "summary": "协议对通胀和油价影响有限",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641063.shtml"
+      "short_title": "中使馆促英撤销制裁",
+      "summary": "中国驻英大使馆要求英国取消针对中国实体的制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10641874.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Marvell押注光互连加速AI算力",
-      "summary": "光互连技术助力千公里AI数据中心",
-      "link": "https://www.ithome.com/0/964/763.htm"
+      "short_title": "抖音启动AI反诈行动",
+      "summary": "抖音2026年启动AI风控升级，构建防骗墙",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-17/10642064.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "谷歌发布Gemini 3.5 Fla...",
-      "summary": "新模型成本最高，性能领先",
-      "link": "https://www.ithome.com/0/964/763.htm"
+      "short_title": "OpenAI首季现金支出37亿美元",
+      "summary": "OpenAI首季现金支出37亿美元，超收入半数",
+      "link": "https://www.ithome.com/0/965/335.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军继续封锁伊朗港口",
-      "summary": "联合海上信息中心证实美军行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641071.shtml"
+      "short_title": "伊朗两月首次原油出口",
+      "summary": "海事情报称伊朗近两月首次对外出口原油",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10642121.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "菲律宾5.3级地震震源深40公里",
-      "summary": "暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-16/10641062.shtml"
+      "short_title": "日澳大额护卫舰交易警示",
+      "summary": "日澳史上最大护卫舰交易引发亚太安全担忧",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10642014.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "港股AI景气共振推动恒指波动",
-      "summary": "AI热潮提振港股，短线仍有抛压",
-      "link": "https://www.cls.cn/detail/2400421"
+      "short_title": "特朗普或重启俄石油制裁",
+      "summary": "特朗普称美国可能很快恢复对俄罗斯石油的制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-17/10641900.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "75.17",
+      "pct": -1.1571334648257665,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,346.32",
+      "pct": -0.18555943413558534,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-06-16 14:08:49"
+  "updated_at": "2026-06-17 13:29:20"
 }

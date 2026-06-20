@@ -1,101 +1,89 @@
 {
-  "title": "MSAI今日新闻｜2026年6月19日 星期五（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年6月19日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年6月20日 星期六（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年6月20日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "多国谴责以色列袭击清真寺",
-      "reason": "以色列定居者冲突引发国际谴责",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643619.shtml"
+      "title": "美官员称以黎停火",
+      "reason": "中东停火进展，局势缓和",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644011.shtml"
     },
     {
-      "title": "美国30年贷款利率降至6.47%",
-      "reason": "美国长期贷款利率连续下降",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643624.shtml"
+      "title": "俄央行降息至14.25%",
+      "reason": "俄利率下调，金融市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644036.shtml"
     },
     {
-      "title": "中国要求银行保险纳入AI风险",
-      "reason": "监管层强调AI风险全覆盖",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643609.shtml"
+      "title": "AI助力净零ESG目标",
+      "reason": "AI推动ESG，实现净零",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643912.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "多国谴责以色列袭击清真寺",
-      "summary": "多国强烈谴责以色列定居者暴行",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643619.shtml"
+      "short_title": "以色列黎巴嫩真主党停火协议",
+      "summary": "美官员称双方已达停火共识",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644011.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "日本长野发生4.2级地震",
+      "summary": "东京等地感受到轻微震感",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-20/10644111.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "机器人“火眼金睛”技术突破",
-      "summary": "活力中国调研展示机器人视觉创新",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643617.shtml"
+      "short_title": "悉尼举办中国书画雅集展",
+      "summary": "“兰亭雅集·云山高会”开幕",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/06-20/1195057.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "端午假期消费热潮推动经济",
-      "summary": "出行文旅粽飘香带动夏季消费",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643668.shtml"
+      "short_title": "伊朗公布霍尔木兹海峡通行新规",
+      "summary": "须提前48小时提交申请",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-20/10644115.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "两新项目资金加速投放",
-      "summary": "政策资金快速下达提升效能",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643671.shtml"
+      "short_title": "五角大楼或付800亿美元伊朗战费",
+      "summary": "美国或承担伊朗冲突费用",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-20/10644120.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "江苏举办AI+HR创新大赛",
-      "summary": "最高奖金20万元扶持AI人力资源",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643587.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "监管要求银行保险纳入AI风险",
-      "summary": "AI风险列入全面风险管理体系",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-18/10643609.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "万斯推迟赴瑞伊朗会谈",
-      "summary": "万斯因故延期参加伊朗会谈",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643706.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "机构下调德国2027增长预期",
-      "summary": "德国经济增长预期被调低",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643625.shtml"
+      "short_title": "AI推动净零ESG实现",
+      "summary": "报告建议AI提升碳减排",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643912.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美30年房贷利率降至6.47%",
-      "summary": "美国30年期贷款利率连续两周下降",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643624.shtml"
+      "short_title": "俄央行基准利率下调至14.25%",
+      "summary": "货币政策宽松以支撑经济",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644036.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "英央行维持基准利率3.75%",
-      "summary": "英国央行基准利率保持不变",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10643627.shtml"
+      "short_title": "对澳牛肉加征55%关税",
+      "summary": "商务部宣布新关税措施",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643822.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "76.51",
+      "pct": -0.11749347258484232,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,172.90",
+      "pct": -1.7193056831296076,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +95,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-06-19 13:34:45"
+  "updated_at": "2026-06-20 13:02:19"
 }

@@ -1,73 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年6月20日 星期六（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年6月20日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年6月21日 星期日（农历二月初一）｜汕头：多云 33°C",
+  "date_text": "2026年6月21日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 33°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美官员称以黎停火",
-      "reason": "中东停火进展，局势缓和",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644011.shtml"
+      "title": "伊朗关闭霍尔木兹海峡",
+      "reason": "重要国际航运安全突发",
+      "link": "https://www.stcn.com/article/detail/3970353.html"
     },
     {
-      "title": "俄央行降息至14.25%",
-      "reason": "俄利率下调，金融市场波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644036.shtml"
+      "title": "美联储与黄金市场波动",
+      "reason": "美伊停火不确定致金融紧张",
+      "link": "https://stock.jrj.com.cn/2026/06/20214357532941.shtml"
     },
     {
-      "title": "AI助力净零ESG目标",
-      "reason": "AI推动ESG，实现净零",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643912.shtml"
+      "title": "AI消费加速进入千家万户",
+      "reason": "人工智能推动消费新增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-20/10644305.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列黎巴嫩真主党停火协议",
-      "summary": "美官员称双方已达停火共识",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644011.shtml"
+      "short_title": "伊朗宣布关闭霍尔木兹海峡",
+      "summary": "伊朗武装部队称海峡对所有船只封闭。",
+      "link": "https://www.stcn.com/article/detail/3970353.html"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本长野发生4.2级地震",
-      "summary": "东京等地感受到轻微震感",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-20/10644111.shtml"
+      "short_title": "洛杉矶仓储设施大火致紧急状态",
+      "summary": "火灾持续燃烧，市政府已启动应急。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644449.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "悉尼举办中国书画雅集展",
-      "summary": "“兰亭雅集·云山高会”开幕",
-      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/06-20/1195057.shtml"
+      "short_title": "中国大使阐述联合国人权立场",
+      "summary": "在人权理事会20周年对话会发声。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644367.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗公布霍尔木兹海峡通行新规",
-      "summary": "须提前48小时提交申请",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-20/10644115.shtml"
+      "short_title": "端午演出经济点亮假日消费",
+      "summary": "演艺+文旅释放乘数效应。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-21/10644479.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "五角大楼或付800亿美元伊朗战费",
-      "summary": "美国或承担伊朗冲突费用",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-20/10644120.shtml"
+      "short_title": "嘉兴至布达佩斯全货机航线开通",
+      "summary": "加速中东欧市场物流链接。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-20/10644146.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI推动净零ESG实现",
-      "summary": "报告建议AI提升碳减排",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643912.shtml"
+      "short_title": "微博CEO澄清AI生成言论",
+      "summary": "王高飞称被金山背刺系AI造假。",
+      "link": "https://www.ithome.com/0/966/633.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "特朗普称美或收取海峡通行费",
+      "summary": "若伊朗不达协议，美方或收费。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644371.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美伊代表团瑞士磋商督促履约",
+      "summary": "伊朗称将督促美国履行协议。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644433.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "俄央行基准利率下调至14.25%",
-      "summary": "货币政策宽松以支撑经济",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-19/10644036.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "对澳牛肉加征55%关税",
-      "summary": "商务部宣布新关税措施",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-19/10643822.shtml"
+      "short_title": "美联储官员将登场黄金仍受波动",
+      "summary": "本周关注PCE数据与美伊停火。",
+      "link": "https://stock.jrj.com.cn/2026/06/20214357532941.shtml"
     }
   ],
   "futures": [
@@ -107,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-06-20 13:02:19"
+  "updated_at": "2026-06-21 13:26:34"
 }

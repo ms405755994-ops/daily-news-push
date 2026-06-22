@@ -1,95 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年6月21日 星期日（农历二月初一）｜汕头：多云 33°C",
-  "date_text": "2026年6月21日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 33°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年6月22日 星期一（农历二月初一）｜汕头：晴 34°C",
+  "date_text": "2026年6月22日 星期一（农历二月初一）",
+  "weather_text": "汕头：晴 34°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗关闭霍尔木兹海峡",
-      "reason": "重要国际航运安全突发",
-      "link": "https://www.stcn.com/article/detail/3970353.html"
+      "title": "伊朗称黎巴嫩冲突取得重大进展",
+      "reason": "中东局势缓和，具重大影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-22/10644785.shtml"
     },
     {
-      "title": "美联储与黄金市场波动",
-      "reason": "美伊停火不确定致金融紧张",
-      "link": "https://stock.jrj.com.cn/2026/06/20214357532941.shtml"
+      "title": "卡塔尔工厂爆炸致多人伤亡",
+      "reason": "中东安全风险升高，突发事故",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-22/10644828.shtml"
     },
     {
-      "title": "AI消费加速进入千家万户",
-      "reason": "人工智能推动消费新增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-20/10644305.shtml"
+      "title": "AI热潮撼动韩股市值超三星",
+      "reason": "AI推动股市波动，影响全球资本",
+      "link": "https://www.ithome.com/0/966/878.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗宣布关闭霍尔木兹海峡",
-      "summary": "伊朗武装部队称海峡对所有船只封闭。",
-      "link": "https://www.stcn.com/article/detail/3970353.html"
+      "short_title": "卡塔尔工厂爆炸致伤亡",
+      "summary": "工厂爆炸导致54人受伤，18人失踪。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-22/10644828.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "洛杉矶仓储设施大火致紧急状态",
-      "summary": "火灾持续燃烧，市政府已启动应急。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644449.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国大使阐述联合国人权立场",
-      "summary": "在人权理事会20周年对话会发声。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644367.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "端午演出经济点亮假日消费",
-      "summary": "演艺+文旅释放乘数效应。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-21/10644479.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "嘉兴至布达佩斯全货机航线开通",
-      "summary": "加速中东欧市场物流链接。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-20/10644146.shtml"
+      "short_title": "菲律宾校园枪击致4死",
+      "summary": "校园枪击事件已致4人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-22/10644914.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "微博CEO澄清AI生成言论",
-      "summary": "王高飞称被金山背刺系AI造假。",
-      "link": "https://www.ithome.com/0/966/633.htm"
+      "short_title": "AI热潮推韩股市格局变",
+      "summary": "AI热潮使SK海力士市值一度超三星，成韩最值企业。",
+      "link": "https://www.ithome.com/0/966/878.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI成情绪经济新变量",
+      "summary": "人工智能被视为情绪经济的新变量。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-22/10644929.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称美或收取海峡通行费",
-      "summary": "若伊朗不达协议，美方或收费。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644371.shtml"
+      "short_title": "伊朗称黎巴嫩冲突有进展",
+      "summary": "伊朗回应联合声明，称冲突取得重大进展。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-22/10644785.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美伊代表团瑞士磋商督促履约",
-      "summary": "伊朗称将督促美国履行协议。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-21/10644433.shtml"
+      "short_title": "深圳进出口规模居首位",
+      "summary": "今年前5个月深圳进出口规模继续居内地城市首位。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-22/10644925.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美联储官员将登场黄金仍受波动",
-      "summary": "本周关注PCE数据与美伊停火。",
-      "link": "https://stock.jrj.com.cn/2026/06/20214357532941.shtml"
+      "short_title": "财政部禁采46家美企产品",
+      "summary": "政府采购不再采购46家美国企业的产品。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-22/10644919.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中马青年创新大赛落幕",
+      "summary": "中国-马来西亚青年创新大赛在吉隆坡圆满结束。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-22/10644854.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "英伟达黄仁勋赞中国科技",
+      "summary": "黄仁勋在链博会致辞称中国是重要科技产业中心。",
+      "link": "https://www.ithome.com/0/966/823.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "英伟达AI服务器液冷技术",
+      "summary": "英伟达展示100%液冷AI服务器，可在45℃液体中运...",
+      "link": "https://www.ithome.com/0/966/887.htm"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "76.51",
-      "pct": -0.11749347258484232,
+      "price": "75.30",
+      "pct": -0.725115359261697,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,172.90",
-      "pct": -1.7193056831296076,
-      "trend": "down"
+      "price": "4,212.92",
+      "pct": 0.9590452682786657,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-06-21 13:26:34"
+  "updated_at": "2026-06-22 13:42:24"
 }

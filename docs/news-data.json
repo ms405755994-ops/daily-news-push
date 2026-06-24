@@ -1,91 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年6月23日 星期二（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年6月23日 星期二（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
+  "title": "MSAI今日新闻｜2026年6月24日 星期三（农历二月初一）｜汕头：多云 34°C",
+  "date_text": "2026年6月24日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 34°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "美暂解除伊朗石油制裁",
-      "reason": "缓解地区紧张，影响能源市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645322.shtml"
+      "title": "美议院限特朗普伊朗权",
+      "reason": "美议院削弱伊朗战争介入",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646038.shtml"
     },
     {
-      "title": "美关税冲击加拿大汽车产能",
-      "reason": "产量降15%，显现贸易波动",
-      "link": "https://www.ithome.com/0/967/372.htm"
+      "title": "美关税阻碍拉美外资流入",
+      "reason": "美国关税冲击拉美金融市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646229.shtml"
     },
     {
-      "title": "字节跳动发布AI视频模型",
-      "reason": "支持30秒直出，提升创作效率",
-      "link": "https://www.ithome.com/0/967/374.htm"
+      "title": "中科曙光称AI推动计算变革",
+      "reason": "AI技术提升中国计算实力",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646085.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美暂缓解除伊朗石油制裁",
-      "summary": "美国短期放宽伊朗石油制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645322.shtml"
+      "short_title": "美参议院限制特朗普伊朗战争权力",
+      "summary": "美参议院通过法案，削弱特朗普对伊朗军事行动的授权。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646038.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美海岸警卫队直升机坠毁",
-      "summary": "直升机坠毁4人送医",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645384.shtml"
+      "short_title": "古巴谴责美最新制裁为罪行",
+      "summary": "古巴外交部称美方最新制裁是对古巴的罪行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646052.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "邮储厦门行长陈建宏被审查",
-      "summary": "原行长因违规接受审查",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-23/10645547.shtml"
+      "short_title": "麦当劳中国成供应链创新源头",
+      "summary": "麦当劳在华布局提升供应链，带动全球创新。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646225.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午后超3300股飘红指数跌",
-      "summary": "三大指数收跌逾三千股涨停",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-23/10645536.shtml"
+      "short_title": "伊朗称霍尔木兹海峡免费开放",
+      "summary": "伊朗官员宣布霍尔木兹海峡对所有船只免费通行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10646007.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "万斯谈伊朗缺席合影未感冷落",
-      "summary": "万斯称伊朗谈判风格难捉摸",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645337.shtml"
+      "short_title": "普京点明乌袭击俄民用设施意图",
+      "summary": "普京指出乌克兰袭击俄民用设施的战略目的。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646024.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI内存新标准SPHBM4发布",
-      "summary": "引脚数降至1/5速率升300%",
-      "link": "https://www.ithome.com/0/967/346.htm"
+      "short_title": "方塘论坛聚焦AI哲学议题",
+      "summary": "方塘论坛在京举行，讨论AI时代关键哲学问题。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646081.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "字节跳动发布AI视频模型",
-      "summary": "支持30秒直出及50模态素材",
-      "link": "https://www.ithome.com/0/967/374.htm"
+      "short_title": "中科曙光称AI驱动计算变革",
+      "summary": "中科曙光高管表示AI将加速先进计算技术升级。",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646085.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗议长称管控霍尔木兹海峡",
-      "summary": "伊朗将自行管理海峡事务",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645410.shtml"
+      "short_title": "安理会决议追责袭击维和人员",
+      "summary": "安理会通过新决议，要求追究对维和人员的袭击责任。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646025.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄称乌军袭击沃罗涅日致5死",
-      "summary": "俄方通报乌军袭击致5人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645329.shtml"
+      "short_title": "特朗普称允许霍尔木兹海峡保持开放",
+      "summary": "特朗普表示将继续保持霍尔木兹海峡的开放通行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645878.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "杰富瑞研报：存储芯片涨50%",
-      "summary": "2026Q3价格环比上涨，降价待2028",
-      "link": "https://www.ithome.com/0/967/332.htm"
+      "short_title": "港股恒指逼近23000点考验",
+      "summary": "恒指逼近23000点，AI板块大幅下跌引发市场担忧。",
+      "link": "https://wap.eastmoney.com/a/202606233779956395.html"
     },
     {
       "category": "金融重点",
-      "short_title": "美关税冲击加拿大汽车产能",
-      "summary": "前四月产量同比下降15%",
-      "link": "https://www.ithome.com/0/967/372.htm"
+      "short_title": "美关税致拉美外资流入受阻",
+      "summary": "美国频繁加征关税，使拉美地区外资流入出现阻碍。",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646229.shtml"
     }
   ],
   "futures": [
@@ -125,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-23 12:42:23"
+  "updated_at": "2026-06-24 12:47:54"
 }

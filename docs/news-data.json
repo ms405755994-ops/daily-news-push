@@ -1,91 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年6月24日 星期三（农历二月初一）｜汕头：多云 34°C",
-  "date_text": "2026年6月24日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 34°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年6月25日 星期四（农历二月初一）｜汕头：阴 33°C",
+  "date_text": "2026年6月25日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 33°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美议院限特朗普伊朗权",
-      "reason": "美议院削弱伊朗战争介入",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646038.shtml"
+      "title": "委内瑞拉地震死亡或超万",
+      "reason": "强震致大量人员伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646941.shtml"
     },
     {
-      "title": "美关税阻碍拉美外资流入",
-      "reason": "美国关税冲击拉美金融市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646229.shtml"
+      "title": "日本岩手县近海6.9级地震",
+      "reason": "近海强震引发震感",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646800.shtml"
     },
     {
-      "title": "中科曙光称AI推动计算变革",
-      "reason": "AI技术提升中国计算实力",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646085.shtml"
+      "title": "现货黄金跌破4000美元",
+      "reason": "黄金价格跌破关键关口",
+      "link": "https://finance.cnr.cn/ycbd/20260624/t20260624_527675283.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美参议院限制特朗普伊朗战争权力",
-      "summary": "美参议院通过法案，削弱特朗普对伊朗军事行动的授权。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646038.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "古巴谴责美最新制裁为罪行",
-      "summary": "古巴外交部称美方最新制裁是对古巴的罪行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646052.shtml"
+      "short_title": "日本岩手县海域6.9级地震",
+      "summary": "岩手县近海发生6.9级强震，海啸警报已发",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646800.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "麦当劳中国成供应链创新源头",
-      "summary": "麦当劳在华布局提升供应链，带动全球创新。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646225.shtml"
+      "short_title": "亚洲媒体访中共党史馆",
+      "summary": "亚洲媒体考察党史馆，称中国发展超预期",
+      "link": "https://www.chinanews.com.cn/gn/2026/06-25/10646927.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗称霍尔木兹海峡免费开放",
-      "summary": "伊朗官员宣布霍尔木兹海峡对所有船只免费通行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10646007.shtml"
+      "short_title": "民企AI产品自贸港走红",
+      "summary": "椰壳AI“新派琼潮”在自贸港热销破圈",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-25/10646955.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "普京点明乌袭击俄民用设施意图",
-      "summary": "普京指出乌克兰袭击俄民用设施的战略目的。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646024.shtml"
+      "short_title": "美测委内瑞拉地震死亡超万",
+      "summary": "USGS估计委内瑞拉地震死亡人数或超一万",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646941.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "方塘论坛聚焦AI哲学议题",
-      "summary": "方塘论坛在京举行，讨论AI时代关键哲学问题。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646081.shtml"
+      "short_title": "首个中小学AI课程标准发布",
+      "summary": "南京发布AI实验室装备省级团体标准",
+      "link": "https://www.chinanews.com.cn/sh/2026/06-25/10646952.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中科曙光称AI驱动计算变革",
-      "summary": "中科曙光高管表示AI将加速先进计算技术升级。",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-24/10646085.shtml"
+      "short_title": "雄安AI产业加速跑出",
+      "summary": "调研显示雄安AI产业从AI+向AI原生升级",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-25/10646901.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "安理会决议追责袭击维和人员",
-      "summary": "安理会通过新决议，要求追究对维和人员的袭击责任。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646025.shtml"
+      "short_title": "Saint‑Gobain评美国AI基...",
+      "summary": "巴赞称美国AI基建缺电缺人资金虽足",
+      "link": "https://www.ithome.com/0/968/350.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称允许霍尔木兹海峡保持开放",
-      "summary": "特朗普表示将继续保持霍尔木兹海峡的开放通行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-23/10645878.shtml"
+      "short_title": "本州东部6.9级地震或海啸",
+      "summary": "本州东部海域6.9级震动，可能引发局部海啸",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646758.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "港股恒指逼近23000点考验",
-      "summary": "恒指逼近23000点，AI板块大幅下跌引发市场担忧。",
-      "link": "https://wap.eastmoney.com/a/202606233779956395.html"
+      "short_title": "黄金跌破4000美元/盎司",
+      "summary": "现货金价跌破4000美元，投资者观望抄底",
+      "link": "https://finance.cnr.cn/ycbd/20260624/t20260624_527675283.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美关税致拉美外资流入受阻",
-      "summary": "美国频繁加征关税，使拉美地区外资流入出现阻碍。",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-24/10646229.shtml"
+      "short_title": "A股午评三大指数收涨",
+      "summary": "三大指数集体收涨，科创50再创新高",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-25/10646963.shtml"
     }
   ],
   "futures": [
@@ -125,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-24 12:47:54"
+  "updated_at": "2026-06-25 12:48:56"
 }

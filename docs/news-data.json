@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年6月25日 星期四（农历二月初一）｜汕头：阴 33°C",
-  "date_text": "2026年6月25日 星期四（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年6月26日 星期五（农历二月初一）｜汕头：阴 33°C",
+  "date_text": "2026年6月26日 星期五（农历二月初一）",
   "weather_text": "汕头：阴 33°C",
-  "total_count": 10,
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "委内瑞拉地震死亡或超万",
-      "reason": "强震致大量人员伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646941.shtml"
+      "title": "伊朗袭击货船 协议受考验",
+      "reason": "美官员警告伊朗行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647628.shtml"
     },
     {
-      "title": "日本岩手县近海6.9级地震",
-      "reason": "近海强震引发震感",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646800.shtml"
+      "title": "AI增长致用电激增",
+      "reason": "能源局推动算电协同",
+      "link": "https://www.chinanews.com.cn/gn/2026/06-26/10647670.shtml"
     },
     {
-      "title": "现货黄金跌破4000美元",
-      "reason": "黄金价格跌破关键关口",
-      "link": "https://finance.cnr.cn/ycbd/20260624/t20260624_527675283.shtml"
+      "title": "A股三大指数集体下跌",
+      "reason": "超4500只个股跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-26/10647674.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本岩手县海域6.9级地震",
-      "summary": "岩手县近海发生6.9级强震，海啸警报已发",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646800.shtml"
+      "short_title": "日本千叶5.8级地震震感强",
+      "summary": "千叶县5.8级地震，东京等地强烈震感",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647681.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "伊朗袭击货船 危及伊核协议",
+      "summary": "美官员称伊朗袭击货船，伊核协议受考验",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647628.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "亚洲媒体访中共党史馆",
-      "summary": "亚洲媒体考察党史馆，称中国发展超预期",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-25/10646927.shtml"
+      "short_title": "外媒探访机器人大世界",
+      "summary": "外媒称中国科技发展速度前所未有",
+      "link": "https://www.chinanews.com.cn/gn/2026/06-26/10647631.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "民企AI产品自贸港走红",
-      "summary": "椰壳AI“新派琼潮”在自贸港热销破圈",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-25/10646955.shtml"
+      "short_title": "中方在人权理事会批关税",
+      "summary": "中方发声批以人权为借口滥施关税",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647630.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美测委内瑞拉地震死亡超万",
-      "summary": "USGS估计委内瑞拉地震死亡人数或超一万",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646941.shtml"
+      "short_title": "金正恩观摩火炮导弹试验",
+      "summary": "金正恩现场观摩火炮与导弹试验",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647546.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "首个中小学AI课程标准发布",
-      "summary": "南京发布AI实验室装备省级团体标准",
-      "link": "https://www.chinanews.com.cn/sh/2026/06-25/10646952.shtml"
+      "short_title": "AI算电激增 用电量大幅上升",
+      "summary": "人工智能快速增长推动用电量激增",
+      "link": "https://www.chinanews.com.cn/gn/2026/06-26/10647670.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "雄安AI产业加速跑出",
-      "summary": "调研显示雄安AI产业从AI+向AI原生升级",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-25/10646901.shtml"
+      "short_title": "美报起诉OpenAI 微软被指侵权",
+      "summary": "近400家美国报纸起诉OpenAI与微软",
+      "link": "https://www.ithome.com/0/968/872.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "Saint‑Gobain评美国AI基...",
-      "summary": "巴赞称美国AI基建缺电缺人资金虽足",
-      "link": "https://www.ithome.com/0/968/350.htm"
+      "short_title": "日本战争经济回潮 国家身份变",
+      "summary": "日本“战争经济”回潮，国家身份正在质变",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647612.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "本州东部6.9级地震或海啸",
-      "summary": "本州东部海域6.9级震动，可能引发局部海啸",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-25/10646758.shtml"
+      "short_title": "委内瑞拉强震致188死 1520伤",
+      "summary": "委内瑞拉地震已致188人死亡、1520人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647496.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "黄金跌破4000美元/盎司",
-      "summary": "现货金价跌破4000美元，投资者观望抄底",
-      "link": "https://finance.cnr.cn/ycbd/20260624/t20260624_527675283.shtml"
+      "short_title": "A股三大指数集体飘绿 超4500跌",
+      "summary": "A股午评三大指数下跌，超4500只个股跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-26/10647674.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评三大指数收涨",
-      "summary": "三大指数集体收涨，科创50再创新高",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-25/10646963.shtml"
+      "short_title": "欧盟向乌克兰发放1020亿美元贷款",
+      "summary": "欧盟提供1020亿美元贷款，俄袭击乌克兰",
+      "link": "https://www.voachinese.com/a/eu-begins-disbursing-102-billion-loan-to-ukraine-as-russian-strikes-kill-several-across-the-country-20260625/8164782.html"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-25 12:48:56"
+  "updated_at": "2026-06-26 12:54:17"
 }

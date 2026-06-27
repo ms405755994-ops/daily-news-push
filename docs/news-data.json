@@ -1,91 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年6月26日 星期五（农历二月初一）｜汕头：阴 33°C",
-  "date_text": "2026年6月26日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 33°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年6月27日 星期六（农历二月初一）｜汕头：阴 28°C",
+  "date_text": "2026年6月27日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "伊朗袭击货船 协议受考验",
-      "reason": "美官员警告伊朗行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647628.shtml"
+      "title": "委内瑞拉地震致中国公民遇难",
+      "reason": "突发海外灾难，涉华人员死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648212.shtml"
     },
     {
-      "title": "AI增长致用电激增",
-      "reason": "能源局推动算电协同",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-26/10647670.shtml"
+      "title": "特朗普威胁欧洲征收高额关税",
+      "reason": "可能引发全球贸易冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648304.shtml"
     },
     {
-      "title": "A股三大指数集体下跌",
-      "reason": "超4500只个股跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-26/10647674.shtml"
+      "title": "电子行业利润翻倍，AI芯片需求激...",
+      "reason": "AI推动芯片市场快速增长",
+      "link": "https://www.ithome.com/0/969/311.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本千叶5.8级地震震感强",
-      "summary": "千叶县5.8级地震，东京等地强烈震感",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647681.shtml"
+      "short_title": "委内瑞拉强震死亡920人",
+      "summary": "死亡人数升至920，损失严重",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648211.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗袭击货船 危及伊核协议",
-      "summary": "美官员称伊朗袭击货船，伊核协议受考验",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647628.shtml"
+      "short_title": "巴基斯坦5.1级地震",
+      "summary": "震源深度10千米，暂无重大损失",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648333.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "外媒探访机器人大世界",
-      "summary": "外媒称中国科技发展速度前所未有",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-26/10647631.shtml"
+      "short_title": "特朗普威胁欧洲关税",
+      "summary": "可能征收100%报复性关税",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648304.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中方在人权理事会批关税",
-      "summary": "中方发声批以人权为借口滥施关税",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647630.shtml"
+      "short_title": "博尔顿认罪美国前助理",
+      "summary": "前总统安全助理承认罪行",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648298.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "金正恩观摩火炮导弹试验",
-      "summary": "金正恩现场观摩火炮与导弹试验",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647546.shtml"
+      "short_title": "马斯克批IBM芯片命名",
+      "summary": "指0.7纳米误导，建议原子计数",
+      "link": "https://www.ithome.com/0/969/333.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "AI算电激增 用电量大幅上升",
-      "summary": "人工智能快速增长推动用电量激增",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-26/10647670.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "美报起诉OpenAI 微软被指侵权",
-      "summary": "近400家美国报纸起诉OpenAI与微软",
-      "link": "https://www.ithome.com/0/968/872.htm"
+      "short_title": "链博会聚焦AI全链融合",
+      "summary": "从单点突破到全链赋能",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260626787d51685982419a83eb90fd5f299800"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本战争经济回潮 国家身份变",
-      "summary": "日本“战争经济”回潮，国家身份正在质变",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647612.shtml"
+      "short_title": "欧盟派救援队赴委内瑞拉",
+      "summary": "地震灾区提供紧急支援",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648214.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "委内瑞拉强震致188死 1520伤",
-      "summary": "委内瑞拉地震已致188人死亡、1520人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-26/10647496.shtml"
+      "short_title": "伊朗官员指特朗普违约",
+      "summary": "不遵守谈判与停火原则",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648306.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数集体飘绿 超4500跌",
-      "summary": "A股午评三大指数下跌，超4500只个股跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-26/10647674.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "欧盟向乌克兰发放1020亿美元贷款",
-      "summary": "欧盟提供1020亿美元贷款，俄袭击乌克兰",
-      "link": "https://www.voachinese.com/a/eu-begins-disbursing-102-billion-loan-to-ukraine-as-russian-strikes-kill-several-across-the-country-20260625/8164782.html"
+      "short_title": "电子行业利润增103.9%",
+      "summary": "AI驱动高端算力芯片需求暴涨",
+      "link": "https://www.ithome.com/0/969/311.htm"
     }
   ],
   "futures": [
@@ -125,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-26 12:54:17"
+  "updated_at": "2026-06-27 12:36:22"
 }

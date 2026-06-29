@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年6月28日 星期日（农历二月初一）｜汕头：小雨 27°C",
-  "date_text": "2026年6月28日 星期日（农历二月初一）",
-  "weather_text": "汕头：小雨 27°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年6月29日 星期一（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年6月29日 星期一（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "委内瑞拉地震致1430死",
-      "reason": "重大海外地震，涉华人员遇难",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-28/10648707.shtml"
+      "title": "委内瑞拉地震致1450人遇难",
+      "reason": "重大国际灾难，涉华人员",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649151.shtml"
     },
     {
-      "title": "突发：一艘油轮在霍尔木兹海峡遭袭",
-      "reason": "霍尔木兹海峡油轮被袭，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-28/10648684.shtml"
+      "title": "A股超3400只个股飘绿",
+      "reason": "股市大幅波动，投资者关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-29/10649179.shtml"
     },
     {
-      "title": "事关黄金！央行、海关总署联合发文",
-      "reason": "黄金政策变动，市场或波动",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-28/10648734.shtml"
+      "title": "链博会展示AI产业崛起",
+      "reason": "国内AI技术快速发展",
+      "link": "https://emwap.eastmoney.com/a/202606283785590310.html"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉地震致1430人死亡",
-      "summary": "8名中国公民不幸遇难，灾情严峻",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-28/10648707.shtml"
+      "short_title": "委内瑞拉强震致8名中国人遇难",
+      "summary": "地震已致1450人死亡，其中8名中国公民遇难",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649151.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "油轮遭袭霍尔木兹海峡",
-      "summary": "油轮被攻击，局势紧张升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-28/10648684.shtml"
+      "short_title": "日本京都站列车脱轨致多人受伤",
+      "summary": "京都站列车脱轨，现场混乱，伤者送医",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649004.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "世界杯32强出炉 伊朗被淘汰",
-      "summary": "美加墨晋级，伊朗遗憾出局",
-      "link": "https://www.chinanews.com.cn/ty/2026/06-28/10648761.shtml"
+      "short_title": "四川宜宾地震启动四级应急响应",
+      "summary": "两部门派工作组赴震区，开展救援工作",
+      "link": "https://www.chinanews.com.cn/gn/2026/06-29/10649194.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美查封400余世界杯盗播域名",
-      "summary": "打击盗播行为，保护版权",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-27/10648396.shtml"
+      "short_title": "乌军袭击俄炼油厂 普京称燃料紧缺",
+      "summary": "泽连斯基指乌军袭击俄炼油厂，普京称燃料紧缺",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649141.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美再对伊朗发动军事打击",
-      "summary": "美军对伊朗目标进行新一轮攻击",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-28/10648662.shtml"
+      "short_title": "以军摧毁黎真主党地下通道",
+      "summary": "以军称已事先通报美国，摧毁黎真主党地下通道",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649021.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "湘江新区AI产业观察",
-      "summary": "AI在车间、医院等场景落地应用",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-28/10648738.shtml"
+      "short_title": "链博会展示中国AI产业新突破",
+      "summary": "第四届链博会全景展示AI产业快速崛起",
+      "link": "https://emwap.eastmoney.com/a/202606283785590310.html"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗6月通胀率达88.6%",
-      "summary": "中东冲突导致伊朗通胀急升",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260627-%E4%B8%AD%E4%B8%9C%E6%88%98%E4%BA%89%E5%8A%A0%E5%89%A7%E6%81%B6%E6%80%A7%E9%80%9A%E8%86%A8-%E4%BC%8A%E6%9C%976%E6%9C%88%E9%80%9A%E8%86%A8%E7%8E%87%E8%BE%BE88-6"
+      "short_title": "伊朗警告巴林若挑衅将加大打击",
+      "summary": "伊朗对巴林发出严正警告，称将强化打击",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649172.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "伊朗警告霍尔木兹海峡局势紧张",
+      "summary": "伊朗警告霍尔木兹海峡局势紧张，呼吁各方克制",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649050.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "央行海关联合发文事关黄金",
-      "summary": "新规涉及黄金进出口管理",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-28/10648734.shtml"
+      "short_title": "A股午后超3400只跌绿 沪指收涨",
+      "summary": "超3400只个股跌绿，沪指收涨，深指跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-29/10649179.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "腾讯测试TenPay Go跨境支付",
-      "summary": "面向境外用户提供来华支付服务",
-      "link": "https://www.ithome.com/0/969/592.htm"
+      "short_title": "中国将20家日本实体列入出口管制",
+      "summary": "商务部将20家日本企业加入出口管控名单",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-29/10649152.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-06-28 13:05:04"
+  "updated_at": "2026-06-29 13:14:27"
 }

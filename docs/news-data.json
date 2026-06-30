@@ -1,101 +1,83 @@
 {
-  "title": "MSAI今日新闻｜2026年6月29日 星期一（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年6月29日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年6月30日 星期二（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年6月30日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "委内瑞拉地震致1450人遇难",
-      "reason": "重大国际灾难，涉华人员",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649151.shtml"
+      "title": "防长警告：伊朗冲突风险",
+      "reason": "中东局势紧张，可能再起冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-30/10649623.shtml"
     },
     {
-      "title": "A股超3400只个股飘绿",
-      "reason": "股市大幅波动，投资者关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-29/10649179.shtml"
+      "title": "日本导弹首驻南鸟岛",
+      "reason": "日本军事扩张引发地区关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-30/10649701.shtml"
     },
     {
-      "title": "链博会展示AI产业崛起",
-      "reason": "国内AI技术快速发展",
-      "link": "https://emwap.eastmoney.com/a/202606283785590310.html"
+      "title": "Meta复用内存提升AI效率",
+      "reason": "服务器内存复用，AI算力成本降25%",
+      "link": "https://www.ithome.com/0/970/387.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震致8名中国人遇难",
-      "summary": "地震已致1450人死亡，其中8名中国公民遇难",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649151.shtml"
+      "short_title": "防长警告伊朗冲突或再升级",
+      "summary": "中方防长称随时可能与伊朗爆发新冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-30/10649623.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本京都站列车脱轨致多人受伤",
-      "summary": "京都站列车脱轨，现场混乱，伤者送医",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649004.shtml"
+      "short_title": "俄对乌发动导弹无人机袭击",
+      "summary": "俄在乌主要城市使用导弹无人机致10死数十伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-30/10649771.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "四川宜宾地震启动四级应急响应",
-      "summary": "两部门派工作组赴震区，开展救援工作",
-      "link": "https://www.chinanews.com.cn/gn/2026/06-29/10649194.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "乌军袭击俄炼油厂 普京称燃料紧缺",
-      "summary": "泽连斯基指乌军袭击俄炼油厂，普京称燃料紧缺",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649141.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "以军摧毁黎真主党地下通道",
-      "summary": "以军称已事先通报美国，摧毁黎真主党地下通道",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649021.shtml"
+      "short_title": "郭兰峰解读十五五规划",
+      "summary": "创新消费双轮驱动推动高质量发展",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-30/10649708.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "链博会展示中国AI产业新突破",
-      "summary": "第四届链博会全景展示AI产业快速崛起",
-      "link": "https://emwap.eastmoney.com/a/202606283785590310.html"
+      "short_title": "Meta复用拆机内存降成本25%",
+      "summary": "3:1 DDR5/DDR4组合降低AI服务器需求",
+      "link": "https://www.ithome.com/0/970/387.htm"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗警告巴林若挑衅将加大打击",
-      "summary": "伊朗对巴林发出严正警告，称将强化打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649172.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗警告霍尔木兹海峡局势紧张",
-      "summary": "伊朗警告霍尔木兹海峡局势紧张，呼吁各方克制",
-      "link": "https://www.chinanews.com.cn/gj/2026/06-29/10649050.shtml"
+      "category": "AI重点",
+      "short_title": "韩总统启动AI芯片超级项目",
+      "summary": "投入千万亿韩元布局AI与芯片产业",
+      "link": "https://www.stcn.com/article/detail/3987272.html"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后超3400只跌绿 沪指收涨",
-      "summary": "超3400只个股跌绿，沪指收涨，深指跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-29/10649179.shtml"
+      "short_title": "A股开盘超3000股跌绿",
+      "summary": "沪指深指低开，创业板指高开",
+      "link": "https://www.chinanews.com.cn/cj/2026/06-30/10649699.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "中国将20家日本实体列入出口管制",
-      "summary": "商务部将20家日本企业加入出口管控名单",
-      "link": "https://www.chinanews.com.cn/cj/2026/06-29/10649152.shtml"
+      "short_title": "巴西通胀预期维持5.33%",
+      "summary": "2026年巴西通胀预期保持在5.33%",
+      "link": "https://www.chinanews.com.cn/gj/2026/06-30/10649638.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "70.26",
+      "pct": -0.6925795053003461,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "3,999.12",
+      "pct": -0.9849216370794077,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +89,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-06-29 13:14:27"
+  "updated_at": "2026-06-30 12:47:53"
 }

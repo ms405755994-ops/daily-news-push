@@ -1,101 +1,89 @@
 {
-  "title": "MSAI今日新闻｜2026年7月2日 星期四（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年7月2日 星期四（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年7月3日 星期五（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年7月3日 星期五（农历二月初一）",
   "weather_text": "汕头：多云 31°C",
-  "total_count": 10,
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "俄称日部署美导弹破坏亚太安全",
-      "reason": "亚太局势紧张，涉及美俄日",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651052.shtml"
+      "title": "俄军空袭基辅致多人伤亡",
+      "reason": "突发国际冲突，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-03/10651863.shtml"
     },
     {
-      "title": "俄大规模袭击基辅致伤亡",
-      "reason": "乌克兰局势升级，冲突激化",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651106.shtml"
+      "title": "美国非农弱金价涨 AI股止跌",
+      "reason": "美国非农弱导致金价上涨，AI股回暖",
+      "link": "https://www.cls.cn/detail/2415745"
     },
     {
-      "title": "Cloudflare 限制AI爬...",
-      "reason": "AI监管升级，影响网络广告",
-      "link": "https://www.ithome.com/0/971/510.htm"
+      "title": "中国首个地层AI大模型发布",
+      "reason": "AI大模型助力地层学，打造共享数据库",
+      "link": "https://www.ithome.com/0/972/099.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "俄指日本部署美导弹危及亚太",
-      "summary": "俄外交部称日本装配美导弹破坏地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651052.shtml"
+      "short_title": "俄军空袭基辅致27死91伤",
+      "summary": "俄军对乌首都发动空袭，造成重大伤亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-03/10651863.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震死亡2295人",
-      "summary": "全国为委内瑞拉地震哀悼七天",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651174.shtml"
+      "short_title": "日本宫城海域4.8级地震",
+      "summary": "日本宫城县近海发生4.8级地震，暂无重大损失。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-03/10651970.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "马丁·雅克赞中国成就",
-      "summary": "外媒称中国发展成就举世瞩目",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651226.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "新阶层助力创新突破",
-      "summary": "新阶层推动规模化创新解决最后一公里",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651126.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "基辅遭袭致2死16伤",
-      "summary": "乌克兰首都基辅遭袭造成多人伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651214.shtml"
+      "short_title": "学习贯彻习近平总书记重要讲话",
+      "summary": "深入学习习近平在建党105周年讲话精神。",
+      "link": "https://www.chinanews.com.cn/ll/2026/07-03/10651985.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Cloudflare禁AI爬虫访广告",
-      "summary": "Cloudflare默认阻止AI爬虫抓取广告",
-      "link": "https://www.ithome.com/0/971/510.htm"
+      "short_title": "海峡两岸AI合作论坛在京召开",
+      "summary": "两岸高校共商AI合作前景，推动技术交流。",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-03/10652022.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "中国发布首个地层学AI大模型",
+      "summary": "全球首个地层学AI模型上线，构建共享数据库。",
+      "link": "https://www.ithome.com/0/972/099.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国起诉北溪管道嫌疑人",
-      "summary": "德国对北溪爆炸案提起刑事指控",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651049.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "日本武器出口显危险信号",
-      "summary": "日本武器出口引发地区安全担忧",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-02/10651210.shtml"
+      "short_title": "中国在联合国推动AI无障碍",
+      "summary": "代表65国在联合国人权理事会发言，倡导AI助残。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-03/10651858.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "亚洲投资者影响黄金定价",
-      "summary": "亚洲在全球黄金价格发现中扮演关键角色",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-01/10650951.shtml"
+      "short_title": "美国非农数据弱金价升 AI股转涨",
+      "summary": "美国非农失望提振黄金，AI概念股止跌回升。",
+      "link": "https://www.cls.cn/detail/2415745"
     },
     {
       "category": "金融重点",
-      "short_title": "海南公积金贷款上调至192万",
-      "summary": "海南夫妻公积金最高贷款额提升至192万元",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-02/10651118.shtml"
+      "short_title": "美国30年期房贷利率降至6.43%",
+      "summary": "美国30年期抵押贷款利率创七周新低。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-03/10651797.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "67.90",
-      "pct": -0.9915427238261776,
-      "trend": "down"
+      "price": "69.00",
+      "pct": 0.45130295530645254,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,074.40",
-      "pct": -0.19596315892612187,
-      "trend": "down"
+      "price": "4,191.67",
+      "pct": 1.5990013815837374,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +107,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-07-02 12:42:24"
+  "updated_at": "2026-07-03 12:28:23"
 }

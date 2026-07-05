@@ -1,101 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年7月4日 星期六（农历二月初一）｜汕头：天气待更新",
-  "date_text": "2026年7月4日 星期六（农历二月初一）",
-  "weather_text": "汕头：天气待更新",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年7月5日 星期日（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年7月5日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "委内瑞拉地震死亡2645人",
-      "reason": "委内瑞拉强震致大量死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652550.shtml"
+      "title": "俄莫斯科再遭大规模无人机袭击",
+      "reason": "俄国首都遭大规模无人机攻击，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652810.shtml"
     },
     {
-      "title": "乌克兰或用弹道导弹袭击莫斯科",
-      "reason": "乌克兰可能导弹袭击莫斯科",
-      "link": "https://m.sohu.com/a/1045477713_260616?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334"
+      "title": "乌无人机袭击俄油码头",
+      "reason": "乌克兰无人机打击俄油设施，冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652968.shtml"
     },
     {
-      "title": "AI与大宗商品检测融合建议",
-      "reason": "AI助力大宗商品检测提效",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652602.shtml"
+      "title": "AI浪潮下单人公司创业新图景",
+      "reason": "AI驱动单人公司模式，创业成本大幅降低",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652874.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉地震死亡2645人",
-      "summary": "外媒称地震已致2645人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652550.shtml"
+      "short_title": "俄罗斯莫斯科遭大规模无人机袭击",
+      "summary": "莫斯科多处被无人机炸弹击中，暂无伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652810.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "乌克兰或用弹道导弹袭击莫斯科",
-      "summary": "乌克兰计划弹道导弹回击莫斯科",
-      "link": "https://m.sohu.com/a/1045477713_260616?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334"
+      "short_title": "委内瑞拉地震死亡2954人，救出64...",
+      "summary": "强震致2954人死亡，救援已救出6462名灾民",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652930.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "职业伤害保障全国推广",
-      "summary": "新政策助力就业安全保障",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652596.shtml"
+      "short_title": "习近平庆祝建党105周年重要讲话",
+      "summary": "强调坚持初心使命，推动高质量发展",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-05/10653009.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "海淀OPC企业亮相数字博览会",
-      "summary": "30余家创业公司展示数字经济成果",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-03/10652481.shtml"
+      "short_title": "特朗普与普京通话促乌克兰危机尽快结束",
+      "summary": "两位领袖通话，表示愿推动政治解决乌危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652933.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊朗驻华大使称对霍尔木兹海峡收服务费",
+      "summary": "伊方计划按国际标准对海峡通航收取服务费",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652893.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI助力大宗商品检测转型",
-      "summary": "专家建议融合AI提升检测效率",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652602.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "高盛：AI将冲击1500万美职工",
-      "summary": "AI或导致岗位流失但不等同失业",
-      "link": "https://www.ithome.com/0/972/493.htm"
+      "short_title": "AI浪潮下“一人公司”描绘创业新图景",
+      "summary": "AI助力个人创业，降低成本提升效率",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652874.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "塞尔维亚党领赞中共成功关键",
-      "summary": "塞尔维亚前进党称人民情怀是关键",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-03/10652266.shtml"
+      "short_title": "国际刑警发布摩纳哥爆炸案红色通缉令",
+      "summary": "摩纳哥爆炸嫌犯被列为红色通缉，全球追捕",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652967.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗举行哈梅内伊悼念仪式",
-      "summary": "伊朗为已故最高领袖公开送别",
+      "short_title": "伊朗举行哈梅内伊公众告别仪式",
+      "summary": "伊朗为已故最高领袖举行公开悼念仪式",
       "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652589.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "新版电商法征求意见启动",
-      "summary": "明确平台经济权责促进公平竞争",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652547.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "天津静海外贸百亿开局亮眼",
-      "summary": "双向融通激活商贸新动能",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652545.shtml"
+      "short_title": "今年前5个月机器人出口近200亿元",
+      "summary": "上半年机器人出口额近200亿元，增长显著",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-05/10652982.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "68.78",
-      "pct": 0.1310234386373612,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,187.30",
-      "pct": 1.4930799621882436,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-04 12:14:08"
+  "updated_at": "2026-07-05 12:42:09"
 }

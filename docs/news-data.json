@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年7月5日 星期日（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年7月5日 星期日（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年7月6日 星期一（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年7月6日 星期一（农历二月初一）",
   "weather_text": "汕头：多云 32°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "俄莫斯科再遭大规模无人机袭击",
-      "reason": "俄国首都遭大规模无人机攻击，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652810.shtml"
+      "title": "基辅遭俄导弹袭击",
+      "reason": "俄军大规模袭击致伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653324.shtml"
     },
     {
-      "title": "乌无人机袭击俄油码头",
-      "reason": "乌克兰无人机打击俄油设施，冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652968.shtml"
+      "title": "现货黄金重回4200美元关口",
+      "reason": "黄金价格回升至关键关口",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653309.shtml"
     },
     {
-      "title": "AI浪潮下单人公司创业新图景",
-      "reason": "AI驱动单人公司模式，创业成本大幅降低",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652874.shtml"
+      "title": "AI智能床争议",
+      "reason": "智能床引发AI伦理讨论",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653357.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "俄罗斯莫斯科遭大规模无人机袭击",
-      "summary": "莫斯科多处被无人机炸弹击中，暂无伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652810.shtml"
+      "short_title": "基辅遭俄导弹无人机袭击 5死34伤",
+      "summary": "俄军对基辅发动导弹无人机攻击，致5死34伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653324.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉地震死亡2954人，救出64...",
-      "summary": "强震致2954人死亡，救援已救出6462名灾民",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652930.shtml"
+      "short_title": "委内瑞拉强震致逾3300人死亡",
+      "summary": "地震已致3342死 16740伤，灾情仍在评估。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653270.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "习近平庆祝建党105周年重要讲话",
-      "summary": "强调坚持初心使命，推动高质量发展",
-      "link": "https://www.chinanews.com.cn/gn/2026/07-05/10653009.shtml"
+      "short_title": "尼泊尔野象袭击致母子双亡",
+      "summary": "野象冲入村庄，导致母子两人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653273.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普与普京通话促乌克兰危机尽快结束",
-      "summary": "两位领袖通话，表示愿推动政治解决乌危机",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652933.shtml"
+      "short_title": "现货黄金回升至4200美元",
+      "summary": "金价再度站上4200美元关口，市场关注。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653309.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗驻华大使称对霍尔木兹海峡收服务费",
-      "summary": "伊方计划按国际标准对海峡通航收取服务费",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652893.shtml"
+      "short_title": "A股午评：超3500只个股飘绿",
+      "summary": "沪指收涨，深指跌，逾3500只个股下跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653479.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI浪潮下“一人公司”描绘创业新图景",
-      "summary": "AI助力个人创业，降低成本提升效率",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-04/10652874.shtml"
+      "short_title": "AI智能床争议：解药还是智商税",
+      "summary": "智能床被质疑效果，消费者观望。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653357.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "工业机器人出海转卖方案",
+      "summary": "机器人企业从卖产品转向提供整体方案。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653435.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "国际刑警发布摩纳哥爆炸案红色通缉令",
-      "summary": "摩纳哥爆炸嫌犯被列为红色通缉，全球追捕",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10652967.shtml"
+      "short_title": "中国首批援助物资启运委内瑞拉",
+      "summary": "中国政府紧急人道救援物资已运往委内瑞拉。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10653235.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗举行哈梅内伊公众告别仪式",
-      "summary": "伊朗为已故最高领袖举行公开悼念仪式",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-04/10652589.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "今年前5个月机器人出口近200亿元",
-      "summary": "上半年机器人出口额近200亿元，增长显著",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-05/10652982.shtml"
+      "short_title": "美方近三日护航霍尔木兹仅70艘",
+      "summary": "过去三天，美军护航船只仅70艘，航运受限。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653267.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-05 12:42:09"
+  "updated_at": "2026-07-06 12:56:04"
 }

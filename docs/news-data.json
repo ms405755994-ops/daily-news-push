@@ -1,79 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年7月6日 星期一（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年7月6日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年7月7日 星期二（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年7月7日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "基辅遭俄导弹袭击",
-      "reason": "俄军大规模袭击致伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653324.shtml"
+      "title": "北约峰会前乌方称俄军袭基辅26死",
+      "reason": "俄乌冲突升级 引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654035.shtml"
     },
     {
-      "title": "现货黄金重回4200美元关口",
-      "reason": "黄金价格回升至关键关口",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653309.shtml"
+      "title": "委内瑞拉地震死亡3535人",
+      "reason": "致上千余震 影响深远",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654003.shtml"
     },
     {
-      "title": "AI智能床争议",
-      "reason": "智能床引发AI伦理讨论",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653357.shtml"
+      "title": "A股午评超4700只个股飘绿",
+      "reason": "股市大跌 多只跌停",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-07/10654206.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "基辅遭俄导弹无人机袭击 5死34伤",
-      "summary": "俄军对基辅发动导弹无人机攻击，致5死34伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653324.shtml"
+      "short_title": "北约峰会前乌克兰称俄军袭击致26死",
+      "summary": "基辅地区遭袭，死亡26人，紧张局势升级。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654035.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震致逾3300人死亡",
-      "summary": "地震已致3342死 16740伤，灾情仍在评估。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653270.shtml"
+      "short_title": "广西横州强降雨致4死8失联，转移5....",
+      "summary": "强降雨导致多人死亡失踪，已安置5.3万人。",
+      "link": "https://www.chinanews.com.cn/sh/2026/07-07/10654218.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "尼泊尔野象袭击致母子双亡",
-      "summary": "野象冲入村庄，导致母子两人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653273.shtml"
+      "short_title": "机器人企业上半年营收破900亿元",
+      "summary": "前5个月规上机器人企业收入突破900亿元。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653945.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "现货黄金回升至4200美元",
-      "summary": "金价再度站上4200美元关口，市场关注。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653309.shtml"
+      "short_title": "A股午后超4700只跌，指数全线走低",
+      "summary": "超4700只个股下跌，三大指数同步收跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-07/10654206.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午评：超3500只个股飘绿",
-      "summary": "沪指收涨，深指跌，逾3500只个股下跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653479.shtml"
+      "short_title": "金价回升黄金股月内涨超20%",
+      "summary": "金价反弹，9只黄金股本月涨幅最高超20%。",
+      "link": "https://www.yicai.com/news/103262283.html"
     },
     {
       "category": "AI重点",
-      "short_title": "AI智能床争议：解药还是智商税",
-      "summary": "智能床被质疑效果，消费者观望。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653357.shtml"
+      "short_title": "618促销规则繁复，AI造假扰消费者",
+      "summary": "复杂规则导致AI营销造假，消费者权益受损。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-07/10654110.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "工业机器人出海转卖方案",
-      "summary": "机器人企业从卖产品转向提供整体方案。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653435.shtml"
+      "short_title": "AI演员Tilly遭美工会抵制将拍片",
+      "summary": "美国工会抵制AI演员Tilly，首部电影即将上映。",
+      "link": "https://www.ithome.com/0/973/436.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中国首批援助物资启运委内瑞拉",
-      "summary": "中国政府紧急人道救援物资已运往委内瑞拉。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-05/10653235.shtml"
+      "short_title": "俄军大规模打击乌克兰，多地遭袭",
+      "summary": "俄军发动大规模空袭，乌克兰多地区受损。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10653994.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美方近三日护航霍尔木兹仅70艘",
-      "summary": "过去三天，美军护航船只仅70艘，航运受限。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-06/10653267.shtml"
+      "short_title": "委内瑞拉强震致3535死，余震千余次",
+      "summary": "地震死亡人数升至3535，已出现上千余震。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654003.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "腾讯美团快手领涨，恒生科技指数连涨",
+      "summary": "港股恒生科技指数连续反弹，互联网企业领涨。",
+      "link": "https://www.yicai.com/news/103262431.html"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "金价回升，9只黄金股月内涨幅超20%",
+      "summary": "金价上涨，黄金板块表现强劲，多只股本月涨超20%。",
+      "link": "https://www.yicai.com/news/103262283.html"
     }
   ],
   "futures": [
@@ -113,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-06 12:56:04"
+  "updated_at": "2026-07-07 12:35:50"
 }

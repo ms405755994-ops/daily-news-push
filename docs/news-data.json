@@ -1,91 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年7月7日 星期二（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年7月7日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年7月8日 星期三（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年7月8日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "北约峰会前乌方称俄军袭基辅26死",
-      "reason": "俄乌冲突升级 引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654035.shtml"
+      "title": "美军打击伊朗 商船被袭",
+      "reason": "伊朗冲突升级，牵动地区局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654921.shtml"
     },
     {
-      "title": "委内瑞拉地震死亡3535人",
-      "reason": "致上千余震 影响深远",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654003.shtml"
+      "title": "美指中国潜艇试射洲际弹道导弹",
+      "reason": "核安全紧张，促核军控谈判",
+      "link": "https://www.voachinese.com/a/us-says-it-detected-chinese-submarine-test-firing-an-intercontinental-ballistic-missile-20260707/8169047.html"
     },
     {
-      "title": "A股午评超4700只个股飘绿",
-      "reason": "股市大跌 多只跌停",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-07/10654206.shtml"
+      "title": "英央行警示AI冲击金融稳",
+      "reason": "AI风险或致金融波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654705.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "北约峰会前乌克兰称俄军袭击致26死",
-      "summary": "基辅地区遭袭，死亡26人，紧张局势升级。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654035.shtml"
+      "short_title": "美军再度打击伊朗",
+      "summary": "美军回应伊朗袭商船，打击逾80目标",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654921.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "广西横州强降雨致4死8失联，转移5....",
-      "summary": "强降雨导致多人死亡失踪，已安置5.3万人。",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-07/10654218.shtml"
+      "short_title": "苏丹科尔多凡州无人机袭击",
+      "summary": "连发两起袭击，至少15人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654923.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "机器人企业上半年营收破900亿元",
-      "summary": "前5个月规上机器人企业收入突破900亿元。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-06/10653945.shtml"
+      "short_title": "习近平庆党百周年讲话要点",
+      "summary": "总书记号召青年勇担时代重任",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-07/10654706.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午后超4700只跌，指数全线走低",
-      "summary": "超4700只个股下跌，三大指数同步收跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-07/10654206.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "金价回升黄金股月内涨超20%",
-      "summary": "金价反弹，9只黄金股本月涨幅最高超20%。",
-      "link": "https://www.yicai.com/news/103262283.html"
+      "short_title": "广州局原书记武勇被调查",
+      "summary": "铁路广州局原党委书记接受审查",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-07/10654706.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "618促销规则繁复，AI造假扰消费者",
-      "summary": "复杂规则导致AI营销造假，消费者权益受损。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-07/10654110.shtml"
+      "short_title": "英央行警示AI金融风险",
+      "summary": "人工智能或冲击金融稳定",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654705.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI演员Tilly遭美工会抵制将拍片",
-      "summary": "美国工会抵制AI演员Tilly，首部电影即将上映。",
-      "link": "https://www.ithome.com/0/973/436.htm"
+      "short_title": "Steam用户对游戏AI态度调查",
+      "summary": "31%不满，43%可接受",
+      "link": "https://www.ithome.com/0/973/921.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄军大规模打击乌克兰，多地遭袭",
-      "summary": "俄军发动大规模空袭，乌克兰多地区受损。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10653994.shtml"
+      "short_title": "美称监测中国潜艇试射洲际弹道导弹",
+      "summary": "敦促北京参与核军控谈判",
+      "link": "https://www.voachinese.com/a/us-says-it-detected-chinese-submarine-test-firing-an-intercontinental-ballistic-missile-20260707/8169047.html"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "委内瑞拉强震致3535死，余震千余次",
-      "summary": "地震死亡人数升至3535，已出现上千余震。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654003.shtml"
+      "short_title": "俄方称欧洲军事化迫使俄增安措施",
+      "summary": "俄罗斯将采取更多安全防御",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654720.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "腾讯美团快手领涨，恒生科技指数连涨",
-      "summary": "港股恒生科技指数连续反弹，互联网企业领涨。",
-      "link": "https://www.yicai.com/news/103262431.html"
+      "short_title": "A股三大指数高开 超2400股跌绿",
+      "summary": "开盘指数走高，逾两千股下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-08/10654789.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "金价回升，9只黄金股月内涨幅超20%",
-      "summary": "金价上涨，黄金板块表现强劲，多只股本月涨超20%。",
-      "link": "https://www.yicai.com/news/103262283.html"
+      "short_title": "美军打伊朗致金油市场波动",
+      "summary": "黄金跌破4100美元，油价大涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-08/10654762.shtml"
     }
   ],
   "futures": [
@@ -125,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-07 12:35:50"
+  "updated_at": "2026-07-08 11:56:17"
 }

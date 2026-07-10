@@ -1,85 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年7月8日 星期三（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年7月8日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年7月10日 星期五（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年7月10日 星期五（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "美军打击伊朗 商船被袭",
-      "reason": "伊朗冲突升级，牵动地区局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654921.shtml"
+      "title": "德国将采购并部署美国“战斧”巡航...",
+      "reason": "美军武器扩散引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656394.shtml"
     },
     {
-      "title": "美指中国潜艇试射洲际弹道导弹",
-      "reason": "核安全紧张，促核军控谈判",
-      "link": "https://www.voachinese.com/a/us-says-it-detected-chinese-submarine-test-firing-an-intercontinental-ballistic-missile-20260707/8169047.html"
+      "title": "A股午评：超4400只个股飘红",
+      "reason": "股市大幅飘红提振情绪",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656594.shtml"
     },
     {
-      "title": "英央行警示AI冲击金融稳",
-      "reason": "AI风险或致金融波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654705.shtml"
+      "title": "经纬度：AI硬件机器人出海",
+      "reason": "AI硬件出海助力外贸增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656529.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军再度打击伊朗",
-      "summary": "美军回应伊朗袭商船，打击逾80目标",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654921.shtml"
+      "short_title": "德国采购美制“战斧”导弹",
+      "summary": "德国决定采购并部署美制战斧巡航导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656394.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "苏丹科尔多凡州无人机袭击",
-      "summary": "连发两起袭击，至少15人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654923.shtml"
+      "short_title": "委内瑞拉强震致3889人死亡",
+      "summary": "委内瑞拉7月强震死亡人数升至3889人",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656402.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "习近平庆党百周年讲话要点",
-      "summary": "总书记号召青年勇担时代重任",
-      "link": "https://www.chinanews.com.cn/gn/2026/07-07/10654706.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "广州局原书记武勇被调查",
-      "summary": "铁路广州局原党委书记接受审查",
-      "link": "https://www.chinanews.com.cn/gn/2026/07-07/10654706.shtml"
+      "short_title": "习近平强调创新驱动发展",
+      "summary": "科技盛会期间习近平多次提及创新",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-10/10656614.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "英央行警示AI金融风险",
-      "summary": "人工智能或冲击金融稳定",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-07/10654705.shtml"
+      "short_title": "上海AI硬件机器人出海加速",
+      "summary": "AI硬件与机器人出口推动上海外贸新动能",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656529.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Steam用户对游戏AI态度调查",
-      "summary": "31%不满，43%可接受",
-      "link": "https://www.ithome.com/0/973/921.htm"
+      "short_title": "英政府增投AI科研",
+      "summary": "英国计划提升人工智能等领域科研经费",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-09/10656389.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美称监测中国潜艇试射洲际弹道导弹",
-      "summary": "敦促北京参与核军控谈判",
-      "link": "https://www.voachinese.com/a/us-says-it-detected-chinese-submarine-test-firing-an-intercontinental-ballistic-missile-20260707/8169047.html"
+      "short_title": "日本乡镇变军事驻地",
+      "summary": "日本田园小镇被改为军事驻地引居民担忧",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-09/10656345.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄方称欧洲军事化迫使俄增安措施",
-      "summary": "俄罗斯将采取更多安全防御",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-08/10654720.shtml"
+      "short_title": "以色列通报伊朗刺杀特朗普",
+      "summary": "以色列向美国通报伊朗策划刺杀特朗普计划",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656432.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数高开 超2400股跌绿",
-      "summary": "开盘指数走高，逾两千股下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-08/10654789.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美军打伊朗致金油市场波动",
-      "summary": "黄金跌破4100美元，油价大涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-08/10654762.shtml"
+      "short_title": "A股午盘超4400只涨",
+      "summary": "沪指深指收涨，创业板指收跌，超4400只个股涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656594.shtml"
     }
   ],
   "futures": [
@@ -119,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-08 11:56:17"
+  "updated_at": "2026-07-10 12:35:05"
 }

@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年7月10日 星期五（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年7月10日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年7月11日 星期六（农历二月初一）｜汕头：阴 34°C",
+  "date_text": "2026年7月11日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 34°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "德国将采购并部署美国“战斧”巡航...",
-      "reason": "美军武器扩散引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656394.shtml"
+      "title": "特朗普发文：导弹瞄准伊朗",
+      "reason": "特朗普导弹言论引发地区紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657368.shtml"
     },
     {
-      "title": "A股午评：超4400只个股飘红",
-      "reason": "股市大幅飘红提振情绪",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656594.shtml"
+      "title": "美财政部宣布对伊朗新一轮制裁",
+      "reason": "美对伊新制裁冲击金融市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657291.shtml"
     },
     {
-      "title": "经纬度：AI硬件机器人出海",
-      "reason": "AI硬件出海助力外贸增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656529.shtml"
+      "title": "中国AI基建规模化部署",
+      "reason": "AI基建规模化提升算力竞争",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10657122.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "德国采购美制“战斧”导弹",
-      "summary": "德国决定采购并部署美制战斧巡航导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656394.shtml"
+      "short_title": "特朗普称1000枚导弹指向伊朗",
+      "summary": "美国前总统发文警告伊朗",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657368.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震致3889人死亡",
-      "summary": "委内瑞拉7月强震死亡人数升至3889人",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656402.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "习近平强调创新驱动发展",
-      "summary": "科技盛会期间习近平多次提及创新",
-      "link": "https://www.chinanews.com.cn/gn/2026/07-10/10656614.shtml"
+      "short_title": "委内瑞拉强震死亡逾4100人",
+      "summary": "地震致17907人无家可归",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657304.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "上海AI硬件机器人出海加速",
-      "summary": "AI硬件与机器人出口推动上海外贸新动能",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656529.shtml"
+      "short_title": "三星Bixby语音被指风格不一",
+      "summary": "用户称比导航更差",
+      "link": "https://www.ithome.com/0/975/413.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "英政府增投AI科研",
-      "summary": "英国计划提升人工智能等领域科研经费",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-09/10656389.shtml"
+      "short_title": "中国AI基建达十万卡规模",
+      "summary": "进入规模化部署新阶段",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10657122.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本乡镇变军事驻地",
-      "summary": "日本田园小镇被改为军事驻地引居民担忧",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-09/10656345.shtml"
+      "short_title": "马来西亚投资局主席访华谈合作",
+      "summary": "中国开放合作助世界经济",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656916.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列通报伊朗刺杀特朗普",
-      "summary": "以色列向美国通报伊朗策划刺杀特朗普计划",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656432.shtml"
+      "short_title": "美公布新UFO文件称未见过",
+      "summary": "飞行员称神秘物体前所未见",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657336.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午盘超4400只涨",
-      "summary": "沪指深指收涨，创业板指收跌，超4400只个股涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10656594.shtml"
+      "short_title": "A股涨停潮：航天回收获重估",
+      "summary": "首创网系回收落地，市值飙升",
+      "link": "https://finance.cnr.cn/ycbd/20260710/t20260710_527702290.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "体育经济成消费新引擎",
+      "summary": "推动消费升级带动增长",
+      "link": "https://www.chinanews.com.cn/ty/2026/07-11/10657363.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中方呼吁伊朗核问题放弃武力",
+      "summary": "各方应摈弃诉诸武力",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657290.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "以色列在美压力下限止黎军行动",
+      "summary": "美方要求限制对黎巴嫩行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657282.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-10 12:35:05"
+  "updated_at": "2026-07-11 11:54:23"
 }

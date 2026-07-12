@@ -1,85 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年7月11日 星期六（农历二月初一）｜汕头：阴 34°C",
-  "date_text": "2026年7月11日 星期六（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年7月12日 星期日（农历二月初一）｜汕头：阴 34°C",
+  "date_text": "2026年7月12日 星期日（农历二月初一）",
   "weather_text": "汕头：阴 34°C",
-  "total_count": 10,
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "特朗普发文：导弹瞄准伊朗",
-      "reason": "特朗普导弹言论引发地区紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657368.shtml"
+      "title": "美军确认对伊朗新袭击",
+      "reason": "美伊冲突升级，突发事件",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-12/10657785.shtml"
     },
     {
-      "title": "美财政部宣布对伊朗新一轮制裁",
-      "reason": "美对伊新制裁冲击金融市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657291.shtml"
+      "title": "伊朗打击美国在中东地区目标",
+      "reason": "伊朗对美军事行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-12/10657799.shtml"
     },
     {
-      "title": "中国AI基建规模化部署",
-      "reason": "AI基建规模化提升算力竞争",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10657122.shtml"
+      "title": "英投20亿建AI作战实验室",
+      "reason": "英国AI军用重大投入",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657586.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称1000枚导弹指向伊朗",
-      "summary": "美国前总统发文警告伊朗",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657368.shtml"
+      "short_title": "美军对伊朗发动新一轮袭击",
+      "summary": "美军中央司令部确认已对伊朗实施空袭。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-12/10657785.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震死亡逾4100人",
-      "summary": "地震致17907人无家可归",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657304.shtml"
+      "short_title": "南桑威奇群岛6.4级地震或致海啸",
+      "summary": "海域发生强震，可能引发局部海啸。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657620.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "泰国查处非法获取国籍案 涉华公民",
+      "summary": "泰国当局破获涉华国籍诈骗，中方已表态。",
+      "link": "https://www.chinanews.com.cn/hr/2026/07-12/10657770.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "海南自贸港加工增值免关税成效显现",
+      "summary": "五年内内销货值达121.2亿元，政策受惠企业。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-11/10657594.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美伊停火受考验 以方见新窗口",
+      "summary": "以色列称停火形势紧张，期待新外交机会。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-12/10657751.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "三星Bixby语音被指风格不一",
-      "summary": "用户称比导航更差",
-      "link": "https://www.ithome.com/0/975/413.htm"
+      "short_title": "柬埔寨警员完成中文+AI无人机培训",
+      "summary": "112名警员学习AI无人机与中文应用技术。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657609.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国AI基建达十万卡规模",
-      "summary": "进入规模化部署新阶段",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-10/10657122.shtml"
+      "short_title": "黄山智能机器人守护防汛一线",
+      "summary": "徽州区机器人协助抗台风“巴威”，提升防汛效率。",
+      "link": "https://www.chinanews.com.cn/tp/2026/07-12/10657803.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "马来西亚投资局主席访华谈合作",
-      "summary": "中国开放合作助世界经济",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-10/10656916.shtml"
+      "short_title": "伊朗革命卫队警告射击船只 海峡暂时关...",
+      "summary": "霍尔木兹海峡因违规船只被警告射击，暂时停航。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-12/10657757.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美公布新UFO文件称未见过",
-      "summary": "飞行员称神秘物体前所未见",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657336.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股涨停潮：航天回收获重估",
-      "summary": "首创网系回收落地，市值飙升",
-      "link": "https://finance.cnr.cn/ycbd/20260710/t20260710_527702290.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "体育经济成消费新引擎",
-      "summary": "推动消费升级带动增长",
-      "link": "https://www.chinanews.com.cn/ty/2026/07-11/10657363.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中方呼吁伊朗核问题放弃武力",
-      "summary": "各方应摈弃诉诸武力",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657290.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "以色列在美压力下限止黎军行动",
-      "summary": "美方要求限制对黎巴嫩行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-11/10657282.shtml"
+      "short_title": "阿曼提议双航道管理霍尔木兹海峡通行",
+      "summary": "阿曼建议设双航道，优化海峡船只通行安全。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-12/10657752.shtml"
     }
   ],
   "futures": [
@@ -119,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-11 11:54:23"
+  "updated_at": "2026-07-12 12:08:42"
 }

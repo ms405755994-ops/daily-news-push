@@ -1,85 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年7月13日 星期一（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年7月13日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年7月14日 星期二（农历二月初一）｜汕头：阴 30°C",
+  "date_text": "2026年7月14日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 30°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美军对伊朗新一轮打击",
-      "reason": "美伊冲突升级，地区安全受威胁",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-13/10658077.shtml"
+      "title": "美军连夜空袭伊朗",
+      "reason": "美军连夜空袭，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658731.shtml"
     },
     {
-      "title": "A股超4500只飘绿指数跌",
-      "reason": "A股大幅下跌，市场情绪转弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-13/10658303.shtml"
+      "title": "伊朗袭击美舰司令部",
+      "reason": "伊朗攻击美舰，冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658793.shtml"
     },
     {
-      "title": "伊朗大规模袭击美军目标",
-      "reason": "伊朗对美军事目标发动大规模袭击",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-13/10658234.shtml"
+      "title": "美联储官员警告或加息",
+      "reason": "通胀高企或促美联储加息",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658819.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军新一轮打击伊朗 多地传爆炸声",
-      "summary": "美军对伊朗发动空袭，导致多地爆炸。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-13/10658077.shtml"
+      "short_title": "美军连夜空袭伊朗",
+      "summary": "特朗普指令第三晚空袭伊朗，海上封锁将恢复",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658731.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震致逾4400人死亡",
-      "summary": "地震已致4490人死亡、16740人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-13/10658088.shtml"
+      "short_title": "委内瑞拉强震致逾4500死",
+      "summary": "地震已致4561人死亡、16740人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658734.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上半年铁路客运超23亿 创历史新高",
-      "summary": "2026上半年铁路发送旅客23亿人次。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-13/10658289.shtml"
+      "short_title": "乌拉圭碧根果等入华",
+      "summary": "多国农食产品今年进入中国市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-14/10658938.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午后超4500只跌绿 指数全跌",
-      "summary": "超4500只个股下跌，三大指数集体收跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-13/10658303.shtml"
+      "short_title": "美联储官员警告加息",
+      "summary": "沃勒称通胀高企或需再次加息",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658819.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上半年高频数据显示经济稳中向好",
-      "summary": "最新数据折射我国经济稳中向优。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-13/10658138.shtml"
+      "short_title": "上半年对东盟进出口增18%",
+      "summary": "进出口总额4.34万亿元，增长显著",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/07-14/10658927.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "韩央行称AI驱动半导体周期仍在延续",
-      "summary": "供应受限将支撑半导体长期增长。",
-      "link": "https://www.ithome.com/0/975/879.htm"
+      "short_title": "豆包月活3.8亿领跑",
+      "summary": "QuestMobile公布6月AI原生App活跃榜",
+      "link": "https://www.ithome.com/0/976/383.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国参议员格雷厄姆突发急病去世",
-      "summary": "71岁参议员突发急病离世。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-13/10658068.shtml"
+      "short_title": "伊朗外长称守护霍尔木兹",
+      "summary": "伊朗永远是霍尔木兹海峡的守护者",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658816.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗大规模袭击美军目标 引发紧张",
-      "summary": "伊朗对美军事目标发动大规模袭击。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-13/10658234.shtml"
+      "short_title": "特朗普点名中东国家交费",
+      "summary": "要求沙特等国向美国支付保护费",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658851.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "外资看好A股 长期配置价值凸显",
-      "summary": "外资认为A股具备长期投资价值。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-13/10658131.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "政策推动汽车后市场 加速换挡升级",
-      "summary": "政策赋能促汽车后市场快速升级。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-13/10658136.shtml"
+      "short_title": "A股三大指数翻红",
+      "summary": "沪指收复3900点，市场回暖",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-14/10658874.shtml"
     }
   ],
   "futures": [
@@ -119,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-13 12:10:15"
+  "updated_at": "2026-07-14 11:46:40"
 }

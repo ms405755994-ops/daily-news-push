@@ -1,79 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年7月14日 星期二（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年7月14日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年7月15日 星期三（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年7月15日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "美军连夜空袭伊朗",
-      "reason": "美军连夜空袭，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658731.shtml"
+      "title": "中东冲突升级 伊朗油轮被击",
+      "reason": "美伊紧张升级影响能源市场",
+      "link": "https://www.voachinese.com/a/us-strikes-iran-tankers-hit-as-middle-east-conflict-escalates-20260714/8171685.html"
     },
     {
-      "title": "伊朗袭击美舰司令部",
-      "reason": "伊朗攻击美舰，冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658793.shtml"
+      "title": "中国专家组支援埃博拉防控",
+      "reason": "突发公共卫生事件跨国合作",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659423.shtml"
     },
     {
-      "title": "美联储官员警告或加息",
-      "reason": "通胀高企或促美联储加息",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658819.shtml"
+      "title": "美联储主席警告高通胀",
+      "reason": "金融市场波动加剧关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659404.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军连夜空袭伊朗",
-      "summary": "特朗普指令第三晚空袭伊朗，海上封锁将恢复",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658731.shtml"
+      "short_title": "专家组赴埃博拉防控",
+      "summary": "中国公共卫生团队支援埃博拉疫情防控",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659423.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震致逾4500死",
-      "summary": "地震已致4561人死亡、16740人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658734.shtml"
+      "short_title": "中东冲突升级 伊朗击油轮",
+      "summary": "伊朗击中油轮 美军展开打击行动",
+      "link": "https://www.voachinese.com/a/us-strikes-iran-tankers-hit-as-middle-east-conflict-escalates-20260714/8171685.html"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "乌拉圭碧根果等入华",
-      "summary": "多国农食产品今年进入中国市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-14/10658938.shtml"
+      "short_title": "中国AI产业居全球前列",
+      "summary": "中国AI综合实力稳居全球第一梯队",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659510.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美联储官员警告加息",
-      "summary": "沃勒称通胀高企或需再次加息",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658819.shtml"
+      "short_title": "6月原油电力稳增长",
+      "summary": "规模以上工业原油保持稳定，电力增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659572.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上半年对东盟进出口增18%",
-      "summary": "进出口总额4.34万亿元，增长显著",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/07-14/10658927.shtml"
+      "short_title": "美军连夜打击伊朗",
+      "summary": "美国连续四晚对伊朗实施军事打击",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659496.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "豆包月活3.8亿领跑",
-      "summary": "QuestMobile公布6月AI原生App活跃榜",
-      "link": "https://www.ithome.com/0/976/383.htm"
+      "short_title": "AI代写种草笔记被批",
+      "summary": "批量代写种草笔记，AI不应成造假工具",
+      "link": "https://www.chinanews.com.cn/sh/2026/07-15/10659647.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI竞争格局加速改写",
+      "summary": "人工智能加速落地，行业竞争格局变化",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659555.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗外长称守护霍尔木兹",
-      "summary": "伊朗永远是霍尔木兹海峡的守护者",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658816.shtml"
+      "short_title": "伊朗警告美袭击致油气停供",
+      "summary": "伊朗称美袭击将导致地区油气出口受阻",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659470.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普点名中东国家交费",
-      "summary": "要求沙特等国向美国支付保护费",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-14/10658851.shtml"
+      "short_title": "美联储主席称零容忍高通胀",
+      "summary": "沃什表态美联储对持续高通胀零容忍",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659404.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股三大指数翻红",
-      "summary": "沪指收复3900点，市场回暖",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-14/10658874.shtml"
+      "short_title": "AI热潮提升进出口 对德顺差增",
+      "summary": "AI推动中国进出口增长，德国贸易顺差扩大",
+      "link": "https://www.dw.com/zh/ai%E7%83%AD%E6%BD%AE%E6%8E%A8%E9%AB%98%E4%B8%AD%E5%9B%BD%E8%BF%9B%E5%87%BA%E5%8F%A3-%E5%AF%B9%E5%BE%B7%E5%9B%BD%E8%B4%B8%E6%98%93%E9%A1%BA%E5%B7%AE%E6%98%8E%E6%98%BE/a-77950854"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "机器人产业收入破200亿元",
+      "summary": "国产机器人前5个月收入199.9亿元，市场快速增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659573.shtml"
     }
   ],
   "futures": [
@@ -113,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-14 11:46:40"
+  "updated_at": "2026-07-15 11:45:48"
 }

@@ -1,91 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年7月15日 星期三（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年7月15日 星期三（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年7月16日 星期四（农历二月初一）｜汕头：阴 28°C",
+  "date_text": "2026年7月16日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "中东冲突升级 伊朗油轮被击",
-      "reason": "美伊紧张升级影响能源市场",
-      "link": "https://www.voachinese.com/a/us-strikes-iran-tankers-hit-as-middle-east-conflict-escalates-20260714/8171685.html"
+      "title": "德总理称美关税拖累德国经济",
+      "reason": "美国关税冲击欧盟经济",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660293.shtml"
     },
     {
-      "title": "中国专家组支援埃博拉防控",
-      "reason": "突发公共卫生事件跨国合作",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659423.shtml"
+      "title": "俄称扎波罗热核电站工程师被击",
+      "reason": "乌克兰无人机攻击俄核设施",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660158.shtml"
     },
     {
-      "title": "美联储主席警告高通胀",
-      "reason": "金融市场波动加剧关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659404.shtml"
+      "title": "美ITC启动对英伟达等337调查",
+      "reason": "美国对芯片巨头展开调查",
+      "link": "https://www.ithome.com/0/977/420.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "专家组赴埃博拉防控",
-      "summary": "中国公共卫生团队支援埃博拉疫情防控",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659423.shtml"
+      "short_title": "委内瑞拉强震死亡4829人",
+      "summary": "地震致4829人遇难，救援仍在进行",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660325.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "中东冲突升级 伊朗击油轮",
-      "summary": "伊朗击中油轮 美军展开打击行动",
-      "link": "https://www.voachinese.com/a/us-strikes-iran-tankers-hit-as-middle-east-conflict-escalates-20260714/8171685.html"
+      "short_title": "俄称扎波罗热核站工程师被击毙",
+      "summary": "乌无人机袭击导致核站总工程师死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660158.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国AI产业居全球前列",
-      "summary": "中国AI综合实力稳居全球第一梯队",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659510.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "6月原油电力稳增长",
-      "summary": "规模以上工业原油保持稳定，电力增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659572.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美军连夜打击伊朗",
-      "summary": "美国连续四晚对伊朗实施军事打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659496.shtml"
+      "short_title": "上半年经济半年报：GDP增4.7%",
+      "summary": "GDP同比增长4.7%，新动能占比超四成",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660372.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI代写种草笔记被批",
-      "summary": "批量代写种草笔记，AI不应成造假工具",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-15/10659647.shtml"
+      "short_title": "上海AI消费创新论坛聚焦新赛道",
+      "summary": "300款AI产品首发，探讨消费科技融合",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660322.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI竞争格局加速改写",
-      "summary": "人工智能加速落地，行业竞争格局变化",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659555.shtml"
+      "short_title": "中国AI机器人助力非洲服务业",
+      "summary": "机器人提升非洲服务业智能化水平",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660353.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗警告美袭击致油气停供",
-      "summary": "伊朗称美袭击将导致地区油气出口受阻",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659470.shtml"
+      "short_title": "德总理指美国关税拖累德国经济",
+      "summary": "德国总理批评美关税影响本国增长",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660293.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美联储主席称零容忍高通胀",
-      "summary": "沃什表态美联储对持续高通胀零容忍",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-15/10659404.shtml"
+      "short_title": "特朗普称伊朗放行被扣美国公民",
+      "summary": "伊朗允许被扣美国人离境，特朗普致谢",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660186.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "AI热潮提升进出口 对德顺差增",
-      "summary": "AI推动中国进出口增长，德国贸易顺差扩大",
-      "link": "https://www.dw.com/zh/ai%E7%83%AD%E6%BD%AE%E6%8E%A8%E9%AB%98%E4%B8%AD%E5%9B%BD%E8%BF%9B%E5%87%BA%E5%8F%A3-%E5%AF%B9%E5%BE%B7%E5%9B%BD%E8%B4%B8%E6%98%93%E9%A1%BA%E5%B7%AE%E6%98%8E%E6%98%BE/a-77950854"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "机器人产业收入破200亿元",
-      "summary": "国产机器人前5个月收入199.9亿元，市场快速增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-15/10659573.shtml"
+      "short_title": "美ITC启动对七大公司337调查",
+      "summary": "三星、谷歌等七家公司被调查",
+      "link": "https://www.ithome.com/0/977/420.htm"
     }
   ],
   "futures": [
@@ -125,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-15 11:45:48"
+  "updated_at": "2026-07-16 11:49:15"
 }

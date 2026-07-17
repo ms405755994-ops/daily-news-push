@@ -1,73 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年7月16日 星期四（农历二月初一）｜汕头：阴 28°C",
-  "date_text": "2026年7月16日 星期四（农历二月初一）",
-  "weather_text": "汕头：阴 28°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年7月17日 星期五（农历二月初一）｜汕头：大雨 30°C",
+  "date_text": "2026年7月17日 星期五（农历二月初一）",
+  "weather_text": "汕头：大雨 30°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "德总理称美关税拖累德国经济",
-      "reason": "美国关税冲击欧盟经济",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660293.shtml"
+      "title": "美国袭击伊朗港口城市造成7死9伤",
+      "reason": "突发军事冲突，伤亡严重",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10661212.shtml"
     },
     {
-      "title": "俄称扎波罗热核电站工程师被击",
-      "reason": "乌克兰无人机攻击俄核设施",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660158.shtml"
+      "title": "美国30年期贷款利率6.55%",
+      "reason": "美国金融市场波动显著",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660971.shtml"
     },
     {
-      "title": "美ITC启动对英伟达等337调查",
-      "reason": "美国对芯片巨头展开调查",
-      "link": "https://www.ithome.com/0/977/420.htm"
+      "title": "全球AI发展 为何绕不开中国？",
+      "reason": "AI竞争焦点，中国居核心",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661222.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震死亡4829人",
-      "summary": "地震致4829人遇难，救援仍在进行",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660325.shtml"
+      "short_title": "美军袭击伊朗港口致伤亡",
+      "summary": "美军空袭伊朗阿巴斯港，致1死8伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660984.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄称扎波罗热核站工程师被击毙",
-      "summary": "乌无人机袭击导致核站总工程师死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660158.shtml"
+      "short_title": "重庆彭水山体崩塌救援已到",
+      "summary": "彭水一路段山体坍塌，救援队已赶赴现场。",
+      "link": "https://www.chinanews.com.cn/sh/2026/07-17/10661214.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上半年经济半年报：GDP增4.7%",
-      "summary": "GDP同比增长4.7%，新动能占比超四成",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660372.shtml"
+      "short_title": "中国好感度超美国",
+      "summary": "皮尤调查显示，多国对中国好感度高于美国。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661158.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "赴华机票销量暴涨",
+      "summary": "夏季来华旅游热，机票预订量激增。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661224.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "巴西指美国关税无理",
+      "summary": "巴西官员批评美方对巴产品加征关税缺正当理由。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660999.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "上海AI消费创新论坛聚焦新赛道",
-      "summary": "300款AI产品首发，探讨消费科技融合",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660322.shtml"
+      "short_title": "Spotify下架7500万AI歌曲",
+      "summary": "Spotify去年删除7500万首AI生成音乐。",
+      "link": "https://www.ithome.com/0/977/955.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "中国AI机器人助力非洲服务业",
-      "summary": "机器人提升非洲服务业智能化水平",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-16/10660353.shtml"
+      "short_title": "诺奖得主期待AI大会",
+      "summary": "诺奖得主对2026世界人工智能大会充满期待。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10661189.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德总理指美国关税拖累德国经济",
-      "summary": "德国总理批评美关税影响本国增长",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660293.shtml"
+      "short_title": "乌克兰议会任命新总理",
+      "summary": "乌克兰议会通过新总理任命，引发政治争议。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660937.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称伊朗放行被扣美国公民",
-      "summary": "伊朗允许被扣美国人离境，特朗普致谢",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660186.shtml"
+      "short_title": "全球AI发展离不开中国",
+      "summary": "分析指出，中国是全球AI技术创新核心。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661222.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美ITC启动对七大公司337调查",
-      "summary": "三星、谷歌等七家公司被调查",
-      "link": "https://www.ithome.com/0/977/420.htm"
+      "short_title": "美国30年期贷款利率创新高",
+      "summary": "美国30年期房贷利率升至6.55%，创一年新高。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660971.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股房企半年净利增超4倍",
+      "summary": "部分A股房企上半年归母净利润增长超四倍。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661133.shtml"
     }
   ],
   "futures": [
@@ -107,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-16 11:49:15"
+  "updated_at": "2026-07-17 11:48:09"
 }

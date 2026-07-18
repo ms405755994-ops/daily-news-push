@@ -1,91 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年7月17日 星期五（农历二月初一）｜汕头：大雨 30°C",
-  "date_text": "2026年7月17日 星期五（农历二月初一）",
-  "weather_text": "汕头：大雨 30°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年7月18日 星期六（农历二月初一）｜汕头：阴 28°C",
+  "date_text": "2026年7月18日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国袭击伊朗港口城市造成7死9伤",
-      "reason": "突发军事冲突，伤亡严重",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10661212.shtml"
+      "title": "伊朗称击约旦美军战机",
+      "reason": "中东紧张局势升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661852.shtml"
     },
     {
-      "title": "美国30年期贷款利率6.55%",
-      "reason": "美国金融市场波动显著",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660971.shtml"
+      "title": "特朗普指责加拿大野火",
+      "reason": "美加关系受野火影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661834.shtml"
     },
     {
-      "title": "全球AI发展 为何绕不开中国？",
-      "reason": "AI竞争焦点，中国居核心",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661222.shtml"
+      "title": "联合国副秘书长称AI投资破万亿美...",
+      "reason": "全球AI资本激增",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661760.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军袭击伊朗港口致伤亡",
-      "summary": "美军空袭伊朗阿巴斯港，致1死8伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660984.shtml"
+      "short_title": "伊朗击中约旦美军基地",
+      "summary": "伊朗称击落美军战机，基地传出巨响",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661852.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "重庆彭水山体崩塌救援已到",
-      "summary": "彭水一路段山体坍塌，救援队已赶赴现场。",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-17/10661214.shtml"
+      "short_title": "墨西哥海域7.2级强震",
+      "summary": "恰帕斯州近海发生7.2级地震",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661832.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国好感度超美国",
-      "summary": "皮尤调查显示，多国对中国好感度高于美国。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661158.shtml"
+      "short_title": "联合国称AI投资近万亿美元",
+      "summary": "副秘书长披露全球AI资本规模",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661760.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "赴华机票销量暴涨",
-      "summary": "夏季来华旅游热，机票预订量激增。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661224.shtml"
+      "short_title": "马来西亚期待中国AI技术",
+      "summary": "吕海庭盼中国AI模式推广东盟",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/07-18/10661871.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "巴西指美国关税无理",
-      "summary": "巴西官员批评美方对巴产品加征关税缺正当理由。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660999.shtml"
+      "short_title": "美不再延续港区紧急状态",
+      "summary": "商务部回应美国政策变化",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661761.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Spotify下架7500万AI歌曲",
-      "summary": "Spotify去年删除7500万首AI生成音乐。",
-      "link": "https://www.ithome.com/0/977/955.htm"
+      "short_title": "中国铁塔亮相AI大会",
+      "summary": "展示5G与AI融合创新应用",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-18/10661890.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "诺奖得主期待AI大会",
-      "summary": "诺奖得主对2026世界人工智能大会充满期待。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10661189.shtml"
+      "short_title": "电科海康观澜大模型发布",
+      "summary": "覆盖90行业2000场景",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661749.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "乌克兰议会任命新总理",
-      "summary": "乌克兰议会通过新总理任命，引发政治争议。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-16/10660937.shtml"
+      "short_title": "特朗普指责加野火波及美",
+      "summary": "称将污染成本计入关税",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661834.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "全球AI发展离不开中国",
-      "summary": "分析指出，中国是全球AI技术创新核心。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661222.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美国30年期贷款利率创新高",
-      "summary": "美国30年期房贷利率升至6.55%，创一年新高。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-17/10660971.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股房企半年净利增超4倍",
-      "summary": "部分A股房企上半年归母净利润增长超四倍。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661133.shtml"
+      "short_title": "英伟达App升级支持240FPS",
+      "summary": "NVIDIA新版本提升录制性能",
+      "link": "https://www.ithome.com/0/978/389.htm"
     }
   ],
   "futures": [
@@ -125,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-17 11:48:09"
+  "updated_at": "2026-07-18 11:45:23"
 }

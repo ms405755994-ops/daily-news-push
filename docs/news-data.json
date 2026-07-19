@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年7月18日 星期六（农历二月初一）｜汕头：阴 28°C",
-  "date_text": "2026年7月18日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 28°C",
+  "title": "MSAI今日新闻｜2026年7月19日 星期日（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年7月19日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "伊朗称击约旦美军战机",
-      "reason": "中东紧张局势升级",
+      "title": "伊朗击美军机，约旦基地爆炸",
+      "reason": "突发国际冲突，涉及美伊关系",
       "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661852.shtml"
     },
     {
-      "title": "特朗普指责加拿大野火",
-      "reason": "美加关系受野火影响",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661834.shtml"
+      "title": "乌克兰袭击俄仓库致8死",
+      "reason": "突发战事升级，俄乌冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-19/10662309.shtml"
     },
     {
-      "title": "联合国副秘书长称AI投资破万亿美...",
-      "reason": "全球AI资本激增",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661760.shtml"
+      "title": "K3模型登榜，打破美中AI认知",
+      "reason": "AI重大进展，挑战美方领先认知",
+      "link": "https://www.ithome.com/0/978/670.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗击中约旦美军基地",
-      "summary": "伊朗称击落美军战机，基地传出巨响",
+      "short_title": "伊朗击约旦美军基地爆炸声传出",
+      "summary": "伊朗称击落美军战机，约旦基地响起巨响",
       "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661852.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "墨西哥海域7.2级强震",
-      "summary": "恰帕斯州近海发生7.2级地震",
+      "short_title": "俄物流中心遭无人机袭击致多人伤亡",
+      "summary": "两处物流中心被无人机击中，7死数十伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10662026.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "小鹏VLA模型实现中欧统一 2027...",
+      "summary": "第二代模型连通中欧，计划2027年交付海外",
+      "link": "https://www.ithome.com/0/978/655.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "习近平讲话为全球AI治理献策",
+      "summary": "主席强调合作共建，推动人工智能国际规则",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-19/10662340.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "墨西哥恰帕斯海域7.2级强震",
+      "summary": "近海发生7.2级地震，暂无人员伤亡报告",
       "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661832.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "联合国称AI投资近万亿美元",
-      "summary": "副秘书长披露全球AI资本规模",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661760.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "马来西亚期待中国AI技术",
-      "summary": "吕海庭盼中国AI模式推广东盟",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/07-18/10661871.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美不再延续港区紧急状态",
-      "summary": "商务部回应美国政策变化",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661761.shtml"
+      "category": "AI重点",
+      "short_title": "西门子场景驱动工业AI提升生产力",
+      "summary": "肖松提出以场景为牵引，推动AI从单点到全链",
+      "link": "https://www.chinanews.com.cn/gsztc/2026/07-19/10662343.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国铁塔亮相AI大会",
-      "summary": "展示5G与AI融合创新应用",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-18/10661890.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "电科海康观澜大模型发布",
-      "summary": "覆盖90行业2000场景",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-17/10661749.shtml"
+      "short_title": "Kimi K3大模型登榜 全球AI格...",
+      "summary": "彭博称美国AI领先认知被打破，K3夺全球榜首",
+      "link": "https://www.ithome.com/0/978/670.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普指责加野火波及美",
-      "summary": "称将污染成本计入关税",
+      "short_title": "特朗普指责加拿大野火 将成本计入关税",
+      "summary": "美总统称野火波及美国，主张将污染费用加关税",
       "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661834.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "英伟达App升级支持240FPS",
-      "summary": "NVIDIA新版本提升录制性能",
-      "link": "https://www.ithome.com/0/978/389.htm"
+      "short_title": "伊朗油轮霍尔木兹海峡爆炸 美军回应",
+      "summary": "两艘油轮在布雷区起火，伊朗指责美方介入",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661830.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-18 11:45:23"
+  "updated_at": "2026-07-19 12:04:35"
 }

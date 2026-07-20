@@ -1,79 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年7月19日 星期日（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年7月19日 星期日（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年7月20日 星期一（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年7月20日 星期一（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "伊朗击美军机，约旦基地爆炸",
-      "reason": "突发国际冲突，涉及美伊关系",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661852.shtml"
+      "title": "伊朗革命卫队袭击叙利亚指挥中心",
+      "reason": "中东局势升级，叙利亚战事突发",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662655.shtml"
     },
     {
-      "title": "乌克兰袭击俄仓库致8死",
-      "reason": "突发战事升级，俄乌冲突升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-19/10662309.shtml"
+      "title": "乌克兰称俄袭土耳其货船致死",
+      "reason": "俄对土耳其船只袭击致多人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662654.shtml"
     },
     {
-      "title": "K3模型登榜，打破美中AI认知",
-      "reason": "AI重大进展，挑战美方领先认知",
-      "link": "https://www.ithome.com/0/978/670.htm"
+      "title": "京东健康AI成果亮相WAIC",
+      "reason": "京东健康AI医疗突破，行业关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662847.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗击约旦美军基地爆炸声传出",
-      "summary": "伊朗称击落美军战机，约旦基地响起巨响",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661852.shtml"
+      "short_title": "伊朗卫队空袭叙利亚指挥中心",
+      "summary": "伊朗革命卫队宣称击中叙利亚敌方指挥中心",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662655.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄物流中心遭无人机袭击致多人伤亡",
-      "summary": "两处物流中心被无人机击中，7死数十伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10662026.shtml"
+      "short_title": "秘鲁连环地震致6死21伤",
+      "summary": "秘鲁两次强震已致6人死亡、21人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662806.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "小鹏VLA模型实现中欧统一 2027...",
-      "summary": "第二代模型连通中欧，计划2027年交付海外",
-      "link": "https://www.ithome.com/0/978/655.htm"
+      "short_title": "奔腾中国推进高质量发展",
+      "summary": "中国企业聚焦质量提升，落实‘两个毫不动摇’",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662843.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "习近平讲话为全球AI治理献策",
-      "summary": "主席强调合作共建，推动人工智能国际规则",
-      "link": "https://www.chinanews.com.cn/gn/2026/07-19/10662340.shtml"
+      "short_title": "我国人形机器人占全球超半数",
+      "summary": "工信部称国产人形机器人整机产品超全球一半",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662824.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "墨西哥恰帕斯海域7.2级强震",
-      "summary": "近海发生7.2级地震，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661832.shtml"
+      "short_title": "管涛谈创新驱动经济动能",
+      "summary": "管涛指出创新正逐步释放增长动能",
+      "link": "https://www.yicai.com/news/103281582.html"
     },
     {
       "category": "AI重点",
-      "short_title": "西门子场景驱动工业AI提升生产力",
-      "summary": "肖松提出以场景为牵引，推动AI从单点到全链",
-      "link": "https://www.chinanews.com.cn/gsztc/2026/07-19/10662343.shtml"
+      "short_title": "京东健康AI成果亮相WAIC",
+      "summary": "京东健康医疗AI获双榜第一，用户增长超4倍",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662847.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Kimi K3大模型登榜 全球AI格...",
-      "summary": "彭博称美国AI领先认知被打破，K3夺全球榜首",
-      "link": "https://www.ithome.com/0/978/670.htm"
+      "short_title": "上海AI+能碳数智空间发布",
+      "summary": "世界人工智能大会在沪公布工业通信AI能碳新方案",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662763.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普指责加拿大野火 将成本计入关税",
-      "summary": "美总统称野火波及美国，主张将污染费用加关税",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661834.shtml"
+      "short_title": "俄袭土货船致6死乌克兰指控",
+      "summary": "乌克兰称俄军袭击土耳其货船，导致6人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662654.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗油轮霍尔木兹海峡爆炸 美军回应",
-      "summary": "两艘油轮在布雷区起火，伊朗指责美方介入",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-18/10661830.shtml"
+      "short_title": "伊朗称霍尔木兹海峡零通航",
+      "summary": "伊朗宣布霍尔木兹海峡通航量已降至零",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-19/10662645.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "上半年集成电路出口增长88.7%",
+      "summary": "工信部披露集成电路出口额上半年同比大涨88.7%",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662792.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "AI成中国经济转型关键力量",
+      "summary": "中欧数字协会称AI是推动经济升级的重要力量",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662789.shtml"
     }
   ],
   "futures": [
@@ -113,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-19 12:04:35"
+  "updated_at": "2026-07-20 12:24:11"
 }

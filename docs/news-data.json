@@ -1,91 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年7月20日 星期一（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年7月20日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
+  "title": "MSAI今日新闻｜2026年7月21日 星期二（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年7月21日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "伊朗革命卫队袭击叙利亚指挥中心",
-      "reason": "中东局势升级，叙利亚战事突发",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662655.shtml"
+      "title": "五角大楼公布伊朗袭击死亡士兵身份",
+      "reason": "突发国际安全事件",
+      "link": "https://www.voachinese.com/a/pentagon-identifies-two-soldiers-killed-in-iranian-strike-in-jordan-20260720/8173880.html"
     },
     {
-      "title": "乌克兰称俄袭土耳其货船致死",
-      "reason": "俄对土耳其船只袭击致多人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662654.shtml"
+      "title": "美对加商品加征50%关税",
+      "reason": "突发贸易政策冲击",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663264.shtml"
     },
     {
-      "title": "京东健康AI成果亮相WAIC",
-      "reason": "京东健康AI医疗突破，行业关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662847.shtml"
+      "title": "多国嘉宾赞AI大会成果",
+      "reason": "AI重大进展受关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663370.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗卫队空袭叙利亚指挥中心",
-      "summary": "伊朗革命卫队宣称击中叙利亚敌方指挥中心",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662655.shtml"
+      "short_title": "五角大楼公布伊朗袭击遇难军人身份",
+      "summary": "美军两名士兵在约旦被伊朗袭击身亡",
+      "link": "https://www.voachinese.com/a/pentagon-identifies-two-soldiers-killed-in-iranian-strike-in-jordan-20260720/8173880.html"
     },
     {
       "category": "突发新闻",
-      "short_title": "秘鲁连环地震致6死21伤",
-      "summary": "秘鲁两次强震已致6人死亡、21人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662806.shtml"
+      "short_title": "美对加特定商品加征50%关税",
+      "summary": "美国宣布对加拿大部分商品征收高额关税",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663264.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "奔腾中国推进高质量发展",
-      "summary": "中国企业聚焦质量提升，落实‘两个毫不动摇’",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662843.shtml"
+      "short_title": "无锡商业航天进入星时代",
+      "summary": "无锡打造航天产业链，实现批量造星",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-21/10663410.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "我国人形机器人占全球超半数",
-      "summary": "工信部称国产人形机器人整机产品超全球一半",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662824.shtml"
+      "short_title": "中国电信5G网络大模型试点",
+      "summary": "5G网络规划大模型提升效率50%",
+      "link": "https://www.ithome.com/0/979/428.htm"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "管涛谈创新驱动经济动能",
-      "summary": "管涛指出创新正逐步释放增长动能",
-      "link": "https://www.yicai.com/news/103281582.html"
+      "short_title": "特朗普称内塔尼亚胡不被捕",
+      "summary": "特朗普表示内塔尼亚胡在美不受逮捕",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663363.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "京东健康AI成果亮相WAIC",
-      "summary": "京东健康医疗AI获双榜第一，用户增长超4倍",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662847.shtml"
+      "short_title": "AI写代码后编程课分数可信吗",
+      "summary": "AI生成代码冲击编程教学评分体系",
+      "link": "https://www.chinanews.com.cn/edu/2026/07-21/10663424.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "上海AI+能碳数智空间发布",
-      "summary": "世界人工智能大会在沪公布工业通信AI能碳新方案",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662763.shtml"
+      "short_title": "多国嘉宾赞AI大会成果丰硕",
+      "summary": "多国代表称AI大会成果显著",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663370.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄袭土货船致6死乌克兰指控",
-      "summary": "乌克兰称俄军袭击土耳其货船，导致6人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662654.shtml"
+      "short_title": "中东局势升级风险美发布安全警示",
+      "summary": "美国警告中东局势可能意外升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663389.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗称霍尔木兹海峡零通航",
-      "summary": "伊朗宣布霍尔木兹海峡通航量已降至零",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-19/10662645.shtml"
+      "short_title": "西班牙球迷狂欢致地震仪震动",
+      "summary": "世界杯决赛西班牙球迷狂欢引发仪器震动",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663428.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "上半年集成电路出口增长88.7%",
-      "summary": "工信部披露集成电路出口额上半年同比大涨88.7%",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-20/10662792.shtml"
+      "short_title": "A股三大指数集体收涨",
+      "summary": "今日A股三大指数全线收涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-21/10663429.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "AI成中国经济转型关键力量",
-      "summary": "中欧数字协会称AI是推动经济升级的重要力量",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-20/10662789.shtml"
+      "short_title": "恒指领跑全球 港股看好中国资产",
+      "summary": "恒指七月表现全球最佳，吸引资金关注",
+      "link": "https://www.cls.cn/detail/2431720"
     }
   ],
   "futures": [
@@ -125,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-20 12:24:11"
+  "updated_at": "2026-07-21 11:57:48"
 }

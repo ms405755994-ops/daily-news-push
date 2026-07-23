@@ -1,107 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年7月22日 星期三（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年7月22日 星期三（农历二月初一）",
-  "weather_text": "汕头：天气待更新",
+  "title": "MSAI今日新闻｜2026年7月23日 星期四（农历二月初一）｜汕头：晴 32°C",
+  "date_text": "2026年7月23日 星期四（农历二月初一）",
+  "weather_text": "汕头：晴 32°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "美军第11晚袭伊朗",
-      "reason": "美伊冲突升级，地区紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10663981.shtml"
+      "title": "美众院批准950亿美元伊朗拨款",
+      "reason": "美国大额拨款加剧中东紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664676.shtml"
     },
     {
-      "title": "联合国称以色列加沙袭击升级",
-      "reason": "加沙局势恶化，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10663943.shtml"
+      "title": "世行警告美伊冲突致增速降1.3%",
+      "reason": "冲突或致全球经济放缓",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10664644.shtml"
     },
     {
-      "title": "A股开盘超4100股飘绿",
-      "reason": "A股大跌，市场情绪恐慌",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-22/10664040.shtml"
+      "title": "AI热潮推高美债务1.65万亿",
+      "reason": "AI推动美科技债务激增",
+      "link": "https://www.ithome.com/0/980/472.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军第11夜袭伊朗",
-      "summary": "美军连续空袭伊朗已达11夜",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10663981.shtml"
+      "short_title": "美众议院通过950亿美元拨款",
+      "summary": "拨款将用于伊朗战争等关键项目",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664676.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "联合国称以军加沙袭击升级",
-      "summary": "以军空袭加沙致多人伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10663943.shtml"
+      "short_title": "世行警告美伊冲突降全球增速",
+      "summary": "冲突或致全球经济增速降至1.3%",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10664644.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "温州启动创新中国主题活动",
+      "summary": "展示浙江创新成果，推动高质量发展",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664765.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "广东寨岗夏梨冬柚错峰飘香",
+      "summary": "打造致富黄金路，促进乡村振兴",
+      "link": "https://www.chinanews.com.cn/sh/2026/07-23/10664842.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "海南泰国经贸合作推介会在曼谷",
+      "summary": "深化两国经贸关系，拓展合作空间",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664765.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI助力传统文化焕新",
-      "summary": "人工智能让传统艺术活起来",
-      "link": "https://www.chinanews.com.cn/cul/2026/07-22/10664141.shtml"
+      "short_title": "景区AI抓拍保护隐私指南",
+      "summary": "专家解读抓拍技术与隐私保护要点",
+      "link": "https://www.chinanews.com.cn/sh/2026/07-23/10664855.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Win11预览版添Copilot按钮",
-      "summary": "AI助力文件管理与摘要",
-      "link": "https://www.ithome.com/0/979/968.htm"
+      "short_title": "普华永道在沪成立AI研究院",
+      "summary": "链接全球本土生态，加速AI价值落地",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664803.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美加关税后卡尼欲加强谈判",
-      "summary": "美国加征关税，加拿大回应",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-21/10663927.shtml"
+      "short_title": "南非6月通胀升至5%创新高",
+      "summary": "6月通胀达5%，为近两年最高",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664682.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以军空袭加沙致12人死亡",
-      "summary": "包括多名儿童在内受害",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10663952.shtml"
+      "short_title": "也门胡塞在红海袭击沙特油轮",
+      "summary": "两艘油轮被击，地区安全形势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664661.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超4100股跌",
-      "summary": "三大指数集体低开",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-22/10664040.shtml"
+      "short_title": "外资机构看好A股市场信号",
+      "summary": "多重利好释放，提振市场信心",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664771.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "扬子江畔黑色黄金量产",
-      "summary": "调研新景展示能源新局面",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-22/10664117.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "华裔青少年访崇明生态岛",
-      "summary": "在世界级生态岛感受美丽中国",
-      "link": "https://www.chinanews.com.cn/hr/2026/07-22/10664156.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊军警告美攻伊核将报复",
-      "summary": "中东美方利益或受冲击",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10663947.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美军第十轮中东袭击致三兵亡",
-      "summary": "五角大楼公布阵亡士兵身份",
-      "link": "https://www.voachinese.com/a/us-military-completes-tenth-round-of-strikes-as-the-pentagon-identifies-third-soldier-killed-in-the-middle-east-20260721/8174377.html"
+      "short_title": "AI热潮致美科技巨头债务激增",
+      "summary": "五大科技公司隐性债务达1.65万亿美元",
+      "link": "https://www.ithome.com/0/980/472.htm"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "85.28",
-      "pct": 1.1145364002845597,
+      "price": "88.48",
+      "pct": 1.9002648854082755,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,135.40",
-      "pct": 1.4473555097635058,
-      "trend": "up"
+      "price": "4,128.00",
+      "pct": -0.5756400684024094,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -125,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-07-22 11:58:14"
+  "updated_at": "2026-07-23 11:55:39"
 }

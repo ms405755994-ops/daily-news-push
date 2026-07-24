@@ -1,106 +1,106 @@
 {
-  "title": "MSAI今日新闻｜2026年7月23日 星期四（农历二月初一）｜汕头：晴 32°C",
-  "date_text": "2026年7月23日 星期四（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年7月24日 星期五（农历二月初一）｜汕头：晴 32°C",
+  "date_text": "2026年7月24日 星期五（农历二月初一）",
   "weather_text": "汕头：晴 32°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "美众院批准950亿美元伊朗拨款",
-      "reason": "美国大额拨款加剧中东紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664676.shtml"
+      "title": "菲律宾指中国海警射水炮",
+      "reason": "南海局势升级，突发冲突",
+      "link": "https://www.dw.com/zh/%E4%B8%80%E5%91%A8%E5%86%85%E4%B8%A4%E8%B5%B7%E5%86%B2%E7%AA%81%E8%8F%B2%E5%BE%8B%E5%AE%BE%E7%A7%B0%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E5%90%91%E8%8F%B2%E8%88%B9%E5%8F%AA%E5%8F%91%E5%B0%84%E6%B0%B4%E7%82%AE/a-78083394"
     },
     {
-      "title": "世行警告美伊冲突致增速降1.3%",
-      "reason": "冲突或致全球经济放缓",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10664644.shtml"
+      "title": "美国将于7月24日实施新关税措施",
+      "reason": "美国新关税或冲击全球市场",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665514.shtml"
     },
     {
-      "title": "AI热潮推高美债务1.65万亿",
-      "reason": "AI推动美科技债务激增",
-      "link": "https://www.ithome.com/0/980/472.htm"
+      "title": "OpenAI模型失控 引发安全担...",
+      "reason": "AI安全治理迫在眉睫",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665354.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美众议院通过950亿美元拨款",
-      "summary": "拨款将用于伊朗战争等关键项目",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664676.shtml"
+      "short_title": "菲律宾指中国海警向其船只射水炮",
+      "summary": "菲律宾称中国海警在南海向菲船发射水炮，引发紧张。",
+      "link": "https://www.dw.com/zh/%E4%B8%80%E5%91%A8%E5%86%85%E4%B8%A4%E8%B5%B7%E5%86%B2%E7%AA%81%E8%8F%B2%E5%BE%8B%E5%AE%BE%E7%A7%B0%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E5%90%91%E8%8F%B2%E8%88%B9%E5%8F%AA%E5%8F%91%E5%B0%84%E6%B0%B4%E7%82%AE/a-78083394"
     },
     {
       "category": "突发新闻",
-      "short_title": "世行警告美伊冲突降全球增速",
-      "summary": "冲突或致全球经济增速降至1.3%",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-22/10664644.shtml"
+      "short_title": "美军第13夜空袭伊朗",
+      "summary": "美军连续第13晚对伊朗进行空袭，局势进一步升温。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665385.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "温州启动创新中国主题活动",
-      "summary": "展示浙江创新成果，推动高质量发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664765.shtml"
+      "short_title": "苏丹青尼罗州无人机袭击致伤亡",
+      "summary": "苏丹青尼罗州遭无人机袭击，造成数十人死伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665521.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "广东寨岗夏梨冬柚错峰飘香",
-      "summary": "打造致富黄金路，促进乡村振兴",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-23/10664842.shtml"
+      "short_title": "泽连斯基称乌将合制爱国者导弹",
+      "summary": "乌克兰计划与雷神公司合作生产爱国者防空导弹。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665449.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "海南泰国经贸合作推介会在曼谷",
-      "summary": "深化两国经贸关系，拓展合作空间",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664765.shtml"
+      "short_title": "德国银行持刀袭击致一人死亡",
+      "summary": "德国一家银行发生持刀袭击，导致一名人员死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665370.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "景区AI抓拍保护隐私指南",
-      "summary": "专家解读抓拍技术与隐私保护要点",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-23/10664855.shtml"
+      "short_title": "OpenAI承认模型失控 专家警示安...",
+      "summary": "OpenAI公开模型失控，专家呼吁加强AI安全治理。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665354.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "普华永道在沪成立AI研究院",
-      "summary": "链接全球本土生态，加速AI价值落地",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664803.shtml"
+      "short_title": "公安部破获170起AI造谣案件",
+      "summary": "上半年利用AI工具生成网络谣言案件170余起被破获。",
+      "link": "https://www.chinanews.com.cn/gn/2026/07-24/10665560.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "南非6月通胀升至5%创新高",
-      "summary": "6月通胀达5%，为近两年最高",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664682.shtml"
+      "short_title": "欧盟对俄实施第21轮制裁",
+      "summary": "欧盟启动第21轮针对俄罗斯的制裁措施。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665369.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "也门胡塞在红海袭击沙特油轮",
-      "summary": "两艘油轮被击，地区安全形势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-23/10664661.shtml"
+      "short_title": "美众议院通过限制总统战争权力",
+      "summary": "美国众议院通过限制总统发动战争的法案，参议院未通过。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665362.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "外资机构看好A股市场信号",
-      "summary": "多重利好释放，提振市场信心",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-23/10664771.shtml"
+      "short_title": "A股开盘超4600只个股跌",
+      "summary": "开盘超4600只A股跌，三大指数集体低开。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-24/10665425.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "AI热潮致美科技巨头债务激增",
-      "summary": "五大科技公司隐性债务达1.65万亿美元",
-      "link": "https://www.ithome.com/0/980/472.htm"
+      "short_title": "美国将于24日实施新关税",
+      "summary": "美国宣布7月24日生效的新关税措施。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-24/10665514.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "88.48",
-      "pct": 1.9002648854082755,
-      "trend": "up"
+      "price": "91.95",
+      "pct": -0.26033192320207715,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,128.00",
-      "pct": -0.5756400684024094,
+      "price": "4,031.30",
+      "pct": -0.4666436225371497,
       "trend": "down"
     },
     {
@@ -125,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-07-23 11:55:39"
+  "updated_at": "2026-07-24 11:55:53"
 }

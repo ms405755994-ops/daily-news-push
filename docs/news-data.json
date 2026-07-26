@@ -1,101 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年7月25日 星期六（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年7月25日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年7月26日 星期日（农历二月初一）｜汕头：小雨 26°C",
+  "date_text": "2026年7月26日 星期日（农历二月初一）",
+  "weather_text": "汕头：小雨 26°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国关税新剧本",
-      "reason": "全球加税引发金融波动",
+      "title": "特朗普暂停打伊朗空袭",
+      "reason": "美国政策突变影响中东局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-26/10666643.shtml"
+    },
+    {
+      "title": "美国新关税政策冲击全球",
+      "reason": "关税升级引发金融波动",
       "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666205.shtml"
     },
     {
-      "title": "AI员工智能体上线",
-      "reason": "探索人机协同新模式",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-25/10666264.shtml"
-    },
-    {
-      "title": "沙特空袭也门",
-      "reason": "中东冲突升级引关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666145.shtml"
+      "title": "江苏首个人工智能生态街区亮相",
+      "reason": "AI赋能生活场景示范",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-26/10666667.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国新关税政策冲击全球",
-      "summary": "美国加税新剧本引发全球担忧",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666205.shtml"
+      "short_title": "特朗普暂停对伊空袭",
+      "summary": "特朗普下令暂停伊朗空袭，打破13天连袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-26/10666643.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "沙特空袭也门荷台达",
-      "summary": "沙特对也门荷台达实施空袭",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666145.shtml"
+      "short_title": "美国新关税计划",
+      "summary": "美国推出全球加税新剧本，强化关税工具",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666205.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "本土创新药加速出海",
-      "summary": "中国创新药加快国际市场布局",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-25/10666256.shtml"
+      "short_title": "丰子恺《护生画集》亮相国家画院",
+      "summary": "六册原作首次在国家画院美术馆展出",
+      "link": "https://www.chinanews.com.cn/cul/2026/07-26/10666714.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "地震预警服务覆盖4亿",
-      "summary": "全国超4亿人口可获地震预警",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-25/10666278.shtml"
+      "short_title": "欧盟对中美企业罚款引争议",
+      "summary": "欧盟制裁中美企业，或损害自身利益",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-25/10666554.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中方严正交涉欧盟制裁",
-      "summary": "敦促欧方纠正对华企业制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666197.shtml"
+      "short_title": "跨境流量推动欧洲旅游热",
+      "summary": "China Travel在欧洲走红，带动入境经济",
+      "link": "https://www.chinanews.com.cn/sh/2026/07-26/10666722.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI员工智能体正式上线",
-      "summary": "专家建议探索人机协同新模式",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-25/10666264.shtml"
+      "short_title": "江苏首个人工智能生态街区开放",
+      "summary": "AI赋能生活场景，街区示范新模式",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-26/10666667.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "APEC AI论坛发布合作声明",
-      "summary": "推动亚太地区人工智能共同发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-24/10666131.shtml"
+      "short_title": "日本右翼利用AI篡改侵华史",
+      "summary": "日媒曝AI造假视频，国家安全部警示",
+      "link": "https://www.ithome.com/0/981/643.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗袭击中东美军目标",
-      "summary": "伊朗对四国美军设施发动打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666189.shtml"
+      "short_title": "伊朗召见乌克兰临时代办",
+      "summary": "伊朗因商船遭袭会见乌克兰代表",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-26/10666683.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧盟等多国回应美加税",
-      "summary": "欧盟、澳新等国对美关税表态",
-      "link": "https://news.bjd.com.cn/2026/07/24/11884661.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "哈萨克央行降息至16.75%",
-      "summary": "基准利率下调至16.75%，刺激经济",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666140.shtml"
+      "short_title": "沙特对也门发动空袭",
+      "summary": "沙特空袭也门，冲突或外溢新战线",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-25/10666372.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "85.15",
+      "pct": -7.636403080594416,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,070.80",
+      "pct": 0.5086168584267534,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-07-25 11:49:50"
+  "updated_at": "2026-07-26 12:08:19"
 }

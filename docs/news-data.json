@@ -1,67 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年7月29日 星期三（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年7月29日 星期三（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年7月30日 星期四（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年7月30日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "伊朗导弹袭击美军",
-      "reason": "中东局势紧张，突发冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-29/10668229.shtml"
+      "title": "美军新一轮空袭伊朗",
+      "reason": "伊朗南部多地爆炸",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669026.shtml"
     },
     {
-      "title": "美防部制裁中国科研机构",
-      "reason": "中美关系升温，影响科技合作",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-29/10668260.shtml"
+      "title": "美联储维持利率不变",
+      "reason": "利率政策分歧引关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668943.shtml"
     },
     {
-      "title": "AI预报系统提升台风路径",
-      "reason": "AI与物理融合提升预报精度",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-29/10668384.shtml"
+      "title": "硅芯片实现量子计算关键",
+      "reason": "量子计算突破或变革",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669036.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗导弹袭击美军驻中东基地",
-      "summary": "伊朗发射多枚导弹攻击美军，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-29/10668229.shtml"
+      "short_title": "美军新一轮打击伊朗",
+      "summary": "伊朗南部多地爆炸，美军称击中数十目标。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669026.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本熊本强震致数万人避难",
-      "summary": "地震造成数十人受伤，近万人紧急撤离",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-29/10668397.shtml"
+      "short_title": "基辅连环爆炸警报响",
+      "summary": "基辅连环爆炸，防空警报紧急拉响。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668946.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国护虎成效显著从濒危到频现",
-      "summary": "多项保护措施让虎群数量回升",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-29/10668380.shtml"
+      "short_title": "熊本地震死亡升至28人",
+      "summary": "日本熊本县强震致28人死亡，救援仍在进行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669065.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "产业大脑驱动算力升级",
+      "summary": "制造大省通过算力提升，推动产业数字化转型。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-30/10669110.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普再威胁伊朗",
+      "summary": "特朗普扬言对伊发动袭击并考虑加征关税。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668942.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI物理集合预报提升台风路径判定",
-      "summary": "中国团队研发新系统实现精准预报",
-      "link": "https://www.chinanews.com.cn/sh/2026/07-29/10668384.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "商务部回应美防部制裁中国科研机构",
-      "summary": "解释制裁原因并阐述中国立场",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-29/10668260.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "阿巴边境冲突致约500平民死亡",
-      "summary": "联阿援助团称冲突已致近500人遇难",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-28/10668178.shtml"
+      "short_title": "硅芯片实现量子计算关键运算",
+      "summary": "最新研究表明硅芯片可完成量子计算所需基本运算。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669036.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "广西保险业累计赔付超15亿元",
-      "summary": "全力应对地震台风等自然灾害",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-29/10668323.shtml"
+      "short_title": "美联储维持利率不变",
+      "summary": "美联储在内部分歧下决定本轮继续保持利率不变。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668943.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "熊本地震冲击半导体供给",
+      "summary": "地震致多家半导体厂停产，或推高功率半导体价格。",
+      "link": "https://www.yicai.com/news/103297200.html"
     }
   ],
   "futures": [
@@ -101,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-29 11:54:10"
+  "updated_at": "2026-07-30 11:45:06"
 }

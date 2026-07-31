@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年7月30日 星期四（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年7月30日 星期四（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年7月31日 星期五（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年7月31日 星期五（农历二月初一）",
   "weather_text": "汕头：阴 31°C",
-  "total_count": 8,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美军新一轮空袭伊朗",
-      "reason": "伊朗南部多地爆炸",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669026.shtml"
+      "title": "日本成立国家情报局",
+      "reason": "引发国际关注与争议",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669672.shtml"
     },
     {
-      "title": "美联储维持利率不变",
-      "reason": "利率政策分歧引关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668943.shtml"
+      "title": "美国30年期贷款利率升至6.66",
+      "reason": "美国房贷成本创年内新高",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669585.shtml"
     },
     {
-      "title": "硅芯片实现量子计算关键",
-      "reason": "量子计算突破或变革",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669036.shtml"
+      "title": "AI增速超30% 成经济新动力",
+      "reason": "人工智能推动经济快速增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10669739.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军新一轮打击伊朗",
-      "summary": "伊朗南部多地爆炸，美军称击中数十目标。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669026.shtml"
+      "short_title": "日本成立国家情报局 引发争议",
+      "summary": "日本新情报局成立，外界质疑其军事意图",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669672.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "基辅连环爆炸警报响",
-      "summary": "基辅连环爆炸，防空警报紧急拉响。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668946.shtml"
+      "short_title": "巴基斯坦俾路支煤矿爆炸致11人死亡",
+      "summary": "煤矿坍塌引发爆炸，11名矿工不幸遇难",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669649.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "熊本地震死亡升至28人",
-      "summary": "日本熊本县强震致28人死亡，救援仍在进行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669065.shtml"
+      "short_title": "A股午后超4500只个股飘红",
+      "summary": "三大指数收涨，市场情绪回暖",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10669810.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "产业大脑驱动算力升级",
-      "summary": "制造大省通过算力提升，推动产业数字化转型。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-30/10669110.shtml"
+      "short_title": "微星梵高限量版轻薄本开启预约",
+      "summary": "AI+梵高元素的14寸Flip笔记本正式预售",
+      "link": "https://www.ithome.com/0/983/988.htm"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普再威胁伊朗",
-      "summary": "特朗普扬言对伊发动袭击并考虑加征关税。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668942.shtml"
+      "short_title": "全球10台机器人8台产自中国",
+      "summary": "发改委称中国机器人产量占全球80%",
+      "link": "https://www.ithome.com/0/984/037.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "硅芯片实现量子计算关键运算",
-      "summary": "最新研究表明硅芯片可完成量子计算所需基本运算。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669036.shtml"
+      "short_title": "AI驱动经济增速超30%",
+      "summary": "人工智能成为经济增长的主要动力",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10669739.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "德国7月通胀率升至2.8%",
+      "summary": "德国最新通胀数据显示物价上涨压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669581.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美军或要求中东驻军上交手机",
+      "summary": "美军考虑限制手机使用以防情报泄露",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669548.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美联储维持利率不变",
-      "summary": "美联储在内部分歧下决定本轮继续保持利率不变。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10668943.shtml"
+      "short_title": "美国30年期贷款利率升至6.66%",
+      "summary": "美国长期贷款利率创一年新高",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669585.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "熊本地震冲击半导体供给",
-      "summary": "地震致多家半导体厂停产，或推高功率半导体价格。",
-      "link": "https://www.yicai.com/news/103297200.html"
+      "short_title": "英国央行维持利率在3.75%",
+      "summary": "英国央行决定不调整基准利率",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669574.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-30 11:45:06"
+  "updated_at": "2026-07-31 12:03:55"
 }

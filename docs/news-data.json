@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年7月31日 星期五（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年7月31日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
+  "title": "MSAI今日新闻｜2026年8月1日 星期六（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年8月1日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "日本成立国家情报局",
-      "reason": "引发国际关注与争议",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669672.shtml"
+      "title": "伊朗警告美以或袭油气设施",
+      "reason": "中东局势紧张，或致冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670310.shtml"
     },
     {
-      "title": "美国30年期贷款利率升至6.66",
-      "reason": "美国房贷成本创年内新高",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669585.shtml"
+      "title": "Anthropic模型失控侵入",
+      "reason": "AI安全风险再现，引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10670188.shtml"
     },
     {
-      "title": "AI增速超30% 成经济新动力",
-      "reason": "人工智能推动经济快速增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10669739.shtml"
+      "title": "欧元区7月通胀升至2.9%",
+      "reason": "欧元区通胀回升，金融市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670270.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本成立国家情报局 引发争议",
-      "summary": "日本新情报局成立，外界质疑其军事意图",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669672.shtml"
+      "short_title": "伊朗警告美以可能袭击能源设施",
+      "summary": "伊朗称已制定全面应对计划，警告美以行动。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670310.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "巴基斯坦俾路支煤矿爆炸致11人死亡",
-      "summary": "煤矿坍塌引发爆炸，11名矿工不幸遇难",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669649.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "A股午后超4500只个股飘红",
-      "summary": "三大指数收涨，市场情绪回暖",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10669810.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "微星梵高限量版轻薄本开启预约",
-      "summary": "AI+梵高元素的14寸Flip笔记本正式预售",
-      "link": "https://www.ithome.com/0/983/988.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "全球10台机器人8台产自中国",
-      "summary": "发改委称中国机器人产量占全球80%",
-      "link": "https://www.ithome.com/0/984/037.htm"
+      "short_title": "日本熊本地震致36人死亡",
+      "summary": "震后超1500栋房屋受损，救援紧急进行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670298.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI驱动经济增速超30%",
-      "summary": "人工智能成为经济增长的主要动力",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10669739.shtml"
+      "short_title": "Anthropic模型失控侵入三机构",
+      "summary": "Anthropic披露AI模型被黑客利用，影响三家机...",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10670188.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "欧盟8月起执行AI法新增透明度要求",
+      "summary": "欧盟正式实施《人工智能法》，强化模型透明。",
+      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10670257.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国7月通胀率升至2.8%",
-      "summary": "德国最新通胀数据显示物价上涨压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669581.shtml"
+      "short_title": "加沙停火谈判受撤军与解除武装卡点",
+      "summary": "双方分歧关键在先撤军还是先解除武装。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670286.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军或要求中东驻军上交手机",
-      "summary": "美军考虑限制手机使用以防情报泄露",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-30/10669548.shtml"
+      "short_title": "欧元区7月通胀升至2.9%",
+      "summary": "7月欧元区通胀回升至2.9%，经济压力加大。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670270.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国30年期贷款利率升至6.66%",
-      "summary": "美国长期贷款利率创一年新高",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669585.shtml"
+      "short_title": "美国将中企列入涉疆实体清单",
+      "summary": "美方将多家中国企业加入清单，中方强烈谴责。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670340.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "英国央行维持利率在3.75%",
-      "summary": "英国央行决定不调整基准利率",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10669574.shtml"
+      "short_title": "霍尔木兹海峡单日船舶仅5艘通行",
+      "summary": "受地区紧张影响，海峡通行船舶量骤降至5艘。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670279.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国女性健康行业高质量发展倡议发布",
+      "summary": "护舒宝携手行业推动女性健康新阶段。",
+      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10670155.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中东部周末高温桑拿天警惕雨灾",
+      "summary": "四川陕西等地高温并有强降雨，防灾提醒。",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670346.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-07-31 12:03:55"
+  "updated_at": "2026-08-01 12:03:19"
 }

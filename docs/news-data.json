@@ -1,85 +1,68 @@
 {
-  "title": "MSAI今日新闻｜2026年8月1日 星期六（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年8月1日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年8月2日 星期日（农历二月初一）｜汕头：阴 28°C",
+  "date_text": "2026年8月2日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 28°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "伊朗警告美以或袭油气设施",
-      "reason": "中东局势紧张，或致冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670310.shtml"
+      "title": "美国爱达荷州发生枪击事件3死2伤",
+      "reason": "美国枪击突发，社会关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670690.shtml"
     },
     {
-      "title": "Anthropic模型失控侵入",
-      "reason": "AI安全风险再现，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10670188.shtml"
-    },
-    {
-      "title": "欧元区7月通胀升至2.9%",
-      "reason": "欧元区通胀回升，金融市场波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670270.shtml"
+      "title": "日本熊本县地震已造成38人死亡",
+      "reason": "日本熊本强震致死，灾情紧急",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670714.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗警告美以可能袭击能源设施",
-      "summary": "伊朗称已制定全面应对计划，警告美以行动。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670310.shtml"
+      "short_title": "日本熊本县强震致38人死亡",
+      "summary": "熊本县7.0级地震已致38人死亡，救援仍在进行。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670714.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本熊本地震致36人死亡",
-      "summary": "震后超1500栋房屋受损，救援紧急进行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670298.shtml"
+      "short_title": "莫斯科餐厅爆炸致3死21伤",
+      "summary": "莫斯科餐厅炸弹袭击致3死21伤，警方称系自制炸弹。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670679.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Anthropic模型失控侵入三机构",
-      "summary": "Anthropic披露AI模型被黑客利用，影响三家机...",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10670188.shtml"
+      "short_title": "非遗苏作融合AI焕新感受",
+      "summary": "传统苏绣与AI技术结合，年轻人体验全新创作方式。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670579.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "欧盟8月起执行AI法新增透明度要求",
-      "summary": "欧盟正式实施《人工智能法》，强化模型透明。",
-      "link": "https://www.chinanews.com.cn/gj/2026/07-31/10670257.shtml"
+      "short_title": "绍兴AI助力硅片制造提速",
+      "summary": "AI技术提升硅片产能，加快国产半导体材料突破。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670613.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "加沙停火谈判受撤军与解除武装卡点",
-      "summary": "双方分歧关键在先撤军还是先解除武装。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670286.shtml"
+      "short_title": "美驻中东多国使馆警示局势升级",
+      "summary": "美国多国使馆称中东局势紧张，可能影响全球贸易。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670681.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧元区7月通胀升至2.9%",
-      "summary": "7月欧元区通胀回升至2.9%，经济压力加大。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670270.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美国将中企列入涉疆实体清单",
-      "summary": "美方将多家中国企业加入清单，中方强烈谴责。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670340.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "霍尔木兹海峡单日船舶仅5艘通行",
-      "summary": "受地区紧张影响，海峡通行船舶量骤降至5艘。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-01/10670279.shtml"
+      "short_title": "西班牙在休达设海上屏障阻移民",
+      "summary": "西班牙在休达海域布置屏障，欧盟计划紧急磋商应对。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670769.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国女性健康行业高质量发展倡议发布",
-      "summary": "护舒宝携手行业推动女性健康新阶段。",
-      "link": "https://www.chinanews.com.cn/cj/2026/07-31/10670155.shtml"
+      "short_title": "产业大脑赋能制造业创新",
+      "summary": "通过数字化平台为制造业装上‘大脑’，推动产业升级。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-02/10670740.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中东部周末高温桑拿天警惕雨灾",
-      "summary": "四川陕西等地高温并有强降雨，防灾提醒。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-01/10670346.shtml"
+      "short_title": "微信新增地震预警震感汇聚功能",
+      "summary": "微信地震预警加入震感汇聚和位置更新，提升防灾效率。",
+      "link": "https://www.ithome.com/0/984/663.htm"
     }
   ],
   "futures": [
@@ -119,5 +102,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-01 12:03:19"
+  "updated_at": "2026-08-02 12:05:58"
 }

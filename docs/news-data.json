@@ -1,68 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年8月2日 星期日（农历二月初一）｜汕头：阴 28°C",
-  "date_text": "2026年8月2日 星期日（农历二月初一）",
-  "weather_text": "汕头：阴 28°C",
+  "title": "MSAI今日新闻｜2026年8月3日 星期一（农历二月初一）｜汕头：阴 30°C",
+  "date_text": "2026年8月3日 星期一（农历二月初一）",
+  "weather_text": "汕头：阴 30°C",
   "total_count": 8,
   "hotspots": [
     {
-      "title": "美国爱达荷州发生枪击事件3死2伤",
-      "reason": "美国枪击突发，社会关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670690.shtml"
+      "title": "美国波特兰枪击致1死5伤",
+      "reason": "美国波特兰突发枪击",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10670996.shtml"
     },
     {
-      "title": "日本熊本县地震已造成38人死亡",
-      "reason": "日本熊本强震致死，灾情紧急",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670714.shtml"
+      "title": "A股周一开盘超2500股飘绿",
+      "reason": "A股大幅下跌，市场波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671035.shtml"
+    },
+    {
+      "title": "日本熊本地震余震高温断水",
+      "reason": "日本熊本余震引发多重考验",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670868.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本熊本县强震致38人死亡",
-      "summary": "熊本县7.0级地震已致38人死亡，救援仍在进行。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670714.shtml"
+      "short_title": "美国波特兰枪击致1死5伤",
+      "summary": "波特兰市发生枪击，1人死亡，5人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10670996.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "莫斯科餐厅爆炸致3死21伤",
-      "summary": "莫斯科餐厅炸弹袭击致3死21伤，警方称系自制炸弹。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670679.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "非遗苏作融合AI焕新感受",
-      "summary": "传统苏绣与AI技术结合，年轻人体验全新创作方式。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670579.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "绍兴AI助力硅片制造提速",
-      "summary": "AI技术提升硅片产能，加快国产半导体材料突破。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-01/10670613.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美驻中东多国使馆警示局势升级",
-      "summary": "美国多国使馆称中东局势紧张，可能影响全球贸易。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670681.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "西班牙在休达设海上屏障阻移民",
-      "summary": "西班牙在休达海域布置屏障，欧盟计划紧急磋商应对。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670769.shtml"
+      "short_title": "巴基斯坦自杀式袭击致14人死亡",
+      "summary": "巴基斯坦发生自杀式袭击，死亡14人。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10671024.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "产业大脑赋能制造业创新",
-      "summary": "通过数字化平台为制造业装上‘大脑’，推动产业升级。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-02/10670740.shtml"
+      "short_title": "中国式现代化经验受塔国副主席访谈",
+      "summary": "塔吉克副主席称中国现代化可为发展中国家提供借鉴。",
+      "link": "https://www.chinanews.com.cn/gn/2026/08-03/10671099.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "微信新增地震预警震感汇聚功能",
-      "summary": "微信地震预警加入震感汇聚和位置更新，提升防灾效率。",
-      "link": "https://www.ithome.com/0/984/663.htm"
+      "short_title": "伊朗与阿曼商议霍尔木兹海峡新航线",
+      "summary": "伊朗称正与阿曼讨论划定新航线以保障通航安全。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10670987.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普宣布暂停对伊朗的军事打击",
+      "summary": "特朗普称已取消对伊朗的军事行动，伊朗保持最高戒备。",
+      "link": "http://news.china.com.cn/2026-08/02/content_118630063.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "洽洽推出零食行业首位数字代言人",
+      "summary": "AI技术驱动，洽洽发布品牌数字形象“洽可儿”。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671110.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股开盘超2500只跌，指数低开",
+      "summary": "周一开盘A股多数下跌，指数集体低开。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671035.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "全球内存ETF加码中国芯片龙头",
+      "summary": "长鑫科技权重升至2.52%，兆易创新降至1.51%。",
+      "link": "https://www.ithome.com/0/984/918.htm"
     }
   ],
   "futures": [
@@ -102,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-02 12:05:58"
+  "updated_at": "2026-08-03 12:08:29"
 }

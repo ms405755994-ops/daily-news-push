@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月3日 星期一（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年8月3日 星期一（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年8月4日 星期二（农历二月初一）｜汕头：阴 30°C",
+  "date_text": "2026年8月4日 星期二（农历二月初一）",
   "weather_text": "汕头：阴 30°C",
-  "total_count": 8,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美国波特兰枪击致1死5伤",
-      "reason": "美国波特兰突发枪击",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10670996.shtml"
+      "title": "美25州起诉新关税",
+      "reason": "美国多州挑战关税政策",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671501.shtml"
     },
     {
-      "title": "A股周一开盘超2500股飘绿",
-      "reason": "A股大幅下跌，市场波动",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671035.shtml"
+      "title": "金价下跌露底",
+      "reason": "黄金价格快速回落",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671469.shtml"
     },
     {
-      "title": "日本熊本地震余震高温断水",
-      "reason": "日本熊本余震引发多重考验",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-02/10670868.shtml"
+      "title": "美政府完成AI评估框架",
+      "reason": "AI模型自愿评估新规",
+      "link": "https://www.ithome.com/0/985/380.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国波特兰枪击致1死5伤",
-      "summary": "波特兰市发生枪击，1人死亡，5人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10670996.shtml"
+      "short_title": "委内瑞拉强震死亡超六千",
+      "summary": "最新统计显示死亡人数已升至6125人",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671563.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "巴基斯坦自杀式袭击致14人死亡",
-      "summary": "巴基斯坦发生自杀式袭击，死亡14人。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10671024.shtml"
+      "short_title": "密歇根报告环孢子虫死亡",
+      "summary": "两例致命病例引发公共卫生关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671520.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国式现代化经验受塔国副主席访谈",
-      "summary": "塔吉克副主席称中国现代化可为发展中国家提供借鉴。",
-      "link": "https://www.chinanews.com.cn/gn/2026/08-03/10671099.shtml"
+      "short_title": "暑期入境游量质齐升",
+      "summary": "中国旅游以“酷”吸引全球游客",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-04/10671636.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗与阿曼商议霍尔木兹海峡新航线",
-      "summary": "伊朗称正与阿曼讨论划定新航线以保障通航安全。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-03/10670987.shtml"
+      "short_title": "A股超3700只飘红",
+      "summary": "三大指数收涨，市场整体向好",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-04/10671640.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普宣布暂停对伊朗的军事打击",
-      "summary": "特朗普称已取消对伊朗的军事行动，伊朗保持最高戒备。",
-      "link": "http://news.china.com.cn/2026-08/02/content_118630063.shtml"
+      "short_title": "英投2000万研农业机器人",
+      "summary": "英国政府支持智能农业技术创新",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671544.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "洽洽推出零食行业首位数字代言人",
-      "summary": "AI技术驱动，洽洽发布品牌数字形象“洽可儿”。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671110.shtml"
+      "short_title": "360纳米Work招募AI合伙人",
+      "summary": "全国渠道合作加速AI本地化落地",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-04/10671618.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "美政府制定AI评估框架",
+      "summary": "自愿性评估机制已完成，细节未披露",
+      "link": "https://www.ithome.com/0/985/380.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美25州起诉特朗普新关税",
+      "summary": "多州联手挑战301关税政策",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671501.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美伊谈判计划存疑",
+      "summary": "美方称将谈判，伊朗否认有计划",
+      "link": "https://news.cnr.cn/sq/20260803/t20260803_527745544.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超2500只跌，指数低开",
-      "summary": "周一开盘A股多数下跌，指数集体低开。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671035.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "全球内存ETF加码中国芯片龙头",
-      "summary": "长鑫科技权重升至2.52%，兆易创新降至1.51%。",
-      "link": "https://www.ithome.com/0/984/918.htm"
+      "short_title": "金价下跌显露底部",
+      "summary": "黄金价格回落，市场关注支撑位",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671469.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-03 12:08:29"
+  "updated_at": "2026-08-04 11:50:53"
 }

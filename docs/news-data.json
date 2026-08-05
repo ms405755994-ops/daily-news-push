@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月4日 星期二（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年8月4日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
+  "title": "MSAI今日新闻｜2026年8月5日 星期三（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年8月5日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "美25州起诉新关税",
-      "reason": "美国多州挑战关税政策",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671501.shtml"
+      "title": "乌克兰首都爆炸，导弹来袭",
+      "reason": "基辅连环爆炸，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672066.shtml"
     },
     {
-      "title": "金价下跌露底",
-      "reason": "黄金价格快速回落",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671469.shtml"
+      "title": "金与正称日本迈向战争国家",
+      "reason": "朝方警告日本军事升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672195.shtml"
     },
     {
-      "title": "美政府完成AI评估框架",
-      "reason": "AI模型自愿评估新规",
-      "link": "https://www.ithome.com/0/985/380.htm"
+      "title": "伊朗战争致油轮威胁升至最高",
+      "reason": "中东油轮受冲突威胁最高",
+      "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/simp"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "委内瑞拉强震死亡超六千",
-      "summary": "最新统计显示死亡人数已升至6125人",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671563.shtml"
+      "short_title": "基辅连环爆炸 警报导弹来袭",
+      "summary": "基辅市长称多枚导弹飞向首都，现场连响",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672066.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "密歇根报告环孢子虫死亡",
-      "summary": "两例致命病例引发公共卫生关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671520.shtml"
+      "short_title": "金与正警告日成战争国家",
+      "summary": "金与正称日本加速军事化，朝方将拟对策",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672195.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "暑期入境游量质齐升",
-      "summary": "中国旅游以“酷”吸引全球游客",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-04/10671636.shtml"
+      "short_title": "习近平经济思想指路高质量发展",
+      "summary": "强调创新驱动，推动经济行稳致远",
+      "link": "http://jjckb.xinhuanet.com/20260804/ed4c8f4b644d4e59bd988ec61b0e62d5/c.html"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股超3700只飘红",
-      "summary": "三大指数收涨，市场整体向好",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-04/10671640.shtml"
+      "short_title": "“飞地粮仓”跨省建厂新模式",
+      "summary": "去产地建工厂探索跨省协作样板",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672209.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "英投2000万研农业机器人",
-      "summary": "英国政府支持智能农业技术创新",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671544.shtml"
+      "short_title": "中消协上半年挽回4.47亿元",
+      "summary": "为消费者维权，累计挽回经济损失",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672180.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "360纳米Work招募AI合伙人",
-      "summary": "全国渠道合作加速AI本地化落地",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-04/10671618.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "美政府制定AI评估框架",
-      "summary": "自愿性评估机制已完成，细节未披露",
-      "link": "https://www.ithome.com/0/985/380.htm"
+      "short_title": "AI加剧网络安全双刃效应",
+      "summary": "AI技术既提升防护也带来新风险",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672059.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美25州起诉特朗普新关税",
-      "summary": "多州联手挑战301关税政策",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-04/10671501.shtml"
+      "short_title": "伊朗冲突致油轮风险升至最高",
+      "summary": "中东油轮受威胁程度创冲突后新高",
+      "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/simp"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美伊谈判计划存疑",
-      "summary": "美方称将谈判，伊朗否认有计划",
-      "link": "https://news.cnr.cn/sq/20260803/t20260803_527745544.shtml"
+      "short_title": "美财长盼数小时达成海峡协议",
+      "summary": "美伊或在数小时内签署霍尔木兹协议",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672074.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "金价下跌显露底部",
-      "summary": "黄金价格回落，市场关注支撑位",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-03/10671469.shtml"
+      "short_title": "美股再创新高 半导体领涨",
+      "summary": "美股全线大涨，半导体、存储领涨",
+      "link": "https://www.stcn.com/article/detail/4058562.html"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午后超3900只飘红",
+      "summary": "三大指数集体收涨，超3900股涨停",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672229.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-04 11:50:53"
+  "updated_at": "2026-08-05 11:46:15"
 }

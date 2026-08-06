@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年8月5日 星期三（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年8月5日 星期三（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年8月6日 星期四（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年8月6日 星期四（农历二月初一）",
   "weather_text": "汕头：多云 31°C",
-  "total_count": 10,
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "乌克兰首都爆炸，导弹来袭",
-      "reason": "基辅连环爆炸，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672066.shtml"
+      "title": "突发！日本熊本县发生5.1级地震",
+      "reason": "日本熊本突发地震，影响区域广",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672680.shtml"
     },
     {
-      "title": "金与正称日本迈向战争国家",
-      "reason": "朝方警告日本军事升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672195.shtml"
+      "title": "美军急研1800公里巨炮",
+      "reason": "美军导弹库存告罄，研发远程巨炮",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672698.shtml"
     },
     {
-      "title": "伊朗战争致油轮威胁升至最高",
-      "reason": "中东油轮受冲突威胁最高",
-      "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/simp"
+      "title": "A股午评：3700股飘绿，沪指收...",
+      "reason": "A股大幅波动，市场情绪紧张",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672846.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "基辅连环爆炸 警报导弹来袭",
-      "summary": "基辅市长称多枚导弹飞向首都，现场连响",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672066.shtml"
+      "short_title": "日本熊本5.1级地震",
+      "summary": "熊本县发生5.1级地震，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672680.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "金与正警告日成战争国家",
-      "summary": "金与正称日本加速军事化，朝方将拟对策",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672195.shtml"
+      "short_title": "霍尔木兹海峡油轮听爆炸声",
+      "summary": "油轮报告爆炸声，船员已安全撤离",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672755.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "习近平经济思想指路高质量发展",
-      "summary": "强调创新驱动，推动经济行稳致远",
-      "link": "http://jjckb.xinhuanet.com/20260804/ed4c8f4b644d4e59bd988ec61b0e62d5/c.html"
+      "short_title": "美军导弹库存见底急研巨炮",
+      "summary": "美军导弹库存告罄，启动1800公里巨炮研发",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672698.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "“飞地粮仓”跨省建厂新模式",
-      "summary": "去产地建工厂探索跨省协作样板",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672209.shtml"
+      "short_title": "伊朗阿曼达成霍尔木兹航运协议",
+      "summary": "伊朗与阿曼就海峡航线达成一致，进入最后阶段",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672694.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中消协上半年挽回4.47亿元",
-      "summary": "为消费者维权，累计挽回经济损失",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672180.shtml"
+      "short_title": "地下管网或结合具身智能",
+      "summary": "调研显示城市管网或与具身智能融合提升安全",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672798.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI加剧网络安全双刃效应",
-      "summary": "AI技术既提升防护也带来新风险",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672059.shtml"
+      "short_title": "AI时代机器人实操培训",
+      "summary": "专家手把手教机器人工作，提升实用技能",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672668.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "美AI模型测试现有害行为",
+      "summary": "部分美国AI模型在测试中持续实施有害行为",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672666.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗冲突致油轮风险升至最高",
-      "summary": "中东油轮受威胁程度创冲突后新高",
-      "link": "https://www.bbc.com/zhongwen/articles/cn5n1qn6ne1o/simp"
+      "short_title": "德国机场发现携爆炸物无人机",
+      "summary": "德国机场拦截携带爆炸物无人机，安全威胁升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672686.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美财长盼数小时达成海峡协议",
-      "summary": "美伊或在数小时内签署霍尔木兹协议",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-05/10672074.shtml"
+      "short_title": "卢拉批美撤巴西大使签证",
+      "summary": "巴西总统卢拉指责美国撤签证不负责任",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672677.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美股再创新高 半导体领涨",
-      "summary": "美股全线大涨，半导体、存储领涨",
-      "link": "https://www.stcn.com/article/detail/4058562.html"
+      "short_title": "A股午后多数下跌 指数收涨",
+      "summary": "3700只个股跌，沪指收涨，深指回落",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672846.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后超3900只飘红",
-      "summary": "三大指数集体收涨，超3900股涨停",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-05/10672229.shtml"
+      "short_title": "上半年黄金消费增1.23%",
+      "summary": "上半年黄金消费511吨，同比增长1.23%",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672788.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-05 11:46:15"
+  "updated_at": "2026-08-06 11:51:03"
 }

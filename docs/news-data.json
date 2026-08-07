@@ -1,91 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年8月6日 星期四（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年8月6日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
+  "title": "MSAI今日新闻｜2026年8月7日 星期五（农历二月初一）｜汕头：晴 34°C",
+  "date_text": "2026年8月7日 星期五（农历二月初一）",
+  "weather_text": "汕头：晴 34°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "突发！日本熊本县发生5.1级地震",
-      "reason": "日本熊本突发地震，影响区域广",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672680.shtml"
+      "title": "伊朗拟禁止美国等通行霍尔木兹海峡",
+      "reason": "国际局势紧张，影响能源供应",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673330.shtml"
     },
     {
-      "title": "美军急研1800公里巨炮",
-      "reason": "美军导弹库存告罄，研发远程巨炮",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672698.shtml"
+      "title": "也门胡塞袭击政府军 沙特称遭袭",
+      "reason": "突发冲突，地区安全受关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673488.shtml"
     },
     {
-      "title": "A股午评：3700股飘绿，沪指收...",
-      "reason": "A股大幅波动，市场情绪紧张",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672846.shtml"
+      "title": "A股芯片板块新股首日涨400%",
+      "reason": "金融市场波动，芯片股大涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673424.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本熊本5.1级地震",
-      "summary": "熊本县发生5.1级地震，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672680.shtml"
+      "short_title": "也门胡塞袭击致多方受伤",
+      "summary": "胡塞武装袭击也门政府军，沙特亦报告同日遭袭。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673488.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "霍尔木兹海峡油轮听爆炸声",
-      "summary": "油轮报告爆炸声，船员已安全撤离",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672755.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美军导弹库存见底急研巨炮",
-      "summary": "美军导弹库存告罄，启动1800公里巨炮研发",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672698.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊朗阿曼达成霍尔木兹航运协议",
-      "summary": "伊朗与阿曼就海峡航线达成一致，进入最后阶段",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672694.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "地下管网或结合具身智能",
-      "summary": "调研显示城市管网或与具身智能融合提升安全",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672798.shtml"
+      "short_title": "叙利亚大马士革省爆炸致伤亡",
+      "summary": "大马士革农村省发生爆炸，造成2死13伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673482.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI时代机器人实操培训",
-      "summary": "专家手把手教机器人工作，提升实用技能",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672668.shtml"
+      "short_title": "AI进课堂 教育如何守本质",
+      "summary": "探讨AI在课堂应用的风险与教育核心价值。",
+      "link": "https://www.chinanews.com.cn/edu/2026/08-07/10673496.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "美AI模型测试现有害行为",
-      "summary": "部分美国AI模型在测试中持续实施有害行为",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672666.shtml"
+      "short_title": "美AI数据中心耗水激增引忧",
+      "summary": "美国AI算力中心用水大幅上升，公众担心资源紧张。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673302.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国机场发现携爆炸物无人机",
-      "summary": "德国机场拦截携带爆炸物无人机，安全威胁升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672686.shtml"
+      "short_title": "伊朗或禁美等通行霍尔木兹海峡",
+      "summary": "伊朗计划限制美等国船只经霍尔木兹海峡，违者重罚。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673330.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "卢拉批美撤巴西大使签证",
-      "summary": "巴西总统卢拉指责美国撤签证不负责任",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-06/10672677.shtml"
+      "short_title": "特朗普对多晶硅实施关税限价",
+      "summary": "美国对多晶硅及衍生品加征关税并设限价。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673312.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后多数下跌 指数收涨",
-      "summary": "3700只个股跌，沪指收涨，深指回落",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672846.shtml"
+      "short_title": "A股芯片新股首日涨四百倍",
+      "summary": "新上市芯片公司股价首日飙涨约400%。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673424.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "上半年黄金消费增1.23%",
-      "summary": "上半年黄金消费511吨，同比增长1.23%",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-06/10672788.shtml"
+      "short_title": "A股三指数翻绿又翻红 沪指回3900",
+      "summary": "三大指数先跌后涨，沪指重新站上3900点。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673422.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国U17逆转勒沃库森锁头名",
+      "summary": "U17男足2:1逆转勒沃库森，三战全胜夺小组首位。",
+      "link": "https://www.chinanews.com.cn/ty/2026/08-07/10673490.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "黎曼动力联手光轮智能共建具身AI",
+      "summary": "三家公司合作打造2026年百万小时具身智能数据平台。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673404.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊媒称格什姆岛爆炸系打击敌对",
+      "summary": "伊朗媒体称格什姆岛附近爆炸为打击敌对目标所致。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673310.shtml"
     }
   ],
   "futures": [
@@ -125,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-06 11:51:03"
+  "updated_at": "2026-08-07 11:31:40"
 }

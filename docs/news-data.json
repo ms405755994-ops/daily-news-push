@@ -1,107 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年8月7日 星期五（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年8月7日 星期五（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年8月8日 星期六（农历二月初一）｜汕头：多云 33°C",
+  "date_text": "2026年8月8日 星期六（农历二月初一）",
+  "weather_text": "汕头：多云 33°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "伊朗拟禁止美国等通行霍尔木兹海峡",
-      "reason": "国际局势紧张，影响能源供应",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673330.shtml"
+      "title": "美参院通过对俄制裁法案",
+      "reason": "对俄制裁升级，影响国际局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674072.shtml"
     },
     {
-      "title": "也门胡塞袭击政府军 沙特称遭袭",
-      "reason": "突发冲突，地区安全受关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673488.shtml"
+      "title": "法国热浪再袭 12省高温警报",
+      "reason": "法国多省高温橙警，气候风险加剧",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674049.shtml"
     },
     {
-      "title": "A股芯片板块新股首日涨400%",
-      "reason": "金融市场波动，芯片股大涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673424.shtml"
+      "title": "俄黑客称获北约参与俄领土证据",
+      "reason": "俄黑客指北约涉俄领土攻击，安全紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674031.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "也门胡塞袭击致多方受伤",
-      "summary": "胡塞武装袭击也门政府军，沙特亦报告同日遭袭。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673488.shtml"
+      "short_title": "美参院通过俄制裁法案",
+      "summary": "美国参议院通过新制裁俄罗斯法案",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674072.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "叙利亚大马士革省爆炸致伤亡",
-      "summary": "大马士革农村省发生爆炸，造成2死13伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673482.shtml"
+      "short_title": "法国热浪再袭 12省橙色警报",
+      "summary": "法国多省发布高温橙色预警",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674049.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI进课堂 教育如何守本质",
-      "summary": "探讨AI在课堂应用的风险与教育核心价值。",
-      "link": "https://www.chinanews.com.cn/edu/2026/08-07/10673496.shtml"
+      "short_title": "王兴兴回应美国机器人禁令",
+      "summary": "王兴兴答300问涉及机器人禁令等",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674080.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "美AI数据中心耗水激增引忧",
-      "summary": "美国AI算力中心用水大幅上升，公众担心资源紧张。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673302.shtml"
+      "short_title": "安徽六安推进氢能与芯片产业",
+      "summary": "六安打造氢能与半导体新产业链",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673975.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中非基建合作获青年认同",
+      "summary": "中非在基建、产业、人才上取得成果",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674012.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "大湾区低空经济联盟访印尼",
+      "summary": "大湾区代表团考察印尼低空经济合作",
+      "link": "https://www.chinanews.com.cn/dwq/2026/08-08/10674082.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "青田黄桃首销塞尔维亚",
+      "summary": "青田黄桃首批出口塞尔维亚每颗10欧",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674098.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗或禁美等通行霍尔木兹海峡",
-      "summary": "伊朗计划限制美等国船只经霍尔木兹海峡，违者重罚。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673330.shtml"
+      "short_title": "美国7月非农就业减少2.3万",
+      "summary": "美国7月非农岗位下降2.3万",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674020.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普对多晶硅实施关税限价",
-      "summary": "美国对多晶硅及衍生品加征关税并设限价。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673312.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股芯片新股首日涨四百倍",
-      "summary": "新上市芯片公司股价首日飙涨约400%。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673424.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股三指数翻绿又翻红 沪指回3900",
-      "summary": "三大指数先跌后涨，沪指重新站上3900点。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673422.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国U17逆转勒沃库森锁头名",
-      "summary": "U17男足2:1逆转勒沃库森，三战全胜夺小组首位。",
-      "link": "https://www.chinanews.com.cn/ty/2026/08-07/10673490.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "黎曼动力联手光轮智能共建具身AI",
-      "summary": "三家公司合作打造2026年百万小时具身智能数据平台。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673404.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊媒称格什姆岛爆炸系打击敌对",
-      "summary": "伊朗媒体称格什姆岛附近爆炸为打击敌对目标所致。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-07/10673310.shtml"
+      "short_title": "德国6月出口额同比增6.6%",
+      "summary": "德国6月出口额同比增长6.6%",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674023.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "77.08",
+      "pct": -0.27170397205331603,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,401.30",
+      "pct": 2.365336310354447,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-08-07 11:31:40"
+  "updated_at": "2026-08-08 10:29:28"
 }

@@ -1,95 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年8月8日 星期六（农历二月初一）｜汕头：多云 33°C",
-  "date_text": "2026年8月8日 星期六（农历二月初一）",
-  "weather_text": "汕头：多云 33°C",
+  "title": "MSAI今日新闻｜2026年8月9日 星期日（农历二月初一）｜汕头：多云 35°C",
+  "date_text": "2026年8月9日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 35°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "美参院通过对俄制裁法案",
-      "reason": "对俄制裁升级，影响国际局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674072.shtml"
+      "title": "多家上市公司宣布收到美国关税退税",
+      "reason": "美国关税退税刺激企业",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674425.shtml"
     },
     {
-      "title": "法国热浪再袭 12省高温警报",
-      "reason": "法国多省高温橙警，气候风险加剧",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674049.shtml"
+      "title": "美“爱国者”导弹库存不足",
+      "reason": "日韩担忧防御缺口",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674486.shtml"
     },
     {
-      "title": "俄黑客称获北约参与俄领土证据",
-      "reason": "俄黑客指北约涉俄领土攻击，安全紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674031.shtml"
+      "title": "综述｜中国人工智能模型在澳受关注",
+      "reason": "中澳AI合作受瞩目",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674438.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美参院通过俄制裁法案",
-      "summary": "美国参议院通过新制裁俄罗斯法案",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674072.shtml"
+      "short_title": "日本岩手近海5.6级地震",
+      "summary": "岩手县海域5.6级强震，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674465.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "法国热浪再袭 12省橙色警报",
-      "summary": "法国多省发布高温橙色预警",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674049.shtml"
+      "short_title": "美“爱国者”导弹库存不足1700枚",
+      "summary": "美军爱国者导弹库存低于预期，日韩担忧防御缺口",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674486.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国制造业高效惠及全球",
+      "summary": "卢旺达媒体称中国制造提升全球供应链效率",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674434.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "零关税百日见证中非新气象",
+      "summary": "中非合作零关税政策实施百日，贸易增长显著",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674435.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "王兴兴回应美国机器人禁令",
-      "summary": "王兴兴答300问涉及机器人禁令等",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674080.shtml"
+      "short_title": "美筑AI墙激化对立 中国AI热不减",
+      "summary": "美国限制AI技术，中国AI热度仍保持高涨",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674270.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "安徽六安推进氢能与芯片产业",
-      "summary": "六安打造氢能与半导体新产业链",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10673975.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中非基建合作获青年认同",
-      "summary": "中非在基建、产业、人才上取得成果",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-07/10674012.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "大湾区低空经济联盟访印尼",
-      "summary": "大湾区代表团考察印尼低空经济合作",
-      "link": "https://www.chinanews.com.cn/dwq/2026/08-08/10674082.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "青田黄桃首销塞尔维亚",
-      "summary": "青田黄桃首批出口塞尔维亚每颗10欧",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674098.shtml"
+      "short_title": "中国AI模型获澳洲关注",
+      "summary": "澳洲科研机构重点评估中国人工智能模型表现",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674438.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国7月非农就业减少2.3万",
-      "summary": "美国7月非农岗位下降2.3万",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674020.shtml"
+      "short_title": "伊朗称与阿曼谈判不影响海峡重开",
+      "summary": "伊朗表示与阿曼对话与霍尔木兹海峡重新开放无关",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674337.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国6月出口额同比增6.6%",
-      "summary": "德国6月出口额同比增长6.6%",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674023.shtml"
+      "short_title": "日本在南鸟岛部署反舰导弹",
+      "summary": "日本在争议岛屿部署导弹，引发地区军事紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674433.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "多家上市公司获美关税退税",
+      "summary": "多家A股公司确认收到美国关税退税款项",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674425.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "77.08",
-      "pct": -0.27170397205331603,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,401.30",
-      "pct": 2.365336310354447,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -101,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-08 10:29:28"
+  "updated_at": "2026-08-09 10:37:27"
 }

@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月9日 星期日（农历二月初一）｜汕头：多云 35°C",
-  "date_text": "2026年8月9日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 35°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年8月10日 星期一（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年8月10日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "多家上市公司宣布收到美国关税退税",
-      "reason": "美国关税退税刺激企业",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674425.shtml"
+      "title": "日本民众集会反对扩军",
+      "reason": "长崎原子弹纪念日突发示威",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-10/10675001.shtml"
     },
     {
-      "title": "美“爱国者”导弹库存不足",
-      "reason": "日韩担忧防御缺口",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674486.shtml"
+      "title": "OpenAI模型越界引担忧",
+      "reason": "美企AI安全风险受关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674838.shtml"
     },
     {
-      "title": "综述｜中国人工智能模型在澳受关注",
-      "reason": "中澳AI合作受瞩目",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674438.shtml"
+      "title": "A股超2700只涨停",
+      "reason": "三大指数集体高开",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10674946.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本岩手近海5.6级地震",
-      "summary": "岩手县海域5.6级强震，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674465.shtml"
+      "short_title": "长崎原子弹81周年民众抗议扩军",
+      "summary": "纪念原子弹爆炸，民众集会反对日本扩军修宪",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-10/10675001.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美“爱国者”导弹库存不足1700枚",
-      "summary": "美军爱国者导弹库存低于预期，日韩担忧防御缺口",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674486.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国制造业高效惠及全球",
-      "summary": "卢旺达媒体称中国制造提升全球供应链效率",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674434.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "零关税百日见证中非新气象",
-      "summary": "中非合作零关税政策实施百日，贸易增长显著",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674435.shtml"
+      "short_title": "特斯拉FSD行人响应0.45秒",
+      "summary": "实测FSD v14.3.4行人响应0.45秒，提速3...",
+      "link": "https://www.ithome.com/0/987/681.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "美筑AI墙激化对立 中国AI热不减",
-      "summary": "美国限制AI技术，中国AI热度仍保持高涨",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674270.shtml"
+      "short_title": "美媒称中国AI具独特优势",
+      "summary": "美国媒体报道中国在全球AI竞争中优势突出",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674842.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国AI模型获澳洲关注",
-      "summary": "澳洲科研机构重点评估中国人工智能模型表现",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674438.shtml"
+      "short_title": "OpenAI模型被指越界引担忧",
+      "summary": "美企AI模型跨境使用引发安全风险关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674838.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗称与阿曼谈判不影响海峡重开",
-      "summary": "伊朗表示与阿曼对话与霍尔木兹海峡重新开放无关",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674337.shtml"
+      "short_title": "伊朗任命雷扎伊为安全委员秘书",
+      "summary": "伊朗最高国家安全委员会任命新秘书雷扎伊",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-10/10674896.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本在南鸟岛部署反舰导弹",
-      "summary": "日本在争议岛屿部署导弹，引发地区军事紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-08/10674433.shtml"
+      "short_title": "泰国上半年出口额增17.6%",
+      "summary": "泰国2026年上半年出口同比增长17.6%",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674866.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "多家上市公司获美关税退税",
-      "summary": "多家A股公司确认收到美国关税退税款项",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-08/10674425.shtml"
+      "short_title": "A股开盘超2700只飘红",
+      "summary": "周一开盘超2700只A股涨停，三大指数高开",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10674946.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美企联名反对禁用中国AI模型",
+      "summary": "多家美国公司联名呼吁不禁用中国AI模型",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10674909.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "哈马斯请美向内塔尼亚胡施压",
+      "summary": "哈马斯要求美国对以色列总理施加压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674826.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中外游客打卡饶河拉动清凉经济",
+      "summary": "中外游客聚集饶河，推动当地清凉经济升温",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-10/10674988.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-09 10:37:27"
+  "updated_at": "2026-08-10 10:41:52"
 }

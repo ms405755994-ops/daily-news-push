@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月10日 星期一（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年8月10日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
+  "title": "MSAI今日新闻｜2026年8月11日 星期二（农历二月初一）｜汕头：晴 34°C",
+  "date_text": "2026年8月11日 星期二（农历二月初一）",
+  "weather_text": "汕头：晴 34°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "日本民众集会反对扩军",
-      "reason": "长崎原子弹纪念日突发示威",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-10/10675001.shtml"
+      "title": "伊朗称美制裁成瘾",
+      "reason": "伊朗外交部指美国制裁频繁",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675580.shtml"
     },
     {
-      "title": "OpenAI模型越界引担忧",
-      "reason": "美企AI安全风险受关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674838.shtml"
+      "title": "英格兰大范围突发干旱",
+      "reason": "英格兰七成地区进入干旱",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675509.shtml"
     },
     {
-      "title": "A股超2700只涨停",
-      "reason": "三大指数集体高开",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10674946.shtml"
+      "title": "哥伦比亚7.4级地震致111亡",
+      "reason": "强震导致大量人员伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675490.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "突发新闻",
-      "short_title": "长崎原子弹81周年民众抗议扩军",
-      "summary": "纪念原子弹爆炸，民众集会反对日本扩军修宪",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-10/10675001.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "特斯拉FSD行人响应0.45秒",
-      "summary": "实测FSD v14.3.4行人响应0.45秒，提速3...",
-      "link": "https://www.ithome.com/0/987/681.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "美媒称中国AI具独特优势",
-      "summary": "美国媒体报道中国在全球AI竞争中优势突出",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674842.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "OpenAI模型被指越界引担忧",
-      "summary": "美企AI模型跨境使用引发安全风险关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674838.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗任命雷扎伊为安全委员秘书",
-      "summary": "伊朗最高国家安全委员会任命新秘书雷扎伊",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-10/10674896.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "泰国上半年出口额增17.6%",
-      "summary": "泰国2026年上半年出口同比增长17.6%",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674866.shtml"
+      "category": "金融重点",
+      "short_title": "宇树科技IPO获批，推动中国智造",
+      "summary": "宇树科技成功上市，提升国产制造竞争力",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675417.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超2700只飘红",
-      "summary": "周一开盘超2700只A股涨停，三大指数高开",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10674946.shtml"
+      "short_title": "A股180家半年报利润大增",
+      "summary": "超七成公司利润正增长，显示市场活力",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675592.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "中国大模型性价比为何高",
+      "summary": "解析国产大模型成本低、性能佳的原因",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675534.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "伊朗称美制裁已成瘾",
+      "summary": "伊朗外交部批评美国频繁制裁的成瘾现象",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675580.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "巴西卢拉表态援助哥伦比亚",
+      "summary": "卢拉承诺提供物资帮助哥伦比亚地震灾区",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675492.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "英格兰七成地区突发干旱",
+      "summary": "英格兰超七成区域出现严重干旱",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675509.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "哥伦比亚7.4级地震致111亡",
+      "summary": "西部强震已致111人死亡、87人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675490.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美企联名反对禁用中国AI模型",
-      "summary": "多家美国公司联名呼吁不禁用中国AI模型",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10674909.shtml"
+      "short_title": "俄称乌军袭击致9外籍遇难",
+      "summary": "下卡姆斯克市袭击导致9名外国人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675467.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "哈马斯请美向内塔尼亚胡施压",
-      "summary": "哈马斯要求美国对以色列总理施加压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-09/10674826.shtml"
+      "short_title": "特朗普称美军全控霍尔木兹",
+      "summary": "特朗普宣称美军对霍尔木兹海峡拥有100%控制权",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675465.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中外游客打卡饶河拉动清凉经济",
-      "summary": "中外游客聚集饶河，推动当地清凉经济升温",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-10/10674988.shtml"
+      "short_title": "美国客机鸟击紧急返航",
+      "summary": "客机起飞遭鸟击发动机故障，安全返航",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675476.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-10 10:41:52"
+  "updated_at": "2026-08-11 10:39:29"
 }

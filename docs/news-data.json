@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年8月11日 星期二（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年8月11日 星期二（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年8月12日 星期三（农历二月初一）｜汕头：阴 33°C",
+  "date_text": "2026年8月12日 星期三（农历二月初一）",
+  "weather_text": "汕头：阴 33°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "伊朗称美制裁成瘾",
-      "reason": "伊朗外交部指美国制裁频繁",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675580.shtml"
+      "title": "美军导弹袭击伊朗货轮",
+      "reason": "突发军事冲突，影响中东局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676078.shtml"
     },
     {
-      "title": "英格兰大范围突发干旱",
-      "reason": "英格兰七成地区进入干旱",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675509.shtml"
+      "title": "A股大跌超2700只个股飘绿",
+      "reason": "股市大幅下跌，指数低开",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676151.shtml"
     },
     {
-      "title": "哥伦比亚7.4级地震致111亡",
-      "reason": "强震导致大量人员伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675490.shtml"
+      "title": "英伟达发布30B开源AI模型",
+      "reason": "AI大模型开源，推动技术创新",
+      "link": "https://www.ithome.com/0/988/609.htm"
     }
   ],
   "news_items": [
     {
-      "category": "金融重点",
-      "short_title": "宇树科技IPO获批，推动中国智造",
-      "summary": "宇树科技成功上市，提升国产制造竞争力",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-10/10675417.shtml"
+      "category": "突发新闻",
+      "short_title": "美军导弹击中驶伊货轮",
+      "summary": "美军使用导弹袭击前往伊朗的货船，导致停航。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676078.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "A股180家半年报利润大增",
-      "summary": "超七成公司利润正增长，显示市场活力",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675592.shtml"
+      "category": "突发新闻",
+      "short_title": "也门海警称胡塞袭击货船致6亡",
+      "summary": "胡塞武装袭击货船，造成6人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676187.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国大模型性价比为何高",
-      "summary": "解析国产大模型成本低、性能佳的原因",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-11/10675534.shtml"
+      "short_title": "成都眼镜店AI短片走红",
+      "summary": "店主用AI创作《仙宫》短片，海外热议。",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676214.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "英伟达发布30B开源模型",
+      "summary": "英伟达发布30B开源模型Nemotron 3.5。",
+      "link": "https://www.ithome.com/0/988/609.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗称美制裁已成瘾",
-      "summary": "伊朗外交部批评美国频繁制裁的成瘾现象",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675580.shtml"
+      "short_title": "伊朗官员要求美方换条件",
+      "summary": "伊朗官员称美需接受条件方可开放海峡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676077.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "巴西卢拉表态援助哥伦比亚",
-      "summary": "卢拉承诺提供物资帮助哥伦比亚地震灾区",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675492.shtml"
+      "short_title": "特朗普称美已控霍尔木兹海峡",
+      "summary": "特朗普再次声称美国完全控制该海峡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676163.shtml"
     },
     {
-      "category": "突发新闻",
-      "short_title": "英格兰七成地区突发干旱",
-      "summary": "英格兰超七成区域出现严重干旱",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675509.shtml"
+      "category": "金融重点",
+      "short_title": "A股开盘超2700只跌绿",
+      "summary": "三大指数低开，超2700只个股跌绿。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676151.shtml"
     },
     {
-      "category": "突发新闻",
-      "short_title": "哥伦比亚7.4级地震致111亡",
-      "summary": "西部强震已致111人死亡、87人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675490.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "俄称乌军袭击致9外籍遇难",
-      "summary": "下卡姆斯克市袭击导致9名外国人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675467.shtml"
+      "category": "金融重点",
+      "short_title": "澳洲维持基准利率4.35%",
+      "summary": "澳洲央行维持基准利率在4.35%。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10676042.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普称美军全控霍尔木兹",
-      "summary": "特朗普宣称美军对霍尔木兹海峡拥有100%控制权",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675465.shtml"
+      "short_title": "上半年中国消费热点全解析",
+      "summary": "解析上半年中国热销商品与消费趋势。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676186.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美国客机鸟击紧急返航",
-      "summary": "客机起飞遭鸟击发动机故障，安全返航",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10675476.shtml"
+      "short_title": "美青少年新疆赛会友增友谊",
+      "summary": "美国青少年在乌鲁木齐赛会，感受热情好客。",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676193.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "Ulefone发布Armor 22/...",
+      "summary": "Ulefone发布Armor 22/24 Pro，H...",
+      "link": "https://www.ithome.com/0/988/526.htm"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-11 10:39:29"
+  "updated_at": "2026-08-12 11:06:34"
 }

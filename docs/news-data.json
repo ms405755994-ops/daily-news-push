@@ -1,91 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月12日 星期三（农历二月初一）｜汕头：阴 33°C",
-  "date_text": "2026年8月12日 星期三（农历二月初一）",
-  "weather_text": "汕头：阴 33°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年8月13日 星期四（农历二月初一）｜汕头：阴 32°C",
+  "date_text": "2026年8月13日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 32°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美军导弹袭击伊朗货轮",
-      "reason": "突发军事冲突，影响中东局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676078.shtml"
+      "title": "以色列袭击加沙致伤亡",
+      "reason": "中东冲突升级，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-13/10676813.shtml"
     },
     {
-      "title": "A股大跌超2700只个股飘绿",
-      "reason": "股市大幅下跌，指数低开",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676151.shtml"
+      "title": "美国7月CPI符合预期，金价创新...",
+      "reason": "通胀数据影响美联储加息预期",
+      "link": "https://www.cls.cn/detail/2452735"
     },
     {
-      "title": "英伟达发布30B开源AI模型",
-      "reason": "AI大模型开源，推动技术创新",
-      "link": "https://www.ithome.com/0/988/609.htm"
+      "title": "美国AI安全审查或覆盖开源模型",
+      "reason": "AI监管升级，影响技术创新",
+      "link": "https://www.ithome.com/0/989/111.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军导弹击中驶伊货轮",
-      "summary": "美军使用导弹袭击前往伊朗的货船，导致停航。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676078.shtml"
+      "short_title": "哥伦比亚地震暂无中国公民伤亡",
+      "summary": "外交部确认暂无中国人在哥伦比亚地震中受伤或死亡",
+      "link": "https://news.dayoo.com/world/202608/12/139998_54990266.htm"
     },
     {
       "category": "突发新闻",
-      "short_title": "也门海警称胡塞袭击货船致6亡",
-      "summary": "胡塞武装袭击货船，造成6人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676187.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "成都眼镜店AI短片走红",
-      "summary": "店主用AI创作《仙宫》短片，海外热议。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676214.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "英伟达发布30B开源模型",
-      "summary": "英伟达发布30B开源模型Nemotron 3.5。",
-      "link": "https://www.ithome.com/0/988/609.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗官员要求美方换条件",
-      "summary": "伊朗官员称美需接受条件方可开放海峡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676077.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普称美已控霍尔木兹海峡",
-      "summary": "特朗普再次声称美国完全控制该海峡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676163.shtml"
+      "short_title": "以色列空袭加沙黎巴嫩致多人伤亡",
+      "summary": "以军对加沙和黎巴嫩发动袭击，造成多名平民死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-13/10676813.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超2700只跌绿",
-      "summary": "三大指数低开，超2700只个股跌绿。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676151.shtml"
+      "short_title": "上海清算所首用美债新发行指数",
+      "summary": "美国国债新发行指数首次用于存款类产品发行",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676617.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "澳洲维持基准利率4.35%",
-      "summary": "澳洲央行维持基准利率在4.35%。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-11/10676042.shtml"
+      "short_title": "美国7月CPI符合预期 金价创新高",
+      "summary": "CPI符合预期，金价升至日内新高",
+      "link": "https://www.cls.cn/detail/2452735"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "英财政部警示中东危机或致增长停滞",
+      "summary": "英国预测中东局势将使明年经济增长几乎停滞",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-13/10676700.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "伊朗称霍尔木兹海峡仍保持关闭",
+      "summary": "波斯湾海峡管理局宣布霍尔木兹海峡继续关闭",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-13/10676691.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI外呼骚扰频发亟待治理",
+      "summary": "违规AI外呼侵扰公众，监管部门呼吁尽快整治",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-13/10676774.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "美拟将开源AI模型纳入安全审查",
+      "summary": "美国计划扩大AI安全审查范围，覆盖前沿开源模型",
+      "link": "https://www.ithome.com/0/989/111.htm"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上半年中国消费热点全解析",
-      "summary": "解析上半年中国热销商品与消费趋势。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-12/10676186.shtml"
+      "short_title": "中方严正驳斥美方导弹试射言论",
+      "summary": "中国回应美方对导弹试射的指责，强调无资格评论",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-12/10676622.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美青少年新疆赛会友增友谊",
-      "summary": "美国青少年在乌鲁木齐赛会，感受热情好客。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-12/10676193.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "Ulefone发布Armor 22/...",
-      "summary": "Ulefone发布Armor 22/24 Pro，H...",
-      "link": "https://www.ithome.com/0/988/526.htm"
+      "short_title": "美军改航59艘商船 特朗普称伊朗无能",
+      "summary": "美军迫使59艘商船改道，特朗普指伊朗无法影响航运",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-13/10676698.shtml"
     }
   ],
   "futures": [
@@ -125,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-12 11:06:34"
+  "updated_at": "2026-08-13 11:14:21"
 }

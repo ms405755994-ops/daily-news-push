@@ -1,91 +1,69 @@
 {
-  "title": "MSAI今日新闻｜2026年8月14日 星期五（农历二月初一）｜汕头：大雨 26°C",
-  "date_text": "2026年8月14日 星期五（农历二月初一）",
-  "weather_text": "汕头：大雨 26°C",
-  "total_count": 11,
-  "hotspots": [
-    {
-      "title": "中东连发四事 伊朗导弹冲击",
-      "reason": "突发国际局势升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677453.shtml"
-    },
-    {
-      "title": "美国7月PPI低于预期 加息降温",
-      "reason": "金融市场波动引关注",
-      "link": "https://www.cls.cn/detail/2453838"
-    },
-    {
-      "title": "AI短剧探索商业化路径",
-      "reason": "AI内容创新或成新增长点",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677435.shtml"
-    }
-  ],
+  "title": "MSAI今日新闻｜2026年8月15日 星期六（农历二月初一）｜汕头：小雨 26°C",
+  "date_text": "2026年8月15日 星期六（农历二月初一）",
+  "weather_text": "汕头：小雨 26°C",
+  "total_count": 10,
+  "hotspots": [],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "中东四事因美伞被伊朗导弹冲击",
-      "summary": "伊朗导弹挑衅美国在中东的影响",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677453.shtml"
+      "short_title": "领区防震防海啸提示",
+      "summary": "总领馆提醒在埃及公民防范地震海啸",
+      "link": "https://www.chinanews.com.cn/hr/2026/08-15/10678026.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "鹿特丹港爆炸致1死6伤",
-      "summary": "荷兰港口爆炸造成多人伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677408.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "大湾区U17球员学功夫",
-      "summary": "佛山球员体验中国功夫文化",
-      "link": "https://www.chinanews.com.cn/dwq/2026/08-14/10677485.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊朗驳特朗普称海峡属美国",
-      "summary": "伊朗强调海峡受本国管理",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677342.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美航母乔治华盛顿驶向中东",
-      "summary": "替换亚伯拉罕林肯号",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677344.shtml"
+      "short_title": "印尼7.7级地震致海啸预警",
+      "summary": "印尼发生7.7级强震，海啸警报已发布",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678031.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI短剧探索商业化路径",
-      "summary": "AI短剧运营新模式待验证",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677435.shtml"
+      "short_title": "京东健康AI医生进院",
+      "summary": "京东健康半年报展示AI医生与新药下沉",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677909.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "苹果首发2nm 谷歌Pixel 11...",
-      "summary": "新芯片技术推动手机升级",
-      "link": "https://www.ithome.com/0/989/611.htm"
+      "short_title": "辽宁发布20个AI示范场景",
+      "summary": "辽宁布局人工智能赛道，首批项目落地",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677943.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美防长称可无限期封锁伊朗海上",
-      "summary": "美国有足够力量维持海上封锁",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677345.shtml"
+      "short_title": "特朗普再指霍尔木兹海峡",
+      "summary": "特朗普放话要控制霍尔木兹海峡，伊朗警告",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678045.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "朝鲜称美韩军演是侵略预演",
-      "summary": "朝鲜指美韩演习本质为侵略",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677373.shtml"
+      "short_title": "欧洲高通胀高赤字困局",
+      "summary": "欧洲因通胀赤字陷入战略自主危机",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10678000.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美国7月PPI低于预期",
-      "summary": "美联储加息预期因通胀降温",
-      "link": "https://www.cls.cn/detail/2453838"
+      "short_title": "美国7月零售销售跌0.6%",
+      "summary": "美国7月零售额环比下降0.6%，创年内最大跌幅",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678016.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "A股开盘超2500股飘红",
-      "summary": "三大指数集体高开",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677411.shtml"
+      "category": "今日三大新闻",
+      "short_title": "IT早报：苹果阿里合作大模型",
+      "summary": "苹果联手阿里研发中国专属大模型，微信坚守编辑原则",
+      "link": "https://www.ithome.com/0/989/979.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "印度三星手机起火致伤",
+      "summary": "印度网友报告三星Galaxy手机突发起火，导致烫伤",
+      "link": "https://www.ithome.com/0/989/988.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "新西兰前央行行长谈AI",
+      "summary": "前央行行长称中国AI为亚太提供新选择",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677976.shtml"
     }
   ],
   "futures": [
@@ -125,5 +103,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-14 11:10:34"
+  "updated_at": "2026-08-15 10:01:08"
 }

@@ -1,69 +1,61 @@
 {
-  "title": "MSAI今日新闻｜2026年8月15日 星期六（农历二月初一）｜汕头：小雨 26°C",
-  "date_text": "2026年8月15日 星期六（农历二月初一）",
-  "weather_text": "汕头：小雨 26°C",
-  "total_count": 10,
-  "hotspots": [],
+  "title": "MSAI今日新闻｜2026年8月16日 星期日（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年8月16日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
+  "total_count": 6,
+  "hotspots": [
+    {
+      "title": "以色列空袭黎巴嫩",
+      "reason": "空袭致11死，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678443.shtml"
+    },
+    {
+      "title": "印尼7.7级地震致47死",
+      "reason": "重大自然灾害，涉华人员",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml"
+    },
+    {
+      "title": "AI时代纸质书何去何从",
+      "reason": "AI冲击出版业，行业焦点",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678471.shtml"
+    }
+  ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "领区防震防海啸提示",
-      "summary": "总领馆提醒在埃及公民防范地震海啸",
-      "link": "https://www.chinanews.com.cn/hr/2026/08-15/10678026.shtml"
+      "short_title": "印尼7.7级地震致47死 3中国游客...",
+      "summary": "地震造成47人死亡，3名中国游客受轻伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "印尼7.7级地震致海啸预警",
-      "summary": "印尼发生7.7级强震，海啸警报已发布",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678031.shtml"
+      "short_title": "以色列空袭黎巴嫩致11人死亡",
+      "summary": "以色列对黎巴嫩发动空袭，导致11人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678443.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "京东健康AI医生进院",
-      "summary": "京东健康半年报展示AI医生与新药下沉",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677909.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "辽宁发布20个AI示范场景",
-      "summary": "辽宁布局人工智能赛道，首批项目落地",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10677943.shtml"
+      "short_title": "AI时代纸质书何去何从",
+      "summary": "探讨人工智能冲击下纸质书的未来走向。",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678471.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普再指霍尔木兹海峡",
-      "summary": "特朗普放话要控制霍尔木兹海峡，伊朗警告",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678045.shtml"
+      "short_title": "伊朗与阿曼达成霍尔木兹海峡通行协议",
+      "summary": "伊朗称已与阿曼就海峡通行方案达成一致。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678388.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧洲高通胀高赤字困局",
-      "summary": "欧洲因通胀赤字陷入战略自主危机",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-14/10678000.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美国7月零售销售跌0.6%",
-      "summary": "美国7月零售额环比下降0.6%，创年内最大跌幅",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678016.shtml"
+      "short_title": "二战日军策划鼠疫跳蚤袭美西海岸",
+      "summary": "日本二战计划动用5吨鼠疫跳蚤攻击美国。",
+      "link": "https://news.ifeng.com/c/8vcOgyPSatM"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "IT早报：苹果阿里合作大模型",
-      "summary": "苹果联手阿里研发中国专属大模型，微信坚守编辑原则",
-      "link": "https://www.ithome.com/0/989/979.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "印度三星手机起火致伤",
-      "summary": "印度网友报告三星Galaxy手机突发起火，导致烫伤",
-      "link": "https://www.ithome.com/0/989/988.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "新西兰前央行行长谈AI",
-      "summary": "前央行行长称中国AI为亚太提供新选择",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-14/10677976.shtml"
+      "short_title": "艰苦卓绝的伟大战争学习专题",
+      "summary": "每日学习栏目回顾伟大战争的艰苦历程。",
+      "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678480.shtml"
     }
   ],
   "futures": [
@@ -103,5 +95,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-15 10:01:08"
+  "updated_at": "2026-08-16 10:08:59"
 }

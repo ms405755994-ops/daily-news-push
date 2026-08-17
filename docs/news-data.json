@@ -1,61 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月16日 星期日（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年8月16日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 6,
+  "title": "MSAI今日新闻｜2026年8月17日 星期一（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年8月17日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "以色列空袭黎巴嫩",
-      "reason": "空袭致11死，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678443.shtml"
+      "title": "哥伦比亚强震289死，要求美暂停...",
+      "reason": "突发地震+关税争议",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678809.shtml"
     },
     {
-      "title": "印尼7.7级地震致47死",
-      "reason": "重大自然灾害，涉华人员",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml"
+      "title": "伊朗称美军被驱逐 禁入霍尔木兹",
+      "reason": "中东海峡紧张局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678770.shtml"
     },
     {
-      "title": "AI时代纸质书何去何从",
-      "reason": "AI冲击出版业，行业焦点",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678471.shtml"
+      "title": "A股超2600只飘红三大指数高开",
+      "reason": "A股大幅飘红，市场活跃",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10678865.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "印尼7.7级地震致47死 3中国游客...",
-      "summary": "地震造成47人死亡，3名中国游客受轻伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml"
+      "short_title": "哥伦比亚强震致289死 总统请美停关...",
+      "summary": "地震致289人死亡，总统请求美方暂停关税援助。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678809.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭黎巴嫩致11人死亡",
-      "summary": "以色列对黎巴嫩发动空袭，导致11人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678443.shtml"
+      "short_title": "印尼7.7级地震致53人死亡",
+      "summary": "强震造成53人死亡，救援工作紧急展开。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678682.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI时代纸质书何去何从",
-      "summary": "探讨人工智能冲击下纸质书的未来走向。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-16/10678471.shtml"
+      "short_title": "警惕AI成未成年聊天搭子",
+      "summary": "专家提醒防止青少年过度依赖AI聊天，提出引导措施。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10678821.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗与阿曼达成霍尔木兹海峡通行协议",
-      "summary": "伊朗称已与阿曼就海峡通行方案达成一致。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-15/10678388.shtml"
+      "short_title": "伊朗称美军被驱逐 禁止进入霍尔木兹",
+      "summary": "伊朗宣布美军被驱逐出霍尔木兹海峡，局势紧张。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678770.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "二战日军策划鼠疫跳蚤袭美西海岸",
-      "summary": "日本二战计划动用5吨鼠疫跳蚤攻击美国。",
-      "link": "https://news.ifeng.com/c/8vcOgyPSatM"
+      "short_title": "八国外长联声明谴责以色列拒和平",
+      "summary": "八国外交部长联合谴责以色列不接受加沙和平方案。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678813.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股开盘超2600只飘红 三指数高开",
+      "summary": "周一A股逾2600只个股上涨，三大指数全线高开。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10678865.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "联合国副秘书长称绿水青山最稳投资",
+      "summary": "访谈中副秘书长强调生态是最安全的长期投资。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678632.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "艰苦卓绝的伟大战争学习专题",
-      "summary": "每日学习栏目回顾伟大战争的艰苦历程。",
-      "link": "https://www.chinanews.com.cn/gn/2026/08-16/10678480.shtml"
+      "short_title": "2291万入境客消费账单揭秘",
+      "summary": "外宾在华消费总额创新高，展示中国吸引力。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678777.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普不满美韩联合军演安排",
+      "summary": "特朗普对美韩军演计划表达不满，引发关注。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678801.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "日媒警惕高市政权回归战前政策",
+      "summary": "日本媒体提醒高市政权可能重走战前路线。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml"
     }
   ],
   "futures": [
@@ -95,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-16 10:08:59"
+  "updated_at": "2026-08-17 10:05:35"
 }

@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月17日 星期一（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年8月17日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
+  "title": "MSAI今日新闻｜2026年8月18日 星期二（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年8月18日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "哥伦比亚强震289死，要求美暂停...",
-      "reason": "突发地震+关税争议",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678809.shtml"
+      "title": "美军签229亿美元战斧导弹合同",
+      "reason": "重大军备采购，涉及数百亿美元",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10679342.shtml"
     },
     {
-      "title": "伊朗称美军被驱逐 禁入霍尔木兹",
-      "reason": "中东海峡紧张局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678770.shtml"
+      "title": "美伊备忘录到期战况激烈",
+      "reason": "中东局势紧张，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679403.shtml"
     },
     {
-      "title": "A股超2600只飘红三大指数高开",
-      "reason": "A股大幅飘红，市场活跃",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10678865.shtml"
+      "title": "作业帮AI学习机发布新品",
+      "reason": "AI教育硬件升级，布局高端市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679412.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "突发新闻",
-      "short_title": "哥伦比亚强震致289死 总统请美停关...",
-      "summary": "地震致289人死亡，总统请求美方暂停关税援助。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678809.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "印尼7.7级地震致53人死亡",
-      "summary": "强震造成53人死亡，救援工作紧急展开。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678682.shtml"
+      "category": "AI重点",
+      "short_title": "作业帮AI学习机发布两款新品",
+      "summary": "AI超级老师覆盖全场景，助力高端教育市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679412.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "警惕AI成未成年聊天搭子",
-      "summary": "专家提醒防止青少年过度依赖AI聊天，提出引导措施。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10678821.shtml"
+      "short_title": "兰建平：开源是中国AI生态关键",
+      "summary": "推动开源加速国产AI竞争，打造自主生态",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10679292.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "美军签229亿美元战斧导弹合同",
+      "summary": "美军再投巨资采购新一代精准制导武器",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10679342.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗称美军被驱逐 禁止进入霍尔木兹",
-      "summary": "伊朗宣布美军被驱逐出霍尔木兹海峡，局势紧张。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678770.shtml"
+      "short_title": "美伊备忘录到期局势紧张",
+      "summary": "美伊关系骤变，伊朗全盘回怼美国",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679403.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "八国外长联声明谴责以色列拒和平",
-      "summary": "八国外交部长联合谴责以色列不接受加沙和平方案。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678813.shtml"
+      "short_title": "蒙古前总理：中国经济数智驱动",
+      "summary": "从钢筋水泥转向数字智能，成新增长引擎",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679395.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超2600只飘红 三指数高开",
-      "summary": "周一A股逾2600只个股上涨，三大指数全线高开。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10678865.shtml"
+      "short_title": "广州目标2028服务贸易超千亿美元",
+      "summary": "计划至2028年服务贸易年额突破1000亿美元",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10679325.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "联合国副秘书长称绿水青山最稳投资",
-      "summary": "访谈中副秘书长强调生态是最安全的长期投资。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678632.shtml"
+      "short_title": "宇树科技计划8月19日科创板上市",
+      "summary": "被称人形机器人第一股，聚焦AI制造业",
+      "link": "https://www.ithome.com/0/990/812.htm"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "2291万入境客消费账单揭秘",
-      "summary": "外宾在华消费总额创新高，展示中国吸引力。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-16/10678777.shtml"
+      "short_title": "北京机器人加速走向市场",
+      "summary": "本土机器人企业从实验室向商业化转型",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10679280.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普不满美韩联合军演安排",
-      "summary": "特朗普对美韩军演计划表达不满，引发关注。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10678801.shtml"
+      "short_title": "日照经济加速密码曝光",
+      "summary": "深度分析日照产业升级与增长动能",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679414.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "日媒警惕高市政权回归战前政策",
-      "summary": "日本媒体提醒高市政权可能重走战前路线。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml"
+      "short_title": "马来西亚车祸年损失300亿林吉特",
+      "summary": "交通事故导致巨额社会经济负担",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10679327.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-17 10:05:35"
+  "updated_at": "2026-08-18 10:02:15"
 }

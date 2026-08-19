@@ -1,85 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年8月18日 星期二（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年8月18日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年8月19日 星期三（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年8月19日 星期三（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美军签229亿美元战斧导弹合同",
-      "reason": "重大军备采购，涉及数百亿美元",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10679342.shtml"
+      "title": "欧盟拟制裁以色列安全部长",
+      "reason": "突发国际制裁动向",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679962.shtml"
     },
     {
-      "title": "美伊备忘录到期战况激烈",
-      "reason": "中东局势紧张，影响地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679403.shtml"
+      "title": "A股超4300只跌 三指数低开",
+      "reason": "股市大幅下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680034.shtml"
     },
     {
-      "title": "作业帮AI学习机发布新品",
-      "reason": "AI教育硬件升级，布局高端市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679412.shtml"
+      "title": "亦庄发布AI人才八条",
+      "reason": "AI人才政策新举措",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679928.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "AI重点",
-      "short_title": "作业帮AI学习机发布两款新品",
-      "summary": "AI超级老师覆盖全场景，助力高端教育市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679412.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "兰建平：开源是中国AI生态关键",
-      "summary": "推动开源加速国产AI竞争，打造自主生态",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10679292.shtml"
+      "category": "突发新闻",
+      "short_title": "四川长宁升学宴坍塌致5死",
+      "summary": "升学宴现场坍塌，已确认5人死亡，官方通报。",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-19/10680025.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美军签229亿美元战斧导弹合同",
-      "summary": "美军再投巨资采购新一代精准制导武器",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10679342.shtml"
+      "short_title": "欧盟提议制裁以色列安全部长",
+      "summary": "欧盟议员建议将以色列安全部长列入制裁名单。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679962.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "德企阿玛松增资天津二期项目",
+      "summary": "德国阿玛松在天津增资扩产，计划设北方总部。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679952.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "北京亦庄发布AI人才八条",
+      "summary": "亦庄推出八项政策，扶持原生AI创业者。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679928.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "俄警告英涉乌行动 英首相表支持",
+      "summary": "俄警告英在乌克兰问题上行动，英首相重申支持。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679960.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美伊备忘录到期局势紧张",
-      "summary": "美伊关系骤变，伊朗全盘回怼美国",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679403.shtml"
+      "short_title": "法国驱逐两名伊朗外交官",
+      "summary": "法国宣布驱逐伊朗官员，回应伊朗驻伊事件。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10680001.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "蒙古前总理：中国经济数智驱动",
-      "summary": "从钢筋水泥转向数字智能，成新增长引擎",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679395.shtml"
+      "short_title": "伊朗称美曾考虑委内瑞拉模式",
+      "summary": "伊朗透露美国曾策划对伊使用委内瑞拉模式。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10679974.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "广州目标2028服务贸易超千亿美元",
-      "summary": "计划至2028年服务贸易年额突破1000亿美元",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10679325.shtml"
+      "short_title": "A股开盘超4300只跌 三大指数低开",
+      "summary": "超4300只个股下跌，沪深三大指数集体走低。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680034.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "宇树科技计划8月19日科创板上市",
-      "summary": "被称人形机器人第一股，聚焦AI制造业",
-      "link": "https://www.ithome.com/0/990/812.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "北京机器人加速走向市场",
-      "summary": "本土机器人企业从实验室向商业化转型",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-17/10679280.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "日照经济加速密码曝光",
-      "summary": "深度分析日照产业升级与增长动能",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679414.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "马来西亚车祸年损失300亿林吉特",
-      "summary": "交通事故导致巨额社会经济负担",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-17/10679327.shtml"
+      "short_title": "宇树科技上市首日涨超600% 单签收...",
+      "summary": "宇树科技首日涨超600%，单签收益逾47万元。",
+      "link": "https://www.ithome.com/0/991/426.htm"
     }
   ],
   "futures": [
@@ -119,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-18 10:02:15"
+  "updated_at": "2026-08-19 10:03:40"
 }

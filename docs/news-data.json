@@ -1,79 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年8月19日 星期三（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年8月19日 星期三（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年8月20日 星期四（农历二月初一）｜汕头：阴 27°C",
+  "date_text": "2026年8月20日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 27°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "欧盟拟制裁以色列安全部长",
-      "reason": "突发国际制裁动向",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679962.shtml"
+      "title": "欧盟对美制裁ICC院长 表示遗憾",
+      "reason": "欧盟对美制裁ICC表达遗憾",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680738.shtml"
     },
     {
-      "title": "A股超4300只跌 三指数低开",
-      "reason": "股市大幅下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680034.shtml"
+      "title": "以色列空袭加沙 9死15伤",
+      "reason": "以色列空袭加沙致重大伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10680634.shtml"
     },
     {
-      "title": "亦庄发布AI人才八条",
-      "reason": "AI人才政策新举措",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679928.shtml"
+      "title": "现货黄金跌破4500美元关口",
+      "reason": "黄金跌破关键技术关口",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10680789.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "四川长宁升学宴坍塌致5死",
-      "summary": "升学宴现场坍塌，已确认5人死亡，官方通报。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-19/10680025.shtml"
+      "short_title": "以色列空袭加沙致9死15伤",
+      "summary": "以色列对加沙发动空袭，造成9人死亡、15人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10680634.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "欧盟提议制裁以色列安全部长",
-      "summary": "欧盟议员建议将以色列安全部长列入制裁名单。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679962.shtml"
+      "short_title": "欧盟对美制裁ICC院长表遗憾",
+      "summary": "欧盟对美国制裁国际刑事法院院长表示遗憾，重申支持IC...",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680738.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "德企阿玛松增资天津二期项目",
-      "summary": "德国阿玛松在天津增资扩产，计划设北方总部。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679952.shtml"
+      "short_title": "北京亦庄机器人大会亮相百款新品",
+      "summary": "北京亦庄20余家企业展示近百款机器人新品。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680643.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "北京亦庄发布AI人才八条",
-      "summary": "亦庄推出八项政策，扶持原生AI创业者。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-18/10679928.shtml"
+      "short_title": "中国机器人争做生活搭子",
+      "summary": "国产机器人进军家庭，提供厨房与客厅服务。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680673.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "俄警告英涉乌行动 英首相表支持",
-      "summary": "俄警告英在乌克兰问题上行动，英首相重申支持。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-18/10679960.shtml"
+      "category": "AI重点",
+      "short_title": "AI客服别让消费者添堵",
+      "summary": "提醒企业规范AI客服，避免用户体验受损。",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-20/10680764.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "法国驱逐两名伊朗外交官",
-      "summary": "法国宣布驱逐伊朗官员，回应伊朗驻伊事件。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10680001.shtml"
+      "short_title": "乌克兰嫌疑人被捕涉北溪爆炸",
+      "summary": "乌克兰籍嫌疑人因涉嫌北溪管道爆炸被捕。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680718.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗称美曾考虑委内瑞拉模式",
-      "summary": "伊朗透露美国曾策划对伊使用委内瑞拉模式。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10679974.shtml"
+      "short_title": "伊朗或打击驻欧美军设施",
+      "summary": "伊朗考虑在美欧境内打击军事设施，局势紧张。",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680727.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超4300只跌 三大指数低开",
-      "summary": "超4300只个股下跌，沪深三大指数集体走低。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680034.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "宇树科技上市首日涨超600% 单签收...",
-      "summary": "宇树科技首日涨超600%，单签收益逾47万元。",
-      "link": "https://www.ithome.com/0/991/426.htm"
+      "short_title": "现货黄金跌破4500美元",
+      "summary": "美元计价的现货黄金价格跌破4500美元关口。",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10680789.shtml"
     }
   ],
   "futures": [
@@ -113,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-19 10:03:40"
+  "updated_at": "2026-08-20 10:02:17"
 }

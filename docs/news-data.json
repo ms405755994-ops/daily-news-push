@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月20日 星期四（农历二月初一）｜汕头：阴 27°C",
-  "date_text": "2026年8月20日 星期四（农历二月初一）",
-  "weather_text": "汕头：阴 27°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年8月21日 星期五（农历二月初一）｜汕头：阴 30°C",
+  "date_text": "2026年8月21日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 30°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "欧盟对美制裁ICC院长 表示遗憾",
-      "reason": "欧盟对美制裁ICC表达遗憾",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680738.shtml"
+      "title": "伊朗强烈谴责美国制裁",
+      "reason": "伊朗指责美制裁升级紧张局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681391.shtml"
     },
     {
-      "title": "以色列空袭加沙 9死15伤",
-      "reason": "以色列空袭加沙致重大伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10680634.shtml"
+      "title": "美加关税博弈进入倒计时",
+      "reason": "美加关税争端或冲击全球市场",
+      "link": "https://www.yicai.com/news/103327145.html"
     },
     {
-      "title": "现货黄金跌破4500美元关口",
-      "reason": "黄金跌破关键技术关口",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10680789.shtml"
+      "title": "APEC对话会分享AI物流经验",
+      "reason": "AI技术推动物流创新受关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10681335.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭加沙致9死15伤",
-      "summary": "以色列对加沙发动空袭，造成9人死亡、15人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-19/10680634.shtml"
+      "short_title": "日本冲绳近海4.2级地震",
+      "summary": "震源深度40公里，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681422.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "欧盟对美制裁ICC院长表遗憾",
-      "summary": "欧盟对美国制裁国际刑事法院院长表示遗憾，重申支持IC...",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680738.shtml"
+      "short_title": "秘鲁6.7级强震致伤",
+      "summary": "至少两人受伤，多处房屋受损",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681394.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "北京亦庄机器人大会亮相百款新品",
-      "summary": "北京亦庄20余家企业展示近百款机器人新品。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680643.shtml"
+      "short_title": "新一代深水工程船交付",
+      "summary": "国产海油292号正式下水",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-21/10681456.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国机器人争做生活搭子",
-      "summary": "国产机器人进军家庭，提供厨房与客厅服务。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-19/10680673.shtml"
+      "short_title": "A股开盘超3900只跌",
+      "summary": "三大指数集体低开，市场情绪低迷",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-21/10681439.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "机器人消费街亮相世博",
+      "summary": "近万平米展区展示最新机器人技术",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10681310.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI客服别让消费者添堵",
-      "summary": "提醒企业规范AI客服，避免用户体验受损。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-20/10680764.shtml"
+      "short_title": "APEC对话会聚焦AI物流",
+      "summary": "菜鸟集团分享AI在国际物流的应用",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10681335.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "乌克兰嫌疑人被捕涉北溪爆炸",
-      "summary": "乌克兰籍嫌疑人因涉嫌北溪管道爆炸被捕。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680718.shtml"
+      "short_title": "伊朗强烈谴责美制裁",
+      "summary": "伊朗将用一切工具维护国家利益",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681391.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗或打击驻欧美军设施",
-      "summary": "伊朗考虑在美欧境内打击军事设施，局势紧张。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10680727.shtml"
+      "short_title": "乌克兰防空缺口致空袭",
+      "summary": "基辅空袭致13人死亡，防空不足",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10681214.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "现货黄金跌破4500美元",
-      "summary": "美元计价的现货黄金价格跌破4500美元关口。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10680789.shtml"
+      "short_title": "美加关税博弈进入倒计时",
+      "summary": "美国与加拿大关税谈判进入关键阶段",
+      "link": "https://www.yicai.com/news/103327145.html"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美批准对卡塔尔45亿美元军售",
+      "summary": "美国务院同意向卡塔尔出售45亿美元武器",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681393.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-20 10:02:17"
+  "updated_at": "2026-08-21 10:09:01"
 }

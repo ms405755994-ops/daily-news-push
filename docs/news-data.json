@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月21日 星期五（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年8月21日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
+  "title": "MSAI今日新闻｜2026年8月22日 星期六（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年8月22日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗强烈谴责美国制裁",
-      "reason": "伊朗指责美制裁升级紧张局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681391.shtml"
+      "title": "伊朗总统呼吁结束战争",
+      "reason": "突发国际政治动向",
+      "link": "https://www.dw.com/zh/%E4%BC%8A%E6%9C%97%E6%80%BB%E7%BB%9F%E6%98%AF%E6%97%B6%E5%80%99%E7%BB%93%E6%9D%9F%E6%88%98%E4%BA%89%E4%BA%86/a-78460411"
     },
     {
-      "title": "美加关税博弈进入倒计时",
-      "reason": "美加关税争端或冲击全球市场",
-      "link": "https://www.yicai.com/news/103327145.html"
+      "title": "日本八丈岛近海5.5级地震",
+      "reason": "突发自然灾害，东京有震感",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10682056.shtml"
     },
     {
-      "title": "APEC对话会分享AI物流经验",
-      "reason": "AI技术推动物流创新受关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10681335.shtml"
+      "title": "今年7月欧盟油价同比增长16.9...",
+      "reason": "欧盟油价大幅上涨，金融波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-22/10682131.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本冲绳近海4.2级地震",
-      "summary": "震源深度40公里，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681422.shtml"
+      "short_title": "伊朗总统呼吁结束战争",
+      "summary": "伊朗总统称是时候结束战争",
+      "link": "https://www.dw.com/zh/%E4%BC%8A%E6%9C%97%E6%80%BB%E7%BB%9F%E6%98%AF%E6%97%B6%E5%80%99%E7%BB%93%E6%9D%9F%E6%88%98%E4%BA%89%E4%BA%86/a-78460411"
     },
     {
       "category": "突发新闻",
-      "short_title": "秘鲁6.7级强震致伤",
-      "summary": "至少两人受伤，多处房屋受损",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681394.shtml"
+      "short_title": "日本八丈岛海域5.5级地震",
+      "summary": "东京有震感，暂无海啸风险",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10682056.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "新一代深水工程船交付",
-      "summary": "国产海油292号正式下水",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-21/10681456.shtml"
+      "short_title": "中印尼外防长“2+2”对话举行",
+      "summary": "双方就安全经济议题深化合作",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10682129.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股开盘超3900只跌",
-      "summary": "三大指数集体低开，市场情绪低迷",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-21/10681439.shtml"
+      "short_title": "特朗普称霍尔木兹海峡属美",
+      "summary": "美国总统再度宣称海峡为美国领土",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-22/10682165.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "机器人消费街亮相世博",
-      "summary": "近万平米展区展示最新机器人技术",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10681310.shtml"
+      "short_title": "欧盟7月油价涨16.9%",
+      "summary": "欧盟燃油和润滑油价格同比大幅上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-22/10682131.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "APEC对话会聚焦AI物流",
-      "summary": "菜鸟集团分享AI在国际物流的应用",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-20/10681335.shtml"
+      "short_title": "Anthropic招聘前谷歌TPU负...",
+      "summary": "Anthropic自研芯片，吸纳前谷歌高管",
+      "link": "https://www.ithome.com/0/992/909.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "智身科技亮相机器人大会",
+      "summary": "定义真正干活的机器人技术",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260821689596b4120242408438a34d5a74e0da"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗强烈谴责美制裁",
-      "summary": "伊朗将用一切工具维护国家利益",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681391.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "乌克兰防空缺口致空袭",
-      "summary": "基辅空袭致13人死亡，防空不足",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-20/10681214.shtml"
+      "short_title": "荷兰格罗宁根因油气开采震2.8级",
+      "summary": "油气开采导致当地小规模地震",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-22/10682159.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美加关税博弈进入倒计时",
-      "summary": "美国与加拿大关税谈判进入关键阶段",
-      "link": "https://www.yicai.com/news/103327145.html"
+      "short_title": "白银投资政策更精准落地",
+      "summary": "真金白银投得更实，政策举措更准",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-22/10682179.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美批准对卡塔尔45亿美元军售",
-      "summary": "美国务院同意向卡塔尔出售45亿美元武器",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-21/10681393.shtml"
+      "short_title": "美国将向联合国支付7.25亿美元",
+      "summary": "美国补缴拖欠会费，缓解财政压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-22/10682144.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-21 10:09:01"
+  "updated_at": "2026-08-22 09:59:28"
 }

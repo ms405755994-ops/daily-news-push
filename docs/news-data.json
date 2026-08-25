@@ -1,73 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年8月24日 星期一（农历二月初一）｜汕头：阴 29°C",
-  "date_text": "2026年8月24日 星期一（农历二月初一）",
-  "weather_text": "汕头：阴 29°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年8月25日 星期二（农历二月初一）｜汕头：阴 30°C",
+  "date_text": "2026年8月25日 星期二（农历二月初一）",
+  "weather_text": "汕头：阴 30°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "关税突发 美债涨比特币跳水",
-      "reason": "美债收益率飙升，金融市场剧烈波动",
-      "link": "https://m.jrj.com.cn/madapter/stock/2026/08/23131558211497.shtml"
+      "title": "特朗普关税挑衅加拿大反击",
+      "reason": "美加贸易战升级，市场关注",
+      "link": "https://m.jrj.com.cn/madapter/stock/2026/08/24170858216977.shtml"
     },
     {
-      "title": "伊朗总统称已进入全面战争",
-      "reason": "中东局势升级，牵动全球安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-23/10682819.shtml"
+      "title": "美对伊朗新制裁风险升",
+      "reason": "制裁或波及美自身，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-25/10683546.shtml"
     },
     {
-      "title": "AI技术驱动经济K型分化",
-      "reason": "AI成为经济两极分化核心因素",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682772.shtml"
+      "title": "AI手机助盲人户外导航",
+      "reason": "AI技术提升盲人出行安全",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683575.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美内华达州野火致超4万人撤离",
-      "summary": "内华达州大规模山火，多人受伤，4万居民紧急撤离。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-24/10682897.shtml"
+      "short_title": "特朗普提升对加关税至50%",
+      "summary": "美国将对加拿大汽车、钢铁征收50%关税",
+      "link": "https://m.jrj.com.cn/madapter/stock/2026/08/24170858216977.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "四川长宁4.7级地震暂无伤亡",
-      "summary": "四川长宁发生4.7级地震，已启动四级应急响应。",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-24/10682982.shtml"
+      "short_title": "美加码伊朗新制裁",
+      "summary": "美国对伊朗实施新一轮制裁措施",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-25/10683546.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "AI推动经济K型分化",
-      "summary": "经济学家称AI是导致经济两极分化的关键因素。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682772.shtml"
+      "short_title": "中国打造黄金大外环",
+      "summary": "新经济走廊激活区域发展潜力",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-24/10683446.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "日本茨城5.9级地震致37伤",
-      "summary": "日本茨城县强震造成5.9级，已有37人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-23/10682657.shtml"
+      "short_title": "学者发现宇宙小红点",
+      "summary": "可能存在于致密宿主星系中",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683594.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国机器人百米破人类纪录",
-      "summary": "国产人形机器人百米跑成绩超越人类纪录。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-24/10682940.shtml"
+      "short_title": "机器人硬核科技亮相",
+      "summary": "智慧生活加速，带来新惊喜",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-25/10683513.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国CAD市场AI驱动持续增长",
-      "summary": "报告显示AI助力中国CAD市场保持增长势头。",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-23/10682795.shtml"
+      "short_title": "AI手机助盲人独立导航",
+      "summary": "国际研发新应用提升户外安全",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683575.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "邬贺铨谈AI兴起",
+      "summary": "互联网基础技术创新正当时",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683575.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗总统称已进入全面战争",
-      "summary": "伊朗总统宣布国家正处于全面战争状态。",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-23/10682819.shtml"
+      "short_title": "加总理称美态度决定重返谈判",
+      "summary": "若美国示好，加国将重启贸易谈判",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-25/10683503.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "菲律宾海域5.0级地震",
+      "summary": "南部海域发生5.0级地震",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-24/10683284.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "加拿大报复关税致美债收益率升",
-      "summary": "加拿大对等报复关税，引发美国债券收益率上升。",
-      "link": "https://m.jrj.com.cn/madapter/stock/2026/08/23131558211497.shtml"
+      "short_title": "A股开盘超3900只飘绿",
+      "summary": "三大指数集体低开",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-25/10683600.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "上半年服务出口增17.6%",
+      "summary": "中国服务业加速走向海外",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683594.shtml"
     }
   ],
   "futures": [
@@ -107,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-24 10:08:50"
+  "updated_at": "2026-08-25 10:03:53"
 }

@@ -1,91 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月25日 星期二（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年8月25日 星期二（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年8月26日 星期三（农历二月初一）｜汕头：中雨 26°C",
+  "date_text": "2026年8月26日 星期三（农历二月初一）",
+  "weather_text": "汕头：中雨 26°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "特朗普关税挑衅加拿大反击",
-      "reason": "美加贸易战升级，市场关注",
-      "link": "https://m.jrj.com.cn/madapter/stock/2026/08/24170858216977.shtml"
+      "title": "四川长宁7.7级地震预警",
+      "reason": "地震预警引发公众关注",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-26/10684316.shtml"
     },
     {
-      "title": "美对伊朗新制裁风险升",
-      "reason": "制裁或波及美自身，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-25/10683546.shtml"
+      "title": "加拿大对美商品征收报复关税",
+      "reason": "美加关税升级影响全球贸易",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684222.shtml"
     },
     {
-      "title": "AI手机助盲人户外导航",
-      "reason": "AI技术提升盲人出行安全",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683575.shtml"
+      "title": "A股开盘超2500只个股飘绿",
+      "reason": "股市大跌显现资金紧张",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684300.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普提升对加关税至50%",
-      "summary": "美国将对加拿大汽车、钢铁征收50%关税",
-      "link": "https://m.jrj.com.cn/madapter/stock/2026/08/24170858216977.shtml"
+      "short_title": "四川长宁7.7级地震预警引发关注",
+      "summary": "地震局回应预警来源、准确性及后续措施",
+      "link": "https://www.chinanews.com.cn/sh/2026/08-26/10684316.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美加码伊朗新制裁",
-      "summary": "美国对伊朗实施新一轮制裁措施",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-25/10683546.shtml"
+      "short_title": "加拿大对美商品加征200亿美元关税",
+      "summary": "加拿大宣布对约200亿美元美国产品实施报复性关税",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684222.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国打造黄金大外环",
-      "summary": "新经济走廊激活区域发展潜力",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-24/10683446.shtml"
+      "short_title": "中方呼吁停火止战保障粮食安全",
+      "summary": "中国敦促冲突各方停火，确保全球粮食生产不受影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684218.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "学者发现宇宙小红点",
-      "summary": "可能存在于致密宿主星系中",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683594.shtml"
+      "short_title": "工信部规划未来五年新兴支柱产业",
+      "summary": "将重点发展航空航天、智能机器人等行业",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684321.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "机器人硬核科技亮相",
-      "summary": "智慧生活加速，带来新惊喜",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-25/10683513.shtml"
+      "short_title": "美国乡村歌手多莉·帕顿去世",
+      "summary": "特朗普宣布全国降半旗一周以示哀悼",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684309.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI手机助盲人独立导航",
-      "summary": "国际研发新应用提升户外安全",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683575.shtml"
+      "short_title": "AI客服已读乱回责任归属争议",
+      "summary": "解析AI客服误回信息的法律与伦理责任",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684244.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "邬贺铨谈AI兴起",
-      "summary": "互联网基础技术创新正当时",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683575.shtml"
+      "short_title": "ChatGPT Plus恢复五小时限...",
+      "summary": "OpenAI恢复ChatGPT Plus五小时上限",
+      "link": "https://www.ithome.com/0/994/339.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "加总理称美态度决定重返谈判",
-      "summary": "若美国示好，加国将重启贸易谈判",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-25/10683503.shtml"
+      "short_title": "伊朗达成霍尔木兹海峡商船临时航线协议",
+      "summary": "仅限商船通行，缓解海峡运输压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684239.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "菲律宾海域5.0级地震",
-      "summary": "南部海域发生5.0级地震",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-24/10683284.shtml"
+      "short_title": "伊朗重创美中东情报设施修复费用巨额",
+      "summary": "修复可能需数十亿美元，影响情报收集",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684221.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超3900只飘绿",
-      "summary": "三大指数集体低开",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-25/10683600.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "上半年服务出口增17.6%",
-      "summary": "中国服务业加速走向海外",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-25/10683594.shtml"
+      "short_title": "A股开盘超2500只个股飘绿 沪指低...",
+      "summary": "沪指低开，深指、创业板指高开，市场情绪偏弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684300.shtml"
     }
   ],
   "futures": [
@@ -125,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-25 10:03:53"
+  "updated_at": "2026-08-26 10:11:48"
 }

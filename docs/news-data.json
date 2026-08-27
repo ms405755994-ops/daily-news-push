@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年8月26日 星期三（农历二月初一）｜汕头：中雨 26°C",
-  "date_text": "2026年8月26日 星期三（农历二月初一）",
-  "weather_text": "汕头：中雨 26°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年8月27日 星期四（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年8月27日 星期四（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "四川长宁7.7级地震预警",
-      "reason": "地震预警引发公众关注",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-26/10684316.shtml"
+      "title": "美国考虑对华加征7.5%关税",
+      "reason": "美方或加税，影响中美贸易",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685336.shtml"
     },
     {
-      "title": "加拿大对美商品征收报复关税",
-      "reason": "美加关税升级影响全球贸易",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684222.shtml"
+      "title": "中国大模型日均词元突破500万亿",
+      "reason": "大模型规模居全球第一梯队",
+      "link": "https://www.ithome.com/0/995/136.htm"
     },
     {
-      "title": "A股开盘超2500只个股飘绿",
-      "reason": "股市大跌显现资金紧张",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684300.shtml"
+      "title": "尼泊尔山洪死亡增至177人",
+      "reason": "山洪致灾，死亡人数上升",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-27/10685180.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "四川长宁7.7级地震预警引发关注",
-      "summary": "地震局回应预警来源、准确性及后续措施",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-26/10684316.shtml"
+      "short_title": "美拟对华加征7.5%关税",
+      "summary": "商务部称将评估影响",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685336.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "加拿大对美商品加征200亿美元关税",
-      "summary": "加拿大宣布对约200亿美元美国产品实施报复性关税",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684222.shtml"
+      "short_title": "尼泊尔山洪死亡177人",
+      "summary": "山洪致死人数升至177人",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-27/10685180.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中方呼吁停火止战保障粮食安全",
-      "summary": "中国敦促冲突各方停火，确保全球粮食生产不受影响",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684218.shtml"
+      "short_title": "清远钠离子电池首出口",
+      "summary": "清远制造的钠离子电池首次出口",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685364.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "工信部规划未来五年新兴支柱产业",
-      "summary": "将重点发展航空航天、智能机器人等行业",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684321.shtml"
+      "short_title": "美国友人赛考斯抵豫支教",
+      "summary": "美国友人抵河南开展支教回访",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/08-27/1202301.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美国乡村歌手多莉·帕顿去世",
-      "summary": "特朗普宣布全国降半旗一周以示哀悼",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684309.shtml"
+      "short_title": "英伟达提前发布业绩指引",
+      "summary": "英伟达公布新财年业绩预期",
+      "link": "https://www.cls.cn/detail/2465600"
     },
     {
       "category": "AI重点",
-      "short_title": "AI客服已读乱回责任归属争议",
-      "summary": "解析AI客服误回信息的法律与伦理责任",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684244.shtml"
+      "short_title": "李开复论AI“骆驼”模型",
+      "summary": "AI时代需闭环短、易启动的模型",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685225.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "ChatGPT Plus恢复五小时限...",
-      "summary": "OpenAI恢复ChatGPT Plus五小时上限",
-      "link": "https://www.ithome.com/0/994/339.htm"
+      "short_title": "日均词元调用破500万亿",
+      "summary": "中国大模型日均调用量破500万亿",
+      "link": "https://www.ithome.com/0/995/136.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗达成霍尔木兹海峡商船临时航线协议",
-      "summary": "仅限商船通行，缓解海峡运输压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684239.shtml"
+      "short_title": "中瑞贸易零关税占比超99%",
+      "summary": "自贸协定升级后双边零关税占比超99%",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685338.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗重创美中东情报设施修复费用巨额",
-      "summary": "修复可能需数十亿美元，影响情报收集",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-26/10684221.shtml"
+      "short_title": "阿根廷学者论AI与中国形象",
+      "summary": "AI或加深拉美对中国的认知偏差",
+      "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685339.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超2500只个股飘绿 沪指低...",
-      "summary": "沪指低开，深指、创业板指高开，市场情绪偏弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-26/10684300.shtml"
+      "short_title": "工行审计局副局长陈兵被双开",
+      "summary": "原副局长因违纪被开除、撤职",
+      "link": "https://www.chinanews.com.cn/gn/2026/08-27/10685343.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股周四涨势延续 半导体走强",
+      "summary": "半导体板块领涨，指数上扬",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-27/10685335.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-26 10:11:48"
+  "updated_at": "2026-08-27 18:10:44"
 }

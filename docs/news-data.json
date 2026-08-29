@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年8月28日 星期五（农历二月初一）｜汕头：阴 31°C",
-  "date_text": "2026年8月28日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 31°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年8月29日 星期六（农历二月初一）｜汕头：阴 32°C",
+  "date_text": "2026年8月29日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 32°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "vivo升级地震预警服务",
-      "reason": "突发公共安全服务升级",
-      "link": "https://www.ithome.com/0/995/757.htm"
+      "title": "以色列空袭约旦河西岸致3死",
+      "reason": "约旦河西岸冲突升级，平民伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686338.shtml"
     },
     {
-      "title": "关税战降临加拿大优势",
-      "reason": "国际贸易摩擦新动向",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-28/10685826.shtml"
+      "title": "美国制裁伊朗 能斩断中伊关系吗？",
+      "reason": "美伊制裁升级，影响中伊合作",
+      "link": "https://www.dw.com/zh/%E7%BE%8E%E5%9B%BD%E5%88%B6%E8%A3%81%E4%BC%8A%E6%9C%97-%E8%83%BD%E6%96%A9%E6%96%AD%E4%B8%AD%E4%BC%8A%E5%85%B3%E7%B3%BB%E5%90%97/a-78547587"
     },
     {
-      "title": "英伟达财报超预期",
-      "reason": "AI算力市场景气高",
-      "link": "https://wap.eastmoney.com/a/202608283857077268.html"
+      "title": "AIGC长剧《后西游记》定档",
+      "reason": "AI生成剧集首播，标志行业突破",
+      "link": "https://www.ithome.com/0/995/901.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "vivo升级地震预警服务",
-      "summary": "vivo接入中国地震台网中心，提升预警能力",
-      "link": "https://www.ithome.com/0/995/757.htm"
+      "short_title": "地震预警覆盖4.6亿人",
+      "summary": "两年累计服务超4.6亿，公众实时获警",
+      "link": "https://www.chinanews.com.cn/gn/2026/08-29/10686393.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "关税战：加拿大优势显现",
-      "summary": "加拿大在新关税战中具备关键竞争优势",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-28/10685826.shtml"
+      "short_title": "以色列空袭约旦河西岸致3死",
+      "summary": "杰宁市遭袭，导致3人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686338.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "天津首向乌兹别克出口活牛",
-      "summary": "天津实现活牛首次出口至乌兹别克斯坦",
-      "link": "https://www.chinanews.com.cn/ydyl/2026/08-28/10686067.shtml"
+      "short_title": "文牧野评《欢迎来龙餐馆》",
+      "summary": "导演用美食比喻战争与和平",
+      "link": "https://www.chinanews.com.cn/cul/2026/08-29/10686399.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "天津武清高端水下装备破零",
-      "summary": "武清智造首批高端水下装备实现出口",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686065.shtml"
+      "short_title": "伊朗最高领袖禁损社会凝聚力",
+      "summary": "最高领袖呼吁禁止有害社会行为",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686265.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "绥芬河口岸旅客破30万",
-      "summary": "免签政策推动口岸进出境旅客突破30万",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-28/10685948.shtml"
+      "short_title": "欧盟航班量增至690万架次",
+      "summary": "2025年欧盟商业航班提升至690万",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-29/10686398.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "江苏打造100AI+场景",
-      "summary": "江苏全年计划打造百个AI赋能场景",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-28/10686008.shtml"
+      "short_title": "AIGC长剧《后西游记》定档",
+      "summary": "首部AI长剧将于8月31日首播",
+      "link": "https://www.ithome.com/0/995/901.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗阿曼开辟霍尔木兹航道",
-      "summary": "伊朗与阿曼协议临时航道确保通航",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-28/10685797.shtml"
+      "short_title": "伊朗保持霍尔木兹海峡控制",
+      "summary": "伊朗宣称未协调船只不得通行",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686256.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美威胁阿曼动武引关注",
-      "summary": "美国对阿曼的军事威胁被视为虚张声势",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-28/10685699.shtml"
+      "short_title": "俄国防部成功试射洲际导弹",
+      "summary": "俄军完成导弹战斗训练发射演练",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686253.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "比亚迪上半年利润降20.5%",
-      "summary": "比亚迪上半年净利润123.25亿元，同比下降20.5...",
-      "link": "https://www.ithome.com/0/995/779.htm"
+      "short_title": "全球最大原油进口国“临危不抢”",
+      "summary": "中国在油市保持稳定角色",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-29/10686345.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "委内瑞拉与美签石油合作协议",
+      "summary": "双方确认石油合作，提升能源关系",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686373.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-28 19:42:15"
+  "updated_at": "2026-08-29 15:20:30"
 }

@@ -1,81 +1,26 @@
 {
-  "title": "MSAI今日新闻｜2026年8月30日 星期日（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年8月30日 星期日（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年8月31日 星期一（农历二月初一）｜汕头：阵雨 27°C",
+  "date_text": "2026年8月31日 星期一（农历二月初一）",
+  "weather_text": "汕头：阵雨 27°C",
+  "total_count": 0,
   "hotspots": [
     {
-      "title": "美媒团队遭以色列袭击",
-      "reason": "突发国际冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-30/10686742.shtml"
+      "title": "美伊再度交火",
+      "reason": "中东局势升级，牵动地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-31/10686968.shtml"
     },
     {
-      "title": "伊朗总统承认美国制裁影响该国经济",
-      "reason": "美国制裁致伊朗经济波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686539.shtml"
+      "title": "美国大峡谷突发山洪",
+      "reason": "大峡谷突发山洪，超20人失联",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-31/10686971.shtml"
     },
     {
-      "title": "房地产新规：房贷延长至40年",
-      "reason": "金融政策大幅松动",
-      "link": "https://news.ifeng.com/c/8vzaPcB1aT9"
+      "title": "A股银行息差修复",
+      "reason": "银行息差波动，影响金融市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687031.shtml"
     }
   ],
-  "news_items": [
-    {
-      "category": "突发新闻",
-      "short_title": "日本千叶近海4.8级地震",
-      "summary": "千叶县东部海域发生4.8级地震",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-30/10686678.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "美媒在以受袭 内塔尼亚胡罕见谴责",
-      "summary": "以色列定居者袭击美媒体团队，内塔尼亚胡罕见谴责",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-30/10686742.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "安能抢通吉隆口岸260米道路",
-      "summary": "安能已抢通260米道路至吉隆口岸核心区",
-      "link": "https://www.chinanews.com.cn/sh/2026/08-30/10686770.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "房地产新规：现房+40年房贷",
-      "summary": "推出现房销售和最长40年房贷政策",
-      "link": "https://news.ifeng.com/c/8vzaPcB1aT9"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "AI专业大批上新职业教育迎变局",
-      "summary": "职业教育推出多项AI新专业",
-      "link": "https://www.chinanews.com.cn/edu/2026/08-30/10686768.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "数智激活电商 AI新机遇大会",
-      "summary": "新电商大会聚焦AI产业发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-29/10686565.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "机器人产业数据标准创新倡议发布",
-      "summary": "2026数博会发布机器人数据质量标准",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-30/10686682.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗总统承认美制裁冲击经济",
-      "summary": "伊朗总统坦承美国制裁影响国内经济",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-29/10686539.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗副外长：未协商船只禁驶霍尔木兹",
-      "summary": "伊朗表示未协调船只无法通行霍尔木兹海峡",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-30/10686611.shtml"
-    }
-  ],
+  "news_items": [],
   "futures": [
     {
       "name": "WTI原油",
@@ -113,5 +58,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-30 13:44:17"
+  "updated_at": "2026-08-31 13:57:32"
 }

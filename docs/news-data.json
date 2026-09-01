@@ -1,26 +1,75 @@
 {
-  "title": "MSAI今日新闻｜2026年8月31日 星期一（农历二月初一）｜汕头：阵雨 27°C",
-  "date_text": "2026年8月31日 星期一（农历二月初一）",
-  "weather_text": "汕头：阵雨 27°C",
-  "total_count": 0,
+  "title": "MSAI今日新闻｜2026年9月1日 星期二（农历二月初一）｜汕头：小雨 27°C",
+  "date_text": "2026年9月1日 星期二（农历二月初一）",
+  "weather_text": "汕头：小雨 27°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "美伊再度交火",
-      "reason": "中东局势升级，牵动地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-31/10686968.shtml"
+      "title": "美军袭击伊朗拉腊克岛",
+      "reason": "突发冲突致多人伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-31/10687441.shtml"
     },
     {
-      "title": "美国大峡谷突发山洪",
-      "reason": "大峡谷突发山洪，超20人失联",
-      "link": "https://www.chinanews.com.cn/gj/2026/08-31/10686971.shtml"
+      "title": "A股开盘超2600股飘绿",
+      "reason": "沪指低开显金融波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-01/10687688.shtml"
     },
     {
-      "title": "A股银行息差修复",
-      "reason": "银行息差波动，影响金融市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/08-31/10687031.shtml"
+      "title": "贵州AI算力枢纽升级",
+      "reason": "全产业链Token化突破",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-01/10687710.shtml"
     }
   ],
-  "news_items": [],
+  "news_items": [
+    {
+      "category": "突发新闻",
+      "short_title": "大峡谷山洪致2人死亡",
+      "summary": "突发山洪冲击游客，已确认2人遇难",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-01/10687583.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "时报广场持刀袭击致死",
+      "summary": "持刀袭击致一名女子死亡，现场混乱",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-01/10687763.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国年产服装超700亿件",
+      "summary": "产量突破700亿件，全球份额超半",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-01/10687764.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "贵州AI产业链转向Token",
+      "summary": "贵州打造Token高地，推动AI算力向词元升级",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-01/10687710.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "国产化工大模型3.0 Pro发布",
+      "summary": "大模型融合多家技术，提升化工AI应用",
+      "link": "https://www.ithome.com/0/996/891.htm"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "南非碧根果收获季出口增望",
+      "summary": "收获季来临，南非碧根果对华出口或提升",
+      "link": "https://www.chinanews.com.cn/gj/2026/08-31/10687540.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股开盘超2600股飘绿",
+      "summary": "沪指低开，深指高开，逾2600只个股下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-01/10687688.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "巴西调低通胀与增长预期",
+      "summary": "巴西市场下调通胀和GDP预期，影响投资情绪",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-01/10687590.shtml"
+    }
+  ],
   "futures": [
     {
       "name": "WTI原油",
@@ -58,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-08-31 13:57:32"
+  "updated_at": "2026-09-01 13:30:26"
 }

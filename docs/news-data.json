@@ -1,107 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年9月2日 星期三（农历二月初一）｜汕头：小雨 25°C",
-  "date_text": "2026年9月2日 星期三（农历二月初一）",
-  "weather_text": "汕头：小雨 25°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年9月3日 星期四（农历二月初一）｜汕头：中雨 25°C",
+  "date_text": "2026年9月3日 星期四（农历二月初一）",
+  "weather_text": "汕头：中雨 25°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美伊再度冲突升级",
-      "reason": "特朗普威胁伊朗，伊方誓言报复",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688360.shtml"
+      "title": "美国土安部长飞机紧急降落",
+      "reason": "美国高官飞机故障紧急降落，突发安全事件",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689182.shtml"
     },
     {
-      "title": "德指认俄涉莱比锡袭击",
-      "reason": "德国指认俄罗斯，宣布反制",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688374.shtml"
+      "title": "苏丹援助卡车遭空袭",
+      "reason": "苏丹人道援助车被击，国际关注人道危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689197.shtml"
     },
     {
-      "title": "A股大跌超4300只跌绿",
-      "reason": "三大指数低开，市场情绪转弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688442.shtml"
+      "title": "美伊冲突再度升级海湾多国受波及",
+      "reason": "美伊冲突升级波及海湾，多国警惕地区紧张",
+      "link": "https://www.dw.com/zh/%E7%BE%8E%E4%BC%8A%E5%86%B2%E7%AA%81%E5%86%8D%E5%BA%A6%E5%8D%87%E7%BA%A7-%E6%B5%B7%E6%B9%BE%E5%A4%9A%E5%9B%BD%E5%8F%97%E6%B3%A2%E5%8F%8A/a-78765320"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美伊冲突升级，特朗普警告伊朗",
-      "summary": "美军再次袭伊朗，特朗普威胁将加大打击力度。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688360.shtml"
+      "short_title": "美国土安部长机故障紧急降落",
+      "summary": "美国土安部长乘机因故障在美国紧急迫降",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689182.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "德国指认俄涉莱比锡机场袭击",
-      "summary": "德国称俄国参与莱比锡机场袭击，宣布相应反制措施。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688374.shtml"
+      "short_title": "苏丹援助车队遭空袭 世界粮食计划署证...",
+      "summary": "苏丹境内粮食援助卡车被空袭，组织确认",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689197.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国研制第二代高温超导铁基带材",
-      "summary": "性能与成本双突破，推动超导技术商业化。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688559.shtml"
+      "short_title": "香港纪念抗战胜利81周年仪式举行",
+      "summary": "香港举行仪式纪念中国人民抗日战争胜利81年",
+      "link": "https://www.chinanews.com.cn/dwq/2026/09-03/10689397.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "数智赋能黔山田，云算力助力丰收",
-      "summary": "从云端算力到田间应用，提升农业产效。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688475.shtml"
+      "short_title": "特朗普警告随时对伊朗发动新打击",
+      "summary": "特朗普称美国准备随时对伊朗进行军事打击",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689171.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普提名越南裔为美海军部长",
-      "summary": "新任海军部长高雄具越南血统，获特朗普提名。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688527.shtml"
+      "short_title": "美伊冲突升级 海湾多国受波及",
+      "summary": "美伊紧张局势再升，波斯湾地区安全受影响",
+      "link": "https://www.dw.com/zh/%E7%BE%8E%E4%BC%8A%E5%86%B2%E7%AA%81%E5%86%8D%E5%BA%A6%E5%8D%87%E7%BA%A7-%E6%B5%B7%E6%B9%BE%E5%A4%9A%E5%9B%BD%E5%8F%97%E6%B3%A2%E5%8F%8A/a-78765320"
     },
     {
       "category": "AI重点",
-      "short_title": "网信办通报AI应用乱象典型案例",
-      "summary": "豆包等平台被限违规内容，整治AI数字泔水。",
-      "link": "https://www.ithome.com/0/997/363.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "APEC嘉宾广州访，中国AI产品受热...",
-      "summary": "多国代表在广州考察，AI技术展示获好评。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-01/10688315.shtml"
+      "short_title": "天津探索AI场景数据安全新路径",
+      "summary": "天津开展AI数据安全治理与隐私保护试点",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689128.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列抓获哈马斯高级官员",
-      "summary": "国际组织警告加沙人道危机加剧。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688438.shtml"
+      "short_title": "荷兰央行转移86吨黄金至英国",
+      "summary": "荷兰央行将约86吨黄金储备运往英国",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689307.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "普京称日本对俄态度让他惊讶",
-      "summary": "俄总统对日政策变化表达意外。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10688483.shtml"
+      "short_title": "菲律宾比索跌破62.5 创历史新低",
+      "summary": "菲律宾比索汇率盘中跌破62.5，创历史最低",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10689118.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股开盘超4300只个股飘绿",
-      "summary": "三大指数集体低开，市场情绪偏弱。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688442.shtml"
+      "short_title": "A股午后超3100只个股飘绿 指数收...",
+      "summary": "A股午后超3100只个股下跌，三大指数收涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689389.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "央行7天期逆回购操作量为零",
-      "summary": "9月2日逆回购投放为零，流动性紧张。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10688431.shtml"
+      "short_title": "加拿大央行维持利率不变 暗示加息可能",
+      "summary": "加拿大央行保持基准利率不变，释放未来加息信号",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689255.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "90.62",
+      "pct": -0.4285243379848374,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,481.36",
+      "pct": 1.5122547909210189,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-09-02 12:58:06"
+  "updated_at": "2026-09-03 12:54:05"
 }

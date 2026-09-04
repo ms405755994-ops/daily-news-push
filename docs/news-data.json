@@ -1,101 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年9月3日 星期四（农历二月初一）｜汕头：中雨 25°C",
-  "date_text": "2026年9月3日 星期四（农历二月初一）",
-  "weather_text": "汕头：中雨 25°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年9月4日 星期五（农历二月初一）｜汕头：阴 30°C",
+  "date_text": "2026年9月4日 星期五（农历二月初一）",
+  "weather_text": "汕头：阴 30°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "美国土安部长飞机紧急降落",
-      "reason": "美国高官飞机故障紧急降落，突发安全事件",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689182.shtml"
+      "title": "美官直播误把伊朗记委内瑞拉",
+      "reason": "突发美官失言引国际关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690013.shtml"
     },
     {
-      "title": "苏丹援助卡车遭空袭",
-      "reason": "苏丹人道援助车被击，国际关注人道危机",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689197.shtml"
+      "title": "美国30年期贷款利率创新高",
+      "reason": "美国长期贷款利率攀升影响金融",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10689992.shtml"
     },
     {
-      "title": "美伊冲突再度升级海湾多国受波及",
-      "reason": "美伊冲突升级波及海湾，多国警惕地区紧张",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E4%BC%8A%E5%86%B2%E7%AA%81%E5%86%8D%E5%BA%A6%E5%8D%87%E7%BA%A7-%E6%B5%B7%E6%B9%BE%E5%A4%9A%E5%9B%BD%E5%8F%97%E6%B3%A2%E5%8F%8A/a-78765320"
+      "title": "AI短剧同脸技术难题",
+      "reason": "AI短剧同脸引发创作争议",
+      "link": "http://news.china.com.cn/2026-09/04/content_118679828.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国土安部长机故障紧急降落",
-      "summary": "美国土安部长乘机因故障在美国紧急迫降",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689182.shtml"
+      "short_title": "离奇“战场串台”美官直播失误",
+      "summary": "美官员直播把伊朗说成委内瑞拉，引发热议。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690013.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "苏丹援助车队遭空袭 世界粮食计划署证...",
-      "summary": "苏丹境内粮食援助卡车被空袭，组织确认",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689197.shtml"
+      "short_title": "也门政府军与胡塞交火致数十人死亡",
+      "summary": "也门冲突升级，双方激烈交火致多人伤亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690146.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "香港纪念抗战胜利81周年仪式举行",
-      "summary": "香港举行仪式纪念中国人民抗日战争胜利81年",
-      "link": "https://www.chinanews.com.cn/dwq/2026/09-03/10689397.shtml"
+      "short_title": "中国体育代表团有信心蝉联亚运金牌榜",
+      "summary": "代表团秘书长称将确保第12届亚运会金牌首位。",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-04/10690197.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普警告随时对伊朗发动新打击",
-      "summary": "特朗普称美国准备随时对伊朗进行军事打击",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689171.shtml"
+      "short_title": "美30年期贷款利率升至6.71% 创...",
+      "summary": "美国长期贷款利率升至6.71%，创近一年新高。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10689992.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美伊冲突升级 海湾多国受波及",
-      "summary": "美伊紧张局势再升，波斯湾地区安全受影响",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E4%BC%8A%E5%86%B2%E7%AA%81%E5%86%8D%E5%BA%A6%E5%8D%87%E7%BA%A7-%E6%B5%B7%E6%B9%BE%E5%A4%9A%E5%9B%BD%E5%8F%97%E6%B3%A2%E5%8F%8A/a-78765320"
+      "short_title": "A股午后超4100只飘红 指数收涨",
+      "summary": "超4100只股票上涨，沪深指数全线收盘走高。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-04/10690170.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "天津探索AI场景数据安全新路径",
-      "summary": "天津开展AI数据安全治理与隐私保护试点",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-02/10689128.shtml"
+      "short_title": "AI短剧人物面孔重复成技术难题",
+      "summary": "短剧频现同一张脸，引发创作与技术争议。",
+      "link": "http://news.china.com.cn/2026-09/04/content_118679828.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "智能家居标准提速 助力智能锁养老机器...",
+      "summary": "智能家居标准提速，推动智能锁和养老机器人发展。",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-04/10690172.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "荷兰央行转移86吨黄金至英国",
-      "summary": "荷兰央行将约86吨黄金储备运往英国",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689307.shtml"
+      "short_title": "德国机构上调2026年经济增长预期",
+      "summary": "多家德国机构调高2026年GDP增长预测。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10689989.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "菲律宾比索跌破62.5 创历史新低",
-      "summary": "菲律宾比索汇率盘中跌破62.5，创历史最低",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-02/10689118.shtml"
+      "short_title": "韩国总统府否认向霍尔木兹海峡派兵",
+      "summary": "韩国官方澄清未决定向霍尔木兹海峡部署军队。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690162.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后超3100只个股飘绿 指数收...",
-      "summary": "A股午后超3100只个股下跌，三大指数收涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-03/10689389.shtml"
+      "short_title": "哈萨克银行37亿元离岸债券港交所上市",
+      "summary": "哈萨克银行发行37亿元离岸债券，首登港交所。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-04/10690052.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "加拿大央行维持利率不变 暗示加息可能",
-      "summary": "加拿大央行保持基准利率不变，释放未来加息信号",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-03/10689255.shtml"
+      "short_title": "央行9月4日7天期逆回购操作量为零",
+      "summary": "央行当日未开展7天期逆回购，流动性投放为零。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-04/10690076.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "90.62",
-      "pct": -0.4285243379848374,
-      "trend": "down"
+      "price": "91.74",
+      "pct": 0.48192771084337105,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,481.36",
-      "pct": 1.5122547909210189,
-      "trend": "up"
+      "price": "4,520.39",
+      "pct": -0.4297451485715392,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-09-03 12:54:05"
+  "updated_at": "2026-09-04 12:59:07"
 }

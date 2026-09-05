@@ -1,106 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年9月4日 星期五（农历二月初一）｜汕头：阴 30°C",
-  "date_text": "2026年9月4日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 30°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年9月5日 星期六（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年9月5日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 26°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美官直播误把伊朗记委内瑞拉",
-      "reason": "突发美官失言引国际关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690013.shtml"
+      "title": "以色列空袭黎巴嫩致5死23伤",
+      "reason": "中东冲突升级，伤亡严重",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690827.shtml"
     },
     {
-      "title": "美国30年期贷款利率创新高",
-      "reason": "美国长期贷款利率攀升影响金融",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10689992.shtml"
+      "title": "特朗普美特使递交俄乌停火方案",
+      "reason": "美俄斡旋俄乌停火，局势焦点",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690747.shtml"
     },
     {
-      "title": "AI短剧同脸技术难题",
-      "reason": "AI短剧同脸引发创作争议",
-      "link": "http://news.china.com.cn/2026-09/04/content_118679828.shtml"
+      "title": "美国8月非农超预期，联储加息升温",
+      "reason": "美非农大超预期，刺激加息预期",
+      "link": "https://www.cls.cn/detail/2474737"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "离奇“战场串台”美官直播失误",
-      "summary": "美官员直播把伊朗说成委内瑞拉，引发热议。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690013.shtml"
+      "short_title": "以色列空袭黎巴嫩致5死",
+      "summary": "空袭造成5人死亡、23人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690827.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "也门政府军与胡塞交火致数十人死亡",
-      "summary": "也门冲突升级，双方激烈交火致多人伤亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690146.shtml"
+      "short_title": "乌克兰安全局遭俄无人机袭",
+      "summary": "总部被袭导致12人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690776.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国体育代表团有信心蝉联亚运金牌榜",
-      "summary": "代表团秘书长称将确保第12届亚运会金牌首位。",
-      "link": "https://www.chinanews.com.cn/ty/2026/09-04/10690197.shtml"
+      "short_title": "中国成亚太增长动力",
+      "summary": "APEC中国年强调开放创新合作",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-05/10690821.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美30年期贷款利率升至6.71% 创...",
-      "summary": "美国长期贷款利率升至6.71%，创近一年新高。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10689992.shtml"
+      "short_title": "AI赋能讲好亚太合作",
+      "summary": "推动AI提升亚太经贸合作水平",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905d975332ce80347dd8acfb2f0425a48a9"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午后超4100只飘红 指数收涨",
-      "summary": "超4100只股票上涨，沪深指数全线收盘走高。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-04/10690170.shtml"
+      "short_title": "习主席中亚中东行要点",
+      "summary": "三关键词概括习访中亚中东",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-05/10690849.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI短剧人物面孔重复成技术难题",
-      "summary": "短剧频现同一张脸，引发创作与技术争议。",
-      "link": "http://news.china.com.cn/2026-09/04/content_118679828.shtml"
+      "short_title": "AI长剧《后西游记》上星",
+      "summary": "AI长剧首播改变影视产业格局",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905d975332ce80347dd8acfb2f0425a48a9"
     },
     {
       "category": "AI重点",
-      "short_title": "智能家居标准提速 助力智能锁养老机器...",
-      "summary": "智能家居标准提速，推动智能锁和养老机器人发展。",
-      "link": "https://www.chinanews.com.cn/gn/2026/09-04/10690172.shtml"
+      "short_title": "Excel新增AI画布功能",
+      "summary": "Excel加入AI画布提升数据可视化",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905d975332ce80347dd8acfb2f0425a48a9"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国机构上调2026年经济增长预期",
-      "summary": "多家德国机构调高2026年GDP增长预测。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10689989.shtml"
+      "short_title": "鲁比奥将访哥伦比亚等国",
+      "summary": "美务卿计划访问三国加强合作",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690754.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "韩国总统府否认向霍尔木兹海峡派兵",
-      "summary": "韩国官方澄清未决定向霍尔木兹海峡部署军队。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690162.shtml"
+      "short_title": "韩府称向霍尔木兹派兵审议",
+      "summary": "韩方研究向霍尔木兹海峡派兵可能性",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690678.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "哈萨克银行37亿元离岸债券港交所上市",
-      "summary": "哈萨克银行发行37亿元离岸债券，首登港交所。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-04/10690052.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "央行9月4日7天期逆回购操作量为零",
-      "summary": "央行当日未开展7天期逆回购，流动性投放为零。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-04/10690076.shtml"
+      "short_title": "美国8月非农超预期",
+      "summary": "非农增幅16.2万推升加息预期",
+      "link": "https://www.cls.cn/detail/2474737"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "91.74",
-      "pct": 0.48192771084337105,
-      "trend": "up"
+      "price": "91.22",
+      "pct": -0.08762322015333877,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,520.39",
-      "pct": -0.4297451485715392,
+      "price": "4,477.20",
+      "pct": -1.381087689156145,
       "trend": "down"
     },
     {
@@ -125,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-09-04 12:59:07"
+  "updated_at": "2026-09-05 12:50:58"
 }

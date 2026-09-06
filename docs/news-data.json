@@ -1,85 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年9月5日 星期六（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年9月5日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年9月6日 星期日（农历二月初一）｜汕头：阴 31°C",
+  "date_text": "2026年9月6日 星期日（农历二月初一）",
+  "weather_text": "汕头：阴 31°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "以色列空袭黎巴嫩致5死23伤",
-      "reason": "中东冲突升级，伤亡严重",
+      "title": "以色列空袭黎巴嫩",
+      "reason": "黎巴嫩南部致5死23伤",
       "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690827.shtml"
     },
     {
-      "title": "特朗普美特使递交俄乌停火方案",
-      "reason": "美俄斡旋俄乌停火，局势焦点",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690747.shtml"
+      "title": "美军击沉伊朗油轮",
+      "reason": "海军舰艇被导弹瞄准后行动",
+      "link": "https://www.voachinese.com/a/us-military-hits-3-iranian-oil-tankers-after-saying-navy-warships-were-targeted-20260905/8194537.html"
     },
     {
-      "title": "美国8月非农超预期，联储加息升温",
-      "reason": "美非农大超预期，刺激加息预期",
-      "link": "https://www.cls.cn/detail/2474737"
+      "title": "美伊冲突升级",
+      "reason": "特朗普陷入进退两难局面",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-06/10691279.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭黎巴嫩致5死",
-      "summary": "空袭造成5人死亡、23人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690827.shtml"
+      "short_title": "美军击沉伊朗油轮三艘",
+      "summary": "美军在舰艇受导弹瞄准后打击伊朗油轮",
+      "link": "https://www.voachinese.com/a/us-military-hits-3-iranian-oil-tankers-after-saying-navy-warships-were-targeted-20260905/8194537.html"
     },
     {
       "category": "突发新闻",
-      "short_title": "乌克兰安全局遭俄无人机袭",
-      "summary": "总部被袭导致12人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690776.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国成亚太增长动力",
-      "summary": "APEC中国年强调开放创新合作",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-05/10690821.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "AI赋能讲好亚太合作",
-      "summary": "推动AI提升亚太经贸合作水平",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905d975332ce80347dd8acfb2f0425a48a9"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "习主席中亚中东行要点",
-      "summary": "三关键词概括习访中亚中东",
-      "link": "https://www.chinanews.com.cn/gn/2026/09-05/10690849.shtml"
+      "short_title": "以色列空袭黎巴嫩致5死23伤",
+      "summary": "以军空袭黎巴嫩南部，造成5人死亡23人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690827.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI长剧《后西游记》上星",
-      "summary": "AI长剧首播改变影视产业格局",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905d975332ce80347dd8acfb2f0425a48a9"
+      "short_title": "F-Droid计划允许AI应用",
+      "summary": "开源安卓商店F-Droid拟效仿Debian AI政...",
+      "link": "https://www.ithome.com/0/998/895.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "Excel新增AI画布功能",
-      "summary": "Excel加入AI画布提升数据可视化",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905d975332ce80347dd8acfb2f0425a48a9"
+      "short_title": "广东AI核心产业规模破3000亿元",
+      "summary": "广东省人工智能产业规模突破3000亿元",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691181.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "鲁比奥将访哥伦比亚等国",
-      "summary": "美务卿计划访问三国加强合作",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690754.shtml"
+      "short_title": "普京会见美国特使威特科夫",
+      "summary": "俄总统普京与美方特使在莫斯科会面",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-06/10691227.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "韩府称向霍尔木兹派兵审议",
-      "summary": "韩方研究向霍尔木兹海峡派兵可能性",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-04/10690678.shtml"
+      "short_title": "阿根廷对马岛企业个人实施制裁",
+      "summary": "阿根廷启动对45家企业和个人的马岛制裁程序",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-05/10690974.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "美国8月非农超预期",
-      "summary": "非农增幅16.2万推升加息预期",
-      "link": "https://www.cls.cn/detail/2474737"
+      "category": "今日三大新闻",
+      "short_title": "APEC报告聚焦亚太传播新叙事",
+      "summary": "《讲好亚太故事》报告要点速览发布",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260905b495117df6004d778d4f4ba9e3d9bed6"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "佳木斯至哈尔滨黄金水道恢复航行",
+      "summary": "佳木斯到哈尔滨的水运航线重新开通",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691077.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "深圳共建人形机器人产业链",
+      "summary": "中外嘉宾在深圳探讨人形机器人合作",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-05/10691145.shtml"
     }
   ],
   "futures": [
@@ -119,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-09-05 12:50:58"
+  "updated_at": "2026-09-06 13:00:22"
 }

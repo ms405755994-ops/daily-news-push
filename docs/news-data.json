@@ -1,95 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年9月7日 星期一（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年9月7日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年9月8日 星期二（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年9月8日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美特使会晤普京后抵基辅",
-      "reason": "俄乌冲突暂停空袭，局势紧张",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E7%89%B9%E4%BD%BF%E4%BC%9A%E6%99%A4%E6%99%AE%E4%BA%AC%E5%90%8E%E6%8A%B5%E8%BE%BE%E5%9F%BA%E8%BE%85-%E4%BF%84%E4%B9%8C%E6%9A%82%E5%81%9C%E7%A9%BA%E8%A2%AD%E4%B8%89%E6%97%A5/a-79055504"
+      "title": "伊朗经济部设立经济战争指挥部",
+      "reason": "伊朗强化经济制裁应对",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10692294.shtml"
     },
     {
-      "title": "美重启穿梭外交 俄乌短暂停火",
-      "reason": "美重启外交，俄乌短暂停火",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10691639.shtml"
+      "title": "A股午评：超3400只个股飘红",
+      "reason": "A股大幅上涨，市场情绪转好",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-08/10692493.shtml"
     },
     {
-      "title": "科大讯飞星火X2.5模型发布",
-      "reason": "国产大模型发布，AI技术突破",
-      "link": "https://www.ithome.com/0/999/204.htm"
+      "title": "联发科天玑旗舰芯片Pro发布",
+      "reason": "AI算力提升，芯片技术突破",
+      "link": "https://www.ithome.com/0/999/622.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "墨西哥烟花爆炸致74人伤亡",
-      "summary": "中部城市烟花爆炸，死亡人数升至74人",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10691796.shtml"
+      "short_title": "伊朗设经济战争指挥部",
+      "summary": "伊朗经济部成立指挥部对抗制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10692294.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美特使抵基辅 俄乌停空袭三日",
-      "summary": "美国特使会晤普京后抵基辅，俄乌空袭暂缓",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E7%89%B9%E4%BD%BF%E4%BC%9A%E6%99%A4%E6%99%AE%E4%BA%AC%E5%90%8E%E6%8A%B5%E8%BE%BE%E5%9F%BA%E8%BE%85-%E4%BF%84%E4%B9%8C%E6%9A%84%E7%A9%BA%E6%88%95%E4%B8%89%E6%97%A5/a-79055504"
+      "short_title": "胡塞称沙特战机空袭也门",
+      "summary": "胡塞武装指责沙特空袭焦夫省",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-08/10692298.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "海南自贸港执法检查组再会",
-      "summary": "全国人大常委会检查组召开第二次全体会议",
-      "link": "https://www.chinanews.com.cn/gn/2026/09-07/10691823.shtml"
+      "short_title": "当年转行成中国领跑",
+      "summary": "过去“转行”如今助力科技领先",
+      "link": "https://www.chinanews.com.cn/edu/2026/09-08/10692485.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普发帖暗示月球属美",
-      "summary": "特朗普推文暗示月球归美国，伊朗地图被改",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10691694.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "上海夜间经济文艺新玩法",
-      "summary": "上海夜市热闹，文艺活动吸引市民",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-07/10691781.shtml"
+      "short_title": "南京打造惠企最优一公里",
+      "summary": "南京推出政策强化企业服务",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-08/10692469.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "科大讯飞发布星火X2.5模型",
-      "summary": "全国产平台训练，模型规模达293B",
-      "link": "https://www.ithome.com/0/999/204.htm"
+      "short_title": "联发科发布天玑Pro芯片",
+      "summary": "首款Pro实现AI深度融合",
+      "link": "https://www.ithome.com/0/999/622.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "算力涨价冲击产业链",
+      "summary": "算力成本上升导致供需紧张",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-08/10692336.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗将设霍尔木兹海峡禁区",
-      "summary": "伊朗计划近日宣布海峡禁区",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10691635.shtml"
+      "short_title": "特朗普贴图美旗覆盖多国",
+      "summary": "特朗普发布新地图引国际争议",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-08/10692455.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "专家热议亚太故事报告",
-      "summary": "专家围绕亚太传播报告展开讨论",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10691704.shtml"
+      "short_title": "泰国8月通胀创三月新高",
+      "summary": "泰国8月通胀率达近年最高",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-07/10692156.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评超2900只飘红",
-      "summary": "沪指收跌，深指创业板收涨",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-07/10691808.shtml"
+      "short_title": "A股午后超3400只涨",
+      "summary": "沪指深指收涨，创业板小跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-08/10692493.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "前8月我国货物贸易34.78万亿元",
+      "summary": "半年进出口总值创历史新高",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-08/10692421.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "92.51",
-      "pct": 1.125929164844776,
+      "price": "93.00",
+      "pct": 1.661565369479663,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,443.16",
-      "pct": -0.7469954876468862,
-      "trend": "down"
+      "price": "4,482.84",
+      "pct": 0.13939150247955548,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-09-07 13:06:29"
+  "updated_at": "2026-09-08 13:03:35"
 }

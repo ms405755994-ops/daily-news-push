@@ -1,107 +1,96 @@
 {
-  "title": "MSAI今日新闻｜2026年9月9日 星期三（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年9月9日 星期三（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年9月10日 星期四（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年9月10日 星期四（农历二月初一）",
   "weather_text": "汕头：多云 31°C",
-  "total_count": 11,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美国对伊朗新制裁",
-      "reason": "美国针对伊朗航空业实施制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-09/10692992.shtml"
+      "title": "外媒：伊朗多地传出爆炸声",
+      "reason": "伊朗多地爆炸，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693671.shtml"
     },
     {
-      "title": "伊朗胡塞袭沙特油田",
-      "reason": "油价逼近98美元，市场波动",
-      "link": "https://finance.sina.cn/usstock/mggd/2026-09-08/detail-inircvuq4369177.d.html?vt=4"
-    },
-    {
-      "title": "英国空管系统故障",
-      "reason": "多地航班受限，影响广泛",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-09/10692980.shtml"
+      "title": "伊朗称将设立新的海上“制裁区域”",
+      "reason": "伊朗设制裁区，影响海运",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693659.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美对伊新制裁聚焦航空",
-      "summary": "美国新制裁针对伊朗航空业",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-09/10692992.shtml"
+      "short_title": "伊朗多地爆炸传闻",
+      "summary": "伊朗多地传出爆炸声，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693671.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "苏丹无人机袭击致13亡",
-      "summary": "无人机袭击致13人死亡，22伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-09/10693008.shtml"
+      "short_title": "霍尔木兹海峡油轮冲突",
+      "summary": "美伊在海峡交火，特朗普暗示结束期限",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693699.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "牛蛙肌驱动光控机器人",
-      "summary": "中科院研制光控类生命机器人",
-      "link": "https://www.ithome.com/1/000/146.htm"
+      "short_title": "绵竹年画村千年手艺",
+      "summary": "千年年画吸引海内外游客",
+      "link": "https://www.chinanews.com.cn/cul/2026/09-10/10693873.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "AI坐诊药博会聚焦中医",
-      "summary": "AI助力药博会，展示中医康养新模式",
-      "link": "https://www.chinanews.com.cn/jk/2026/09-09/10693137.shtml"
+      "short_title": "丁薛祥出席全球服务峰会",
+      "summary": "会见多国政要，推动服务贸易",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=202609096a5c332f58f14b90bda770fd0c09e7b9"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午评：超3500只飘绿",
-      "summary": "沪指收涨，深指创业板收跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-09/10693149.shtml"
+      "short_title": "特朗普承诺5000美元红利",
+      "summary": "共和党赢选举后将发放5000美元",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693846.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "ChatGPT生图功能故障已修复",
-      "summary": "ChatGPT生图服务中断约7.5小时",
-      "link": "https://www.ithome.com/1/000/135.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "特朗普AI图致伊朗海军沉没",
-      "summary": "AI图发布后美军无人机被击落",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-09/10693017.shtml"
+      "short_title": "招行AI互动推广消费保护",
+      "summary": "AI助力千店宣传消费权益",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-10/10693725.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "加拿大对美关税生效",
-      "summary": "加拿大实施等额反制关税",
-      "link": "https://wap.eastmoney.com/a/202609083868383891.html"
+      "short_title": "伊朗设立新海上制裁区",
+      "summary": "伊朗划定海域制裁区，提升压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693659.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "RCEP贸易前8月稳增",
-      "summary": "多边合作红利持续释放",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/09-09/10693107.shtml"
+      "short_title": "特朗普专机突发滑梯弹出",
+      "summary": "专机应急滑梯误操作意外弹出",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693679.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "伊朗胡塞袭击致油价升至98",
-      "summary": "沙特能源设施被袭，油价涨至98美元",
-      "link": "https://finance.sina.cn/usstock/mggd/2026-09-08/detail-inircvuq4369177.d.html?vt=4"
+      "short_title": "A股午后普跌 超4200只绿",
+      "summary": "三大指数收跌，超4200只股票下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-10/10693849.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美司令部摧毁5伊朗油船",
-      "summary": "美军成功击沉5艘伊朗油轮",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-09/10692984.shtml"
+      "short_title": "黄金价格高位波动需求韧性",
+      "summary": "黄金波动中，投资需求保持韧性",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-10/10693743.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "96.16",
+      "pct": 0.11452368558042628,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,453.62",
+      "pct": -0.15871948348913686,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -113,17 +102,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-09-09 13:03:53"
+  "updated_at": "2026-09-10 13:07:14"
 }

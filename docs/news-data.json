@@ -1,95 +1,106 @@
 {
-  "title": "MSAI今日新闻｜2026年9月10日 星期四（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年9月10日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年9月11日 星期五（农历二月初一）｜汕头：多云 32°C",
+  "date_text": "2026年9月11日 星期五（农历二月初一）",
+  "weather_text": "汕头：多云 32°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "外媒：伊朗多地传出爆炸声",
-      "reason": "伊朗多地爆炸，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693671.shtml"
+      "title": "欧央行再度加息",
+      "reason": "金融市场波动显著",
+      "link": "https://www.cls.cn/detail/2480021"
     },
     {
-      "title": "伊朗称将设立新的海上“制裁区域”",
-      "reason": "伊朗设制裁区，影响海运",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693659.shtml"
+      "title": "美财政部制裁伊朗",
+      "reason": "加剧中东紧张局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694362.shtml"
+    },
+    {
+      "title": "AI替代程序员争议",
+      "reason": "AI影响就业引关注",
+      "link": "https://www.ithome.com/1/001/220.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗多地爆炸传闻",
-      "summary": "伊朗多地传出爆炸声，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693671.shtml"
+      "short_title": "欧央行再度加息 通胀预期上调",
+      "summary": "自伊朗战争后首次加息，调高两年通胀预测。",
+      "link": "https://www.cls.cn/detail/2480021"
     },
     {
       "category": "突发新闻",
-      "short_title": "霍尔木兹海峡油轮冲突",
-      "summary": "美伊在海峡交火，特朗普暗示结束期限",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693699.shtml"
+      "short_title": "美财政部对伊朗实施新制裁",
+      "summary": "美国针对伊朗个人实体发布制裁措施。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694362.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "绵竹年画村千年手艺",
-      "summary": "千年年画吸引海内外游客",
-      "link": "https://www.chinanews.com.cn/cul/2026/09-10/10693873.shtml"
+      "short_title": "永安庆祝长征90周年",
+      "summary": "从北上抗日宣言地到笋竹之乡，永安续写新篇。",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694522.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "丁薛祥出席全球服务峰会",
-      "summary": "会见多国政要，推动服务贸易",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202609096a5c332f58f14b90bda770fd0c09e7b9"
+      "short_title": "洛杉矶盖蒂中心附近起林火",
+      "summary": "加州洛杉矶郊区突发林火，消防紧急扑救。",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/09-11/1203982.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特朗普承诺5000美元红利",
-      "summary": "共和党赢选举后将发放5000美元",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693846.shtml"
+      "short_title": "黑海货船遭无人机袭击致亡",
+      "summary": "两名阿塞拜疆公民在黑海货船被击中身亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694365.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "招行AI互动推广消费保护",
-      "summary": "AI助力千店宣传消费权益",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-10/10693725.shtml"
+      "short_title": "张小泉AI演示剪刀被质疑",
+      "summary": "剪刀能剪排骨演示引发网友质疑，客服作出回应。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694428.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗设立新海上制裁区",
-      "summary": "伊朗划定海域制裁区，提升压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693659.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普专机突发滑梯弹出",
-      "summary": "专机应急滑梯误操作意外弹出",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10693679.shtml"
+      "category": "AI重点",
+      "short_title": "软件协会称AI不取代程序员",
+      "summary": "吕卫锋表示将帮助程序员转向高附加值岗位。",
+      "link": "https://www.ithome.com/1/001/220.htm"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后普跌 超4200只绿",
-      "summary": "三大指数收跌，超4200只股票下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-10/10693849.shtml"
+      "short_title": "A股午后超5100只跌绿",
+      "summary": "三大指数全线收跌，超五千只个股走低。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694514.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "黄金价格高位波动需求韧性",
-      "summary": "黄金波动中，投资需求保持韧性",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-10/10693743.shtml"
+      "short_title": "日韩股市开盘跳水 日经跌超3%",
+      "summary": "日本、韩国股市开盘大跌，日经指数跌超3%。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694402.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "霍尔木兹与曼德海峡双线受压",
+      "summary": "两大海峡受冲突影响，能源市场波动加剧。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694369.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "纽约原油期价破百美元",
+      "summary": "原油期货价格首次突破100美元大关。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10694357.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "96.16",
-      "pct": 0.11452368558042628,
-      "trend": "up"
+      "price": "102.36",
+      "pct": -0.11709601873536742,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,453.62",
-      "pct": -0.15871948348913686,
+      "price": "4,371.00",
+      "pct": -0.8236335171193288,
       "trend": "down"
     },
     {
@@ -114,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-09-10 13:07:14"
+  "updated_at": "2026-09-11 13:02:38"
 }

@@ -1,107 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年9月11日 星期五（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年9月11日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年9月12日 星期六（农历二月初一）｜汕头：阴 32°C",
+  "date_text": "2026年9月12日 星期六（农历二月初一）",
+  "weather_text": "汕头：阴 32°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "欧央行再度加息",
-      "reason": "金融市场波动显著",
-      "link": "https://www.cls.cn/detail/2480021"
+      "title": "朝鲜向东部海域发射弹道导弹",
+      "reason": "朝鲜弹道导弹突发，地区安全受关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695209.shtml"
     },
     {
-      "title": "美财政部制裁伊朗",
-      "reason": "加剧中东紧张局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694362.shtml"
+      "title": "沙特输油管道遭伊拉克无人机袭击",
+      "reason": "沙特油管遭无人机袭击，能源市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695095.shtml"
     },
     {
-      "title": "AI替代程序员争议",
-      "reason": "AI影响就业引关注",
-      "link": "https://www.ithome.com/1/001/220.htm"
+      "title": "美国8月CPI报告或促美联储加息",
+      "reason": "美国CPI升高，或推动美联储多次加息",
+      "link": "https://www.cls.cn/detail/2481229"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "欧央行再度加息 通胀预期上调",
-      "summary": "自伊朗战争后首次加息，调高两年通胀预测。",
-      "link": "https://www.cls.cn/detail/2480021"
+      "short_title": "朝鲜多枚弹道导弹射向东海",
+      "summary": "朝鲜向东海发射多枚弹道导弹，地区紧张升级。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695209.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美财政部对伊朗实施新制裁",
-      "summary": "美国针对伊朗个人实体发布制裁措施。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694362.shtml"
+      "short_title": "沙特输油管道遭伊拉克无人机袭击",
+      "summary": "沙特输油管道被伊拉克方向无人机击中，伊总理下令调查。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695095.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "永安庆祝长征90周年",
-      "summary": "从北上抗日宣言地到笋竹之乡，永安续写新篇。",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-11/10694522.shtml"
+      "short_title": "古脊椎动物学年会暨翼龙会议在华召开",
+      "summary": "第18届古脊椎动物学年会暨第10届翼龙会议在华召开。",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695192.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "洛杉矶盖蒂中心附近起林火",
-      "summary": "加州洛杉矶郊区突发林火，消防紧急扑救。",
-      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/09-11/1203982.shtml"
+      "short_title": "延安红色半程马拉松中秋开跑",
+      "summary": "延安红色马拉松中秋开跑，推出文创惠民政策。",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695199.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "黑海货船遭无人机袭击致亡",
-      "summary": "两名阿塞拜疆公民在黑海货船被击中身亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694365.shtml"
+      "short_title": "湖南新化千年梯田升级吸客",
+      "summary": "湖南新化千年梯田升级，吸引游客消费。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695175.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "张小泉AI演示剪刀被质疑",
-      "summary": "剪刀能剪排骨演示引发网友质疑，客服作出回应。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694428.shtml"
+      "short_title": "AI舌象识体质 亳州校园食堂推养生",
+      "summary": "AI通过舌象识别体质，亳州校园食堂提供个性化养生餐。",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695202.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "软件协会称AI不取代程序员",
-      "summary": "吕卫锋表示将帮助程序员转向高附加值岗位。",
-      "link": "https://www.ithome.com/1/001/220.htm"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股午后超5100只跌绿",
-      "summary": "三大指数全线收跌，超五千只个股走低。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694514.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "日韩股市开盘跳水 日经跌超3%",
-      "summary": "日本、韩国股市开盘大跌，日经指数跌超3%。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-11/10694402.shtml"
+      "short_title": "中国算力与AI服务加速向东盟扩展",
+      "summary": "中国算力与AI服务加速布局东盟，推动数字化合作。",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/09-12/10695185.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "霍尔木兹与曼德海峡双线受压",
-      "summary": "两大海峡受冲突影响，能源市场波动加剧。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-11/10694369.shtml"
+      "short_title": "法国2026年经济增速降至0.5%",
+      "summary": "法国将2026年经济增速下调至0.5%，前景趋弱。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695106.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "纽约原油期价破百美元",
-      "summary": "原油期货价格首次突破100美元大关。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-10/10694357.shtml"
+      "short_title": "美国8月CPI出炉 美联储加息转加几...",
+      "summary": "美国8月CPI显示通胀放缓，美联储加息预期转加几次。",
+      "link": "https://www.cls.cn/detail/2481229"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "102.36",
-      "pct": -0.11709601873536742,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,371.00",
-      "pct": -0.8236335171193288,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -113,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-11 13:02:38"
+  "updated_at": "2026-09-12 13:00:51"
 }

@@ -1,79 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年9月12日 星期六（农历二月初一）｜汕头：阴 32°C",
-  "date_text": "2026年9月12日 星期六（农历二月初一）",
-  "weather_text": "汕头：阴 32°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年9月13日 星期日（农历二月初一）｜汕头：多云 33°C",
+  "date_text": "2026年9月13日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 33°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "朝鲜向东部海域发射弹道导弹",
-      "reason": "朝鲜弹道导弹突发，地区安全受关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695209.shtml"
+      "title": "特朗普称胡塞不愿冲突",
+      "reason": "美伊冲突升级，突发声明",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695516.shtml"
     },
     {
-      "title": "沙特输油管道遭伊拉克无人机袭击",
-      "reason": "沙特油管遭无人机袭击，能源市场波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695095.shtml"
+      "title": "沙特东西输油管道遭袭",
+      "reason": "伊拉克谴责，油价或波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695254.shtml"
     },
     {
-      "title": "美国8月CPI报告或促美联储加息",
-      "reason": "美国CPI升高，或推动美联储多次加息",
-      "link": "https://www.cls.cn/detail/2481229"
+      "title": "美韩日军演后朝发短程弹",
+      "reason": "地区安全紧张，突发导弹试射",
+      "link": "https://www.dw.com/zh/%E7%BE%8E%E9%9F%A9%E6%97%A5%E5%86%9B%E6%BC%94%E7%BB%93%E6%9D%9F-%E6%9C%9D%E9%B2%9C%E5%8F%91%E5%B0%84%E7%9F%AD%E7%A8%8B%E5%AF%BC%E5%BC%B9/a-79244734"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "朝鲜多枚弹道导弹射向东海",
-      "summary": "朝鲜向东海发射多枚弹道导弹，地区紧张升级。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695209.shtml"
+      "short_title": "特朗普称胡塞不愿冲突",
+      "summary": "胡塞武装致电美方 表示不想与美国冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695516.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "沙特输油管道遭伊拉克无人机袭击",
-      "summary": "沙特输油管道被伊拉克方向无人机击中，伊总理下令调查。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695095.shtml"
+      "short_title": "沙特东西输油管道遭袭伊拉克启动调查",
+      "summary": "伊拉克谴责袭击并展开调查",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695254.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "古脊椎动物学年会暨翼龙会议在华召开",
-      "summary": "第18届古脊椎动物学年会暨第10届翼龙会议在华召开。",
-      "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695192.shtml"
+      "short_title": "航空航天模型大赛七台河站开幕",
+      "summary": "全国科研模型赛事在七台河正式启动",
+      "link": "https://www.chinanews.com.cn/edu/2026/09-13/10695560.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "延安红色半程马拉松中秋开跑",
-      "summary": "延安红色马拉松中秋开跑，推出文创惠民政策。",
-      "link": "https://www.chinanews.com.cn/gn/2026/09-12/10695199.shtml"
+      "short_title": "伊朗总统坚称绝不屈服",
+      "summary": "伊朗最高领袖表态抵抗外部压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695537.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "湖南新化千年梯田升级吸客",
-      "summary": "湖南新化千年梯田升级，吸引游客消费。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695175.shtml"
+      "short_title": "普京警告欧洲乌克兰部署等同开战",
+      "summary": "普京称欧洲在乌克兰部署军队是挑衅",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695356.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI舌象识体质 亳州校园食堂推养生",
-      "summary": "AI通过舌象识别体质，亳州校园食堂提供个性化养生餐。",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-12/10695202.shtml"
+      "short_title": "AI赋能物流提速新模式",
+      "summary": "物流行业引入AI引擎提升效率",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-13/10695500.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "中国算力与AI服务加速向东盟扩展",
-      "summary": "中国算力与AI服务加速布局东盟，推动数字化合作。",
-      "link": "https://www.chinanews.com.cn/aseaninfo/2026/09-12/10695185.shtml"
+      "short_title": "广西首家机器人造机器人工厂投产",
+      "summary": "广西建成首个机器人自制机器人产线",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695446.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "法国2026年经济增速降至0.5%",
-      "summary": "法国将2026年经济增速下调至0.5%，前景趋弱。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695106.shtml"
+      "short_title": "美韩日军演后朝鲜短程导弹试射",
+      "summary": "美日韩联合军演结束后朝鲜发射短程导弹",
+      "link": "https://www.dw.com/zh/%E7%BE%8E%E9%9F%A9%E6%97%85%E5%86%9B%E6%BC%94%E7%BB%93%E6%9D%9F-%E6%9C%9D%E9%B2%9C%E5%8F%91%E5%B0%84%E7%9F%AD%E7%A8%8B%E5%AF%BC%E5%BC%B9/a-79244734"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国8月CPI出炉 美联储加息转加几...",
-      "summary": "美国8月CPI显示通胀放缓，美联储加息预期转加几次。",
-      "link": "https://www.cls.cn/detail/2481229"
+      "short_title": "曼德海峡紧张油价高位维持",
+      "summary": "海峡局势紧绷导致国际油价保持高位",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695508.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "西部地区服务贸易创新驱动经济",
+      "summary": "西部加大服务贸易力度促进经济增长",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-13/10695551.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "河北算力互联互通节点正式启用",
+      "summary": "河北算力互联互通区域节点投入运行",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695428.shtml"
     }
   ],
   "futures": [
@@ -113,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-12 13:00:51"
+  "updated_at": "2026-09-13 13:17:05"
 }

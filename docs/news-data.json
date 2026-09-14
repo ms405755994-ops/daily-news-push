@@ -1,91 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年9月13日 星期日（农历二月初一）｜汕头：多云 33°C",
-  "date_text": "2026年9月13日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 33°C",
+  "title": "MSAI今日新闻｜2026年9月14日 星期一（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年9月14日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
   "total_count": 11,
   "hotspots": [
     {
-      "title": "特朗普称胡塞不愿冲突",
-      "reason": "美伊冲突升级，突发声明",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695516.shtml"
+      "title": "伊朗锡里克爆炸巨响",
+      "reason": "中东局势再升温",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-14/10695878.shtml"
     },
     {
-      "title": "沙特东西输油管道遭袭",
-      "reason": "伊拉克谴责，油价或波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695254.shtml"
+      "title": "A股超3500只个股飘红",
+      "reason": "股市波动显著",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-14/10696050.shtml"
     },
     {
-      "title": "美韩日军演后朝发短程弹",
-      "reason": "地区安全紧张，突发导弹试射",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E9%9F%A9%E6%97%A5%E5%86%9B%E6%BC%94%E7%BB%93%E6%9D%9F-%E6%9C%9D%E9%B2%9C%E5%8F%91%E5%B0%84%E7%9F%AD%E7%A8%8B%E5%AF%BC%E5%BC%B9/a-79244734"
+      "title": "中国AI产品服务出海 呈现三大趋...",
+      "reason": "AI出海加速布局",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-14/10695959.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称胡塞不愿冲突",
-      "summary": "胡塞武装致电美方 表示不想与美国冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695516.shtml"
+      "short_title": "地震预警将入iOS系统",
+      "summary": "中国地震台网加速接入iOS预警信息",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-14/10696056.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "沙特东西输油管道遭袭伊拉克启动调查",
-      "summary": "伊拉克谴责袭击并展开调查",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695254.shtml"
+      "short_title": "福冈机场拖车撞机事故",
+      "summary": "福冈机场拖车与客机相撞，机上181人",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-14/10696048.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "航空航天模型大赛七台河站开幕",
-      "summary": "全国科研模型赛事在七台河正式启动",
-      "link": "https://www.chinanews.com.cn/edu/2026/09-13/10695560.shtml"
+      "short_title": "美使馆雇员涉儿童不雅影像",
+      "summary": "英方批评美国将涉案雇员送回美国",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-14/10696049.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗总统坚称绝不屈服",
-      "summary": "伊朗最高领袖表态抵抗外部压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695537.shtml"
+      "short_title": "中东基地被炸 美军拟用高射炮",
+      "summary": "美军考虑用高射炮拦截伊朗导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-14/10695900.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "普京警告欧洲乌克兰部署等同开战",
-      "summary": "普京称欧洲在乌克兰部署军队是挑衅",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-12/10695356.shtml"
+      "short_title": "廊坊算力成本优势凸显",
+      "summary": "四大优势让廊坊算力最划算",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-14/10695963.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI赋能物流提速新模式",
-      "summary": "物流行业引入AI引擎提升效率",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-13/10695500.shtml"
+      "short_title": "中国AI产品出海三大趋势",
+      "summary": "报告揭示AI服务海外发展方向",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-14/10695959.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "广西首家机器人造机器人工厂投产",
-      "summary": "广西建成首个机器人自制机器人产线",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695446.shtml"
+      "short_title": "AI网球机器人全球热销",
+      "summary": "国产智能球场机器人受海外订单",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-14/10695884.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美韩日军演后朝鲜短程导弹试射",
-      "summary": "美日韩联合军演结束后朝鲜发射短程导弹",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E9%9F%A9%E6%97%85%E5%86%9B%E6%BC%94%E7%BB%93%E6%9D%9F-%E6%9C%9D%E9%B2%9C%E5%8F%91%E5%B0%84%E7%9F%AD%E7%A8%8B%E5%AF%BC%E5%BC%B9/a-79244734"
+      "short_title": "霍尔木兹海峡伊朗货轮遭袭",
+      "summary": "胡塞武装攻击加剧石油供应担忧",
+      "link": "https://www.voachinese.com/a/strike-on-iranian-cargo-ship-in-strait-of-hormuz-kills-1-say-iranian-media-20260913/8197581.html"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "曼德海峡紧张油价高位维持",
-      "summary": "海峡局势紧绷导致国际油价保持高位",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-13/10695508.shtml"
+      "short_title": "伊朗锡里克地区传爆炸声",
+      "summary": "当地多声巨响引发安全警戒",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-14/10695878.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "西部地区服务贸易创新驱动经济",
-      "summary": "西部加大服务贸易力度促进经济增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-13/10695551.shtml"
+      "short_title": "A股午盘超3500只飘红",
+      "summary": "沪指收涨，深指、创业板收跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-14/10696050.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "河北算力互联互通节点正式启用",
-      "summary": "河北算力互联互通区域节点投入运行",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-12/10695428.shtml"
+      "short_title": "大牛股否认进军英伟达华为",
+      "summary": "公告澄清股价四倍涨背后传闻",
+      "link": "https://wap.eastmoney.com/a/202609133872850810.html"
     }
   ],
   "futures": [
@@ -125,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-13 13:17:05"
+  "updated_at": "2026-09-14 13:20:21"
 }

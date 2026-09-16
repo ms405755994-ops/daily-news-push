@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年9月15日 星期二（农历二月初一）｜汕头：多云 33°C",
-  "date_text": "2026年9月15日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 33°C",
+  "title": "MSAI今日新闻｜2026年9月16日 星期三（农历二月初一）｜汕头：晴 31°C",
+  "date_text": "2026年9月16日 星期三（农历二月初一）",
+  "weather_text": "汕头：晴 31°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "日本核电站评估造假被证实",
-      "reason": "核安全引发国际关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-15/10696552.shtml"
+      "title": "美媒：美伊战争耗资超420亿美元",
+      "reason": "伊朗战争费用激增，牵动地区局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697145.shtml"
     },
     {
-      "title": "美媒称美在太空部署武器",
-      "reason": "太空军备引发紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-15/10696496.shtml"
+      "title": "特朗普宣布俄乌能源停火，互炸",
+      "reason": "俄乌能源停火破局，冲突再度升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697159.shtml"
     },
     {
-      "title": "比尔·盖茨谈中美大模型",
-      "reason": "AI竞争显现新格局",
-      "link": "https://www.ithome.com/1/002/520.htm"
+      "title": "美10年国债收益率创2007高点",
+      "reason": "美国国债利率飙升，金融市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697141.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本核电站评估造假被证实",
-      "summary": "报告显示日本核电站地震评估数据造假，引发批评。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-15/10696552.shtml"
+      "short_title": "美媒称美伊战争耗资超420亿美元",
+      "summary": "美国对伊朗冲突花费已超420亿美元。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697145.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "泽连斯基称俄停袭乌设施将对等停止",
-      "summary": "泽连斯基称若俄停止攻击乌关键设施，乌方将同步停火。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-15/10696486.shtml"
+      "short_title": "特朗普宣俄乌能源停火 24小时互炸",
+      "summary": "特朗普宣布能源停火，24小时内冲突再起。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697159.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "亚运男篮大胜菲律宾晋级八强",
-      "summary": "中国男篮以44分优势击败菲律宾，夺得小组头名。",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260914c637130c862842078fa35b10af63747f"
+      "short_title": "A股午后超4200只飘红 指数全线上...",
+      "summary": "科创50涨超4%，三大指数收涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-16/10697382.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "苹果iOS27 54项隐藏功能聚焦A...",
-      "summary": "iOS27新增54项功能，细节打磨并强化人工智能体验...",
-      "link": "https://www.ithome.com/1/002/524.htm"
+      "short_title": "经济圆桌会：多方保障新就业群体权益",
+      "summary": "专家呼吁完善新就业群体合法权益。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-16/10697346.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗阿曼推迟会议 海峡前景黯淡",
-      "summary": "伊朗与阿曼推迟会议，霍尔木兹海峡通航未达共识。",
-      "link": "https://wap.eastmoney.com/a/202609143873784050.html"
+      "short_title": "两种打法撑起算力第一县",
+      "summary": "创新模式推动县域算力领先。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-16/10697345.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "四川眉山AI大模型提升稻谷产量",
-      "summary": "AI大模型指导农事，永丰村稻谷单产最高863.6公斤...",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-15/10696565.shtml"
+      "short_title": "AI长图：智守防线 让网络更美好",
+      "summary": "AI技术提升网络安全与体验。",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-16/10697368.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "比尔·盖茨：中美大模型各有四强",
-      "summary": "盖茨指出中美各有四家大模型公司保持领先水平。",
-      "link": "https://www.ithome.com/1/002/520.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美媒称美首次承认在轨部署控制武器",
-      "summary": "美媒报道美国首次公开在太空部署在轨控制武器系统。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-15/10696496.shtml"
+      "short_title": "豆包大模型2.1 Pro升级 多模态...",
+      "summary": "Agent更可靠，Coding功能升级。",
+      "link": "https://www.ithome.com/1/003/012.htm"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评：超3900只个股飘绿",
-      "summary": "超3900只A股跌绿，深指收涨，沪指与创业板指收跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-15/10696678.shtml"
+      "short_title": "美10年期国债收益率创2007新高",
+      "summary": "收益率一度升至2007年以来最高。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697141.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美官员称向以色列售28亿美元军火",
+      "summary": "美国计划向以色列提供大额军火。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697142.shtml"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-15 13:13:13"
+  "updated_at": "2026-09-16 13:06:42"
 }

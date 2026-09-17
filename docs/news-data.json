@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年9月16日 星期三（农历二月初一）｜汕头：晴 31°C",
-  "date_text": "2026年9月16日 星期三（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年9月17日 星期四（农历二月初一）｜汕头：晴 31°C",
+  "date_text": "2026年9月17日 星期四（农历二月初一）",
   "weather_text": "汕头：晴 31°C",
-  "total_count": 9,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美媒：美伊战争耗资超420亿美元",
-      "reason": "伊朗战争费用激增，牵动地区局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697145.shtml"
+      "title": "美众议院通过制裁法案",
+      "reason": "美议院制裁俄伊，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697971.shtml"
     },
     {
-      "title": "特朗普宣布俄乌能源停火，互炸",
-      "reason": "俄乌能源停火破局，冲突再度升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697159.shtml"
+      "title": "美联储时隔三年多重启加息",
+      "reason": "美联储重启加息，市场波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697967.shtml"
     },
     {
-      "title": "美10年国债收益率创2007高点",
-      "reason": "美国国债利率飙升，金融市场波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697141.shtml"
+      "title": "小米训练 MiMo模型",
+      "reason": "小米发布新AI模型，技术突破",
+      "link": "https://www.ithome.com/1/003/555.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美媒称美伊战争耗资超420亿美元",
-      "summary": "美国对伊朗冲突花费已超420亿美元。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697145.shtml"
+      "short_title": "美众议院通过俄伊制裁法案",
+      "summary": "美国众议院通过针对俄罗斯、伊朗的新制裁法案",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697971.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "特朗普宣俄乌能源停火 24小时互炸",
-      "summary": "特朗普宣布能源停火，24小时内冲突再起。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697159.shtml"
+      "short_title": "日本学者呼吁反省侵略历史",
+      "summary": "日本有识之士呼吁铭记历史，反省战争责任",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697987.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午后超4200只飘红 指数全线上...",
-      "summary": "科创50涨超4%，三大指数收涨。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-16/10697382.shtml"
+      "short_title": "第23届中国—东盟博览会开幕",
+      "summary": "东帝汶首次亮相，推动区域合作新机遇",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/09-17/10698156.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "经济圆桌会：多方保障新就业群体权益",
-      "summary": "专家呼吁完善新就业群体合法权益。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-16/10697346.shtml"
+      "short_title": "美联储时隔三年重启加息",
+      "summary": "美国联储宣布加息25基点，市场关注后续",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697967.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "两种打法撑起算力第一县",
-      "summary": "创新模式推动县域算力领先。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-16/10697345.shtml"
+      "short_title": "以色列与摩洛哥升级外交关系",
+      "summary": "双方同意互设大使馆并互派大使",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697990.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI长图：智守防线 让网络更美好",
-      "summary": "AI技术提升网络安全与体验。",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-16/10697368.shtml"
+      "short_title": "广电局严禁AI魔改并标识",
+      "summary": "发布会要求AI节目必须加内容标识",
+      "link": "https://www.chinanews.com.cn/cul/2026/09-17/10698147.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "豆包大模型2.1 Pro升级 多模态...",
-      "summary": "Agent更可靠，Coding功能升级。",
-      "link": "https://www.ithome.com/1/003/012.htm"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美10年期国债收益率创2007新高",
-      "summary": "收益率一度升至2007年以来最高。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697141.shtml"
+      "short_title": "人工智能+消费在商圈升温",
+      "summary": "AI技术推动城市商业消费模式创新",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-17/10698072.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美官员称向以色列售28亿美元军火",
-      "summary": "美国计划向以色列提供大额军火。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-16/10697142.shtml"
+      "short_title": "特朗普建议美国利率降至1%",
+      "summary": "前总统称美国利率应降至1%或更低",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10697954.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "冯德莱恩推加拿大成欧盟准成员",
+      "summary": "欧盟主席力促加拿大加入欧盟准成员行列",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-17/10698016.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股开盘超3800只个股飘绿",
+      "summary": "三大指数集体低开，市场情绪偏弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-17/10698008.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-16 13:06:42"
+  "updated_at": "2026-09-17 13:09:06"
 }

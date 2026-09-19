@@ -1,85 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年9月18日 星期五（农历二月初一）｜汕头：晴 31°C",
-  "date_text": "2026年9月18日 星期五（农历二月初一）",
-  "weather_text": "汕头：晴 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年9月19日 星期六（农历二月初一）｜汕头：晴 32°C",
+  "date_text": "2026年9月19日 星期六（农历二月初一）",
+  "weather_text": "汕头：晴 32°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "联合国安理会否决伊朗制裁决议",
-      "reason": "伊朗制裁争议升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-18/10698614.shtml"
+      "title": "特朗普签署制裁法案",
+      "reason": "美俄伊制裁升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699324.shtml"
     },
     {
-      "title": "美国贷款利率升至6.95%",
-      "reason": "美国房贷成本创新高",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-18/10698628.shtml"
+      "title": "俄欧新一轮制裁反制",
+      "reason": "俄欧新制裁互相反制",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699319.shtml"
     },
     {
-      "title": "阿里发布全模态模型Qwen3.8",
-      "reason": "全模态AI能力大幅提升",
-      "link": "https://www.ithome.com/1/004/049.htm"
+      "title": "四川盐边泥石流致5失联",
+      "reason": "四川盐边泥石流致5失联",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-19/10699399.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "安理会否决伊朗制裁决议",
-      "summary": "中俄阻止延长伊朗制裁专家组授权",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-18/10698614.shtml"
+      "short_title": "四川盐边泥石流致5人失联",
+      "summary": "盐边县突发泥石流，已确认5人失联。",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-19/10699399.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "花瓣遮不住战争尸骨引争议",
-      "summary": "新漫评批评战争象征的表演式抗议",
-      "link": "http://www.chinanews.com.cn/gj/shipin/2026/09-18/news1069288.shtml"
+      "short_title": "利雅得居民听巨响爆炸声触发防空",
+      "summary": "利雅得居民报告巨响爆炸，防空系统立即响应。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699355.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "香山论坛称中国助全球安全",
-      "summary": "第十三届论坛肯定中国在安全治理的作用",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=202609170f3e571829924272a7be9bada1c1a6c0"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美30年房贷利率升至6.95%",
-      "summary": "美国30年期抵押贷款利率创19个月新高",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-18/10698628.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "日本央行加息至1.25% 创31年新...",
-      "summary": "日本央行将基准利率上调至1.25%",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-18/10698816.shtml"
+      "short_title": "中国女篮教练宫鲁鸣谈亚运目标",
+      "summary": "宫鲁鸣强调珍惜机会，争取亚运会最佳成绩。",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-19/10699415.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "东博会AI大卖场现场直播",
-      "summary": "东盟企业展示AI产品，吸引众多观众",
-      "link": "https://www.chinanews.com.cn/iframe/2026/09-18/10698848.shtml"
+      "short_title": "四大AI巨头因研发放缓遭反垄断诉讼",
+      "summary": "Anthropic、OpenAI、SpaceXAI、...",
+      "link": "https://www.ithome.com/1/004/423.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "阿里发布全模态Qwen3.8模型",
-      "summary": "支持音视频输入，百万Token仅0.8元",
-      "link": "https://www.ithome.com/1/004/049.htm"
+      "short_title": "AI进入未成年人生活是工具还是依赖",
+      "summary": "探讨AI在青少年中的角色与风险。",
+      "link": "https://www.chinanews.com.cn/edu/2026/09-19/10699398.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美向中返还64件文物化石",
-      "summary": "美国归还文物艺术品及古生物化石",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-18/10698796.shtml"
+      "short_title": "特朗普签署制裁俄伊法案",
+      "summary": "美国对俄罗斯、伊朗实施新制裁。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699324.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "俄罗斯对欧盟新制裁进行反制",
+      "summary": "俄方宣布针对欧盟的对等制裁措施。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699319.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评：超4500股飘红",
-      "summary": "三大指数涨超1%，市场活跃度提升",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-18/10698825.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "三亚打造黄金珠宝产业集群",
-      "summary": "推进珠宝旅游，提升消费与产业链价值",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-18/10698795.shtml"
+      "short_title": "欧盟希中国自愿限制混动车出口",
+      "summary": "商务部回应欧盟对华混动汽车出口限制。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-18/10699293.shtml"
     }
   ],
   "futures": [
@@ -119,5 +107,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-18 13:03:04"
+  "updated_at": "2026-09-19 12:54:57"
 }

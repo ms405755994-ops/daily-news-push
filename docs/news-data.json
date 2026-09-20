@@ -1,73 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年9月19日 星期六（农历二月初一）｜汕头：晴 32°C",
-  "date_text": "2026年9月19日 星期六（农历二月初一）",
-  "weather_text": "汕头：晴 32°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年9月20日 星期日（农历二月初一）｜汕头：多云 33°C",
+  "date_text": "2026年9月20日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 33°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "特朗普签署制裁法案",
-      "reason": "美俄伊制裁升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699324.shtml"
+      "title": "欧盟敦促美重新审议巴勒斯坦拒签制...",
+      "reason": "涉及美欧关系与巴勒斯坦议题",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699740.shtml"
     },
     {
-      "title": "俄欧新一轮制裁反制",
-      "reason": "俄欧新制裁互相反制",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699319.shtml"
+      "title": "美对俄油气加征次级关税",
+      "reason": "影响能源贸易与国内价格",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-19/10699695.shtml"
     },
     {
-      "title": "四川盐边泥石流致5失联",
-      "reason": "四川盐边泥石流致5失联",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-19/10699399.shtml"
+      "title": "特朗普组建AI部队",
+      "reason": "美国AI军事化新动向",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10699748.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "四川盐边泥石流致5人失联",
-      "summary": "盐边县突发泥石流，已确认5人失联。",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-19/10699399.shtml"
+      "short_title": "沙特机场浓黑烟雾",
+      "summary": "利雅得主要机场上空出现大量黑烟，现场浓度高。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699715.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "利雅得居民听巨响爆炸声触发防空",
-      "summary": "利雅得居民报告巨响爆炸，防空系统立即响应。",
+      "short_title": "利雅得听见巨响爆炸",
+      "summary": "利雅得居民报告巨响并见防空系统快速响应。",
       "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699355.shtml"
     },
     {
+      "category": "国际/宏观重点",
+      "short_title": "欧盟要求美审议巴签证",
+      "summary": "欧盟呼吁美国重新考虑对巴勒斯坦代表团的拒签制裁。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699740.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美对俄油加征次级关税",
+      "summary": "美国对进口俄罗斯石油及天然气的第三国加收次级关税。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-19/10699695.shtml"
+    },
+    {
       "category": "今日三大新闻",
-      "short_title": "中国女篮教练宫鲁鸣谈亚运目标",
-      "summary": "宫鲁鸣强调珍惜机会，争取亚运会最佳成绩。",
-      "link": "https://www.chinanews.com.cn/ty/2026/09-19/10699415.shtml"
+      "short_title": "亚运国足迎战伊朗",
+      "summary": "国足在亚运会小组赛中对阵伊朗，争取出线。",
+      "link": "https://www.chinanews.com.cn/iframe/2026/09-20/10699895.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美国务院警示中东局势",
+      "summary": "美国国务院发布安全提醒，称中东局势可能升级。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10699750.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊朗向美递交谈判条件",
+      "summary": "伊朗已向美国传达七项谈判条件，等待回应。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10699747.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "四大AI巨头因研发放缓遭反垄断诉讼",
-      "summary": "Anthropic、OpenAI、SpaceXAI、...",
-      "link": "https://www.ithome.com/1/004/423.htm"
+      "short_title": "特朗普计划组建AI部队",
+      "summary": "特朗普宣布将成立人工智能部队并指定负责人。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10699748.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI进入未成年人生活是工具还是依赖",
-      "summary": "探讨AI在青少年中的角色与风险。",
-      "link": "https://www.chinanews.com.cn/edu/2026/09-19/10699398.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普签署制裁俄伊法案",
-      "summary": "美国对俄罗斯、伊朗实施新制裁。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699324.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "俄罗斯对欧盟新制裁进行反制",
-      "summary": "俄方宣布针对欧盟的对等制裁措施。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-19/10699319.shtml"
+      "short_title": "中东盟探讨AI金融新路",
+      "summary": "中国与东盟共同探索AI与金融融合发展路径。",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/09-20/10699892.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "欧盟希中国自愿限制混动车出口",
-      "summary": "商务部回应欧盟对华混动汽车出口限制。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-18/10699293.shtml"
+      "short_title": "前8月铁路货运26.9亿吨",
+      "summary": "今年前八个月，中国国家铁路发送货物26.9亿吨。",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-20/10699907.shtml"
     }
   ],
   "futures": [
@@ -107,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-19 12:54:57"
+  "updated_at": "2026-09-20 13:15:49"
 }

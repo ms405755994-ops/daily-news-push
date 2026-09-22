@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年9月21日 星期一（农历二月初一）｜汕头：多云 32°C",
-  "date_text": "2026年9月21日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 32°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年9月22日 星期二（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年9月22日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "叙利亚军营爆炸致四伤",
-      "reason": "中东局势升级，平民受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-21/10700605.shtml"
+      "title": "欧盟延长俄制裁三年",
+      "reason": "突发国际制裁升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701195.shtml"
     },
     {
-      "title": "莫斯科遭无人机大规模袭击",
-      "reason": "俄境内无人机攻击，安全紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10700175.shtml"
+      "title": "A股午评：超2800只飘红",
+      "reason": "股市大幅回暖",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-22/10701357.shtml"
     },
     {
-      "title": "防范AI“失控”，中美如何合作",
-      "reason": "AI安全合作受关注",
-      "link": "https://www.yicai.com/news/103371461.html"
+      "title": "AI平台霸王条款警示",
+      "reason": "AI版权争议升级",
+      "link": "https://www.chinanews.com.cn/cul/2026/09-22/10701323.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "叙利亚军营爆炸致伤",
-      "summary": "叙利亚军营爆炸，至少四人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-21/10700605.shtml"
+      "short_title": "欧盟延长俄制裁三年",
+      "summary": "欧盟决定将对俄制裁期限延长至三年。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701195.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "莫斯科遭大规模无人机袭击",
-      "summary": "俄军使用无人机袭击莫斯科，目标包括基辅。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10700175.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中美经贸磋商在纽约开启",
-      "summary": "中美两国在纽约进行经贸磋商，聚焦双边合作。",
-      "link": "https://www.chinanews.com.cn/gn/2026/09-21/10700653.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊朗外长赴纽约参加联大",
-      "summary": "伊朗外长离开德黑兰，前往纽约出席联合国大会。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-21/10700506.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国车企深化东盟合作",
-      "summary": "中国车企从卖产品转向建生态，深化与东盟合作。",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-21/10700654.shtml"
+      "short_title": "金正恩观摩新型导弹试验",
+      "summary": "朝鲜领导人视察导弹总局新武器试射。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701328.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "防范AI失控 中美合作探路",
-      "summary": "探讨中美在防止人工智能失控方面的合作路径。",
-      "link": "https://www.yicai.com/news/103371461.html"
+      "short_title": "阿里发布千问平板QwenBook",
+      "summary": "首款原生智能体电脑，主打办公与WPS。",
+      "link": "https://www.ithome.com/1/005/648.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "中制协警示AI平台霸王条款",
+      "summary": "平台创作作品版权归属存风险。",
+      "link": "https://www.chinanews.com.cn/cul/2026/09-22/10701323.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗军方警告美军计划打击",
-      "summary": "伊朗军方称获悉美军计划恢复对伊打击，警示共犯。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-20/10700410.shtml"
+      "short_title": "泰国迎中国游客黄金周高峰",
+      "summary": "泰国旅游市场因中国游客激增。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701191.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄罗斯杜马选举投票结束",
-      "summary": "俄罗斯国家杜马选举投票已结束，投票率高于上届。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-21/10700507.shtml"
+      "short_title": "谷歌因欧盟违规被罚4亿欧元",
+      "summary": "欧盟认定谷歌违反数据保护条例。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701208.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评超4300只飘红",
-      "summary": "A股午盘超4300只个股上涨，三大指数集体收涨。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-21/10700639.shtml"
+      "short_title": "A股午后超2800只飘红",
+      "summary": "三大指数集体收涨，市场活跃。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-22/10701357.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国机器人实现好用升级",
+      "summary": "机器人从能用向好用迈进，应用广泛。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-22/10701202.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "日本上万民众抗议高市政府",
+      "summary": "示威者反对政府打造“战争国家”。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701333.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "丹麦格陵兰与美签安全协议",
+      "summary": "联合国大会期间达成防务合作。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-22/10701198.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-21 13:18:28"
+  "updated_at": "2026-09-22 13:18:29"
 }

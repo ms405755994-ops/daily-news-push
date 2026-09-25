@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年9月24日 星期四（农历二月初一）｜汕头：晴 32°C",
-  "date_text": "2026年9月24日 星期四（农历二月初一）",
-  "weather_text": "汕头：晴 32°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年9月25日 星期五（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年9月25日 星期五（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "八国外长敦促以色列停火",
-      "reason": "加沙停火受多国关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-23/10702029.shtml"
+      "title": "乌克兰称基辅遭导弹袭击致2死6伤",
+      "reason": "基辅遭导弹袭击致死伤，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703012.shtml"
     },
     {
-      "title": "AI破译成矿密码助金矿",
-      "reason": "AI助矿业提升勘探效率",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-24/10702903.shtml"
+      "title": "OpenAI筹备GPT-6 Pr...",
+      "reason": "GPT-6需求激增，AI竞争升级",
+      "link": "https://www.ithome.com/1/007/107.htm"
     },
     {
-      "title": "特习会聚焦缓解中美冲突",
-      "reason": "中美高层会晤缓和紧张",
-      "link": "https://www.voachinese.com/a/trump-welcomes-xi-at-white-house-as-they-seek-to-stabilize-intense-us-china-rivalries-20260923/8203367.html"
+      "title": "中国8月新增地方债6440亿元",
+      "reason": "地方政府债发行规模大，金融关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10703395.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "八国外长敦促以色列停火",
-      "summary": "八国呼吁以色列遵守加沙停火协议",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-23/10702029.shtml"
+      "short_title": "基辅导弹袭击致2死6伤",
+      "summary": "乌克兰首都遭导弹袭击，造成2人死亡6人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703012.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "联大首日辩论聚焦巴以冲突",
-      "summary": "多国领袖呼吁正视巴以局势",
-      "link": "http://news.china.com.cn/2026-09/24/content_118710382.shtml"
+      "short_title": "胡塞武装袭击沙特多地",
+      "summary": "也门胡塞组织称对沙特多地实施袭击。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703614.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "14国青年滇池共庆丰收",
-      "summary": "青年与中国农民共享秋季丰收",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-24/10702905.shtml"
+      "short_title": "荷兰西尼罗病毒致5例死亡",
+      "summary": "荷兰西尼罗病毒死亡病例升至5例。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703453.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "特习会前瞻：缓解美中贸易冲突",
-      "summary": "双方致力稳定竞争关系，化解分歧",
-      "link": "https://www.voachinese.com/a/trump-welcomes-xi-at-white-house-as-they-seek-to-stabilize-intense-us-china-rivalries-20260923/8203367.html"
+      "short_title": "南非夸纳省枪击致11死",
+      "summary": "南非夸纳省发生枪击，11人死亡，警方展开追捕。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10702841.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "三星Tab S12+渲染图曝光",
-      "summary": "搭载天玑9500芯片和大容量电池",
-      "link": "https://www.ithome.com/1/006/715.htm"
+      "short_title": "美国青年赴华探寻飞虎情缘",
+      "summary": "美国青年热衷赴华了解飞虎队历史与文化。",
+      "link": "https://www.chinanews.com.cn/dxw/2026/09-25/10703638.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI破译成矿密码助金矿勘探",
-      "summary": "数字引擎提升地下金矿探测效率",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-24/10702903.shtml"
+      "short_title": "张小曳：AI助力能源气象突破",
+      "summary": "中国工程院院士谈AI在能源气象中的应用前景。",
+      "link": "https://www.21jingji.com/article/20260925/005d0c8fdcc50285f35263d965b897e1.html"
     },
     {
       "category": "AI重点",
-      "short_title": "李佳琦称AI无法替代真人主播",
-      "summary": "直播带货仍需真人互动",
-      "link": "https://www.ithome.com/1/006/712.htm"
+      "short_title": "GPT-6需求激增 OpenAI新订...",
+      "summary": "OpenAI计划推出ChatGPT Pro Max订...",
+      "link": "https://www.ithome.com/1/007/107.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗总统联大强调对话不屈服",
-      "summary": "坚持谈判合作拒绝强权威胁",
+      "short_title": "伊朗总统联大表态不屈服",
+      "summary": "伊朗总统在联大强调对话谈判，拒绝屈膝投降。",
       "link": "https://www.chinanews.com.cn/gj/2026/09-24/10702709.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "中方回应欧盟涉港澳报告",
-      "summary": "要求欧盟停止干预港澳事务",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-23/10702614.shtml"
+      "short_title": "机构上调德国2026增长预期",
+      "summary": "研究机构大幅提升今年德国经济增长预测。",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703268.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "北京亦庄保税区进出口额破140亿元",
-      "summary": "通过验收一年，业务规模大幅增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10702845.shtml"
+      "short_title": "8月新增地方政府债6440亿元",
+      "summary": "今年8月中国发行新增地方政府债券总额6440亿元。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10703395.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "自贸离岸债累计发行22单",
+      "summary": "央行上海称自贸离岸债已发行22单，规模约86亿元。",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10703445.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-24 13:14:45"
+  "updated_at": "2026-09-25 13:18:36"
 }

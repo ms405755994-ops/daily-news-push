@@ -1,107 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年9月25日 星期五（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年9月25日 星期五（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年9月26日 星期六（农历二月初一）｜汕头：晴 33°C",
+  "date_text": "2026年9月26日 星期六（农历二月初一）",
+  "weather_text": "汕头：晴 33°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "乌克兰称基辅遭导弹袭击致2死6伤",
-      "reason": "基辅遭导弹袭击致死伤，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703012.shtml"
+      "title": "四川高县4.5级地震",
+      "reason": "突发自然灾害，启动应急",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704055.shtml"
     },
     {
-      "title": "OpenAI筹备GPT-6 Pr...",
-      "reason": "GPT-6需求激增，AI竞争升级",
-      "link": "https://www.ithome.com/1/007/107.htm"
+      "title": "也门胡塞武装袭击沙特",
+      "reason": "中东冲突升级，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703614.shtml"
     },
     {
-      "title": "中国8月新增地方债6440亿元",
-      "reason": "地方政府债发行规模大，金融关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10703395.shtml"
+      "title": "AI+软件深度融合",
+      "reason": "人工智能重大进展",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703855.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "基辅导弹袭击致2死6伤",
-      "summary": "乌克兰首都遭导弹袭击，造成2人死亡6人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703012.shtml"
+      "short_title": "四川高县4.5级地震",
+      "summary": "地震导致部分地区轻微震感，局启动四级响应",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704055.shtml"
     },
     {
       "category": "突发新闻",
       "short_title": "胡塞武装袭击沙特多地",
-      "summary": "也门胡塞组织称对沙特多地实施袭击。",
+      "summary": "胡塞组织声称对沙特境内多处设施实施攻击",
       "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703614.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "荷兰西尼罗病毒致5例死亡",
-      "summary": "荷兰西尼罗病毒死亡病例升至5例。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703453.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "南非夸纳省枪击致11死",
-      "summary": "南非夸纳省发生枪击，11人死亡，警方展开追捕。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10702841.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美国青年赴华探寻飞虎情缘",
-      "summary": "美国青年热衷赴华了解飞虎队历史与文化。",
-      "link": "https://www.chinanews.com.cn/dxw/2026/09-25/10703638.shtml"
+      "category": "AI重点",
+      "short_title": "日本军用AI渐进布局",
+      "summary": "日本分阶段发展军用人工智能，潜在安全风险受关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703709.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "张小曳：AI助力能源气象突破",
-      "summary": "中国工程院院士谈AI在能源气象中的应用前景。",
-      "link": "https://www.21jingji.com/article/20260925/005d0c8fdcc50285f35263d965b897e1.html"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "GPT-6需求激增 OpenAI新订...",
-      "summary": "OpenAI计划推出ChatGPT Pro Max订...",
-      "link": "https://www.ithome.com/1/007/107.htm"
+      "short_title": "信通院促AI与软件深度融合",
+      "summary": "王志勤强调AI与软件协同创新，提升产业竞争力",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703855.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗总统联大表态不屈服",
-      "summary": "伊朗总统在联大强调对话谈判，拒绝屈膝投降。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10702709.shtml"
+      "short_title": "习近平访美获美方好评",
+      "summary": "美国各界赞扬习近平访美，期待中美关系新突破",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=2026092616f85c843fca4281b11c293fad7c8acf"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "机构上调德国2026增长预期",
-      "summary": "研究机构大幅提升今年德国经济增长预测。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-24/10703268.shtml"
+      "short_title": "美伊商议重开霍尔木兹海峡",
+      "summary": "美伊官员就海峡通航安全展开磋商，影响全球能源",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-26/10703980.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "8月新增地方政府债6440亿元",
-      "summary": "今年8月中国发行新增地方政府债券总额6440亿元。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10703395.shtml"
+      "short_title": "港股全周冲高后回落",
+      "summary": "机构预计今年港股IPO融资将达4800亿元",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703845.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "自贸离岸债累计发行22单",
-      "summary": "央行上海称自贸离岸债已发行22单，规模约86亿元。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-24/10703445.shtml"
+      "category": "今日三大新闻",
+      "short_title": "德江潮玩产业带动就业",
+      "summary": "东西部合作推动潮玩业，提升当地就业机会",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704024.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "数说经济：消费新空间",
+      "summary": "报告显示消费结构升级，夜间经济潜力凸显",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703929.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "数博会机器人跨界应用",
+      "summary": "机器人在数博会展示多场景应用，提升产业价值",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703904.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "92.44",
+      "pct": -2.2936264665468786,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,320.50",
+      "pct": 0.5234993020009306,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-09-25 13:18:36"
+  "updated_at": "2026-09-26 13:19:48"
 }

@@ -1,85 +1,73 @@
 {
-  "title": "MSAI今日新闻｜2026年9月26日 星期六（农历二月初一）｜汕头：晴 33°C",
-  "date_text": "2026年9月26日 星期六（农历二月初一）",
-  "weather_text": "汕头：晴 33°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年9月27日 星期日（农历二月初一）｜汕头：晴 34°C",
+  "date_text": "2026年9月27日 星期日（农历二月初一）",
+  "weather_text": "汕头：晴 34°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "四川高县4.5级地震",
-      "reason": "突发自然灾害，启动应急",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704055.shtml"
+      "title": "川普拒伊朗停火提案，航运受阻",
+      "reason": "美国总统拒绝伊朗重开霍尔木兹",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260926-%E5%B7%9D%E6%99%AE%E6%8B%92%E4%BC%8A%E6%9C%97%E5%81%9C%E7%81%AB%E6%8F%90%E6%A1%88-%E8%8D%B7%E8%8E%AB%E5%85%B9%E6%B5%B7%E5%B3%A1%E8%88%AA%E8%BF%90%E6%9C%AA%E8%A7%A3"
     },
     {
-      "title": "也门胡塞武装袭击沙特",
-      "reason": "中东冲突升级，影响地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703614.shtml"
+      "title": "澳医保遭AI入侵，召OpenAI",
+      "reason": "AI攻击澳洲医保系统，引发高层质询",
+      "link": "https://www.ithome.com/1/007/508.htm"
     },
     {
-      "title": "AI+软件深度融合",
-      "reason": "人工智能重大进展",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703855.shtml"
+      "title": "欧盟承诺7亿欧元援助非洲巴勒",
+      "reason": "欧盟向非洲巴勒斯坦等提供巨额援助",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704315.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "四川高县4.5级地震",
-      "summary": "地震导致部分地区轻微震感，局启动四级响应",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704055.shtml"
+      "short_title": "川普拒伊朗停火提案",
+      "summary": "特朗普拒绝伊朗停火，海峡航运仍悬而未决",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260926-%E5%B7%9D%E6%99%AE%E6%8B%92%E4%BC%8A%E6%9C%97%E5%81%9C%E7%81%AB%E6%8F%90%E6%A1%88-%E8%8D%B7%E8%8E%AB%E5%85%B9%E6%B5%B7%E5%B3%A1%E8%88%AA%E8%BF%90%E6%9C%AA%E8%A7%A3"
     },
     {
-      "category": "突发新闻",
-      "short_title": "胡塞武装袭击沙特多地",
-      "summary": "胡塞组织声称对沙特境内多处设施实施攻击",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703614.shtml"
+      "category": "今日三大新闻",
+      "short_title": "亚运滑板女子夺金铜",
+      "summary": "中国队在名古屋亚运会滑板女子街式项目获金铜",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-27/10704392.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "《十二生肖》悉尼亮相",
+      "summary": "中国儿艺原创舞台剧《十二生肖》在悉尼首演",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-27/10704392.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "欧盟承诺逾7亿欧元援助",
+      "summary": "欧盟向撒哈拉以南非洲及巴勒斯坦等地区提供逾7亿欧元",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704315.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "日本军用AI渐进布局",
-      "summary": "日本分阶段发展军用人工智能，潜在安全风险受关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-25/10703709.shtml"
+      "short_title": "政策扶持真人短剧AI边界",
+      "summary": "新政策鼓励真人短剧，探讨AI技术应用范围",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-27/10704326.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "信通院促AI与软件深度融合",
-      "summary": "王志勤强调AI与软件协同创新，提升产业竞争力",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703855.shtml"
+      "short_title": "澳医保系统遭AI入侵",
+      "summary": "澳洲医保被AI攻击，OpenAI与Anthropic...",
+      "link": "https://www.ithome.com/1/007/508.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "习近平访美获美方好评",
-      "summary": "美国各界赞扬习近平访美，期待中美关系新突破",
-      "link": "https://app.xinhuanet.com/news/article.html?articleId=2026092616f85c843fca4281b11c293fad7c8acf"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美伊商议重开霍尔木兹海峡",
-      "summary": "美伊官员就海峡通航安全展开磋商，影响全球能源",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-26/10703980.shtml"
+      "short_title": "特朗普称美古巴将达成协议",
+      "summary": "特朗普表示美国与古巴将签署新协议",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704313.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "港股全周冲高后回落",
-      "summary": "机构预计今年港股IPO融资将达4800亿元",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703845.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "德江潮玩产业带动就业",
-      "summary": "东西部合作推动潮玩业，提升当地就业机会",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704024.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "数说经济：消费新空间",
-      "summary": "报告显示消费结构升级，夜间经济潜力凸显",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703929.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "数博会机器人跨界应用",
-      "summary": "机器人在数博会展示多场景应用，提升产业价值",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-25/10703904.shtml"
+      "short_title": "万亿度电账单显新动能",
+      "summary": "用电账单显示经济潜在增长动力",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704201.shtml"
     }
   ],
   "futures": [
@@ -119,5 +107,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-09-26 13:19:48"
+  "updated_at": "2026-09-27 13:37:04"
 }

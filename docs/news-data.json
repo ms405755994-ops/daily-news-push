@@ -1,95 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年9月28日 星期一（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年9月28日 星期一（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年9月29日 星期二（农历二月初一）｜汕头：多云 34°C",
+  "date_text": "2026年9月29日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 34°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "武契奇辞职 承认错误",
-      "reason": "巴尔干政局突变 引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-28/10704663.shtml"
+      "title": "日本突发4.9级地震",
+      "reason": "日本东北地区突发强震，已启动应急响应",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705191.shtml"
     },
     {
-      "title": "也门胡塞称遭沙特空袭",
-      "reason": "中东冲突升级 沙特空袭频繁",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-28/10704655.shtml"
+      "title": "美国突发枪击：州警身亡",
+      "reason": "美国州警遇袭身亡，嫌疑人已被捕",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705212.shtml"
     },
     {
-      "title": "金价回落促销旺季",
-      "reason": "黄金价格波动 影响消费市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-28/10704669.shtml"
+      "title": "中美600亿美元低关税达成",
+      "reason": "中美在特习会后降低商品关税",
+      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E8%A7%93%E8%AF%B4/20260928-%E7%89%B9%E4%B9%A0%E4%BC%9A%E5%90%8E-%E4%B8%AD%E7%BE%8E%E5%B0%B1600%E4%BA%BF%E7%BE%8E%E5%85%83%E5%95%86%E5%93%81%E4%BD%8E%E5%85%B3%E7%A8%8E%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "塞尔维亚总理武契奇辞职",
-      "summary": "武契奇辞职并承认执政错误，战争仍在继续。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-28/10704663.shtml"
+      "short_title": "美国枪击致州警死亡",
+      "summary": "一名州警在枪击案中遇难，嫌疑人已被捕",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705212.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "也门胡塞称遭沙特空袭26次",
-      "summary": "胡塞武装称24小时内遭沙特空袭26次，局势紧张。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-28/10704655.shtml"
+      "short_title": "日本发生4.9级地震",
+      "summary": "日本东北部突发4.9级地震，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705191.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "中国最北高铁开通运营",
-      "summary": "黑龙江最北高铁通车，提升综合立体交通能力。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-28/10704795.shtml"
+      "category": "AI重点",
+      "short_title": "IDC：上半年人形机器人出货2.5万...",
+      "summary": "全球出货近2.5万台，中国占1.9万台，增长432%",
+      "link": "https://www.ithome.com/1/008/202.htm"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "大熊猫平平福双抵美亚特兰大",
-      "summary": "两只大熊猫平平、福双抵达亚特兰大，开启交流新篇。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-28/10704649.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "上海口岸跨境电商出口增28.7%",
-      "summary": "上海口岸跨境电商出口额同比增长28.7%，表现强劲。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-28/10704789.shtml"
+      "category": "AI重点",
+      "short_title": "广东计划2027年举办机器人篮球赛",
+      "summary": "广东2027年春季将举办首届国际人形机器人篮球挑战赛",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-29/10705455.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普拒绝伊朗七天重开霍尔木兹",
-      "summary": "特朗普拒绝伊朗七天内重开霍尔木兹海峡的提议。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704403.shtml"
+      "short_title": "伊朗最高领袖称驱逐敌舰出阿拉伯海",
+      "summary": "伊朗最高领袖呼吁把敌人赶出阿拉伯海，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705210.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列取消荷兰驻拉姆安拉豁免",
-      "summary": "以色列撤销荷兰驻拉姆安拉外交人员的豁免权。",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-28/10704737.shtml"
+      "short_title": "欧盟延长拉法口岸边防特派团任期",
+      "summary": "欧盟决定延长拉法口岸边防及巴勒斯坦警察特派团任务",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705193.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "金价回落节日促销迎旺季",
-      "summary": "金价因节日促销回落，黄金零售进入消费旺季。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-28/10704669.shtml"
+      "short_title": "中美达成600亿美元商品低关税协议",
+      "summary": "特习会后双方同意对600亿美元商品实行低关税",
+      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E8%A7%84%E8%AF%B4/20260928-%E7%89%B9%E4%B9%A0%E4%BC%9A%E5%90%8E-%E4%B8%AD%E7%BE%8E%E5%B0%B1600%E4%BA%BF%E7%BE%8E%E5%85%83%E5%95%86%E5%93%81%E4%BD%8E%E5%85%B3%E7%A8%8E%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4"
     },
     {
       "category": "金融重点",
-      "short_title": "央行汇率表述变与不变解读",
-      "summary": "央行最新汇率表述解读，关注变动与稳定因素。",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-28/10704667.shtml"
+      "short_title": "第五届全球数字贸易博览会圆满闭幕",
+      "summary": "本届数字贸易博览会展示跨境电商新技术与合作",
+      "link": "https://www.chinanews.com.cn/tp/2026/09-29/10705451.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "华为MatePad Air Z平板上...",
+      "summary": "搭载麒麟T93SD处理器，12英寸LCD屏，国补后价...",
+      "link": "https://www.ithome.com/1/008/212.htm"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普否认愿意有条件解除伊制裁",
+      "summary": "特朗普回应媒体称未表示愿意解除对伊制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705215.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中东欧华人科技交流会长倡文明沟通",
+      "summary": "会长矫超呼吁华侨华人推动文明交流与合作",
+      "link": "https://www.chinanews.com.cn/hr/2026/09-29/10705457.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "94.07",
-      "pct": 1.7963423871875301,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,216.12",
-      "pct": -2.4317319263167625,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -101,17 +113,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-28 13:44:21"
+  "updated_at": "2026-09-29 14:03:18"
 }

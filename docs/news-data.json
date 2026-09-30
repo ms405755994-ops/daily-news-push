@@ -1,91 +1,57 @@
 {
-  "title": "MSAI今日新闻｜2026年9月29日 星期二（农历二月初一）｜汕头：多云 34°C",
-  "date_text": "2026年9月29日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 34°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年9月30日 星期三（农历二月初一）｜汕头：晴 34°C",
+  "date_text": "2026年9月30日 星期三（农历二月初一）",
+  "weather_text": "汕头：晴 34°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "日本突发4.9级地震",
-      "reason": "日本东北地区突发强震，已启动应急响应",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705191.shtml"
-    },
-    {
-      "title": "美国突发枪击：州警身亡",
-      "reason": "美国州警遇袭身亡，嫌疑人已被捕",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705212.shtml"
-    },
-    {
-      "title": "中美600亿美元低关税达成",
-      "reason": "中美在特习会后降低商品关税",
-      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E8%A7%93%E8%AF%B4/20260928-%E7%89%B9%E4%B9%A0%E4%BC%9A%E5%90%8E-%E4%B8%AD%E7%BE%8E%E5%B0%B1600%E4%BA%BF%E7%BE%8E%E5%85%83%E5%95%86%E5%93%81%E4%BD%8E%E5%85%B3%E7%A8%8E%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4"
+      "title": "联合国呼吁停止升级乌克兰局势",
+      "reason": "乌克兰局势紧张，联合国呼吁降温",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-30/10705981.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国枪击致州警死亡",
-      "summary": "一名州警在枪击案中遇难，嫌疑人已被捕",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705212.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "日本发生4.9级地震",
-      "summary": "日本东北部突发4.9级地震，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705191.shtml"
+      "short_title": "台东海域5.5级地震",
+      "summary": "震源深度10公里，暂无人员伤亡",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-30/10706135.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "IDC：上半年人形机器人出货2.5万...",
-      "summary": "全球出货近2.5万台，中国占1.9万台，增长432%",
-      "link": "https://www.ithome.com/1/008/202.htm"
+      "short_title": "Robinhood推出AI盯盘工具",
+      "summary": "美国散户平台新增自动交易智能体",
+      "link": "https://www.ithome.com/1/008/690.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "广东计划2027年举办机器人篮球赛",
-      "summary": "广东2027年春季将举办首届国际人形机器人篮球挑战赛",
-      "link": "https://www.chinanews.com.cn/ty/2026/09-29/10705455.shtml"
+      "short_title": "豪威发布低功耗视觉AI协处理器",
+      "summary": "OAX7700实现3%功耗的停车监控",
+      "link": "https://www.ithome.com/1/008/698.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗最高领袖称驱逐敌舰出阿拉伯海",
-      "summary": "伊朗最高领袖呼吁把敌人赶出阿拉伯海，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705210.shtml"
+      "short_title": "美计划互换释放4000万桶油",
+      "summary": "美国将动用战略储备应对油价波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-30/10705952.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧盟延长拉法口岸边防特派团任期",
-      "summary": "欧盟决定延长拉法口岸边防及巴勒斯坦警察特派团任务",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705193.shtml"
+      "short_title": "以色列宣誓击毙哈马斯指挥官",
+      "summary": "总理防长联合声明，强化军事行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705497.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "中美达成600亿美元商品低关税协议",
-      "summary": "特习会后双方同意对600亿美元商品实行低关税",
-      "link": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E8%A7%84%E8%AF%B4/20260928-%E7%89%B9%E4%B9%A0%E4%BC%9A%E5%90%8E-%E4%B8%AD%E7%BE%8E%E5%B0%B1600%E4%BA%BF%E7%BE%8E%E5%85%83%E5%95%86%E5%93%81%E4%BD%8E%E5%85%B3%E7%A8%8E%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "第五届全球数字贸易博览会圆满闭幕",
-      "summary": "本届数字贸易博览会展示跨境电商新技术与合作",
-      "link": "https://www.chinanews.com.cn/tp/2026/09-29/10705451.shtml"
+      "short_title": "澳央行加息至4.6% 创15年新高",
+      "summary": "澳洲利率上调，抑制通胀压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705531.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "华为MatePad Air Z平板上...",
-      "summary": "搭载麒麟T93SD处理器，12英寸LCD屏，国补后价...",
-      "link": "https://www.ithome.com/1/008/212.htm"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "特朗普否认愿意有条件解除伊制裁",
-      "summary": "特朗普回应媒体称未表示愿意解除对伊制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705215.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中东欧华人科技交流会长倡文明沟通",
-      "summary": "会长矫超呼吁华侨华人推动文明交流与合作",
-      "link": "https://www.chinanews.com.cn/hr/2026/09-29/10705457.shtml"
+      "short_title": "中国快递量提前12天破1500亿",
+      "summary": "今年快递件数比去年提前达1500亿件",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-30/10706128.shtml"
     }
   ],
   "futures": [
@@ -125,5 +91,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-29 14:03:18"
+  "updated_at": "2026-09-30 13:52:34"
 }

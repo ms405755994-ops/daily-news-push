@@ -1,57 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年9月30日 星期三（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年9月30日 星期三（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年10月1日 星期四（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年10月1日 星期四（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "联合国呼吁停止升级乌克兰局势",
-      "reason": "乌克兰局势紧张，联合国呼吁降温",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-30/10705981.shtml"
+      "title": "特朗普批伊拉克战争决策糟糕",
+      "reason": "美国前总统直指伊拉克战争失策",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706596.shtml"
+    },
+    {
+      "title": "迪拜航空暂停以色列航班",
+      "reason": "驾驶舱冲突致航班中止，涉以色列",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706639.shtml"
+    },
+    {
+      "title": "美防长组建自主作战司令部",
+      "reason": "马斯克参与研究未来战争形态",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706602.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "台东海域5.5级地震",
-      "summary": "震源深度10公里，暂无人员伤亡",
-      "link": "https://www.chinanews.com.cn/sh/2026/09-30/10706135.shtml"
+      "short_title": "特朗普批伊拉克战争决策糟糕",
+      "summary": "特朗普称伊拉克战争让美国陷入泥潭",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706596.shtml"
     },
     {
-      "category": "AI重点",
-      "short_title": "Robinhood推出AI盯盘工具",
-      "summary": "美国散户平台新增自动交易智能体",
-      "link": "https://www.ithome.com/1/008/690.htm"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "豪威发布低功耗视觉AI协处理器",
-      "summary": "OAX7700实现3%功耗的停车监控",
-      "link": "https://www.ithome.com/1/008/698.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美计划互换释放4000万桶油",
-      "summary": "美国将动用战略储备应对油价波动",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-30/10705952.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "以色列宣誓击毙哈马斯指挥官",
-      "summary": "总理防长联合声明，强化军事行动",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705497.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "澳央行加息至4.6% 创15年新高",
-      "summary": "澳洲利率上调，抑制通胀压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/09-29/10705531.shtml"
+      "category": "突发新闻",
+      "short_title": "迪拜航空暂停往返以色列航班",
+      "summary": "因驾驶舱冲突事件，航班暂时停飞",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706639.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国快递量提前12天破1500亿",
-      "summary": "今年快递件数比去年提前达1500亿件",
-      "link": "https://www.chinanews.com.cn/cj/2026/09-30/10706128.shtml"
+      "short_title": "亚运会练俊杰险胜收官 跳水夺百金",
+      "summary": "中国跳水队实现亚运会百金大突破",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=20260930a4b8630a21d94a3ea3705748ee12cf5b"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "国庆出行折射经济转型新态势",
+      "summary": "出行数据显示消费结构升级趋势",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-01/10706620.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "黄金周旅游热消费仍显冷淡",
+      "summary": "假期出游旺盛但消费增长乏力",
+      "link": "https://www.dw.com/zh/%E4%B8%AD%E5%9B%BD%E9%BB%84%E9%87%91%E5%91%A8%E6%97%85%E6%B8%B8%E7%83%AD%E4%BA%86%E6%B6%88%E8%B4%B9%E8%BF%98%E6%98%AF%E5%86%B7/a-79472743"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "全国科普月聚焦AI时代变革",
+      "summary": "系列活动探讨科普转型新路径",
+      "link": "https://www.chinanews.com.cn/gn/2026/10-01/10706680.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美防长组建自主作战司令部",
+      "summary": "马斯克将参与未来战争形态研究",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706602.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美媒称鲁比奥要求伊朗离美",
+      "summary": "美国官员要求伊朗代表团立即撤离",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706633.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "平陆运河打通南向出海通道",
+      "summary": "广西岑溪外向型经济迎新机遇",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-01/10706686.shtml"
     }
   ],
   "futures": [
@@ -91,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-09-30 13:52:34"
+  "updated_at": "2026-10-01 14:24:55"
 }

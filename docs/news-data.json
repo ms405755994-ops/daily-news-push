@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年10月2日 星期五（农历二月初一）｜汕头：阴 26°C",
-  "date_text": "2026年10月2日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 26°C",
+  "title": "MSAI今日新闻｜2026年10月3日 星期六（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年10月3日 星期六（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "美增派“爱国者”导弹系统",
-      "reason": "保护沙特卡塔尔能源",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-02/10707069.shtml"
+      "title": "美国陆军组建自主系统司令部",
+      "reason": "突显美军AI武器化趋势",
+      "link": "https://www.ithome.com/1/009/427.htm"
     },
     {
-      "title": "博通筹资600亿美元支持AI芯片",
-      "reason": "AI芯片融资大动作",
-      "link": "https://www.ithome.com/1/009/261.htm"
+      "title": "迪拜航空袭击特朗普怀疑伊朗",
+      "reason": "涉及美伊关系的航空恐袭",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261002-%E8%BF%AA%E6%8B%9C%E8%88%AA%E7%A9%BA%E8%A2%AD%E5%87%BB%E4%BA%8B%E4%BB%B6-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%80%80%E7%96%91%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%9C%89%E5%85%B3-%E5%A8%81%E8%83%81%E5%AF%B9%E5%85%B6%E9%87%8D%E5%87%BB"
     },
     {
-      "title": "具身智能实现全球落地",
-      "reason": "机器人量产向实用迈进",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-02/10707009.shtml"
+      "title": "尼日利亚东北部极端袭击致15亡",
+      "reason": "非洲极端暴力升级引关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707377.shtml"
     }
   ],
   "news_items": [
     {
-      "category": "突发新闻",
-      "short_title": "苏丹大学遭无人机袭击致5死47伤",
-      "summary": "苏丹一所大学被无人机袭击，造成5人死亡、47人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-02/10707061.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "日本突发5.1级地震",
-      "summary": "日本发生5.1级地震，暂无人员伤亡报告。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-01/10706944.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "习近平访美创造中美交往新历史",
-      "summary": "中国驻美大使称习近平访美为中美关系写下新篇章。",
-      "link": "https://www.chinanews.com.cn/gn/2026/10-02/10707065.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "特朗普或在中期后加大对伊朗压力",
-      "summary": "特朗普表示中期选举后可能加强对伊朗的制裁与军事行动。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-02/10706987.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "多国调查迪拜飞特航班袭击 机上奋战",
-      "summary": "多国调查迪拜至特拉维夫航班袭击，内塔尼亚胡赞上英勇。",
-      "link": "https://www.voachinese.com/a/investigators-probe-attack-on-flight-from-dubai-to-tel-aviv-as-netanyahu-praises-on-board-response-20261001/8206669.html"
+      "category": "AI重点",
+      "short_title": "中国机器人领跑全球",
+      "summary": "英国业界称中国机器人产业成全球领头羊",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707376.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "具身智能机器人实现量产走向全球",
-      "summary": "中国研发具身智能机器人，实现量产并计划全球部署。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-02/10707009.shtml"
+      "short_title": "美军组建自主系统司令部",
+      "summary": "美军推进机器人技术用于未来战争",
+      "link": "https://www.ithome.com/1/009/427.htm"
     },
     {
-      "category": "AI重点",
-      "short_title": "东芝将AI数据中心硬盘产能翻倍",
-      "summary": "东芝将AI数据中心硬盘产能翻倍，投资约600亿日元。",
-      "link": "https://www.ithome.com/1/009/255.htm"
+      "category": "突发新闻",
+      "short_title": "迪拜航班遭袭 特朗普警告伊朗",
+      "summary": "特朗普怀疑伊朗涉事并威胁重击",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261002-%E8%BF%AA%E6%8B%9C%E8%88%AA%E7%A9%BA%E8%A2%AD%E5%87%BB%E4%BA%8B%E4%BB%B6-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%80%80%E7%96%91%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%9C%89%E5%85%B3-%E5%A8%81%E8%83%81%E5%AF%B9%E5%85%B6%E9%87%8D%E5%87%BB"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "尼日利亚东北袭击致15亡",
+      "summary": "极端组织袭击导致至少15人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707377.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "最北高铁黄金周 打通小兴安岭",
+      "summary": "高寒铁路首开黄金周，连通小兴安岭旅游",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707399.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "浙江柳市子梅鱼季 启动食旅经济",
+      "summary": "国庆期间柳市镇推出子梅鱼季，促进旅游消费",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707423.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "宠物托管假日爆单 促“它经济”",
+      "summary": "假日宠物托管需求激增，带动千亿新消费",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707416.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "欧元区9月通胀升至3.8%",
+      "summary": "9月欧元区通胀率达3.8%，创三年新高",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707342.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "油轮遭袭 霍尔木兹海峡",
+      "summary": "外媒称油轮在霍尔木兹海峡附近被袭",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707375.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "Broadcom筹资600亿美元助A...",
-      "summary": "Broadcom筹资600亿美元助AI公司芯片采购。",
-      "link": "https://www.ithome.com/1/009/261.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美向沙特卡塔尔增派爱国者导弹系统",
-      "summary": "美国向沙特和卡塔尔部署爱国者导弹，保护能源设施安全。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-02/10707069.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美向中东增派第三航母打击群",
-      "summary": "美国向中东增派第三航母打击群及约1万兵力。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-02/10707038.shtml"
+      "short_title": "中海油中东工程签约超500亿元",
+      "summary": "中企海油三年在中东累计签约超500亿元",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-02/10707313.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-02 14:03:27"
+  "updated_at": "2026-10-03 13:36:54"
 }

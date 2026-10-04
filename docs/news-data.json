@@ -1,101 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年10月3日 星期六（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年10月3日 星期六（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年10月4日 星期日（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年10月4日 星期日（农历二月初一）",
   "weather_text": "汕头：多云 30°C",
-  "total_count": 10,
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国陆军组建自主系统司令部",
-      "reason": "突显美军AI武器化趋势",
-      "link": "https://www.ithome.com/1/009/427.htm"
+      "title": "金正恩观摩中程导弹发射",
+      "reason": "突发军事动态，影响地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707692.shtml"
     },
     {
-      "title": "迪拜航空袭击特朗普怀疑伊朗",
-      "reason": "涉及美伊关系的航空恐袭",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261002-%E8%BF%AA%E6%8B%9C%E8%88%AA%E7%A9%BA%E8%A2%AD%E5%87%BB%E4%BA%8B%E4%BB%B6-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%80%80%E7%96%91%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%9C%89%E5%85%B3-%E5%A8%81%E8%83%81%E5%AF%B9%E5%85%B6%E9%87%8D%E5%87%BB"
+      "title": "印尼6.1级地震震源10公里",
+      "reason": "突发地震，地区安全受影响",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707676.shtml"
     },
     {
-      "title": "尼日利亚东北部极端袭击致15亡",
-      "reason": "非洲极端暴力升级引关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707377.shtml"
+      "title": "GPT-6 破解拿破仑密信",
+      "reason": "AI突破，展示强大推理能力",
+      "link": "https://www.ithome.com/1/009/643.htm"
     }
   ],
   "news_items": [
     {
-      "category": "AI重点",
-      "short_title": "中国机器人领跑全球",
-      "summary": "英国业界称中国机器人产业成全球领头羊",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707376.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "美军组建自主系统司令部",
-      "summary": "美军推进机器人技术用于未来战争",
-      "link": "https://www.ithome.com/1/009/427.htm"
+      "category": "突发新闻",
+      "short_title": "金正恩观摩中程导弹发射训练",
+      "summary": "金正恩现场观看中程导弹演练",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707692.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "迪拜航班遭袭 特朗普警告伊朗",
-      "summary": "特朗普怀疑伊朗涉事并威胁重击",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261002-%E8%BF%AA%E6%8B%9C%E8%88%AA%E7%A9%BA%E8%A2%AD%E5%87%BB%E4%BA%8B%E4%BB%B6-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%80%80%E7%96%91%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%9C%89%E5%85%B3-%E5%A8%81%E8%83%81%E5%AF%B9%E5%85%B6%E9%87%8D%E5%87%BB"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "尼日利亚东北袭击致15亡",
-      "summary": "极端组织袭击导致至少15人死亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707377.shtml"
+      "short_title": "印尼东努沙登加拉省6.1级地震",
+      "summary": "震源深度10公里，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707676.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "最北高铁黄金周 打通小兴安岭",
-      "summary": "高寒铁路首开黄金周，连通小兴安岭旅游",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707399.shtml"
+      "short_title": "亚运会圆满完成练兵任务",
+      "summary": "中国体育代表团称赛事助力洛杉矶奥运备战",
+      "link": "https://www.chinanews.com.cn/ty/2026/10-04/10707788.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "浙江柳市子梅鱼季 启动食旅经济",
-      "summary": "国庆期间柳市镇推出子梅鱼季，促进旅游消费",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707423.shtml"
+      "short_title": "中国创作者获阿斯塔纳AI电影节最佳故...",
+      "summary": "首届AI电影节中国团队夺最佳故事奖",
+      "link": "https://www.chinanews.com.cn/cul/2026/10-04/10707775.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "宠物托管假日爆单 促“它经济”",
-      "summary": "假日宠物托管需求激增，带动千亿新消费",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707416.shtml"
+      "short_title": "美官员称伊朗代表团两成员被驱逐出境",
+      "summary": "两名伊朗官员被美方驱逐，曾参加联合国大会",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707766.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "OpenAI GPT-6破解拿破仑1...",
+      "summary": "AI模型成功解读217年前军事部署",
+      "link": "https://www.ithome.com/1/009/643.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI奔县助力浙江县域文旅智变",
+      "summary": "人工智能推动当地旅游业创新发展",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-04/10707778.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧元区9月通胀升至3.8%",
-      "summary": "9月欧元区通胀率达3.8%，创三年新高",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707342.shtml"
+      "short_title": "日本通胀升温 餐桌压力加大",
+      "summary": "物价上涨导致日本民众生活成本上升",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707662.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "油轮遭袭 霍尔木兹海峡",
-      "summary": "外媒称油轮在霍尔木兹海峡附近被袭",
+      "short_title": "油轮在霍尔木兹海峡遭袭",
+      "summary": "外媒称一艘油轮在海峡附近被攻击",
       "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707375.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "中海油中东工程签约超500亿元",
-      "summary": "中企海油三年在中东累计签约超500亿元",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-02/10707313.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "91.26",
+      "pct": 0.16463615409944649,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,172.10",
+      "pct": 0.2354467481921097,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-10-03 13:36:54"
+  "updated_at": "2026-10-04 14:13:42"
 }

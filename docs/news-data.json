@@ -1,94 +1,94 @@
 {
-  "title": "MSAI今日新闻｜2026年10月4日 星期日（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年10月4日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
+  "title": "MSAI今日新闻｜2026年10月5日 星期一（农历二月初一）｜汕头：阴 29°C",
+  "date_text": "2026年10月5日 星期一（农历二月初一）",
+  "weather_text": "汕头：阴 29°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "金正恩观摩中程导弹发射",
-      "reason": "突发军事动态，影响地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707692.shtml"
+      "title": "伊朗军方提升导弹射程",
+      "reason": "伊朗导弹升级，地区安全紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707989.shtml"
     },
     {
-      "title": "印尼6.1级地震震源10公里",
-      "reason": "突发地震，地区安全受影响",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707676.shtml"
+      "title": "美佛州女子AI日记本报警",
+      "reason": "AI识别枪击威胁，触发报警",
+      "link": "https://www.ithome.com/1/009/795.htm"
     },
     {
-      "title": "GPT-6 破解拿破仑密信",
-      "reason": "AI突破，展示强大推理能力",
-      "link": "https://www.ithome.com/1/009/643.htm"
+      "title": "石油大国闹油荒俄抢华车",
+      "reason": "油价波动，俄抢中国电动车",
+      "link": "https://www.ithome.com/1/009/787.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "金正恩观摩中程导弹发射训练",
-      "summary": "金正恩现场观看中程导弹演练",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707692.shtml"
+      "short_title": "伊朗提升导弹射程",
+      "summary": "伊朗军方宣布提升导弹最大射程",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707989.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "印尼东努沙登加拉省6.1级地震",
-      "summary": "震源深度10公里，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707676.shtml"
+      "short_title": "迪拜航班袭击者系单独作案",
+      "summary": "调查称迪拜航班袭击者为单独行动",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-05/10708001.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "亚运会圆满完成练兵任务",
-      "summary": "中国体育代表团称赛事助力洛杉矶奥运备战",
-      "link": "https://www.chinanews.com.cn/ty/2026/10-04/10707788.shtml"
+      "short_title": "亚运会中国夺冠新星闪耀",
+      "summary": "中国亚运会实现十二连冠，赛事组织受质疑",
+      "link": "https://app.xinhuanet.com/news/article.html?articleId=202610041cb3b44c50f84a299de22b86c3215021"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国创作者获阿斯塔纳AI电影节最佳故...",
-      "summary": "首届AI电影节中国团队夺最佳故事奖",
-      "link": "https://www.chinanews.com.cn/cul/2026/10-04/10707775.shtml"
+      "short_title": "演唱会带动山东黄金周消费",
+      "summary": "票根链式消费刺激山东黄金周经济",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-04/10707955.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美官员称伊朗代表团两成员被驱逐出境",
-      "summary": "两名伊朗官员被美方驱逐，曾参加联合国大会",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-04/10707766.shtml"
+      "short_title": "假期指尖经济DIY热潮",
+      "summary": "年轻人假期热衷DIY，指尖经济升温",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-04/10707958.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "OpenAI GPT-6破解拿破仑1...",
-      "summary": "AI模型成功解读217年前军事部署",
-      "link": "https://www.ithome.com/1/009/643.htm"
+      "short_title": "瓦尔基里发布AI灯效键盘",
+      "summary": "VK 99 V2机械键盘具AI灯效与长续航",
+      "link": "https://www.ithome.com/1/009/782.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "AI奔县助力浙江县域文旅智变",
-      "summary": "人工智能推动当地旅游业创新发展",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-04/10707778.shtml"
+      "short_title": "特朗普成立超级智能组",
+      "summary": "特朗普宣布成立专注AI的超级智能工作组",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-05/10708011.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本通胀升温 餐桌压力加大",
-      "summary": "物价上涨导致日本民众生活成本上升",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-03/10707662.shtml"
+      "short_title": "美撤回驻英B-1轰炸机",
+      "summary": "美国将全部B-1轰炸机撤出英国基地",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-05/10708072.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "油轮在霍尔木兹海峡遭袭",
-      "summary": "外媒称一艘油轮在海峡附近被攻击",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-03/10707375.shtml"
+      "short_title": "俄抢中国电动汽车因油荒",
+      "summary": "石油危机致俄罗斯大量购买中国电动车",
+      "link": "https://www.ithome.com/1/009/787.htm"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "91.26",
-      "pct": 0.16463615409944649,
-      "trend": "up"
+      "price": "89.75",
+      "pct": -1.492701130501591,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,172.10",
-      "pct": 0.2354467481921097,
+      "price": "4,169.90",
+      "pct": 0.18259135574080324,
       "trend": "up"
     },
     {
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-04 14:13:42"
+  "updated_at": "2026-10-05 14:05:13"
 }

@@ -1,89 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年10月9日 星期五（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年10月9日 星期五（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年10月10日 星期六（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年10月10日 星期六（农历二月初一）",
   "weather_text": "汕头：多云 29°C",
-  "total_count": 8,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "英国出台对俄新一轮制裁",
-      "reason": "俄乌冲突升级的最新制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-08/10709418.shtml"
+      "title": "巴拿马7.6级地震",
+      "reason": "中方暂无人员伤亡",
+      "link": "http://www.chinanews.com.cn/gj/shipin/2026/10-10/news1071396.shtml"
     },
     {
-      "title": "美国30年期贷款利率升至7.4%",
-      "reason": "美国长期贷款成本创三年新高",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-09/10709426.shtml"
+      "title": "美制裁国际刑事法院",
+      "reason": "多国联名反对",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710034.shtml"
     },
     {
-      "title": "Liquid AI 开源 d1 ...",
-      "reason": "单次判断8毫秒，支持图像输入",
-      "link": "https://www.ithome.com/1/010/946.htm"
+      "title": "俄美达成柴油贸易协议",
+      "reason": "放松对俄制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710083.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "英对俄新制裁生效",
-      "summary": "英国宣布对俄罗斯实施新一轮制裁措施",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-08/10709418.shtml"
+      "short_title": "巴拿马7.6级地震 中方无伤亡",
+      "summary": "巴拿马发生7.6级强震，中国驻巴使馆称暂无中方人员伤...",
+      "link": "http://www.chinanews.com.cn/gj/shipin/2026/10-10/news1071396.shtml"
+    },
+    {
+      "category": "突发新闻",
+      "short_title": "迪拜航空副驾驶企图自杀式袭击",
+      "summary": "阿联酋检方称副驾驶企图驾机自杀式袭击，欲造成大量伤亡...",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710116.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "央行阐明人民币汇率立场",
-      "summary": "不设目标水平，保持弹性双向浮动",
-      "link": "https://wap.eastmoney.com/a/202610093890041041.html"
+      "short_title": "人社部：2030技能人才占比35%",
+      "summary": "人社部目标2030年技能人才占就业比例提升至35%。",
+      "link": "https://www.chinanews.com.cn/sh/2026/10-10/10710125.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "北部湾港汽车出口破纪录",
-      "summary": "单航次滚装汽车出口创中东新通道",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-08/10709405.shtml"
+      "short_title": "央行10月10日逆回购为零",
+      "summary": "中国人民银行10月10日7天期逆回购操作量为零。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-10/10710027.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中方警告乌克兰危机别升级",
+      "summary": "中方强调乌克兰危机不能继续升级失控。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10709976.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Liquid AI开源决策模型",
-      "summary": "单次判断8毫秒，支持图像输入",
-      "link": "https://www.ithome.com/1/010/946.htm"
+      "short_title": "AI巨头助美企三季盈利大增",
+      "summary": "AI公司推动标普500成分股三季度盈利预计同比增长超...",
+      "link": "https://www.ithome.com/1/011/336.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "德国调高2026年增长预期",
-      "summary": "政府上调2026年经济增长预期",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-08/10709416.shtml"
+      "short_title": "美宣布制裁国际刑事法院",
+      "summary": "美国对国际刑事法院实施制裁，多国及联合国秘书长发声反...",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710034.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本高市减税遭质疑",
-      "summary": "民众对减税政策信任度下降",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-09/10709537.shtml"
+      "short_title": "也门局势升级 美难以介入",
+      "summary": "也门冲突加剧，沙特求助多国，美国称难以开辟新战线。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10709977.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "美30年期贷款利率升至7.4%",
-      "summary": "创近三年最高水平",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-09/10709426.shtml"
+      "short_title": "俄美就柴油贸易达成一致",
+      "summary": "俄美同意放宽柴油贸易限制，美方放松对俄相关制裁。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710083.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股超4300只跌三指数收跌",
-      "summary": "三大指数集体收跌，市场承压",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-09/10709553.shtml"
+      "short_title": "商务部解读中欧贸易磋商成果",
+      "summary": "商务部欧洲司负责人阐述中欧贸易投资磋商第二次例会的主...",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-10/10710144.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "91.66",
+      "pct": -0.20685900925421635,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,220.30",
+      "pct": 0.09486990963641107,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -95,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-10-09 14:33:23"
+  "updated_at": "2026-10-10 14:15:51"
 }

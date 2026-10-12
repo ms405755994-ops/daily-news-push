@@ -1,73 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年10月11日 星期日（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年10月11日 星期日（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年10月12日 星期一（农历二月初一）｜汕头：晴 30°C",
+  "date_text": "2026年10月12日 星期一（农历二月初一）",
   "weather_text": "汕头：晴 30°C",
-  "total_count": 8,
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国宾州大规模枪击致9死",
-      "reason": "美国突发枪击，死亡人数上升",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710826.shtml"
+      "title": "特朗普称俄乌能源停火",
+      "reason": "突发国际局势，俄乌冲突新进展",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711188.shtml"
     },
     {
-      "title": "美国制裁国际刑事法院",
-      "reason": "美对国际司法机构加压",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E5%9B%BD%E5%88%B6%E8%A3%81%E5%9B%BD%E9%99%85%E5%88%91%E4%BA%8B%E6%B3%95%E9%99%A2-%E7%BB%A7%E7%BB%AD%E6%8E%A8%E8%BF%9B%E7%93%A6%E8%A7%A3%E8%A1%8C%E5%8A%A8/a-79628741"
+      "title": "A股超4000只跌，三大指数收跌",
+      "reason": "金融市场大幅回调，指数集体下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-12/10711920.shtml"
     },
     {
-      "title": "尼古拉斯·凯奇拒签AI协议",
-      "reason": "AI版权争议引明星抵制",
-      "link": "https://www.ithome.com/1/011/592.htm"
+      "title": "惠普AI移动工作站开售",
+      "reason": "AI硬件新品发布，性能大幅提升",
+      "link": "https://www.ithome.com/1/011/865.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美宾州大规模枪击致9死",
-      "summary": "宾州枪击已致9人死亡，现场仍在调查。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710826.shtml"
+      "short_title": "特朗普称俄乌能源停火",
+      "summary": "美促停火，俄乌同意，乌克兰未在桌边",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711188.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "以色列空袭加沙致5死多人伤",
-      "summary": "加沙地区空袭造成5人死亡，多人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710847.shtml"
+      "short_title": "腾讯停运《全境封锁2》",
+      "summary": "国服将于12月14日关闭，停止充值",
+      "link": "https://www.ithome.com/1/011/870.htm"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "宁夏农民丰收节歌赛决赛",
-      "summary": "2026农民丰收节村歌大赛总决赛在宁夏闽宁镇举行。",
-      "link": "https://www.chinanews.com.cn/sh/2026/10-11/10710949.shtml"
+      "short_title": "工博会聚焦机器人智造",
+      "summary": "机器人技术成展会亮点，推动制造升级",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-12/10711909.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "美制裁国际刑事法院继续推进",
-      "summary": "美国对国际刑事法院实施新一轮制裁。",
-      "link": "https://www.dw.com/zh/%E7%BE%8E%E5%9B%BD%E5%88%B6%E8%A3%81%E5%9B%BD%E9%99%85%E5%88%91%E4%BA%8B%E6%B3%95%E9%99%A2-%E7%BB%A7%E7%BB%AD%E6%8E%A8%E8%BF%9B%E7%93%A6%E8%A7%A3%E8%A1%8C%E5%8A%A8/a-79628741"
+      "short_title": "冈比亚开展疟疾防治战",
+      "summary": "当地疫情严峻，国际组织援助加强",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711959.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "俄军袭击乌克兰扎波罗热致12死",
-      "summary": "扎波罗热地区遭俄军袭击，致12人死亡、14人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710791.shtml"
+      "short_title": "伊朗称美回应不充分",
+      "summary": "伊方称美接受部分条件仍不足",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711164.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "尼古拉斯·凯奇拒签AI授权",
-      "summary": "凯奇称不再与亚马逊合作，拒签《暗影蜘蛛侠》AI协议。",
-      "link": "https://www.ithome.com/1/011/592.htm"
+      "short_title": "惠普发布AI工作站",
+      "summary": "搭载AMD锐龙CPU和RTX显卡，售价21999元",
+      "link": "https://www.ithome.com/1/011/865.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "无问芯穹获23亿元C轮",
+      "summary": "单轮融资创中国AI基础设施最高纪录",
+      "link": "https://www.ithome.com/1/011/849.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "多国战机集结沙特或围剿胡塞",
-      "summary": "多国战机携导弹进入沙特领空，胡塞武装或面临围攻。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-11/10710867.shtml"
+      "short_title": "新西兰前总理赞中国合作",
+      "summary": "称中国是亚太重要连接者",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711849.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "普京向特朗普转达伊朗冲突构想",
-      "summary": "俄媒称普京向特朗普传递伊朗提出的冲突解决方案。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-10/10710798.shtml"
+      "category": "金融重点",
+      "short_title": "A股午后普遍下跌",
+      "summary": "超4000只个股跌，三大指数收跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-12/10711920.shtml"
     }
   ],
   "futures": [
@@ -107,5 +113,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-11 14:17:28"
+  "updated_at": "2026-10-12 14:24:27"
 }

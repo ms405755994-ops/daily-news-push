@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年10月12日 星期一（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年10月12日 星期一（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年10月13日 星期二（农历二月初一）｜汕头：晴 30°C",
+  "date_text": "2026年10月13日 星期二（农历二月初一）",
   "weather_text": "汕头：晴 30°C",
-  "total_count": 9,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "特朗普称俄乌能源停火",
-      "reason": "突发国际局势，俄乌冲突新进展",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711188.shtml"
+      "title": "韩国仁川持刀伤人 8人受伤",
+      "reason": "突发持刀袭击，伤者已达8人",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10713673.shtml"
     },
     {
-      "title": "A股超4000只跌，三大指数收跌",
-      "reason": "金融市场大幅回调，指数集体下跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-12/10711920.shtml"
+      "title": "A股三大指数集体收跌",
+      "reason": "近3500只个股飘绿，市场回调",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713618.shtml"
     },
     {
-      "title": "惠普AI移动工作站开售",
-      "reason": "AI硬件新品发布，性能大幅提升",
-      "link": "https://www.ithome.com/1/011/865.htm"
+      "title": "湖南湘江AI短剧出海",
+      "reason": "全链条协同，推动内容走向海外",
+      "link": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "特朗普称俄乌能源停火",
-      "summary": "美促停火，俄乌同意，乌克兰未在桌边",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711188.shtml"
+      "short_title": "美国女演员机上袭击被捕",
+      "summary": "女演员塞尔玛·布莱尔在航班上袭击空乘被警方逮捕。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10713616.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "腾讯停运《全境封锁2》",
-      "summary": "国服将于12月14日关闭，停止充值",
-      "link": "https://www.ithome.com/1/011/870.htm"
+      "short_title": "韩国仁川持刀伤人致8伤",
+      "summary": "仁川持刀袭击致至少8人受伤，警方已介入调查。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10713673.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "工博会聚焦机器人智造",
-      "summary": "机器人技术成展会亮点，推动制造升级",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-12/10711909.shtml"
+      "short_title": "英召见伊朗大使并制裁两人",
+      "summary": "英国召见伊朗驻英大使，制裁两名伊朗籍人士。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10712363.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "冈比亚开展疟疾防治战",
-      "summary": "当地疫情严峻，国际组织援助加强",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711959.shtml"
+      "short_title": "巴拿马南海域6.1级地震",
+      "summary": "巴拿马以南海域发生6.1级地震，震源深度10公里。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10712361.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "伊朗称美回应不充分",
-      "summary": "伊方称美接受部分条件仍不足",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711164.shtml"
+      "short_title": "朝鲜试射战术弹道导弹",
+      "summary": "朝鲜发布试射战术弹道导弹视频，引发地区关注。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10712352.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "惠普发布AI工作站",
-      "summary": "搭载AMD锐龙CPU和RTX显卡，售价21999元",
-      "link": "https://www.ithome.com/1/011/865.htm"
+      "short_title": "杭州2026机器人大赛开赛",
+      "summary": "2026机器人大赛在杭州启动，具身智能赛项受关注。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713511.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "无问芯穹获23亿元C轮",
-      "summary": "单轮融资创中国AI基础设施最高纪录",
-      "link": "https://www.ithome.com/1/011/849.htm"
+      "short_title": "湘江新区AI短剧出海观察",
+      "summary": "湖南湘江新区全链条协同推动AI短剧走向海外。",
+      "link": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "新西兰前总理赞中国合作",
-      "summary": "称中国是亚太重要连接者",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-12/10711849.shtml"
+      "short_title": "特朗普倡议俄乌能源停火",
+      "summary": "特朗普宣布俄乌能源停火，欧盟英法德等表态支持。",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261012-%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E4%BF%84%E4%B9%8B-%E8%83%BD%E6%BA%90%E5%81%9C%E7%81%AB-%E6%AC%A7%E7%9B%9F%E8%8B%B1%E6%B3%95%E5%BE%B7%E5%8A%A0%E6%BE%B3%E9%83%BD%E8%A1%A8%E6%80%81%E6%94%AF%E6%8C%81"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后普遍下跌",
-      "summary": "超4000只个股跌，三大指数收跌",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-12/10711920.shtml"
+      "short_title": "A股午后三大指数集体下跌",
+      "summary": "近3500只个股跌绿，沪深指数午后全线收跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713618.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "央行首次阐明人民币汇率立场",
+      "summary": "央行系统阐释人民币汇率政策，强调稳健预期。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713581.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-12 14:24:27"
+  "updated_at": "2026-10-13 15:04:19"
 }

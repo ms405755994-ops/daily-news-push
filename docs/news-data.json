@@ -1,101 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年10月13日 星期二（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年10月13日 星期二（农历二月初一）",
-  "weather_text": "汕头：晴 30°C",
+  "title": "MSAI今日新闻｜2026年10月14日 星期三（农历二月初一）｜汕头：多云 30°C",
+  "date_text": "2026年10月14日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 30°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "韩国仁川持刀伤人 8人受伤",
-      "reason": "突发持刀袭击，伤者已达8人",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10713673.shtml"
+      "title": "高超音速导弹拦截难点",
+      "reason": "高超音速武器拦截难，地区安全受威胁",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714134.shtml"
     },
     {
-      "title": "A股三大指数集体收跌",
-      "reason": "近3500只个股飘绿，市场回调",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713618.shtml"
+      "title": "伊朗袭击霍尔木兹海峡船只",
+      "reason": "波斯湾石油出口受威胁，局势紧张",
+      "link": "https://m.sohu.com/a/1087357325_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334"
     },
     {
-      "title": "湖南湘江AI短剧出海",
-      "reason": "全链条协同，推动内容走向海外",
-      "link": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
+      "title": "美国9月成屋销售下降 房价连涨",
+      "reason": "美国房市降温，成屋销量下滑",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714122.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国女演员机上袭击被捕",
-      "summary": "女演员塞尔玛·布莱尔在航班上袭击空乘被警方逮捕。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10713616.shtml"
+      "short_title": "伊朗袭击霍尔木兹海峡船只",
+      "summary": "波斯湾石油出口复苏受新威胁",
+      "link": "https://m.sohu.com/a/1087357325_122014422?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334"
     },
     {
       "category": "突发新闻",
-      "short_title": "韩国仁川持刀伤人致8伤",
-      "summary": "仁川持刀袭击致至少8人受伤，警方已介入调查。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10713673.shtml"
+      "short_title": "高超音速导弹拦截难 沙特受袭",
+      "summary": "沙特遭遇拦截难题凸显导弹威胁",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714134.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "英召见伊朗大使并制裁两人",
-      "summary": "英国召见伊朗驻英大使，制裁两名伊朗籍人士。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10712363.shtml"
+      "short_title": "两岸进出口增30.3%",
+      "summary": "前三季度两岸贸易额同比增长30.3%",
+      "link": "https://www.chinanews.com.cn/gn/2026/10-14/10714306.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "巴拿马南海域6.1级地震",
-      "summary": "巴拿马以南海域发生6.1级地震，震源深度10公里。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10712361.shtml"
+      "short_title": "泽连斯基访英获新军援",
+      "summary": "乌克兰总统将访英，英方承诺新一轮军援",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714110.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "朝鲜试射战术弹道导弹",
-      "summary": "朝鲜发布试射战术弹道导弹视频，引发地区关注。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-13/10712352.shtml"
+      "short_title": "美国成屋销售降2.2% 房价涨39月",
+      "summary": "9月美国成屋销售同比下降，房价已连涨39个月",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714122.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "杭州2026机器人大赛开赛",
-      "summary": "2026机器人大赛在杭州启动，具身智能赛项受关注。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713511.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "湘江新区AI短剧出海观察",
-      "summary": "湖南湘江新区全链条协同推动AI短剧走向海外。",
-      "link": "https://www.chinanews.com.cn/cul/2026/10-13/10713666.shtml"
+      "short_title": "雷神ZERO Air 15双十一促销",
+      "summary": "1.54kg轻量机身搭载RTX 5060，性能突破",
+      "link": "https://www.ithome.com/1/012/769.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普倡议俄乌能源停火",
-      "summary": "特朗普宣布俄乌能源停火，欧盟英法德等表态支持。",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261012-%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E4%BF%84%E4%B9%8B-%E8%83%BD%E6%BA%90%E5%81%9C%E7%81%AB-%E6%AC%A7%E7%9B%9F%E8%8B%B1%E6%B3%95%E5%BE%B7%E5%8A%A0%E6%BE%B3%E9%83%BD%E8%A1%A8%E6%80%81%E6%94%AF%E6%8C%81"
+      "short_title": "美军掌控霍尔木兹海峡",
+      "summary": "美中央司令部称该海峡由美军及伙伴掌控",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714101.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "巴布亚新几内亚6级地震",
+      "summary": "巴布亚新几内亚发生6.0级地震，暂无人员报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-14/10714100.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后三大指数集体下跌",
-      "summary": "近3500只个股跌绿，沪深指数午后全线收跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713618.shtml"
+      "short_title": "A股午评超3600股飘绿",
+      "summary": "沪指收涨，深指、创业板指收跌，超3600只个股下跌",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714295.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "央行首次阐明人民币汇率立场",
-      "summary": "央行系统阐释人民币汇率政策，强调稳健预期。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-13/10713581.shtml"
+      "short_title": "黄金周出行样本解读",
+      "summary": "分析黄金周出行数据，揭示消费迭代规律",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-14/10714236.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "94.82",
+      "pct": 0.7223284469938311,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,184.20",
+      "pct": 0.16517846455843813,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-10-13 15:04:19"
+  "updated_at": "2026-10-14 13:15:50"
 }

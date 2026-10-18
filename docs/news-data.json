@@ -1,79 +1,79 @@
 {
-  "title": "MSAI今日新闻｜2026年10月17日 星期六（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年10月17日 星期六（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
+  "title": "MSAI今日新闻｜2026年10月18日 星期日（农历二月初一）｜汕头：晴 32°C",
+  "date_text": "2026年10月18日 星期日（农历二月初一）",
+  "weather_text": "汕头：晴 32°C",
   "total_count": 9,
   "hotspots": [
     {
-      "title": "泽连斯基再访欧盟要钱要导弹",
-      "reason": "欧盟援助争议引发国际关注",
-      "link": "https://www.cls.cn/detail/2507335"
+      "title": "万米高空惊魂：自杀式袭击失败",
+      "reason": "高空恐怖袭击未遂，引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716594.shtml"
     },
     {
-      "title": "美国财年预算赤字近2万亿美元",
-      "reason": "美国财政赤字扩大影响全球市场",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-17/10716072.shtml"
+      "title": "特朗普豁免俄制裁关税",
+      "reason": "美国放宽俄制裁，影响全球局势",
+      "link": "https://www.voachinese.com/a/trump-waives-key-russia-sanctions-tariffs-before-they-take-effect-under-new-law-20261017/8212284.html"
     },
     {
-      "title": "AI+文化旅游试点项目确定",
-      "reason": "AI融合文化旅游推动产业创新",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716015.shtml"
+      "title": "AI预测美国GDP大幅增长",
+      "reason": "AI将提升美国经济近半",
+      "link": "https://www.ithome.com/1/014/483.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "泽连斯基再访欧盟 要求资金与导弹",
-      "summary": "欧盟内部意见分歧，援助前景不明",
-      "link": "https://www.cls.cn/detail/2507335"
+      "short_title": "万米高空自杀式袭击未遂",
+      "summary": "高空飞机遭恐怖袭击未遂，未造成人员伤亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716594.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "也门亚丁机场遭袭 联军拦截导弹",
-      "summary": "沙特主导联军称成功拦截多枚导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-17/10716092.shtml"
+      "short_title": "纽约枪击致一人死亡",
+      "summary": "纽约市中心发生枪击，造成一名男子死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716506.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "昆山机器人6S店展示中国智造",
-      "summary": "中外记者现场体验智能制造新模式",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716080.shtml"
+      "short_title": "广交会机器人获外商订单",
+      "summary": "机器人企业在广交会现场获多家境外客商下单。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-18/10716564.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "浙江机器人进厂打工前景探讨",
-      "summary": "观察机器人替代人工的可行性与挑战",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716175.shtml"
+      "short_title": "山灵SM50耳放正式开售",
+      "summary": "山灵推出SM50前级耳放，搭载ES9039Q2M D...",
+      "link": "https://www.ithome.com/1/014/465.htm"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "上半年全球人形机器人出货超2万台",
-      "summary": "报告显示需求增长推动出货量创新高",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716044.shtml"
+      "short_title": "华为WATCH FIT5发布 支持预...",
+      "summary": "华为发布WATCH FIT5，搭载HarmonyOS...",
+      "link": "https://www.ithome.com/1/014/447.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "AI Cloud 100榜单出炉 物...",
-      "summary": "物理AI企业表现突出 成年度最大黑马",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-16/10716010.shtml"
+      "short_title": "《AI时代银龄生活观察》发布",
+      "summary": "报告探讨AI环境下老年生活新趋势与挑战。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-18/10716555.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI+文旅14项目获批 推动智能旅游",
-      "summary": "官方确定试点促进AI在文化旅游融合",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-17/10716015.shtml"
+      "short_title": "AI将助美GDP增50%",
+      "summary": "Anthropic联合创始人预测2030年AI助美国...",
+      "link": "https://www.ithome.com/1/014/483.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "马来西亚发布六款本土芯片",
-      "summary": "本土研发提升东南亚半导体自主能力",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-16/10715965.shtml"
+      "short_title": "多艘违规油轮起火 伊朗警告航道",
+      "summary": "伊朗海军警告油轮违规穿越霍尔木兹海峡并发生火灾。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716583.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "美国2026财年预算赤字近2万亿美元",
-      "summary": "赤字规模创历史新高 同比增12%",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-17/10716072.shtml"
+      "category": "国际/宏观重点",
+      "short_title": "特朗普豁免俄制裁 引泽连斯基遗憾",
+      "summary": "特朗普免除对俄新制裁和关税，泽连斯基表达遗憾。",
+      "link": "https://www.voachinese.com/a/trump-waives-key-russia-sanctions-tariffs-before-they-take-effect-under-new-law-20261017/8212284.html"
     }
   ],
   "futures": [
@@ -113,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-17 12:54:12"
+  "updated_at": "2026-10-18 13:00:14"
 }

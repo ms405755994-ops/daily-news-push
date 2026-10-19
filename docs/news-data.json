@@ -1,94 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年10月18日 星期日（农历二月初一）｜汕头：晴 32°C",
-  "date_text": "2026年10月18日 星期日（农历二月初一）",
-  "weather_text": "汕头：晴 32°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年10月19日 星期一（农历二月初一）｜汕头：晴 31°C",
+  "date_text": "2026年10月19日 星期一（农历二月初一）",
+  "weather_text": "汕头：晴 31°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "万米高空惊魂：自杀式袭击失败",
-      "reason": "高空恐怖袭击未遂，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716594.shtml"
+      "title": "乌克兰首都基辅响起强烈爆炸声",
+      "reason": "基辅爆炸，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716915.shtml"
     },
     {
-      "title": "特朗普豁免俄制裁关税",
-      "reason": "美国放宽俄制裁，影响全球局势",
-      "link": "https://www.voachinese.com/a/trump-waives-key-russia-sanctions-tariffs-before-they-take-effect-under-new-law-20261017/8212284.html"
+      "title": "俄罗斯多地遭大规模无人机袭击",
+      "reason": "俄境无人机攻击升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716676.shtml"
     },
     {
-      "title": "AI预测美国GDP大幅增长",
-      "reason": "AI将提升美国经济近半",
-      "link": "https://www.ithome.com/1/014/483.htm"
+      "title": "9月中国原油生产增速加快",
+      "reason": "原油产量提升，市场关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717089.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "万米高空自杀式袭击未遂",
-      "summary": "高空飞机遭恐怖袭击未遂，未造成人员伤亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716594.shtml"
+      "short_title": "乌克兰基辅爆炸声响起",
+      "summary": "基辅市中心传来强烈爆炸，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716915.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "纽约枪击致一人死亡",
-      "summary": "纽约市中心发生枪击，造成一名男子死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716506.shtml"
+      "short_title": "俄罗斯多地遭大规模无人机袭击",
+      "summary": "俄境内多省受无人机攻击，防空系统紧急应对",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716676.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "广交会机器人获外商订单",
-      "summary": "机器人企业在广交会现场获多家境外客商下单。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-18/10716564.shtml"
+      "short_title": "海南自贸港全岛封关启动",
+      "summary": "发改委官员称将高水平推进全岛封关运作",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717023.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "山灵SM50耳放正式开售",
-      "summary": "山灵推出SM50前级耳放，搭载ES9039Q2M D...",
-      "link": "https://www.ithome.com/1/014/465.htm"
+      "short_title": "广东2030年林产值超1200亿元",
+      "summary": "广东公布经济林发展目标，力争实现高质量增长",
+      "link": "https://www.chinanews.com.cn/dwq/2026/10-19/10717063.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "华为WATCH FIT5发布 支持预...",
-      "summary": "华为发布WATCH FIT5，搭载HarmonyOS...",
-      "link": "https://www.ithome.com/1/014/447.htm"
+      "short_title": "机器人勇士挑战赛北京亦庄开赛",
+      "summary": "全国29支队伍现场竞技，展示机器人创新技术",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10716992.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "《AI时代银龄生活观察》发布",
-      "summary": "报告探讨AI环境下老年生活新趋势与挑战。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-18/10716555.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI将助美GDP增50%",
-      "summary": "Anthropic联合创始人预测2030年AI助美国...",
-      "link": "https://www.ithome.com/1/014/483.htm"
+      "short_title": "六小龄童谈AI改编孙悟空林黛玉",
+      "summary": "AI创意有趣，但需遵守政策法规和观众红线",
+      "link": "https://www.ithome.com/1/014/753.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "多艘违规油轮起火 伊朗警告航道",
-      "summary": "伊朗海军警告油轮违规穿越霍尔木兹海峡并发生火灾。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716583.shtml"
+      "short_title": "俄乌能源停火受阻 美转向伊朗施压",
+      "summary": "美国调转矛头，伊朗仍可就七日方案展开谈判",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716922.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普豁免俄制裁 引泽连斯基遗憾",
-      "summary": "特朗普免除对俄新制裁和关税，泽连斯基表达遗憾。",
-      "link": "https://www.voachinese.com/a/trump-waives-key-russia-sanctions-tariffs-before-they-take-effect-under-new-law-20261017/8212284.html"
+      "short_title": "特朗普支持内塔尼亚胡连任",
+      "summary": "美国前总统公开发文，助力以色列大选",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716920.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午后超3800只个股飘绿",
+      "summary": "沪指收涨，深指与创业板收跌，市场波动加剧",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717079.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "9月中国原油生产增速加快",
+      "summary": "原油产量提升，显示能源供应改善趋势",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717089.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "101.84",
-      "pct": 0.42402129967459506,
-      "trend": "up"
+      "price": "97.44",
+      "pct": -1.5956372450010081,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,186.70",
-      "pct": 0.13393604553824243,
+      "price": "4,200.22",
+      "pct": 0.45729592690918397,
       "trend": "up"
     },
     {
@@ -113,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-18 13:00:14"
+  "updated_at": "2026-10-19 13:07:15"
 }

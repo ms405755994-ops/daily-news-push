@@ -1,101 +1,97 @@
 {
-  "title": "MSAI今日新闻｜2026年10月19日 星期一（农历二月初一）｜汕头：晴 31°C",
-  "date_text": "2026年10月19日 星期一（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年10月20日 星期二（农历二月初一）｜汕头：晴 31°C",
+  "date_text": "2026年10月20日 星期二（农历二月初一）",
   "weather_text": "汕头：晴 31°C",
-  "total_count": 10,
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "乌克兰首都基辅响起强烈爆炸声",
-      "reason": "基辅爆炸，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716915.shtml"
-    },
-    {
-      "title": "俄罗斯多地遭大规模无人机袭击",
-      "reason": "俄境无人机攻击升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716676.shtml"
-    },
-    {
-      "title": "9月中国原油生产增速加快",
-      "reason": "原油产量提升，市场关注",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717089.shtml"
+      "title": "卢比奥：美国希望结束俄乌战争",
+      "reason": "美议结束俄乌冲突，突发",
+      "link": "https://www.voachinese.com/a/rubio-says-us-wants-to-bring-end-to-russia-ukraine-war-20261019/8212810.html"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "乌克兰基辅爆炸声响起",
-      "summary": "基辅市中心传来强烈爆炸，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716915.shtml"
+      "short_title": "俄称击落405架乌军无人机",
+      "summary": "俄方称已击落405架乌克兰无人机",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10717576.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "俄罗斯多地遭大规模无人机袭击",
-      "summary": "俄境内多省受无人机攻击，防空系统紧急应对",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-18/10716676.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "海南自贸港全岛封关启动",
-      "summary": "发改委官员称将高水平推进全岛封关运作",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717023.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "广东2030年林产值超1200亿元",
-      "summary": "广东公布经济林发展目标，力争实现高质量增长",
-      "link": "https://www.chinanews.com.cn/dwq/2026/10-19/10717063.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "机器人勇士挑战赛北京亦庄开赛",
-      "summary": "全国29支队伍现场竞技，展示机器人创新技术",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10716992.shtml"
+      "short_title": "哥伦比亚黑鹰坠机 15人全生还",
+      "summary": "哥伦比亚黑鹰坠毁 15人全生还",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10717559.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "六小龄童谈AI改编孙悟空林黛玉",
-      "summary": "AI创意有趣，但需遵守政策法规和观众红线",
-      "link": "https://www.ithome.com/1/014/753.htm"
+      "short_title": "AI赋能电影工业新质生产力",
+      "summary": "AI技术推动影视产业实现新质生产力",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717515.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "俄乌能源停火受阻 美转向伊朗施压",
-      "summary": "美国调转矛头，伊朗仍可就七日方案展开谈判",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716922.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "特朗普支持内塔尼亚胡连任",
-      "summary": "美国前总统公开发文，助力以色列大选",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-19/10716920.shtml"
+      "category": "AI重点",
+      "short_title": "吴清谈资产、市场与AI浪潮",
+      "summary": "吴清阐述中国资产、市场稳定及AI趋势",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34282373"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后超3800只个股飘绿",
-      "summary": "沪指收涨，深指与创业板收跌，市场波动加剧",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717079.shtml"
+      "short_title": "A股午后超3900只飘红",
+      "summary": "沪指收跌 深指、创业板收涨 超3900股涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-20/10717708.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "9月中国原油生产增速加快",
-      "summary": "原油产量提升，显示能源供应改善趋势",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-19/10717089.shtml"
+      "short_title": "潘功胜谈货币政策与AI影响",
+      "summary": "潘功胜阐述货币政策框架、汇率与AI影响",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34282221"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "美原油储备降至1982年最低",
+      "summary": "美国战略石油储备原油库存创近四十年新低",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10717571.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "安理会通过儿童数字保护决议",
+      "summary": "安理会全票通过防止数字技术侵害冲突儿童",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10717560.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "卢比奥称美欲结束俄乌战争",
+      "summary": "卢比奥表示美国希望促成俄乌冲突结束",
+      "link": "https://www.voachinese.com/a/rubio-says-us-wants-to-bring-end-to-russia-ukraine-war-20261019/8212810.html"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "特朗普建议更换乌克兰谈判代表",
+      "summary": "特朗普称应换除泽连斯基外的乌克兰代表",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10717553.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "泽连斯基称俄无人机致6死14伤",
+      "summary": "俄无人机袭击哈尔科夫公园致多人伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10717550.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "97.44",
-      "pct": -1.5956372450010081,
-      "trend": "down"
+      "price": "98.82",
+      "pct": 0.284148569108978,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,200.22",
-      "pct": 0.45729592690918397,
-      "trend": "up"
+      "price": "4,158.01",
+      "pct": -0.05023917694286544,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +115,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-19 13:07:15"
+  "updated_at": "2026-10-20 13:10:33"
 }

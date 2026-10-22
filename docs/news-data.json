@@ -1,100 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年10月21日 星期三（农历二月初一）｜汕头：晴 34°C",
-  "date_text": "2026年10月21日 星期三（农历二月初一）",
-  "weather_text": "汕头：晴 34°C",
+  "title": "MSAI今日新闻｜2026年10月22日 星期四（农历二月初一）｜汕头：多云 31°C",
+  "date_text": "2026年10月22日 星期四（农历二月初一）",
+  "weather_text": "汕头：多云 31°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗新防长警告美别动武",
-      "reason": "突发，涉及伊朗美紧张局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-21/10718263.shtml"
+      "title": "乌克兰首都基辅遭弹道导弹袭击",
+      "reason": "基辅遭弹道导弹，局势紧张",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/10-22/1208515.shtml"
     },
     {
-      "title": "美以制裁中企商务部回应",
-      "reason": "突发，金融与制裁交叉",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718214.shtml"
+      "title": "美国制裁伊朗相关实体",
+      "reason": "美对伊朗实体实施制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718825.shtml"
     },
     {
-      "title": "GEO为大模型配参考书",
-      "reason": "AI进展，提升模型可信度",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718295.shtml"
+      "title": "A股午评：超3900只跌，三大指...",
+      "reason": "A股大幅下跌，市场波动加剧",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718957.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗防长警告美别动武",
-      "summary": "伊朗新防长称美国若动武将面临严厉回应。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-21/10718263.shtml"
+      "short_title": "基辅遭弹道导弹袭击",
+      "summary": "乌克兰首都遭导弹袭击，造成伤亡",
+      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/10-22/1208515.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美以制裁中企商务部回应",
-      "summary": "美以指控窃密制裁中企，中国商务部作出回应。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718214.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "习近平谈长征精神",
-      "summary": "习近平强调当代青年要走好自己的长征路。",
-      "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718387.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "乌克兰会谈在挪威举行",
-      "summary": "美特使将赴俄转达会谈内容，推动三方对话。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-21/10718221.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "新阶层新经济访谈",
-      "summary": "魏文锋谈让看不见的风险被看见，推动新经济发展。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718363.shtml"
+      "short_title": "沙特油田设施被无人机袭击",
+      "summary": "沙特油田遭无人机攻击，2死2伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718820.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI浪潮促两岸供应链融合",
-      "summary": "AI技术推动两岸产业链深度协同发展。",
-      "link": "https://www.chinanews.com.cn/gn/2026/10-21/10718361.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "GEO为大模型配参考书",
-      "summary": "GEO推出参考书功能提升大模型答案可靠性。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718295.shtml"
+      "short_title": "国际金融协会主席称AI将积极改变世界",
+      "summary": "安德慕表示AI将带来积极变革",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718923.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以军袭击致加沙4人死亡",
-      "summary": "以色列军方空袭加沙，造成4人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-20/10718157.shtml"
+      "short_title": "美国制裁伊朗关联多家外国实体",
+      "summary": "美方对伊朗相关企业实施新制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718825.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "波音737 MAX10获适航认证",
-      "summary": "美国FAA批准波音737 MAX10适航，提升交付前...",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-21/10718241.shtml"
+      "short_title": "伊朗最高领袖会见议长商议局势",
+      "summary": "伊朗领袖与议长讨论最新局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718838.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午评超2800只个股飘红",
-      "summary": "超2800只个股涨停，三大指数收跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-21/10718379.shtml"
+      "short_title": "A股午后超3900只个股下跌",
+      "summary": "三大指数收跌，市场情绪转弱",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718957.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "央行7天期逆回购操作量为零",
+      "summary": "10月22日央行逆回购无成交",
+      "link": "https://www.chinanews.com.cn/${mypath}/2008/01-22/4.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国体操女团夺世锦赛金牌",
+      "summary": "时隔20年再夺金牌，获洛杉矶奥运资格",
+      "link": "https://www.chinanews.com.cn/ty/2026/10-22/10718960.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "纺织业“黑色黄金”整线出口探讨",
+      "summary": "分析纺织业高端自主出口前景",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718844.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "老爸评测创始人魏文锋谈企业流量",
+      "summary": "魏文锋阐述流量与企业核心关系",
+      "link": "http://www.chinanews.com.cn/cj/shipin/2026/10-22/news1072620.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "99.03",
-      "pct": 1.2369658556532488,
+      "price": "99.05",
+      "pct": 1.9557385486361207,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,137.25",
-      "pct": -0.12914594698982193,
+      "price": "4,106.67",
+      "pct": -1.0440963855421668,
       "trend": "down"
     },
     {
@@ -119,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-21 13:13:01"
+  "updated_at": "2026-10-22 13:15:09"
 }

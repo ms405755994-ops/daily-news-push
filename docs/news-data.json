@@ -1,101 +1,95 @@
 {
-  "title": "MSAI今日新闻｜2026年10月22日 星期四（农历二月初一）｜汕头：多云 31°C",
-  "date_text": "2026年10月22日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 31°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年10月23日 星期五（农历二月初一）｜汕头：晴 31°C",
+  "date_text": "2026年10月23日 星期五（农历二月初一）",
+  "weather_text": "汕头：晴 31°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "乌克兰首都基辅遭弹道导弹袭击",
-      "reason": "基辅遭弹道导弹，局势紧张",
-      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/10-22/1208515.shtml"
+      "title": "西藏巴青7.0级地震",
+      "reason": "启动二级应急响应",
+      "link": "https://www.chinanews.com.cn/sh/2026/10-23/10719626.shtml"
     },
     {
-      "title": "美国制裁伊朗相关实体",
-      "reason": "美对伊朗实体实施制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718825.shtml"
+      "title": "美30年期贷款利率降至7.32%",
+      "reason": "8月首降，金融波动",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-23/10719470.shtml"
     },
     {
-      "title": "A股午评：超3900只跌，三大指...",
-      "reason": "A股大幅下跌，市场波动加剧",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718957.shtml"
+      "title": "汽车AI超级体“迪迪虾”上线",
+      "reason": "汽车AI新突破",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-23/10719529.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "基辅遭弹道导弹袭击",
-      "summary": "乌克兰首都遭导弹袭击，造成伤亡",
-      "link": "http://www.chinanews.com.cn/tp/hd2011/2026/10-22/1208515.shtml"
+      "short_title": "西藏巴青7.0级地震应急响应",
+      "summary": "地震为拉张型破裂，地震局启动二级响应。",
+      "link": "https://www.chinanews.com.cn/sh/2026/10-23/10719626.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "沙特油田设施被无人机袭击",
-      "summary": "沙特油田遭无人机攻击，2死2伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718820.shtml"
+      "short_title": "普京称重启俄美乌会谈非短暂停火",
+      "summary": "普京强调三方会谈旨在推动持久和平。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-23/10719453.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美国30年期贷款利率降至7.32%",
+      "summary": "8月以来首次下降，市场关注降息效应。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-23/10719470.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "A股午后超4800只个股飘绿",
+      "summary": "三大指数集体收跌，市场情绪偏弱。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-23/10719620.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "菲律宾央行加息50基点比索创新低",
+      "summary": "加息应对通胀，比索跌至历史最低水平。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-23/10719450.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "国际金融协会主席称AI将积极改变世界",
-      "summary": "安德慕表示AI将带来积极变革",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718923.shtml"
+      "short_title": "汽车行业首个AI体“迪迪虾”上车",
+      "summary": "实现玩转、搞定、聊得来，提升智能交互。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-23/10719529.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "日本EpicAI用AI加速车企评审",
+      "summary": "帮助车企跟上中国进度，提升研发效率。",
+      "link": "https://www.ithome.com/1/016/895.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美国制裁伊朗关联多家外国实体",
-      "summary": "美方对伊朗相关企业实施新制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718825.shtml"
+      "short_title": "特朗普致电马斯克要解除星链限制",
+      "summary": "要求解除对乌克兰星链的使用限制。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-23/10719465.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗最高领袖会见议长商议局势",
-      "summary": "伊朗领袖与议长讨论最新局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-22/10718838.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股午后超3900只个股下跌",
-      "summary": "三大指数收跌，市场情绪转弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718957.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "央行7天期逆回购操作量为零",
-      "summary": "10月22日央行逆回购无成交",
-      "link": "https://www.chinanews.com.cn/${mypath}/2008/01-22/4.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国体操女团夺世锦赛金牌",
-      "summary": "时隔20年再夺金牌，获洛杉矶奥运资格",
-      "link": "https://www.chinanews.com.cn/ty/2026/10-22/10718960.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "纺织业“黑色黄金”整线出口探讨",
-      "summary": "分析纺织业高端自主出口前景",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-22/10718844.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "老爸评测创始人魏文锋谈企业流量",
-      "summary": "魏文锋阐述流量与企业核心关系",
-      "link": "http://www.chinanews.com.cn/cj/shipin/2026/10-22/news1072620.shtml"
+      "short_title": "黄仁勋：英伟达与长鑫合作持开放态度",
+      "summary": "称没有哪个国家在制造业比中国更强。",
+      "link": "https://www.ithome.com/1/016/962.htm"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "99.05",
-      "pct": 1.9557385486361207,
-      "trend": "up"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,106.67",
-      "pct": -1.0440963855421668,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "大连棕榈油",
@@ -107,17 +101,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "7,287.00",
-      "pct": -0.03,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "8,072.00",
-      "pct": -0.26,
-      "trend": "down"
+      "price": "价格待更新",
+      "pct": null,
+      "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-22 13:15:09"
+  "updated_at": "2026-10-23 13:12:58"
 }

@@ -1,79 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年10月25日 星期日（农历二月初一）｜汕头：多云 30°C",
-  "date_text": "2026年10月25日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 30°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年10月26日 星期一（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年10月26日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "西藏巴青7.0级地震",
-      "reason": "西藏发生强震，局部受灾",
-      "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720618.shtml"
+      "title": "日本民众抗议导弹战争",
+      "reason": "日本民众示威反对导弹",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720895.shtml"
     },
     {
-      "title": "俄乌奥列什基停火谈判",
-      "reason": "美前总统施压，局势紧张",
-      "link": "https://www.dw.com/zh/%E4%BF%84%E4%B9%8C%E5%B0%86%E5%9C%A8%E5%A5%A5%E5%88%97%E4%BB%80%E5%9F%BA%E5%81%9C%E7%81%AB-%E7%89%B9%E6%9C%97%E6%99%AE%E6%96%BD%E5%8E%8B%E4%B9%8C%E5%85%8B%E5%85%B0%E8%BE%BE%E6%88%90%E4%BA%92%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A%E5%8D%95%E5%8F%8A"
+      "title": "沙特拦截胡塞导弹，机场部分恢复",
+      "reason": "中东局势紧张升级",
+      "link": "https://www.voachinese.com/a/saudi-says-riyadh-airport-partly-reopens-despite-renewed-houthi-threats-20261025/8215014.html"
     },
     {
-      "title": "AI智能体闯入美国银行",
-      "reason": "美国大行准备灾后预案",
-      "link": "https://www.ithome.com/1/017/562.htm"
+      "title": "快手1024嘉年华谈AI独立思考",
+      "reason": "AI产业热点活动",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-26/10720910.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "西藏巴青7.0级地震",
-      "summary": "地震局全力应急，发布技术图件",
-      "link": "https://www.chinanews.com.cn/gn/2026/10-25/10720618.shtml"
+      "short_title": "日本小笠原海域5.6级地震",
+      "summary": "深度500公里的中等强度地震发生",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720878.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本小笠原群岛7.0级海域地震",
-      "summary": "震源深度约480千米，暂无人员伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-25/10720593.shtml"
+      "short_title": "肯尼亚严重车祸致24人死亡",
+      "summary": "高速公路多车相撞，死亡人数升至24",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720946.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "俄乌奥列什基同步停火",
-      "summary": "特朗普施压，双方同意人道停火",
-      "link": "https://www.dw.com/zh/%E4%BF%84%E4%B9%8C%E5%B0%86%E5%9C%A8%E5%A5%A5%E5%88%97%E4%BB%80%E5%9F%BA%E5%81%9C%E7%81%AB-%E7%89%B9%E6%9C%97%E6%99%AE%E6%96%BD%E5%8E%8B%E4%B9%8C%E5%85%8B%E5%85%B0%E8%BE%BE%E6%88%90%E4%BA%A4%E6%98%93/a-79751006"
+      "short_title": "中共二十届五次全会在京开幕",
+      "summary": "会议审议经济社会发展重点议题",
+      "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721043.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "也门胡塞武装袭击沙特7次",
-      "summary": "多目标受袭，地区紧张局势升温",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-25/10720572.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美国公布新批UFO文件",
-      "summary": "无声3秒飞行2.4公里，引发关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-24/10720409.shtml"
+      "short_title": "自然资源部完成巴青地灾排查",
+      "summary": "震中50公里范围隐患点已清理",
+      "link": "https://www.chinanews.com.cn/sh/2026/10-26/10721016.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AIGC广告治理蓝皮书发布",
-      "summary": "倡导以AI治理AI，推动行业规范",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-24/10720487.shtml"
+      "short_title": "快手1024嘉年华强调AI独立思考",
+      "summary": "程一笑呼吁在AI时代保持思考",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-26/10720910.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI智能体闯入美国银行",
-      "summary": "大行制定灾后预案应对潜在风险",
-      "link": "https://www.ithome.com/1/017/562.htm"
+      "short_title": "阿波罗称AI未为美企业带真金",
+      "summary": "除七巨头外AI仍未盈利",
+      "link": "https://www.ithome.com/1/017/838.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "泽连斯基拒让领土换和平",
-      "summary": "坚持主权，冲突难以快速结束",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-25/10720541.shtml"
+      "short_title": "日本民众集会抗议导弹与战争",
+      "summary": "示威者高呼“不要导弹”",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720895.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "也门胡塞称沙特百次空袭",
-      "summary": "胡塞指责沙特大规模空袭，局势紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-25/10720542.shtml"
+      "short_title": "津巴布韦总统要求解除西方制裁",
+      "summary": "呼吁无条件解除所有制裁",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-25/10720864.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "农业银行全力支援巴青地震抢险",
+      "summary": "银行快速行动配合救灾工作",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-26/10720915.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "尼泊尔月度电力出口收入逾59亿卢比",
+      "summary": "对印电力收入创新高，孟供电恢复",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720938.shtml"
     }
   ],
   "futures": [
@@ -113,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-25 13:08:19"
+  "updated_at": "2026-10-26 13:10:25"
 }

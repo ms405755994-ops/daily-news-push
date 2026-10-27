@@ -1,85 +1,80 @@
 {
-  "title": "MSAI今日新闻｜2026年10月26日 星期一（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年10月26日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
+  "title": "MSAI今日新闻｜2026年10月27日 星期二（农历二月初一）｜汕头：晴 29°C",
+  "date_text": "2026年10月27日 星期二（农历二月初一）",
+  "weather_text": "汕头：天气待更新",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "日本民众抗议导弹战争",
-      "reason": "日本民众示威反对导弹",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720895.shtml"
+      "title": "约旦空军袭击叙利亚南部致7死3伤",
+      "reason": "中东局势升级，空袭致重大伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721551.shtml"
     },
     {
-      "title": "沙特拦截胡塞导弹，机场部分恢复",
-      "reason": "中东局势紧张升级",
-      "link": "https://www.voachinese.com/a/saudi-says-riyadh-airport-partly-reopens-despite-renewed-houthi-threats-20261025/8215014.html"
-    },
-    {
-      "title": "快手1024嘉年华谈AI独立思考",
-      "reason": "AI产业热点活动",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-26/10720910.shtml"
+      "title": "金观平：政策接续发力激发经济动能",
+      "reason": "政策连贯刺激经济，关注宏观走向",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721526.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "日本小笠原海域5.6级地震",
-      "summary": "深度500公里的中等强度地震发生",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720878.shtml"
+      "short_title": "约旦空袭叙利亚致7死3伤",
+      "summary": "约旦空军对叙利亚南部发动空袭，致7人死亡、3人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721551.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "肯尼亚严重车祸致24人死亡",
-      "summary": "高速公路多车相撞，死亡人数升至24",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720946.shtml"
+      "short_title": "日本福岛近海4.6级地震",
+      "summary": "福岛县近海4.6级地震，多个地区有震感，暂无人员伤亡...",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721547.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中共二十届五次全会在京开幕",
-      "summary": "会议审议经济社会发展重点议题",
-      "link": "https://www.chinanews.com.cn/gn/2026/10-26/10721043.shtml"
+      "short_title": "多地加快四季度项目建设",
+      "summary": "各地政策发力，推动四季度重大项目提速落实。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721560.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "自然资源部完成巴青地灾排查",
-      "summary": "震中50公里范围隐患点已清理",
-      "link": "https://www.chinanews.com.cn/sh/2026/10-26/10721016.shtml"
+      "short_title": "金观平称政策激发经济动能",
+      "summary": "金观平指出，持续政策将进一步释放经济活力。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721526.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "上海纪念长征90周年书画展开幕",
+      "summary": "上海统战部离退休干部举办长征主题书画展，弘扬红色精神...",
+      "link": "https://www.chinanews.com.cn/txy/2026/10-27/10721479.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "快手1024嘉年华强调AI独立思考",
-      "summary": "程一笑呼吁在AI时代保持思考",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-26/10720910.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "阿波罗称AI未为美企业带真金",
-      "summary": "除七巨头外AI仍未盈利",
-      "link": "https://www.ithome.com/1/017/838.htm"
+      "short_title": "马来西亚吸引500亿美元AI与数据中...",
+      "summary": "马来西亚总理称，国际资本将投入500亿美元发展AI与...",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10721427.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本民众集会抗议导弹与战争",
-      "summary": "示威者高呼“不要导弹”",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720895.shtml"
+      "short_title": "以色列议会选举内塔尼亚胡面临挑战",
+      "summary": "以色列大选临近，内塔尼亚胡与对手竞争激烈，局势胶着。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721459.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "津巴布韦总统要求解除西方制裁",
-      "summary": "呼吁无条件解除所有制裁",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-25/10720864.shtml"
+      "short_title": "美媒称美军准备再打击伊朗",
+      "summary": "美媒报道，美军已做好再次对伊朗进行大规模打击的准备。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721434.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "农业银行全力支援巴青地震抢险",
-      "summary": "银行快速行动配合救灾工作",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-26/10720915.shtml"
+      "short_title": "A股午后超3700只个股下跌指数收跌",
+      "summary": "今日A股市场表现弱势，逾3700只股票跌停，三大指数...",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721550.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "尼泊尔月度电力出口收入逾59亿卢比",
-      "summary": "对印电力收入创新高，孟供电恢复",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10720938.shtml"
+      "short_title": "阿里巴巴起诉美防部获初步胜诉",
+      "summary": "阿里巴巴在美法院取得阶段性胜利，法院叫停针对公司的禁...",
+      "link": "https://www.ithome.com/1/018/327.htm"
     }
   ],
   "futures": [
@@ -119,5 +114,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-26 13:10:25"
+  "updated_at": "2026-10-27 13:25:37"
 }

@@ -1,80 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年10月27日 星期二（农历二月初一）｜汕头：晴 29°C",
-  "date_text": "2026年10月27日 星期二（农历二月初一）",
-  "weather_text": "汕头：天气待更新",
+  "title": "MSAI今日新闻｜2026年10月28日 星期三（农历二月初一）｜汕头：多云 27°C",
+  "date_text": "2026年10月28日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 27°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "约旦空军袭击叙利亚南部致7死3伤",
-      "reason": "中东局势升级，空袭致重大伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721551.shtml"
+      "title": "美疾控报告：19种致超5万死亡",
+      "reason": "美国每年超5万人因病死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-28/10722079.shtml"
     },
     {
-      "title": "金观平：政策接续发力激发经济动能",
-      "reason": "政策连贯刺激经济，关注宏观走向",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721526.shtml"
+      "title": "A股飘红近4500只指数涨",
+      "reason": "三大指数集体收涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-28/10722117.shtml"
+    },
+    {
+      "title": "特朗普欲禁用AI改称SI",
+      "reason": "美政改名AI引关注",
+      "link": "https://www.ithome.com/1/018/819.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "约旦空袭叙利亚致7死3伤",
-      "summary": "约旦空军对叙利亚南部发动空袭，致7人死亡、3人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721551.shtml"
+      "short_title": "美国疾控报告致超5万人死亡",
+      "summary": "19种病原体每年夺走美国逾5万人生命",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-28/10722079.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本福岛近海4.6级地震",
-      "summary": "福岛县近海4.6级地震，多个地区有震感，暂无人员伤亡...",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721547.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "多地加快四季度项目建设",
-      "summary": "各地政策发力，推动四季度重大项目提速落实。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721560.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "金观平称政策激发经济动能",
-      "summary": "金观平指出，持续政策将进一步释放经济活力。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721526.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "上海纪念长征90周年书画展开幕",
-      "summary": "上海统战部离退休干部举办长征主题书画展，弘扬红色精神...",
-      "link": "https://www.chinanews.com.cn/txy/2026/10-27/10721479.shtml"
+      "short_title": "日本25式导弹首亮相大演习",
+      "summary": "日本新型地对舰导弹首次参加大规模军演",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-28/10722026.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "马来西亚吸引500亿美元AI与数据中...",
-      "summary": "马来西亚总理称，国际资本将投入500亿美元发展AI与...",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-26/10721427.shtml"
+      "short_title": "长沙探索AI轻创业新模式",
+      "summary": "“超级个体”聚集，推动AI低成本创业",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-28/10722134.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "特朗普拟禁用AI称呼改为SI",
+      "summary": "美国总统计划在文件中将AI改称超级智能",
+      "link": "https://www.ithome.com/1/018/819.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "以色列议会选举内塔尼亚胡面临挑战",
-      "summary": "以色列大选临近，内塔尼亚胡与对手竞争激烈，局势胶着。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721459.shtml"
+      "short_title": "伊朗油轮霍尔木兹海峡触雷起火",
+      "summary": "油轮在海峡东部触雷导致火灾，局势紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721918.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美媒称美军准备再打击伊朗",
-      "summary": "美媒报道，美军已做好再次对伊朗进行大规模打击的准备。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-27/10721434.shtml"
+      "short_title": "俄乌停火范围提前扩大",
+      "summary": "特朗普夫人称奥列什基停火提前生效并扩展",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-28/10721974.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股午后超3700只个股下跌指数收跌",
-      "summary": "今日A股市场表现弱势，逾3700只股票跌停，三大指数...",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-27/10721550.shtml"
+      "short_title": "A股午后普涨 创业板涨3%",
+      "summary": "近4500只个股飘红，三大指数全线上涨",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-28/10722117.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "阿里巴巴起诉美防部获初步胜诉",
-      "summary": "阿里巴巴在美法院取得阶段性胜利，法院叫停针对公司的禁...",
-      "link": "https://www.ithome.com/1/018/327.htm"
+      "category": "今日三大新闻",
+      "short_title": "韩国瑜称自己是中国人批台湾",
+      "summary": "韩国瑜再度强调身份，抨击台湾民主",
+      "link": "https://www.chinanews.com.cn/gn/2026/10-28/10722111.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "以色列大选民调两阵营未过半",
+      "summary": "出口民调显示组阁前景仍存悬念",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-28/10721968.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "广西香料产业向海发展新路径",
+      "summary": "经济观察报道广西产业探索海上升级",
+      "link": "https://www.chinanews.com.cn/aseaninfo/2026/10-28/10722136.shtml"
     }
   ],
   "futures": [
@@ -114,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-10-27 13:25:37"
+  "updated_at": "2026-10-28 14:06:00"
 }

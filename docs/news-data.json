@@ -1,106 +1,82 @@
 {
-  "title": "MSAI今日新闻｜2026年10月29日 星期四（农历二月初一）｜汕头：晴 27°C",
-  "date_text": "2026年10月29日 星期四（农历二月初一）",
-  "weather_text": "汕头：晴 27°C",
-  "total_count": 11,
+  "title": "MSAI今日新闻｜2026年10月30日 星期五（农历二月初一）｜汕头：晴 29°C",
+  "date_text": "2026年10月30日 星期五（农历二月初一）",
+  "weather_text": "汕头：晴 29°C",
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "古巴决议敦促美结束封锁",
-      "reason": "古巴议案促美解除封锁",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-29/10722497.shtml"
+      "title": "美国突发直升机相撞事故 致3人死...",
+      "reason": "美国直升机相撞致死，突发事故",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723283.shtml"
     },
     {
-      "title": "加拿大央行首次加息暗示收紧",
-      "reason": "央行加息或引发全球资金流动",
-      "link": "https://www.cls.cn/detail/2518436"
+      "title": "A股超2800只跌，三大指数收跌",
+      "reason": "A股大幅下跌，市场波动显著",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723235.shtml"
     },
     {
-      "title": "腾讯Visa战略合作含AI支付",
-      "reason": "跨境支付加AI提升企业效率",
-      "link": "https://www.ithome.com/1/019/425.htm"
+      "title": "昆仑万维AI短剧月流水近1亿美元",
+      "reason": "昆仑万维AI短剧收入突破亿美元",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723139.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "古巴欢迎联大决议敦促美结束封锁",
-      "summary": "联合国通过决议，呼吁美国解除对古巴的经济封锁。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-29/10722497.shtml"
+      "short_title": "徐福记携手妇女基金援助西藏地震",
+      "summary": "徐福记与妇女基金会向西藏巴青地震灾区捐赠物资。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723274.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本千叶5.4级地震东京有感",
-      "summary": "千叶东北部5.4级地震，东京居民感受到轻微震动。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-29/10722626.shtml"
+      "short_title": "美直升机相撞致3死",
+      "summary": "美国两架直升机相撞，造成3人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723283.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "A股午后近4700只个股飘绿",
-      "summary": "三大指数收跌，市场情绪转弱。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-29/10722642.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美联储议息夜科技股领涨",
-      "summary": "存储、液冷绩优股推动科技板块继续反弹。",
-      "link": "https://www.cls.cn/detail/2518310"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "青岛科创走廊吸引海外华文媒体",
-      "summary": "海外媒体走访青岛，展示中国智造出海活力。",
-      "link": "https://www.chinanews.com.cn/hr/2026/10-29/10722653.shtml"
+      "short_title": "山西大同绿电支撑算力，产值200亿元",
+      "summary": "山西大同利用绿电发展算力产业，核心产值超200亿元。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723177.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI微短剧推动中巴影视合作升温",
-      "summary": "短剧技术助力两国影视产业跨境合作。",
-      "link": "https://www.chinanews.com.cn/cul/2026/10-29/10722671.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "腾讯WorkBuddy覆盖中国500...",
-      "summary": "企业协同平台在国内大型企业中渗透率达50%。",
-      "link": "https://www.ithome.com/1/019/422.htm"
+      "short_title": "昆仑万维营收90亿，AI短剧破亿美元",
+      "summary": "前三季度营收近90亿元，AI短剧单月流水突破1亿美元...",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723139.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗准备退出核不扩散条约",
-      "summary": "伊朗官员称已做好退出《核不扩散条约》准备。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-29/10722502.shtml"
+      "short_title": "普京警告俄欧战争无赢家",
+      "summary": "普京称若俄欧冲突升级，双方都将没有赢家。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723099.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "商务部回应美涉疆实体清单",
-      "summary": "对美国将中企列入涉疆清单进行说明。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-29/10722647.shtml"
+      "short_title": "美高官因泄密被解职",
+      "summary": "美国一名高级将领因泄露伊朗战争机密被免职。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723106.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "加拿大央行三年多首次加息",
-      "summary": "央行上调利率并暗示未来可能进一步收紧。",
-      "link": "https://www.cls.cn/detail/2518436"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "腾讯与Visa达成跨境支付AI合作",
-      "summary": "双方将在跨境支付、企业AI等领域展开合作。",
-      "link": "https://www.ithome.com/1/019/425.htm"
+      "short_title": "A股超2800只跌，三大指数收跌",
+      "summary": "今日A股逾2800只个股下跌，三大指数全线收跌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723235.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "101.34",
-      "pct": -1.401050788091066,
-      "trend": "down"
+      "price": "103.34",
+      "pct": 1.3137254901960818,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,039.85",
-      "pct": -0.29000888537861585,
+      "price": "3,998.40",
+      "pct": -0.8185741925881828,
       "trend": "down"
     },
     {
@@ -125,5 +101,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-29 14:17:03"
+  "updated_at": "2026-10-30 14:18:50"
 }

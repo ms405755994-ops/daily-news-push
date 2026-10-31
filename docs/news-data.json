@@ -1,82 +1,94 @@
 {
-  "title": "MSAI今日新闻｜2026年10月30日 星期五（农历二月初一）｜汕头：晴 29°C",
-  "date_text": "2026年10月30日 星期五（农历二月初一）",
-  "weather_text": "汕头：晴 29°C",
-  "total_count": 7,
+  "title": "MSAI今日新闻｜2026年10月31日 星期六（农历二月初一）｜汕头：晴 28°C",
+  "date_text": "2026年10月31日 星期六（农历二月初一）",
+  "weather_text": "汕头：晴 28°C",
+  "total_count": 9,
   "hotspots": [
     {
-      "title": "美国突发直升机相撞事故 致3人死...",
-      "reason": "美国直升机相撞致死，突发事故",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723283.shtml"
+      "title": "美国加州购物中心枪击 7伤",
+      "reason": "美国加州突发枪击，伤者众多",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723875.shtml"
     },
     {
-      "title": "A股超2800只跌，三大指数收跌",
-      "reason": "A股大幅下跌，市场波动显著",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723235.shtml"
+      "title": "美股三大指数全线收跌",
+      "reason": "美股大跌，纳指跌近3%",
+      "link": "https://www.cls.cn/detail/2521391"
     },
     {
-      "title": "昆仑万维AI短剧月流水近1亿美元",
-      "reason": "昆仑万维AI短剧收入突破亿美元",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723139.shtml"
+      "title": "伊朗油轮穿越霍尔木兹海峡触雷",
+      "reason": "霍尔木兹海峡油轮触雷，引发关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723724.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "徐福记携手妇女基金援助西藏地震",
-      "summary": "徐福记与妇女基金会向西藏巴青地震灾区捐赠物资。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723274.shtml"
+      "short_title": "美加州购物中心枪击 7人受伤",
+      "summary": "加州一购物中心发生枪击，至少七人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723875.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "美直升机相撞致3死",
-      "summary": "美国两架直升机相撞，造成3人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723283.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "山西大同绿电支撑算力，产值200亿元",
-      "summary": "山西大同利用绿电发展算力产业，核心产值超200亿元。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723177.shtml"
+      "short_title": "霍尔木兹海峡油轮爆炸",
+      "summary": "伊朗称第四艘违规油轮在海峡触雷爆炸。",
+      "link": "https://www.chinanews.com.cn/gj/2026/10-31/10723724.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "昆仑万维营收90亿，AI短剧破亿美元",
-      "summary": "前三季度营收近90亿元，AI短剧单月流水突破1亿美元...",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723139.shtml"
+      "short_title": "AI助力浙江实体经济",
+      "summary": "探讨人工智能如何成为浙江制造业新伙伴。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-31/10723878.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "普京警告俄欧战争无赢家",
-      "summary": "普京称若俄欧冲突升级，双方都将没有赢家。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723099.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美高官因泄密被解职",
-      "summary": "美国一名高级将领因泄露伊朗战争机密被免职。",
-      "link": "https://www.chinanews.com.cn/gj/2026/10-30/10723106.shtml"
+      "category": "AI重点",
+      "short_title": "AI卖家秀三腿模特争议",
+      "summary": "AI生成的三腿模特图片引发消费者信任疑虑。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-31/10723795.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "A股超2800只跌，三大指数收跌",
-      "summary": "今日A股逾2800只个股下跌，三大指数全线收跌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/10-30/10723235.shtml"
+      "short_title": "美股三大指数全线下跌",
+      "summary": "纳指跌近3%，英特尔创52年最大单日跌幅。",
+      "link": "https://www.cls.cn/detail/2521391"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "特朗普称伊朗冲突将结束",
+      "summary": "特朗普表示美伊冲突即将结束，局势或缓和。",
+      "link": "https://www.voachinese.com/a/trump-says-conflict-with-iran-to-wrap-up-soon-20261030/8216924.html"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "佛教三大语系互鉴共进",
+      "summary": "梵智长老谈佛教三大语系并存互鉴，为各国提供参考。",
+      "link": "https://www.chinanews.com.cn/zj/2026/10-31/10723857.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "《天鹅湖》桂林亮相 中俄艺术对话",
+      "summary": "《天鹅湖》在桂林演出，深化中俄文化交流。",
+      "link": "https://www.chinanews.com.cn/cul/2026/10-31/10723848.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "长三角形成完整AI产业链",
+      "summary": "报告称长三角已具备算力、算法到终端的完整AI生态。",
+      "link": "https://www.chinanews.com.cn/cj/2026/10-31/10723757.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "103.34",
-      "pct": 1.3137254901960818,
-      "trend": "up"
+      "price": "102.95",
+      "pct": -1.1237034191317725,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "3,998.40",
-      "pct": -0.8185741925881828,
+      "price": "3,884.90",
+      "pct": -0.35907563671804865,
       "trend": "down"
     },
     {
@@ -101,5 +113,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-10-30 14:18:50"
+  "updated_at": "2026-10-31 14:08:36"
 }

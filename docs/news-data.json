@@ -1,89 +1,107 @@
 {
-  "title": "MSAI今日新闻｜2026年11月1日 星期日（农历二月初一）｜汕头：晴 30°C",
-  "date_text": "2026年11月1日 星期日（农历二月初一）",
-  "weather_text": "汕头：晴 30°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年11月2日 星期一（农历二月初一）｜汕头：晴 31°C",
+  "date_text": "2026年11月2日 星期一（农历二月初一）",
+  "weather_text": "汕头：晴 31°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "美国突发枪击 致1死2伤",
-      "reason": "美国枪击事件引发安全担忧",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-01/10724165.shtml"
+      "title": "伊朗与卡塔尔调停会谈",
+      "reason": "美伊冲突调解进入第三天",
+      "link": "https://www.voachinese.com/a/iran-qatari-mediators-hold-third-day-of-talks-to-end-u-s--iran-war-20261101/8217510.html"
     },
     {
-      "title": "乌克兰城镇迎停火救援",
-      "reason": "冲突地区停火救援引关注",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20261031-%E5%90%83%E8%8D%89%E6%9D%80%E7%8B%97%E7%BB%B4%E7%94%9F-%E4%B9%8C%E5%85%8B%E5%85%B0%E4%BF%84%E5%8D%A0%E5%9F%8E%E9%95%87%E8%BF%8E%E5%81%9C%E7%81%AB%E6%95%91%E6%8F%B4"
+      "title": "日本加速部署远程导弹",
+      "reason": "学者称已越过红线",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-02/10724605.shtml"
     },
     {
-      "title": "央行优化短端利率调控",
-      "reason": "利率政策微调或影响市场流动性",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724207.shtml"
+      "title": "A股集体大涨 超4700只飘红",
+      "reason": "三大指数同步上扬",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724684.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国加州购物中心枪击致死",
-      "summary": "现场1人死亡，2人受伤，警方已介入调查",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-01/10724165.shtml"
+      "short_title": "美国佛州飞机坠毁全员遇难",
+      "summary": "佛罗里达州一架客机坠毁并爆炸，机上9人全部死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-02/10724528.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "乌克兰城镇停火救援行动",
-      "summary": "俄占地区居民获援助，冲突暂缓",
-      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20261031-%E5%90%83%E8%8D%89%E6%9D%80%E7%8B%97%E7%BB%B4%E7%94%9F-%E4%B9%8C%E5%85%8B%E5%85%B0%E4%BF%84%E5%8D%A0%E5%9F%8E%E9%95%87%E8%BF%8E%E5%81%9C%E7%81%AB%E6%95%91%E6%8F%B4"
+      "short_title": "伊朗与卡塔尔调停连谈三天",
+      "summary": "伊朗与卡塔尔调停方连续第三天会谈，旨在结束美伊冲突。",
+      "link": "https://www.voachinese.com/a/iran-qatari-mediators-hold-third-day-of-talks-to-end-u-s--iran-war-20261101/8217510.html"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "A股午后超4700只涨停",
+      "summary": "三大指数集体大涨，超4700只个股飘红。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724684.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "贷款利率“双锚改革”启动",
+      "summary": "新政策将影响居民和企业贷款成本。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724663.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "外媒聚焦中国算力基础设施",
+      "summary": "多家媒体称中国算力发展领先全球。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-02/10724586.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "无锡2026物联网博览会开幕",
-      "summary": "聚焦AI与物联网融合，展示前沿技术",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724210.shtml"
+      "short_title": "宁德时代用AI筛选千种化合物",
+      "summary": "宁德时代通过AI技术加速新材料研发。",
+      "link": "https://www.ithome.com/1/020/989.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "欧盟AI法案要求Grok加水印",
-      "summary": "生成文本将嵌入隐形水印以防伪造",
-      "link": "https://www.ithome.com/1/020/721.htm"
+      "short_title": "奔驰首搭中国AI座舱",
+      "summary": "2026款E300L配备国产AI座舱，售价下调。",
+      "link": "https://www.ithome.com/1/020/944.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "二十国集团外长会未达共识",
-      "summary": "会议未就地缘经济安全形成统一立场",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-01/10724125.shtml"
+      "short_title": "日本加速部署远程导弹",
+      "summary": "学者警告此举已越过红线。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-02/10724605.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称美在伊仍有目标",
-      "summary": "美国计划针对伊朗核设施等关键目标",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-01/10724256.shtml"
+      "short_title": "乌克兰基辅能源设施受袭",
+      "summary": "俄方袭击导致部分城区停水。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-01/10724509.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "央行优化短端利率调控",
-      "summary": "进一步完善利率传导机制，支持实体经济",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-01/10724207.shtml"
+      "short_title": "度小满发布轩辕4.5金融大模型",
+      "summary": "与港科大合作推出新一代金融AI模型。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724736.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "广汽昊铂埃安10月销量破四万",
-      "summary": "10月销量42357辆，同比增长56.79%",
-      "link": "https://www.ithome.com/1/020/661.htm"
+      "short_title": "双锚改革影响贷款利率",
+      "summary": "新政策将改变银行贷款定价机制。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-02/10724663.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "102.95",
-      "pct": -1.1237034191317725,
+      "price": "100.67",
+      "pct": -3.3134844410295834,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "3,884.90",
-      "pct": -0.35907563671804865,
-      "trend": "down"
+      "price": "3,921.15",
+      "pct": 0.5706737797840417,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -107,5 +125,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-01 14:39:44"
+  "updated_at": "2026-11-02 14:37:55"
 }

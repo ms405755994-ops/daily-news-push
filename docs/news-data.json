@@ -1,95 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年11月3日 星期二（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年11月3日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年11月4日 星期三（农历二月初一）｜汕头：多云 28°C",
+  "date_text": "2026年11月4日 星期三（农历二月初一）",
+  "weather_text": "汕头：多云 28°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美军打击伊朗格什姆岛",
-      "reason": "中期选举前突发军事冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-03/10725210.shtml"
+      "title": "欧洲客机炸弹威胁",
+      "reason": "安检未发现爆炸物",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725859.shtml"
     },
     {
-      "title": "AI就业替代风险监测",
-      "reason": "国家发改委强化AI风险预警",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-03/10725288.shtml"
+      "title": "俄乌三方会谈聚焦能源",
+      "reason": "停火安全双议题",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725797.shtml"
     },
     {
-      "title": "新兴支柱产业产值超10万亿",
-      "reason": "“十五五”末经济规模突破",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-03/10725289.shtml"
+      "title": "苏丹加油站无人机袭击",
+      "reason": "致7死36伤，冲突升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725778.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美军打击伊朗格什姆岛",
-      "summary": "中期选举前夕美军行动引关注",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-03/10725210.shtml"
+      "short_title": "欧洲客机炸弹威胁安检未发现",
+      "summary": "多架客机收到炸弹威胁，安检未查出。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725859.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "燃油成本左右美国中期选举",
-      "summary": "伊朗战争影响选民能源费用",
-      "link": "https://www.voachinese.com/a/from-a-foreign-war-to-household-bills-how-iran-enters-america-s-midterm-elections-20261102/8217784.html"
+      "short_title": "苏丹加油站无人机袭击致多人伤亡",
+      "summary": "加油站被无人机袭击，至少7死36伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725778.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美国中期选举蓝潮或夺议席",
+      "summary": "美媒预测民主党多州获胜，国会或转向。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725921.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "国内滑雪场迎客 冰雪旅游升温",
+      "summary": "多地滑雪场开放，推动冰雪旅游热潮。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-04/10725956.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "山西金丝菊绽放黄金产业",
+      "summary": "千亩金丝菊转型为精品花茶，打造新产业。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-04/10725943.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "全球南方抓住AI机遇",
-      "summary": "伊扎特·萨阿德谈南方现代化与AI",
-      "link": "https://www.chinanews.com.cn/dxw/2026/11-03/10725312.shtml"
+      "short_title": "AI按摩机器人现场体验",
+      "summary": "记者在互联网之光现场试用AI按摩。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-04/10725892.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "广交会AI适老产品走俏",
-      "summary": "机器人与AI算法助力中国产品出海",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-03/10725258.shtml"
+      "short_title": "西藏万兆光网AI治理获优秀案例",
+      "summary": "西藏首个万兆光网社区AI治理入选中国优秀案例。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-04/10725812.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "FBI指控朝鲜黑客盗币",
-      "summary": "金与正称美国挑衅加剧紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-03/10725227.shtml"
+      "short_title": "俄乌三方会谈聚焦能源停火安全",
+      "summary": "俄乌会谈前各方提出能源停火与安全保障议题。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725797.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "OpenAI数据中心降耗应对极端天气",
-      "summary": "美国机房可削减用电负荷",
-      "link": "https://www.ithome.com/1/021/588.htm"
+      "short_title": "巴基斯坦首枚国产空空导弹试射成功",
+      "summary": "巴基斯坦成功试射首枚国产空对空导弹。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-04/10725852.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "央行上调外汇存款准备金率至6%",
-      "summary": "金融机构外汇存款成本上调",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-03/10725289.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "发改委强化AI就业替代监测",
-      "summary": "防范人工智能对岗位冲击",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-03/10725288.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "“十五五”新兴产业产值超10万亿元",
-      "summary": "支柱产业规模或突破十万亿",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-03/10725289.shtml"
+      "short_title": "中国黄金产量前三季度达220.9吨",
+      "summary": "前三季度黄金产量220.935吨，提升资源金融价值。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-04/10725936.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "97.99",
-      "pct": 1.5861496993572477,
+      "price": "96.43",
+      "pct": 0.3538349464044161,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "3,925.25",
-      "pct": -1.117241031841997,
-      "trend": "down"
+      "price": "4,029.35",
+      "pct": 2.2573850370520714,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -113,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-03 15:08:24"
+  "updated_at": "2026-11-04 14:53:51"
 }

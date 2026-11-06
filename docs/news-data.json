@@ -1,95 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年11月5日 星期四（农历二月初一）｜汕头：晴 32°C",
-  "date_text": "2026年11月5日 星期四（农历二月初一）",
-  "weather_text": "汕头：晴 32°C",
-  "total_count": 9,
+  "title": "MSAI今日新闻｜2026年11月6日 星期五（农历二月初一）｜汕头：多云 27°C",
+  "date_text": "2026年11月6日 星期五（农历二月初一）",
+  "weather_text": "汕头：多云 27°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "美国花旗集团超3000人办公区突...",
-      "reason": "突发安全事件，影响广泛",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726537.shtml"
+      "title": "新型东风洲际导弹",
+      "reason": "突发军备升级，彰显中国速度",
+      "link": "https://www.ithome.com/1/023/013.htm"
     },
     {
-      "title": "美参议院民主党领袖：民主党将结束...",
-      "reason": "美国政治决定影响中东局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726505.shtml"
+      "title": "美股纳指暴跌逾4%",
+      "reason": "AI概念股抛售引市场震荡",
+      "link": "https://www.cls.cn/detail/2526694"
     },
     {
-      "title": "OpenAI 宣布收购 Pier...",
-      "reason": "AI领域重要并购，技术升级",
-      "link": "https://www.ithome.com/1/022/758.htm"
+      "title": "特朗普称俄乌将近解决",
+      "reason": "美前总统表态，影响俄乌局势",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "美国花旗办公区枪击致2死4伤",
-      "summary": "纽约花旗大楼突发枪击，2死4伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726537.shtml"
+      "short_title": "新型陆基洲际导弹东风亮相",
+      "summary": "新型东风洲际导弹实现陆基发射",
+      "link": "https://www.ithome.com/1/023/013.htm"
     },
     {
       "category": "突发新闻",
-      "short_title": "朝鲜试射新型防空导弹",
-      "summary": "朝鲜当天试射新型防空导弹，提升防空能力。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726441.shtml"
+      "short_title": "国防部警告日本重启战争机器",
+      "summary": "国防部提醒日本军事复苏风险",
+      "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727270.shtml"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "拜耳进博会首发30项创新",
-      "summary": "拜耳在进博会展示近30项生命科学创新。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-05/10726600.shtml"
+      "category": "金融重点",
+      "short_title": "美股纳指跌逾4% AI股被抛售",
+      "summary": "纳指大跌AI概念股被抛，市场恐慌",
+      "link": "https://www.cls.cn/detail/2526694"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "美参议院议员称伊朗战争须结束",
-      "summary": "民主党领袖在参议院称必须结束伊朗战争。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726505.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "也门胡塞称遭沙特上百次袭击",
-      "summary": "胡塞武装指沙特发动上百次空袭，冲突升级。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726532.shtml"
+      "category": "金融重点",
+      "short_title": "美国30年期贷款利率降至7.18%",
+      "summary": "美国30年期房贷利率降至7.18%",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726993.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI带货开启全球贸易新模式",
-      "summary": "AI用于直播带货，推动全球贸易新格局。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-05/10726469.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "OpenAI收购Pierre",
-      "summary": "OpenAI收购Pierre，提升代码编写能力。",
-      "link": "https://www.ithome.com/1/022/758.htm"
+      "short_title": "腾讯Hy4调用激增十倍 开源模型领跑",
+      "summary": "腾讯Hy4调用十倍增长，开源模型领跑AI",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727122.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "印尼三季度GDP同比增长5.47%",
-      "summary": "印尼三季度GDP同比增长5.47%，超预期。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726594.shtml"
+      "short_title": "特朗普称俄乌冲突已接近解决",
+      "summary": "特朗普称俄乌冲突已接近和平解决",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "菲律宾10月通胀率升至7.8%",
-      "summary": "菲律宾10月通胀7.8%，创2023年2月新高。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-05/10726499.shtml"
+      "short_title": "伊朗官员会见普京转达最高领袖讯息",
+      "summary": "伊朗官员向普京转达最高领袖指示",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727001.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "第九届进博会聚焦全球经济再平衡",
+      "summary": "进博会强调开放合作，推动经济再平衡",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727109.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "人造黄金技术突破引发关注",
+      "summary": "科研团队宣称实现人造黄金，引发热议",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727117.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "欧盟称航空威胁事件关联尚早",
+      "summary": "欧盟表示航空威胁关联尚未确定",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726982.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "91.34",
+      "pct": 0.9058771542200701,
+      "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "4,057.10",
+      "pct": -1.3710951744256739,
+      "trend": "down"
     },
     {
       "name": "大连棕榈油",
@@ -101,17 +107,17 @@
     {
       "name": "聚丙烯(PP)",
       "history_url": "https://www.investing.com/commodities/pp-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "7,287.00",
+      "pct": -0.03,
+      "trend": "down"
     },
     {
       "name": "聚乙烯(PE)",
       "history_url": "https://www.investing.com/commodities/lldpe-futures-historical-data",
-      "price": "价格待更新",
-      "pct": null,
-      "trend": "flat"
+      "price": "8,072.00",
+      "pct": -0.26,
+      "trend": "down"
     }
   ],
-  "updated_at": "2026-11-05 15:12:29"
+  "updated_at": "2026-11-06 15:11:59"
 }

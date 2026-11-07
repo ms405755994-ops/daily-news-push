@@ -1,100 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年11月6日 星期五（农历二月初一）｜汕头：多云 27°C",
-  "date_text": "2026年11月6日 星期五（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年11月7日 星期六（农历二月初一）｜汕头：多云 27°C",
+  "date_text": "2026年11月7日 星期六（农历二月初一）",
   "weather_text": "汕头：多云 27°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "新型东风洲际导弹",
-      "reason": "突发军备升级，彰显中国速度",
-      "link": "https://www.ithome.com/1/023/013.htm"
+      "title": "伊朗击中格什姆岛并击落美无人机",
+      "reason": "中东局势升级，牵动地区安全",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml"
     },
     {
-      "title": "美股纳指暴跌逾4%",
-      "reason": "AI概念股抛售引市场震荡",
-      "link": "https://www.cls.cn/detail/2526694"
+      "title": "商务部回应美制裁中国企业",
+      "reason": "美方制裁升级，影响中企运营",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727763.shtml"
     },
     {
-      "title": "特朗普称俄乌将近解决",
-      "reason": "美前总统表态，影响俄乌局势",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml"
+      "title": "6G与AI融合亮相",
+      "reason": "AI与6G融合推动新经济",
+      "link": "https://wap.eastmoney.com/a/202611063925125316.html"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "新型陆基洲际导弹东风亮相",
-      "summary": "新型东风洲际导弹实现陆基发射",
-      "link": "https://www.ithome.com/1/023/013.htm"
+      "short_title": "伊朗导弹击中格什姆岛 并击落美无人机",
+      "summary": "伊朗称两枚导弹命中格什姆岛，击落美MQ-9无人机。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "国防部警告日本重启战争机器",
-      "summary": "国防部提醒日本军事复苏风险",
-      "link": "https://www.chinanews.com.cn/gn/2026/11-06/10727270.shtml"
+      "short_title": "商务部回应美制裁中国企业",
+      "summary": "商务部发言人就美国制裁中国企业进行说明。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727763.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "美股纳指跌逾4% AI股被抛售",
-      "summary": "纳指大跌AI概念股被抛，市场恐慌",
-      "link": "https://www.cls.cn/detail/2526694"
+      "category": "今日三大新闻",
+      "short_title": "菲律宾妇女抗议美军扩张",
+      "summary": "菲律宾妇女团体示威，反对美国在该地区扩大军事存在。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727730.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "美国30年期贷款利率降至7.18%",
-      "summary": "美国30年期房贷利率降至7.18%",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726993.shtml"
+      "category": "今日三大新闻",
+      "short_title": "美国10月非农新增16.5万",
+      "summary": "美国10月非农就业增加16.5万，失业率降至4.1%...",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727739.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "泰国10月通胀升至3.9%",
+      "summary": "泰国10月通胀率上升至3.9%，显示物价压力加大。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727542.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "腾讯Hy4调用激增十倍 开源模型领跑",
-      "summary": "腾讯Hy4调用十倍增长，开源模型领跑AI",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727122.shtml"
+      "short_title": "6G与AI融合亮相移动网络大会",
+      "summary": "移动网络大会展示6G与AI融合技术，探讨智能经济新形...",
+      "link": "https://wap.eastmoney.com/a/202611063925125316.html"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "AI长漫：浦江潮涌看进博",
+      "summary": "AI长漫作品以进博为窗口，展现开放中国新风貌。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727826.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "特朗普称俄乌冲突已接近解决",
-      "summary": "特朗普称俄乌冲突已接近和平解决",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml"
+      "short_title": "欧盟追加1600万援助缅孟",
+      "summary": "欧盟向缅甸、孟加拉追加1600万欧元人道援助。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727738.shtml"
     },
     {
-      "category": "国际/宏观重点",
-      "short_title": "伊朗官员会见普京转达最高领袖讯息",
-      "summary": "伊朗官员向普京转达最高领袖指示",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727001.shtml"
+      "category": "金融重点",
+      "short_title": "明年算力投资逾千亿元",
+      "summary": "预计明年算力投入超千亿元，中国移动布局三张网。",
+      "link": "https://www.cls.cn/detail/2527866"
     },
     {
-      "category": "今日三大新闻",
-      "short_title": "第九届进博会聚焦全球经济再平衡",
-      "summary": "进博会强调开放合作，推动经济再平衡",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727109.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "人造黄金技术突破引发关注",
-      "summary": "科研团队宣称实现人造黄金，引发热议",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-06/10727117.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "欧盟称航空威胁事件关联尚早",
-      "summary": "欧盟表示航空威胁关联尚未确定",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10726982.shtml"
+      "category": "金融重点",
+      "short_title": "专家建议加快海南自贸港与东盟合作",
+      "summary": "专家建言多领域推动海南自贸港与东盟蓝色经济合作。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727851.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "91.34",
-      "pct": 0.9058771542200701,
-      "trend": "up"
+      "price": "90.34",
+      "pct": -0.19885108263366394,
+      "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,057.10",
-      "pct": -1.3710951744256739,
+      "price": "4,079.50",
+      "pct": -0.8265467363559013,
       "trend": "down"
     },
     {
@@ -119,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-06 15:11:59"
+  "updated_at": "2026-11-07 14:26:01"
 }

@@ -1,85 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年11月7日 星期六（农历二月初一）｜汕头：多云 27°C",
-  "date_text": "2026年11月7日 星期六（农历二月初一）",
-  "weather_text": "汕头：多云 27°C",
+  "title": "MSAI今日新闻｜2026年11月8日 星期日（农历二月初一）｜汕头：多云 29°C",
+  "date_text": "2026年11月8日 星期日（农历二月初一）",
+  "weather_text": "汕头：多云 29°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "伊朗击中格什姆岛并击落美无人机",
-      "reason": "中东局势升级，牵动地区安全",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml"
+      "title": "伊朗解除导弹限制",
+      "reason": "美军组特遣防跨境运武",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728198.shtml"
     },
     {
-      "title": "商务部回应美制裁中国企业",
-      "reason": "美方制裁升级，影响中企运营",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727763.shtml"
+      "title": "日本静冈县5.7级地震",
+      "reason": "已致20余人受伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728274.shtml"
     },
     {
-      "title": "6G与AI融合亮相",
-      "reason": "AI与6G融合推动新经济",
-      "link": "https://wap.eastmoney.com/a/202611063925125316.html"
+      "title": "中国AI模型占全球支出89%",
+      "reason": "Kimi、DeepSeek、GLM居前三",
+      "link": "https://www.ithome.com/1/023/885.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗导弹击中格什姆岛 并击落美无人机",
-      "summary": "伊朗称两枚导弹命中格什姆岛，击落美MQ-9无人机。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml"
+      "short_title": "伊朗解除导弹限幅美军特遣防运武",
+      "summary": "伊朗放宽导弹射程，美军特遣部队阻止跨境运武。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728198.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "商务部回应美制裁中国企业",
-      "summary": "商务部发言人就美国制裁中国企业进行说明。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727763.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "菲律宾妇女抗议美军扩张",
-      "summary": "菲律宾妇女团体示威，反对美国在该地区扩大军事存在。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727730.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美国10月非农新增16.5万",
-      "summary": "美国10月非农就业增加16.5万，失业率降至4.1%...",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727739.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "泰国10月通胀升至3.9%",
-      "summary": "泰国10月通胀率上升至3.9%，显示物价压力加大。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-06/10727542.shtml"
+      "short_title": "日本静冈西部5.7级地震致伤",
+      "summary": "静冈西部发生5.7级地震，已致20余人受伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728203.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "6G与AI融合亮相移动网络大会",
-      "summary": "移动网络大会展示6G与AI融合技术，探讨智能经济新形...",
-      "link": "https://wap.eastmoney.com/a/202611063925125316.html"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "AI长漫：浦江潮涌看进博",
-      "summary": "AI长漫作品以进博为窗口，展现开放中国新风貌。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727826.shtml"
+      "short_title": "AI加速财务应用 建议规范流程",
+      "summary": "报告称AI在财务快速落地，建议建可操作规范。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-08/10728290.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "欧盟追加1600万援助缅孟",
-      "summary": "欧盟向缅甸、孟加拉追加1600万欧元人道援助。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-07/10727738.shtml"
+      "short_title": "胡塞称沙特空袭萨那致27死",
+      "summary": "胡塞武装指责沙特空袭萨那附近，已导致27人死亡。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728199.shtml"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "俄批欧军演挑局势 乌部署外军不可接受",
+      "summary": "俄称欧军演加剧局势，乌部署外军不可接受。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728193.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "中国队夺世界跳棋青少年赛四金",
+      "summary": "在2026年世界国际跳棋青少年锦标赛上，中国队斩获四...",
+      "link": "https://www.chinanews.com.cn/ty/2026/11-08/10728326.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "成渝“一带一路”白俄节点启动",
+      "summary": "成渝“一带一路”技术转移中心白俄节点正式启动。",
+      "link": "https://www.chinanews.com.cn/ydyl/2026/11-08/10728322.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "以色列总统授权正直党组建新政府",
+      "summary": "以色列总统决定授权正直党领袖埃森科特组建新政府。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728308.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "明年算力投资逾千亿元",
-      "summary": "预计明年算力投入超千亿元，中国移动布局三张网。",
-      "link": "https://www.cls.cn/detail/2527866"
+      "short_title": "Menlo报告：中国AI模型占全球开...",
+      "summary": "报告称中国AI模型占全球开源模型企业支出89%，居首...",
+      "link": "https://www.ithome.com/1/023/885.htm"
     },
     {
       "category": "金融重点",
-      "short_title": "专家建议加快海南自贸港与东盟合作",
-      "summary": "专家建言多领域推动海南自贸港与东盟蓝色经济合作。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-07/10727851.shtml"
+      "short_title": "美商会会长称将带美中小企参进博会甲级...",
+      "summary": "美商会会长称将带美中小企参进博会甲级联赛。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-08/10728277.shtml"
     }
   ],
   "futures": [
@@ -119,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-07 14:26:01"
+  "updated_at": "2026-11-08 14:32:30"
 }

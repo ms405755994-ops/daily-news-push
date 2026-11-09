@@ -1,101 +1,89 @@
 {
-  "title": "MSAI今日新闻｜2026年11月8日 星期日（农历二月初一）｜汕头：多云 29°C",
-  "date_text": "2026年11月8日 星期日（农历二月初一）",
-  "weather_text": "汕头：多云 29°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年11月9日 星期一（农历二月初一）｜汕头：多云 26°C",
+  "date_text": "2026年11月9日 星期一（农历二月初一）",
+  "weather_text": "汕头：多云 26°C",
+  "total_count": 8,
   "hotspots": [
     {
-      "title": "伊朗解除导弹限制",
-      "reason": "美军组特遣防跨境运武",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728198.shtml"
+      "title": "中美关税新规",
+      "reason": "美国商品加税，影响贸易",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728760.shtml"
     },
     {
-      "title": "日本静冈县5.7级地震",
-      "reason": "已致20余人受伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728274.shtml"
+      "title": "美伊军力对峙升级",
+      "reason": "中东局势紧张或爆发冲突",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728630.shtml"
     },
     {
-      "title": "中国AI模型占全球支出89%",
-      "reason": "Kimi、DeepSeek、GLM居前三",
-      "link": "https://www.ithome.com/1/023/885.htm"
+      "title": "微软预见万亿AI智能体",
+      "reason": "AI协同工作规模将大幅提升",
+      "link": "https://www.ithome.com/1/024/243.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗解除导弹限幅美军特遣防运武",
-      "summary": "伊朗放宽导弹射程，美军特遣部队阻止跨境运武。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728198.shtml"
+      "short_title": "中国调高美国产品关税",
+      "summary": "对美商品加征新关税，影响双边贸易",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728760.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本静冈西部5.7级地震致伤",
-      "summary": "静冈西部发生5.7级地震，已致20余人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728203.shtml"
+      "short_title": "日本茨城近海5.9级地震",
+      "summary": "震感传至东京，暂无人员伤亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728739.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美军压境伊朗局势紧张",
+      "summary": "中东冲突风险升高，或致地区战争",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728630.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "美议员要求防长辞职",
+      "summary": "民主党领袖批防长表现，呼声强烈",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728820.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊拉克油气田遭无人机袭",
+      "summary": "库区天然气设施受损，安全担忧",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728597.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI加速财务应用 建议规范流程",
-      "summary": "报告称AI在财务快速落地，建议建可操作规范。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-08/10728290.shtml"
+      "short_title": "纳德拉设想2000万AI智能体",
+      "summary": "AI与员工协同工作，提升效率",
+      "link": "https://www.ithome.com/1/024/243.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "胡塞称沙特空袭萨那致27死",
-      "summary": "胡塞武装指责沙特空袭萨那附近，已导致27人死亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728199.shtml"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "俄批欧军演挑局势 乌部署外军不可接受",
-      "summary": "俄称欧军演加剧局势，乌部署外军不可接受。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728193.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "中国队夺世界跳棋青少年赛四金",
-      "summary": "在2026年世界国际跳棋青少年锦标赛上，中国队斩获四...",
-      "link": "https://www.chinanews.com.cn/ty/2026/11-08/10728326.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "成渝“一带一路”白俄节点启动",
-      "summary": "成渝“一带一路”技术转移中心白俄节点正式启动。",
-      "link": "https://www.chinanews.com.cn/ydyl/2026/11-08/10728322.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "以色列总统授权正直党组建新政府",
-      "summary": "以色列总统决定授权正直党领袖埃森科特组建新政府。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728308.shtml"
+      "short_title": "所罗门群岛6.3级地震",
+      "summary": "深度10千米，暂无人员伤亡报告",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728731.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "Menlo报告：中国AI模型占全球开...",
-      "summary": "报告称中国AI模型占全球开源模型企业支出89%，居首...",
-      "link": "https://www.ithome.com/1/023/885.htm"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "美商会会长称将带美中小企参进博会甲级...",
-      "summary": "美商会会长称将带美中小企参进博会甲级联赛。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-08/10728277.shtml"
+      "short_title": "进博会助力共赢合作",
+      "summary": "外企新品首发，拓展中国市场",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728787.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "90.34",
-      "pct": -0.19885108263366394,
+      "price": "89.66",
+      "pct": -1.2881206649785333,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,079.50",
-      "pct": -0.8265467363559013,
-      "trend": "down"
+      "price": "4,119.09",
+      "pct": 1.0844437900316586,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +107,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-08 14:32:30"
+  "updated_at": "2026-11-09 15:02:07"
 }

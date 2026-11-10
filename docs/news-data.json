@@ -1,88 +1,100 @@
 {
-  "title": "MSAI今日新闻｜2026年11月9日 星期一（农历二月初一）｜汕头：多云 26°C",
-  "date_text": "2026年11月9日 星期一（农历二月初一）",
-  "weather_text": "汕头：多云 26°C",
-  "total_count": 8,
+  "title": "MSAI今日新闻｜2026年11月10日 星期二（农历二月初一）｜汕头：多云 23°C",
+  "date_text": "2026年11月10日 星期二（农历二月初一）",
+  "weather_text": "汕头：多云 23°C",
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "中美关税新规",
-      "reason": "美国商品加税，影响贸易",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728760.shtml"
+      "title": "土耳其钢铁厂爆炸致16死",
+      "reason": "突发事故，致多人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729221.shtml"
     },
     {
-      "title": "美伊军力对峙升级",
-      "reason": "中东局势紧张或爆发冲突",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728630.shtml"
+      "title": "特朗普称伊朗战争不大可能",
+      "reason": "伊朗局势缓和，油价下跌",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261109-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8E%E4%BC%8A%E6%9C%97%E9%87%8D%E5%90%AF%E6%88%98%E4%BA%89-%E6%9E%81%E4%B8%8D%E5%8F%AF%E8%83%BD-%EF%BC%8C%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E4%B8%8B%E8%B7%8C"
     },
     {
-      "title": "微软预见万亿AI智能体",
-      "reason": "AI协同工作规模将大幅提升",
-      "link": "https://www.ithome.com/1/024/243.htm"
+      "title": "加拿大延长美关税减免至2028",
+      "reason": "关税政策调整，影响贸易",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729222.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "中国调高美国产品关税",
-      "summary": "对美商品加征新关税，影响双边贸易",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728760.shtml"
+      "short_title": "菲律宾客机坠毁 6外籍遇难",
+      "summary": "菲律宾一架载6名外国公民的飞机坠毁，死亡人数待确认。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729382.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "日本茨城近海5.9级地震",
-      "summary": "震感传至东京，暂无人员伤亡",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728739.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美军压境伊朗局势紧张",
-      "summary": "中东冲突风险升高，或致地区战争",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728630.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "美议员要求防长辞职",
-      "summary": "民主党领袖批防长表现，呼声强烈",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728820.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "伊拉克油气田遭无人机袭",
-      "summary": "库区天然气设施受损，安全担忧",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728597.shtml"
+      "short_title": "土耳其钢铁厂爆炸致16死",
+      "summary": "土耳其钢铁厂爆炸，已确认16人死亡，救援持续。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729221.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "纳德拉设想2000万AI智能体",
-      "summary": "AI与员工协同工作，提升效率",
-      "link": "https://www.ithome.com/1/024/243.htm"
+      "short_title": "北京OPC嘉年华聚焦AIGC创作转化",
+      "summary": "北京OPC嘉年华聚焦AIGC创作转化，展示前沿技术。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-10/10729327.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "中国太保AI+案例展现温度",
+      "summary": "在‘四叶草’中，中国太保展示AI+技术人文关怀融合。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-10/10729377.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "所罗门群岛6.3级地震",
-      "summary": "深度10千米，暂无人员伤亡报告",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-09/10728731.shtml"
+      "short_title": "特朗普称伊朗冲突不大油价跌",
+      "summary": "特朗普称伊朗战争可能性低，国际油价随即下跌。",
+      "link": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261109-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8E%E4%BC%8A%E6%9C%97%E9%87%8D%E5%90%AF%E6%88%98%E4%BA%89-%E6%9E%81%E4%B8%8D%E5%8F%AF%E8%83%BD-%EF%BC%8C%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E4%B8%8B%E8%B7%8C"
+    },
+    {
+      "category": "国际/宏观重点",
+      "short_title": "加拿大延长美国产品关税减免至2028",
+      "summary": "加拿大将部分美国商品关税减免期限延至2028年。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729222.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "进博会助力共赢合作",
-      "summary": "外企新品首发，拓展中国市场",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-09/10728787.shtml"
+      "short_title": "A股午评：3800股飘红指数收涨",
+      "summary": "超3800只个股飘红，三大指数集体收涨。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-10/10729332.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "日本男子强闯中国驻日使馆案审理",
+      "summary": "日本男子强闯中国驻日使馆案开审，检方求刑18个月。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729390.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "伊朗最高领袖指示结束不战不和",
+      "summary": "伊朗最高领袖指示结束与美国的‘不战不和’状态。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-10/10729387.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "舒曼：气候政策缺乏信任",
+      "summary": "舒曼指出，信任是国际气候政策中的稀缺资源。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-10/10729345.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "89.66",
-      "pct": -1.2881206649785333,
+      "price": "85.60",
+      "pct": -1.4392630972941856,
       "trend": "down"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "4,119.09",
-      "pct": 1.0844437900316586,
+      "price": "4,124.55",
+      "pct": 0.2442581115566942,
       "trend": "up"
     },
     {
@@ -107,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-09 15:02:07"
+  "updated_at": "2026-11-10 15:39:06"
 }

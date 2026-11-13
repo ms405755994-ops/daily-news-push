@@ -1,101 +1,101 @@
 {
-  "title": "MSAI今日新闻｜2026年11月12日 星期四（农历二月初一）｜汕头：多云 28°C",
-  "date_text": "2026年11月12日 星期四（农历二月初一）",
-  "weather_text": "汕头：多云 28°C",
+  "title": "MSAI今日新闻｜2026年11月13日 星期五（农历二月初一）｜汕头：多云 26°C",
+  "date_text": "2026年11月13日 星期五（农历二月初一）",
+  "weather_text": "汕头：多云 26°C",
   "total_count": 10,
   "hotspots": [
     {
-      "title": "美国纽约建筑坍塌致多人伤亡",
-      "reason": "突发建筑坍塌，死亡伤亡严重",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-12/10730741.shtml"
+      "title": "黄仁勋“闪辞”，英伟达市值蒸发",
+      "reason": "英伟达市值骤跌，金融市场震荡",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731272.shtml"
     },
     {
-      "title": "伊朗警告美军或成欧洲打击目标",
-      "reason": "伊朗威胁升级，牵动美欧安全",
-      "link": "https://www.cls.cn/detail/2532025"
+      "title": "古巴外长批评七国集团涉古声明回避",
+      "reason": "古巴批评G7回避美国，国际紧张升级",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml"
     },
     {
-      "title": "A股超4600只跌，三大指数收跌",
-      "reason": "A股大幅下跌，市场情绪转弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730816.shtml"
+      "title": "第七届中国人工智能大赛成果发布会",
+      "reason": "中国AI大赛亮点频出，技术突破受关注",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731383.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "纽约建筑坍塌致死伤",
-      "summary": "纽约一楼房倒塌，已确认2人死亡、17人受伤。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-12/10730741.shtml"
-    },
-    {
-      "category": "突发新闻",
-      "short_title": "圣彼得堡车爆炸致官员死亡",
-      "summary": "俄军官在圣彼得堡汽车爆炸中不幸身亡。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-12/10730799.shtml"
+      "short_title": "古巴外长批评七国集团回避美国封锁",
+      "summary": "古巴外长指七国集团声明未提美国对古封锁",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "深圳APEC峰会聚焦中美合作",
-      "summary": "APEC在深圳召开，中国与成员国深化合作。",
-      "link": "https://www.chinanews.com.cn/gn/2026/11-12/10730810.shtml"
+      "short_title": "欧洲热浪致中国空调供不应求",
+      "summary": "欧洲高温推动中国空调出口，企业探讨绿色创新",
+      "link": "https://www.chinanews.com.cn/sh/2026/11-13/10731430.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "普京将会见美方谈判代表",
-      "summary": "俄罗斯总统普京12日将与美国谈判代表会面。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-12/10730585.shtml"
+      "short_title": "新疆青少年模型大赛在京举办",
+      "summary": "新疆航空、车辆、建筑模型竞赛吸引众多学生参与",
+      "link": "https://www.chinanews.com.cn/sh/2026/11-13/10731443.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "访联合国亚太经社司长谈区域一体化",
-      "summary": "联合国亚太经社司司长强调区域经济一体化重要性。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730682.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "A股收评：超4600只个股飘绿",
-      "summary": "三大指数全线下跌，超4600只股票收绿。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730816.shtml"
-    },
-    {
-      "category": "金融重点",
-      "short_title": "商务部称中美就降税等保持沟通",
-      "summary": "商务部表示中美在降税、贸易、投资等方面保持密切联系。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730809.shtml"
+      "short_title": "粮食能源油气安全受多视角保障",
+      "summary": "从粮食、能源、油气三方面分析经济安全",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731419.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "AI短剧走红海外开辟千亿赛道",
-      "summary": "AI短剧在海外热播，推动千亿元内容产业新突破。",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-12/10730665.shtml"
+      "short_title": "AI时代软件竞争关键因素解析",
+      "summary": "探讨AI环境下软件产业如何赢得竞争",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731424.shtml"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "第七届中国AI大赛成果在厦门发布",
+      "summary": "厦门举办AI大赛成果发布会，展示创新技术",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731383.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗官员警告美军将成欧洲打击目标",
-      "summary": "伊朗最高安全官员称若美再袭，欧洲美军基地将受攻击。",
-      "link": "https://www.cls.cn/detail/2532025"
+      "short_title": "俄美同意继续乌克兰问题谈判",
+      "summary": "俄总统助理称俄美将推进乌克兰冲突谈判",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731250.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "也门胡塞称袭击沙特利雅得机场",
-      "summary": "胡塞武装宣称对沙特首都机场等目标发动袭击。",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-12/10730701.shtml"
+      "short_title": "英国第三季度经济保持复苏势头",
+      "summary": "英国公布数据，显示三季度经济继续回暖",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731238.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "英伟达CEO辞职市值蒸发逾1.2万亿...",
+      "summary": "黄仁勋离职引英伟达股价大跌，市值大幅缩水",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-13/10731272.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午评：超2900只个股飘绿，沪指...",
+      "summary": "午盘超2900只股票下跌，沪指收盘小幅上扬",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-13/10731398.shtml"
     }
   ],
   "futures": [
     {
       "name": "WTI原油",
       "history_url": "https://www.investing.com/commodities/crude-oil-historical-data",
-      "price": "86.68",
-      "pct": 0.17335028313880235,
+      "price": "88.92",
+      "pct": 0.2028397565922998,
       "trend": "up"
     },
     {
       "name": "COMEX黄金",
       "history_url": "https://www.investing.com/commodities/gold-historical-data",
-      "price": "3,968.00",
-      "pct": -0.8123984501937258,
-      "trend": "down"
+      "price": "3,906.70",
+      "pct": 0.5507940184799021,
+      "trend": "up"
     },
     {
       "name": "大连棕榈油",
@@ -119,5 +119,5 @@
       "trend": "down"
     }
   ],
-  "updated_at": "2026-11-12 15:33:46"
+  "updated_at": "2026-11-13 15:05:10"
 }

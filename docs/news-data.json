@@ -1,85 +1,67 @@
 {
-  "title": "MSAI今日新闻｜2026年11月15日 星期日（农历二月初一）｜汕头：多云 26°C",
-  "date_text": "2026年11月15日 星期日（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年11月16日 星期一（农历二月初一）｜汕头：多云 26°C",
+  "date_text": "2026年11月16日 星期一（农历二月初一）",
   "weather_text": "汕头：多云 26°C",
-  "total_count": 10,
+  "total_count": 7,
   "hotspots": [
     {
-      "title": "伊朗油轮触雷起火",
-      "reason": "突发海上安全事件",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-14/10732056.shtml"
+      "title": "全美航班突停，交通部长被逼辞职",
+      "reason": "美国航空系统突发危机",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-15/10732418.shtml"
     },
     {
-      "title": "欧盟或推迟英电动车关税",
-      "reason": "影响欧盟贸易政策",
-      "link": "https://www.ithome.com/1/027/331.htm"
+      "title": "伊朗油轮触雷，爆炸致剧烈冲击",
+      "reason": "霍尔木兹海峡油轮爆炸冲击油价",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-16/10732537.shtml"
     },
     {
-      "title": "AI亮相APEC会议",
-      "reason": "AI技术国际重要进展",
-      "link": "https://www.chinanews.com.cn/gn/2026/11-15/10732329.shtml"
+      "title": "中东盟定2027人工智能合作年",
+      "reason": "中东盟AI合作提升区域创新",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732701.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "伊朗四艘油轮触雷起火",
-      "summary": "伊朗通报4艘油轮触雷燃烧，联合国记录134起商船袭击",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-14/10732056.shtml"
+      "short_title": "全美航班突停，交通部长被要求辞职",
+      "summary": "美国全国航班停飞，交通部长面临辞职压力",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-15/10732418.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "爱尔兰领袖晚宴附近现爆炸装置",
-      "summary": "多国领袖晚宴现场附近发现未爆装置，安全警报升级",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml"
+      "short_title": "伊朗霍尔木兹海峡油轮触雷爆炸",
+      "summary": "两艘油轮在霍尔木兹海峡触雷，引发剧烈爆炸",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-16/10732537.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国体育团圆满完成达喀尔青奥会任务",
-      "summary": "中国代表团在达喀尔青奥会各项赛事表现出色",
-      "link": "https://www.zhengguannews.cn/news/509999.html"
+      "short_title": "中国商品销售增速回落 官方称规模仍在...",
+      "summary": "官方回应增速放缓，市场规模仍在扩大",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732771.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "95岁美国老人怀念中国乡愁走红",
-      "summary": "老人讲述对中国的思念，引发网络热议",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-14/10732143.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "“一张票”变文旅消费链",
-      "summary": "交通流量转化为文旅消费，推动区域经济增长",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-14/10732195.shtml"
+      "short_title": "中东盟定2027人工智能合作年",
+      "summary": "中国与东盟宣布2027年为AI合作重点年份",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732701.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "APEC现场记者体验AI技术",
-      "summary": "中外记者在深圳APEC感受数智技术带来的便利",
-      "link": "https://www.chinanews.com.cn/gn/2026/11-15/10732329.shtml"
-    },
-    {
-      "category": "AI重点",
-      "short_title": "中科曙光高速互连破解算力瓶颈",
-      "summary": "高速互连技术被视为提升算力集群规模的关键",
-      "link": "https://www.ithome.com/1/027/320.htm"
-    },
-    {
-      "category": "国际/宏观重点",
-      "short_title": "美国FAA解除全美航班停飞令",
-      "summary": "美国联邦航空管理局宣布航班恢复，航空业逐步复苏",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-14/10731954.shtml"
+      "short_title": "Token首进直播间 探讨AI管控",
+      "summary": "直播间首次出现Token，讨论如何管控AI能力",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732705.shtml"
     },
     {
       "category": "国际/宏观重点",
       "short_title": "美军护航超17亿桶原油过霍尔木兹",
-      "summary": "美军成功护送大量原油通过霍尔木兹海峡，保障能源供应",
+      "summary": "美军已护航超17亿桶原油安全通过霍尔木兹",
       "link": "https://www.chinanews.com.cn/gj/2026/11-15/10732309.shtml"
     },
     {
-      "category": "金融重点",
-      "short_title": "欧盟或推迟对英电动车关税",
-      "summary": "欧盟考虑延后对英国电动汽车征收10%关税",
-      "link": "https://www.ithome.com/1/027/331.htm"
+      "category": "国际/宏观重点",
+      "short_title": "日本民众抗议扩军修宪 呼吁止战",
+      "summary": "日本民众反对扩军修宪，直言不能再走战争道路",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-16/10732727.shtml"
     }
   ],
   "futures": [
@@ -119,5 +101,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-11-15 14:59:45"
+  "updated_at": "2026-11-16 15:07:23"
 }

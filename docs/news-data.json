@@ -1,67 +1,85 @@
 {
-  "title": "MSAI今日新闻｜2026年11月16日 星期一（农历二月初一）｜汕头：多云 26°C",
-  "date_text": "2026年11月16日 星期一（农历二月初一）",
+  "title": "MSAI今日新闻｜2026年11月17日 星期二（农历二月初一）｜汕头：多云 26°C",
+  "date_text": "2026年11月17日 星期二（农历二月初一）",
   "weather_text": "汕头：多云 26°C",
-  "total_count": 7,
+  "total_count": 10,
   "hotspots": [
     {
-      "title": "全美航班突停，交通部长被逼辞职",
-      "reason": "美国航空系统突发危机",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-15/10732418.shtml"
+      "title": "基辅爆炸声响起",
+      "reason": "乌克兰首都突发安全事件",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733166.shtml"
     },
     {
-      "title": "伊朗油轮触雷，爆炸致剧烈冲击",
-      "reason": "霍尔木兹海峡油轮爆炸冲击油价",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-16/10732537.shtml"
+      "title": "欧俄美乌会谈升级",
+      "reason": "欧洲与美乌会谈引俄不满",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733246.shtml"
     },
     {
-      "title": "中东盟定2027人工智能合作年",
-      "reason": "中东盟AI合作提升区域创新",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732701.shtml"
+      "title": "Garlic LLM 43词元/...",
+      "reason": "本地AI模型性能突破",
+      "link": "https://www.ithome.com/1/028/266.htm"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "全美航班突停，交通部长被要求辞职",
-      "summary": "美国全国航班停飞，交通部长面临辞职压力",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-15/10732418.shtml"
+      "short_title": "基辅爆炸声响起",
+      "summary": "乌克兰首都基辅出现爆炸，现场情况紧张",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733166.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "伊朗霍尔木兹海峡油轮触雷爆炸",
-      "summary": "两艘油轮在霍尔木兹海峡触雷，引发剧烈爆炸",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-16/10732537.shtml"
+      "short_title": "印尼卡伊群岛6.6级地震",
+      "summary": "印尼卡伊群岛发生6.6级地震，震源深20千米",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733165.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中国商品销售增速回落 官方称规模仍在...",
-      "summary": "官方回应增速放缓，市场规模仍在扩大",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732771.shtml"
+      "short_title": "索尔海姆赞中国绿色转型",
+      "summary": "前联合国副秘书长称中国绿色发展成效显著",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733325.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "中东盟定2027人工智能合作年",
-      "summary": "中国与东盟宣布2027年为AI合作重点年份",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732701.shtml"
+      "short_title": "欧美会谈俄指责无和平意图",
+      "summary": "欧洲完整阵容与乌美会谈，俄方批评欧洲不促和平",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733246.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "巴勒斯坦指以定居者枪击致伤",
+      "summary": "巴勒斯坦称以色列定居者在约旦河西岸开枪致1死10伤",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733356.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Token首进直播间 探讨AI管控",
-      "summary": "直播间首次出现Token，讨论如何管控AI能力",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-16/10732705.shtml"
+      "short_title": "Garlic LLM让PS4跑模型",
+      "summary": "每秒43词元，Garlic LLM支持PS4本地运行...",
+      "link": "https://www.ithome.com/1/028/266.htm"
+    },
+    {
+      "category": "AI重点",
+      "short_title": "北京服务机器人产量翻倍",
+      "summary": "2023年前10个月北京服务机器人产量同比增长1.7...",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733361.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "美军护航超17亿桶原油过霍尔木兹",
-      "summary": "美军已护航超17亿桶原油安全通过霍尔木兹",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-15/10732309.shtml"
+      "short_title": "伊朗油轮霍尔木兹海峡触雷起火",
+      "summary": "24小时内第四艘油轮在霍尔木兹海峡以东触雷并起火",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733179.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "日本民众抗议扩军修宪 呼吁止战",
-      "summary": "日本民众反对扩军修宪，直言不能再走战争道路",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-16/10732727.shtml"
+      "short_title": "俄指责恐俄症关闭对俄口岸",
+      "summary": "8人潜入军工厂纵火后，俄罗斯关闭对俄口岸",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733273.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "外交部回应美对英伟达芯片调查",
+      "summary": "中国外交部就美国调查英伟达芯片发表声明",
+      "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733474.shtml"
     }
   ],
   "futures": [
@@ -101,5 +119,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-11-16 15:07:23"
+  "updated_at": "2026-11-17 16:20:03"
 }

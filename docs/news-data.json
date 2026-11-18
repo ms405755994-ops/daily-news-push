@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年11月17日 星期二（农历二月初一）｜汕头：多云 26°C",
-  "date_text": "2026年11月17日 星期二（农历二月初一）",
-  "weather_text": "汕头：多云 26°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年11月18日 星期三（农历二月初一）｜汕头：阴 26°C",
+  "date_text": "2026年11月18日 星期三（农历二月初一）",
+  "weather_text": "汕头：阴 26°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "基辅爆炸声响起",
-      "reason": "乌克兰首都突发安全事件",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733166.shtml"
+      "title": "美企突发网络技术故障",
+      "reason": "美国企业网络突发，影响广泛",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733908.shtml"
     },
     {
-      "title": "欧俄美乌会谈升级",
-      "reason": "欧洲与美乌会谈引俄不满",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733246.shtml"
+      "title": "英向乌克兰提供千余防空导弹",
+      "reason": "乌克兰防空获英支援",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733841.shtml"
     },
     {
-      "title": "Garlic LLM 43词元/...",
-      "reason": "本地AI模型性能突破",
-      "link": "https://www.ithome.com/1/028/266.htm"
+      "title": "A股超4500只跌，三大指数收跌",
+      "reason": "A股大幅下跌，市场波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-18/10733986.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "基辅爆炸声响起",
-      "summary": "乌克兰首都基辅出现爆炸，现场情况紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733166.shtml"
+      "short_title": "美企网络故障突发",
+      "summary": "苹果、万豪等多家公司出现网络中断。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733908.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "印尼卡伊群岛6.6级地震",
-      "summary": "印尼卡伊群岛发生6.6级地震，震源深20千米",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733165.shtml"
+      "short_title": "沙特联军袭击也门致多人伤亡",
+      "summary": "沙特联军空袭导致17死39伤。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733825.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "索尔海姆赞中国绿色转型",
-      "summary": "前联合国副秘书长称中国绿色发展成效显著",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733325.shtml"
+      "short_title": "英向乌克兰提供千枚防空导弹",
+      "summary": "英国宣布向乌克兰交付逾千枚防空导弹。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733841.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "欧美会谈俄指责无和平意图",
-      "summary": "欧洲完整阵容与乌美会谈，俄方批评欧洲不促和平",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733246.shtml"
+      "short_title": "英对以色列定居点企业实施制裁",
+      "summary": "英国对以色列定居点企业实施经济制裁。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733831.shtml"
     },
     {
       "category": "今日三大新闻",
-      "short_title": "巴勒斯坦指以定居者枪击致伤",
-      "summary": "巴勒斯坦称以色列定居者在约旦河西岸开枪致1死10伤",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733356.shtml"
+      "short_title": "美官员称对伊朗格什姆岛自卫打击",
+      "summary": "美国官员称在格什姆岛进行自卫性质打击。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733941.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "Garlic LLM让PS4跑模型",
-      "summary": "每秒43词元，Garlic LLM支持PS4本地运行...",
-      "link": "https://www.ithome.com/1/028/266.htm"
+      "short_title": "华为昇腾950DT算力集群启用",
+      "summary": "华为与中国电信、天亿马合作在汕头建成首个算力集群。",
+      "link": "https://www.ithome.com/1/028/811.htm"
     },
     {
       "category": "AI重点",
-      "short_title": "北京服务机器人产量翻倍",
-      "summary": "2023年前10个月北京服务机器人产量同比增长1.7...",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-17/10733361.shtml"
+      "short_title": "AI芯片助韩国出口突破万亿美元",
+      "summary": "AI芯片带动韩国出口逼近万亿美元，股市下跌拖累内需。",
+      "link": "https://www.ithome.com/1/028/826.htm"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "伊朗油轮霍尔木兹海峡触雷起火",
-      "summary": "24小时内第四艘油轮在霍尔木兹海峡以东触雷并起火",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733179.shtml"
+      "short_title": "以色列议会选举新议长卡哈纳",
+      "summary": "以色列议会选出正直党议员卡哈纳为新议长。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10733884.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "俄指责恐俄症关闭对俄口岸",
-      "summary": "8人潜入军工厂纵火后，俄罗斯关闭对俄口岸",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-17/10733273.shtml"
+      "short_title": "霍尔木兹海峡船只遭袭船员失踪",
+      "summary": "一艘船在霍尔木兹海峡遭袭，1名印度籍船员失踪。",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-18/10734089.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "外交部回应美对英伟达芯片调查",
-      "summary": "中国外交部就美国调查英伟达芯片发表声明",
-      "link": "https://www.chinanews.com.cn/gn/2026/11-17/10733474.shtml"
+      "short_title": "证监会否认基金AI敞口上报要求",
+      "summary": "证监会澄清并未要求基金公司上报全部AI敞口。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-18/10733990.shtml"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "A股午后超4500只个股飘绿",
+      "summary": "三大指数集体收跌，超4500只股票走低。",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-18/10733986.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-11-17 16:20:03"
+  "updated_at": "2026-11-18 15:51:13"
 }

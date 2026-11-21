@@ -1,85 +1,91 @@
 {
-  "title": "MSAI今日新闻｜2026年11月20日 星期五（农历二月初一）｜汕头：阴 17°C",
-  "date_text": "2026年11月20日 星期五（农历二月初一）",
-  "weather_text": "汕头：阴 17°C",
-  "total_count": 10,
+  "title": "MSAI今日新闻｜2026年11月21日 星期六（农历二月初一）｜汕头：多云 21°C",
+  "date_text": "2026年11月21日 星期六（农历二月初一）",
+  "weather_text": "汕头：多云 21°C",
+  "total_count": 11,
   "hotspots": [
     {
-      "title": "中东冲突或持久冲击能源",
-      "reason": "中东局势或长期影响油价",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10734995.shtml"
+      "title": "沙特拦截胡塞导弹致41死",
+      "reason": "中东冲突升级，突发新闻",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-21/10735663.shtml"
     },
     {
-      "title": "普京称克里米亚桥袭后不谈海上停火",
-      "reason": "克里米亚桥袭后俄美关系紧张",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10734987.shtml"
+      "title": "秘鲁6.7级地震首都震感",
+      "reason": "南美强震，全球关注",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-21/10735617.shtml"
     },
     {
-      "title": "谷歌工程师将AI装进打印机",
-      "reason": "小模型高效运行展示AI进展",
-      "link": "https://www.ithome.com/1/029/953.htm"
+      "title": "美股大跌 纳指回吐",
+      "reason": "股市大幅回调，金融波动",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735615.shtml"
     }
   ],
   "news_items": [
     {
       "category": "突发新闻",
-      "short_title": "中东冲突或长期冲击能源市场",
-      "summary": "IEA警示中东局势将持续影响油气供需",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10734995.shtml"
+      "short_title": "沙特拦截胡塞导弹，称成功拦截3枚",
+      "summary": "沙特称拦截3枚胡塞导弹，亦门媒体指袭击致41人死亡",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-21/10735663.shtml"
     },
     {
       "category": "突发新闻",
-      "short_title": "普京称克里米亚大桥袭后不再谈海上停火",
-      "summary": "克里米亚桥受袭后俄方放弃海上停火讨论",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10734987.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "APEC中国年成果明确亚太经贸重点",
-      "summary": "深圳APEC会议达成多项合作成果",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-20/10735254.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "A股午后三大指数全线收跌",
-      "summary": "超4800只个股跌停，市场情绪偏弱",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-20/10735178.shtml"
-    },
-    {
-      "category": "今日三大新闻",
-      "short_title": "特朗普称新年前不急于对伊朗采取行动",
-      "summary": "美前总统强调伊朗政策将保持克制",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10734986.shtml"
+      "short_title": "秘鲁6.7级地震，首都有震感",
+      "summary": "秘鲁发生6.7级强震，首都利马感受明显",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-21/10735617.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "谷歌将2.7亿参数AI装进打印机",
-      "summary": "仅14MB内存运行，单词生成约60秒",
-      "link": "https://www.ithome.com/1/029/953.htm"
+      "short_title": "世界计算大会公布算力十大趋势",
+      "summary": "大会发布中国算力发展十大趋势，推动AI创新",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-20/10735564.shtml"
     },
     {
       "category": "AI重点",
-      "short_title": "SpaceX债主阻止AI芯片发射",
-      "summary": "债权人不允将AI芯片用于太空任务",
-      "link": "https://www.ithome.com/1/029/896.htm"
+      "short_title": "AI巡园助力广西陈皮精准种植",
+      "summary": "AI巡检系统提升陈皮产量，实现精准农业",
+      "link": "https://www.chinanews.com.cn/sh/2026/11-21/10735705.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "NASA收到一光日外星探测器信号",
-      "summary": "美国航天局称信号来源于约1光日距离",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10734996.shtml"
+      "short_title": "日本核心CPI连涨62个月 通胀压力...",
+      "summary": "日本核心消费者物价指数连续62个月上升，通胀担忧升温",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-20/10735447.shtml"
     },
     {
       "category": "国际/宏观重点",
-      "short_title": "韩国2026年出口额突破1万亿美元",
-      "summary": "韩国累计出口首次突破万亿美元大关",
-      "link": "https://www.chinanews.com.cn/gj/2026/11-19/10734799.shtml"
+      "short_title": "“棕色黄金”废料利用 中国领跑",
+      "summary": "英国学者称中国在棕色黄金回收利用上处于领先地位",
+      "link": "https://www.chinanews.com.cn/gn/2026/11-21/10735709.shtml"
     },
     {
       "category": "金融重点",
-      "short_title": "辽宁省1-10月进出口稳步增长",
-      "summary": "出口增速领跑，外贸表现亮眼",
-      "link": "https://www.chinanews.com.cn/cj/2026/11-20/10735138.shtml"
+      "short_title": "SpaceX为英伟达芯片融资320亿...",
+      "summary": "马斯克SpaceX发行320亿美元债券，收益率超8%",
+      "link": "https://www.ithome.com/1/030/351.htm"
+    },
+    {
+      "category": "金融重点",
+      "short_title": "美股大跌 纳指涨幅全数回吐",
+      "summary": "美国股市大幅下跌，纳斯达克年内涨幅全部回落",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735615.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "WorkBuddy公益版覆盖66万用...",
+      "summary": "WorkBuddy公益版覆盖66万用户，混元模型主导",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735619.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "国际金价跌至一年新低 消费热潮背后要...",
+      "summary": "金价创一年多低点，分析消费热潮的关键因素",
+      "link": "https://www.chinanews.com.cn/cj/2026/11-21/10735605.shtml"
+    },
+    {
+      "category": "今日三大新闻",
+      "short_title": "丹麦驱逐俄武官 俄称将适当回应",
+      "summary": "丹麦宣布驱逐俄罗斯武官，俄方表示将作出适当回应",
+      "link": "https://www.chinanews.com.cn/gj/2026/11-21/10735674.shtml"
     }
   ],
   "futures": [
@@ -119,5 +125,5 @@
       "trend": "flat"
     }
   ],
-  "updated_at": "2026-11-20 15:39:13"
+  "updated_at": "2026-11-21 15:36:32"
 }
